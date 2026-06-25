@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Декодер Будущего
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: quartz.jzhao.xyz
   ignorePatterns:
     - private
@@ -198,8 +198,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        futuredecoder.ru: https://futuredecoder.ru
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
