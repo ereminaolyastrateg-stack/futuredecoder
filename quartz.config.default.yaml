@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ru-RU
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: ereminaolyastrateg-stack.github.io/futuredecoder
   ignorePatterns:
     - private
     - templates
