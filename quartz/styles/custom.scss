@@ -1,3 +1,39 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.language-switcher {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 1.5rem;
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+.language-switcher a,
+.language-switcher .language-current {
+  padding: 0.18rem 0.4rem;
+  border-radius: 0.3rem;
+}
+
+.language-switcher a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.language-switcher a:hover {
+  background: var(--highlight);
+}
+
+.language-switcher .language-current {
+  color: var(--dark);
+  background: var(--lightgray);
+  font-weight: 600;
+}
+
+.language-switcher .language-separator {
+  color: var(--gray);
+}

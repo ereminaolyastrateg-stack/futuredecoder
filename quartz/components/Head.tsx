@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, getFileExtension, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -12,9 +12,13 @@ export default (() => {
     externalResources,
     ctx,
   }: QuartzComponentProps) => {
+    const frontmatter = (fileData.frontmatter ?? {}) as Record<string, unknown>
     const titleSuffix = cfg.pageTitleSuffix ?? ""
-    const title =
-      (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+    const pageTitle =
+      typeof frontmatter.seoTitle === "string"
+        ? frontmatter.seoTitle
+        : (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title)
+    const title = pageTitle + titleSuffix
     const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
@@ -27,9 +31,23 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page
+    const simplifiedSlug = fileData.slug ? simplifySlug(fileData.slug) : "/"
+    const pagePath = simplifiedSlug === "/" ? "/" : `/${simplifiedSlug}`
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404" ? url.toString() : new URL(pagePath, url.origin).toString()
+
+    const rawTranslations = frontmatter.translations
+    const translations =
+      rawTranslations && typeof rawTranslations === "object" && !Array.isArray(rawTranslations)
+        ? Object.entries(rawTranslations as Record<string, unknown>).filter(
+            (entry): entry is [string, string] => typeof entry[1] === "string",
+          )
+        : []
+    const language = typeof frontmatter.lang === "string" ? frontmatter.lang : undefined
+    const openGraphLocale =
+      language === "ru" ? "ru_RU" : language === "en" ? "en_US" : language?.replace("-", "_")
+    const absoluteTranslationUrl = (href: string) =>
+      new URL(href.startsWith("/") ? href : `/${href}`, url.origin).toString()
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -88,6 +106,24 @@ export default (() => {
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
+            {fileData.slug !== "404" && <link rel="canonical" href={socialUrl} />}
+            {translations.map(([translationLanguage, href]) => (
+              <link
+                rel="alternate"
+                hreflang={translationLanguage}
+                href={absoluteTranslationUrl(href)}
+              />
+            ))}
+            {translations.some(([translationLanguage]) => translationLanguage === "ru") && (
+              <link
+                rel="alternate"
+                hreflang="x-default"
+                href={absoluteTranslationUrl(
+                  translations.find(([translationLanguage]) => translationLanguage === "ru")![1],
+                )}
+              />
+            )}
+            {openGraphLocale && <meta property="og:locale" content={openGraphLocale} />}
           </>
         )}
 
