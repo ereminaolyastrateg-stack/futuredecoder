@@ -305,6 +305,16 @@ export function renderPage(
   pageResources: StaticResources,
   treeTransforms?: TreeTransform[],
 ): string {
+  const requestedLanguage = componentData.fileData.frontmatter?.lang
+  const pageLocale =
+    requestedLanguage === "en" ? "en-US" : requestedLanguage === "ru" ? "ru-RU" : cfg.locale
+  const pageTitle = requestedLanguage === "en" ? "Future Decoder" : cfg.pageTitle
+
+  if (pageLocale !== cfg.locale || pageTitle !== cfg.pageTitle) {
+    cfg = { ...cfg, locale: pageLocale, pageTitle }
+    componentData = { ...componentData, cfg }
+  }
+
   // make a deep copy of the tree so we don't remove the transclusion references
   // for the file cached in contentMap in build.ts
   const root = clone(componentData.tree) as Root
@@ -335,7 +345,7 @@ export function renderPage(
   const Body = BodyConstructor()
   const frame = resolveFrame(frameName)
 
-  const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+  const lang = requestedLanguage ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
   // During local dev (--serve), the dev server serves from root without the
   // baseUrl subpath, so basePath must be empty to avoid broken links.
