@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ru-RU
-  baseUrl: ereminaolyastrateg-stack.github.io/futuredecoder
+  baseUrl: futuredecoder.org
   ignorePatterns:
     - private
     - templates
