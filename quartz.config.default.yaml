@@ -2,7 +2,7 @@
 configuration:
   pageTitle: Декодер Будущего
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: plausible
