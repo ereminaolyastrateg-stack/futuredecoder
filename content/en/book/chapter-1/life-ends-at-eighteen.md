@@ -4,8 +4,10 @@ seoTitle: "Life Ends at Eighteen: How Images of the Future Limit Our Choices"
 description: "Olga Eremina’s personal story about fear of English, educational choices, and how an outdated image of the future quietly narrows what we believe is possible."
 lang: en
 translations:
-  ru: /kniga/istorii/zhizn-zakanchivaetsya-v-18
-  en: /en/book/stories/life-ends-at-eighteen
+  ru: /kniga/glava-1/zhizn-zakanchivaetsya-v-18
+  en: /en/book/chapter-1/life-ends-at-eighteen
+aliases:
+  - /en/book/stories/life-ends-at-eighteen
 tags:
   - images_of_the_future
   - book

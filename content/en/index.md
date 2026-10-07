@@ -13,4 +13,5 @@ This is my digital garden about learning to see not one predicted future, but ma
 Here I collect notes on trends, signals, scenarios, mental models, and my own experience of working with the future.
 
 - [Why Talk About the Future](/en/why-talk-about-the-future)
-- [Life Ends at Eighteen](/en/book/stories/life-ends-at-eighteen)
+- [Book](/en/book/)
+- [Media Library](/en/media-library/)

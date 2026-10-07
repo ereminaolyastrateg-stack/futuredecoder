@@ -4,14 +4,16 @@ seoTitle: "Жизнь заканчивается в 18: как образ буд
 description: "Личная история Ольги Ереминой о страхе английского, выборе образования и о том, как старый образ будущего превращается в ограничение для решений."
 lang: ru
 translations:
-  ru: /kniga/istorii/zhizn-zakanchivaetsya-v-18
-  en: /en/book/stories/life-ends-at-eighteen
-tags: 
-- образ_будущего 
-- книга 
-- личная_история
-- работа_и_учеба
-date: 2026-06-26 
+  ru: /kniga/glava-1/zhizn-zakanchivaetsya-v-18
+  en: /en/book/chapter-1/life-ends-at-eighteen
+aliases:
+  - /kniga/istorii/zhizn-zakanchivaetsya-v-18
+tags:
+  - образ_будущего
+  - книга
+  - личная_история
+  - работа_и_учеба
+date: 2026-06-26
 ---
 
 Как жаль, что я не вела дневник.

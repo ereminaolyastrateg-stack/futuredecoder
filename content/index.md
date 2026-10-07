@@ -14,4 +14,5 @@ translations:
 
 - [Зачем говорить о будущем](/zachem-etot-sad)
 - [Книга](/kniga/)
+- [Медиатека](/mediateka/)
 - [Теория](/theory/)
