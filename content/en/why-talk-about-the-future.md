@@ -23,7 +23,7 @@ Today I have set myself a task: to share everything I have learned by researchin
 
 This was supposed to be a nonfiction book about a method for designing the future and finding where to make money. In other words, an attempt to answer the questions clients often ask me. Not my questions. I assumed that few people would be interested in mine.
 
-But at some point, something shifted in my head. I realized that the Architect method is not really about money — or at least not only about money. It is a method for people searching for meaning; for those who, like me, sometimes wonder sadly: Is this really everything I will do with my life? Will I leave nothing behind? It is for those who are visited every day by anxiety, a sense that their existence is useless, or the belief that nothing in this world can be changed.
+But at some point, something shifted in my head. I realized that the Architect Method is not really about money — or at least not only about money. It is a method for people searching for meaning; for those who, like me, sometimes wonder sadly: Is this really everything I will do with my life? Will I leave nothing behind? It is for those who are visited every day by anxiety, a sense that their existence is useless, or the belief that nothing in this world can be changed.
 
 This method is for people who want to see possibilities and, every damn day, to feel hope, the desire to change something, the inner motivation to move — along with a sense of space, lightness, air, and curiosity about life, no matter what.
 
