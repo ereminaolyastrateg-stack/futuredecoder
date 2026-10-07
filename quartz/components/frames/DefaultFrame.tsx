@@ -1,9 +1,11 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
 import LanguageSwitcherConstructor from "../LanguageSwitcher"
+import MediaLibraryCatalogConstructor from "../MediaLibraryCatalog"
 
 const Header = HeaderConstructor()
 const LanguageSwitcher = LanguageSwitcherConstructor()
+const MediaLibraryCatalog = MediaLibraryCatalogConstructor()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -45,6 +47,7 @@ export const DefaultFrame: PageFrame = {
             </div>
           </div>
           <Content {...componentData} />
+          <MediaLibraryCatalog {...componentData} />
           <hr />
           <div class="page-footer">
             {afterBody.map((BodyComponent) => (
