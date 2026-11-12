@@ -1,7 +1,7 @@
 ---
-title: "Wuthering Heights"
-seoTitle: "Wuthering Heights — Future Decoder Media Library"
-description: "To explore how a cultural canon changes meaning with every new reading and adaptation."
+title: Wuthering Heights
+seoTitle: Wuthering Heights — Future Decoder Media Library
+description: "Loneliness, desire and destructive anger: how independence becomes isolation."
 lang: en
 translations:
   ru: /mediateka/knigi/wuthering-heights
@@ -9,43 +9,66 @@ translations:
 tags:
   - media-library
   - book
-  - attention
+  - culture
+  - loneliness
 media_type: book
 year: "1847"
-rating: "not yet specified"
-rating_source: "rating source to be selected separately"
-author: "Emily Brontë"
-country: "United Kingdom"
+author: Emily Brontë
+country: United Kingdom
 life_domains:
-  - "Health"
-  - "Education"
-  - "Meaning and community"
-scenario: "Centralized — Synthetic"
+  - Close relationships and family
+  - Finance
+  - Values, meaning and community
+scenario: Decentralized — Synthetic
 macrotrends:
-  - "attention economy"
-  - "mediatization"
-  - "information overload"
+  - Culture as a source of futures
+  - Inequality and resource distribution
+  - Psychological resilience and a crisis of thinking
+scenarios:
+  - Decentralized — Synthetic
+macrotrend_ids:
+  - MT-030
+  - MT-038
+  - MT-055
+updated: "2026-11-12"
 ---
 
-## Record
+**Record:** Novel · Emily Brontë · 1847.
 
-- **Type:** Book
-- **Year:** 1847
-- **Author:** Emily Brontë
-- **Country:** United Kingdom
-- **Rating:** not yet specified (rating source to be selected separately)
+## About the work
+
+Catherine and Heathcliff’s bond unfolds through social position, resentment and revenge. Their choices also shape the lives of the next generation.
 
 ## Why read
 
-To explore how a cultural canon changes meaning with every new reading and adaptation.
+The novel offers a way to examine how people explain their choices and which social demands they accept as natural. Another question is how a cultural image travels: what survives and what changes when a familiar story is retold for a different audience.
 
-## Game discussion context
+## In Future Decoder discussions
 
-During the game, the work served as a concrete image of how a cultural canon changes meaning with every new reading and adaptation; participants used it to test which of the four scenario logics it most closely resembled.
+The novel and the adaptation starring Jacob Elordi were compared with Saltburn. The discussion focused on an attractive outward image, inner anger and the destructive consequences of desire. Comparing Elordi’s screen persona with K-pop aesthetics opens another question: how do images of male beauty change, and what does a viewer imagine behind an attractive appearance?
 
-## Tags and connections
+## Our reading
 
-- **Life domains:** Health, Education, Meaning and community
-- **Scenario:** Centralized — Synthetic
-- **Macrotrends:** attention economy, mediatization, information overload
-- **Catalog:** [[en/media-library/index|Media Library]]
+A Decentralized — Synthetic reading focuses on people trying to solve their problems alone: they do not relate their desires to another person’s life or ask for help. Independence becomes isolation when conversation and support cease to appear possible. Outward attraction does not remove inner anger.
+
+Comparing the novel, its adaptation and Saltburn reveals how the desire to belong, possess or gain recognition affects others. The question is both what a character wants and whether they can recognise the cost of that desire for people close to them.
+
+## Questions for discussion
+
+- When does independence become loneliness?
+- What prevents someone from asking for help and listening to another person?
+- What expectations do we attach to an attractive appearance?
+- How do the consequences of a choice pass to other people and the next generation?
+
+## Connections
+
+- **Scenario reading:** Decentralized — Synthetic: a solitary path, refusal of help and difficulty relating personal desire to other people’s lives.
+- **Macrotrend IDs:** MT-030, MT-038, MT-055.
+- **Life domains:** Close relationships and family; Finance; Values, meaning and community.
+- **Related works:** [[en/media-library/films/wuthering-heights|Wuthering Heights — film adaptation]]; [[en/media-library/films/saltburn|Saltburn]].
+- **Catalogue:** [[en/media-library/index|Media Library]].
+- **Themes:** loneliness; asking for help; anger; images of male beauty.
+
+## Sources
+
+[Penguin Random House: Wuthering Heights](https://www.penguinrandomhouse.com/books/805352/wuthering-heights-by-emily-bronte/).

@@ -7,7 +7,7 @@ type CatalogItem = {
   year: number
   credit: string
   domains: string[]
-  scenario: string
+  scenarios: string[]
   trends: string[]
   description: string
 }
@@ -48,7 +48,7 @@ const filterScript = String.raw`
         (!query || normalize(row.dataset.search).includes(query)) &&
         (!type.value || row.dataset.type === type.value) &&
         includesValue(row.dataset.domains, domain.value) &&
-        (!scenario.value || row.dataset.scenario === scenario.value) &&
+        includesValue(row.dataset.scenarios, scenario.value) &&
         includesValue(row.dataset.trends, trend.value) &&
         year >= from &&
         year <= to
@@ -123,6 +123,11 @@ export default (() => {
         const trends = Array.isArray(frontmatter.macrotrends)
           ? frontmatter.macrotrends.filter((value): value is string => typeof value === "string")
           : []
+        const scenarios = Array.isArray(frontmatter.scenarios)
+          ? frontmatter.scenarios.filter((value): value is string => typeof value === "string")
+          : typeof frontmatter.scenario === "string"
+            ? [frontmatter.scenario]
+            : []
 
         return {
           title: typeof frontmatter.title === "string" ? frontmatter.title : (page.slug ?? ""),
@@ -130,13 +135,15 @@ export default (() => {
           type,
           year: Number(frontmatter.year) || 0,
           credit:
-            typeof frontmatter.director === "string"
-              ? frontmatter.director
-              : typeof frontmatter.author === "string"
-                ? frontmatter.author
-                : "",
+            typeof frontmatter.creator === "string"
+              ? frontmatter.creator
+              : typeof frontmatter.director === "string"
+                ? frontmatter.director
+                : typeof frontmatter.author === "string"
+                  ? frontmatter.author
+                  : "",
           domains,
-          scenario: typeof frontmatter.scenario === "string" ? frontmatter.scenario : "",
+          scenarios,
           trends,
           description: typeof frontmatter.description === "string" ? frontmatter.description : "",
         }
@@ -150,7 +157,7 @@ export default (() => {
       locale,
     )
     const scenarios = uniqueSorted(
-      items.map((item) => item.scenario),
+      items.flatMap((item) => item.scenarios),
       locale,
     )
     const trends = uniqueSorted(
@@ -309,7 +316,7 @@ export default (() => {
                   data-type={item.type}
                   data-year={item.year}
                   data-domains={item.domains.join("|")}
-                  data-scenario={item.scenario}
+                  data-scenarios={item.scenarios.join("|")}
                   data-trends={item.trends.join("|")}
                   data-search={`${item.title} ${item.credit} ${item.description}`}
                 >
@@ -331,7 +338,11 @@ export default (() => {
                     </div>
                   </td>
                   <td data-label={labels.scenario}>
-                    <span class="media-chip media-chip-scenario">{item.scenario}</span>
+                    <div class="media-chip-list">
+                      {item.scenarios.map((scenario) => (
+                        <span class="media-chip media-chip-scenario">{scenario}</span>
+                      ))}
+                    </div>
                   </td>
                   <td data-label={labels.trend}>
                     <div class="media-chip-list">
