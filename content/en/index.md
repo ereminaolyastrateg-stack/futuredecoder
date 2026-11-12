@@ -14,4 +14,5 @@ Here I collect notes on trends, signals, scenarios, mental models, and my own ex
 
 - [Why Talk About the Future](/en/why-talk-about-the-future)
 - [Book](/en/book/)
+- [Materials](/en/materials/)
 - [Media Library](/en/media-library/)
