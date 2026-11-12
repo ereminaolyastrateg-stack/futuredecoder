@@ -8,6 +8,7 @@ translations:
   en: /en/materials/signals/
 aliases:
   - signals/index
+  - signaly/index
 tags:
   - signals
 created: 2026-11-12
@@ -18,6 +19,6 @@ updated: 2026-11-12
 
 Обзоры сохраняют контекст игр: как прочитали пример, какие вопросы и возражения возникли. Сценарные предположения отделены от описания проекта.
 
-- [Образование — 40 сигналов и обсуждения трёх игр](education.md).
+- [Образование — 40 сигналов и обсуждения трёх игр](/materialy/signaly/education).
 
-[Материалы](../index.md) · [Медиатека](../../mediateka/index.md).
+[Материалы](/materialy/) · [Медиатека](/mediateka/).

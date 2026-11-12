@@ -6,6 +6,8 @@ lang: en
 translations:
   ru: /materialy/signaly/
   en: /en/materials/signals/
+aliases:
+  - en/signals/index
 tags:
   - signals
 created: 2026-11-12
@@ -16,6 +18,6 @@ These overviews bring together concrete examples of change and possible futures:
 
 The overviews preserve the context of games: how an example was read, and which questions and objections arose. Scenario hypotheses remain separate from descriptions of the projects.
 
-- [Education — 40 signals and discussions from three games](education.md).
+- [Education — 40 signals and discussions from three games](/en/materials/signals/education).
 
-[Materials](../index.md) · [Media Library](../../media-library/index.md).
+[Materials](/en/materials/) · [Media Library](/en/media-library/).

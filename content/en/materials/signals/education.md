@@ -6,6 +6,8 @@ lang: en
 translations:
   ru: /materialy/signaly/education
   en: /en/materials/signals/education
+aliases:
+  - en/signals/education
 tags:
   - signals
   - education
@@ -2114,4 +2116,4 @@ This index shows our thematic classification of signals using the adopted regist
 - [SIG-EDU-005 · TUMO Path](#sig-edu-005).
 - [SIG-EDU-022 · Deepself](#sig-edu-022).
 
-[All signal overviews](index.md) · [Media Library](../../media-library/index.md).
+[All signal overviews](/en/materials/signals/) · [Media Library](/en/media-library/).
