@@ -8,6 +8,7 @@ translations:
   en: /en/materials/signals/education
 aliases:
   - signals/education
+  - signaly/education
 tags:
   - signals
   - education
@@ -2116,4 +2117,4 @@ Hackers & Designers собирают и переписывают «сценар�
 - [SIG-EDU-005 · TUMO Path](#sig-edu-005).
 - [SIG-EDU-022 · Deepself](#sig-edu-022).
 
-[Все обзоры сигналов](index.md) · [Медиатека](../../mediateka/index.md).
+[Все обзоры сигналов](/materialy/signaly/) · [Медиатека](/mediateka/).
