@@ -17,13 +17,13 @@ updated: 2026-11-13
 
 This overview brings together the 40 signals from the final “Education and Knowledge” game deck and the related discussions from three games. Established educational practices sit alongside standards, research proposals and speculative projects. Each example identifies its type: a vision of a possible future is not treated as a report of implementation.
 
-The signals help explore four questions: what can be delegated to a system; who determines a recognised result; what a person decides for themselves; and what can only be discovered through action and feedback. The original deck’s scenario remains separate from the scenario through which a group read the example. One reading does not cancel another.
+The signals help explore four questions: what can be delegated to a system; who determines a recognised result; what a person decides for themselves; and what can only be discovered through action and feedback. The “Scenario” field shows our current reading of the example, while “Why this scenario” explains it in plain language. Where the classification has been revised, the earlier deck assignment is recorded separately. Game readings retain their discussion context: one example can help explore different questions.
 
 Descriptions draw on the projects’ sources. “Why this is a signal” and the macrotrend classifications are our analytical interpretations. Discussions are presented without participant names or private stories, while retaining hypotheses and objections. Discussing an example does not imply agreement across the group or independent confirmation of its effectiveness.
 
 Overview date: 12 November 2026. Dates attached to signals concern the specified project, event or publication. “N.d.” means the material used does not support a reliable date. The year of a scenario world is stated separately and is not treated as an implementation date.
 
-## Signals by original scenario
+## Signals by scenario
 
 ### CS — Centralized — Synthetic
 
@@ -36,17 +36,15 @@ Overview date: 12 November 2026. Dates attached to signals concern the specified
 - [SIG-EDU-007 · Open Badges 3.0](#sig-edu-007)
 - [SIG-EDU-008 · Comprehensive Learner Record](#sig-edu-008)
 - [SIG-EDU-009 · An Automatic Workshop](#sig-edu-009)
-- [SIG-EDU-010 · Fab Academy](#sig-edu-010)
+- [SIG-EDU-014 · The 12-Year-Old’s Birthday Party](#sig-edu-014)
 
 ### CE — Centralized — Earth
 
-- [SIG-EDU-011 · The Pluriversity](#sig-edu-011)
+- [SIG-EDU-010 · Fab Academy](#sig-edu-010)
 - [SIG-EDU-012 · Regenerative Future(s)](#sig-edu-012)
 - [SIG-EDU-013 · Learning to Disrupt](#sig-edu-013)
-- [SIG-EDU-014 · The 12-Year-Old’s Birthday Party](#sig-edu-014)
 - [SIG-EDU-015 · Learning Planet Academy](#sig-edu-015)
 - [SIG-EDU-016 · Solar Mamas](#sig-edu-016)
-- [SIG-EDU-017 · Kaospilot](#sig-edu-017)
 - [SIG-EDU-018 · A School of Schools](#sig-edu-018)
 - [SIG-EDU-019 · Design Factory Global Network](#sig-edu-019)
 - [SIG-EDU-020 · University of the Underground](#sig-edu-020)
@@ -61,11 +59,13 @@ Overview date: 12 November 2026. Dates attached to signals concern the specified
 - [SIG-EDU-026 · Bredagora](#sig-edu-026)
 - [SIG-EDU-027 · College Unbound](#sig-edu-027)
 - [SIG-EDU-028 · School of Machines](#sig-edu-028)
-- [SIG-EDU-029 · 42](#sig-edu-029)
 - [SIG-EDU-030 · Agile Learning Centers](#sig-edu-030)
 
 ### DE — Decentralized — Earth
 
+- [SIG-EDU-011 · The Pluriversity](#sig-edu-011)
+- [SIG-EDU-017 · Kaospilot](#sig-edu-017)
+- [SIG-EDU-029 · 42](#sig-edu-029)
 - [SIG-EDU-031 · Adaptive Neighbourhoods Lab](#sig-edu-031)
 - [SIG-EDU-032 · FOUNDING LAB](#sig-edu-032)
 - [SIG-EDU-033 · Citizen Science in Education](#sig-edu-033)
@@ -90,7 +90,9 @@ You can also find signals [by macrotrend](#macrotrends-in-this-overview).
 **Date / period:** 2024; a vision of education in 2035.  
 **Geography:** United Kingdom; a project about China.  
 **Type and stage:** Speculative RCA graduation project.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** The lesson plan, digital environment and progress tracking are combined in a system designed in advance. Part of organising and assessing learning is delegated to that arrangement.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-002 — Human–machine interaction](#mt-002); [MT-047 — Advanced AI systems and cognitive computing](#mt-047).
 
@@ -137,7 +139,9 @@ This is a proposal for a possible learning environment. The existence of the pro
 **Date / period:** 2025 — project; 2035 — the setting of the fictional story.  
 **Geography:** United Kingdom.  
 **Type and stage:** Speculative RCA graduation project.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** Routine tasks and the provision of explanations are proposed as functions for AI. The project asks what can be entrusted to a system and which decisions, abilities and relationships should remain with teachers and learners.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-047 — Advanced AI systems and cognitive computing](#mt-047); [MT-002 — Human–machine interaction](#mt-002).
 
@@ -193,7 +197,9 @@ The year 2035 and the book’s blackout are fictional conditions for discussion,
 **Date / period:** n.d.  
 **Geography:** Online; artificial societies within a model.  
 **Type and stage:** Experimental simulation platform.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** A person sets the rules of an artificial society, and the model shows behaviour that might emerge. The focus is on using a system to investigate and choose rules; applying its results to real life requires separate validation.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-013 — Gamification](#mt-013); [MT-047 — Advanced AI systems and cognitive computing](#mt-047).
 
@@ -240,7 +246,9 @@ A simulation shows how a model behaves under particular assumptions. It does not
 **Date / period:** 2026.  
 **Geography:** Austria, Linz.  
 **Type and stage:** Experimental Ars Electronica Futurelab prototype.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** A system selects the museum route, taking account of a person’s interests and adding unfamiliar topics. Even the move beyond familiar interests is partly organised by a digital guide.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-002 — Human–machine interaction](#mt-002); [MT-047 — Advanced AI systems and cognitive computing](#mt-047).
 
@@ -287,7 +295,9 @@ The prototype explores the possibility of encouraging curiosity. Its description
 **Date / period:** 14 February 2020 — publication; the page also lists a 2021 update.  
 **Geography:** Armenia; the international TUMO network.  
 **Type and stage:** Documented practice of personalised learning pathways.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** The learner chooses areas of interest, while an algorithm assembles and adjusts the sequence of activities. The organisation of the route and coordination of next steps are delegated to a system.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-002 — Human–machine interaction](#mt-002); [MT-081 — Ecosystems, super-apps and the platform economy](#mt-081).
 
@@ -328,7 +338,9 @@ A personal route does not remove the programme’s boundaries, mentors, workshop
 **Date / period:** n.d.  
 **Geography:** United States; international use.  
 **Type and stage:** Platform and format for learner records.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** Ability is described through school-defined competencies and verified work. A shared record format lets others examine the result against explicit criteria.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-044 — Social trust and digital ethics](#mt-044); [MT-031 — Human mastery](#mt-031).
 
@@ -380,7 +392,9 @@ A portfolio format does not guarantee identical recognition by every institution
 **Date / period:** n.d.  
 **Geography:** International standard.  
 **Type and stage:** Specification for digital achievement credentials.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** An achievement is recorded through a common standard, identifying its issuer, criteria and evidence. The authenticity of the record can be checked through an established digital procedure.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-044 — Social trust and digital ethics](#mt-044); [MT-066 — Transformation of work and talent management](#mt-066).
 
@@ -427,7 +441,9 @@ The authenticity of a digital record does not establish learning quality or univ
 **Date / period:** n.d.  
 **Geography:** International standard.  
 **Type and stage:** Specification for interoperable digital learning histories.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** Different achievements are assembled in an interoperable, verifiable format. This reading focuses on a shared way of recording and checking experience that educators and employers can use.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-044 — Social trust and digital ethics](#mt-044); [MT-066 — Transformation of work and talent management](#mt-066).
 
@@ -479,7 +495,9 @@ The standard does not require the collection of an entire private life, nor does
 **Date / period:** 2018 — the workshop documented in the publication.  
 **Geography:** Netherlands, Amsterdam.  
 **Type and stage:** Documented experiment with group instructions.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** Part of the facilitator’s work is written into instructions and a sequence of actions. The group can follow the session using a process arranged in advance.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-007 — Work automation](#mt-007); [MT-031 — Human mastery](#mt-031).
 
@@ -526,7 +544,11 @@ The result concerns a particular experiment. Written instructions do not replace
 **Date / period:** n.d.  
 **Geography:** International network of local laboratories.  
 **Type and stage:** Educational programme with mentors and assessment of work.  
-**Original deck scenario:** CS — Centralized — Synthetic.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** There is a shared programme, mentors and criteria of mastery recognised within the school. Within that common direction, each participant makes their own projects and demonstrates ability through work.
+
+**In the original deck:** CS — Centralized — Synthetic.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-044 — Social trust and digital ethics](#mt-044).
 
@@ -574,7 +596,11 @@ The programme includes mentors and assessment procedures. Its description does n
 **Date / period:** 2026 — exhibition project; 2070 — scenario horizon.  
 **Geography:** Ireland — the imagined setting; Netherlands — the DDW exhibition.  
 **Type and stage:** Speculative university model by Studio Saol.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** In the proposed model, learning follows the needs of a living bioregion: people try responses, receive feedback from the place and its communities, and revise their actions. The university evolves with what is discovered through that process.
+
+**In the original deck:** CE — Centralized — Earth.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-029 — Crisis of social institutions](#mt-029); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -592,7 +618,7 @@ The value of education is connected to the life of a territory and its community
 
 ### Game discussions
 
-**Centralized — Synthetic: placement in the exercise.** A university organised around a bioregion’s tasks prompted discussion of learning outside school, connections to place and the ability to shape the educational environment. Placement in the Centralized — Synthetic exercise did not itself imply automation: the original deck assigns the project to Centralized — Earth.
+**Centralized — Synthetic: placement in the exercise.** A university organised around a bioregion’s tasks prompted discussion of learning outside school, connections to place and the ability to shape the educational environment. Placement in the Centralized — Synthetic exercise did not itself imply automation: the original deck assigned the project to Centralized — Earth.
 
 <!-- Discussion provenance: OBS-GAME-EDU-A-008; OBS-GAME-EDU-A-030. -->
 
@@ -629,7 +655,9 @@ The value of education is connected to the life of a territory and its community
 **Date / period:** 26 March 2025 — online publication.  
 **Geography:** United Kingdom — RCA research.  
 **Type and stage:** Research chapter and proposed educational framework.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** A common purpose is proposed for designers: restoring ecological and social conditions. It defines what counts as valuable and responsible professional work.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-029 — Crisis of social institutions](#mt-029); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -676,7 +704,9 @@ This is a proposed educational framework. The text alone establishes neither its
 **Date / period:** 5 September 2025 — conference session.  
 **Geography:** Austria, Linz; European practices.  
 **Type and stage:** Conference programme on non-formal education.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** Museums and workshops are proposed for recognition as meaningful settings for democratic education. The shared social question is which places and forms of participation count as education.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-030 — Culture as a source of futures](#mt-030); [MT-029 — Crisis of social institutions](#mt-029).
 
@@ -724,7 +754,11 @@ A conference programme shows a direction of discussion and examples of practice,
 **Date / period:** n.d.  
 **Geography:** Netherlands.  
 **Type and stage:** Participatory graduation design project.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CS — Centralized — Synthetic.
+
+**Why this scenario:** Here we examine the arrangement criticised by the project: at twelve, a system allocates children to educational tracks. An early external decision sets boundaries and can have lasting effects on the options available to a person.
+
+**In the original deck:** CE — Centralized — Earth.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-038 — Inequality and resource distribution](#mt-038); [MT-030 — Culture as a source of futures](#mt-030).
 
@@ -771,7 +805,9 @@ A participatory design project helps explore experiences of division. It does no
 **Date / period:** January 2026 — the academy launch listed on its page.  
 **Geography:** France; international programmes.  
 **Type and stage:** Educational initiative and manifesto for a university mission.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** A common direction is proposed for the university: serving the world and addressing planetary challenges. This mission gives training its purpose and defines a publicly useful result.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-029 — Crisis of social institutions](#mt-029); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -813,7 +849,9 @@ A mission and an educational initiative are not evidence that the stated planeta
 **Date / period:** n.d.  
 **Geography:** India; rural communities in the Global South.  
 **Type and stage:** Practical training programme by Barefoot College.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** Training responds to a specific community need: servicing solar systems. Acquired skill gains meaning through a useful technical role and recognition of that contribution.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-038 — Inequality and resource distribution](#mt-038).
 
@@ -864,7 +902,11 @@ The programme teaches a defined set of tasks involving solar systems. This is no
 **Date / period:** n.d.  
 **Geography:** Denmark.  
 **Type and stage:** Three-year educational programme.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Participants work in teams on real challenges, receive feedback from people and organisations, and revise their actions along the way. The knowledge needed and the next step emerge through the work itself.
+
+**In the original deck:** CE — Centralized — Earth.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-066 — Transformation of work and talent management](#mt-066).
 
@@ -882,7 +924,7 @@ Professional preparation combines action, theory and reflection. Results need to
 
 ### Game discussions
 
-**Centralized — Synthetic: a game reading.** Project-based teamwork was connected to a hypothesis that higher levels of qualification bring greater freedom. A counterpoint was that such opportunities already exist. The relationship between level and freedom is a discussion hypothesis, not an established rule of the programme; the original deck assigns Kaospilot to Centralized — Earth.
+**Centralized — Synthetic: a game reading.** Project-based teamwork was connected to a hypothesis that higher levels of qualification bring greater freedom. A counterpoint was that such opportunities already exist. The relationship between level and freedom is a discussion hypothesis, not an established rule of the programme; the original deck assigned Kaospilot to Centralized — Earth.
 
 <!-- Discussion provenance: OBS-GAME-EDU-A-013. -->
 
@@ -911,7 +953,9 @@ Project work does not remove learning requirements, mentoring or the need for su
 **Date / period:** 2018 — biennial; 22 January 2018 — the organiser’s publication.  
 **Geography:** Türkiye, Istanbul.  
 **Type and stage:** Biennial exhibition and educational programme.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** The biennial makes public the question of what counts as a school and who can organise learning. The focus is on reconsidering the recognised form of education through a cultural institution.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-030 — Culture as a source of futures](#mt-030); [MT-029 — Crisis of social institutions](#mt-029).
 
@@ -952,7 +996,9 @@ This concerns a particular biennial and its educational programme. An exhibition
 **Date / period:** n.d.  
 **Geography:** International network; coordination in Finland.  
 **Type and stage:** Network of educational innovation hubs.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** Universities and partners establish a shared setting and ways of working for educational projects. A challenge meaningful to the network provides direction, while ability is demonstrated through collaborative practical work.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-066 — Transformation of work and talent management](#mt-066).
 
@@ -994,7 +1040,9 @@ A shared approach does not make every site identical. Programme arrangements and
 **Date / period:** n.d.  
 **Geography:** Netherlands; United Kingdom; transnational programme.  
 **Type and stage:** Independent educational and cultural initiative.  
-**Original deck scenario:** CE — Centralized — Earth.
+**Scenario:** CE — Centralized — Earth.
+
+**Why this scenario:** The educational community states shared principles: free provision for students, pluralism and transnationality. These define which forms of learning and participation it values.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-029 — Crisis of social institutions](#mt-029); [MT-030 — Culture as a source of futures](#mt-030).
 
@@ -1041,7 +1089,9 @@ Free education and pluralism are stated principles of the initiative. They do no
 **Date / period:** n.d.  
 **Geography:** Netherlands; the online YouTube platform.  
 **Type and stage:** Realised personal design experiment.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** A person chooses the task, gathers knowledge from open videos and builds their own route towards a result. The emphasis is on independently deciding what and how to learn.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-076 — Digital communities and virtual interaction](#mt-076).
 
@@ -1088,7 +1138,9 @@ One completed project does not show that traditional training or mentors are no 
 **Date / period:** n.d.  
 **Geography:** Netherlands.  
 **Type and stage:** Speculative Design Academy Eindhoven installation.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** In this speculative vision, information selection should serve the individual’s own values. The main question is how to give a person influence over what shapes their knowledge and view of the world.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-044 — Social trust and digital ethics](#mt-044); [MT-081 — Ecosystems, super-apps and the platform economy](#mt-081).
 
@@ -1135,7 +1187,9 @@ Deepself is an image and an installation, not an available independent AI servic
 **Date / period:** 2025 — project; 2035 — scenario horizon.  
 **Geography:** United Kingdom — RCA; Brazil — the education system explored.  
 **Type and stage:** Speculative design research and learning activities.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** The learner is asked to retain their own judgement: notice AI bias, examine an answer and decide what to accept or change. Using the tool rests on an independent intellectual position.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-047 — Advanced AI systems and cognitive computing](#mt-047); [MT-044 — Social trust and digital ethics](#mt-044).
 
@@ -1176,7 +1230,9 @@ Being able to use a tool and being able to assess its limitations become distinc
 **Date / period:** n.d.  
 **Geography:** United Kingdom, RCA.  
 **Type and stage:** Research and educational unit.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** A person can construct several images of the future and consider which resonate with them and which assumptions sustain them. The emphasis is on their own imagination and relationship to possible futures.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-030 — Culture as a source of futures](#mt-030).
 
@@ -1223,7 +1279,9 @@ A scenario helps explore what is possible. A persuasive form does not turn it in
 **Date / period:** Since 2015 — learning circles with libraries, according to P2PU’s history.  
 **Geography:** United States; international library and community spaces.  
 **Type and stage:** Facilitated peer-learning methodology.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** Participants gather around a chosen topic and study open resources together. A facilitator supports their work, while the group retains agency over its learning direction and participation.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-076 — Digital communities and virtual interaction](#mt-076); [MT-038 — Inequality and resource distribution](#mt-038).
 
@@ -1265,7 +1323,9 @@ A facilitator supports the process, while the quality of open resources and acce
 **Date / period:** n.d.  
 **Geography:** Netherlands, Breda.  
 **Type and stage:** Agora-school practice with personal coaches.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** The learner starts from their own questions and interests and chooses what and how to study. A coach helps them follow that route and notice gaps.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-038 — Inequality and resource distribution](#mt-038).
 
@@ -1317,7 +1377,9 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 **Date / period:** n.d.  
 **Geography:** United States.  
 **Type and stage:** Higher-education model for adults.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** An adult develops a personal plan from their own life and professional challenges. Their experience and chosen goal become the basis of the educational route.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-066 — Transformation of work and talent management](#mt-066).
 
@@ -1359,7 +1421,9 @@ A personal plan operates within an educational model and assessment procedures, 
 **Date / period:** n.d.  
 **Geography:** Germany, Berlin; international programmes.  
 **Type and stage:** Independent hands-on educational programmes.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** Technical skills are connected to the participant’s own artistic or research question. Their chosen topic and the work through which they want to express it are central.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-026 — Creative economy](#mt-026); [MT-031 — Human mastery](#mt-031).
 
@@ -1401,7 +1465,11 @@ Conditions, duration and the composition of individual programmes vary. Interdis
 **Date / period:** n.d.  
 **Geography:** France; the international 42 network.  
 **Type and stage:** Project-based programming education and peer assessment.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** The student searches for a solution, writes and tests code, receives feedback from the result and other students, and tries again. The next step becomes clearer through inquiry, error and revision.
+
+**In the original deck:** DS — Decentralized — Synthetic.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-076 — Digital communities and virtual interaction](#mt-076).
 
@@ -1448,7 +1516,9 @@ Peer assessment uses criteria established by the pedagogical team. Independent i
 **Date / period:** n.d.  
 **Geography:** International network of learning communities.  
 **Type and stage:** Self-directed learning model.  
-**Original deck scenario:** DS — Decentralized — Synthetic.
+**Scenario:** DS — Decentralized — Synthetic.
+
+**Why this scenario:** Children determine much of their day, state intentions and participate in choosing community rules. The emphasis is on their right to direct their own learning with support from the environment.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-076 — Digital communities and virtual interaction](#mt-076); [MT-031 — Human mastery](#mt-031).
 
@@ -1489,7 +1559,9 @@ Self-direction is built within a community with practices of support and reflect
 **Date / period:** 2026 — exhibition model; 2070 — the Pluriversity scenario horizon.  
 **Geography:** Ireland — the imagined setting; Netherlands — the DDW exhibition.  
 **Type and stage:** Speculative lab within The Pluriversity project.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Residents try ways of living together, observe consequences and revise rules and decisions. Knowledge of a suitable neighbourhood arrangement emerges through repeated trials and feedback.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-029 — Crisis of social institutions](#mt-029).
 
@@ -1530,7 +1602,9 @@ This is part of the speculative Pluriversity world, not independent evidence of 
 **Date / period:** 2023–2024.  
 **Geography:** Austria, Linz; international participants.  
 **Type and stage:** Summer school and experimental semester.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Future university formats are tested through a summer school and experimental semester. Participants learn inside the prototype while also discovering how learning itself should be organised.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-029 — Crisis of social institutions](#mt-029).
 
@@ -1574,7 +1648,9 @@ Prototyping formats does not mean that every participant had the sole right to d
 **Date / period:** 4 September 2025 — panel discussion.  
 **Geography:** Austria, Linz; international research practices.  
 **Type and stage:** Conference discussion of citizen science in education.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Learners participate in research whose outcome is not known in advance. Working with methods, data and uncertainty provides feedback that may change the next research step.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -1621,7 +1697,9 @@ This is a discussion of different practices. Real research requires time, resour
 **Date / period:** October 2025 — June 2026.  
 **Geography:** United Kingdom, RCA.  
 **Type and stage:** Speculative educational framework and student films.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** A possible rule is tried through ritual, action and an artistic situation. Its consequences become something to experience and discuss, after which the proposal can be reconsidered.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-030 — Culture as a source of futures](#mt-030).
 
@@ -1668,7 +1746,9 @@ A film or ritual rehearsal does not establish public acceptance of the proposed 
 **Date / period:** 2024–2025; films presented as Showreel 2025.  
 **Geography:** United Kingdom, RCA and DEFRA.  
 **Type and stage:** Research-led educational project with speculative films.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Several future worlds are created to investigate the consequences of decisions about trade and nature. Questions and understanding of relationships develop through working with scenarios and films.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-030 — Culture as a source of futures](#mt-030).
 
@@ -1714,7 +1794,9 @@ The films explore possible supply chains. They do not establish that the events 
 **Date / period:** 2026–2027 edition; launch on 22 September 2026.  
 **Geography:** France; international programme.  
 **Type and stage:** Challenge and support programme for youth-led social projects.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** An author develops a social project and learns from emerging tasks, difficulties and responses. Learning is connected to what is discovered while trying to change a real situation.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-054 — Designing futures and strategic vision](#mt-054); [MT-031 — Human mastery](#mt-031).
 
@@ -1757,7 +1839,9 @@ The programme supports selected projects. Support and stated intentions are not 
 **Date / period:** Since 2014 — CBI history in the IdeaSquare report for 2021–2023.  
 **Geography:** Switzerland, CERN; international university teams.  
 **Type and stage:** Challenge-Based Innovation educational courses.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** A team begins with an open social problem, clarifies the need and makes prototypes. The response and the knowledge required become clearer through inquiry and testing ideas.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -1799,7 +1883,9 @@ An open problem requires inquiry and support. Access to technology does not guar
 **Date / period:** n.d.  
 **Geography:** Netherlands; international participant network.  
 **Type and stage:** Documented practice and publication on collaborative workshops.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** The group changes the workshop script, materials and roles and observes how this affects collaboration. The way of learning itself can be rebuilt in response to feedback.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -1846,7 +1932,9 @@ Repeating and altering a workshop provides material for investigating a particul
 **Date / period:** 5 September 2025 — lecture and discussion.  
 **Geography:** Austria, Linz; international makerspace practices.  
 **Type and stage:** Public discussion of research and educational practices.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** Young people help create the space and its rules through collective action and critical inquiry. The organisation of learning becomes something participants can discuss and change as they work.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-038 — Inequality and resource distribution](#mt-038); [MT-054 — Designing futures and strategic vision](#mt-054).
 
@@ -1898,7 +1986,9 @@ The panel asks about sharing power. Participation, access to equipment and the f
 **Date / period:** n.d.  
 **Geography:** United States; online school.  
 **Type and stage:** School model with projects, mentors and academic requirements.  
-**Original deck scenario:** DE — Decentralized — Earth.
+**Scenario:** DE — Decentralized — Earth.
+
+**Why this scenario:** A learner develops a project, and acquired knowledge and abilities are linked to what the work demonstrates. The next step can be refined through the result and mentors’ feedback.
 
 **Macrotrend drivers:** [MT-043 — Education, knowledge and literacy](#mt-043); [MT-031 — Human mastery](#mt-031); [MT-044 — Social trust and digital ethics](#mt-044).
 
