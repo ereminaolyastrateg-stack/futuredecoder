@@ -102,7 +102,9 @@ You can also find signals [by macrotrend](#macrotrends-in-this-overview).
 
 ### Description
 
-A speculative RCA project presents a future Chinese preschool with a VR scenario, a teacher’s lesson plan and a mechanism for monitoring each child’s weekly progress. Learning is designed as a combination of a digital environment, a structured scenario and ongoing assessment.
+Future Chinese Preschool is a speculative project about Chinese preschool education with a 2035 horizon. Its subject is animal welfare. A virtual game connects to a teacher's lesson plan and a children's activity handbook, extending the topic into practical activities after VR.
+
+One fictional world reverses familiar power relations: pandas lose their habitats, dominate humans and introduce “bamboo credits.” This invites a different perspective on human–animal relationships. Teachers guide the course and monitor each child's weekly progress. The proposal combines a digital story, off-screen activities and assessment within one learning system; the project description does not establish its implementation in preschools.
 
 ### Why this is a signal
 
@@ -209,7 +211,9 @@ The year 2035 and the book’s blackout are fictional conditions for discussion,
 
 ### Description
 
-Gamolution describes artificial societies in which agents’ behaviour emerges through interaction with specified rules. By changing the model’s conditions, its authors propose exploring possible social arrangements. It is a way to ask questions about rules, rather than a validated forecast of real human behaviour.
+Gamolution develops simulations of artificial societies. Environmental conditions and agent properties shape interactions from which collective behaviour emerges. The proposed model includes memory, emotion, culture and social ties as computational variables; these do not establish consciousness in its characters.
+
+A visual environment lets researchers change conditions and observe the simulated society's response. This creates a space for comparing possible consequences of different rules. Its educational interest lies in the inquiry process: formulate an assumption, intervene in a model and examine what happens. Applying those results to real people requires separate validation; the simulation alone cannot establish a social forecast.
 
 ### Why this is a signal
 
@@ -258,7 +262,9 @@ A simulation shows how a model behaves under particular assumptions. It does not
 
 ### Description
 
-An Ars Electronica Futurelab prototype creates a personal museum route based on a visitor’s interests and knowledge, while also introducing unexpected topics outside their familiar field. The system responds to interests and suggests unfamiliar material the person might encounter.
+Bubble Talk is an experimental AI guide by Ars Electronica Futurelab and Toyota Frontier Research Center. It builds a tour around visitors' interests, knowledge and curiosity, linking familiar subjects to unexpected artworks and questions beyond their usual interests.
+
+At Ars Electronica Festival 2026, visitors could test it in the Connected Earth exhibition. They received an explanation and a device, explored independently and completed a short questionnaire; the experience took roughly half an hour. The museum thus becomes both a personalised learning environment and a setting for researching the recommendation process. The project investigates whether personalisation can broaden curiosity as well as respond to existing interests.
 
 ### Why this is a signal
 
@@ -284,6 +290,10 @@ The prototype explores the possibility of encouraging curiosity. Its description
 
 **Source:** [About the project / practice](https://ars.electronica.art/futurelab/en/bubble-talk/).
 
+**Additional primary sources:**
+
+- [Festival prototype trial](https://ars.electronica.art/negotiatinghumanity/en/view/bubble-talk-ai-guided-exhibition-tour-3a438ddb450c811fb8c1df1111e31f4b/).
+
 ---
 
 ## SIG-EDU-005
@@ -307,7 +317,9 @@ The prototype explores the possibility of encouraging curiosity. Its description
 
 ### Description
 
-A teenager chooses areas of interest, after which TUMO Path builds a sequence of self-learning activities, workshops and labs, adjusting it to their pace and progress. The route becomes an evolving system rather than a fixed timetable.
+At TUMO, teenagers choose creative and technological areas of interest. TUMO Path turns those choices into a sequence of self-learning activities and instructor-led workshops. Its interface shows how individual activities connect and lead to the next stage.
+
+The route changes with the learner: switching subjects, repeating an activity or rescheduling a workshop prompts the system to rebuild the sequence. Pace reflects individual preferences and progress. Coaches and instructors remain part of the process. The model combines personal choice with an organised route: learners can depart from recommendations while the system helps connect their decisions to available learning opportunities.
 
 ### Why this is a signal
 
@@ -350,7 +362,9 @@ A personal route does not remove the programme’s boundaries, mentors, workshop
 
 ### Description
 
-Mastery Transcript is built from school-defined competencies and concrete work that supports them. A reader first sees a compact profile and can then explore the projects and evidence verified by educators.
+Mastery Transcript is an interactive school record connecting competencies to evidence. Learners submit projects, performances or other work; educators review it against school criteria and may request revisions. A competency enters the record once the evidence meets the standard.
+
+Readers first see a compact profile, then open the work supporting an achievement. Schools define their own competencies while a shared format makes records readable for admissions staff and employers. Two products serve different purposes: the Mastery Transcript replaces a conventional graded transcript, while the MTC Learning Record can accompany one. Learner choice about featured work sits alongside the school's responsibility for the official record.
 
 ### Why this is a signal
 
@@ -404,7 +418,9 @@ A portfolio format does not guarantee identical recognition by every institution
 
 ### Description
 
-The Open Badges standard packages an individual achievement, skill or microcredential together with its criteria, issuer and evidence. Version 3.0 uses verifiable digital credentials and cryptographic verification of authenticity.
+Open Badges is a standard for recording a specific achievement, such as a skill, programme or microcredential. A badge identifies its recipient, issuer, achievement and criteria, and may include evidence of completed work. It can move between compatible systems and appear alongside a résumé or portfolio.
+
+Version 3.0 uses verifiable credentials and digital signatures. A recipient can check who issued a record and whether it has changed, distinguishing a badge image from a verifiable learning claim. The issuer remains responsible for the criteria and significance of the achievement: technical authenticity alone does not make different badges equivalent qualifications.
 
 ### Why this is a signal
 
@@ -453,7 +469,9 @@ The authenticity of a digital record does not establish learning quality or univ
 
 ### Description
 
-CLR combines courses, competencies, internships, badges and work achievements from different organisations in an interoperable digital format. It is designed to support lifelong learning and can give learners agency over their records.
+A Comprehensive Learner Record is a standard for combining achievements in a machine-readable, verifiable record. It can include course outcomes, skills, internships, badges and workplace learning. Achievements remain associated with the organisations certifying them.
+
+A person may hold several CLRs from different organisations and present them when continuing education or seeking work. A compatible format helps recipients read and verify the achievements. Whereas a badge usually represents one achievement, a CLR bundles many into a broader learning history. The model supports learner control over sharing; it does not require a single registry automatically collecting a person's entire life.
 
 ### Why this is a signal
 
@@ -507,7 +525,9 @@ The standard does not require the collection of an entire private life, nor does
 
 ### Description
 
-Hackers & Designers turned a workshop into a set of instructions that participants could follow without the facilitator being present. The experiment required making some of the facilitator’s tacit knowledge explicit, while leaving space for interpretation and improvisation.
+An Automatic Workshop was an exercise at the 2018 Hackers & Designers summer academy. Participants imagined a workshop as instructions executable without its facilitator. The exercise itself arrived in that form: a script and material kit intended to explain the group's task.
+
+Preparing it required making explicit the actions and transitions a facilitator normally explains or improvises. The authors anticipated unexpected situations while preserving room for interpretation. The experiment examines how learning is organised: what instructions can carry, and where a group must negotiate its next action. It explores a workshop format rather than establishing that scripts can universally replace teachers.
 
 ### Why this is a signal
 
@@ -532,6 +552,10 @@ The result concerns a particular experiment. Written instructions do not replace
 <!-- Related macrotrend and life-domain cards for SIG-EDU-009: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://firstthenrepeat.hackersanddesigners.nl/).
+
+**Additional primary sources:**
+
+- [H&D account of the exercise](https://wiki2print.hackersanddesigners.nl/wiki/Publishing%3AFiguringThingsOutTogether).
 
 ---
 
@@ -558,7 +582,9 @@ The result concerns a particular experiment. Written instructions do not replace
 
 ### Description
 
-Fab Academy connects local groups, mentors and equipment through a common global programme. Participants make projects and document their processes; progress towards the diploma is assessed through acquired skills and a portfolio, rather than time spent learning alone.
+Fab Academy delivers a shared digital-fabrication programme through local Fab Labs. Participants attend global video lectures, then work with equipment, peers and an instructor at their local site. Instructors provide technical guidance and review assignment progress.
+
+Each week, learners plan and complete new work, documenting its idea, process and result. These materials form a personal portfolio of technical skills. Progress towards the diploma depends on demonstrated abilities and completed requirements. A common direction, content and criteria guide the programme, while practical learning happens through individual projects and interactions with people and machines in a workshop. Local work participates in a global exchange of knowledge.
 
 ### Why this is a signal
 
@@ -585,6 +611,10 @@ The programme includes mentors and assessment procedures. Its description does n
 
 **Source:** [About the project / practice](https://fabacademy.org/about/index.html).
 
+**Additional primary sources:**
+
+- [Class structure](https://fabacademy.org/students/students.html).
+
 ---
 
 ## SIG-EDU-011
@@ -610,7 +640,9 @@ The programme includes mentors and assessment procedures. Its description does n
 
 ### Description
 
-Studio Saol presents a university as a network of labs embedded in real territorial challenges: housing, ecology, energy, governance and shared life. In this speculative model, the value of knowledge is defined through its relationship to place and collective transitions.
+The Pluriversity is Studio Saol's speculative model presented at Dutch Design Week 2026. Visitors encounter a university as prospective learners in 2070. A network of labs serves specific missions in the Shannon bioregion and its communities.
+
+The installation gives each lab a mission, learner's story, future artefact and learning cycles to join. The project website describes lifelong learning, mentorship, tolerance of failure and distributed governance. In this reading, education continues as the territory changes: new circumstances call for new knowledge and action. The exhibition presents a possible institutional design whose implementation remains an open question.
 
 ### Why this is a signal
 
@@ -644,6 +676,10 @@ The value of education is connected to the life of a territory and its community
 
 **Source:** [About the project / practice](https://ddw.nl/en/programme/archive/2026/the-pluriversity-1).
 
+**Additional primary sources:**
+
+- [Project model and manifesto](https://www.the-pluriversity.com/).
+
 ---
 
 ## SIG-EDU-012
@@ -667,7 +703,9 @@ The value of education is connected to the life of a territory and its community
 
 ### Description
 
-RCA researchers propose moving away from an industrial logic of design education towards ecological and social values, restoration and responsibility. The proposal concerns a change in the normative purpose of training designers, rather than simply adding a subject.
+Regenerative Future(s) examines what future designers should learn and what their work should serve. It considers the limits of industrial design amid climate disruption and proposes ecological and social values as foundations for professional decisions, with restoration of living conditions as an educational purpose.
+
+The paper connects examples of RCA doctoral research with ecological critique, systems thinking and futures studies to propose an educational framework. This reframes the learning question: how does design affect living systems and social justice? The publication sets out a direction for education; it does not document a unified curriculum already implemented across the RCA.
 
 ### Why this is a signal
 
@@ -716,7 +754,9 @@ This is a proposed educational framework. The text alone establishes neither its
 
 ### Description
 
-At Ars Electronica, cultural spaces are considered places where young people question existing systems and create alternatives through climate labs, stories about care and collaborative action. The discussion extends their role beyond receiving established knowledge.
+Learning to Disrupt was an Ars Electronica 2025 conference session about democratic education beyond formal schooling. It considered museums, makerspaces and cultural organisations as places where young people can investigate public problems and develop their own responses. Examples in its framing included co-designed climate labs and narrative workshops on care and justice.
+
+Youth participation meant opportunities to question, propose alternatives and shape the work. Funding, partnerships and recognition in education policy were also central concerns. The signal records a public discussion about the role and support of non-formal education; a conference programme alone does not establish the outcomes of every practice it mentions.
 
 ### Why this is a signal
 
@@ -768,7 +808,9 @@ A conference programme shows a direction of discussion and examples of practice,
 
 ### Description
 
-A Design Academy Eindhoven project brings adults from different educational tracks together at a recreated children’s birthday party. Games make visible a system in which early educational allocation can affect future opportunities, networks and identity.
+The 12-Year-Old's Birthday Party is a participatory design project about Dutch educational tracking. Assignment to different academic paths at 12 can shape future opportunities, networks and identity. The project revisits that moment through a familiar childhood celebration.
+
+Adults aged 20–25 from different educational backgrounds attend a recreated birthday party. Familiar and custom-designed games offer an encounter outside ordinary hierarchies. Shared play invites participants to notice social boundaries and explore connections across them. The CS classification concerns the tracking system being criticised; the party proposes another way of relating. This is an artistic inquiry, not an evaluation of an educational reform.
 
 ### Why this is a signal
 
@@ -817,7 +859,9 @@ A participatory design project helps explore experiences of division. It does no
 
 ### Description
 
-Learning Planet Academy organises programmes around climate, peace and democracy, mental health and other planetary challenges. It proposes a shift from a university as a guardian of knowledge towards a connecting infrastructure for action.
+Learning Planet Academy brings educational initiatives together around climate, peace and democracy, mental health and wellbeing. Its model combines project learning, research, experimentation and collaboration. Young people are invited to help design and govern learning formats.
+
+Its manifesto proposes a university connecting people and knowledge to care for shared resources. Stated principles include transdisciplinarity, social entrepreneurship and AI-supported personalisation. Offerings include youth project programmes, seasonal schools and research activities. The academy provides a common mission and a collection of initiatives, so learning conditions and recognition of outcomes need to be understood programme by programme rather than assumed across every format.
 
 ### Why this is a signal
 
@@ -861,7 +905,9 @@ A mission and an educational initiative are not evidence that the stated planeta
 
 ### Description
 
-Barefoot College prepares women from rural communities with limited formal literacy for specific technical tasks: making, installing and repairing solar lighting systems. Training includes intensive practice; on returning, participants can service equipment in their communities.
+Solar Mamas is a Barefoot College programme for women from remote rural communities, including those with limited formal literacy. Six months of intensive residential practical training cover making, installing and repairing solar lanterns and home-lighting systems. Learning addresses a specific need in villages without reliable electricity.
+
+On returning, participants receive equipment and spare parts to establish local electronic workshops. They can assemble, install and maintain systems and share knowledge with neighbours. Education therefore includes both individual preparation and the means to continue working within a community. “Solar engineers” describes their programme role; the source does not establish equivalence to a university engineering qualification.
 
 ### Why this is a signal
 
@@ -916,7 +962,9 @@ The programme teaches a defined set of tasks involving solar systems. This is no
 
 ### Description
 
-The three-year Kaospilot programme in Denmark combines theory, action and reflection. Participants work in teams with real people and organisations and build project portfolios. Learning connects entrepreneurship, project work and the ability to act in complex settings.
+Kaospilot is a three-year Danish programme built around real challenges, teamwork and leading change. It integrates business design, process design, project design and leadership. Participants work individually, in smaller groups and across their team, including with real organisations.
+
+Learning connects theory, action and reflection. Participants encounter tools through practical workshops, apply them in projects and reflect on their experience and next steps. Over time they build a portfolio and experience of working with different people. The continuous connection between action and its consequences matters: the ability to act develops through repeated encounters with a real task, its consequences and the need to revise one's approach.
 
 ### Why this is a signal
 
@@ -965,7 +1013,9 @@ Project work does not remove learning requirements, mentoring or the need for su
 
 ### Description
 
-The 2018 Istanbul Design Biennial used cultural venues to experiment with different ways of learning. Its programme asked where the boundaries of school lie and who can organise an educational setting.
+A School of Schools was the concept of the fourth Istanbul Design Biennial in 2018. The biennial became a setting for testing ways to learn through urban inquiry, exchanging experience, making and examining education itself. Its framing brought academic and amateur knowledge, generations and disciplines together.
+
+The concept proposed a flexible year-long programme extending beyond the exhibition. Both outcomes and process mattered: how collaboration works, who holds knowledge and what helps people share experience. Museum, laboratory, studio and academy formats became resources for rethinking school. This was a curatorial educational platform rather than a single school awarding a shared qualification to all participants.
 
 ### Why this is a signal
 
@@ -984,6 +1034,10 @@ This concerns a particular biennial and its educational programme. An exhibition
 <!-- Related macrotrend and life-domain cards for SIG-EDU-018: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://www.iksv.org/en/news/4th-istanbul-design-biennial-announces-concept-and-open-call-a-school-of-schools).
+
+**Additional primary sources:**
+
+- [Biennial concept](https://aschoolofschools.iksv.org/).
 
 ---
 
@@ -1008,7 +1062,9 @@ This concerns a particular biennial and its educational programme. An exhibition
 
 ### Description
 
-Design Factory Global Network connects innovation hubs in universities and research organisations. Shared ways of working help interdisciplinary teams collaborate across organisations, countries and time zones. Education is connected to problem-solving and prototyping.
+Design Factory Global Network connects university and research sites where students, educators and external partners work on practical challenges. It supports exchange and international collaboration, while local centres determine their courses and specialisms.
+
+For example, HAMK Design Factory describes interdisciplinary industry projects in which students co-create and test solutions and prototypes for real challenges. Other sites focus on digital products and user experience. A shared principle connects learning, development and collaboration with partners in one environment. The university lab becomes a meeting place for professions and interests; network membership does not imply identical curricula or qualifications across its centres.
 
 ### Why this is a signal
 
@@ -1028,6 +1084,10 @@ A shared approach does not make every site identical. Programme arrangements and
 <!-- Related macrotrend and life-domain cards for SIG-EDU-019: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://dfgn.org/).
+
+**Additional primary sources:**
+
+- [Examples from local centres](https://dfgn.org/network/).
 
 ---
 
@@ -1052,7 +1112,9 @@ A shared approach does not make every site identical. Programme arrangements and
 
 ### Description
 
-University of the Underground connects education with critical reflection and creative practice in urban spaces. It states a commitment to free education for students, pluralism and transnationality; its field includes design, art, music, philosophy and work with public institutions.
+University of the Underground is an educational and cultural initiative associated with urban spaces and nightclub basements. Its mission combines education free to students, pluralistic thinking and work across national borders. Design, film, music, theatre and political thought help investigate institutions and power.
+
+Its archive includes programmes on Afrofuturisms and new politics, music initiatives and research residencies between cities. Learning involves creating situations, events and artistic work that invite public engagement with social change. It also experiments with funding: long-term support and donations are intended to widen access. Qualification status and content depend on the particular programme and academic partners.
 
 ### Why this is a signal
 
@@ -1078,6 +1140,10 @@ Free education and pluralism are stated principles of the initiative. They do no
 
 **Source:** [About the project / practice](https://universityoftheunderground.org/mission/).
 
+**Additional primary sources:**
+
+- [Programme archive](https://universityoftheunderground.org/programmes/).
+
 ---
 
 ## SIG-EDU-021
@@ -1101,7 +1167,9 @@ Free education and pluralism are stated principles of the initiative. They do no
 
 ### Description
 
-In a Design Academy Eindhoven graduation project, Nick Monro-Meares learned the necessary skills through YouTube, built a printing press, then documented and uploaded his learning process back to the platform. A learning route develops without a preselected school or a single master.
+Exercises in Learning is a Design Academy Eindhoven graduation project in which the maker built a printing press using the necessary skills learned through YouTube. The object matters: printing once expanded information distribution, while online video offers another way to share practical knowledge.
+
+Building the press tests whether learning can be assembled around a self-chosen task. The maker then documents, reflects on and uploads the process, moving from using others' explanations to contributing knowledge. The project connects hands-on making, independent inquiry and public documentation. It demonstrates one person's learning route; it does not establish equal access to every skill for every viewer.
 
 ### Why this is a signal
 
@@ -1150,7 +1218,9 @@ One completed project does not show that traditional training or mentors are no 
 
 ### Description
 
-A Design Academy Eindhoven project imagines a digital democracy in which the information system is oriented towards the person’s own values. The installation asks whether users can regain power over what shapes their view of the world.
+Deepself is a speculative installation about who shapes the information through which people understand the world. It imagines a technology-rich democracy where AI serves users' interests. Its starting concern is dependence on major technology companies and their commercial priorities.
+
+Mirrors invite visitors to consider their core values and how technology shapes them. This experience raises questions about distributing digital power and retaining the ability to choose a preferred future. For education, it concerns independent judgement and the selection of information sources. Deepself presents an imagined relationship with AI rather than an operational service already guaranteeing users' interests.
 
 ### Why this is a signal
 
@@ -1199,7 +1269,9 @@ Deepself is an image and an installation, not an available independent AI servic
 
 ### Description
 
-Speculative RCA research into Brazilian higher education in 2035 develops learning around critical AI use, algorithmic bias, ethics and local authorship. AI becomes a subject for disagreement and judgement, not only a tool for efficiency.
+Critical AI Literacy 2035 explores possible futures for Brazilian design education. Participatory workshops, future prototyping and backcasting connect a preferred 2035 situation to potential earlier steps. Educators support critical AI use and discussion of bias, ethics and local authorship.
+
+Three teaching briefs address idea generation, prototyping and AI-mediated collaboration. A roadmap moves from experimentation in 2025–2027 towards institutional development and changes in how knowledge is understood by 2035. It proposes communities of practice, guidelines and leadership development. This is a designed pathway for change rather than a report that all these measures have already been implemented in Brazil.
 
 ### Why this is a signal
 
@@ -1242,7 +1314,9 @@ Being able to use a tool and being able to assess its limitations become distinc
 
 ### Description
 
-The RCA research platform uses foresight, scenarios, storytelling, film and world-building. It emphasises a multiplicity of possible futures rather than one correct prediction.
+superFUTURES is an RCA research-led unit investigating possible ways of living through space, scenarios and film. Students use foresight, storytelling and world-building to explore changing relationships with environments, technologies and other species.
+
+Interior space becomes a research medium that makes a scenario's rules, habits and opportunities visible. Film shows the imagined world in action and brings it closer to viewers' experience. The unit uses feminist and queer perspectives to question established design norms. Its work generates multiple possible worlds for discussion and inquiry. Ficta Ordo and Nature's Depot, elsewhere in this overview, are examples from the same unit.
 
 ### Why this is a signal
 
@@ -1291,7 +1365,9 @@ A scenario helps explore what is possible. A persuasive form does not turn it in
 
 ### Description
 
-Peer 2 Peer University organises free learning circles in libraries and community spaces. A facilitator supports the process rather than serving as the source of correct subject knowledge; participants study open resources and help one another.
+P2PU helps organise free learning circles: small groups meet regularly in libraries, other public spaces or online to study a chosen topic. They may use an open online course, adapt another group's materials or create their own collection.
+
+A facilitator organises meetings and supports collaboration without needing subject expertise. Participants work through materials, share questions and support one another's progress. P2PU supplies tools, guides and a facilitator community. Access to content is thus accompanied by social support: regular time, a meeting place and people to learn with. Groups can reproduce the model locally while choosing topics and materials suited to their interests.
 
 ### Why this is a signal
 
@@ -1311,6 +1387,10 @@ A facilitator supports the process, while the quality of open resources and acce
 <!-- Related macrotrend and life-domain cards for SIG-EDU-025: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://www.p2pu.org/en/).
+
+**Additional primary sources:**
+
+- [Learning-circle structure](https://docs.p2pu.org/).
 
 ---
 
@@ -1335,7 +1415,9 @@ A facilitator supports the process, while the quality of open resources and acce
 
 ### Description
 
-At the Dutch Agora school, students decide what and how they want to learn from their own questions and interests. Each has a personal coach, but a standard timetable of subject lessons does not dictate the learning route.
+Bredagora describes learning through students' own questions and challenges. Each learner has a coach and considerable control over the day. Individual and group projects replace a fixed sequence of subject lessons.
+
+The published school-day model still provides structure: a coach-group morning meeting, project time, visiting experts, a quiet screen-free period and a shared closing. Parents and students can offer inspiration sessions; subject specialists and coach feedback support the work. The format combines choice with rhythm and community support. The absence of a conventional subject timetable does not mean an absence of structure, adults or expectations for learning outcomes.
 
 ### Why this is a signal
 
@@ -1366,6 +1448,10 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 
 **Source:** [About the project / practice](https://www.bredagora.nl/).
 
+**Additional primary sources:**
+
+- [A school day](https://www.bredagora.nl/schooldag).
+
 ---
 
 ## SIG-EDU-027
@@ -1389,7 +1475,9 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 
 ### Description
 
-The US College Unbound builds adult education around a personal learning plan, professional challenges and lived experience. Learning is demonstrated through projects and portfolios; faculty use specified criteria to assess it and award credits.
+At College Unbound, adults create a Personal Learning Plan from day one, connecting education to work, experience and future goals. Each student develops a project and presents progress publicly for feedback. A cohort and accompanying faculty provide continuing support.
+
+Assessment includes portfolios and reflection on learning. Ten competencies include collaboration, critical thinking, accountability and agency. Experience from employment, caregiving or community participation can support academic credit when learning is documented and assessed by faculty. The college recognises knowledge gained in life through an explicit process that retains requirements for evidence.
 
 ### Why this is a signal
 
@@ -1433,7 +1521,9 @@ A personal plan operates within an educational model and assessment procedures, 
 
 ### Description
 
-Berlin’s School of Machines, Making & Make-Believe organises practical programmes at the intersection of art, technology, design and human connection. Participants develop individual and collaborative work, guided by their own questions and supported by practising artists and technologists.
+School of Machines, Making & Make-Believe creates small practical programmes across art, technology and design. Teaching artists and technologists work with the tools they introduce. Participants develop individual and collaborative pieces towards a public exhibition.
+
+The school welcomes people without previous experience and treats personal questions, beliefs and life stories as resources for creative work. Technical learning accompanies developing an expressive purpose and critically examining relationships with technology. Themes, instructors, duration and even the host country vary between programmes. The school takes shape around a particular period of shared practice and work participants can present to others.
 
 ### Why this is a signal
 
@@ -1479,7 +1569,9 @@ Conditions, duration and the composition of individual programmes vary. Interdis
 
 ### Description
 
-In the 42 network, learning is built around projects, independent problem-solving, peer assessment and further attempts after mistakes. A teacher does not deliver course content through lectures; the system and community organise a setting in which students progress at their own pace.
+At 42, students learn programming through practical projects, independent research and peers. When a solution fails, they investigate errors, revise code and try again. The pedagogical team supports this inquiry without a conventional lecture course.
+
+Assessment is also a learning activity: students review each other's work using a staff-defined scale, explain their approaches and discuss alternatives. Completed projects earn experience points and enable progression. A common core precedes specialisation; individual pace coexists with stage requirements. Inquiry, testing and community feedback determine the next step within a shared digital learning environment.
 
 ### Why this is a signal
 
@@ -1528,7 +1620,9 @@ Peer assessment uses criteria established by the pedagogical team. Independent i
 
 ### Description
 
-A network of small learning communities builds education around trust, self-direction and shared stewardship of the environment. Participants set intentions, act, reflect and revise the community’s tools and rules when they stop working.
+Agile Learning Centers is a self-directed education model used by different learning communities. Its core cycle is intention, action, reflection and sharing. Children choose much of their activity, while adults help connect people and resources, address obstacles and support collaboration.
+
+Regular written, drawn or recorded reflections help reveal connections between choices and outcomes. Participants can revise tools and community agreements, try small changes and change back when needed. Independence coexists with responsibility to others and safety boundaries. Practices vary between centres; the common foundation is learning through decisions, their consequences and the shared adaptation of the environment.
 
 ### Why this is a signal
 
@@ -1571,7 +1665,9 @@ Self-direction is built within a community with practices of support and reflect
 
 ### Description
 
-In the speculative Pluriversity ecosystem, a neighbourhood becomes a place to investigate shared life: rules for common resources, housing and public space. The proposed approach is to try arrangements, observe consequences and revise decisions. This is a connected part of the same project as the university in SIG-EDU-011.
+Adaptive Neighbourhoods Lab belongs to The Pluriversity's fictional world in a future Limerick Docklands. Homes can be disassembled and reconfigured, tools and building elements are shared, and a communal garden connects food growing, water management and gathering.
+
+Learning is embedded in this life. Proposed cycles investigate shared wellbeing, imagine neighbourhood futures and prototype adaptable spaces. Contributions include residents' stories, shared-use agreements and material prototypes. Some ideas remain; others are revised or undone. The project illustrates continuing learning through the consequences of collective decisions. It is a lab in a speculative university model for 2070, not an account of an operating neighbourhood.
 
 ### Why this is a signal
 
@@ -1590,6 +1686,10 @@ This is part of the speculative Pluriversity world, not independent evidence of 
 <!-- Related macrotrend and life-domain cards for SIG-EDU-031: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://ddw.nl/en/programme/archive/2026/the-pluriversity-1).
+
+**Additional primary sources:**
+
+- [Lab and learning cycles](https://www.the-pluriversity.com/labs/neighbourhood-lab).
 
 ---
 
@@ -1614,7 +1714,9 @@ This is part of the speculative Pluriversity world, not independent evidence of 
 
 ### Description
 
-Ars Electronica and the university being established in Linz used a summer school in 2023 and an experimental semester in 2023–2024 to explore new educational formats. Students and visiting researchers from different disciplines discussed digital transformation and tested ways of learning together.
+FOUNDING LAB was a joint experiment by Ars Electronica and the emerging IT:U university in Linz. A 2023 summer school, public forum and 2023–2024 fall term explored content and formats for interdisciplinary education. Students and visiting researchers tested them through shared work.
+
+The fall term combined six four-day onsite chapters with online mentoring and discussions. Topics covered infrastructure, data and code, machines, interfaces, media and digital society. Participants developed their projects between chapters and presented results at the university's open day and Ars Electronica Center. Learning and institutional design developed together: participants' experience could inform the design of the educational environment itself.
 
 ### Why this is a signal
 
@@ -1636,6 +1738,10 @@ Prototyping formats does not mean that every participant had the sole right to d
 **Source:** [About the project / practice](https://ars.electronica.art/university/en/).
 
 **Additional source:** [FOUNDING LAB launch, 24 August 2023](https://ars.electronica.art/mediaservice/en/2023/08/24/launch-founding-lab/).
+
+**Additional primary sources:**
+
+- [Fall-term structure](https://ars.electronica.art/university/en/fallterm/).
 
 ---
 
@@ -1660,7 +1766,9 @@ Prototyping formats does not mean that every participant had the sole right to d
 
 ### Description
 
-Ars Electronica discusses models in which learners join real citizen-science projects rather than reproduce an already known result. They encounter methods, uncertainty, tensions between scientific and educational goals, and local challenges.
+Citizen Science in Education was an Ars Electronica 2025 panel about students contributing to real research with scientists and communities. Its framing connects scientific knowledge to issues in learners' surroundings, making methods and uncertainty part of the educational experience.
+
+The panel also examines practical tensions: limited school time and resources, scientific rigour and educational needs. These must be negotiated for participation to serve both research and learners. The signal concerns a public discussion of this model and its constraints. The programme does not describe one implemented course or establish identical educational outcomes across citizen-science projects.
 
 ### Why this is a signal
 
@@ -1709,7 +1817,9 @@ This is a discussion of different practices. Real research requires time, resour
 
 ### Description
 
-Within superFUTURES, students develop scenarios for future interspecies, digital and intangible rituals through ethnography, space, film and world-building. The future becomes a setting for rehearsing possible orders rather than only a topic for a lecture.
+Ficta Ordo was a 2025–2026 superFUTURES project about future rituals, habits and everyday order. Students worked alongside a network of anthropologists, ethnographers and cultural researchers. Fiction, film, space and world-building made alternative ways of living available for examination.
+
+Three strands addressed human relationships with other species; intangible life, including time, faith and meaning; and communities' relationships with digital systems. Repeated actions reveal arrangements of power, permission, responsibility and belonging. Student films present the resulting worlds. The educational task is to give a proposed order a concrete form and investigate it through events and actions within the fiction.
 
 ### Why this is a signal
 
@@ -1758,7 +1868,9 @@ A film or ritual rehearsal does not establish public acceptance of the proposed 
 
 ### Description
 
-superFUTURES students work with DEFRA to explore future relationships between trade and nature through scenarios, space and film. The course produces multiple worlds through which different consequences of decisions can be examined, rather than a single answer.
+Nature's Depot was a 2024–2025 research project by superFUTURES and the UK department DEFRA on future relationships between trade and nature. Students use film to examine supply chains through space, human behaviour and planetary conditions. The gallery includes films, trailers and project descriptions.
+
+For example, Portioned imagines 2050 with state-rationed fresh food and greater access for wealthy people. Markets, homes and the loss of shared cooking connect ecological breakdown with inequality and everyday life. This is one fictional world, not a DEFRA forecast. The learning outcome makes the consequences of assumptions concrete enough to discuss, compare and challenge.
 
 ### Why this is a signal
 
@@ -1783,6 +1895,10 @@ The films explore possible supply chains. They do not establish that the events 
 
 **Source:** [About the project / practice](https://superfutures.rca.ac.uk/natures-depot-fd25).
 
+**Additional primary sources:**
+
+- [Film example: Portioned](https://superfutures.rca.ac.uk/natures-depot-fd25/portioned).
+
 ---
 
 ## SIG-EDU-036
@@ -1806,7 +1922,9 @@ The films explore possible supply chains. They do not establish that the events 
 
 ### Description
 
-Learning Planet Youth Design Challenge supports young people aged 15–26 who are developing social-impact projects. Themes include peace and democracy, wellbeing and mental health, and environment and climate. The 2026–2027 edition emphasises learning through action: what participants learn while developing a project and how this experience can be shared.
+Learning Planet Youth Design Challenge supports social-impact projects by people aged 15–26. Online proposals address peace and democracy, mental health and wellbeing, or environment and climate. Participants' own ideas provide the basis for learning.
+
+The 2026–2027 edition describes online training, mentoring, masterclasses and practical tools for 60 shortlisted projects. A jury then selects 12 projects whose representatives receive grants and further networking support. These benefits follow selection rather than going to every applicant. The signal connects education with action: participants develop a real proposal, receive feedback and learn to explain it to others.
 
 ### Why this is a signal
 
@@ -1851,7 +1969,9 @@ The programme supports selected projects. Support and stated intentions are not 
 
 ### Description
 
-In Challenge-Based Innovation courses, interdisciplinary university teams explore complex social problems informed by CERN’s scientific and technological research. The work includes clarifying a problem and developing responses. It is a learning setting for inquiry and prototyping rather than the delivery of a known answer.
+Challenge-Based Innovation connects university teams with IdeaSquare, CERN's open-innovation lab. Students from different disciplines investigate societal challenges, drawing inspiration from CERN science and exchanging with experts. Universities co-create programmes, so content, methods and duration vary between editions.
+
+Teams develop projects, visit IdeaSquare, join discussions and use prototyping facilities, including electronics and 3D-printing workshops. Meetings between university groups enable exchange. An open challenge requires clarifying whose needs a solution serves and giving ideas a testable form. A prototype is an educational research outcome; its suitability for wider use requires further validation.
 
 ### Why this is a signal
 
@@ -1871,6 +1991,10 @@ An open problem requires inquiry and support. Access to technology does not guar
 <!-- Related macrotrend and life-domain cards for SIG-EDU-037: add explicit links here once the actual files exist. -->
 
 **Source:** [About the project / practice](https://cds.cern.ch/record/2880272/files/IdeaSquare%20Progress%20Report%202021-2023_DIGITAL.pdf).
+
+**Additional primary sources:**
+
+- [How the programme works](https://www.cbi-course.com/programme/).
 
 ---
 
@@ -1895,7 +2019,9 @@ An open problem requires inquiry and support. Access to technology does not guar
 
 ### Description
 
-Hackers & Designers assemble and rewrite workshop scripts, repeat them, change materials and props, and alter the pace and format. Rather than prescribe an ideal session, participants explore how the form of collective learning affects behaviour and results.
+Figuring Things Out Together is a Hackers & Designers publication about collective learning and workshop formats. Instructions, conversations and accounts of re-enactments make practices transferable: another group can perform a script, annotate it and adapt it.
+
+One approach examines familiar workshop props, such as sticky notes, boards and chair arrangements. Participants replace them with self-made alternatives and observe the consequences; another exercise physically rehearses a workshop at high speed. The aim is to notice how spaces and actions shape collaboration. Different versions and open questions present learning as shared work that can continue and change in another context.
 
 ### Why this is a signal
 
@@ -1944,7 +2070,9 @@ Repeating and altering a workshop provides material for investigating a particul
 
 ### Description
 
-At Ars Electronica, radical making connects making things with critical inquiry into technology, inequality and power. Young people are considered co-authors of the space and its norms rather than only recipients of STEM education.
+Rightful Presence and Radical Making was an Ars Electronica 2025 conversation about power and inequality in technical education. It focused on makerspaces where young people create things and investigate technology, asking what would give them meaningful influence over these environments.
+
+The questions concern choosing tasks, recognising participants' experience and discussing technology's social consequences. Making connects to critical inquiry into who decides and whose interests count. The session frames participation as co-creating an educational environment. This is a discussion topic and research direction; its programme does not establish a universal method or youth control of every makerspace.
 
 ### Why this is a signal
 
@@ -1998,7 +2126,9 @@ The panel asks about sharing power. Participation, access to equipment and the f
 
 ### Description
 
-Learning at Sora Schools includes interdisciplinary projects and independent inquiry supported by mentors. As students become familiar with the model, they increasingly help define their own projects. Academic credits are linked to demonstrated curricular units and abilities; required content and checks on breadth of preparation remain.
+Sora Schools organises learning in twelve-week cycles. Students choose interdisciplinary “expeditions” and work on projects with subject experts. Initially, staff design the projects; as students learn the process, they are encouraged to develop their own topics and proposals.
+
+Each cycle requires a final deliverable demonstrating curricular units and abilities. Experts help find resources, give feedback and maintain breadth. Students can see completed requirements and areas needing more work. Independent activity combines with live sessions and community meetings. Personal projects shape much of the journey while required subject outcomes and graduation standards remain in place.
 
 ### Why this is a signal
 
