@@ -16,7 +16,8 @@ date: 2026-11-16
 <div>
 <p class="about-role">Футуролог и стратег, автор метода «Декодер Будущего»</p>
 <p class="about-lead">Я помогаю людям и командам увидеть не одно предсказанное будущее, а несколько возможных, и выбрать, какое из них строить.</p>
-<a class="polotno-btn" href="mailto:ereminaolya.strateg@gmail.com">Написать мне</a>
+<a class="polotno-btn" href="/sotrudnichestvo">Сотрудничество</a>
+<a class="polotno-btn ghost" href="mailto:ereminaolya.strateg@gmail.com">Написать мне</a>
 <a class="polotno-btn ghost" href="https://www.youtube.com/@futuredecoder_eremina">YouTube</a>
 <a class="polotno-btn ghost" href="https://t.me/olya_v_trende">Telegram-канал</a>
 </div>
@@ -103,12 +104,7 @@ date: 2026-11-16
 
 ## Что можно сделать вместе
 
-- Прийти на открытую игру.
-- Пройти лабораторию «Архитектура человека».
-- Заказать игру или стратегическую сессию для команды на вашу тему.
-- Получить сценарии будущего для отрасли, продукта или решения.
-- Прокачать future literacy в компании, чтобы люди сами замечали сигналы и думали вариантами.
-- Поработать над личной стратегией.
+Сценарные игры, лаборатория «Архитектура человека», сценарии и исследования для компаний, обучение команд, личная стратегия, лекции. Все форматы и как мы работаем — на странице [[sotrudnichestvo|Сотрудничество]].
 
 <div class="about-contact">
 <p><b>Написать мне:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>

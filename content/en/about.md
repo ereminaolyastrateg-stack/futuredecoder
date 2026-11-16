@@ -16,7 +16,8 @@ date: 2026-11-16
 <div>
 <p class="about-role">Futurist and strategist, author of the Future Decoder method</p>
 <p class="about-lead">I help people and teams see not one predicted future but several possible ones, and choose which of them to build.</p>
-<a class="polotno-btn" href="mailto:ereminaolya.strateg@gmail.com">Write to me</a>
+<a class="polotno-btn" href="/en/work-with-me">Work with me</a>
+<a class="polotno-btn ghost" href="mailto:ereminaolya.strateg@gmail.com">Write to me</a>
 <a class="polotno-btn ghost" href="https://www.youtube.com/@futuredecoder_eremina">YouTube</a>
 <a class="polotno-btn ghost" href="https://t.me/olya_v_trende">Telegram channel</a>
 </div>
@@ -103,12 +104,7 @@ Our actions are guided by the image of the future in our heads. Most often it is
 
 ## What we can do together
 
-- Join an open game.
-- Take part in the Architecture of a Person lab.
-- Book a game or strategy session for your team on your topic.
-- Get futures scenarios for your industry, product or decision.
-- Build future literacy in your company, so people notice signals and think in options.
-- Work on your personal strategy.
+Scenario games, the Architecture of a Person lab, scenarios and research for companies, team training, personal strategy, talks. All formats and how we work are on the [[en/work-with-me|Work With Me]] page.
 
 <div class="about-contact">
 <p><b>Write to me:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>

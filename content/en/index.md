@@ -17,5 +17,6 @@ Here I collect notes on trends, signals, scenarios, mental models, and my own ex
 - [Book](/en/book/)
 - [Materials](/en/materials/)
 - [Media Library](/en/media-library/)
+- [Work With Me](/en/work-with-me)
 - [Talks](/en/talks)
 - [About the Author](/en/about)

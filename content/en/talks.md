@@ -84,7 +84,7 @@ I adapt any topic to the audience and the time available, from 40 minutes to a f
 
 ## Where I have spoken
 
-Grushin Conference (2024, "The Other Side of Trendwatching"), ProductSense (2022, 2024), ProductCamp (2022), the Humanitarium festival, the trendwatching course for MBA and Executive MBA students at Synergy University, programmes for bank and company teams, and open Decoder games. More on the [[en/about|About the Author]] page.
+Grushin Conference (2024, "The Other Side of Trendwatching"), ProductSense (2022, 2024), ProductCamp (2022), the Humanitarium festival, the trendwatching course for MBA and Executive MBA students at Synergy University, programmes for bank and company teams, and open Decoder games. More on the [[en/about|About the Author]] page. Other ways to work together are on the [[en/work-with-me|Work With Me]] page.
 
 <div class="about-contact">
 <p><b>Invite me to speak:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
