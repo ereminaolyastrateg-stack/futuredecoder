@@ -28,6 +28,8 @@ jobs:
         run: npx quartz plugin install
       - name: Build Quartz
         run: npx quartz build
+      - name: Copy root verification files
+        run: cp -r root-files/. public/
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
