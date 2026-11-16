@@ -572,3 +572,52 @@ body[data-slug="en/index"] {
   .language-switcher a { background: transparent; }
   .right.sidebar .graph > .graph-outer { background: transparent; }
 }
+
+// Об авторе
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(12rem, 18rem) 1fr;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 1rem 0 2rem;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.1rem;
+    border: 4px solid transparent;
+    background: var(--dec-holo) border-box;
+    margin: 0;
+  }
+  .about-role {
+    font-family: var(--dec-display);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.15rem;
+    line-height: 1.1;
+    margin: 0 0 0.6rem;
+  }
+  .about-lead {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin: 0 0 1.1rem;
+  }
+  .polotno-btn {
+    margin: 0 0.5rem 0.5rem 0;
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    img {
+      max-width: 16rem;
+    }
+  }
+}
+.about-contact {
+  margin: 2rem 0 1rem;
+  padding: 1.2rem 1.4rem;
+  border-radius: 1rem;
+  border: 1px solid var(--dark);
+  background: color-mix(in srgb, var(--dec-cz) 18%, transparent);
+  p {
+    margin: 0.3rem 0;
+  }
+}
