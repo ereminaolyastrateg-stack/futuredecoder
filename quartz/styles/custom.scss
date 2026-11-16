@@ -721,3 +721,22 @@ ul.tags a.tag-link { font-size: 0.74rem !important; padding: 0.1rem 0.55rem !imp
   .theme-chip { background: color-mix(in srgb, var(--dec-cz) 22%, transparent) !important; outline: 0 !important; font-weight: 600; }
   .signal-added { white-space: nowrap; color: var(--darkgray); font-size: 0.8rem; }
 }
+
+// страницы каталога сигналов: таблица на всю ширину, без правой колонки
+@media (min-width: 1200px) {
+  body[data-slug="materialy/signaly/education"],
+  body[data-slug="materialy/signaly/obrazovanie/index"],
+  body[data-slug="materialy/signaly/index"],
+  body[data-slug="en/materials/signals/education"],
+  body[data-slug="en/materials/signals/education-signals/index"],
+  body[data-slug="en/materials/signals/index"] {
+    #quartz-body {
+      grid-template-areas:
+        "grid-sidebar-left grid-header grid-header"
+        "grid-sidebar-left grid-center grid-center"
+        "grid-sidebar-left grid-footer grid-footer" !important;
+    }
+    .right.sidebar { display: none !important; }
+    .page-header, .center > article, .center > .page-footer { max-width: 46rem; }
+  }
+}
