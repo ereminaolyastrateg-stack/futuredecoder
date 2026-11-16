@@ -17,6 +17,7 @@ date: 2026-11-16
 <p class="about-role">Футуролог и стратег, автор метода «Декодер Будущего»</p>
 <p class="about-lead">Я помогаю людям и командам увидеть не одно предсказанное будущее, а несколько возможных, и выбрать, какое из них строить.</p>
 <a class="polotno-btn" href="mailto:ereminaolya.strateg@gmail.com">Написать мне</a>
+<a class="polotno-btn ghost" href="https://www.youtube.com/@futuredecoder_eremina">YouTube</a>
 <a class="polotno-btn ghost" href="https://t.me/olya_v_trende">Telegram-канал</a>
 </div>
 </div>
@@ -37,7 +38,7 @@ date: 2026-11-16
 
 - Пишу книгу в формате дневника: истории о том, как образ будущего меняет жизнь.
 - Веду [Telegram-канал](https://t.me/olya_v_trende) о трендах и образах будущего.
-- Читаю лекции: как меняются глобальные тренды и методы институтов будущего, как жить в хаосе и неопределённости.
+- Читаю лекции и выкладываю их на [YouTube](https://www.youtube.com/@futuredecoder_eremina), к каждой — подробный лонгрид. Все темы и записи — на странице [[lekcii|Лекции и выступления]].
 - Исследую, как менялось отношение к человеку в истории, и смотрю на живопись как на радар будущего.
 - Собираю базу знаний из игр: справочник сфер жизни с тестом «как сейчас / как хочу» и [Полотно будущего](/static/polotno/).
 
@@ -112,6 +113,7 @@ date: 2026-11-16
 <div class="about-contact">
 <p><b>Написать мне:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
 <p><b>Telegram-канал:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a></p>
+<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a></p>
 </div>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Оля Ерёмина","alternateName":"Olga Eremina","jobTitle":"Футуролог и стратег, автор метода «Декодер Будущего»","url":"https://futuredecoder.org/ob-avtore","image":"https://futuredecoder.org/static/about/olya-eremina.jpg","email":"mailto:ereminaolya.strateg@gmail.com","sameAs":["https://t.me/olya_v_trende","https://futuredecoder.ru","https://pro-trendwatching.ru/olyaeremina"],"knowsAbout":["стратегический форсайт","сценарное планирование","трендвотчинг","future literacy","системное мышление"],"homeLocation":{"@type":"Place","name":"Валенсия, Испания"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Оля Ерёмина","alternateName":"Olga Eremina","jobTitle":"Футуролог и стратег, автор метода «Декодер Будущего»","url":"https://futuredecoder.org/ob-avtore","image":"https://futuredecoder.org/static/about/olya-eremina.jpg","email":"mailto:ereminaolya.strateg@gmail.com","sameAs":["https://www.youtube.com/@futuredecoder_eremina","https://t.me/olya_v_trende","https://futuredecoder.ru","https://pro-trendwatching.ru/olyaeremina"],"knowsAbout":["стратегический форсайт","сценарное планирование","трендвотчинг","future literacy","системное мышление"],"homeLocation":{"@type":"Place","name":"Валенсия, Испания"}}</script>

@@ -639,3 +639,20 @@ article a.polotno-btn {
   &.ghost:hover { color: #fff !important; }
 }
 article .about-contact a svg { display: none; }
+
+// видео YouTube
+article .video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 0.8rem 0 1.8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--dark);
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}

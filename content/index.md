@@ -18,4 +18,5 @@ translations:
 - [Материалы](/materialy/)
 - [Медиатека](/mediateka/)
 - [Теория](/theory/)
+- [Лекции](/lekcii)
 - [Об авторе](/ob-avtore)

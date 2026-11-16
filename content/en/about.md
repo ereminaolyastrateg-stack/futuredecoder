@@ -17,6 +17,7 @@ date: 2026-11-16
 <p class="about-role">Futurist and strategist, author of the Future Decoder method</p>
 <p class="about-lead">I help people and teams see not one predicted future but several possible ones, and choose which of them to build.</p>
 <a class="polotno-btn" href="mailto:ereminaolya.strateg@gmail.com">Write to me</a>
+<a class="polotno-btn ghost" href="https://www.youtube.com/@futuredecoder_eremina">YouTube</a>
 <a class="polotno-btn ghost" href="https://t.me/olya_v_trende">Telegram channel</a>
 </div>
 </div>
@@ -37,7 +38,7 @@ Our actions are guided by the image of the future in our heads. Most often it is
 
 - I am writing a book in diary form: stories about how an image of the future changes a life.
 - I run a [Telegram channel](https://t.me/olya_v_trende) (in Russian) about trends and images of the future.
-- I give lectures on how global trends and the methods of futures institutes are changing, and on how to live with chaos and uncertainty.
+- I give lectures and publish them on [YouTube](https://www.youtube.com/@futuredecoder_eremina) (in Russian), each with a detailed long read. All topics and recordings are on the [[en/talks|Talks and Lectures]] page.
 - I research how attitudes to the human being have changed through history, and look at painting as a radar of the future.
 - I build a knowledge base from the games: a reference of life spheres with a "how it is now / how I want it" test, and the [Future Canvas](/static/polotno/en/).
 
@@ -112,6 +113,7 @@ Our actions are guided by the image of the future in our heads. Most often it is
 <div class="about-contact">
 <p><b>Write to me:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
 <p><b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a> (in Russian)</p>
+<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a> (in Russian)</p>
 </div>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Olga Eremina","alternateName":"Оля Ерёмина","jobTitle":"Futurist and strategist, author of the Future Decoder method","url":"https://futuredecoder.org/en/about","image":"https://futuredecoder.org/static/about/olya-eremina.jpg","email":"mailto:ereminaolya.strateg@gmail.com","sameAs":["https://t.me/olya_v_trende","https://futuredecoder.ru","https://pro-trendwatching.ru/olyaeremina"],"knowsAbout":["strategic foresight","scenario planning","trendwatching","future literacy","systems thinking"],"homeLocation":{"@type":"Place","name":"Valencia, Spain"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Olga Eremina","alternateName":"Оля Ерёмина","jobTitle":"Futurist and strategist, author of the Future Decoder method","url":"https://futuredecoder.org/en/about","image":"https://futuredecoder.org/static/about/olya-eremina.jpg","email":"mailto:ereminaolya.strateg@gmail.com","sameAs":["https://www.youtube.com/@futuredecoder_eremina","https://t.me/olya_v_trende","https://futuredecoder.ru","https://pro-trendwatching.ru/olyaeremina"],"knowsAbout":["strategic foresight","scenario planning","trendwatching","future literacy","systems thinking"],"homeLocation":{"@type":"Place","name":"Valencia, Spain"}}</script>

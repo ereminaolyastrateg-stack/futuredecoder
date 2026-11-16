@@ -268,6 +268,7 @@ llms = [
     '',
     f'- [Оля Ерёмина — об авторе]({SITE}/ob-avtore): футуролог и стратег, автор метода; игры, лаборатория, проекты для компаний, личная стратегия. Контакт: ereminaolya.strateg@gmail.com',
     f'- [Olga Eremina — about the author]({SITE}/en/about): futurist and strategist, author of the method.',
+    f'- [Лекции и выступления]({SITE}/lekcii) / [Talks]({SITE}/en/talks): записи лекций, темы выступлений. YouTube: https://www.youtube.com/@futuredecoder_eremina',
     '',
     '## Полотно будущего (база знаний)',
     '',
