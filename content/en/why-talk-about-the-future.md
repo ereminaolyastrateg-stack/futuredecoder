@@ -40,3 +40,11 @@ With permission from my friends, participants in my games, and clients, I will a
 This book is about seeing the wider context, learning to love it, feeling a taste for life, and discovering that uncertainty can be wonderful. And yes, it is probably for people like me — people who fear uncertainty and spend their whole lives searching for stability, only to become most frustrated when they finally find it.
 
 Donations to give the author some external motivation: https://tbank.ru/cf/3s736ugs8Nz
+
+## Connections
+
+- First story: [[en/book/chapter-1/life-ends-at-eighteen|Life Ends at Eighteen]]
+- The lecture “The image of the future” and other recordings: [[en/talks|Talks and Lectures]]
+- What people design at the games: [[en/future-canvas/index|Future Canvas]]
+- Questions where it all starts: [[en/future-canvas/what-am-i-living-for-if-i-seem-to-have-everything|What am I living for, if I seem to have everything?]], [[en/future-canvas/how-do-i-find-my-calling|How do I find my calling?]], [[en/future-canvas/does-anything-depend-on-me-at-all|Does anything depend on me at all?]], [[en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on|How do I live when there's nothing to rely on?]]
+- About the author: [[en/about|Olga Eremina]]

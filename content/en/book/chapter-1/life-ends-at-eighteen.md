@@ -212,3 +212,10 @@ Not even money.
 The difference was the question that began the search.
 
 Back then, I did not even know that the second question existed.
+
+## Connections
+
+- The same questions at the games: [[en/future-canvas/do-i-need-a-diploma-to-achieve-anything|Do I need a diploma to achieve anything?]], [[en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing|How do I choose a profession when everything keeps changing?]], [[en/future-canvas/what-should-i-learn-so-i-don-t-fall-behind|What should I learn so I don't fall behind?]], [[en/future-canvas/what-advice-should-i-give-my-child-who-s-leaving-home-to|What advice should I give my child who's leaving home to study?]]
+- Signals that the path into a profession can be different: [[en/materials/signals/education-signals/sig-edu-016|Solar Mamas — engineers through practice]], [[en/materials/signals/education-signals/sig-edu-029|42 — no lectures, no teachers]], [[en/materials/signals/education-signals/sig-edu-027|College Unbound — a learning plan built around your life]], [[en/materials/signals/education-signals/sig-edu-006|Mastery Transcript — evidence of ability instead of a grade]], [[en/materials/signals/education-signals/sig-edu-007|Open Badges — a skill as a portable record]]
+- The lecture “The image of the future”: [[en/talks|Talks and Lectures]]
+- The start of the book: [[en/why-talk-about-the-future|Why Talk About the Future]]

@@ -211,3 +211,11 @@ date: 2026-06-26
 А вопрос, с которого начинается поиск.
 
 Я тогда даже не знала, что существует второй вопрос.
+
+## Связи
+
+- Что это было на самом деле — разбор этой истории через когнитивные искажения, Полака и Голдратта: [[theory/The Future as a Mental Model|Ограничение наших ментальных моделей]]
+- Те же вопросы на играх: [[polotno/nuzhen-li-mne-diplom-chtoby-chego-to-dobitsya|Нужен ли мне диплом, чтобы чего-то добиться?]], [[polotno/kak-vybrat-professiyu-esli-vse-menyaetsya|Как выбрать профессию, если всё меняется?]], [[polotno/chemu-mne-uchitsya-chtoby-ne-otstat|Чему мне учиться, чтобы не отстать?]], [[polotno/chto-posovetovat-rebenku-kotoryy-uezzhaet-uchitsya|Что посоветовать ребёнку, который уезжает учиться?]]
+- Сигналы о том, что путь в профессию бывает другим: [[materialy/signaly/obrazovanie/sig-edu-016|Solar Mamas — инженеры через практику]], [[materialy/signaly/obrazovanie/sig-edu-029|42 — без лекций и преподавателей]], [[materialy/signaly/obrazovanie/sig-edu-027|College Unbound — план обучения вокруг своей жизни]], [[materialy/signaly/obrazovanie/sig-edu-006|Mastery Transcript — доказательства способности вместо оценки]], [[materialy/signaly/obrazovanie/sig-edu-007|Open Badges — навык как переносимая запись]]
+- Лекция «Образ будущего»: [[lekcii|Лекции и выступления]]
+- Начало книги: [[zachem-etot-sad|Зачем говорить о будущем]]
