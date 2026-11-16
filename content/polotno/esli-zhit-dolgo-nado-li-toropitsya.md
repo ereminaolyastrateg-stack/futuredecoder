@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Если жить д
 lang: ru
 translations:
   ru: /polotno/esli-zhit-dolgo-nado-li-toropitsya
+  en: /en/future-canvas/if-i-live-long-do-i-need-to-hurry
 tags:
   - polotno
 created: 2026-11-16

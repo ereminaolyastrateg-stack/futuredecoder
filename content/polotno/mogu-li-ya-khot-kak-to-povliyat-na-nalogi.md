@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Могу ли я х�
 lang: ru
 translations:
   ru: /polotno/mogu-li-ya-khot-kak-to-povliyat-na-nalogi
+  en: /en/future-canvas/can-i-influence-taxes-at-all
 tags:
   - polotno
 created: 2026-11-16

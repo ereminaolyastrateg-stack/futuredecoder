@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Кто на само
 lang: ru
 translations:
   ru: /polotno/kto-na-samom-dele-upravlyaet-moimi-dengami
+  en: /en/future-canvas/who-really-manages-my-money
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как найти с
 lang: ru
 translations:
   ru: /polotno/kak-nayti-smysl-zhizni
+  en: /en/future-canvas/how-do-i-find-the-meaning-of-life
 tags:
   - polotno
 created: 2026-11-16

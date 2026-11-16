@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Не съест ли
 lang: ru
 translations:
   ru: /polotno/ne-sest-li-globalnyy-mir-moy-gorod-moe-delo-moy-rayon
+  en: /en/future-canvas/will-the-global-world-swallow-my-city-my-business-my
 tags:
   - polotno
 created: 2026-11-16

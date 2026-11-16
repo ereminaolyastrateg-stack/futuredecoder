@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future Canvas — Future Decoder</title>
+<!--seo-->
+<meta name="description" content="Questions about the future and four answers to each, designed by participants of Future Decoder scenario games: duel of worlds, dilemmas and a daily signal.">
+<link rel="canonical" href="https://futuredecoder.org/static/polotno/en/">
+<link rel="alternate" hreflang="ru" href="https://futuredecoder.org/static/polotno/">
+<link rel="alternate" hreflang="en" href="https://futuredecoder.org/static/polotno/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Future Canvas — Future Decoder">
+<meta property="og:description" content="Choose the future you are building, and challenge a friend to a duel of worlds.">
+<meta property="og:url" content="https://futuredecoder.org/static/polotno/en/">
+<meta property="og:image" content="https://futuredecoder.org/static/og-image.png">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Future Canvas", "alternateName": "Полотно будущего", "url": "https://futuredecoder.org/static/polotno/en/", "applicationCategory": "EducationalApplication", "inLanguage": "en", "isAccessibleForFree": true, "description": "Questions about the future and four scenario answers to each, from Future Decoder games.", "creator": {"@type": "Person", "name": "Olga Eremina", "url": "https://futuredecoder.ru"}, "isPartOf": {"@type": "WebSite", "name": "Future Decoder", "url": "https://futuredecoder.org/"}}</script>
+<!--/seo-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+/* Декодер: тёплая бумага, чёрные узкие капсы, плоские цветные плашки, голограмма и детский мелок. Один светлый мир. */
+:root{
+  --bg:#efeeea; --surface:#ffffff; --ink:#191818; --muted:#5f5d58; --line:#d9d6ce;
+  --cs:#fc5721; --cz:#fedf3a; --ds:#1e7ff0; --dz:#fd7fb8;
+  --link:#068ee6;
+  --display:"Oswald","Arial Narrow",Impact,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --hand:"Caveat","Comic Sans MS",cursive;
+  --holo:linear-gradient(115deg,#f2d36b 0%,#f08a4b 18%,#e9508e 34%,#7a5cf0 50%,#2fa7e8 66%,#5fd3a0 82%,#f2d36b 100%);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:20px 20px 64px;position:relative}
+.L-ЦС{--c:var(--cs);--on:#fff} .L-ЦЗ{--c:var(--cz);--on:var(--ink)} .L-ДС{--c:var(--ds);--on:#fff} .L-ДЗ{--c:var(--dz);--on:var(--ink)}
+.brace{color:var(--link);font-size:13px;font-weight:500}
+.mast{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px;line-height:.95;text-transform:uppercase;letter-spacing:.02em}
+.logo i{width:34px;height:34px;border-radius:8px;background:var(--holo);display:block}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
+nav.tabs a{text-decoration:none;padding:7px 16px;border:1px solid var(--ink);border-radius:999px;font-size:14px;font-weight:500;background:var(--surface)}
+nav.tabs a[aria-current="page"]{background:var(--ink);color:#fff}
+nav.tabs a.langsw{font-weight:700;border-style:dashed}
+.hero{position:relative;overflow:hidden;border-radius:18px;background:var(--holo);padding:34px 30px 30px;color:#fff;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:end}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 80% 80%,rgba(25,24,24,.35),transparent 55%);pointer-events:none}
+.hero>*{position:relative;z-index:1}
+h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(48px,8.5vw,108px);line-height:.9;margin:0;letter-spacing:-.005em;text-wrap:balance}
+.handnote{font-family:var(--hand);font-size:30px;line-height:1;margin:10px 0 0;transform:rotate(-2deg);display:inline-block}
+.glass{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.55);border-radius:14px;padding:16px 18px;backdrop-filter:blur(6px);font-size:15px}
+.glass b{display:block;font-family:var(--display);text-transform:uppercase;font-size:18px;letter-spacing:.02em;margin-bottom:6px}
+.glass p{margin:0}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding:26px 20px}}
+.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}
+@media (max-width:760px){.legend{grid-template-columns:repeat(2,1fr)}}
+.legend span{background:var(--c);color:var(--on);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;font-size:13px;line-height:1.3}
+.legend b{font-family:var(--display);text-transform:uppercase;font-size:19px;font-weight:700;letter-spacing:.01em;display:flex;align-items:center;gap:8px}
+.sym{flex:none;display:inline-block;vertical-align:middle}
+.legend .sym,.world .wl .sym,.guess .sym{--symc:var(--on)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 10px;align-items:center}
+.chip{border:1px solid var(--ink);background:transparent;border-radius:999px;padding:5px 13px;font-size:13px;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+#search{flex:1 1 240px;min-width:180px;padding:8px 14px;border:1px solid var(--ink);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit;font-size:14px}
+.section-title{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(30px,4.6vw,52px);line-height:.95;margin:26px 0 6px}
+.note{font-size:14px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin-top:14px}
+.plate{text-align:left;background:var(--surface);border:none;border-radius:14px;padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px;min-height:170px;transition:transform .12s, box-shadow .12s}
+.plate:hover{transform:translateY(-3px);box-shadow:0 6px 0 var(--ink)}
+.plate .top{display:flex;justify-content:space-between;align-items:center}
+.plate .sph{font-size:12px;color:var(--link);font-weight:500}
+.plate .num{font-family:var(--display);font-size:15px;color:var(--muted)}
+.plate .qq,.plate .dq{font-family:var(--display);font-weight:500;text-transform:uppercase;font-size:21px;line-height:1.05;text-wrap:balance}
+.plate .ask{color:var(--muted);font-size:13px;line-height:1.35}
+.plate .worlds{display:flex;gap:4px;margin-top:auto}
+.plate .worlds i{height:10px;flex:1;border-radius:999px;background:var(--line)}
+.plate .worlds i.on{background:var(--c)}
+.panel{display:none}
+.back{background:none;border:none;padding:0;color:var(--link);margin:20px 0 10px;font-size:14px}
+.qhead h2,.duel h2,.dcard h2{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(30px,4.8vw,56px);line-height:.95;margin:4px 0 10px;text-wrap:balance}
+.qhead p{margin:0;color:var(--muted)}
+.qhead .meta{font-size:13px;margin-top:8px;color:var(--link)}
+.worldgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-top:18px}
+.world{background:var(--surface);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.world>*:not(.wl){padding:0 16px}
+.world>*:last-child{margin-bottom:16px}
+.world .wl{background:var(--c);color:var(--on);display:flex;align-items:center;gap:10px;padding:12px 16px;font-family:var(--display);text-transform:uppercase;font-size:20px;font-weight:700;line-height:1;margin-bottom:12px}
+.world .wl .sym{color:var(--on)!important}
+.world .who{padding:10px 16px 0;font-size:12px;color:var(--muted);order:-1}
+.world .one{font-weight:700;font-size:17px;line-height:1.3;margin-bottom:6px}
+.world h4{margin:10px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--link);font-weight:600}
+.world p{margin:0;font-size:14.5px}
+.world .quote{font-family:var(--hand);font-size:22px;line-height:1.15;margin-top:10px}
+.world .step{margin:14px 16px 0;padding:12px!important;background:var(--bg);border-radius:10px}
+.world.empty{background:transparent;border:2px dashed var(--line);color:var(--muted);font-size:14px}
+.world.empty .wl{opacity:.55}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.btn{border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:999px;padding:11px 20px;font-weight:600;font-size:15px}
+.btn.ghost{background:var(--surface);color:var(--ink)}
+.mixes{margin-top:26px}
+.mixes h3{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:28px;margin:0 0 10px}
+.mix{background:var(--surface);border-radius:14px;padding:16px 18px;margin-bottom:8px}
+.mix .mt{font-family:var(--display);text-transform:uppercase;font-size:20px;font-weight:500;line-height:1.05;margin-top:2px}
+.mix .ml{font-size:12px;color:var(--link)}
+.mix p{margin:6px 0 0;font-size:14.5px}
+.mix .par{font-weight:600}
+.duel,.dcard{max-width:820px}
+.picks{display:grid;gap:8px;margin:18px 0}
+.pick{text-align:left;background:var(--surface);border:2px solid transparent;border-radius:14px;padding:16px 18px;font-size:17px;font-weight:600}
+.pick:hover{border-color:var(--ink)}
+.reveal{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+@media (max-width:560px){.reveal{grid-template-columns:1fr}}
+.pair{background:var(--ink);color:#fff;border-radius:14px;padding:20px;position:relative;overflow:hidden}
+.pair::before{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:var(--holo);opacity:.9}
+.pair>*{position:relative}
+.pair .pt{font-family:var(--display);text-transform:uppercase;font-size:30px;font-weight:700;line-height:1;margin-bottom:8px}
+.pair p{margin:6px 0 0;max-width:60ch}
+.sharebox{margin-top:12px;display:none}
+.sharebox.show{display:block}
+.sharebox textarea{width:100%;min-height:90px;border:1px solid var(--ink);border-radius:12px;padding:12px;font:inherit;font-size:14px;background:var(--surface);color:var(--ink)}
+.sigcard{background:var(--surface);border-radius:18px;padding:24px;max-width:820px;position:relative;overflow:hidden}
+.sigcard::after{content:"";position:absolute;right:-60px;bottom:-60px;width:180px;height:180px;border-radius:50%;background:var(--cs);opacity:.9}
+.sigcard>*{position:relative;z-index:1}
+.sigcard .date{font-size:13px;color:var(--link);font-weight:500}
+.sigcard .st{font-family:var(--display);text-transform:uppercase;font-size:clamp(26px,3.6vw,40px);font-weight:500;line-height:1;margin:12px 0 10px;text-wrap:balance;max-width:24ch}
+.guess{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:18px;max-width:640px}
+@media (max-width:480px){.guess{grid-template-columns:1fr}}
+.guess button{border:none;background:var(--c);color:var(--on);border-radius:12px;padding:12px 14px;text-align:left}
+.guess button b{display:flex;align-items:center;gap:8px;font-family:var(--display);text-transform:uppercase;font-size:18px;font-weight:700}
+.guess button .sym{color:var(--on)!important}
+.guess button span{font-size:12.5px;opacity:.85}
+.guess button:disabled{cursor:default;opacity:.35}
+.guess button.right{opacity:1;box-shadow:0 0 0 3px var(--ink)}
+.guess button.wrong{opacity:.6;text-decoration:line-through}
+.result{margin-top:16px;display:none;max-width:640px}
+.result.show{display:block}
+.stats{display:flex;gap:18px;margin-top:10px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.dopts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){.dopts{grid-template-columns:1fr}}
+.dopt{text-align:left;background:var(--surface);border:2px solid transparent;border-radius:14px;padding:20px;font-family:var(--display);text-transform:uppercase;font-size:22px;font-weight:500;line-height:1.05;min-height:110px}
+.dopt:hover{border-color:var(--ink)}
+.dopt:disabled{cursor:default;opacity:.45}
+.dopt.mine{opacity:1;border-color:var(--ink);background:var(--cz)}
+.dopt .tag{display:block;margin-top:10px;font-family:var(--body);text-transform:none;font-size:13px;font-weight:500;color:var(--muted)}
+.dopt.mine .tag{color:var(--ink)}
+.friendpick{font-size:14px;margin:0 0 10px}
+.gamebox{background:var(--surface);border-radius:14px;padding:18px 20px;margin-top:14px}
+.gamebox h4{margin:12px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--link)}
+.gamebox h4:first-child{margin-top:0}
+.gamebox p{margin:0}
+.lede{color:var(--muted);max-width:62ch}
+footer{margin-top:44px;border-top:1px solid var(--ink);padding-top:14px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.dot-deco{position:absolute;border-radius:50%;pointer-events:none;z-index:0}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<!--noscript--><noscript><div class="wrap"><h2>Canvas questions</h2><ul><li><a href="/en/future-canvas/what-should-i-learn-so-i-don-t-fall-behind">What should I learn so I don't fall behind?</a></li><li><a href="/en/future-canvas/what-should-i-teach-my-children">What should I teach my children?</a></li><li><a href="/en/future-canvas/why-school-and-university-if-there-s-ai">Why school and university, if there's AI?</a></li><li><a href="/en/future-canvas/how-do-i-know-i-m-an-expert-if-grades-mean-nothing">How do I know I'm an expert if grades mean nothing?</a></li><li><a href="/en/future-canvas/where-do-i-find-the-discipline-and-motivation-to-learn">Where do I find the discipline and motivation to learn?</a></li><li><a href="/en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing">How do I choose a profession when everything keeps changing?</a></li><li><a href="/en/future-canvas/what-if-i-don-t-feel-like-learning-anything">What if I don't feel like learning anything?</a></li><li><a href="/en/future-canvas/if-everyone-chooses-work-they-love-who-will-do-what-s-needed">If everyone chooses work they love, who will do what's needed?</a></li><li><a href="/en/future-canvas/what-is-happiness-and-can-it-be-measured">What is happiness, and can it be measured?</a></li><li><a href="/en/future-canvas/why-am-i-burning-out-when-i-m-doing-everything-right">Why am I burning out when I'm doing everything right?</a></li><li><a href="/en/future-canvas/do-i-have-to-show-that-i-m-happy">Do I have to show that I'm happy?</a></li><li><a href="/en/future-canvas/where-do-i-look-for-happiness-when-nothing-brings-me-joy">Where do I look for happiness when nothing brings me joy?</a></li><li><a href="/en/future-canvas/how-do-i-combine-a-quiet-life-with-the-need-to-earn">How do I combine a quiet life with the need to earn?</a></li><li><a href="/en/future-canvas/how-do-i-find-a-job-if-i-don-t-know-what-i-want-to-do">How do I find a job if I don't know what I want to do?</a></li><li><a href="/en/future-canvas/do-i-need-a-diploma-to-achieve-anything">Do I need a diploma to achieve anything?</a></li><li><a href="/en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it">Where do I find stability if money no longer guarantees it?</a></li><li><a href="/en/future-canvas/what-awaits-me-after-60-80-if-i-don-t-want-to-just-live-out">What awaits me after 60–80 if I don't want to just “live out my days”?</a></li><li><a href="/en/future-canvas/is-my-child-my-project">Is my child my project?</a></li><li><a href="/en/future-canvas/how-do-i-find-my-calling">How do I find my calling?</a></li><li><a href="/en/future-canvas/do-i-need-to-monitor-my-health-myself">Do I need to monitor my health myself?</a></li><li><a href="/en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on">How do I live when there's nothing to rely on?</a></li><li><a href="/en/future-canvas/is-it-bad-to-choose-what-s-more-convenient">Is it bad to choose what's more convenient?</a></li><li><a href="/en/future-canvas/what-do-i-do-if-my-job-is-no-longer-needed">What do I do if my job is no longer needed?</a></li><li><a href="/en/future-canvas/will-my-children-get-a-decent-education">Will my children get a decent education?</a></li><li><a href="/en/future-canvas/what-will-happen-to-me-if-ai-is-switched-off-tomorrow">What will happen to me if AI is switched off tomorrow?</a></li><li><a href="/en/future-canvas/will-ai-make-me-dumber">Will AI make me dumber?</a></li><li><a href="/en/future-canvas/whom-do-i-trust-when-everyone-sounds-polished">Whom do I trust when everyone sounds polished?</a></li><li><a href="/en/future-canvas/where-do-i-get-experience-if-nobody-hires-juniors">Where do I get experience if nobody hires juniors?</a></li><li><a href="/en/future-canvas/will-we-lose-live-human-contact">Will we lose live human contact?</a></li><li><a href="/en/future-canvas/what-do-i-do-with-free-time">What do I do with free time?</a></li><li><a href="/en/future-canvas/who-s-to-blame-if-ai-gets-it-wrong">Who's to blame if AI gets it wrong?</a></li><li><a href="/en/future-canvas/does-anything-depend-on-me-at-all">Does anything depend on me at all?</a></li><li><a href="/en/future-canvas/will-the-global-world-swallow-my-city-my-business-my">Will the global world swallow my city, my business, my neighbourhood?</a></li><li><a href="/en/future-canvas/what-am-i-living-for-if-i-seem-to-have-everything">What am I living for, if I seem to have everything?</a></li><li><a href="/en/future-canvas/how-do-we-agree-so-nobody-is-left-feeling-wronged">How do we agree so nobody is left feeling wronged?</a></li><li><a href="/en/future-canvas/why-do-i-pay-taxes-and-what-do-i-get-in-return">Why do I pay taxes, and what do I get in return?</a></li><li><a href="/en/future-canvas/can-i-influence-taxes-at-all">Can I influence taxes at all?</a></li><li><a href="/en/future-canvas/who-will-pay-for-me-if-something-happens">Who will pay for me if something happens?</a></li><li><a href="/en/future-canvas/where-does-my-attention-go-and-can-i-get-it-back">Where does my attention go, and can I get it back?</a></li><li><a href="/en/future-canvas/why-do-i-get-hooked-and-then-regret-it">Why do I get hooked and then regret it?</a></li><li><a href="/en/future-canvas/what-advice-should-i-give-my-child-who-s-leaving-home-to">What advice should I give my child who's leaving home to study?</a></li><li><a href="/en/future-canvas/who-really-manages-my-money">Who really manages my money?</a></li><li><a href="/en/future-canvas/why-is-there-seemingly-more-money-yet-life-isn-t-easier">Why is there seemingly more money, yet life isn't easier?</a></li><li><a href="/en/future-canvas/why-am-i-always-thinking-about-money">Why am I always thinking about money?</a></li><li><a href="/en/future-canvas/what-happens-if-money-suddenly-gets-really-tight">What happens if money suddenly gets really tight?</a></li><li><a href="/en/future-canvas/how-do-i-get-out-of-salary-and-mortgage-life">How do I get out of salary-and-mortgage life?</a></li><li><a href="/en/future-canvas/why-would-i-live-to-150-and-will-i-have-enough-in-me-for-it">Why would I live to 150, and will I have enough in me for it?</a></li><li><a href="/en/future-canvas/why-does-everything-else-get-worse-the-more-i-work-on-my">Why does everything else get worse the more I work on my health?</a></li><li><a href="/en/future-canvas/if-i-live-long-do-i-need-to-hurry">If I live long, do I need to hurry?</a></li><li><a href="/en/future-canvas/how-do-i-quit-a-bad-habit-if-it-isn-t-working">How do I quit a bad habit if it isn't working?</a></li><li><a href="/en/future-canvas/how-do-i-find-the-meaning-of-life">How do I find the meaning of life?</a></li></ul></div></noscript><!--/noscript-->
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="crayon"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.4"/></filter></svg>
+<div class="wrap">
+  <div class="mast">
+    <div class="logo"><i aria-hidden="true"></i><span>Future<br>Decoder</span></div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#canvas" data-tab="canvas">Canvas</a>
+      <a href="#dilemmas" data-tab="dilemmas">Dilemmas</a>
+      <a href="#signal" data-tab="signal">Daily signal</a>
+      <a href="../" hreflang="ru" lang="ru" class="langsw">RU</a>
+      <a href="en/" hreflang="en" lang="en" class="langsw">EN</a>
+    </nav>
+  </div>
+  <header class="hero">
+    <div>
+      <div class="brace" style="color:#fff">{Decoder knowledge base}</div>
+      <h1>Future<br>Canvas</h1>
+      <span class="handnote">designed by people at the games</span>
+    </div>
+    <div class="glass"><b>The future is not a verdict</b><p>Questions everyone worries about, and four answers to each. They were designed by participants of Future Decoder games: real signals, the price of each world, and a step you can take this week.</p></div>
+  </header>
+
+  <section id="v-canvas" class="view">
+    <div class="legend" id="legend"></div>
+    <div class="brace" style="margin-top:22px">{Questions}</div>
+    <h2 class="section-title">Choose a question</h2>
+    <div class="filters" id="filters">
+      <input id="search" type="search" placeholder="Find a question: money, AI, longevity…" aria-label="Search questions">
+    </div>
+    <p class="note" style="margin:0 0 4px">Open any question and press “Challenge a friend to a duel of worlds”. Your friend gets a link, picks their world, and you’ll both see what future each of you is building.</p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="v-question" class="view panel"></section>
+  <section id="v-duel" class="view panel"></section>
+
+  <section id="v-dilemmas" class="view panel">
+    <div class="brace" style="margin-top:22px">{Dilemmas}</div><h2 class="section-title">Decide what you would do</h2>
+    <p class="lede" style="margin:8px 0 14px">Paradoxes that surfaced at the games, as a choice between two. There’s no right answer. Choose, and you’ll see what participants concluded.</p>
+    <div class="grid" id="dlist"></div>
+  </section>
+  <section id="v-dil" class="view panel"></section>
+
+  <section id="v-signal" class="view panel">
+    <div class="brace" style="margin-top:22px">{Daily signal}</div><h2 class="section-title">Which world is it in?</h2>
+    <p class="lede" style="margin:8px 0 14px">Every day, one real signal from the games. Guess which world it lives in. There’s no right quadrant, but it’s interesting to see whether you match the people who were at the game.</p>
+    <div class="sigcard" id="sigcard"></div>
+  </section>
+
+  <footer><span id="foot">Decoder knowledge base. The canvas grows after every game.</span><span>{futuredecoder.ru}</span></footer>
+</div>
+
+<script>
+if(/[?&]lang=en\b/.test(location.search)){location.replace("en/"+location.hash)}
+let DATA;
+const BASE = location.href.split("#")[0];
+
+function boot(){
+  fetch("../data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{DATA=d;main();}).catch(err=>{
+    document.querySelector("#grid").innerHTML='<p class="note">Could not load the knowledge base (data.json). If you opened the file from your computer, upload the folder to a site: browsers don’t read neighbouring files locally.</p>';
+  });
+}
+function main(){
+const ORDER = ["ЦС","ЦЗ","ДС","ДЗ"];
+const NAMES = {"ЦС":"Autopilot world","ЦЗ":"Rules world","ДС":"Autonomy world","ДЗ":"Community world"};
+const HINTS = {"ЦС":"the system decides, the result isn’t yours","ЦЗ":"you take part by shared rules","ДС":"you decide, you own it","ДЗ":"you create together with others"};
+const PAIRS = {
+ "ЦС|ЦС":["Double autopilot","You both hand decisions to the system. It's convenient while the system works and counts you as its own.","A question for the pair: which of you will be first to notice it's time to take back the wheel?"],
+ "ЦЗ|ЦЗ":["A shared charter","You both play by the rules and hold on to what's shared. Together you're stable.","The danger is that you don't write the rules. What will you do when they change?"],
+ "ДС|ДС":["Two islands","Each is their own master and their own guarantor. Free and reliable.","Islands don't build bridges. Where will you need a third person?"],
+ "ДЗ|ДЗ":["A shared cause","You both want to create together and set the rules yourselves.","Maximum agency demands maximum responsibility. Which of you will carry it when it gets hard?"],
+ "ЦС|ЦЗ":["The result isn't yours","You're both in the top half of the board: the result belongs to someone else. The difference is whether you take part yourself.","One waits for the system to do everything, the other dutifully follows the rules. Which of you will tire first?"],
+ "ДС|ДЗ":["The result is yours","You both want to own the result. One protects what's theirs, the other invests in what's shared.","Where does “mine” end and “ours” begin? Worth agreeing on in advance."],
+ "ЦС|ДС":["The machine and the workshop","You both save energy and don't want extra involvement. One trusts the service, the other relies on themselves.","If the service goes down, who will come to whom for help?"],
+ "ЦЗ|ДЗ":["Choir and orchestra","You both choose participation and people around you. One fits into what exists, the other builds their own.","The rules of the old world and the rules of a new community rarely match. Whose will you choose?"],
+ "ЦС|ДЗ":["Opposite corners","The greatest distance on the board: one gave the wheel to the system, the other wants to build their own with people.","You have something to learn from each other. One knows how not to spend energy, the other knows how to find it."],
+ "ЦЗ|ДС":["Norm and freedom","Opposite corners of the board: one holds on to shared rules, the other steps outside them.","One gives support, the other gives a way out. Together it works, as long as nobody demands the other become like them."]
+};
+
+
+const SYM={
+ "ЦС":'<rect x="16" y="20" width="32" height="26" rx="5" fill="currentColor" fill-opacity=".15"/><circle cx="26" cy="31" r="3.2"/><circle cx="38" cy="31" r="3.2"/><path d="M25 40h14"/><path d="M32 20v-8"/><circle cx="32" cy="10" r="2.6"/><path d="M16 33h-5M48 33h5"/>',
+ "ЦЗ":'<path d="M11 31 32 13l21 18" /><path d="M17 28v24h30V28" fill="currentColor" fill-opacity=".15"/><path d="M28 52V40h8v12"/><path d="M42 19v-6h5v10"/>',
+ "ДС":'<path d="M12 47q20-18 40 0" fill="currentColor" fill-opacity=".15"/><path d="M8 54q6-4 12 0t12 0 12 0 12 0"/><path d="M31 40q1-10 2-18"/><path d="M33 22q-9-4-14 2M33 22q8-5 13 1M33 22q-3-8-9-9"/><circle cx="50" cy="13" r="4"/>',
+ "ДЗ":'<circle cx="16" cy="22" r="4.5"/><circle cx="32" cy="17" r="4.5"/><circle cx="48" cy="22" r="4.5"/><path d="M16 27v12M32 22v13M48 27v12"/><path d="M16 31q8 4 16-1t16 1"/><path d="M16 39l-4 10M16 39l4 10M32 35l-4 12M32 35l4 12M48 39l-4 10M48 39l4 10"/>'
+};
+function sym(L,s){return `<svg class="sym L-${L}" width="${s}" height="${s}" viewBox="0 0 64 64" aria-hidden="true" style="color:var(--symc,var(--c))"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#crayon)">${SYM[L]}</g></svg>`}
+
+function hid(s){let h=5381;for(let i=0;i<s.length;i++){h=((h<<5)+h+s.charCodeAt(i))>>>0}return h.toString(36)}
+DATA.q=DATA.q.filter(q=>q.show!==false);
+DATA.q.forEach(q=>q.id=hid(q.q));
+const EN=o=>{for(const k of Object.keys(o)){if(k.endsWith("_en")&&o[k]!==undefined&&o[k]!==null){o[k.slice(0,-3)]=o[k]}}};
+DATA.q.forEach(q=>{EN(q);Object.values(q.w).forEach(EN)});DATA.s.forEach(EN);DATA.m.forEach(EN);
+const LC=s=>String(s??"").replace(/ЦС/g,"CS").replace(/ЦЗ/g,"CE").replace(/ДС/g,"DS").replace(/ДЗ/g,"DE");
+const byId = Object.fromEntries(DATA.q.map(q=>[q.id,q]));
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $ = s => document.querySelector(s);
+const store = {get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* legend + filters */
+$("#legend").innerHTML = ORDER.map(L=>`<span class="L-${L}"><b>${sym(L,30)}${NAMES[L]}</b>${HINTS[L]}</span>`).join("");
+const spheres = ["All", ...Array.from(new Set(DATA.q.map(q=>q.sphere)))];
+let curSphere="All", query="";
+$("#filters").insertAdjacentHTML("afterbegin", spheres.map(s=>`<button class="chip" aria-pressed="${s==="All"}" data-s="${esc(s)}">${esc(s)}</button>`).join(""));
+$("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;curSphere=b.dataset.s;document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));renderGrid()});
+$("#search").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();renderGrid()});
+
+function renderGrid(){
+  const list = DATA.q.filter(q=>(curSphere==="All"||q.sphere===curSphere)&&(!query||(q.q+" "+q.ask+" "+Object.values(q.w).map(w=>w.one).join(" ")).toLowerCase().includes(query)));
+  $("#grid").innerHTML = list.length? list.map(q=>`<button class="plate" data-id="${q.id}">
+    <span class="top"><span class="sph">${esc(q.sphere)}</span><span class="num">№ ${DATA.q.indexOf(q)+1}</span></span>
+    <span class="qq">${esc(q.ask)}</span>
+    <span class="ask">${esc(q.q)}</span>
+    <span class="worlds">${ORDER.map(L=>`<i class="L-${L} ${q.w[L]?"on":""}"></i>`).join("")}</span>
+  </button>`).join("") : `<p class="note">No such question yet. Maybe it’s worth bringing to the next game.</p>`;
+}
+$("#grid").addEventListener("click",e=>{const b=e.target.closest(".plate");if(b)location.hash="q-"+b.dataset.id});
+
+function mixesFor(q){return DATA.m.filter(m=>m.src===q.src).slice(0,3)}
+function renderQuestion(q){
+  const v=$("#v-question");
+  v.innerHTML = `<button class="back" data-go="canvas">← All questions</button>
+  <div class="qhead"><h2>${esc(q.ask)}</h2><p>${esc(q.q)}</p><p class="meta">${esc(q.sphere)} · ${esc(q.src)}</p></div>
+  <div class="actions">${Object.keys(q.w).length>=2?`<button class="btn" data-duel="${q.id}">Challenge a friend to a duel of worlds</button>`:""}<button class="btn ghost" data-copy="q-${q.id}">Copy link to question</button></div>
+  <div class="sharebox" id="qshare"><textarea readonly></textarea><p class="note">If copying didn’t work, select the text and copy it manually.</p></div>
+  <div class="worldgrid">${ORDER.map(L=>{const w=q.w[L];if(!w)return `<div class="world empty L-${L}"><div class="wl">${sym(L,32)}${NAMES[L]}</div>Nobody has designed this world for this question yet. Come to a game and be the first.</div>`;
+    return `<article class="world L-${L}"><div class="wl">${sym(L,32)}${NAMES[L]}</div><div class="one">${esc(w.one)}</div>
+    <div><h4>How it unfolds</h4><p>${esc(w.dev)}</p></div>
+    <div><h4>The price</h4><p>${esc(w.price)}</p></div>
+    ${w.sig?`<div><h4>Signal</h4><p>${esc(w.sig)}</p></div>`:""}
+    ${w.quote?`<p class="quote">${esc(w.quote)}</p>`:""}
+    <div class="step"><h4>Step for the week</h4><p>${esc(w.step)}</p></div></article>`}).join("")}</div>
+  ${mixesFor(q).length?`<div class="mixes"><h3>Mixes and paradoxes from this game</h3>${mixesFor(q).map(m=>`<div class="mix"><div class="ml">${esc(LC(m.L))}</div><div class="mt">${esc(m.title)}</div><p>${esc(m.looks)}</p><p class="par">Paradox: ${esc(m.par)}</p><p>Experiment: ${esc(m.exp)}</p></div>`).join("")}</div>`:""}`;
+}
+
+/* duel */
+function shuffled(a,seed){a=a.slice();let s=seed;for(let i=a.length-1;i>0;i--){s=(s*9301+49297)%233280;const j=Math.floor(s/233280*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function renderDuelCreate(q){
+  const v=$("#v-duel");
+  const opts=shuffled(Object.keys(q.w),q.id.length*7+3);
+  v.innerHTML=`<div class="duel"><button class="back" data-go="q-${q.id}">← Back to question</button>
+  <p class="note">Duel of worlds. Step 1 of 2</p><h2>${esc(q.ask)}</h2>
+  <p>Choose the answer closest to you. Your friend will see the question, choose theirs, and only then will you both find out which worlds you’re building.</p>
+  <div class="picks">${opts.map(L=>`<button class="pick" data-mine="${L}">${esc(q.w[L].one)}</button>`).join("")}</div>
+  <div class="sharebox" id="dshare"><p><b>Done.</b> Send your friend this text with the link:</p><textarea readonly></textarea><div class="actions"><button class="btn" id="dcopy">Copy</button></div></div></div>`;
+  v.querySelectorAll("[data-mine]").forEach(b=>b.addEventListener("click",()=>{
+    v.querySelectorAll("[data-mine]").forEach(x=>x.disabled=true);b.style.borderColor="var(--ink)";
+    const link=BASE+"#duel-"+q.id+"-"+ORDER.indexOf(b.dataset.mine);
+    const text=`I’ve chosen my world for the question “${q.ask}”. Have you? Let’s see who’s building which future:\n${link}`;
+    const box=$("#dshare");box.classList.add("show");box.querySelector("textarea").value=text;
+    $("#dcopy").onclick=()=>copyText(text,$("#dcopy"));
+  }));
+}
+function pairKey(a,b){const i=ORDER.indexOf(a),j=ORDER.indexOf(b);return i<=j?a+"|"+b:b+"|"+a}
+function renderDuelAnswer(q,theirs){
+  const v=$("#v-duel");
+  const opts=shuffled(Object.keys(q.w),q.id.length*11+5);
+  v.innerHTML=`<div class="duel"><p class="note">You’ve been challenged to a duel of worlds</p><h2>${esc(q.ask)}</h2>
+  <p>Your friend has already chosen. Choose your answer, and we’ll reveal both.</p>
+  <div class="picks">${opts.map(L=>`<button class="pick" data-me="${L}">${esc(q.w[L].one)}</button>`).join("")}</div><div id="dres"></div></div>`;
+  v.querySelectorAll("[data-me]").forEach(b=>b.addEventListener("click",()=>{
+    const me=b.dataset.me; v.querySelector(".picks").remove();
+    const [t,line,par]=PAIRS[pairKey(theirs,me)];
+    const mx=DATA.m.filter(m=>theirs===me?m.L.trim()===me:(m.L.includes(theirs)&&m.L.includes(me)));
+    const m=mx.length?mx[(q.id.charCodeAt(0)+me.length)%mx.length]:null;
+    $("#dres").innerHTML=`<div class="reveal">
+      <article class="world L-${theirs}"><div class="who">Friend</div><div class="wl">${sym(theirs,32)}${NAMES[theirs]}</div><div class="one">${esc(q.w[theirs].one)}</div><div class="step"><h4>Step for the week</h4><p>${esc(q.w[theirs].step)}</p></div></article>
+      <article class="world L-${me}"><div class="who">You</div><div class="wl">${sym(me,32)}${NAMES[me]}</div><div class="one">${esc(q.w[me].one)}</div><div class="step"><h4>Step for the week</h4><p>${esc(q.w[me].step)}</p></div></article>
+    </div>
+    <div class="pair"><div class="pt">${esc(t)}</div><p>${esc(line)}</p><p><b>${esc(par)}</b></p></div>
+    ${m?`<div class="mixes"><h3>A similar mix from the games</h3><div class="mix"><div class="ml">${esc(LC(m.L))} · ${esc(m.src)}</div><div class="mt">${esc(m.title)}</div><p>${esc(m.looks)}</p><p class="par">Paradox: ${esc(m.par)}</p></div></div>`:""}
+    <div class="actions"><button class="btn" data-go="q-${q.id}">See all four worlds</button><button class="btn ghost" data-go="canvas">Challenge someone on another question</button></div>`;
+  }));
+}
+
+/* signal of the day */
+function todayKey(d=new Date()){return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()}
+function renderSignal(){
+  const key=todayKey(); const idx=(key*2654435761>>>0)%DATA.s.length; const s=DATA.s[idx];
+  const st=store.get("dec-sig-en",{last:0,streak:0,hits:0,played:0,done:{}});
+  const done=st.done[key];
+  const d=new Date();
+  $("#sigcard").innerHTML=`<div class="date">Daily signal · ${d.toLocaleDateString("en-GB",{day:"numeric",month:"long"})}</div>
+   <div class="st">${esc(s.t)}</div><div class="note">${esc(s.type)} · ${esc(s.src)}</div>
+   <div class="guess">${ORDER.map(L=>`<button class="L-${L}" data-g="${L}"><b>${sym(L,26)}${NAMES[L]}</b><span>${HINTS[L]}</span></button>`).join("")}</div>
+   <div class="result" id="sres"></div>`;
+  const show=(g)=>{
+    document.querySelectorAll("[data-g]").forEach(b=>{b.disabled=true;if(b.dataset.g===s.L)b.classList.add("right");else if(b.dataset.g===g)b.classList.add("wrong")});
+    const hit=g===s.L; const cur=store.get("dec-sig-en",st);
+    const grid=ORDER.map(L=>L===s.L?"■":(L===g?"×":"□")).join(" ");
+    const text=`Decoder daily signal, ${d.toLocaleDateString("en-GB")}\n${grid}\n${hit?"Matched the game":"Saw this signal my own way"} · streak ${cur.streak}\n${BASE}#signal`;
+    $("#sres").classList.add("show");
+    $("#sres").innerHTML=`<p><b>${hit?"You matched the game participants.":"At the game this signal was placed in the "+NAMES[s.L]+"."}</b> Where it came up: ${esc(s.where)}. ${hit?"":"That’s not a mistake: in the Decoder a signal lands in different quadrants depending on who’s looking at it."}</p>
+    <div class="stats"><span>Played: ${cur.played}</span><span>Matches: ${cur.hits}</span><span>Streak: ${cur.streak}</span></div>
+    <div class="actions"><button class="btn" id="scopy">Share result</button><button class="btn ghost" data-go="canvas">Open the canvas</button></div>
+    <div class="sharebox" id="sshare"><textarea readonly></textarea></div>
+    <p class="note">A new signal tomorrow.</p>`;
+    $("#scopy").onclick=()=>{const bx=$("#sshare");bx.classList.add("show");bx.querySelector("textarea").value=text;copyText(text,$("#scopy"))};
+  };
+  if(done){show(done);return}
+  document.querySelectorAll("[data-g]").forEach(b=>b.addEventListener("click",()=>{
+    const g=b.dataset.g; const hit=g===s.L;
+    const yesterday=todayKey(new Date(Date.now()-864e5));
+    st.played++; if(hit)st.hits++; st.streak=(st.last===yesterday||st.last===key)?st.streak+1:1; st.last=key; st.done[key]=g; store.set("dec-sig-en",st);
+    show(g);
+  }));
+}
+
+
+/* dilemmas */
+const DIL=[
+ {t:"Comfort versus resilience",q:"A convenient platform owned by someone else, right now, or your own tool that's pricier and harder?",a:["I take the convenient platform", "I build my own"],w:["ЦС", "ДС"]},
+ {t:"Automating in order to rest is a trap",q:"AI has taken all the routine, and there's enough money. What next?",a:["Finally, I rest", "I look for something new to do"],w:["ЦС", "ДС"]},
+ {t:"One step forward, two steps back",q:"You want to start something new. How do you go in?",a:["Guarantees first, then the step", "I give up part of my comfort and go"],w:["ЦЗ", "ДС"]},
+ {t:"Say it first",q:"Everyone around sees the problem and stays silent. What do you do?",a:["I speak first", "I wait for someone else to say it"],w:["ДЗ", "ЦЗ"]},
+ {t:"Responsibility is still on us",q:"The decision can be handed to experts or an algorithm. Do you hand it over?",a:["Yes, let those who know decide", "I decide myself, even if I'm wrong"],w:["ЦС", "ДС"]},
+ {t:"The pill and the anxiety",q:"An anti-ageing pill has appeared. Do you take it, knowing the wish to live healthily may fade?",a:["I take it", "I don't; I'll get there myself"],w:["ЦС", "ДС"]},
+ {t:"Limited or free time",q:"Which is closer to you?",a:["A short life where you have to choose", "A long life where you can try everything"],w:["ЦЗ", "ДС"]},
+ {t:"The more you learn, the harder it is to speak",q:"You're new to a topic. What next?",a:["I'll study more until I get it", "I start speaking with what I already know"],w:["ЦЗ", "ДС"]},
+ {t:"Advice to children comes from stereotypes twenty years old",q:"A teenager is choosing who to become. What do you advise?",a:["A reliable profession", "First understand what world they want to live in"],w:["ЦЗ", "ДЗ"]},
+ {t:"Minimal comfort and a great goal",q:"There's a chance to become part of a big shared cause, but you'll have to give up part of your comfort.",a:["I stay in my comfort", "I join the shared cause"],w:["ЦС", "ДЗ"]}
+];
+DIL.forEach(d=>d.m=DATA.m.find(m=>m.title===d.t));
+function renderDilList(){
+  $("#dlist").innerHTML=DIL.map((d,i)=>`<button class="plate" data-go="dil-${i}"><span class="sph">Dilemma ${i+1}</span><span class="dq">${esc(d.q)}</span><span class="ask">${esc(d.a[0])} or ${esc(d.a[1]).toLowerCase()}</span></button>`).join("");
+}
+function renderDil(i,friend){
+  const d=DIL[i]; const v=$("#v-dil");
+  v.innerHTML=`<div class="dcard"><button class="back" data-go="dilemmas">← All dilemmas</button>
+   <p class="note">${friend!==undefined?"Someone sent you a dilemma. Your friend has chosen; now you choose":"Dilemma "+(i+1)+" of "+DIL.length}</p>
+   <h2>${esc(d.q)}</h2>
+   <div class="dopts">${d.a.map((a,k)=>`<button class="dopt" data-k="${k}">${esc(a)}</button>`).join("")}</div>
+   <div id="dilres"></div></div>`;
+  v.querySelectorAll("[data-k]").forEach(b=>b.addEventListener("click",()=>{
+    const k=+b.dataset.k;
+    v.querySelectorAll("[data-k]").forEach((x,j)=>{x.disabled=true;x.insertAdjacentHTML("beforeend",`<span class="tag">${j===k?"your choice · ":""}${friend===j?"friend’s choice · ":""}closer to: ${NAMES[d.w[j]]}</span>`);if(j===k)x.classList.add("mine")});
+    const m=d.m;
+    const fr=friend===undefined?"":`<p class="friendpick"><b>${friend===k?"You and your friend chose the same.":"You and your friend chose differently."}</b> ${friend===k?"Look at the price of your shared choice.":"The most interesting part: ask each other why."}</p>`;
+    const link=BASE+"#dil-"+i+"-"+k;
+    $("#dilres").innerHTML=`<div style="margin-top:16px">${fr}</div>
+     ${m?`<div class="gamebox"><h4>What the game concluded</h4><p>${esc(m.looks)}</p><h4>Paradox</h4><p><b>${esc(m.par)}</b></p><h4>Try it this week</h4><p>${esc(m.exp)}</p><p class="note" style="margin-top:10px">${esc(m.src)}</p></div>`:""}
+     <div class="actions"><button class="btn" id="dilcopy">Ask a friend</button>${i+1<DIL.length?`<button class="btn ghost" data-go="dil-${i+1}">Next dilemma</button>`:`<button class="btn ghost" data-go="canvas">Open the canvas</button>`}</div>
+     <div class="sharebox" id="dilshare"><textarea readonly></textarea><p class="note">Your friend will see the dilemma without your answer and learn it only after choosing.</p></div>`;
+    const text=`${d.q}\nI’ve already chosen. Have you?\n${link}`;
+    $("#dilcopy").onclick=()=>{const bx=$("#dilshare");bx.classList.add("show");bx.querySelector("textarea").value=text;copyText(text,$("#dilcopy"))};
+  }));
+}
+renderDilList();
+
+/* utils + routing */
+function copyText(t,btn){
+  const ok=()=>{if(btn){const o=btn.textContent;btn.textContent="Copied";setTimeout(()=>btn.textContent=o,1600)}};
+  try{navigator.clipboard.writeText(t).then(ok,()=>{})}catch(e){}
+}
+document.addEventListener("click",e=>{
+  const g=e.target.closest("[data-go]"); if(g){location.hash=g.dataset.go;return}
+  const d=e.target.closest("[data-duel]"); if(d){location.hash="new-"+d.dataset.duel;return}
+  const c=e.target.closest("[data-copy]"); if(c){const t=BASE+"#"+c.dataset.copy;const bx=$("#qshare");bx.classList.add("show");bx.querySelector("textarea").value=t;copyText(t,c)}
+});
+function route(){
+  const h=location.hash.replace(/^#/,"");
+  document.querySelectorAll(".view").forEach(v=>{v.style.display="none"});
+  let tab="canvas";
+  let m;
+  if((m=h.match(/^q-([a-z0-9]+)$/))&&byId[m[1]]){renderQuestion(byId[m[1]]);$("#v-question").style.display="block"}
+  else if((m=h.match(/^new-([a-z0-9]+)$/))&&byId[m[1]]){renderDuelCreate(byId[m[1]]);$("#v-duel").style.display="block"}
+  else if((m=h.match(/^duel-([a-z0-9]+)-([0-3])$/))&&byId[m[1]]&&byId[m[1]].w[ORDER[+m[2]]]){renderDuelAnswer(byId[m[1]],ORDER[+m[2]]);$("#v-duel").style.display="block";tab=""}
+  else if(h==="dilemmas"){$("#v-dilemmas").style.display="block";tab="dilemmas"}
+  else if((m=h.match(/^dil-(\d+)(?:-([01]))?$/))&&DIL[+m[1]]){renderDil(+m[1],m[2]===undefined?undefined:+m[2]);$("#v-dil").style.display="block";tab="dilemmas"}
+  else if(h==="signal"){renderSignal();$("#v-signal").style.display="block";tab="signal"}
+  else {$("#v-canvas").style.display="block"}
+  document.querySelectorAll("nav.tabs a").forEach(a=>{if(a.dataset.tab===tab)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+  document.querySelector(".hero").style.display=(tab==="canvas"&&!h.startsWith("q-")&&!h.startsWith("new-"))?"":"none";
+  window.scrollTo(0,0);
+}
+renderGrid();
+document.querySelector("#foot").textContent=`Decoder knowledge base · questions: ${DATA.q.length} · signals: ${DATA.s.length} · updated ${DATA.updated||""}. The canvas grows after every game.`;
+window.addEventListener("hashchange",route);
+route();
+
+}
+boot();
+</script>
+</body>
+</html>

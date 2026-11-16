@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Почему чем 
 lang: ru
 translations:
   ru: /polotno/pochemu-chem-bolshe-zanimayus-zdorovem-tem-khuzhe-so-vsem
+  en: /en/future-canvas/why-does-everything-else-get-worse-the-more-i-work-on-my
 tags:
   - polotno
 created: 2026-11-16

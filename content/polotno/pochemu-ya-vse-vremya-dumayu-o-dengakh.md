@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Почему я вс
 lang: ru
 translations:
   ru: /polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh
+  en: /en/future-canvas/why-am-i-always-thinking-about-money
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Где взять д
 lang: ru
 translations:
   ru: /polotno/gde-vzyat-distsiplinu-i-motivatsiyu-uchitsya
+  en: /en/future-canvas/where-do-i-find-the-discipline-and-motivation-to-learn
 tags:
   - polotno
 created: 2026-11-16

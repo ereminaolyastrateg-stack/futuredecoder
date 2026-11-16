@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Зачем я жив
 lang: ru
 translations:
   ru: /polotno/zachem-ya-zhivu-esli-vse-vrode-est
+  en: /en/future-canvas/what-am-i-living-for-if-i-seem-to-have-everything
 tags:
   - polotno
 created: 2026-11-16

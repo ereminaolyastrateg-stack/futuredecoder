@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Почему ден�
 lang: ru
 translations:
   ru: /polotno/pochemu-deneg-vrode-bolshe-a-zhit-ne-legche
+  en: /en/future-canvas/why-is-there-seemingly-more-money-yet-life-isn-t-easier
 tags:
   - polotno
 created: 2026-11-16

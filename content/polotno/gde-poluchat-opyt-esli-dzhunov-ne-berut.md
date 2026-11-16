@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Где получа�
 lang: ru
 translations:
   ru: /polotno/gde-poluchat-opyt-esli-dzhunov-ne-berut
+  en: /en/future-canvas/where-do-i-get-experience-if-nobody-hires-juniors
 tags:
   - polotno
 created: 2026-11-16

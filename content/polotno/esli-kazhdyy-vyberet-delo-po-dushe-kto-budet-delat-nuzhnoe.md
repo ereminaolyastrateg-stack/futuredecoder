@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Если кажды�
 lang: ru
 translations:
   ru: /polotno/esli-kazhdyy-vyberet-delo-po-dushe-kto-budet-delat-nuzhnoe
+  en: /en/future-canvas/if-everyone-chooses-work-they-love-who-will-do-what-s-needed
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как догово�
 lang: ru
 translations:
   ru: /polotno/kak-dogovoritsya-chtoby-nikto-ne-ostalsya-obizhennym
+  en: /en/future-canvas/how-do-we-agree-so-nobody-is-left-feeling-wronged
 tags:
   - polotno
 created: 2026-11-16

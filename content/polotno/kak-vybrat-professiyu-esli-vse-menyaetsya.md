@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как выбрат�
 lang: ru
 translations:
   ru: /polotno/kak-vybrat-professiyu-esli-vse-menyaetsya
+  en: /en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing
 tags:
   - polotno
 created: 2026-11-16

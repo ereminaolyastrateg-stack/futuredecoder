@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что такое с
 lang: ru
 translations:
   ru: /polotno/chto-takoe-schaste-i-mozhno-li-ego-izmerit
+  en: /en/future-canvas/what-is-happiness-and-can-it-be-measured
 tags:
   - polotno
 created: 2026-11-16

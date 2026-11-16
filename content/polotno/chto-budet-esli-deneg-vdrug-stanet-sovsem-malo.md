@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что будет, �
 lang: ru
 translations:
   ru: /polotno/chto-budet-esli-deneg-vdrug-stanet-sovsem-malo
+  en: /en/future-canvas/what-happens-if-money-suddenly-gets-really-tight
 tags:
   - polotno
 created: 2026-11-16

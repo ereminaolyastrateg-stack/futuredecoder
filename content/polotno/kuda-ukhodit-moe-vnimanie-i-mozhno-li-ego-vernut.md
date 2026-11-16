@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Куда уходи�
 lang: ru
 translations:
   ru: /polotno/kuda-ukhodit-moe-vnimanie-i-mozhno-li-ego-vernut
+  en: /en/future-canvas/where-does-my-attention-go-and-can-i-get-it-back
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Плохо ли вы
 lang: ru
 translations:
   ru: /polotno/plokho-li-vybirat-to-chto-udobnee
+  en: /en/future-canvas/is-it-bad-to-choose-what-s-more-convenient
 tags:
   - polotno
 created: 2026-11-16

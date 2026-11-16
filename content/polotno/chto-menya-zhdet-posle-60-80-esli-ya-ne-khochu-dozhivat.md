@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что меня жд
 lang: ru
 translations:
   ru: /polotno/chto-menya-zhdet-posle-60-80-esli-ya-ne-khochu-dozhivat
+  en: /en/future-canvas/what-awaits-me-after-60-80-if-i-don-t-want-to-just-live-out
 tags:
   - polotno
 created: 2026-11-16

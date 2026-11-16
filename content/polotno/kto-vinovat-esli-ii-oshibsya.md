@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Кто винова�
 lang: ru
 translations:
   ru: /polotno/kto-vinovat-esli-ii-oshibsya
+  en: /en/future-canvas/who-s-to-blame-if-ai-gets-it-wrong
 tags:
   - polotno
 created: 2026-11-16

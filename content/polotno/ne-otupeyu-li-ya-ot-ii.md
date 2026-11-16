@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Не отупею л
 lang: ru
 translations:
   ru: /polotno/ne-otupeyu-li-ya-ot-ii
+  en: /en/future-canvas/will-ai-make-me-dumber
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Где искать 
 lang: ru
 translations:
   ru: /polotno/gde-iskat-schaste-esli-nichego-ne-raduet
+  en: /en/future-canvas/where-do-i-look-for-happiness-when-nothing-brings-me-joy
 tags:
   - polotno
 created: 2026-11-16

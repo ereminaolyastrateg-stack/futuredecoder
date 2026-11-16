@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что делать 
 lang: ru
 translations:
   ru: /polotno/chto-delat-so-svobodnym-vremenem
+  en: /en/future-canvas/what-do-i-do-with-free-time
 tags:
   - polotno
 created: 2026-11-16

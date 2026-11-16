@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Нужно ли мн
 lang: ru
 translations:
   ru: /polotno/nuzhno-li-mne-samomu-kontrolirovat-zdorove
+  en: /en/future-canvas/do-i-need-to-monitor-my-health-myself
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Вопросы о будущем и четыре ответа на
 lang: ru
 translations:
   ru: /polotno/
+  en: /en/future-canvas/
 created: 2026-11-16
 updated: 2026-11-16
 ---

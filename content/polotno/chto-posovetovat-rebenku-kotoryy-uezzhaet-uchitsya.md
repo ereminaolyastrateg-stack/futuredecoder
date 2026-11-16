@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что посове�
 lang: ru
 translations:
   ru: /polotno/chto-posovetovat-rebenku-kotoryy-uezzhaet-uchitsya
+  en: /en/future-canvas/what-advice-should-i-give-my-child-who-s-leaving-home-to
 tags:
   - polotno
 created: 2026-11-16

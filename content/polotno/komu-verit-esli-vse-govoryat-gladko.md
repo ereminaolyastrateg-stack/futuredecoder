@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Кому верит�
 lang: ru
 translations:
   ru: /polotno/komu-verit-esli-vse-govoryat-gladko
+  en: /en/future-canvas/whom-do-i-trust-when-everyone-sounds-polished
 tags:
   - polotno
 created: 2026-11-16

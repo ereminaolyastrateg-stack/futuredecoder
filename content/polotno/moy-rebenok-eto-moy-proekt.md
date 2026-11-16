@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Мой ребёно�
 lang: ru
 translations:
   ru: /polotno/moy-rebenok-eto-moy-proekt
+  en: /en/future-canvas/is-my-child-my-project
 tags:
   - polotno
 created: 2026-11-16

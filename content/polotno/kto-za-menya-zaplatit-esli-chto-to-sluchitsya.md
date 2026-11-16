@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Кто за меня
 lang: ru
 translations:
   ru: /polotno/kto-za-menya-zaplatit-esli-chto-to-sluchitsya
+  en: /en/future-canvas/who-will-pay-for-me-if-something-happens
 tags:
   - polotno
 created: 2026-11-16

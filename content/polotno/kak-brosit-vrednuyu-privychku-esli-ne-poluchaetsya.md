@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как бросит�
 lang: ru
 translations:
   ru: /polotno/kak-brosit-vrednuyu-privychku-esli-ne-poluchaetsya
+  en: /en/future-canvas/how-do-i-quit-a-bad-habit-if-it-isn-t-working
 tags:
   - polotno
 created: 2026-11-16

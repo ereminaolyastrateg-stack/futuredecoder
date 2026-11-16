@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Зачем школ�
 lang: ru
 translations:
   ru: /polotno/zachem-shkola-i-vuz-esli-est-ii
+  en: /en/future-canvas/why-school-and-university-if-there-s-ai
 tags:
   - polotno
 created: 2026-11-16

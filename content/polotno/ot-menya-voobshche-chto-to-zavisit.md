@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «От меня воо
 lang: ru
 translations:
   ru: /polotno/ot-menya-voobshche-chto-to-zavisit
+  en: /en/future-canvas/does-anything-depend-on-me-at-all
 tags:
   - polotno
 created: 2026-11-16

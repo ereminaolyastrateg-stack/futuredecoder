@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как жить, е�
 lang: ru
 translations:
   ru: /polotno/kak-zhit-esli-ni-na-chto-nelzya-operetsya
+  en: /en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on
 tags:
   - polotno
 created: 2026-11-16

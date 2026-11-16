@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что делать,
 lang: ru
 translations:
   ru: /polotno/chto-delat-esli-nichego-ne-khochetsya-uchit
+  en: /en/future-canvas/what-if-i-don-t-feel-like-learning-anything
 tags:
   - polotno
 created: 2026-11-16

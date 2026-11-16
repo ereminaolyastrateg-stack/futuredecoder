@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Где взять с
 lang: ru
 translations:
   ru: /polotno/gde-vzyat-stabilnost-esli-dengi-ee-bolshe-ne-garantiruyut
+  en: /en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it
 tags:
   - polotno
 created: 2026-11-16

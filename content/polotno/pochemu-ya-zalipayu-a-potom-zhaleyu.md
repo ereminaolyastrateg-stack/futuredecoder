@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Почему я за
 lang: ru
 translations:
   ru: /polotno/pochemu-ya-zalipayu-a-potom-zhaleyu
+  en: /en/future-canvas/why-do-i-get-hooked-and-then-regret-it
 tags:
   - polotno
 created: 2026-11-16

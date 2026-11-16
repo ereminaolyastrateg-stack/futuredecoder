@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Зачем я пла
 lang: ru
 translations:
   ru: /polotno/zachem-ya-plachu-nalogi-i-chto-poluchayu-vzamen
+  en: /en/future-canvas/why-do-i-pay-taxes-and-what-do-i-get-in-return
 tags:
   - polotno
 created: 2026-11-16

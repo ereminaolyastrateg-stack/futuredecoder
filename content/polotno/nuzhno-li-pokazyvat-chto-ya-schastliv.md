@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Нужно ли по
 lang: ru
 translations:
   ru: /polotno/nuzhno-li-pokazyvat-chto-ya-schastliv
+  en: /en/future-canvas/do-i-have-to-show-that-i-m-happy
 tags:
   - polotno
 created: 2026-11-16

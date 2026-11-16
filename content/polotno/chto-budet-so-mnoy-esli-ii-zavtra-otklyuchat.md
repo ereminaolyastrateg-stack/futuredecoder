@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что будет с
 lang: ru
 translations:
   ru: /polotno/chto-budet-so-mnoy-esli-ii-zavtra-otklyuchat
+  en: /en/future-canvas/what-will-happen-to-me-if-ai-is-switched-off-tomorrow
 tags:
   - polotno
 created: 2026-11-16

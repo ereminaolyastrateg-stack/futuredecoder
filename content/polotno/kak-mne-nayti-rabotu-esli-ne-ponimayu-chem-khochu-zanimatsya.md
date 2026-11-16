@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как мне най
 lang: ru
 translations:
   ru: /polotno/kak-mne-nayti-rabotu-esli-ne-ponimayu-chem-khochu-zanimatsya
+  en: /en/future-canvas/how-do-i-find-a-job-if-i-don-t-know-what-i-want-to-do
 tags:
   - polotno
 created: 2026-11-16

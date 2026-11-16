@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как понять,
 lang: ru
 translations:
   ru: /polotno/kak-ponyat-chto-ya-ekspert-esli-otsenki-nichego-ne-znachat
+  en: /en/future-canvas/how-do-i-know-i-m-an-expert-if-grades-mean-nothing
 tags:
   - polotno
 created: 2026-11-16

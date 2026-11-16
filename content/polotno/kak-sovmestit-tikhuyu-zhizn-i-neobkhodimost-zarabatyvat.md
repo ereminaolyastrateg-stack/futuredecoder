@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как совмес�
 lang: ru
 translations:
   ru: /polotno/kak-sovmestit-tikhuyu-zhizn-i-neobkhodimost-zarabatyvat
+  en: /en/future-canvas/how-do-i-combine-a-quiet-life-with-the-need-to-earn
 tags:
   - polotno
 created: 2026-11-16

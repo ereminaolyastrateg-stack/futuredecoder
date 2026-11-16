@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как найти с
 lang: ru
 translations:
   ru: /polotno/kak-nayti-svoe-prednaznachenie
+  en: /en/future-canvas/how-do-i-find-my-calling
 tags:
   - polotno
 created: 2026-11-16

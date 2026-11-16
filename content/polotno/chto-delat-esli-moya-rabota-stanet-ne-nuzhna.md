@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Что делать,
 lang: ru
 translations:
   ru: /polotno/chto-delat-esli-moya-rabota-stanet-ne-nuzhna
+  en: /en/future-canvas/what-do-i-do-if-my-job-is-no-longer-needed
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Нужен ли мн
 lang: ru
 translations:
   ru: /polotno/nuzhen-li-mne-diplom-chtoby-chego-to-dobitsya
+  en: /en/future-canvas/do-i-need-a-diploma-to-achieve-anything
 tags:
   - polotno
 created: 2026-11-16

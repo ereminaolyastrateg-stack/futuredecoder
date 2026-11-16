@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Будет ли у �
 lang: ru
 translations:
   ru: /polotno/budet-li-u-moikh-detey-normalnoe-obrazovanie
+  en: /en/future-canvas/will-my-children-get-a-decent-education
 tags:
   - polotno
 created: 2026-11-16

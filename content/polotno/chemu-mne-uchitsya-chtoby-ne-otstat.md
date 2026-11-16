@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Чему мне уч
 lang: ru
 translations:
   ru: /polotno/chemu-mne-uchitsya-chtoby-ne-otstat
+  en: /en/future-canvas/what-should-i-learn-so-i-don-t-fall-behind
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Чему учить 
 lang: ru
 translations:
   ru: /polotno/chemu-uchit-moikh-detey
+  en: /en/future-canvas/what-should-i-teach-my-children
 tags:
   - polotno
 created: 2026-11-16

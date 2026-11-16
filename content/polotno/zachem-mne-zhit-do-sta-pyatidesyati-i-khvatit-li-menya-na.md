@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Зачем мне ж
 lang: ru
 translations:
   ru: /polotno/zachem-mne-zhit-do-sta-pyatidesyati-i-khvatit-li-menya-na
+  en: /en/future-canvas/why-would-i-live-to-150-and-will-i-have-enough-in-me-for-it
 tags:
   - polotno
 created: 2026-11-16

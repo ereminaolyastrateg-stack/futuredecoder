@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Почему я вы
 lang: ru
 translations:
   ru: /polotno/pochemu-ya-vygorayu-khotya-vse-delayu-pravilno
+  en: /en/future-canvas/why-am-i-burning-out-when-i-m-doing-everything-right
 tags:
   - polotno
 created: 2026-11-16

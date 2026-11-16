@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Как мне выб
 lang: ru
 translations:
   ru: /polotno/kak-mne-vybratsya-iz-zarplaty-i-ipoteki
+  en: /en/future-canvas/how-do-i-get-out-of-salary-and-mortgage-life
 tags:
   - polotno
 created: 2026-11-16

@@ -5,6 +5,7 @@ description: "Четыре ответа на вопрос «Не потеряе�
 lang: ru
 translations:
   ru: /polotno/ne-poteryaem-li-my-zhivoe-obshchenie
+  en: /en/future-canvas/will-we-lose-live-human-contact
 tags:
   - polotno
 created: 2026-11-16
