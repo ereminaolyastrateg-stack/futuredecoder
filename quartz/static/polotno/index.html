@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Полотно будущего</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+/* Декодер: тёплая бумага, чёрные узкие капсы, плоские цветные плашки, голограмма и детский мелок. Один светлый мир. */
+:root{
+  --bg:#efeeea; --surface:#ffffff; --ink:#191818; --muted:#5f5d58; --line:#d9d6ce;
+  --cs:#fc5721; --cz:#fedf3a; --ds:#1e7ff0; --dz:#fd7fb8;
+  --link:#068ee6;
+  --display:"Oswald","Arial Narrow",Impact,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --hand:"Caveat","Comic Sans MS",cursive;
+  --holo:linear-gradient(115deg,#f2d36b 0%,#f08a4b 18%,#e9508e 34%,#7a5cf0 50%,#2fa7e8 66%,#5fd3a0 82%,#f2d36b 100%);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:20px 20px 64px;position:relative}
+.L-ЦС{--c:var(--cs);--on:#fff} .L-ЦЗ{--c:var(--cz);--on:var(--ink)} .L-ДС{--c:var(--ds);--on:#fff} .L-ДЗ{--c:var(--dz);--on:var(--ink)}
+.brace{color:var(--link);font-size:13px;font-weight:500}
+.mast{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px;line-height:.95;text-transform:uppercase;letter-spacing:.02em}
+.logo i{width:34px;height:34px;border-radius:8px;background:var(--holo);display:block}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
+nav.tabs a{text-decoration:none;padding:7px 16px;border:1px solid var(--ink);border-radius:999px;font-size:14px;font-weight:500;background:var(--surface)}
+nav.tabs a[aria-current="page"]{background:var(--ink);color:#fff}
+.hero{position:relative;overflow:hidden;border-radius:18px;background:var(--holo);padding:34px 30px 30px;color:#fff;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:end}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 80% 80%,rgba(25,24,24,.35),transparent 55%);pointer-events:none}
+.hero>*{position:relative;z-index:1}
+h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(48px,8.5vw,108px);line-height:.9;margin:0;letter-spacing:-.005em;text-wrap:balance}
+.handnote{font-family:var(--hand);font-size:30px;line-height:1;margin:10px 0 0;transform:rotate(-2deg);display:inline-block}
+.glass{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.55);border-radius:14px;padding:16px 18px;backdrop-filter:blur(6px);font-size:15px}
+.glass b{display:block;font-family:var(--display);text-transform:uppercase;font-size:18px;letter-spacing:.02em;margin-bottom:6px}
+.glass p{margin:0}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding:26px 20px}}
+.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}
+@media (max-width:760px){.legend{grid-template-columns:repeat(2,1fr)}}
+.legend span{background:var(--c);color:var(--on);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;font-size:13px;line-height:1.3}
+.legend b{font-family:var(--display);text-transform:uppercase;font-size:19px;font-weight:700;letter-spacing:.01em;display:flex;align-items:center;gap:8px}
+.sym{flex:none;display:inline-block;vertical-align:middle}
+.legend .sym,.world .wl .sym,.guess .sym{--symc:var(--on)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 10px;align-items:center}
+.chip{border:1px solid var(--ink);background:transparent;border-radius:999px;padding:5px 13px;font-size:13px;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+#search{flex:1 1 240px;min-width:180px;padding:8px 14px;border:1px solid var(--ink);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit;font-size:14px}
+.section-title{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(30px,4.6vw,52px);line-height:.95;margin:26px 0 6px}
+.note{font-size:14px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin-top:14px}
+.plate{text-align:left;background:var(--surface);border:none;border-radius:14px;padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px;min-height:170px;transition:transform .12s, box-shadow .12s}
+.plate:hover{transform:translateY(-3px);box-shadow:0 6px 0 var(--ink)}
+.plate .top{display:flex;justify-content:space-between;align-items:center}
+.plate .sph{font-size:12px;color:var(--link);font-weight:500}
+.plate .num{font-family:var(--display);font-size:15px;color:var(--muted)}
+.plate .qq,.plate .dq{font-family:var(--display);font-weight:500;text-transform:uppercase;font-size:21px;line-height:1.05;text-wrap:balance}
+.plate .ask{color:var(--muted);font-size:13px;line-height:1.35}
+.plate .worlds{display:flex;gap:4px;margin-top:auto}
+.plate .worlds i{height:10px;flex:1;border-radius:999px;background:var(--line)}
+.plate .worlds i.on{background:var(--c)}
+.panel{display:none}
+.back{background:none;border:none;padding:0;color:var(--link);margin:20px 0 10px;font-size:14px}
+.qhead h2,.duel h2,.dcard h2{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(30px,4.8vw,56px);line-height:.95;margin:4px 0 10px;text-wrap:balance}
+.qhead p{margin:0;color:var(--muted)}
+.qhead .meta{font-size:13px;margin-top:8px;color:var(--link)}
+.worldgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-top:18px}
+.world{background:var(--surface);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.world>*:not(.wl){padding:0 16px}
+.world>*:last-child{margin-bottom:16px}
+.world .wl{background:var(--c);color:var(--on);display:flex;align-items:center;gap:10px;padding:12px 16px;font-family:var(--display);text-transform:uppercase;font-size:20px;font-weight:700;line-height:1;margin-bottom:12px}
+.world .wl .sym{color:var(--on)!important}
+.world .who{padding:10px 16px 0;font-size:12px;color:var(--muted);order:-1}
+.world .one{font-weight:700;font-size:17px;line-height:1.3;margin-bottom:6px}
+.world h4{margin:10px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--link);font-weight:600}
+.world p{margin:0;font-size:14.5px}
+.world .quote{font-family:var(--hand);font-size:22px;line-height:1.15;margin-top:10px}
+.world .step{margin:14px 16px 0;padding:12px!important;background:var(--bg);border-radius:10px}
+.world.empty{background:transparent;border:2px dashed var(--line);color:var(--muted);font-size:14px}
+.world.empty .wl{opacity:.55}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.btn{border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:999px;padding:11px 20px;font-weight:600;font-size:15px}
+.btn.ghost{background:var(--surface);color:var(--ink)}
+.mixes{margin-top:26px}
+.mixes h3{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:28px;margin:0 0 10px}
+.mix{background:var(--surface);border-radius:14px;padding:16px 18px;margin-bottom:8px}
+.mix .mt{font-family:var(--display);text-transform:uppercase;font-size:20px;font-weight:500;line-height:1.05;margin-top:2px}
+.mix .ml{font-size:12px;color:var(--link)}
+.mix p{margin:6px 0 0;font-size:14.5px}
+.mix .par{font-weight:600}
+.duel,.dcard{max-width:820px}
+.picks{display:grid;gap:8px;margin:18px 0}
+.pick{text-align:left;background:var(--surface);border:2px solid transparent;border-radius:14px;padding:16px 18px;font-size:17px;font-weight:600}
+.pick:hover{border-color:var(--ink)}
+.reveal{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+@media (max-width:560px){.reveal{grid-template-columns:1fr}}
+.pair{background:var(--ink);color:#fff;border-radius:14px;padding:20px;position:relative;overflow:hidden}
+.pair::before{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:var(--holo);opacity:.9}
+.pair>*{position:relative}
+.pair .pt{font-family:var(--display);text-transform:uppercase;font-size:30px;font-weight:700;line-height:1;margin-bottom:8px}
+.pair p{margin:6px 0 0;max-width:60ch}
+.sharebox{margin-top:12px;display:none}
+.sharebox.show{display:block}
+.sharebox textarea{width:100%;min-height:90px;border:1px solid var(--ink);border-radius:12px;padding:12px;font:inherit;font-size:14px;background:var(--surface);color:var(--ink)}
+.sigcard{background:var(--surface);border-radius:18px;padding:24px;max-width:820px;position:relative;overflow:hidden}
+.sigcard::after{content:"";position:absolute;right:-60px;bottom:-60px;width:180px;height:180px;border-radius:50%;background:var(--cs);opacity:.9}
+.sigcard>*{position:relative;z-index:1}
+.sigcard .date{font-size:13px;color:var(--link);font-weight:500}
+.sigcard .st{font-family:var(--display);text-transform:uppercase;font-size:clamp(26px,3.6vw,40px);font-weight:500;line-height:1;margin:12px 0 10px;text-wrap:balance;max-width:24ch}
+.guess{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:18px;max-width:640px}
+@media (max-width:480px){.guess{grid-template-columns:1fr}}
+.guess button{border:none;background:var(--c);color:var(--on);border-radius:12px;padding:12px 14px;text-align:left}
+.guess button b{display:flex;align-items:center;gap:8px;font-family:var(--display);text-transform:uppercase;font-size:18px;font-weight:700}
+.guess button .sym{color:var(--on)!important}
+.guess button span{font-size:12.5px;opacity:.85}
+.guess button:disabled{cursor:default;opacity:.35}
+.guess button.right{opacity:1;box-shadow:0 0 0 3px var(--ink)}
+.guess button.wrong{opacity:.6;text-decoration:line-through}
+.result{margin-top:16px;display:none;max-width:640px}
+.result.show{display:block}
+.stats{display:flex;gap:18px;margin-top:10px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.dopts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){.dopts{grid-template-columns:1fr}}
+.dopt{text-align:left;background:var(--surface);border:2px solid transparent;border-radius:14px;padding:20px;font-family:var(--display);text-transform:uppercase;font-size:22px;font-weight:500;line-height:1.05;min-height:110px}
+.dopt:hover{border-color:var(--ink)}
+.dopt:disabled{cursor:default;opacity:.45}
+.dopt.mine{opacity:1;border-color:var(--ink);background:var(--cz)}
+.dopt .tag{display:block;margin-top:10px;font-family:var(--body);text-transform:none;font-size:13px;font-weight:500;color:var(--muted)}
+.dopt.mine .tag{color:var(--ink)}
+.friendpick{font-size:14px;margin:0 0 10px}
+.gamebox{background:var(--surface);border-radius:14px;padding:18px 20px;margin-top:14px}
+.gamebox h4{margin:12px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--link)}
+.gamebox h4:first-child{margin-top:0}
+.gamebox p{margin:0}
+.lede{color:var(--muted);max-width:62ch}
+footer{margin-top:44px;border-top:1px solid var(--ink);padding-top:14px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.dot-deco{position:absolute;border-radius:50%;pointer-events:none;z-index:0}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="crayon"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.4"/></filter></svg>
+<div class="wrap">
+  <div class="mast">
+    <div class="logo"><i aria-hidden="true"></i><span>Future<br>Decoder</span></div>
+    <nav class="tabs" aria-label="Разделы">
+      <a href="#canvas" data-tab="canvas">Полотно</a>
+      <a href="#dilemmas" data-tab="dilemmas">Дилеммы</a>
+      <a href="#signal" data-tab="signal">Сигнал дня</a>
+    </nav>
+  </div>
+  <header class="hero">
+    <div>
+      <div class="brace" style="color:#fff">{База знаний Декодера}</div>
+      <h1>Полотно<br>будущего</h1>
+      <span class="handnote">спроектировано людьми на играх</span>
+    </div>
+    <div class="glass"><b>Будущее не приговор</b><p>Вопросы, которые волнуют всех, и четыре ответа на каждый. Их придумали участники игр «Декодер Будущего»: живые сигналы, цена каждого мира и шаг, который можно сделать уже на этой неделе.</p></div>
+  </header>
+
+  <section id="v-canvas" class="view">
+    <div class="legend" id="legend"></div>
+    <div class="brace" style="margin-top:22px">{Вопросы}</div>
+    <h2 class="section-title">Выбери вопрос</h2>
+    <div class="filters" id="filters">
+      <input id="search" type="search" placeholder="Найти вопрос: деньги, ИИ, долголетие…" aria-label="Поиск по вопросам">
+    </div>
+    <p class="note" style="margin:0 0 4px">Открой любой вопрос и нажми «Вызвать друга на дуэль миров». Друг получит ссылку, выберет свой мир, и вы увидите, какое будущее строит каждый.</p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="v-question" class="view panel"></section>
+  <section id="v-duel" class="view panel"></section>
+
+  <section id="v-dilemmas" class="view panel">
+    <div class="brace" style="margin-top:22px">{Дилеммы}</div><h2 class="section-title">Реши, как бы ты поступил</h2>
+    <p class="lede" style="margin:8px 0 14px">Парадоксы, которые всплыли на играх, в виде выбора из двух. Правильного ответа нет. Выбери, и откроется, к чему пришли участники.</p>
+    <div class="grid" id="dlist"></div>
+  </section>
+  <section id="v-dil" class="view panel"></section>
+
+  <section id="v-signal" class="view panel">
+    <div class="brace" style="margin-top:22px">{Сигнал дня}</div><h2 class="section-title">В каком он мире?</h2>
+    <p class="lede" style="margin:8px 0 14px">Каждый день один реальный сигнал с игр. Угадай, в каком мире он живёт. Правильного квадрата нет, но интересно, совпадёшь ли ты с теми, кто был на игре.</p>
+    <div class="sigcard" id="sigcard"></div>
+  </section>
+
+  <footer><span id="foot">База знаний Декодера. Полотно дополняется после каждой игры.</span><span>{futuredecoder.ru}</span></footer>
+</div>
+
+<script>
+let DATA;
+const BASE = location.href.split("#")[0];
+
+function boot(){
+  fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{DATA=d;main();}).catch(err=>{
+    document.querySelector("#grid").innerHTML='<p class="note">Не получилось загрузить базу (data.json). Если вы открыли файл с компьютера, загрузите папку на сайт: браузер не читает соседние файлы локально.</p>';
+  });
+}
+function main(){
+const ORDER = ["ЦС","ЦЗ","ДС","ДЗ"];
+const NAMES = {"ЦС":"Мир автопилота","ЦЗ":"Мир правил","ДС":"Мир автономии","ДЗ":"Мир сообщества"};
+const HINTS = {"ЦС":"решает система, результат не твой","ЦЗ":"участвуешь по общим правилам","ДС":"сам решаешь, сам владеешь","ДЗ":"создаёшь вместе с другими"};
+const PAIRS = {
+ "ЦС|ЦС":["Двойной автопилот","Вы оба отдаёте решения системе. Это удобно, пока система работает и считает вас своими.","Вопрос к паре: кто из вас первым заметит, что пора вернуть руль?"],
+ "ЦЗ|ЦЗ":["Общий устав","Вы оба играете по правилам и держитесь за общее. Вместе вы устойчивы.","Опасность в том, что правила пишете не вы. Что будете делать, когда их поменяют?"],
+ "ДС|ДС":["Два острова","Каждый сам себе хозяин и сам себе гарант. Свободно и надёжно.","Острова не строят мостов. Где вам понадобится кто-то третий?"],
+ "ДЗ|ДЗ":["Общее дело","Вы оба хотите создавать вместе и сами задавать правила.","Максимум субъектности требует максимума ответственности. Кто из вас понесёт её, когда станет тяжело?"],
+ "ЦС|ЦЗ":["Результат не ваш","Вы оба в верхней половине доски: результат принадлежит кому-то другому. Разница в том, участвуете ли вы сами.","Один ждёт, что система всё сделает, другой честно отрабатывает правила. Кто из вас устанет первым?"],
+ "ДС|ДЗ":["Результат ваш","Вы оба хотите владеть результатом. Один бережёт своё, другой вкладывает в общее.","Где кончается «моё» и начинается «наше»? Об этом стоит договориться заранее."],
+ "ЦС|ДС":["Машина и мастерская","Вы оба экономите силы и не хотите лишнего участия. Один доверяет сервису, другой полагается на себя.","Если сервис упадёт, кто к кому придёт за помощью?"],
+ "ЦЗ|ДЗ":["Хор и оркестр","Вы оба выбираете участие и людей вокруг. Один встраивается в готовое, другой собирает своё.","Правила старого мира и правила нового сообщества редко совпадают. Чьи выберете?"],
+ "ЦС|ДЗ":["Противоположные углы","Самая большая дистанция на доске: один отдал руль системе, другой хочет строить своё с людьми.","Вам есть чему научиться друг у друга. Один умеет не тратить силы, другой умеет их находить."],
+ "ЦЗ|ДС":["Норма и свобода","Противоположные углы доски: один держится за общие правила, другой выходит из них.","Один даёт опору, другой даёт выход. Вместе это работает, если никто не требует, чтобы другой стал как он."]
+};
+
+
+const SYM={
+ "ЦС":'<rect x="16" y="20" width="32" height="26" rx="5" fill="currentColor" fill-opacity=".15"/><circle cx="26" cy="31" r="3.2"/><circle cx="38" cy="31" r="3.2"/><path d="M25 40h14"/><path d="M32 20v-8"/><circle cx="32" cy="10" r="2.6"/><path d="M16 33h-5M48 33h5"/>',
+ "ЦЗ":'<path d="M11 31 32 13l21 18" /><path d="M17 28v24h30V28" fill="currentColor" fill-opacity=".15"/><path d="M28 52V40h8v12"/><path d="M42 19v-6h5v10"/>',
+ "ДС":'<path d="M12 47q20-18 40 0" fill="currentColor" fill-opacity=".15"/><path d="M8 54q6-4 12 0t12 0 12 0 12 0"/><path d="M31 40q1-10 2-18"/><path d="M33 22q-9-4-14 2M33 22q8-5 13 1M33 22q-3-8-9-9"/><circle cx="50" cy="13" r="4"/>',
+ "ДЗ":'<circle cx="16" cy="22" r="4.5"/><circle cx="32" cy="17" r="4.5"/><circle cx="48" cy="22" r="4.5"/><path d="M16 27v12M32 22v13M48 27v12"/><path d="M16 31q8 4 16-1t16 1"/><path d="M16 39l-4 10M16 39l4 10M32 35l-4 12M32 35l4 12M48 39l-4 10M48 39l4 10"/>'
+};
+function sym(L,s){return `<svg class="sym L-${L}" width="${s}" height="${s}" viewBox="0 0 64 64" aria-hidden="true" style="color:var(--symc,var(--c))"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#crayon)">${SYM[L]}</g></svg>`}
+
+function hid(s){let h=5381;for(let i=0;i<s.length;i++){h=((h<<5)+h+s.charCodeAt(i))>>>0}return h.toString(36)}
+DATA.q=DATA.q.filter(q=>q.show!==false);
+DATA.q.forEach(q=>q.id=hid(q.q));
+const byId = Object.fromEntries(DATA.q.map(q=>[q.id,q]));
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $ = s => document.querySelector(s);
+const store = {get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* legend + filters */
+$("#legend").innerHTML = ORDER.map(L=>`<span class="L-${L}"><b>${sym(L,30)}${NAMES[L]}</b>${HINTS[L]}</span>`).join("");
+const spheres = ["Все", ...Array.from(new Set(DATA.q.map(q=>q.sphere)))];
+let curSphere="Все", query="";
+$("#filters").insertAdjacentHTML("afterbegin", spheres.map(s=>`<button class="chip" aria-pressed="${s==="Все"}" data-s="${esc(s)}">${esc(s)}</button>`).join(""));
+$("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;curSphere=b.dataset.s;document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));renderGrid()});
+$("#search").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();renderGrid()});
+
+function renderGrid(){
+  const list = DATA.q.filter(q=>(curSphere==="Все"||q.sphere===curSphere)&&(!query||(q.q+" "+q.ask+" "+Object.values(q.w).map(w=>w.one).join(" ")).toLowerCase().includes(query)));
+  $("#grid").innerHTML = list.length? list.map(q=>`<button class="plate" data-id="${q.id}">
+    <span class="top"><span class="sph">${esc(q.sphere)}</span><span class="num">№ ${DATA.q.indexOf(q)+1}</span></span>
+    <span class="qq">${esc(q.ask)}</span>
+    <span class="ask">${esc(q.q)}</span>
+    <span class="worlds">${ORDER.map(L=>`<i class="L-${L} ${q.w[L]?"on":""}"></i>`).join("")}</span>
+  </button>`).join("") : `<p class="note">Такого вопроса пока нет. Может, его стоит принести на следующую игру.</p>`;
+}
+$("#grid").addEventListener("click",e=>{const b=e.target.closest(".plate");if(b)location.hash="q-"+b.dataset.id});
+
+function mixesFor(q){return DATA.m.filter(m=>m.src===q.src).slice(0,3)}
+function renderQuestion(q){
+  const v=$("#v-question");
+  v.innerHTML = `<button class="back" data-go="canvas">← Ко всем вопросам</button>
+  <div class="qhead"><h2>${esc(q.ask)}</h2><p>${esc(q.q)}</p><p class="meta">${esc(q.sphere)} · ${esc(q.src)}</p></div>
+  <div class="actions">${Object.keys(q.w).length>=2?`<button class="btn" data-duel="${q.id}">Вызвать друга на дуэль миров</button>`:""}<button class="btn ghost" data-copy="q-${q.id}">Скопировать ссылку на вопрос</button></div>
+  <div class="sharebox" id="qshare"><textarea readonly></textarea><p class="note">Если копирование не сработало, выдели текст и скопируй вручную.</p></div>
+  <div class="worldgrid">${ORDER.map(L=>{const w=q.w[L];if(!w)return `<div class="world empty L-${L}"><div class="wl">${sym(L,32)}${NAMES[L]}</div>Этот мир по вопросу ещё никто не спроектировал. Приходи на игру и сделай это первым.</div>`;
+    return `<article class="world L-${L}"><div class="wl">${sym(L,32)}${NAMES[L]}</div><div class="one">${esc(w.one)}</div>
+    <div><h4>Как развивается</h4><p>${esc(w.dev)}</p></div>
+    <div><h4>Цена</h4><p>${esc(w.price)}</p></div>
+    ${w.sig?`<div><h4>Сигнал</h4><p>${esc(w.sig)}</p></div>`:""}
+    ${w.quote?`<p class="quote">${esc(w.quote)}</p>`:""}
+    <div class="step"><h4>Шаг на неделю</h4><p>${esc(w.step)}</p></div></article>`}).join("")}</div>
+  ${mixesFor(q).length?`<div class="mixes"><h3>Смеси и парадоксы с этой игры</h3>${mixesFor(q).map(m=>`<div class="mix"><div class="ml">${esc(m.L)}</div><div class="mt">${esc(m.title)}</div><p>${esc(m.looks)}</p><p class="par">Парадокс: ${esc(m.par)}</p><p>Эксперимент: ${esc(m.exp)}</p></div>`).join("")}</div>`:""}`;
+}
+
+/* duel */
+function shuffled(a,seed){a=a.slice();let s=seed;for(let i=a.length-1;i>0;i--){s=(s*9301+49297)%233280;const j=Math.floor(s/233280*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function renderDuelCreate(q){
+  const v=$("#v-duel");
+  const opts=shuffled(Object.keys(q.w),q.id.length*7+3);
+  v.innerHTML=`<div class="duel"><button class="back" data-go="q-${q.id}">← К вопросу</button>
+  <p class="note">Дуэль миров. Шаг 1 из 2</p><h2>${esc(q.ask)}</h2>
+  <p>Выбери ответ, который тебе ближе. Друг увидит вопрос, выберет свой, и только потом вы оба узнаете, какие миры строите.</p>
+  <div class="picks">${opts.map(L=>`<button class="pick" data-mine="${L}">${esc(q.w[L].one)}</button>`).join("")}</div>
+  <div class="sharebox" id="dshare"><p><b>Готово.</b> Отправь другу этот текст со ссылкой:</p><textarea readonly></textarea><div class="actions"><button class="btn" id="dcopy">Скопировать</button></div></div></div>`;
+  v.querySelectorAll("[data-mine]").forEach(b=>b.addEventListener("click",()=>{
+    v.querySelectorAll("[data-mine]").forEach(x=>x.disabled=true);b.style.borderColor="var(--ink)";
+    const link=BASE+"#duel-"+q.id+"-"+ORDER.indexOf(b.dataset.mine);
+    const text=`Я выбрал(а) свой мир в вопросе «${q.ask}». А ты? Откроем вместе, кто какое будущее строит:\n${link}`;
+    const box=$("#dshare");box.classList.add("show");box.querySelector("textarea").value=text;
+    $("#dcopy").onclick=()=>copyText(text,$("#dcopy"));
+  }));
+}
+function pairKey(a,b){const i=ORDER.indexOf(a),j=ORDER.indexOf(b);return i<=j?a+"|"+b:b+"|"+a}
+function renderDuelAnswer(q,theirs){
+  const v=$("#v-duel");
+  const opts=shuffled(Object.keys(q.w),q.id.length*11+5);
+  v.innerHTML=`<div class="duel"><p class="note">Тебя вызвали на дуэль миров</p><h2>${esc(q.ask)}</h2>
+  <p>Друг уже выбрал. Выбери свой ответ, и откроем оба.</p>
+  <div class="picks">${opts.map(L=>`<button class="pick" data-me="${L}">${esc(q.w[L].one)}</button>`).join("")}</div><div id="dres"></div></div>`;
+  v.querySelectorAll("[data-me]").forEach(b=>b.addEventListener("click",()=>{
+    const me=b.dataset.me; v.querySelector(".picks").remove();
+    const [t,line,par]=PAIRS[pairKey(theirs,me)];
+    const mx=DATA.m.filter(m=>theirs===me?m.L.trim()===me:(m.L.includes(theirs)&&m.L.includes(me)));
+    const m=mx.length?mx[(q.id.charCodeAt(0)+me.length)%mx.length]:null;
+    $("#dres").innerHTML=`<div class="reveal">
+      <article class="world L-${theirs}"><div class="who">Друг</div><div class="wl">${sym(theirs,32)}${NAMES[theirs]}</div><div class="one">${esc(q.w[theirs].one)}</div><div class="step"><h4>Шаг на неделю</h4><p>${esc(q.w[theirs].step)}</p></div></article>
+      <article class="world L-${me}"><div class="who">Ты</div><div class="wl">${sym(me,32)}${NAMES[me]}</div><div class="one">${esc(q.w[me].one)}</div><div class="step"><h4>Шаг на неделю</h4><p>${esc(q.w[me].step)}</p></div></article>
+    </div>
+    <div class="pair"><div class="pt">${esc(t)}</div><p>${esc(line)}</p><p><b>${esc(par)}</b></p></div>
+    ${m?`<div class="mixes"><h3>Похожая смесь с игр</h3><div class="mix"><div class="ml">${esc(m.L)} · ${esc(m.src)}</div><div class="mt">${esc(m.title)}</div><p>${esc(m.looks)}</p><p class="par">Парадокс: ${esc(m.par)}</p></div></div>`:""}
+    <div class="actions"><button class="btn" data-go="q-${q.id}">Посмотреть все четыре мира</button><button class="btn ghost" data-go="canvas">Вызвать кого-то в другом вопросе</button></div>`;
+  }));
+}
+
+/* signal of the day */
+function todayKey(d=new Date()){return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()}
+function renderSignal(){
+  const key=todayKey(); const idx=(key*2654435761>>>0)%DATA.s.length; const s=DATA.s[idx];
+  const st=store.get("dec-sig",{last:0,streak:0,hits:0,played:0,done:{}});
+  const done=st.done[key];
+  const d=new Date();
+  $("#sigcard").innerHTML=`<div class="date">Сигнал дня · ${d.toLocaleDateString("ru-RU",{day:"numeric",month:"long"})}</div>
+   <div class="st">${esc(s.t)}</div><div class="note">${esc(s.type)} · ${esc(s.src)}</div>
+   <div class="guess">${ORDER.map(L=>`<button class="L-${L}" data-g="${L}"><b>${sym(L,26)}${NAMES[L]}</b><span>${HINTS[L]}</span></button>`).join("")}</div>
+   <div class="result" id="sres"></div>`;
+  const show=(g)=>{
+    document.querySelectorAll("[data-g]").forEach(b=>{b.disabled=true;if(b.dataset.g===s.L)b.classList.add("right");else if(b.dataset.g===g)b.classList.add("wrong")});
+    const hit=g===s.L; const cur=store.get("dec-sig",st);
+    const grid=ORDER.map(L=>L===s.L?"■":(L===g?"×":"□")).join(" ");
+    const text=`Сигнал дня Декодера, ${d.toLocaleDateString("ru-RU")}\n${grid}\n${hit?"Совпал(а) с игрой":"Увидел(а) этот сигнал по-своему"} · серия ${cur.streak}\n${BASE}#signal`;
+    $("#sres").classList.add("show");
+    $("#sres").innerHTML=`<p><b>${hit?"Ты совпал(а) с участниками игры.":"На игре этот сигнал положили в "+NAMES[s.L].toLowerCase()+"."}</b> Где он всплыл: ${esc(s.where)}. ${hit?"":"Это не ошибка: в Декодере сигнал попадает в разные квадраты в зависимости от того, кто на него смотрит."}</p>
+    <div class="stats"><span>Сыграно: ${cur.played}</span><span>Совпадений: ${cur.hits}</span><span>Серия: ${cur.streak}</span></div>
+    <div class="actions"><button class="btn" id="scopy">Поделиться результатом</button><button class="btn ghost" data-go="canvas">Открыть полотно</button></div>
+    <div class="sharebox" id="sshare"><textarea readonly></textarea></div>
+    <p class="note">Завтра будет новый сигнал.</p>`;
+    $("#scopy").onclick=()=>{const bx=$("#sshare");bx.classList.add("show");bx.querySelector("textarea").value=text;copyText(text,$("#scopy"))};
+  };
+  if(done){show(done);return}
+  document.querySelectorAll("[data-g]").forEach(b=>b.addEventListener("click",()=>{
+    const g=b.dataset.g; const hit=g===s.L;
+    const yesterday=todayKey(new Date(Date.now()-864e5));
+    st.played++; if(hit)st.hits++; st.streak=(st.last===yesterday||st.last===key)?st.streak+1:1; st.last=key; st.done[key]=g; store.set("dec-sig",st);
+    show(g);
+  }));
+}
+
+
+/* dilemmas */
+const DIL=[
+ {t:"Комфорт против устойчивости",q:"Удобная чужая площадка уже сейчас или свой инструмент, который дороже и сложнее?",a:["Беру удобную площадку","Строю своё"],w:["ЦС","ДС"]},
+ {t:"Автоматизировать, чтобы отдыхать, — ловушка",q:"ИИ забрал всю рутину, денег хватает. Что дальше?",a:["Наконец отдыхаю","Ищу новое дело"],w:["ЦС","ДС"]},
+ {t:"Шаг вперёд — два шага назад",q:"Хочешь начать что-то новое. Как заходишь?",a:["Сначала гарантии, потом шаг","Отказываюсь от части комфорта и иду"],w:["ЦЗ","ДС"]},
+ {t:"Сказать первым",q:"Все вокруг видят проблему и молчат. Что делаешь?",a:["Говорю первым","Жду, пока скажет кто-то ещё"],w:["ДЗ","ЦЗ"]},
+ {t:"Ответственность всё равно на нас",q:"Решение можно отдать экспертам или алгоритму. Отдаёшь?",a:["Отдаю, пусть решают те, кто знает","Решаю сам, даже если ошибусь"],w:["ЦС","ДС"]},
+ {t:"Таблетка и тревога",q:"Появилась таблетка от старения. Берёшь, зная, что желание жить здорово может пропасть?",a:["Беру","Не беру, дойду сам"],w:["ЦС","ДС"]},
+ {t:"Ограничение или свобода времени",q:"Что тебе ближе?",a:["Короткая жизнь, где приходится выбирать","Длинная жизнь, где можно попробовать всё"],w:["ЦЗ","ДС"]},
+ {t:"Чем больше узнаёшь, тем сложнее говорить",q:"Ты в новой теме. Что дальше?",a:["Ещё поучусь, пока не разберусь","Начинаю говорить с тем, что уже знаю"],w:["ЦЗ","ДС"]},
+ {t:"Советы детям — из стереотипов двадцатилетней давности",q:"Подросток выбирает, кем быть. Что советуешь?",a:["Надёжную профессию","Сначала понять, в каком мире он хочет жить"],w:["ЦЗ","ДЗ"]},
+ {t:"Минимальный комфорт и великая цель",q:"Есть шанс стать частью большого общего дела, но придётся отказаться от части комфорта.",a:["Остаюсь в своём комфорте","Иду в общее дело"],w:["ЦС","ДЗ"]}
+];
+DIL.forEach(d=>d.m=DATA.m.find(m=>m.title===d.t));
+function renderDilList(){
+  $("#dlist").innerHTML=DIL.map((d,i)=>`<button class="plate" data-go="dil-${i}"><span class="sph">Дилемма ${i+1}</span><span class="dq">${esc(d.q)}</span><span class="ask">${esc(d.a[0])} или ${esc(d.a[1]).toLowerCase()}</span></button>`).join("");
+}
+function renderDil(i,friend){
+  const d=DIL[i]; const v=$("#v-dil");
+  v.innerHTML=`<div class="dcard"><button class="back" data-go="dilemmas">← Все дилеммы</button>
+   <p class="note">${friend!==undefined?"Тебе прислали дилемму. Друг уже выбрал, выбери и ты":"Дилемма "+(i+1)+" из "+DIL.length}</p>
+   <h2>${esc(d.q)}</h2>
+   <div class="dopts">${d.a.map((a,k)=>`<button class="dopt" data-k="${k}">${esc(a)}</button>`).join("")}</div>
+   <div id="dilres"></div></div>`;
+  v.querySelectorAll("[data-k]").forEach(b=>b.addEventListener("click",()=>{
+    const k=+b.dataset.k;
+    v.querySelectorAll("[data-k]").forEach((x,j)=>{x.disabled=true;x.insertAdjacentHTML("beforeend",`<span class="tag">${j===k?"твой выбор · ":""}${friend===j?"выбор друга · ":""}ближе к: ${NAMES[d.w[j]].toLowerCase()}</span>`);if(j===k)x.classList.add("mine")});
+    const m=d.m;
+    const fr=friend===undefined?"":`<p class="friendpick"><b>${friend===k?"Вы с другом выбрали одно и то же.":"Вы с другом выбрали по-разному."}</b> ${friend===k?"Посмотрите, какая цена у вашего общего выбора.":"Самое интересное: спросите друг друга почему."}</p>`;
+    const link=BASE+"#dil-"+i+"-"+k;
+    $("#dilres").innerHTML=`<div style="margin-top:16px">${fr}</div>
+     ${m?`<div class="gamebox"><h4>К чему пришли на игре</h4><p>${esc(m.looks)}</p><h4>Парадокс</h4><p><b>${esc(m.par)}</b></p><h4>Проверь на этой неделе</h4><p>${esc(m.exp)}</p><p class="note" style="margin-top:10px">${esc(m.src)}</p></div>`:""}
+     <div class="actions"><button class="btn" id="dilcopy">Спросить друга</button>${i+1<DIL.length?`<button class="btn ghost" data-go="dil-${i+1}">Следующая дилемма</button>`:`<button class="btn ghost" data-go="canvas">Открыть полотно</button>`}</div>
+     <div class="sharebox" id="dilshare"><textarea readonly></textarea><p class="note">Друг увидит дилемму без твоего ответа и узнает его только после своего выбора.</p></div>`;
+    const text=`${d.q}\nЯ уже выбрал(а). А ты?\n${link}`;
+    $("#dilcopy").onclick=()=>{const bx=$("#dilshare");bx.classList.add("show");bx.querySelector("textarea").value=text;copyText(text,$("#dilcopy"))};
+  }));
+}
+renderDilList();
+
+/* utils + routing */
+function copyText(t,btn){
+  const ok=()=>{if(btn){const o=btn.textContent;btn.textContent="Скопировано";setTimeout(()=>btn.textContent=o,1600)}};
+  try{navigator.clipboard.writeText(t).then(ok,()=>{})}catch(e){}
+}
+document.addEventListener("click",e=>{
+  const g=e.target.closest("[data-go]"); if(g){location.hash=g.dataset.go;return}
+  const d=e.target.closest("[data-duel]"); if(d){location.hash="new-"+d.dataset.duel;return}
+  const c=e.target.closest("[data-copy]"); if(c){const t=BASE+"#"+c.dataset.copy;const bx=$("#qshare");bx.classList.add("show");bx.querySelector("textarea").value=t;copyText(t,c)}
+});
+function route(){
+  const h=location.hash.replace(/^#/,"");
+  document.querySelectorAll(".view").forEach(v=>{v.style.display="none"});
+  let tab="canvas";
+  let m;
+  if((m=h.match(/^q-([a-z0-9]+)$/))&&byId[m[1]]){renderQuestion(byId[m[1]]);$("#v-question").style.display="block"}
+  else if((m=h.match(/^new-([a-z0-9]+)$/))&&byId[m[1]]){renderDuelCreate(byId[m[1]]);$("#v-duel").style.display="block"}
+  else if((m=h.match(/^duel-([a-z0-9]+)-([0-3])$/))&&byId[m[1]]&&byId[m[1]].w[ORDER[+m[2]]]){renderDuelAnswer(byId[m[1]],ORDER[+m[2]]);$("#v-duel").style.display="block";tab=""}
+  else if(h==="dilemmas"){$("#v-dilemmas").style.display="block";tab="dilemmas"}
+  else if((m=h.match(/^dil-(\d+)(?:-([01]))?$/))&&DIL[+m[1]]){renderDil(+m[1],m[2]===undefined?undefined:+m[2]);$("#v-dil").style.display="block";tab="dilemmas"}
+  else if(h==="signal"){renderSignal();$("#v-signal").style.display="block";tab="signal"}
+  else {$("#v-canvas").style.display="block"}
+  document.querySelectorAll("nav.tabs a").forEach(a=>{if(a.dataset.tab===tab)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+  document.querySelector(".hero").style.display=(tab==="canvas"&&!h.startsWith("q-")&&!h.startsWith("new-"))?"":"none";
+  window.scrollTo(0,0);
+}
+renderGrid();
+document.querySelector("#foot").textContent=`База знаний Декодера · вопросов: ${DATA.q.length} · сигналов: ${DATA.s.length} · обновлено ${DATA.updated||""}. Полотно дополняется после каждой игры.`;
+window.addEventListener("hashchange",route);
+route();
+
+}
+boot();
+</script>
+</body>
+</html>
