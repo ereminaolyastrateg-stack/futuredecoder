@@ -16,28 +16,28 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Oswald
+      body: Inter
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#efeeea"
+        lightgray: "#d9d6ce"
+        gray: "#9a978f"
+        darkgray: "#3b3a37"
+        dark: "#191818"
+        secondary: "#0a6fc2"
+        tertiary: "#fc5721"
+        highlight: rgba(254, 223, 58, 0.22)
+        textHighlight: "#fedf3a88"
       darkMode:
         light: "#161618"
         lightgray: "#393639"
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
+        secondary: "#5aaeff"
+        tertiary: "#fc5721"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:

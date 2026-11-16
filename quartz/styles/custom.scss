@@ -299,3 +299,269 @@
 .polotno-btn.ghost:hover {
   color: #fff !important;
 }
+
+// ===== Декодер: оформление сада в стиле «Полотна будущего» =====
+// тёплая бумага, узкие чёрные капсы, плоские цветные плашки миров, голограмма
+
+:root {
+  --dec-paper: #efeeea;
+  --dec-ink: #191818;
+  --dec-muted: #5f5d58;
+  --dec-line: #d9d6ce;
+  --dec-cs: #fc5721;
+  --dec-cz: #fedf3a;
+  --dec-ds: #1e7ff0;
+  --dec-dz: #fd7fb8;
+  --dec-link: #068ee6;
+  --dec-holo: linear-gradient(115deg, #f2d36b 0%, #f08a4b 18%, #e9508e 34%, #7a5cf0 50%, #2fa7e8 66%, #5fd3a0 82%, #f2d36b 100%);
+  --dec-display: "Oswald", "Arial Narrow", Impact, sans-serif;
+}
+
+body {
+  background: var(--light);
+  font-feature-settings: "ss01";
+}
+
+// тонкая голограмма сверху страницы
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: var(--dec-holo);
+  z-index: 50;
+}
+
+// ---- название сада как логотип полотна
+.page-title {
+  font-family: var(--dec-display);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 0.95;
+  font-size: 1.55rem;
+  margin-top: 2.2rem !important;
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--dark) !important;
+    text-decoration: none;
+    &::before {
+      content: "";
+      flex: none;
+      width: 2.1rem;
+      height: 2.1rem;
+      border-radius: 0.55rem;
+      background: var(--dec-holo);
+    }
+  }
+}
+
+// ---- заголовки статей
+h1,
+h2,
+h3,
+.article-title,
+.explorer .title-button h2,
+.right.sidebar h3 {
+  font-family: var(--dec-display);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+h1.article-title {
+  font-size: clamp(2.1rem, 4.6vw, 3.4rem);
+  line-height: 1;
+  margin: 0.6rem 0 0.4rem;
+}
+article h2 {
+  font-size: 1.7rem;
+  line-height: 1.05;
+  margin-top: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  // четыре точки миров перед подзаголовком
+  &::before {
+    content: "";
+    flex: none;
+    width: 2.2rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--dec-cs) 0 25%, var(--dec-cz) 25% 50%, var(--dec-ds) 50% 75%, var(--dec-dz) 75% 100%);
+  }
+}
+article h3 {
+  font-size: 1.25rem;
+}
+.content-meta {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--dec-muted);
+}
+
+// ---- ссылки
+a.internal,
+a.external {
+  background: none !important;
+  color: var(--secondary) !important;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--secondary) 35%, transparent);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 2px;
+  padding: 0 !important;
+  border-radius: 0;
+  transition: text-decoration-color 0.15s, color 0.15s;
+  &:hover {
+    color: var(--dark) !important;
+    text-decoration-color: var(--dec-dz);
+  }
+}
+
+// ---- хлебные крошки и переключатель языка как таблетки полотна
+.breadcrumb-container {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  .breadcrumb-element a {
+    color: var(--dec-muted) !important;
+  }
+}
+.language-switcher {
+  .language-separator {
+    display: none;
+  }
+  a,
+  .language-current {
+    border: 1px solid var(--dark);
+    border-radius: 999px !important;
+    padding: 0.2rem 0.75rem !important;
+    font-weight: 600;
+  }
+  .language-current {
+    background: var(--dark) !important;
+    color: var(--light) !important;
+  }
+  a {
+    color: var(--dark) !important;
+    background: var(--surface, var(--light));
+    &:hover {
+      background: var(--dec-holo) !important;
+    }
+  }
+}
+
+// ---- поиск
+.search > .search-button {
+  border-radius: 999px !important;
+  border: 1px solid var(--dark) !important;
+  background: var(--light) !important;
+}
+
+// ---- проводник
+.explorer .title-button h2 {
+  font-size: 1rem;
+}
+.explorer .folder-title,
+.explorer .folder-button {
+  font-weight: 600;
+}
+.explorer li > a {
+  text-decoration: none !important;
+}
+
+// ---- цитаты и выделения
+blockquote {
+  border-left: 0.35rem solid var(--dec-cz) !important;
+  background: color-mix(in srgb, var(--dec-cz) 14%, transparent);
+  border-radius: 0 0.6rem 0.6rem 0;
+  padding: 0.6rem 1rem;
+  margin-left: 0;
+}
+::selection {
+  background: color-mix(in srgb, var(--dec-dz) 45%, transparent);
+}
+hr {
+  border: none;
+  height: 1px;
+  background: var(--dark);
+  opacity: 0.6;
+}
+
+// ---- правая колонка (граф, обратные ссылки) карточками
+.right.sidebar > div {
+  border-radius: 0.9rem;
+}
+.right.sidebar .graph > .graph-outer {
+  border-radius: 0.9rem;
+  border: 1px solid var(--dec-line);
+  background: #fff;
+}
+.right.sidebar h3 {
+  font-size: 0.95rem;
+}
+
+// ---- главная: первый абзац крупнее, список разделов плашками
+body[data-slug="index"],
+body[data-slug="en/index"] {
+  .article-title {
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    background: var(--dec-holo);
+    color: #fff;
+    padding: 1.6rem 1.8rem;
+    border-radius: 1.2rem;
+    text-shadow: 0 1px 14px rgba(0, 0, 0, 0.18);
+  }
+  article > p:first-of-type,
+  .markdown-rendered > p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.45;
+    color: var(--dark);
+  }
+  article ul:last-of-type {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: 0.7rem;
+    li {
+      margin: 0;
+      display: flex;
+    }
+    li a {
+      display: block;
+      flex: 1;
+      box-sizing: border-box;
+      padding: 1rem 1.1rem 1.4rem !important;
+      min-height: 5.2rem;
+      border-radius: 0.9rem;
+      font-family: var(--dec-display);
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.15rem;
+      line-height: 1.05;
+      text-decoration: none !important;
+      color: var(--dec-ink) !important;
+      background: #fff !important;
+      border: 1px solid var(--dec-ink);
+      border-radius: 0.9rem !important;
+      transition: transform 0.15s;
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+    li:nth-child(5n + 2) a { background: var(--dec-cs) !important; color: #fff !important; border-color: var(--dec-cs); }
+    li:nth-child(5n + 3) a { background: var(--dec-cz) !important; border-color: var(--dec-cz); }
+    li:nth-child(5n + 4) a { background: var(--dec-ds) !important; color: #fff !important; border-color: var(--dec-ds); }
+    li:nth-child(5n + 5) a { background: var(--dec-dz) !important; border-color: var(--dec-dz); }
+  }
+}
+
+// тёмная тема: голограмма и плашки остаются, бумага становится графитом
+:root[saved-theme="dark"] {
+  .language-switcher a { background: transparent; }
+  .right.sidebar .graph > .graph-outer { background: transparent; }
+}
