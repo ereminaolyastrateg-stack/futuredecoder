@@ -6,6 +6,7 @@ import json, os, re, sys
 
 REPO = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/futuredecoder'
 HERE = os.path.dirname(os.path.abspath(__file__))
+if len(sys.argv) < 2 and os.path.isdir(os.path.join(HERE, '../../quartz')): REPO = os.path.abspath(os.path.join(HERE, '../..'))
 SRC = os.path.join(REPO, 'quartz/static/polotno/index.html')
 DST = os.path.join(REPO, 'quartz/static/polotno/en/index.html')
 TR = json.load(open(os.path.join(HERE, 'tr.json'), encoding='utf-8'))
@@ -91,7 +92,8 @@ R = [
  ('aria-label="Разделы"', 'aria-label="Sections"'),
  ('data-tab="canvas">Полотно</a>', 'data-tab="canvas">Canvas</a>'),
  ('data-tab="dilemmas">Дилеммы</a>', 'data-tab="dilemmas">Dilemmas</a>'),
- ('data-tab="signal">Сигнал дня</a>', 'data-tab="signal">Daily signal</a>\n      <a href="../" hreflang="ru" lang="ru" class="langsw">RU</a>'),
+ ('data-tab="signal">Сигнал дня</a>', 'data-tab="signal">Daily signal</a>'),
+ ('<a href="en/" hreflang="en" lang="en" class="langsw">EN</a>', '<a href="../" hreflang="ru" lang="ru" class="langsw">RU</a>'),
  ('{База знаний Декодера}', '{Decoder knowledge base}'),
  ('<h1>Полотно<br>будущего</h1>', '<h1>Future<br>Canvas</h1>'),
  ('спроектировано людьми на играх', 'designed by people at the games'),
