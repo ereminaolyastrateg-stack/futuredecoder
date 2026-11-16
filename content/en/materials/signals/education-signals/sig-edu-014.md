@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/educational-pathway
+  - theme/inequality
+  - theme/social-connections
 signal_type: signal
 signal_id: SIG-EDU-014
+year: ""
+added: 2026-11-12
 name: "The 12-Year-Old’s Birthday Party"
 scenario: CS
 period: "n.d."

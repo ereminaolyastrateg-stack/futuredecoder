@@ -69,6 +69,28 @@ updated: 2026-11-16
 - `translations`: only when a second language version exists; the other version gets the same in reverse.
 - `socialImage`: optional; without it the garden generates a social image itself.
 
+### Signal front matter
+
+A signal has fields in its front matter from which the [[en/materials/signals/education|signal catalog]] with search and filters is built:
+
+```yaml
+signal_type: signal
+signal_id: SIG-EDU-041
+name: "Short project name"
+scenario: DS            # CS, CE, DS or DE
+year: 2025              # year of the signal; empty if unknown
+period: "2025 — launch; 2035 — scenario horizon."
+added: 2026-11-16       # when the signal was added to the garden
+geography: "France"
+stage: "Pilot"
+life_domains: ["Education", "Work"]
+industries: ["EdTech"]
+themes: ["learning by doing", "peer review"]   # the essence of the signal, 2–4 labels
+macrotrends: ["MT-043 — Education, knowledge and literacy"]
+```
+
+Signal tags: `type/signal`, `scenario/…`, `domain/…` and thematic `theme/…` tags, one for each label in `themes`. Thematic labels describe the essence of the signal, not the industry: not "edtech" but "learning by doing".
+
 ## Tags
 
 Tags are hierarchical: `group/value`. Lower case, words joined with hyphens.

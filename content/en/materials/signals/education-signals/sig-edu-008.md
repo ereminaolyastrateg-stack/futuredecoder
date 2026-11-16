@@ -11,8 +11,14 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/clr
+  - theme/portfolio
+  - theme/privacy
+  - theme/informal-learning
 signal_type: signal
 signal_id: SIG-EDU-008
+year: ""
+added: 2026-11-12
 name: "Comprehensive Learner Record"
 scenario: CS
 period: "n.d."

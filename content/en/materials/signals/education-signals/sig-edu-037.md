@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/open-problem
+  - theme/deep-tech
+  - theme/prototype
 signal_type: signal
 signal_id: SIG-EDU-037
+year: 2014
+added: 2026-11-12
 name: "CERN Challenge-Based Innovation"
 scenario: DE
 period: "Since 2014 — CBI history in the IdeaSquare report for 2021–2023."

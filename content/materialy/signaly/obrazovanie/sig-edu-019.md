@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ЦЗ
   - сфера/образование
+  - тема/design-factory
+  - тема/междисциплинарность
+  - тема/прототип
 signal_type: signal
 signal_id: SIG-EDU-019
+year: ""
+added: 2026-11-12
 name: "Design Factory Global Network"
 scenario: ЦЗ
 period: "б. д."

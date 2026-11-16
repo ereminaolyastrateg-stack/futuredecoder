@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/район
+  - тема/эксперимент
+  - тема/обратная-связь
 signal_type: signal
 signal_id: SIG-EDU-031
+year: 2026
+added: 2026-11-12
 name: "Adaptive Neighbourhoods Lab"
 scenario: ДЗ
 period: "2026 — выставочная модель; 2070 — сценарный горизонт Pluriversity."

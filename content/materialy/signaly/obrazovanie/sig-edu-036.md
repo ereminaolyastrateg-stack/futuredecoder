@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/молодёжный-проект
+  - тема/обучение-действием
+  - тема/общественная-польза
 signal_type: signal
 signal_id: SIG-EDU-036
+year: 2026
+added: 2026-11-12
 name: "Learning Planet Youth Design Challenge"
 scenario: ДЗ
 period: "2026–2027 — выпуск программы; запуск 22 сентября 2026."

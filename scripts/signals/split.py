@@ -89,6 +89,8 @@ def process(lang):
         mts = re.findall(r'\[(MT-\d{3})[^\]]*\]', field(rest, L['mt']))
         # тегов немного (как в медиатеке); остальное — поля шапки для таблицы-каталога
         seen = [f"{L['t_type']}/{L['t_sig']}", f"{L['t_scen']}/{code}", L['topic']]
+        seen += [f"{L['t_theme']}/{slugtag(x)}" for x in themes if f"{L['t_theme']}/{slugtag(x)}" not in seen]
+        ym = re.search(r'(19|20)\d\d', field(rest, L['period']))
         mt_full = re.findall(r'\[(MT-\d{3}[^\]]*)\]', field(rest, L['mt']))
         clean = lambda x: x.strip().rstrip('.').strip()
         # тело: ссылки на соседние сигналы → вики-ссылки, теги → кликабельные, макротренды → текст до появления заметок
@@ -103,7 +105,7 @@ def process(lang):
                'translations:',
                f"  ru: /{LANGS['ru']['url']}/{sid.lower()}", f"  en: /{LANGS['en']['url']}/{sid.lower()}",
                'aliases:', f'  - {sid}', 'tags:'] + [f'  - {t}' for t in seen] + [
-               'signal_type: signal', f'signal_id: {sid}', f'name: {yq(name)}', f'scenario: {code}',
+               'signal_type: signal', f'signal_id: {sid}', f"year: {ym.group(0) if ym else '\"\"'}", 'added: 2026-11-12', f'name: {yq(name)}', f'scenario: {code}',
                f"period: {yq(field(rest, L['period']).strip())}", f"geography: {yq(clean(field(rest, L['geo'])))}",
                f"stage: {yq(clean(field(rest, L['stage'])))}",
                'life_domains:'] + [f'  - {yq(clean(x))}' for x in sph] + ['industries:'] + [f'  - {yq(clean(x))}' for x in ind] + [

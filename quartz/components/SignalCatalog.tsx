@@ -14,6 +14,8 @@ type Item = {
   trends: string[]
   geography: string
   period: string
+  year: number
+  added: string
   description: string
 }
 
@@ -53,6 +55,7 @@ const script = String.raw`
   const q = (s) => root.querySelector(s)
   const search = q("[data-f-search]"), scen = q("[data-f-scenario]"), dom = q("[data-f-domain]"),
     ind = q("[data-f-industry]"), theme = q("[data-f-theme]"), trend = q("[data-f-trend]"),
+    sort = q("[data-f-sort]"), tbody = root.querySelector("tbody"),
     reset = q("[data-f-reset]"), count = q("[data-f-count]"), empty = q("[data-f-empty]")
   const lang = root.dataset.language || "ru"
   const norm = (v) => (v || "").toLocaleLowerCase(lang).trim()
@@ -71,6 +74,17 @@ const script = String.raw`
     count.textContent = lang === "ru" ? "Найдено: " + n + " из " + rows.length : "Showing " + n + " of " + rows.length
     empty.hidden = n !== 0
   }
+  const resort = () => {
+    const v = sort.value, y = (r) => Number(r.dataset.year) || 0
+    const cmp = {
+      "added": (a, b) => b.dataset.added.localeCompare(a.dataset.added) || a.dataset.id.localeCompare(b.dataset.id),
+      "year-desc": (a, b) => y(b) - y(a) || a.dataset.id.localeCompare(b.dataset.id),
+      "year-asc": (a, b) => (y(a) || 9999) - (y(b) || 9999) || a.dataset.id.localeCompare(b.dataset.id),
+      "id": (a, b) => a.dataset.id.localeCompare(b.dataset.id),
+    }[v]
+    rows.slice().sort(cmp).forEach((r) => tbody.appendChild(r))
+  }
+  sort.addEventListener("change", resort)
   search.addEventListener("input", update)
   for (const c of [scen, dom, ind, theme, trend]) c.addEventListener("change", update)
   // клик по метке в таблице включает фильтр
@@ -81,7 +95,7 @@ const script = String.raw`
     if (sel) { sel.value = chip.dataset.value; update(); sel.scrollIntoView({ block: "nearest" }) }
   })
   reset.addEventListener("click", () => {
-    search.value = ""; for (const c of [scen, dom, ind, theme, trend]) c.value = ""; update(); search.focus()
+    search.value = ""; for (const c of [scen, dom, ind, theme, trend]) c.value = ""; sort.value = "added"; resort(); update(); search.focus()
   })
   update()
 })()
@@ -115,10 +129,12 @@ export default (() => {
           trends: strs(f.macrotrends),
           geography: s("geography"),
           period: s("period"),
+          year: Number(f.year) || 0,
+          added: f.added instanceof Date ? f.added.toISOString().slice(0, 10) : String(f.added ?? f.created ?? "").slice(0, 10),
           description: s("description"),
         }
       })
-      .sort((a, b) => a.id.localeCompare(b.id))
+      .sort((a, b) => b.added.localeCompare(a.added) || a.id.localeCompare(b.id))
 
     const scenarios = ORDER.filter((c) => items.some((i) => i.scenario === c))
     const domains = uniq(items.flatMap((i) => i.domains), locale)
@@ -133,7 +149,7 @@ export default (() => {
           scenario: "Мир", allS: "Все миры", domain: "Сфера жизни", allD: "Все сферы",
           industry: "Отрасль", allI: "Все отрасли", theme: "Тема", allT: "Все темы",
           trend: "Макротренд", allM: "Все макротренды", reset: "Сбросить фильтры",
-          signal: "Сигнал", geo: "Где", when: "Когда", brief: "Коротко",
+          signal: "Сигнал", geo: "Где", when: "Год", brief: "Коротко", essence: "Суть", added: "Добавлен", nd: "б. д.", sort: "Сортировка", sorts: ["Сначала новые в саду", "Сначала новые сигналы", "Сначала старые сигналы", "По номеру"],
           empty: "По выбранным параметрам сигналов нет.", hint: "Нажмите на метку в таблице, чтобы отфильтровать по ней.",
         }
       : {
@@ -141,7 +157,7 @@ export default (() => {
           scenario: "World", allS: "All worlds", domain: "Life domain", allD: "All domains",
           industry: "Industry", allI: "All industries", theme: "Theme", allT: "All themes",
           trend: "Macrotrend", allM: "All macrotrends", reset: "Reset filters",
-          signal: "Signal", geo: "Where", when: "When", brief: "In brief",
+          signal: "Signal", geo: "Where", when: "Year", brief: "In brief", essence: "Essence", added: "Added", nd: "n.d.", sort: "Sort", sorts: ["Newest in the garden", "Newest signals", "Oldest signals", "By number"],
           empty: "No signals match the selected filters.", hint: "Click a label in the table to filter by it.",
         }
 
@@ -205,6 +221,14 @@ export default (() => {
               ))}
             </select>
           </label>
+          <label>
+            <span>{L.sort}</span>
+            <select data-f-sort>
+              {["added", "year-desc", "year-asc", "id"].map((v, k) => (
+                <option value={v}>{L.sorts[k]}</option>
+              ))}
+            </select>
+          </label>
           <button type="button" class="media-filter-reset" data-f-reset>
             {L.reset}
           </button>
@@ -221,11 +245,13 @@ export default (() => {
               <tr>
                 <th>{L.signal}</th>
                 <th>{L.scenario}</th>
+                <th>{L.essence}</th>
                 <th>{L.brief}</th>
                 <th>{L.domain}</th>
                 <th>{L.industry}</th>
                 <th>{L.geo}</th>
                 <th>{L.when}</th>
+                <th>{L.added}</th>
               </tr>
             </thead>
             <tbody>
@@ -237,6 +263,9 @@ export default (() => {
                   data-industries={i.industries.join("|")}
                   data-themes={i.themes.join("|")}
                   data-trends={i.trends.join("|")}
+                  data-year={i.year}
+                  data-added={i.added}
+                  data-id={i.id}
                   data-search={`${i.id} ${i.name} ${i.title} ${i.geography} ${i.description} ${i.themes.join(" ")}`}
                 >
                   <td data-label={L.signal}>
@@ -255,10 +284,10 @@ export default (() => {
                       {world(i.scenario)}
                     </button>
                   </td>
-                  <td data-label={L.brief}>
-                    {i.description}
-                    <div class="media-chip-list signal-themes">{chips(i.themes, "theme", "theme-chip")}</div>
+                  <td data-label={L.essence}>
+                    <div class="media-chip-list">{chips(i.themes, "theme", "theme-chip")}</div>
                   </td>
+                  <td data-label={L.brief}>{i.description}</td>
                   <td data-label={L.domain}>
                     <div class="media-chip-list">{chips(i.domains, "domain")}</div>
                   </td>
@@ -266,7 +295,12 @@ export default (() => {
                     <div class="media-chip-list">{chips(i.industries, "industry")}</div>
                   </td>
                   <td data-label={L.geo}>{i.geography}</td>
-                  <td data-label={L.when}>{i.period}</td>
+                  <td data-label={L.when} title={i.period}>
+                    {i.year || L.nd}
+                  </td>
+                  <td data-label={L.added} class="signal-added">
+                    {i.added}
+                  </td>
                 </tr>
               ))}
             </tbody>

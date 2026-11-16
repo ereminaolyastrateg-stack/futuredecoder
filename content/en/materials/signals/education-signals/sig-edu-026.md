@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/choice
+  - theme/coach
+  - theme/independence
 signal_type: signal
 signal_id: SIG-EDU-026
+year: ""
+added: 2026-11-12
 name: "Bredagora"
 scenario: DS
 period: "n.d."

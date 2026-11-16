@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/programming
+  - theme/peer-review
+  - theme/repeated-attempt
 signal_type: signal
 signal_id: SIG-EDU-029
+year: ""
+added: 2026-11-12
 name: "42"
 scenario: DE
 period: "n.d."

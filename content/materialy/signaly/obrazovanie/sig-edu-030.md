@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/намерение
+  - тема/рефлексия
+  - тема/совместные-правила
 signal_type: signal
 signal_id: SIG-EDU-030
+year: ""
+added: 2026-11-12
 name: "Agile Learning Centers"
 scenario: ДС
 period: "б. д."

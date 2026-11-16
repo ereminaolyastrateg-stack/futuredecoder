@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ЦС
   - сфера/образование
+  - тема/музей
+  - тема/персонализация
+  - тема/любопытство
 signal_type: signal
 signal_id: SIG-EDU-004
+year: 2026
+added: 2026-11-12
 name: "Bubble Talk"
 scenario: ЦС
 period: "2026."

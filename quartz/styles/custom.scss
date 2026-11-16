@@ -715,3 +715,9 @@ body[data-slug="en/materials/signals/index"] {
 // теги под заголовком заметки — компактнее
 ul.tags { justify-content: flex-start !important; }
 ul.tags a.tag-link { font-size: 0.74rem !important; padding: 0.1rem 0.55rem !important; white-space: nowrap; }
+.signal-catalog {
+  .signal-table td:nth-child(3) { min-width: 10rem; }
+  .signal-table td:nth-child(4) { min-width: 16rem; }
+  .theme-chip { background: color-mix(in srgb, var(--dec-cz) 22%, transparent) !important; outline: 0 !important; font-weight: 600; }
+  .signal-added { white-space: nowrap; color: var(--darkgray); font-size: 0.8rem; }
+}

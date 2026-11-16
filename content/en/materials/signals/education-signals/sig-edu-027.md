@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/life-experience
+  - theme/personal-plan
+  - theme/portfolio
 signal_type: signal
 signal_id: SIG-EDU-027
+year: ""
+added: 2026-11-12
 name: "College Unbound"
 scenario: DS
 period: "n.d."

@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/imagination
+  - theme/scenarios
+  - theme/world-building
 signal_type: signal
 signal_id: SIG-EDU-024
+year: ""
+added: 2026-11-12
 name: "superFUTURES"
 scenario: DS
 period: "n.d."

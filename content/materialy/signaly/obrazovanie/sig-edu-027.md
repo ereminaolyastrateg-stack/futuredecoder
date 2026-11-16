@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/жизненный-опыт
+  - тема/персональный-план
+  - тема/портфолио
 signal_type: signal
 signal_id: SIG-EDU-027
+year: ""
+added: 2026-11-12
 name: "College Unbound"
 scenario: ДС
 period: "б. д."

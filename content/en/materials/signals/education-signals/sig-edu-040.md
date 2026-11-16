@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/student-project
+  - theme/academic-credit
+  - theme/mentor
 signal_type: signal
 signal_id: SIG-EDU-040
+year: ""
+added: 2026-11-12
 name: "Sora Schools"
 scenario: DE
 period: "n.d."

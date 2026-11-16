@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/vr
+  - theme/preschool
+  - theme/progress-assessment
 signal_type: signal
 signal_id: SIG-EDU-001
+year: 2024
+added: 2026-11-12
 name: "Future Chinese Preschool"
 scenario: CS
 period: "2024; a vision of education in 2035."

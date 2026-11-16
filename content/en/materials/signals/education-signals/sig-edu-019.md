@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/design-factory
+  - theme/interdisciplinarity
+  - theme/prototype
 signal_type: signal
 signal_id: SIG-EDU-019
+year: ""
+added: 2026-11-12
 name: "Design Factory Global Network"
 scenario: CE
 period: "n.d."

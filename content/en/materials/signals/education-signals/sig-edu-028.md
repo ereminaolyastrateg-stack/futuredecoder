@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/art
+  - theme/technology
+  - theme/personal-inquiry
 signal_type: signal
 signal_id: SIG-EDU-028
+year: ""
+added: 2026-11-12
 name: "School of Machines"
 scenario: DS
 period: "n.d."

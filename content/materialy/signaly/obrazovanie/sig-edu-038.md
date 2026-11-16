@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/совместная-работа
+  - тема/сценарий-мастерской
+  - тема/итерация
 signal_type: signal
 signal_id: SIG-EDU-038
+year: ""
+added: 2026-11-12
 name: "Figuring Things Out Together"
 scenario: ДЗ
 period: "б. д."

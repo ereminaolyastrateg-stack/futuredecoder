@@ -11,8 +11,14 @@ tags:
   - тип/сигнал
   - сценарий/ЦЗ
   - сфера/образование
+  - тема/fab-lab
+  - тема/мастерская
+  - тема/портфолио
+  - тема/распределённое-обучение
 signal_type: signal
 signal_id: SIG-EDU-010
+year: ""
+added: 2026-11-12
 name: "Fab Academy"
 scenario: ЦЗ
 period: "б. д."

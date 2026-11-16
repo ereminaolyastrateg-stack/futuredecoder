@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ЦЗ
   - сфера/образование
+  - тема/дизайн
+  - тема/регенерация
+  - тема/ответственность
 signal_type: signal
 signal_id: SIG-EDU-012
+year: 2025
+added: 2026-11-12
 name: "Regenerative Future(s)"
 scenario: ЦЗ
 period: "26 марта 2025 — электронная публикация."

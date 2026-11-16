@@ -11,8 +11,16 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/ai
+  - theme/teacher-role
+  - theme/learning-environment
+  - theme/critical-thinking
+  - theme/empathy
+  - theme/speculative-design
 signal_type: signal
 signal_id: SIG-EDU-002
+year: 2025
+added: 2026-11-12
 name: "Rethinking the Future of Education"
 scenario: CS
 period: "2025 — project; 2035 — the setting of the fictional story."

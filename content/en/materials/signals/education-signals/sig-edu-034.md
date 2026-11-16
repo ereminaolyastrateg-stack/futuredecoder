@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/rituals
+  - theme/future-norms
+  - theme/rehearsal
 signal_type: signal
 signal_id: SIG-EDU-034
+year: 2025
+added: 2026-11-12
 name: "Ficta Ordo"
 scenario: DE
 period: "October 2025 — June 2026."

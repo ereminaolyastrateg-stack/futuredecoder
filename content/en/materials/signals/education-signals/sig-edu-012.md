@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/design
+  - theme/regeneration
+  - theme/responsibility
 signal_type: signal
 signal_id: SIG-EDU-012
+year: 2025
+added: 2026-11-12
 name: "Regenerative Future(s)"
 scenario: CE
 period: "26 March 2025 — online publication."

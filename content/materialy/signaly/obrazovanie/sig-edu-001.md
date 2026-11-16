@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ЦС
   - сфера/образование
+  - тема/vr
+  - тема/дошкольное-образование
+  - тема/оценка-прогресса
 signal_type: signal
 signal_id: SIG-EDU-001
+year: 2024
+added: 2026-11-12
 name: "Future Chinese Preschool"
 scenario: ЦС
 period: "2024; образ образования 2035 года."

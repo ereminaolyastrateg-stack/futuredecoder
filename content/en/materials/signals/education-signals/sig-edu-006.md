@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/portfolio
+  - theme/criteria
+  - theme/evidence-of-skills
 signal_type: signal
 signal_id: SIG-EDU-006
+year: ""
+added: 2026-11-12
 name: "Mastery Transcript"
 scenario: CS
 period: "n.d."

@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/practice
+  - theme/access-to-learning
+  - theme/solar-energy
 signal_type: signal
 signal_id: SIG-EDU-016
+year: ""
+added: 2026-11-12
 name: "Solar Mamas"
 scenario: CE
 period: "n.d."

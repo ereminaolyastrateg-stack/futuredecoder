@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/projects
+  - theme/team
+  - theme/change
 signal_type: signal
 signal_id: SIG-EDU-017
+year: ""
+added: 2026-11-12
 name: "Kaospilot"
 scenario: DE
 period: "n.d."

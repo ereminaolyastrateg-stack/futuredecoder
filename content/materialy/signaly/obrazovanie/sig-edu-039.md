@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/участие
+  - тема/власть
+  - тема/соавторство-правил
 signal_type: signal
 signal_id: SIG-EDU-039
+year: 2025
+added: 2026-11-12
 name: "Rightful Presence and Radical Making"
 scenario: ДЗ
 period: "5 сентября 2025 — лекция и дискуссия."

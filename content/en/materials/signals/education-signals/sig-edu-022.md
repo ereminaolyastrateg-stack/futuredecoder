@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/values
+  - theme/information-environment
+  - theme/user-interests
 signal_type: signal
 signal_id: SIG-EDU-022
+year: ""
+added: 2026-11-12
 name: "Deepself"
 scenario: DS
 period: "n.d."

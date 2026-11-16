@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/проекты
+  - тема/команда
+  - тема/изменения
 signal_type: signal
 signal_id: SIG-EDU-017
+year: ""
+added: 2026-11-12
 name: "Kaospilot"
 scenario: ДЗ
 period: "б. д."

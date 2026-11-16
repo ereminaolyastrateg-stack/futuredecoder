@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/intention
+  - theme/reflection
+  - theme/shared-rules
 signal_type: signal
 signal_id: SIG-EDU-030
+year: ""
+added: 2026-11-12
 name: "Agile Learning Centers"
 scenario: DS
 period: "n.d."

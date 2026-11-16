@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/neighbourhood
+  - theme/experiment
+  - theme/feedback
 signal_type: signal
 signal_id: SIG-EDU-031
+year: 2026
+added: 2026-11-12
 name: "Adaptive Neighbourhoods Lab"
 scenario: DE
 period: "2026 — exhibition model; 2070 — the Pluriversity scenario horizon."

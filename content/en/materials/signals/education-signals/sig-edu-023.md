@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/ai-literacy
+  - theme/bias
+  - theme/authorship
 signal_type: signal
 signal_id: SIG-EDU-023
+year: 2025
+added: 2026-11-12
 name: "Critical AI Literacy 2035"
 scenario: DS
 period: "2025 — project; 2035 — scenario horizon."

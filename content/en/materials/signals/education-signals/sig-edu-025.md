@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/learning-circle
+  - theme/peer-learning
+  - theme/facilitation
 signal_type: signal
 signal_id: SIG-EDU-025
+year: 2015
+added: 2026-11-12
 name: "P2PU Learning Circles"
 scenario: DS
 period: "Since 2015 — learning circles with libraries, according to P2PU’s history."

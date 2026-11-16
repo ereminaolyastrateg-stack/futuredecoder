@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
+  - theme/youtube
+  - theme/self-directed-learning
+  - theme/documentation
 signal_type: signal
 signal_id: SIG-EDU-021
+year: ""
+added: 2026-11-12
 name: "Exercises in Learning"
 scenario: DS
 period: "n.d."

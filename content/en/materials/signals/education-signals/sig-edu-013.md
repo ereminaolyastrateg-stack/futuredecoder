@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/museum
+  - theme/democracy
+  - theme/non-formal-education
 signal_type: signal
 signal_id: SIG-EDU-013
+year: 2025
+added: 2026-11-12
 name: "Learning to Disrupt"
 scenario: CE
 period: "5 September 2025 — conference session."

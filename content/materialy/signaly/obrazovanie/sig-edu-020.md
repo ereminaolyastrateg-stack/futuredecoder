@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ЦЗ
   - сфера/образование
+  - тема/контркультура
+  - тема/свободное-образование
+  - тема/плюрализм
 signal_type: signal
 signal_id: SIG-EDU-020
+year: ""
+added: 2026-11-12
 name: "University of the Underground"
 scenario: ЦЗ
 period: "б. д."

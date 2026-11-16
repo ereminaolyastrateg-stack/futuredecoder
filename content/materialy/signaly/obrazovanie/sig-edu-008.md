@@ -11,8 +11,14 @@ tags:
   - тип/сигнал
   - сценарий/ЦС
   - сфера/образование
+  - тема/clr
+  - тема/портфолио
+  - тема/приватность
+  - тема/неформальное-обучение
 signal_type: signal
 signal_id: SIG-EDU-008
+year: ""
+added: 2026-11-12
 name: "Comprehensive Learner Record"
 scenario: ЦС
 period: "б. д."

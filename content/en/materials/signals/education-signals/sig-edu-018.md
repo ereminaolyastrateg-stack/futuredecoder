@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/biennial
+  - theme/school
+  - theme/educational-experiment
 signal_type: signal
 signal_id: SIG-EDU-018
+year: 2018
+added: 2026-11-12
 name: "A School of Schools"
 scenario: CE
 period: "2018 — biennial; 22 January 2018 — the organiser’s publication."

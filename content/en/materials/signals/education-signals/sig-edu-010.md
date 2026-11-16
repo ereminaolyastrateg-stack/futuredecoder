@@ -11,8 +11,14 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
+  - theme/fab-lab
+  - theme/workshop
+  - theme/portfolio
+  - theme/distributed-learning
 signal_type: signal
 signal_id: SIG-EDU-010
+year: ""
+added: 2026-11-12
 name: "Fab Academy"
 scenario: CE
 period: "n.d."

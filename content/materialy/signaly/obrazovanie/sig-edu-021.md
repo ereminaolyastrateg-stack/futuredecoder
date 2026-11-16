@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/youtube
+  - тема/самообразование
+  - тема/документация
 signal_type: signal
 signal_id: SIG-EDU-021
+year: ""
+added: 2026-11-12
 name: "Exercises in Learning"
 scenario: ДС
 period: "б. д."

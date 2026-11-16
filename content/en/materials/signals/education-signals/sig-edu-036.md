@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/youth-project
+  - theme/learning-through-action
+  - theme/public-benefit
 signal_type: signal
 signal_id: SIG-EDU-036
+year: 2026
+added: 2026-11-12
 name: "Learning Planet Youth Design Challenge"
 scenario: DE
 period: "2026–2027 edition; launch on 22 September 2026."

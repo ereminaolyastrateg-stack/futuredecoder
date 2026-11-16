@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/выбор
+  - тема/наставник
+  - тема/самостоятельность
 signal_type: signal
 signal_id: SIG-EDU-026
+year: ""
+added: 2026-11-12
 name: "Bredagora"
 scenario: ДС
 period: "б. д."

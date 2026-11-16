@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/citizen-science
+  - theme/student-researcher
+  - theme/uncertainty
 signal_type: signal
 signal_id: SIG-EDU-033
+year: 2025
+added: 2026-11-12
 name: "Citizen Science in Education"
 scenario: DE
 period: "4 September 2025 — panel discussion."

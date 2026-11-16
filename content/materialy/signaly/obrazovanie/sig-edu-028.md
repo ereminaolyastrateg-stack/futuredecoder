@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/искусство
+  - тема/технологии
+  - тема/личное-исследование
 signal_type: signal
 signal_id: SIG-EDU-028
+year: ""
+added: 2026-11-12
 name: "School of Machines"
 scenario: ДС
 period: "б. д."

@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/learning-pathway
+  - theme/choice
+  - theme/personalisation
 signal_type: signal
 signal_id: SIG-EDU-005
+year: 2020
+added: 2026-11-12
 name: "TUMO Path"
 scenario: CS
 period: "14 February 2020 — publication; the page also lists a 2021 update."

@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/university
+  - theme/co-creation
+  - theme/prototyping
 signal_type: signal
 signal_id: SIG-EDU-032
+year: 2023
+added: 2026-11-12
 name: "FOUNDING LAB"
 scenario: DE
 period: "2023–2024."

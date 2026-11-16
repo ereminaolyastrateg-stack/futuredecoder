@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
+  - theme/instructions
+  - theme/workshop
+  - theme/self-organisation
 signal_type: signal
 signal_id: SIG-EDU-009
+year: 2018
+added: 2026-11-12
 name: "An Automatic Workshop"
 scenario: CS
 period: "2018 — the workshop documented in the publication."

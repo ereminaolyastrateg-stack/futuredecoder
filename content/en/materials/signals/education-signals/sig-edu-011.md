@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/bioregion
+  - theme/university
+  - theme/regeneration
 signal_type: signal
 signal_id: SIG-EDU-011
+year: 2026
+added: 2026-11-12
 name: "The Pluriversity"
 scenario: DE
 period: "2026 — exhibition project; 2070 — scenario horizon."

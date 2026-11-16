@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДС
   - сфера/образование
+  - тема/воображение
+  - тема/сценарии
+  - тема/построение-миров
 signal_type: signal
 signal_id: SIG-EDU-024
+year: ""
+added: 2026-11-12
 name: "superFUTURES"
 scenario: ДС
 period: "б. д."

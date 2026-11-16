@@ -11,8 +11,13 @@ tags:
   - тип/сигнал
   - сценарий/ДЗ
   - сфера/образование
+  - тема/кино
+  - тема/природа
+  - тема/цепочки-поставок
 signal_type: signal
 signal_id: SIG-EDU-035
+year: 2024
+added: 2026-11-12
 name: "Nature’s Depot"
 scenario: ДЗ
 period: "2024–2025; фильмы представлены как Showreel 2025."

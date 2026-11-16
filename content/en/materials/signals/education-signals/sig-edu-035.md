@@ -11,8 +11,13 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
+  - theme/film
+  - theme/nature
+  - theme/supply-chains
 signal_type: signal
 signal_id: SIG-EDU-035
+year: 2024
+added: 2026-11-12
 name: "Nature’s Depot"
 scenario: DE
 period: "2024–2025; films presented as Showreel 2025."
