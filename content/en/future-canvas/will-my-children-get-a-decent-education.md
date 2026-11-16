@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Who will get an education, and how?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-1ly0e9n) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-1ly0e9n)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1ly0e9n">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1ly0e9n">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

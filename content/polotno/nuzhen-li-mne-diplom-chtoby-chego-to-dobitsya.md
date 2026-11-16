@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Можно ли будет состояться без образования?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-e1qjut) · [Вызвать друга на дуэль миров](/static/polotno/#new-e1qjut)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-e1qjut">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-e1qjut">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

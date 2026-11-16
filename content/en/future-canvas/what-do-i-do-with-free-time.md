@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **What will people do when AI frees up their time?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-186avsd) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-186avsd)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-186avsd">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-186avsd">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

@@ -158,8 +158,8 @@ def page(q, lang):
         fm.append(f"  en: /en/future-canvas/{q['slug_en']}")
     fm += ['tags:', '  - polotno' if not en else '  - future-canvas', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
     body = [intro, '']
-    body.append(f"[{'Open in the interactive canvas' if en else 'Открыть в интерактивном полотне'}]({app}) · "
-                f"[{'Challenge a friend to a duel of worlds' if en else 'Вызвать друга на дуэль миров'}]({duel})")
+    body.append(f'<div class="polotno-cta"><a class="polotno-btn" href="{app}">{"Open in the interactive canvas" if en else "Открыть в интерактивном полотне"} →</a>'
+                f'<a class="polotno-btn ghost" href="{duel}">{"Challenge a friend to a duel of worlds" if en else "Вызвать друга на дуэль миров"}</a></div>')
     body.append('')
     L = 'en' if en else 'ru'
     for c in ORDER:
@@ -217,17 +217,19 @@ def index_page(lang):
               'description: "Questions about the future and four answers to each, designed by participants of Future Decoder scenario games: signals, prices and weekly steps."',
               'lang: en', 'translations:', '  ru: /polotno/', '  en: /en/future-canvas/', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
         intro = [f"Questions people ask about the future, and four answers to each. The answers were designed by participants of Future Decoder scenario games: {len(data['q'])} questions and {len(data['s'])} signals so far, updated after every game.", '',
+                 '<a class="polotno-hero" href="/static/polotno/en/"><span class="polotno-hero-t">Open the interactive canvas →</span><span class="polotno-hero-s">Duel of worlds, dilemmas and a daily signal</span></a>', '',
                  'Each answer belongs to one of four worlds of the Decoder method:', '']
         intro += [f"- **{NAMES['en'][c]} ({CODES_EN[c]})**: {HINTS['en'][c]}" for c in ORDER]
-        intro += ['', '[Open the interactive canvas](/static/polotno/en/): duels of worlds, dilemmas and a daily signal.', '']
+        intro += ['']
     else:
         fm = ['---', 'title: "Полотно будущего"', 'seoTitle: "Полотно будущего — база знаний Декодера"',
               'description: "Вопросы о будущем и четыре ответа на каждый от участников игр «Декодер Будущего»: сигналы, цена каждого мира и шаг на неделю."',
               'lang: ru', 'translations:', '  ru: /polotno/'] + (['  en: /en/future-canvas/'] if has_en else []) + [f'created: {TODAY}', f'updated: {TODAY}', '---', '']
         intro = [f"Вопросы, которые люди задают о будущем, и четыре ответа на каждый. Их спроектировали участники игр «Декодер Будущего»: сейчас здесь {pl(len(data['q']), ('вопрос','вопроса','вопросов'))} и {pl(len(data['s']), ('сигнал','сигнала','сигналов'))}, база дополняется после каждой игры.", '',
+                 '<a class="polotno-hero" href="/static/polotno/"><span class="polotno-hero-t">Открыть интерактивное полотно →</span><span class="polotno-hero-s">Дуэль миров, дилеммы и сигнал дня</span></a>', '',
                  'Каждый ответ относится к одному из четырёх миров метода Декодера:', '']
         intro += [f"- **{NAMES['ru'][c]} ({c})**: {HINTS['ru'][c]}" for c in ORDER]
-        intro += ['', '[Открыть интерактивное полотно](/static/polotno/): дуэль миров, дилеммы и сигнал дня.', '']
+        intro += ['']
     body = []
     for sp in spheres:
         body.append(f'## {sp}')

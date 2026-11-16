@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Как люди будут искать работу?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-1keb6an) · [Вызвать друга на дуэль миров](/static/polotno/#new-1keb6an)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-1keb6an">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-1keb6an">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

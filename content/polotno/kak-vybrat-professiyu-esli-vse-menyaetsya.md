@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Кто выберет мне профессию?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-1nntm5g) · [Вызвать друга на дуэль миров](/static/polotno/#new-1nntm5g)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-1nntm5g">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-1nntm5g">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

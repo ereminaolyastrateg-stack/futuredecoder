@@ -12,14 +12,14 @@ updated: 2026-11-16
 
 Questions people ask about the future, and four answers to each. The answers were designed by participants of Future Decoder scenario games: 51 questions and 292 signals so far, updated after every game.
 
+<a class="polotno-hero" href="/static/polotno/en/"><span class="polotno-hero-t">Open the interactive canvas →</span><span class="polotno-hero-s">Duel of worlds, dilemmas and a daily signal</span></a>
+
 Each answer belongs to one of four worlds of the Decoder method:
 
 - **Autopilot world (CS)**: the system decides, the result is not yours
 - **Rules world (CE)**: you take part by shared rules
 - **Autonomy world (DS)**: you decide and you own it
 - **Community world (DE)**: you create together with others
-
-[Open the interactive canvas](/static/polotno/en/): duels of worlds, dilemmas and a daily signal.
 
 ## Learning
 

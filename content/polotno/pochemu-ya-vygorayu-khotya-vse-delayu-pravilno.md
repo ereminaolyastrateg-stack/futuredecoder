@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Что будет с выгоранием?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-zgg9bj) · [Вызвать друга на дуэль миров](/static/polotno/#new-zgg9bj)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-zgg9bj">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-zgg9bj">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

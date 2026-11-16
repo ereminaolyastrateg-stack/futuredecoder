@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **How will entry into a profession work if AI does the newcomer's work?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-8xb89s) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-8xb89s)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-8xb89s">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-8xb89s">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

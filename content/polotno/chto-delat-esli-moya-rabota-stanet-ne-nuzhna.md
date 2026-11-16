@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Как люди будут зарабатывать, если работы на всех не будет?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-1pdeebv) · [Вызвать друга на дуэль миров](/static/polotno/#new-1pdeebv)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-1pdeebv">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-1pdeebv">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

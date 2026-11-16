@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Where will happiness come from, and who controls it?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-vqcq96) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-vqcq96)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-vqcq96">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-vqcq96">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

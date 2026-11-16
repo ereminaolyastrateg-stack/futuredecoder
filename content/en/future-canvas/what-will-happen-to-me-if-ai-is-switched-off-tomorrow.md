@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **How will life and work be organised if everything rests on AI?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-149n75v) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-149n75v)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-149n75v">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-149n75v">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

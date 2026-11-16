@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **What will school and university turn into now that AI exists?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-fa1rrm) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-fa1rrm)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-fa1rrm">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-fa1rrm">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 

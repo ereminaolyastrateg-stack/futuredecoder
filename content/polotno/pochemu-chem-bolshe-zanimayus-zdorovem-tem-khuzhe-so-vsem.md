@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Как будет устроен баланс между здоровьем, деньгами и временем?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
 
-[Открыть в интерактивном полотне](/static/polotno/#q-lkwuum) · [Вызвать друга на дуэль миров](/static/polotno/#new-lkwuum)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-lkwuum">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-lkwuum">Вызвать друга на дуэль миров</a></div>
 
 ## Мир автопилота (ЦС)
 

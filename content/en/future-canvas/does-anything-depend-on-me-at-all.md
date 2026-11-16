@@ -14,7 +14,7 @@ updated: 2026-11-16
 
 **Who will set the rules of life: the system or people themselves?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
 
-[Open in the interactive canvas](/static/polotno/en/#q-1mwtqwj) · [Challenge a friend to a duel of worlds](/static/polotno/en/#new-1mwtqwj)
+<div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1mwtqwj">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1mwtqwj">Challenge a friend to a duel of worlds</a></div>
 
 ## Autopilot world (CS)
 
