@@ -1,0 +1,66 @@
+# Декодер Будущего / Future Decoder
+
+> Цифровой сад Ольги Ереминой о сценариях будущего. Метод «Декодер Будущего» раскладывает любой вопрос о будущем на четыре мира: автопилот (ЦС, решает система), правила (ЦЗ, участие по общим правилам), автономия (ДС, сам решаешь и владеешь), сообщество (ДЗ, создаёшь вместе с другими).
+
+## Полотно будущего (база знаний)
+
+- [Все вопросы, RU](https://futuredecoder.org/polotno/): 51 вопросов о будущем, на каждый до четырёх ответов из игр, с сигналами, ценой и шагом на неделю.
+- [Интерактивное полотно](https://futuredecoder.org/static/polotno/): дуэль миров, дилеммы, сигнал дня.
+
+## Вопросы
+
+- [Чему мне учиться, чтобы не отстать?](https://futuredecoder.org/polotno/chemu-mne-uchitsya-chtoby-ne-otstat)
+- [Чему учить моих детей?](https://futuredecoder.org/polotno/chemu-uchit-moikh-detey)
+- [Зачем школа и вуз, если есть ИИ?](https://futuredecoder.org/polotno/zachem-shkola-i-vuz-esli-est-ii)
+- [Как понять, что я эксперт, если оценки ничего не значат?](https://futuredecoder.org/polotno/kak-ponyat-chto-ya-ekspert-esli-otsenki-nichego-ne-znachat)
+- [Где взять дисциплину и мотивацию учиться?](https://futuredecoder.org/polotno/gde-vzyat-distsiplinu-i-motivatsiyu-uchitsya)
+- [Как выбрать профессию, если всё меняется?](https://futuredecoder.org/polotno/kak-vybrat-professiyu-esli-vse-menyaetsya)
+- [Что делать, если ничего не хочется учить?](https://futuredecoder.org/polotno/chto-delat-esli-nichego-ne-khochetsya-uchit)
+- [Если каждый выберет дело по душе, кто будет делать нужное?](https://futuredecoder.org/polotno/esli-kazhdyy-vyberet-delo-po-dushe-kto-budet-delat-nuzhnoe)
+- [Что такое счастье и можно ли его измерить?](https://futuredecoder.org/polotno/chto-takoe-schaste-i-mozhno-li-ego-izmerit)
+- [Почему я выгораю, хотя всё делаю правильно?](https://futuredecoder.org/polotno/pochemu-ya-vygorayu-khotya-vse-delayu-pravilno)
+- [Нужно ли показывать, что я счастлив?](https://futuredecoder.org/polotno/nuzhno-li-pokazyvat-chto-ya-schastliv)
+- [Где искать счастье, если ничего не радует?](https://futuredecoder.org/polotno/gde-iskat-schaste-esli-nichego-ne-raduet)
+- [Как совместить тихую жизнь и необходимость зарабатывать?](https://futuredecoder.org/polotno/kak-sovmestit-tikhuyu-zhizn-i-neobkhodimost-zarabatyvat)
+- [Как мне найти работу, если не понимаю, чем хочу заниматься?](https://futuredecoder.org/polotno/kak-mne-nayti-rabotu-esli-ne-ponimayu-chem-khochu-zanimatsya)
+- [Нужен ли мне диплом, чтобы чего-то добиться?](https://futuredecoder.org/polotno/nuzhen-li-mne-diplom-chtoby-chego-to-dobitsya)
+- [Где взять стабильность, если деньги её больше не гарантируют?](https://futuredecoder.org/polotno/gde-vzyat-stabilnost-esli-dengi-ee-bolshe-ne-garantiruyut)
+- [Что меня ждёт после 60–80, если я не хочу «доживать»?](https://futuredecoder.org/polotno/chto-menya-zhdet-posle-60-80-esli-ya-ne-khochu-dozhivat)
+- [Мой ребёнок — это мой проект?](https://futuredecoder.org/polotno/moy-rebenok-eto-moy-proekt)
+- [Как найти своё предназначение?](https://futuredecoder.org/polotno/kak-nayti-svoe-prednaznachenie)
+- [Нужно ли мне самому контролировать здоровье?](https://futuredecoder.org/polotno/nuzhno-li-mne-samomu-kontrolirovat-zdorove)
+- [Как жить, если ни на что нельзя опереться?](https://futuredecoder.org/polotno/kak-zhit-esli-ni-na-chto-nelzya-operetsya)
+- [Плохо ли выбирать то, что удобнее?](https://futuredecoder.org/polotno/plokho-li-vybirat-to-chto-udobnee)
+- [Что делать, если моя работа станет не нужна?](https://futuredecoder.org/polotno/chto-delat-esli-moya-rabota-stanet-ne-nuzhna)
+- [Будет ли у моих детей нормальное образование?](https://futuredecoder.org/polotno/budet-li-u-moikh-detey-normalnoe-obrazovanie)
+- [Что будет со мной, если ИИ завтра отключат?](https://futuredecoder.org/polotno/chto-budet-so-mnoy-esli-ii-zavtra-otklyuchat)
+- [Не отупею ли я от ИИ?](https://futuredecoder.org/polotno/ne-otupeyu-li-ya-ot-ii)
+- [Кому верить, если все говорят гладко?](https://futuredecoder.org/polotno/komu-verit-esli-vse-govoryat-gladko)
+- [Где получать опыт, если джунов не берут?](https://futuredecoder.org/polotno/gde-poluchat-opyt-esli-dzhunov-ne-berut)
+- [Не потеряем ли мы живое общение?](https://futuredecoder.org/polotno/ne-poteryaem-li-my-zhivoe-obshchenie)
+- [Что делать со свободным временем?](https://futuredecoder.org/polotno/chto-delat-so-svobodnym-vremenem)
+- [Кто виноват, если ИИ ошибся?](https://futuredecoder.org/polotno/kto-vinovat-esli-ii-oshibsya)
+- [От меня вообще что-то зависит?](https://futuredecoder.org/polotno/ot-menya-voobshche-chto-to-zavisit)
+- [Не съест ли глобальный мир мой город, моё дело, мой район?](https://futuredecoder.org/polotno/ne-sest-li-globalnyy-mir-moy-gorod-moe-delo-moy-rayon)
+- [Зачем я живу, если всё вроде есть?](https://futuredecoder.org/polotno/zachem-ya-zhivu-esli-vse-vrode-est)
+- [Как договориться, чтобы никто не остался обиженным?](https://futuredecoder.org/polotno/kak-dogovoritsya-chtoby-nikto-ne-ostalsya-obizhennym)
+- [Зачем я плачу налоги и что получаю взамен?](https://futuredecoder.org/polotno/zachem-ya-plachu-nalogi-i-chto-poluchayu-vzamen)
+- [Могу ли я хоть как-то повлиять на налоги?](https://futuredecoder.org/polotno/mogu-li-ya-khot-kak-to-povliyat-na-nalogi)
+- [Кто за меня заплатит, если что-то случится?](https://futuredecoder.org/polotno/kto-za-menya-zaplatit-esli-chto-to-sluchitsya)
+- [Куда уходит моё внимание и можно ли его вернуть?](https://futuredecoder.org/polotno/kuda-ukhodit-moe-vnimanie-i-mozhno-li-ego-vernut)
+- [Почему я залипаю, а потом жалею?](https://futuredecoder.org/polotno/pochemu-ya-zalipayu-a-potom-zhaleyu)
+- [Что посоветовать ребёнку, который уезжает учиться?](https://futuredecoder.org/polotno/chto-posovetovat-rebenku-kotoryy-uezzhaet-uchitsya)
+- [Кто на самом деле управляет моими деньгами?](https://futuredecoder.org/polotno/kto-na-samom-dele-upravlyaet-moimi-dengami)
+- [Почему денег вроде больше, а жить не легче?](https://futuredecoder.org/polotno/pochemu-deneg-vrode-bolshe-a-zhit-ne-legche)
+- [Почему я всё время думаю о деньгах?](https://futuredecoder.org/polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh)
+- [Что будет, если денег вдруг станет совсем мало?](https://futuredecoder.org/polotno/chto-budet-esli-deneg-vdrug-stanet-sovsem-malo)
+- [Как мне выбраться из зарплаты и ипотеки?](https://futuredecoder.org/polotno/kak-mne-vybratsya-iz-zarplaty-i-ipoteki)
+- [Зачем мне жить до ста пятидесяти и хватит ли меня на это?](https://futuredecoder.org/polotno/zachem-mne-zhit-do-sta-pyatidesyati-i-khvatit-li-menya-na)
+- [Почему чем больше занимаюсь здоровьем, тем хуже со всем остальным?](https://futuredecoder.org/polotno/pochemu-chem-bolshe-zanimayus-zdorovem-tem-khuzhe-so-vsem)
+- [Если жить долго — надо ли торопиться?](https://futuredecoder.org/polotno/esli-zhit-dolgo-nado-li-toropitsya)
+- [Как бросить вредную привычку, если не получается?](https://futuredecoder.org/polotno/kak-brosit-vrednuyu-privychku-esli-ne-poluchaetsya)
+- [Как найти смысл жизни?](https://futuredecoder.org/polotno/kak-nayti-smysl-zhizni)
+
+## Сайты
+
+- [futuredecoder.ru](https://futuredecoder.ru): игры и форматы «Декодер Будущего»
