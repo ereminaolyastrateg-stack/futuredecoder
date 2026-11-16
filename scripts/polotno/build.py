@@ -301,7 +301,7 @@ t = re.sub(r'<!--seo-->.*?<!--/seo-->\n?', '', t, flags=re.S)
 t = t.replace('<title>Полотно будущего</title>', '<title>Полотно будущего</title>\n' + head, 1)
 nos = '<!--noscript--><noscript><div class="wrap"><h2>Вопросы полотна</h2><ul>' + ''.join(
     f'<li><a href="/polotno/{q["slug"]}">{html.escape(q["ask"])}</a></li>' for q in data['q']) + '</ul></div></noscript><!--/noscript-->'
-t = re.sub(r'<!--noscript-->.*?<!--/noscript-->', '', t, flags=re.S)
+t = re.sub(r'\n?<!--noscript-->.*?<!--/noscript-->', '', t, flags=re.S)
 t = t.replace('<body>', '<body>\n' + nos, 1)
 open(ip, 'w').write(t)
 print('pages ru:', len(data['q']), 'en:', len(data['q']) if has_en else 0)
