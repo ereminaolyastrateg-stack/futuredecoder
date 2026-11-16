@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chto-delat-esli-nichego-ne-khochetsya-uchit
   en: /en/future-canvas/what-if-i-don-t-feel-like-learning-anything
+socialImage: og/q-14tns10-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **What will happen to those who don't want to learn?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-14tns10">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-14tns10">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What if I don't feel like learning anything?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: They'll be led by metrics and reminders. The system doesn't ask whether you feel like it: you're led by metrics and reminders, and AI picks a format so it isn't boring. Rules world: A mentor will hold them until they get into it. Not feeling like it is normal; that's what the mentor and shared rules are for. They hold you until you get into it. Autonomy world: They'll simply live in a different world. Without inner drive there's no autonomy: those who want nothing simply live in another world. But interest is often born from discipline, not the other way round. And from the skill of imagining, so you're interesting to yourself. Community world: The desire will come when their work is needed by someone. Wanting is born in the process, when you see your work is needed by someone nearby. You learn not “in general” but for the live task of a neighbour or your district."}}]}</script>

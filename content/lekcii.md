@@ -10,6 +10,7 @@ tags:
   - лекции
   - об_авторе
 date: 2026-11-16
+socialImage: og/talks-ru.png
 ---
 
 <div class="about-hero">

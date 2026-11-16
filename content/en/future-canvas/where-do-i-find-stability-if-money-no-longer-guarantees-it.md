@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/gde-vzyat-stabilnost-esli-dengi-ee-bolshe-ne-garantiruyut
   en: /en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it
+socialImage: og/q-sc36oi-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **What will give a sense of security, if not money?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-sc36oi">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-sc36oi">Challenge a friend to a duel of worlds</a></div>
 
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “Unobvious Scenarios” cycle: thesis game of 12 Sep; “Unobvious Scenarios” cycle: assembly session (a couple aged 70–80). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Where do I find stability if money no longer guarantees it?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Belonging to the system: as long as you're connected, you're safe. Money is secondary: it distributes itself across accounts, taxes and loans are paid automatically. Security lies in being needed by the system and not standing out. There's plenty of comfort, and it takes away independence. Rules world: Money is capital for building your own life kit. Money remains one of the main sources of security. Convenient automation exists, but it isn't imposed; you have to pay for it. I assemble my life like a construction kit, and money is my parts. Autonomy world: Your own capability: I can look after myself. Security lies in what I can do myself and in owning my tools. I own things, but the infrastructure is shared: “use mine, and I'll use yours”. Owning a flat isn't necessarily the goal. Community world: Belonging to a community: not a hundred roubles but a hundred friends. There's little money, but there's exchange and local resources. Security lies in strong small ties: if something happens, people are nearby. The community will tell you if something is wrong."}}]}</script>

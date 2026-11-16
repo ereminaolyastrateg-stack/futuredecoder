@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/nuzhen-li-mne-diplom-chtoby-chego-to-dobitsya
   en: /en/future-canvas/do-i-need-a-diploma-to-achieve-anything
+socialImage: og/q-e1qjut-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Will it be possible to succeed without an education?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-e1qjut">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-e1qjut">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Unobvious Scenarios” cycle: thesis games of 12 Sep and 15 Sep. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Do I need a diploma to achieve anything?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Yes, if you're useful to the system. Skills are set by the system and algorithms based on tests, and information arrives at any moment, but for the system's goals. You can be promoted without education if you're loyal and needed. There is a set of options, but it benefits the system. Rules world: No: education is a pass, but it quickly goes out of date. You need a diploma to get in, but it can lose its value in five years. What matters more is whether you're useful. So I learn continuously and take responsibility for the result myself: the instructions are given, and it's up to me what grade I do them to. Autonomy world: Yes: all the information is out there; you need perseverance and discipline. I learn without a university, collecting what I need from open sources. Big platforms give knowledge away for free, and I use that in my own interest. My security is in what I can do myself. Community world: Yes: being handy, resourceful and able to learn matters more. Diplomas mean little here. I learn from the people around me, through mentors and practice. What's valued is what I can do with my hands and how fast I adapt."}}]}</script>

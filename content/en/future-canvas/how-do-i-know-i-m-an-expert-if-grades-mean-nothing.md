@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-ponyat-chto-ya-ekspert-esli-otsenki-nichego-ne-znachat
   en: /en/future-canvas/how-do-i-know-i-m-an-expert-if-grades-mean-nothing
+socialImage: og/q-1p821k-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will decide that I'm an expert?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1p821k">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1p821k">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I know I'm an expert if grades mean nothing?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An algorithm, by results. I'm assessed by an algorithm, on results, not knowledge. What matters is not what you learned but what changed after you. Rules world: A community, through an exam and recognition. An expert is someone the community has recognised: passed the exam, completed the track, got the mentor's approval. The rules are clear to everyone. Autonomy world: You yourself, by your own criteria. I set my own criteria: feedback, income, fit with my values and a sense of happiness. And I show publicly what I can do. Community world: The people around you, by what has changed. You can tell an expert by how they handle the live tasks of people around them. It's not you being assessed, but what changed nearby."}}]}</script>

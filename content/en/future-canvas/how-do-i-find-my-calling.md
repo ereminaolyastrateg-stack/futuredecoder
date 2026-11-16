@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-nayti-svoe-prednaznachenie
   en: /en/future-canvas/how-do-i-find-my-calling
+socialImage: og/q-tix0jc-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people find their life's work?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-tix0jc">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-tix0jc">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Unobvious Scenarios” cycle: thesis game of 15 Sep; “Unobvious Scenarios” cycle: assembly session (a couple aged 70–80). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I find my calling?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Your work is issued from a menu, like a level in a game. Career guidance, tests, algorithms: the system suggests who I should be. Calling looks like a dream of levelling up. A person here is an object, but also the main resource, and can say: “We're not playing any more.” Rules world: The instructions are given, and you build your own kit. You don't need one profession for life; you can have several at once: one for money, another for the soul. I try things in parallel and see what works. Places where you get everything at once (money, recognition, self-realisation) are long taken. Autonomy world: Your calling forms as you bump into others. I don't look for myself in a vacuum; I try things and run into people, tasks, reactions. A third skill can be born from two. I decide myself, but understanding comes through others. Community world: It isn't searched for; it finds the person itself. A calling isn't searched for but tried: “you can do this, let's try”. From each according to ability; everyone will be placed. The environment suggests what you do."}}]}</script>

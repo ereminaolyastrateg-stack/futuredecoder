@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/budet-li-u-moikh-detey-normalnoe-obrazovanie
   en: /en/future-canvas/will-my-children-get-a-decent-education
+socialImage: og/q-1ly0e9n-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will get an education, and how?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1ly0e9n">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1ly0e9n">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Dystopias” cycle: game of 18 Aug (Tuesday); cards were dealt at random, quadrant by board layout. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Will my children get a decent education?", "acceptedAnswer": {"@type": "Answer", "text": "Rules world: Practical education: survival and self-sufficiency skills. Those who left the system learn what's needed by hand: generating energy, growing food, building. The village hardly needs the internet: the post and the neighbours. What's valued is what you can do yourself. Autonomy world: Education is a privilege, and for the rest the ability to obey will do. Those who can't provide for themselves move next to the plant, which gives housing and electricity. Quality education is for the few; workers need to perform functions. Like ants: 80% are reserves who are given nothing but kept ready. Community world: Knowledge in your head: everyone is responsible for their own “hard drive”. The internet is built into the person; everyone becomes a server. To keep it working, people have to develop memory and connections in the brain, so they are very well educated. But norms are set by school and medicine, and selection is by the brain's starting parameters."}}]}</script>

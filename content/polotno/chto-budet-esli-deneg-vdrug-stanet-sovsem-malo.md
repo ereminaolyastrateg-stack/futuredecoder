@@ -6,6 +6,7 @@ lang: ru
 translations:
   ru: /polotno/chto-budet-esli-deneg-vdrug-stanet-sovsem-malo
   en: /en/future-canvas/what-happens-if-money-suddenly-gets-really-tight
+socialImage: og/q-1kf1bzg-ru.png
 tags:
   - polotno
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Как будут устроены финансы семьи на случай кризиса?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-1kf1bzg">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-1kf1bzg">Вызвать друга на дуэль миров</a></div>
 
@@ -54,3 +57,5 @@ updated: 2026-11-16
 ---
 
 Источник: Цикл «Финансы»: часть 1, 01.02. Черновик базы знаний Декодера, дополняется после каждой игры. [Все вопросы](/polotno/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ru", "mainEntity": [{"@type": "Question", "name": "Что будет, если денег вдруг станет совсем мало?", "acceptedAnswer": {"@type": "Answer", "text": "Мир автономии: Баланс по всем четырём квадратам и стресс-сценарий с минимумом денег. Ведущая: проверить свою финансовую систему во всех четырёх логиках — что на автопилоте, что по правилам, что в собственности, что в общем деле. Прописать стресс-сценарий: как жить на минимуме. Автономия начинается с базового — например, еды."}}]}</script>

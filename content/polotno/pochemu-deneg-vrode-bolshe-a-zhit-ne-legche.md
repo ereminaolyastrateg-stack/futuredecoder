@@ -6,6 +6,7 @@ lang: ru
 translations:
   ru: /polotno/pochemu-deneg-vrode-bolshe-a-zhit-ne-legche
   en: /en/future-canvas/why-is-there-seemingly-more-money-yet-life-isn-t-easier
+socialImage: og/q-falg3n-ru.png
 tags:
   - polotno
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Как будут устроены деньги — к чему они будут привязаны?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-falg3n">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-falg3n">Вызвать друга на дуэль миров</a></div>
 
@@ -62,3 +65,5 @@ updated: 2026-11-16
 ---
 
 Источник: Цикл «Финансы»: часть 1, 01.02. Черновик базы знаний Декодера, дополняется после каждой игры. [Все вопросы](/polotno/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ru", "mainEntity": [{"@type": "Question", "name": "Почему денег вроде больше, а жить не легче?", "acceptedAnswer": {"@type": "Answer", "text": "Мир автопилота: Деньги оторвались от реального и стали продуктом сами по себе. Деньги отвязали от золота — они стали абстракцией. Цикл отвязки и привязки рождает кризисы: рациональные решения дают иррациональный результат. Финансы из средства стали продуктом. Мир сообщества: Деньги заново привязывают к реальному — следующим якорем может стать человек или природа. Со слов ведущей: деньги снова привязывают к реальным активам. Попытки привязать идут снизу, отвязать — сверху. Стейблкоины в Африке используют примерно в 4 раза активнее, чем в России, — для трансграничной торговли."}}]}</script>

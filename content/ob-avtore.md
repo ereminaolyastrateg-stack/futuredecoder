@@ -9,6 +9,7 @@ translations:
 tags:
   - об_авторе
 date: 2026-11-16
+socialImage: og/about-ru.png
 ---
 
 <div class="about-hero">
@@ -97,7 +98,6 @@ date: 2026-11-16
 
 ## Образование
 
-- Executive MBA. Дипломная работа построена на методе Декодера.
 - IED Barcelona: Innovation and Future Thinking (2025).
 - Сертификаты по трендвотчингу и форсайту: TrendWatching Academy, The Future Laboratory.
 - Экономист по специальности «Финансы и кредит»; дополнительная квалификация — переводчик английского языка в сфере профессиональной коммуникации (РГГУ).

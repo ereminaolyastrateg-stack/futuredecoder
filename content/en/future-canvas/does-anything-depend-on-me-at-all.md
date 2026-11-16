@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/ot-menya-voobshche-chto-to-zavisit
   en: /en/future-canvas/does-anything-depend-on-me-at-all
+socialImage: og/q-1mwtqwj-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will set the rules of life: the system or people themselves?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1mwtqwj">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1mwtqwj">Challenge a friend to a duel of worlds</a></div>
 
@@ -79,3 +82,5 @@ updated: 2026-11-16
 ---
 
 Source: “Globalisation and Localisation” cycle: game of 20 Jun (Saturday); “Globalisation and Localisation” cycle: game of 23 Jun (Tuesday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Does anything depend on me at all?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The system sets the rules, and almost nothing is required of you. Money is programmable, data about you is collected by default, and the system can exclude you without explanation. The world is complex, and centralisation looks like a way to cope: “we centralised to make it easier, and then, oh, it's convenient”. There's no expansion, only control. Rules world: There's a choice, but the menu wasn't written by you. The system needs you to take part yourself: the state messenger wasn't made so you'd log into public services, but so you'd chat there. It can't force you, so it makes things convenient and highlights its option. Other options exist, but they're “outside the lamplight”. Autonomy world: The rules seem to be ours, but we hand decisions to agents, networks and influencers. I don't trust the system; I trust bloggers, communities and my AI agent. Early-warning networks watch the authorities themselves. A small, convenient system is built next to the big one. But a “black box” makes the decision for me, and I've just subscribed. Community world: Communities create the rules and regulate themselves. People unite by interest and by an image of the future; nobody forces them. Their own internet, their own legal personality, the state as a set of functions tailored to them. The consequences of your decisions show faster, so you feel that things depend on you."}}]}</script>

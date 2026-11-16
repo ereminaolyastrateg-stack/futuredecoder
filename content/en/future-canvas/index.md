@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/
   en: /en/future-canvas/
+socialImage: og/polotno-en.png
 created: 2026-11-16
 updated: 2026-11-16
 ---

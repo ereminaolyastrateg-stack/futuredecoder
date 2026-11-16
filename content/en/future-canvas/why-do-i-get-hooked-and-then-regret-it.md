@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/pochemu-ya-zalipayu-a-potom-zhaleyu
   en: /en/future-canvas/why-do-i-get-hooked-and-then-regret-it
+socialImage: og/q-dk20o0-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will entertainment and experiences work when everyone is fighting for attention?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-dk20o0">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-dk20o0">Challenge a friend to a duel of worlds</a></div>
 
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “Attention” cycle: game of 7 Mar (Saturday; the recording starts midway); “Attention” cycle: game of 10 Mar (Tuesday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Why do I get hooked and then regret it?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Content is matched to hormones, like a medicine for a state of mind. To stop people leaving, the platform adds interactivity and “usefulness”: collections that supposedly pump up empathy. Next comes a smart ring: content picked to match your hormone levels. “I need to stay awake for two hours”, “calm me down”. The routine is watching films for the emotion you need. Rules world: Experiences through communities, with intrigue and commitment. Business clubs and communities sell significance and exclusivity: the speaker isn't named in advance, members are taken backstage, to other members' production sites, to meet an actor after the show. An experience manager appears (a person or an app). Membership is for a year, with responsibility. Autonomy world: A collection of your life: you keep what will later become valuable. Nostalgia was, is and will be, so people start deliberately keeping things that seem useless today: old devices, books, objects. They remember not through photos but through objects. Collections are also a way to find your people. Community world: Living it rather than recording it. Constant filming replaces the experience: on a small screen a gilded cathedral looks like “nothing much”, and a celebration filmed from start to finish isn't remembered. The new routine is one deliberate photo, limited shots, attention to the body and what's around."}}]}</script>

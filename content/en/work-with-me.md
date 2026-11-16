@@ -10,6 +10,7 @@ tags:
   - work_with_me
   - about
 date: 2026-11-16
+socialImage: og/work-en.png
 ---
 
 <div class="about-contact">
@@ -23,7 +24,7 @@ date: 2026-11-16
 
 Regular open games. In one game the group designs four worlds of the future on a single topic: attention, money, AI, longevity, happiness, work. You see that your question can play out in very different ways, and leave with ideas that had not occurred to you before. Everything participants come up with goes into the [Future Canvas](/static/polotno/en/).
 
-*For:* anyone who wants to think about the future without anxiety. No preparation needed. Games are currently held in Russian.
+*For:* anyone who wants to think about the future without anxiety. No preparation needed. Games run in English and Russian.
 
 ### The Architecture of a Person lab
 
@@ -72,5 +73,5 @@ Most of my work for companies is under NDA. Anonymised project examples are on t
 
 <div class="about-contact">
 <p><b>Write to me:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
-<p><b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a> · <b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a> (both in Russian)</p>
+<p><b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a> · <b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a></p>
 </div>

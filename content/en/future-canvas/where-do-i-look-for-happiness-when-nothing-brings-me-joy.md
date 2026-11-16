@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/gde-iskat-schaste-esli-nichego-ne-raduet
   en: /en/future-canvas/where-do-i-look-for-happiness-when-nothing-brings-me-joy
+socialImage: og/q-1ughwei-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **What will people turn to when nothing brings joy?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1ughwei">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1ughwei">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,17 +69,17 @@ updated: 2026-11-16
 
 ## Mixes and paradoxes from this game
 
-**Quiet happiness or visibility** (ДС + ЦЗ). Happiness loves quiet, but to earn money you have to be visible.
+**Quiet happiness or visibility** (DS + CE). Happiness loves quiet, but to earn money you have to be visible.
 
 - **Paradox:** I want to quietly tend my garden, and have everyone know me and pay a lot
 - **Experiment for a week:** For a week, separate where you must be visible and where you can disappear.
 
-**Focus on yourself or on connections** (ДС + ДЗ). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
+**Focus on yourself or on connections** (DS + DE). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
 
 - **Paradox:** How do you stay part of the world while focusing on yourself?
 - **Experiment for a week:** Do one thing for yourself and one for someone else on the same day, and compare how it feels.
 
-**State or process** (ДЗ + ДС). Happiness is a human quality that shows itself through processes and environment.
+**State or process** (DE + DS). Happiness is a human quality that shows itself through processes and environment.
 
 - **Paradox:** Is happiness a state or a process? Internal or external?
 - **Experiment for a week:** 
@@ -84,3 +87,5 @@ updated: 2026-11-16
 ---
 
 Source: Game “Happiness as a Norm”, 7 Nov 2026. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Where do I look for happiness when nothing brings me joy?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Quick fixes from outside. The fastest way is from outside: a mood pill, a purchase, a TV series. It works immediately. Rules world: Collective goals: “endure it for the common good”. The centre offers ready-made sources: collective goals, clubs, movements. “Everyone has it hard now; endure it for the common good.” Autonomy world: The body and unexpected sources. Look in unexpected places and through the body: sculpt your stress out of plasticine, spend money on someone else rather than yourself. The body already knows how to make happiness; it just needs you not to get in the way. Community world: Doing things for others. Acting for others helps: neighbourly mutual aid, a shared project. Spending on others brings more joy than spending on yourself."}}]}</script>

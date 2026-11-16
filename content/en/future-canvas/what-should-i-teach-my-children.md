@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chemu-uchit-moikh-detey
   en: /en/future-canvas/what-should-i-teach-my-children
+socialImage: og/q-14a9huy-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will my children learn?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-14a9huy">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-14a9huy">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What should I teach my children?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Along tracks the system picks early. The child was assessed on skills early, and the system suggested a track itself. Convenient and clear. But the earlier children are sorted into tracks, the wider the gap later. So we teach one thing: don't fear tests and don't fully trust them. Rules world: At a school of shared norms, under a mentor's eye. Children go to school for shared norms: reading, writing, negotiating, living by the rules. A mentor sees where to steer the child, and the child feels safe. Autonomy world: Discipline first, freedom later. We started with discipline: copybooks, counting and reading every day, even when it's boring. Copybooks teach the main thing: focus on the form of what you create. Freedom of choice came later. Community world: From the world around them and from each other. My child learns from the world around: in neighbourhood labs, from craftspeople, together with other children. The teacher is no longer one per class; children teach each other."}}]}</script>

@@ -24,7 +24,10 @@ seo_en = '''<!--seo-->
 <meta property="og:title" content="Future Canvas — Future Decoder">
 <meta property="og:description" content="Choose the future you are building, and challenge a friend to a duel of worlds.">
 <meta property="og:url" content="https://futuredecoder.org/static/polotno/en/">
-<meta property="og:image" content="https://futuredecoder.org/static/og-image.png">
+<meta name="twitter:image" content="https://futuredecoder.org/static/og/polotno-en.png">
+<meta property="og:image" content="https://futuredecoder.org/static/og/polotno-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Future Canvas", "alternateName": "Полотно будущего", "url": "https://futuredecoder.org/static/polotno/en/", "applicationCategory": "EducationalApplication", "inLanguage": "en", "isAccessibleForFree": true, "description": "Questions about the future and four scenario answers to each, from Future Decoder games.", "creator": {"@type": "Person", "name": "Olga Eremina", "url": "https://futuredecoder.ru"}, "isPartOf": {"@type": "WebSite", "name": "Future Decoder", "url": "https://futuredecoder.org/"}}</script>
@@ -74,6 +77,8 @@ assert n == 1
 # --- plain string replacements (order matters: longer first where they overlap)
 R = [
  ('<html lang="ru">', '<html lang="en">'),
+ ('location.origin+"/polotno/"+q.slug', 'location.origin+"/en/future-canvas/"+q.slug_en'),
+ ('&&q.slug)', '&&q.slug_en)'),
  ('<title>Полотно будущего</title>', '<title>Future Canvas — Future Decoder</title>'),
  ('fetch("data.json"', 'fetch("../data.json"'),
  # data swap: keep ids from Russian text, then show English fields

@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/moy-rebenok-eto-moy-proekt
   en: /en/future-canvas/is-my-child-my-project
+socialImage: og/q-1v6z0jr-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will be responsible for how a child turns out?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1v6z0jr">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1v6z0jr">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,3 +69,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Unobvious Scenarios” cycle: thesis game of 12 Sep; “Unobvious Scenarios” cycle: assembly session (a couple aged 70–80). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Is my child my project?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The child is a product of big systems. Systems compete for minds from infancy: a children's bank card, a series, a game. Parents decide little: by choosing a bank or a game they choose which system the child will live in. You can't avoid a system nearby, but you can choose consciously. Rules world: The child is the parents' project along a ready-made roadmap. The world sells roadmaps: ten clubs before lunch, five after. The system provides the map, and parents are responsible for delivering it. Only the world changes so fast that the project is out of date before it's built. Autonomy world: The child is a project of the place they ended up in. The child belongs to themselves, to society or to the system, not only to the parents. They're raised by the community and the group they happen to end up in. Mentors and tutors teach them."}}]}</script>

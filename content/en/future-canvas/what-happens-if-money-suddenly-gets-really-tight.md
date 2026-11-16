@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chto-budet-esli-deneg-vdrug-stanet-sovsem-malo
   en: /en/future-canvas/what-happens-if-money-suddenly-gets-really-tight
+socialImage: og/q-1kf1bzg-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will family finances be set up for a crisis?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1kf1bzg">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1kf1bzg">Challenge a friend to a duel of worlds</a></div>
 
@@ -46,7 +49,7 @@ Nobody has designed this world for this question yet.
 - **Paradox:** Leaning into one quadrant is convenient until a crisis hits.
 - **Experiment for a week:** Lay out your money across the four quadrants and see which is empty.
 
-**Money: a means or a product** (ЦС / ДЗ). Finance has become a product, though it should be a service. Rational decisions produce an irrational result.
+**Money: a means or a product** (CS / DE). Finance has become a product, though it should be a service. Rational decisions produce an irrational result.
 
 - **Paradox:** More money, less wellbeing (according to the host).
 - **Experiment for a week:** Over a week, mark which expenses served your life and which served someone's product.
@@ -54,3 +57,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Finance” cycle: part 1, 1 Feb. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What happens if money suddenly gets really tight?", "acceptedAnswer": {"@type": "Answer", "text": "Autonomy world: Balance across all four quadrants and a stress scenario with minimal money. The host: check your financial system in all four logics: what's on autopilot, what follows the rules, what you own, what's in a shared cause. Write a stress scenario: how to live on the minimum. Autonomy starts with the basics, food for example."}}]}</script>

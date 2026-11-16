@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/ne-poteryaem-li-my-zhivoe-obshchenie
   en: /en/future-canvas/will-we-lose-live-human-contact
+socialImage: og/q-1n3li0z-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will communication work when AI writes the emails?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1n3li0z">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1n3li0z">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “AI and the Human” cycle: game of 14 Jul (Tuesday); “AI and the Human” cycle: second part, 28 Jul (a consultant aged 40). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Will we lose live human contact?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: A pretty mask instead of a person: language becomes uniform. A toxic leader writes emails through AI: “AI replaces my swearing with nice communication.” It's unclear who stands behind the text. You swap the mask for decent words, but you don't change. Language becomes uniform: see the word “honestly” in a report and you know AI wrote it. Autonomy world: Let AI churn out officialese, while live contact gets more expensive. There's more and more automation, so offline and live services become more expensive and valuable. People come first; AI is for bureaucracy: “let it churn out official language”. Nobody wants commitments: renting, sharing, an easy way out. Community world: AI creates a safe space so people can agree themselves. The key skill is talking. AI helps formulate the request and builds a game board where you can discuss anything and find a win-win solution rather than a compromise. Live contact takes tension and energy: a “poetic meeting” instead of presentations."}}]}</script>

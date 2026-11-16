@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-zhit-esli-ni-na-chto-nelzya-operetsya
   en: /en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on
+socialImage: og/q-13efk23-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people live when there are no more guarantees?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-13efk23">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-13efk23">Challenge a friend to a duel of worlds</a></div>
 
@@ -79,3 +82,5 @@ updated: 2026-11-16
 ---
 
 Source: “Dystopias” cycle: game of 15 Aug (Saturday); “Dystopias” cycle: second part, 29 Aug (an entrepreneur aged 45 with three children). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I live when there's nothing to rely on?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The system promises safety and tightens control, and people get around it. Temporary measures after a crisis become permanent: passes, permits, ratings. The system always wants more control, and people always find a workaround: colleagues' masks at the turnstile, VPNs. I understand the system's logic, so little surprises me: “we'll figure something out”. Rules world: There are no guarantees: searching becomes the normal state. Don't wait for pensions and social security; there's no single right path: some move, some buy a jacket with ventilation, some inject themselves with an upgrade. I'm always searching and focused. When this is the norm, you don't whine; you look for opportunities. Autonomy world: Don't belong to a single “anthill”: several jobs at once. I work in several directions at once, not one after another. I change industries, but my experience stays with me: I left law to do nails, and people still come to me for advice. When one line drops, I quickly move to the other. Community world: People try new rules of life themselves, and learn to negotiate. The old ways of living don't work, from earning to family. People create temporary societies to test how to live, and live in several digital circuits at once. Everyone's reality is different, so the key skill is reaching agreement."}}]}</script>

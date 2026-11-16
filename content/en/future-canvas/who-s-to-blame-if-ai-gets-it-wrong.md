@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kto-vinovat-esli-ii-oshibsya
   en: /en/future-canvas/who-s-to-blame-if-ai-gets-it-wrong
+socialImage: og/q-1ed6gi9-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will be responsible for decisions AI suggests?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1ed6gi9">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1ed6gi9">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “AI and the Human” cycle: game of 11 Jul (Saturday); “AI and the Human” cycle: second part, 28 Jul (a consultant aged 40). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Who's to blame if AI gets it wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Nobody is responsible; the algorithm decides. The state lacks resources, so it automates collection and redistribution. The corporation or the state is the subject; everyone else is an object. Systems dismiss people by efficiency, and it's unclear how to adjust what you do. Rules world: Passed an AI exam? You're responsible yourself. AI in clinics sorts requests and makes preliminary diagnoses. Like a car: you're behind the wheel, so it's your fault. The state introduces an exam for using AI: pass it and you take responsibility. Parents take an exam so their child can study with a neural network. Community world: Problems are solved at the level where they arise. The state is unnoticeable, like an automatic payment: people organise work, study and health themselves and turn to it in exceptional cases. A problem goes higher only if it can't be solved below. Institutions are temporary: task solved, they dissolve."}}]}</script>

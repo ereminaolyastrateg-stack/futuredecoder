@@ -6,6 +6,7 @@ lang: ru
 translations:
   ru: /polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh
   en: /en/future-canvas/why-am-i-always-thinking-about-money
+socialImage: og/q-goae5c-ru.png
 tags:
   - polotno
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Как будут устроены отношения человека с деньгами — цель или средство?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-goae5c">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-goae5c">Вызвать друга на дуэль миров</a></div>
 
@@ -61,3 +64,5 @@ updated: 2026-11-16
 ---
 
 Источник: Цикл «Финансы»: часть 1, 01.02. Черновик базы знаний Декодера, дополняется после каждой игры. [Все вопросы](/polotno/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ru", "mainEntity": [{"@type": "Question", "name": "Почему я всё время думаю о деньгах?", "acceptedAnswer": {"@type": "Answer", "text": "Мир правил: У кого денег мало — думают о деньгах, у кого много — меряют другим. Деньги стали самоцелью, хотя Адам Смит писал о богатстве народов. Поляризация: те, у кого мало, сосредоточены на деньгах, у кого много — меряют другими категориями. Деньги — ещё и медийное, символическое явление. Мир автономии: Маленькие игровые шаги снимают страх денег. Ведущая: страх денег уходит не от учёбы, а от маленьких шагов, которые можно попробовать без больших потерь. Дисциплина — это навести порядок в том, что уже есть, а не учить новое."}}]}</script>

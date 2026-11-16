@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/zachem-shkola-i-vuz-esli-est-ii
   en: /en/future-canvas/why-school-and-university-if-there-s-ai
+socialImage: og/q-fa1rrm-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **What will school and university turn into now that AI exists?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-fa1rrm">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-fa1rrm">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Why school and university, if there's AI?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Into a factory of tests: evidence matters, not the diploma. A diploma means almost nothing. Employers look at evidence of what you can actually do. University has become a factory of tests, and an AI tutor gives more learning in less time. Rules world: Into keepers of what is ours: learning as a lifelong right. School and university remain, but their purpose has changed: preserve what is ours, our country, our bloc. AI here is not for creativity but for digesting accumulated knowledge. Learning is your lifelong right. Autonomy world: Into a place that lays the foundation; after that, your own AI and your own effort. I have my own AI that nobody can switch off, and my own basic skills. School is there to lay the foundation and discipline; after that, it's down to me. Community world: Into a network of labs serving its region. Our university is a network of labs serving its region: it studies the river, the roads, the forest and learns on those tasks. AI helps, but we learn from the environment and from each other."}}]}</script>

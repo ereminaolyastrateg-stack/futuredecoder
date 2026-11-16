@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chto-budet-so-mnoy-esli-ii-zavtra-otklyuchat
   en: /en/future-canvas/what-will-happen-to-me-if-ai-is-switched-off-tomorrow
+socialImage: og/q-149n75v-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will life and work be organised if everything rests on AI?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-149n75v">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-149n75v">Challenge a friend to a duel of worlds</a></div>
 
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “AI and the Human” cycle: game of 11 Jul (Saturday); “AI and the Human” cycle: second part, 25 Jul (Saturday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What will happen to me if AI is switched off tomorrow?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: AI becomes invisible, like a lift, and you can no longer do without it. Agent negotiates with agent; my watch reschedules meetings. My main asset is a subscription to a service that holds all my counterparties. I don't understand how it works, and I pay again for every change. Like the first foreign cars: you can't change the brake pads yourself any more, only at the service centre. Rules world: One person with agents is a whole company, and access to computing power is like land. For the first two years I deploy agents like crazy, spend money and burn out. Then I'll learn, and become better value than big companies' teams. A manager hires one contractor instead of thirty-five. Taking my neural network away is like taking a plot from a peasant: all the business models are already rebuilt. Autonomy world: The technology isn't yours; only your competence is. I do a lot myself with AI, without a team. But the tool doesn't belong to me: access may end, be limited or get more expensive. So I hold on to what stays with me: my core competence. It isn't tied to a profession and transfers anywhere. Community world: AI is a tool for human meanings, not a goal. People have barely changed in a couple of thousand years, so everything comes back to the human. AI is used in a limited way, with a sense of measure, where it helps. Development isn't banned; it becomes a value. The values are the same: family, friendship, attention, just realised in new ways."}}]}</script>

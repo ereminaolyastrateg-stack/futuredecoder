@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chto-posovetovat-rebenku-kotoryy-uezzhaet-uchitsya
   en: /en/future-canvas/what-advice-should-i-give-my-child-who-s-leaving-home-to
+socialImage: og/q-60n6lr-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will advice to children work if parents don't know their world?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-60n6lr">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-60n6lr">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Attention” cycle: assembly session, 24 Mar (Vasya the farmer, whose son is leaving for the city to study); the “fire” lens, where a person decides nothing. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What advice should I give my child who's leaving home to study?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: A world of convenient digital services: teach digital hygiene. All services, including social ones, move into a single window, like a marketplace: chose a school, applied, left a review. The interaction between person and system is automated. Rules world: People look for support outside: teach them to check and stand their ground. When it's unclear what lies ahead, people go to astrologers, tarot readers and info-gurus for an image of the future. The host: they're the only ones offering ordinary people any image of the future at all, but they give no tools to get there. Community world: Look for meaning in work and for your people, and get to know yourself along the way. Work becomes a way to express yourself: people won't work where values diverge. Trust shifts from institutions to people. The routine is getting to know yourself bit by bit through tasks, learning new things, finding people, communities and companies close in spirit, and changing them when you've outgrown them."}}]}</script>

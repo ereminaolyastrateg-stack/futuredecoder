@@ -9,6 +9,7 @@ translations:
 tags:
   - about
 date: 2026-11-16
+socialImage: og/about-en.png
 ---
 
 <div class="about-hero">
@@ -38,8 +39,8 @@ Our actions are guided by the image of the future in our heads. Most often it is
 ## What else I do
 
 - I am writing a book in diary form: stories about how an image of the future changes a life.
-- I run a [Telegram channel](https://t.me/olya_v_trende) (in Russian) about trends and images of the future.
-- I give lectures and publish them on [YouTube](https://www.youtube.com/@futuredecoder_eremina) (in Russian), each with a detailed long read. All topics and recordings are on the [[en/talks|Talks and Lectures]] page.
+- I run a [Telegram channel](https://t.me/olya_v_trende) about trends and images of the future.
+- I give lectures and publish them on [YouTube](https://www.youtube.com/@futuredecoder_eremina), each with a detailed long read. All topics and recordings are on the [[en/talks|Talks and Lectures]] page.
 - I research how attitudes to the human being have changed through history, and look at painting as a radar of the future.
 - I build a knowledge base from the games: a reference of life spheres with a "how it is now / how I want it" test, and the [Future Canvas](/static/polotno/en/).
 
@@ -83,7 +84,7 @@ Our actions are guided by the image of the future in our heads. Most often it is
 - The "Future Urban Environment" programme: six groups of nine people.
 - A masterclass on choosing digital technologies for the Leaders of Productivity programme (Russian Foreign Trade Academy, 2022).
 
-**Open Decoder research.** [The Future of Work and Education](https://futuredecoder.ru/future_of_work) (in Russian) is an open study. Other research lines: health, demography, urbanisation, AI, network society and changes in thinking.
+**Open Decoder research.** [The Future of Work and Education](https://futuredecoder.ru/future_of_work) is an open study. Other research lines: health, demography, urbanisation, AI, network society and changes in thinking.
 
 ## Experience
 
@@ -97,7 +98,6 @@ Our actions are guided by the image of the future in our heads. Most often it is
 
 ## Education
 
-- Executive MBA, with a thesis built on the Decoder method.
 - IED Barcelona: Innovation and Future Thinking (2025).
 - Trendwatching and foresight certificates: TrendWatching Academy, The Future Laboratory.
 - Economist in Finance and Credit; additional qualification as a translator of English for professional communication (Russian State University for the Humanities).
@@ -108,8 +108,8 @@ Scenario games, the Architecture of a Person lab, scenarios and research for com
 
 <div class="about-contact">
 <p><b>Write to me:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
-<p><b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a> (in Russian)</p>
-<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a> (in Russian)</p>
+<p><b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a></p>
+<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a></p>
 </div>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Olga Eremina","alternateName":"Оля Ерёмина","jobTitle":"Futurist and strategist, author of the Future Decoder method","url":"https://futuredecoder.org/en/about","image":"https://futuredecoder.org/static/about/olya-eremina.jpg","email":"mailto:ereminaolya.strateg@gmail.com","sameAs":["https://www.youtube.com/@futuredecoder_eremina","https://t.me/olya_v_trende","https://futuredecoder.ru","https://pro-trendwatching.ru/olyaeremina"],"knowsAbout":["strategic foresight","scenario planning","trendwatching","future literacy","systems thinking"],"homeLocation":{"@type":"Place","name":"Valencia, Spain"}}</script>

@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-nayti-smysl-zhizni
   en: /en/future-canvas/how-do-i-find-the-meaning-of-life
+socialImage: og/q-ti11p7-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will the meaning of life work if you “don't know” it?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-ti11p7">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-ti11p7">Challenge a friend to a duel of worlds</a></div>
 
@@ -42,17 +45,17 @@ Nobody has designed this world for this question yet.
 
 ## Mixes and paradoxes from this game
 
-**The pill and the anxiety** (ЦС + ЦЗ). There's a drug against ageing, yet health anxiety only grows.
+**The pill and the anxiety** (CS + CE). There's a drug against ageing, yet health anxiety only grows.
 
 - **Paradox:** More health data, more anxiety.
 - **Experiment for a week:** Don't check your tracker metrics for a week, and see how you feel.
 
-**The health paradox** (ЦЗ). The more you invest in health, the more you need to invest; health becomes a burden.
+**The health paradox** (CE). The more you invest in health, the more you need to invest; health becomes a burden.
 
 - **Paradox:** The goal of “more health” takes resources from the meaning it was wanted for.
 - **Experiment for a week:** Lay out your desired future by time, money, attention and meaning, and check whether the day has enough hours.
 
-**Limited or free time** (ЦС / ДС). A short life forces you to choose; a long one lets you try things, but removes the external motivator.
+**Limited or free time** (CS / DS). A short life forces you to choose; a long one lets you try things, but removes the external motivator.
 
 - **Paradox:** Without a ticking clock, the reason to stop disappears.
 - **Experiment for a week:** Start one thing you put off “because it's too late”.
@@ -60,3 +63,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: Game “Happy Longevity: A Life Strategy to 150”, 18 Apr. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I find the meaning of life?", "acceptedAnswer": {"@type": "Answer", "text": "Community world: We roughly know our meaning; we don't believe we can realise it. A participant's example: “I don't want anything”, yet offer ten million and the Maldives and you want everything. So the issue isn't a lack of meaning but disbelief that it can be realised. Instead of a global meaning, a current need: identified it, met it with a small step, rebuilt again. Sometimes it all starts with self-identification, deciding what kind of person you no longer want to see yourself as."}}]}</script>

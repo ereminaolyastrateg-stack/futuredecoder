@@ -156,8 +156,12 @@ def page(q, lang):
           f"  ru: /polotno/{q['slug']}"]
     if has_en:
         fm.append(f"  en: /en/future-canvas/{q['slug_en']}")
-    fm += ['tags:', '  - polotno' if not en else '  - future-canvas', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
+    fm += [f"socialImage: og/q-{q['id']}-{'en' if en else 'ru'}.png",
+           'tags:', '  - polotno' if not en else '  - future-canvas', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
     body = [intro, '']
+    # ссылки из приложения ведут на эту страницу (у неё своя картинка для соцсетей), а отсюда — в приложение
+    body.append(f'<script>(function(){{var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/{"en/" if en else ""}"+h)}})()</script>')
+    body.append('')
     body.append(f'<div class="polotno-cta"><a class="polotno-btn" href="{app}">{"Open in the interactive canvas" if en else "Открыть в интерактивном полотне"} →</a>'
                 f'<a class="polotno-btn ghost" href="{duel}">{"Challenge a friend to a duel of worlds" if en else "Вызвать друга на дуэль миров"}</a></div>')
     body.append('')
@@ -191,7 +195,10 @@ def page(q, lang):
         body.append('## ' + ('Mixes and paradoxes from this game' if en else 'Смеси и парадоксы с этой игры'))
         body.append('')
         for m in mx:
-            body.append(f"**{g(m, 'title')}** ({m['L']}). {g(m, 'looks')}")
+            ml = m['L']
+            if en:
+                for c in ORDER: ml = ml.replace(c, CODES_EN[c])
+            body.append(f"**{g(m, 'title')}** ({ml}). {g(m, 'looks')}")
             body.append('')
             body.append(f"- **{'Paradox' if en else 'Парадокс'}:** {g(m, 'par')}")
             body.append(f"- **{'Experiment for a week' if en else 'Эксперимент на неделю'}:** {g(m, 'exp')}")
@@ -202,6 +209,17 @@ def page(q, lang):
                  f"[All questions](/en/future-canvas/)") if en else
                 (f"Источник: {src}. Черновик базы знаний Декодера, дополняется после каждой игры. "
                  f"[Все вопросы](/polotno/)"))
+    ans = []
+    for c in ORDER:
+        w = q['w'].get(c)
+        if w and g(w, 'one'):
+            ans.append(f"{NAMES[L][c]}: {g(w, 'one')}" + (f" {g(w, 'dev')}" if g(w, 'dev') else ''))
+    if ans:
+        ld = {'@context': 'https://schema.org', '@type': 'FAQPage', 'inLanguage': L,
+              'mainEntity': [{'@type': 'Question', 'name': ask,
+                              'acceptedAnswer': {'@type': 'Answer', 'text': ' '.join(ans)}}]}
+        body.append('')
+        body.append('<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace('</', '<\\/') + '</script>')
     return '\n'.join(fm + body) + '\n'
 
 
@@ -215,7 +233,7 @@ def index_page(lang):
     if en:
         fm = ['---', 'title: "Future Canvas"', 'seoTitle: "Future Canvas — Future Decoder knowledge base"',
               'description: "Questions about the future and four answers to each, designed by participants of Future Decoder scenario games: signals, prices and weekly steps."',
-              'lang: en', 'translations:', '  ru: /polotno/', '  en: /en/future-canvas/', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
+              'lang: en', 'translations:', '  ru: /polotno/', '  en: /en/future-canvas/', 'socialImage: og/polotno-en.png', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
         intro = [f"Questions people ask about the future, and four answers to each. The answers were designed by participants of Future Decoder scenario games: {len(data['q'])} questions and {len(data['s'])} signals so far, updated after every game.", '',
                  '<a class="polotno-hero" href="/static/polotno/en/"><span class="polotno-hero-t">Open the interactive canvas →</span><span class="polotno-hero-s">Duel of worlds, dilemmas and a daily signal</span></a>', '',
                  'Each answer belongs to one of four worlds of the Decoder method:', '']
@@ -224,7 +242,7 @@ def index_page(lang):
     else:
         fm = ['---', 'title: "Полотно будущего"', 'seoTitle: "Полотно будущего — база знаний Декодера"',
               'description: "Вопросы о будущем и четыре ответа на каждый от участников игр «Декодер Будущего»: сигналы, цена каждого мира и шаг на неделю."',
-              'lang: ru', 'translations:', '  ru: /polotno/'] + (['  en: /en/future-canvas/'] if has_en else []) + [f'created: {TODAY}', f'updated: {TODAY}', '---', '']
+              'lang: ru', 'translations:', '  ru: /polotno/'] + (['  en: /en/future-canvas/'] if has_en else []) + ['socialImage: og/polotno-ru.png', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
         intro = [f"Вопросы, которые люди задают о будущем, и четыре ответа на каждый. Их спроектировали участники игр «Декодер Будущего»: сейчас здесь {pl(len(data['q']), ('вопрос','вопроса','вопросов'))} и {pl(len(data['s']), ('сигнал','сигнала','сигналов'))}, база дополняется после каждой игры.", '',
                  '<a class="polotno-hero" href="/static/polotno/"><span class="polotno-hero-t">Открыть интерактивное полотно →</span><span class="polotno-hero-s">Дуэль миров, дилеммы и сигнал дня</span></a>', '',
                  'Каждый ответ относится к одному из четырёх миров метода Декодера:', '']
@@ -295,8 +313,11 @@ head = f'''<!--seo-->
 <meta property="og:title" content="Полотно будущего — Декодер Будущего">
 <meta property="og:description" content="Выбери, какое будущее строишь ты, и вызови друга на дуэль миров.">
 <meta property="og:url" content="{SITE}/static/polotno/">
-<meta property="og:image" content="{SITE}/static/og-image.png">
+<meta property="og:image" content="{SITE}/static/og/polotno-ru.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{SITE}/static/og/polotno-ru.png">
 <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@type": "WebApplication", "name": "Полотно будущего", "alternateName": "Future Canvas", "url": SITE + "/static/polotno/", "applicationCategory": "EducationalApplication", "inLanguage": ["ru", "en"] if has_en else ["ru"], "isAccessibleForFree": True, "description": "Вопросы о будущем и четыре сценарных ответа на каждый из игр «Декодер Будущего».", "creator": {"@type": "Person", "name": "Ольга Еремина", "url": "https://futuredecoder.ru"}, "isPartOf": {"@type": "WebSite", "name": "Декодер Будущего", "url": SITE + "/"}}, ensure_ascii=False)}</script>
 <!--/seo-->'''
 t = re.sub(r'<!--seo-->.*?<!--/seo-->\n?', '', t, flags=re.S)

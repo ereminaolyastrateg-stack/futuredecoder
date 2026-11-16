@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/nuzhno-li-pokazyvat-chto-ya-schastliv
   en: /en/future-canvas/do-i-have-to-show-that-i-m-happy
+socialImage: og/q-r7gh4x-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people show their happiness?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-r7gh4x">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-r7gh4x">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,17 +69,17 @@ updated: 2026-11-16
 
 ## Mixes and paradoxes from this game
 
-**Quiet happiness or visibility** (ДС + ЦЗ). Happiness loves quiet, but to earn money you have to be visible.
+**Quiet happiness or visibility** (DS + CE). Happiness loves quiet, but to earn money you have to be visible.
 
 - **Paradox:** I want to quietly tend my garden, and have everyone know me and pay a lot
 - **Experiment for a week:** For a week, separate where you must be visible and where you can disappear.
 
-**Focus on yourself or on connections** (ДС + ДЗ). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
+**Focus on yourself or on connections** (DS + DE). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
 
 - **Paradox:** How do you stay part of the world while focusing on yourself?
 - **Experiment for a week:** Do one thing for yourself and one for someone else on the same day, and compare how it feels.
 
-**State or process** (ДЗ + ДС). Happiness is a human quality that shows itself through processes and environment.
+**State or process** (DE + DS). Happiness is a human quality that shows itself through processes and environment.
 
 - **Paradox:** Is happiness a state or a process? Internal or external?
 - **Experiment for a week:** 
@@ -84,3 +87,5 @@ updated: 2026-11-16
 ---
 
 Source: Game “Happiness as a Norm”, 7 Nov 2026. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Do I have to show that I'm happy?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Through purchases and experiences. Here happiness is bought and displayed: experiences, things, status. The seller decides what counts as happiness. Rules world: First by display, later by the right to be unnoticed. For now the norm is to display: tickets, runs, holidays. The new norm is a “world of the invisible”: you can stay unnoticed and choose your own norms. Autonomy world: Not at all: happiness loves quiet. Happiness loves quiet. It's in your body, and there's no need to prove it to others. Community world: By sharing it with others. Happiness isn't shown but shared: singing together at a stadium, eating at one table, helping neighbours."}}]}</script>

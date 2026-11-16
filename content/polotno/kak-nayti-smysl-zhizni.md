@@ -6,6 +6,7 @@ lang: ru
 translations:
   ru: /polotno/kak-nayti-smysl-zhizni
   en: /en/future-canvas/how-do-i-find-the-meaning-of-life
+socialImage: og/q-ti11p7-ru.png
 tags:
   - polotno
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Как будет устроен смысл жизни, если его «не знаешь»?** Четыре ответа из четырёх миров метода «Декодер Будущего». Их придумали участники сценарных игр, а не эксперты.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/#q-ti11p7">Открыть в интерактивном полотне →</a><a class="polotno-btn ghost" href="/static/polotno/#new-ti11p7">Вызвать друга на дуэль миров</a></div>
 
@@ -60,3 +63,5 @@ updated: 2026-11-16
 ---
 
 Источник: Игра «Счастливое долголетие: стратегия жизни до 150 лет», 18.04. Черновик базы знаний Декодера, дополняется после каждой игры. [Все вопросы](/polotno/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ru", "mainEntity": [{"@type": "Question", "name": "Как найти смысл жизни?", "acceptedAnswer": {"@type": "Answer", "text": "Мир сообщества: Смысл мы примерно знаем — мы не верим, что можем его реализовать. Пример участника: «Ничего не хочу» — а предложи десять миллионов и Мальдивы, и всё хочется. Значит, вопрос не в отсутствии смысла, а в неверии в реализацию. Вместо глобального смысла — текущая потребность: определил, удовлетворил маленьким шагом, пересобрал заново. Иногда всё начинается с самоидентификации — с решения, каким человеком ты больше не хочешь себя видеть."}}]}</script>

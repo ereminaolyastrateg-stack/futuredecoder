@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh
   en: /en/future-canvas/why-am-i-always-thinking-about-money
+socialImage: og/q-goae5c-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people's relationship with money work: an end or a means?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-goae5c">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-goae5c">Challenge a friend to a duel of worlds</a></div>
 
@@ -53,7 +56,7 @@ Nobody has designed this world for this question yet.
 - **Paradox:** Leaning into one quadrant is convenient until a crisis hits.
 - **Experiment for a week:** Lay out your money across the four quadrants and see which is empty.
 
-**Money: a means or a product** (ЦС / ДЗ). Finance has become a product, though it should be a service. Rational decisions produce an irrational result.
+**Money: a means or a product** (CS / DE). Finance has become a product, though it should be a service. Rational decisions produce an irrational result.
 
 - **Paradox:** More money, less wellbeing (according to the host).
 - **Experiment for a week:** Over a week, mark which expenses served your life and which served someone's product.
@@ -61,3 +64,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Finance” cycle: part 1, 1 Feb. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Why am I always thinking about money?", "acceptedAnswer": {"@type": "Answer", "text": "Rules world: Those with little money think about money; those with a lot measure by other things. Money has become an end in itself, though Adam Smith wrote about the wealth of nations. Polarisation: those with little focus on money, those with a lot measure by other categories. Money is also a media and symbolic phenomenon. Autonomy world: Small playful steps take away the fear of money. The host: fear of money goes away not through study but through small steps you can try without big losses. Discipline is putting what you already have in order, not learning something new."}}]}</script>

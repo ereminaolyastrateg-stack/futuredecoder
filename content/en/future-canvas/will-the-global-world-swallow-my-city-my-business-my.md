@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/ne-sest-li-globalnyy-mir-moy-gorod-moe-delo-moy-rayon
   en: /en/future-canvas/will-the-global-world-swallow-my-city-my-business-my
+socialImage: og/q-1nkrwct-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will local communities and markets live in a global world?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1nkrwct">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1nkrwct">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: “Globalisation and Localisation” cycle: game of 20 Jun (Saturday); “Globalisation and Localisation” cycle: second part, 27 Jun (a person aged 35+ looking for meaning). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Will the global world swallow my city, my business, my neighbourhood?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The global pulls resources out of the local. Things are made in one place, sold in another, and the money collects in a third. A neighbouring city with tasty avocados appears, and three months later your own city has no money left; nobody feeds the internal market. An authentic place is found, bought up and turned into a picture. Autonomy world: Global tools work for small groups. People unite around a problem and build their own system: crowdsourcing, anonymity, alerts. Once it works, active participation is no longer needed. The global doesn't crush the local but helps it: a tsunami warning is useful to everyone. Community world: Global knowledge for local life. You don't have to grow wheat if buckwheat has historically grown where you live: world knowledge helps you grow buckwheat better. Local and seasonal is more useful. If the global collapses, you can rebuild from yourself: your own communications, feeding yourself, your own news."}}]}</script>

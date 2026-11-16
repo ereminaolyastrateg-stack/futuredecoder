@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/mogu-li-ya-khot-kak-to-povliyat-na-nalogi
   en: /en/future-canvas/can-i-influence-taxes-at-all
+socialImage: og/q-xhjrca-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will an ordinary person be able to influence taxes?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-xhjrca">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-xhjrca">Challenge a friend to a duel of worlds</a></div>
 
@@ -59,3 +62,5 @@ Nobody has designed this world for this question yet.
 ---
 
 Source: Game “The Tax System of the Future: Scenarios and Levers of Influence”: 9 Jul; the “compute tax” scenario was read first and its quadrant wasn't named on the board; placed in CS by meaning (full automation and transparency). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Can I influence taxes at all?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: You influence by withdrawing the base: business with people instead of computation. If digital operations are taxed, live labour and real business without AI get cheaper: they're harder to count. The entrepreneur keeps autonomy and some data to themselves. The state sees the base shrinking, and that's the signal. Rules world: You can have influence, but not alone, and starting at the local level. At first participants discussed only how to protect themselves and didn't believe the state could be influenced. The host reminded them: the state is the expression of the people's will. What works is not the street but the local level: an association of entrepreneurs, an ally in government, a forum where decisions are made together with officials. Community world: You influence through mutual help and knowledge. Many businesses close not because of taxes but because of an outdated business model and lack of knowledge. Entrepreneurs team up: shared premises, advice, tax training. They offer the municipality one specific small thing that benefits both sides. “Vasya alone won't survive, but Vasya and Petya together will.”"}}]}</script>

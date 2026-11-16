@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-sovmestit-tikhuyu-zhizn-i-neobkhodimost-zarabatyvat
   en: /en/future-canvas/how-do-i-combine-a-quiet-life-with-the-need-to-earn
+socialImage: og/q-96enn8-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people combine a quiet life with earning?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-96enn8">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-96enn8">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,17 +69,17 @@ updated: 2026-11-16
 
 ## Mixes and paradoxes from this game
 
-**Quiet happiness or visibility** (ДС + ЦЗ). Happiness loves quiet, but to earn money you have to be visible.
+**Quiet happiness or visibility** (DS + CE). Happiness loves quiet, but to earn money you have to be visible.
 
 - **Paradox:** I want to quietly tend my garden, and have everyone know me and pay a lot
 - **Experiment for a week:** For a week, separate where you must be visible and where you can disappear.
 
-**Focus on yourself or on connections** (ДС + ДЗ). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
+**Focus on yourself or on connections** (DS + DE). Focusing on your body and state brings happiness, but weakens the ties through which everything else comes.
 
 - **Paradox:** How do you stay part of the world while focusing on yourself?
 - **Experiment for a week:** Do one thing for yourself and one for someone else on the same day, and compare how it feels.
 
-**State or process** (ДЗ + ДС). Happiness is a human quality that shows itself through processes and environment.
+**State or process** (DE + DS). Happiness is a human quality that shows itself through processes and environment.
 
 - **Paradox:** Is happiness a state or a process? Internal or external?
 - **Experiment for a week:** 
@@ -84,3 +87,5 @@ updated: 2026-11-16
 ---
 
 Source: Game “Happiness as a Norm”, 7 Nov 2026. Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I combine a quiet life with the need to earn?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: By buying quiet: services take over routine. Quiet can partly be bought: hand routine to services and AI, and keep your earning where you're visible. Rules world: By choosing your own scale: working at 80%. The new norm is choosing your own scale: working at 80%, four days, without the race. People are already abandoning the constant race en masse. Autonomy world: By earning from skills and dosing visibility themselves. Income comes from several small sources, all based on skills rather than constant visibility. I set the boundary: a couple of days a month on stage (talks, posts, meetings), and the rest of the time I work quietly. I know exactly how much is enough for me, so I don't chase growth. Community world: Through people: quietly, but not alone. Income comes through people. A quiet life doesn't mean a lonely one: you can choose neighbours and a community where you're known without noise."}}]}</script>

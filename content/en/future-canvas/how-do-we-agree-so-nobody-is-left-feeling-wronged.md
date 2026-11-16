@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-dogovoritsya-chtoby-nikto-ne-ostalsya-obizhennym
   en: /en/future-canvas/how-do-we-agree-so-nobody-is-left-feeling-wronged
+socialImage: og/q-kqj95t-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will shared decisions work if voting doesn't suit everyone?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-kqj95t">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-kqj95t">Challenge a friend to a duel of worlds</a></div>
 
@@ -79,3 +82,5 @@ updated: 2026-11-16
 ---
 
 Source: “Globalisation and Localisation” cycle: game of 20 Jun (Saturday); “Globalisation and Localisation” cycle: game of 23 Jun (Tuesday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do we agree so nobody is left feeling wronged?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The centre decides, and everyone pays. The committee listened to everyone and made a decision; essentially it's the same single centre. A building voted 60 to 40 to replace the lifts, and ground-floor residents are obliged to take out a loan. If the centre errs, ordinary people suffer. Rules world: You vote, but only from the list you were offered. The system widens the rules for the active and keeps the benefits for itself. Out of twenty options you vote for the top ten. Same in the family: to avoid arguing about “where shall we go”, you're given a list of five options. Autonomy world: The decision is made “by nobody”: it's easier to think it wasn't you. Choice is handed to an algorithm, the chat majority, a coin toss. “Crooked democracy”: we admit the consequences are ours but hope it will sort itself out or AI will decide. In the end someone's patience snaps: “I've bought it all, chip in.” Community world: People look for a win-win in a difficult dialogue, not a majority. The decision should be a weighted average so everyone is fine. Two opposing vectors, from above and from below, keep looking for balance, like management and unions. From below there's its own monitoring of the upper system. The best ideas often belong to the minority: they're not yet fully formulated."}}]}</script>

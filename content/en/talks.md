@@ -10,6 +10,7 @@ tags:
   - talks
   - about
 date: 2026-11-16
+socialImage: og/talks-en.png
 ---
 
 <div class="about-hero">
@@ -24,7 +25,7 @@ date: 2026-11-16
 
 ## Recorded lectures
 
-The recordings are in Russian. Each lecture comes with a detailed long read with sources.
+The recordings so far are in Russian. Each lecture comes with a detailed long read with sources.
 
 **Chaos in your life should be voluntary** (43 minutes). Chaos theory, cybernetics and uncertainty: why chaos is not evil but a condition of life, and uncertainty is the other side of freedom. Plus a ladder of decisions for acting when nothing is clear.
 
@@ -88,5 +89,5 @@ Grushin Conference (2024, "The Other Side of Trendwatching"), ProductSense (2022
 
 <div class="about-contact">
 <p><b>Invite me to speak:</b> <a href="mailto:ereminaolya.strateg@gmail.com">ereminaolya.strateg@gmail.com</a></p>
-<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a> (in Russian) · <b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a></p>
+<p><b>YouTube:</b> <a href="https://www.youtube.com/@futuredecoder_eremina">@futuredecoder_eremina</a> · <b>Telegram channel:</b> <a href="https://t.me/olya_v_trende">t.me/olya_v_trende</a></p>
 </div>

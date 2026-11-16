@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kuda-ukhodit-moe-vnimanie-i-mozhno-li-ego-vernut
   en: /en/future-canvas/where-does-my-attention-go-and-can-i-get-it-back
+socialImage: og/q-tdt3gr-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will human attention work in ten years, and who will control it?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-tdt3gr">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-tdt3gr">Challenge a friend to a duel of worlds</a></div>
 
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “Attention” cycle: game of 7 Mar (Saturday; the recording starts midway); “Attention” cycle: game of 10 Mar (Tuesday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Where does my attention go, and can I get it back?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Attention is the platforms' fuel, and the person is a battery. Platforms have already filled all the space, and advertising has stopped working. Next they'll make people create: you film yourself, watch yourself, pay yourself, with your life and attention. Streaming will become a mandatory payment, like rent. Rules world: Attention is directed towards a shared past and a shared duty. Values and traditions are broadcast through content and art; nostalgia becomes a tool. The personal gives way to the shared. The routine is taking part in public affairs: volunteering, community service, “being on some register”, belonging to an approved club. Autonomy world: Attention goes to emotions and worlds you build yourself. Surprise me, carnival, emotional swings, virtual worlds and new devices. The host sees Minecraft here: creating together with people, but inside your own world. Subscribing to authors is partial autonomy: you chose whom to trust and then read their focus. Community world: Attention as a skill: you notice where it goes and choose yourself. People keep account of what they spend attention on and what they get. A “life digitisation indicator” is possible: 86% means it's time to get back down to earth. Attention is spent not on emotions but on understanding: first-year students read new laws themselves because “this is now their life”. Some people go off the radar: their own hobby, their own circle."}}]}</script>

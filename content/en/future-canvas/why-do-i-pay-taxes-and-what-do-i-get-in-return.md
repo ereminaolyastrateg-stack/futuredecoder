@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/zachem-ya-plachu-nalogi-i-chto-poluchayu-vzamen
   en: /en/future-canvas/why-do-i-pay-taxes-and-what-do-i-get-in-return
+socialImage: og/q-1y1u7jg-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will the tax system of the future work?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1y1u7jg">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1y1u7jg">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: Game “The Tax System of the Future: Scenarios and Levers of Influence”: 9 Jul; the “compute tax” scenario was read first and its quadrant wasn't named on the board; placed in CS by meaning (full automation and transparency). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Why do I pay taxes, and what do I get in return?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Computation is taxed: every digital operation is visible and counted. Taxes have always been levied on what's visible: land and salt, then trade, then labour, then consumption. The next visible thing is computation and tokens. The budget is automated and collection transparent. The more your life takes up space in computation, the more you pay. Rules world: The mobilisation model: those tied to a place pay. The state keeps control of those who can't leave: factories, extraction, offline outlets. What's collected goes to AI development and state priorities. Digital sectors get breaks and subsidies; immobile business gets the burden. Autonomy world: Tax as a platform: rules are written by global corporations, with a minimum rate for everyone. Tax is levied on profit and capital through a shared grid: wherever you reduce a payment, it's collected elsewhere. The biggest players influence policy on a par with states. There's e-residency: a country's infrastructure without moving. Small businesses below the threshold pay almost nothing. Community world: Vote with your tax: the base part is compulsory, and you direct the rest yourself. The minimum goes to security and social services, and a person allocates part of their tax to areas that matter to them. Communities gather around those areas. Local self-government decides how to spend, as in a homeowners' association or in countries where budgets are decided locally."}}]}</script>

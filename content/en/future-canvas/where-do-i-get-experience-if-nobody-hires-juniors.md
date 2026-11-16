@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/gde-poluchat-opyt-esli-dzhunov-ne-berut
   en: /en/future-canvas/where-do-i-get-experience-if-nobody-hires-juniors
+socialImage: og/q-8xb89s-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will entry into a profession work if AI does the newcomer's work?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-8xb89s">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-8xb89s">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,7 +69,7 @@ updated: 2026-11-16
 
 ## Mixes and paradoxes from this game
 
-**The silent majority decides** (ЦС + ДЗ). The majority think they decide nothing, yet every product is made to be “swallowed” by the majority. If it wanted to understand AI, everyone would be building mass education. Right now it's tired and wants “sort it out for us”.
+**The silent majority decides** (CS + DE). The majority think they decide nothing, yet every product is made to be “swallowed” by the majority. If it wanted to understand AI, everyone would be building mass education. Right now it's tired and wants “sort it out for us”.
 
 - **Paradox:** Silence is also a choice, and it becomes the world's norm.
 - **Experiment for a week:** Say out loud what you want from technology, not only what you fear.
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “AI and the Human” cycle: second part, 25 Jul (Saturday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Where do I get experience if nobody hires juniors?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An algorithm chooses your path, based on school grades. University places are allocated by algorithms and needs. Good maths grades in year seven, and you're an engineer. Wanted to be a designer? Closed. I do art for myself, with books from my artist neighbour. Rules world: What's needed is not a staff but one strong person; the rest maintain the infrastructure. A manager takes one person instead of thirty-five. “Everyone is the maker of their own happiness and a trendsetter.” Public-sector workers are those who maintain data centres and power grids, and few of them are needed. Autonomy world: Professions change, but your core competence stays. You may have a dozen professions in a lifetime (accountant, strategist, game organiser), yet everywhere you do the same thing. That's the core plus three adjacent skills. Once you understand what you're given, changing jobs isn't scary. Speaking well is a tool, not the core. Community world: First find your strengths; then AI and a mentor will drill you. You can't be smart at everything, so first you try things and look for your strengths. AI can drill you up to specialist level, and a mentor who takes on responsibility helps where you're weak. You keep a “library of knowledge about yourself”: what came easily, what made you sick."}}]}</script>

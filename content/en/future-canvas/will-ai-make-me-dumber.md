@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/ne-otupeyu-li-ya-ot-ii
   en: /en/future-canvas/will-ai-make-me-dumber
+socialImage: og/q-xroq92-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will thinking work when answers come ready-made?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-xroq92">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-xroq92">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “AI and the Human” cycle: game of 14 Jul (Tuesday); “AI and the Human” cycle: second part, 25 Jul (Saturday); “AI and the Human” cycle: second part, 28 Jul (a consultant aged 40). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Will AI make me dumber?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: A ready answer replaces the search, and there's no way back. A standard request gets a standard answer. Everyone chases “how to ask properly”; hardly anyone writes their own prompts. Everyone understands each other, but they all create the same thing. Once you're used to ready answers, you won't go back to deep reasoning. Rules world: You can't compete with AI on brains, so people compete with bodies. When you can't stand out with your mind, people look for what AI doesn't have: a body. It's easier to pump up your body than your brain, especially with supplements and clubs. An unexpected conclusion: healthy people also think better; mental clarity comes from sport. Autonomy world: When you write, you think; what becomes valuable is what you do with your own hands and head. Using AI is fashionable now, but later not using it will be fashionable: writing with a marker on a flipchart when everyone has identical slides. If AI writes for us, it's unclear where thinking moves to. Perhaps AI skills will one day be like vocational school, and the elite skill will be the ability to think and get a point across. Community world: AI teaches you to formulate rather than thinking for you. At school, books and sport go side by side. Debate clubs: AI helps you learn to formulate rather than handing out ready arguments. Lots of attempts; randomness is valuable: new directions are born from many crazy attempts."}}]}</script>

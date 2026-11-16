@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chemu-mne-uchitsya-chtoby-ne-otstat
   en: /en/future-canvas/what-should-i-learn-so-i-don-t-fall-behind
+socialImage: og/q-s8ectp-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will decide what I need to learn?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-s8ectp">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-s8ectp">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What should I learn so I don't fall behind?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An AI assessor: it tests you and draws up your plan. I have an AI assessor. Once a quarter it checks what I can do and draws up my plan itself. I learn not for the company but for my own productivity. The main thing is to tune it so it neither flatters nor scolds. Rules world: A mentor and a track you are guided along. I don't have to guess: I have a track and a mentor who moves me in time to where I'm needed. The main exam now is to explain in your own words what isn't in the template. And to be smarter than your AI. Autonomy world: You yourself, on a foundation that works anywhere. My minimum kit: reading, writing, numeracy and solving problems where conditions change. Plus logic, rhetoric and the ability to balance money and time. I learn a language and a subject, not a profession, so I can ride any elevator. Community world: The people and place around you: you learn what they need right now. I no longer try to guess the job of the future. I look at who needs whom right now: what my neighbours and my district need. I learn along the way, on live tasks, together with the people around me."}}]}</script>

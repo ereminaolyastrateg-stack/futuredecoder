@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/kak-vybrat-professiyu-esli-vse-menyaetsya
   en: /en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing
+socialImage: og/q-1nntm5g-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will choose my profession?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1nntm5g">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1nntm5g">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "How do I choose a profession when everything keeps changing?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The system, based on test results. The system chose for me: tests showed where I do best and sent me there. Fast and convenient. Rules world: The state, according to its needs. The profession is set by need: from above you can see how many doctors, engineers and fitters are needed, and places open accordingly. A mentor guides you along the track. Autonomy world: Nobody: you choose a foundation, not a profession. I choose a foundation, not a profession: a language, a subject, logic. With it you can move both sideways and up. Community world: What the people and region around you need. Guessing the job of the future is pointless. I look at who needs whom now: I read the regional agenda, find a shortage, connect it with my interest and look for a mentor. Buckwheat loves hands, not combine harvesters."}}]}</script>

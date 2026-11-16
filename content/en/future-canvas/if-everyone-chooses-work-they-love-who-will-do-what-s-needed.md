@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/esli-kazhdyy-vyberet-delo-po-dushe-kto-budet-delat-nuzhnoe
   en: /en/future-canvas/if-everyone-chooses-work-they-love-who-will-do-what-s-needed
+socialImage: og/q-1rpt873-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will do what's needed if everyone chooses work they love?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1rpt873">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1rpt873">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "If everyone chooses work they love, who will do what's needed?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An algorithm will tweak quotas and exams. The algorithm sees a shortage and tweaks exams and quotas: fewer university places, more on the tracks that are needed. Rules world: The centre will hand down quotas and give a big goal. The centre sets what's needed: quotas come down from above for how many doctors and fitters are needed. A big shared goal makes needed work honourable. Autonomy world: Everyone balances their own books; it's not society's job. Here everyone keeps their own balance of resources. If the work you love doesn't feed you, that's your problem, not society's. Community world: People will agree from below, seeing what the district needs. What's needed is visible from below, through feedback from the environment. If all work is decently paid and the district's needs are visible, people distribute themselves, or agree."}}]}</script>

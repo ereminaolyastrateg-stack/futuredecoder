@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/gde-vzyat-distsiplinu-i-motivatsiyu-uchitsya
   en: /en/future-canvas/where-do-i-find-the-discipline-and-motivation-to-learn
+socialImage: og/q-6dz24f-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will keep me disciplined?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-6dz24f">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-6dz24f">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Knowledge and Education” cycle: games of 31 Oct and 4 Nov 2026 (CS). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Where do I find the discipline and motivation to learn?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An AI agent with reminders. I'm helped by an AI agent that asks every hour, “Have you done it?”, as persistent as a three-year-old. Annoying reminders, it turns out, are what very smart people need. Rules world: A mentor, lovingly but firmly. A mentor keeps the discipline, lovingly but firmly. An external limiter is the norm here, and there's no shame in it. Autonomy world: You yourself are your own carrot. I'm my own carrot. In the first year the result isn't the outcome but the number of sessions: five workouts a week, not a perfect body. Community world: A community you pass something on to. A community keeps me going. When you teach others what you're only just learning, discipline appears by itself. And people appear around you."}}]}</script>

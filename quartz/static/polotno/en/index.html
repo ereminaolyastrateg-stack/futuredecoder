@@ -13,7 +13,10 @@
 <meta property="og:title" content="Future Canvas — Future Decoder">
 <meta property="og:description" content="Choose the future you are building, and challenge a friend to a duel of worlds.">
 <meta property="og:url" content="https://futuredecoder.org/static/polotno/en/">
-<meta property="og:image" content="https://futuredecoder.org/static/og-image.png">
+<meta name="twitter:image" content="https://futuredecoder.org/static/og/polotno-en.png">
+<meta property="og:image" content="https://futuredecoder.org/static/og/polotno-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Future Canvas", "alternateName": "Полотно будущего", "url": "https://futuredecoder.org/static/polotno/en/", "applicationCategory": "EducationalApplication", "inLanguage": "en", "isAccessibleForFree": true, "description": "Questions about the future and four scenario answers to each, from Future Decoder games.", "creator": {"@type": "Person", "name": "Olga Eremina", "url": "https://futuredecoder.ru"}, "isPartOf": {"@type": "WebSite", "name": "Future Decoder", "url": "https://futuredecoder.org/"}}</script>
@@ -224,6 +227,8 @@ footer{margin-top:44px;border-top:1px solid var(--ink);padding-top:14px;font-siz
 if(/[?&]lang=en\b/.test(location.search)){location.replace("en/"+location.hash)}
 let DATA;
 const BASE = location.href.split("#")[0];
+// ссылки на вопрос ведут на его страницу в саду: там своя картинка для соцсетей, а оттуда сразу в полотно
+const QPAGE = q => (location.origin.startsWith("http")&&q&&q.slug_en) ? location.origin+"/en/future-canvas/"+q.slug_en : BASE;
 
 function boot(){
   fetch("../data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{DATA=d;main();}).catch(err=>{
@@ -315,7 +320,7 @@ function renderDuelCreate(q){
   <div class="sharebox" id="dshare"><p><b>Done.</b> Send your friend this text with the link:</p><textarea readonly></textarea><div class="actions"><button class="btn" id="dcopy">Copy</button></div></div></div>`;
   v.querySelectorAll("[data-mine]").forEach(b=>b.addEventListener("click",()=>{
     v.querySelectorAll("[data-mine]").forEach(x=>x.disabled=true);b.style.borderColor="var(--ink)";
-    const link=BASE+"#duel-"+q.id+"-"+ORDER.indexOf(b.dataset.mine);
+    const link=QPAGE(q)+"#duel-"+q.id+"-"+ORDER.indexOf(b.dataset.mine);
     const text=`I’ve chosen my world for the question “${q.ask}”. Have you? Let’s see who’s building which future:\n${link}`;
     const box=$("#dshare");box.classList.add("show");box.querySelector("textarea").value=text;
     $("#dcopy").onclick=()=>copyText(text,$("#dcopy"));
@@ -425,7 +430,7 @@ function copyText(t,btn){
 document.addEventListener("click",e=>{
   const g=e.target.closest("[data-go]"); if(g){location.hash=g.dataset.go;return}
   const d=e.target.closest("[data-duel]"); if(d){location.hash="new-"+d.dataset.duel;return}
-  const c=e.target.closest("[data-copy]"); if(c){const t=BASE+"#"+c.dataset.copy;const bx=$("#qshare");bx.classList.add("show");bx.querySelector("textarea").value=t;copyText(t,c)}
+  const c=e.target.closest("[data-copy]"); if(c){const cq=DATA.q.find(x=>"q-"+x.id===c.dataset.copy);const t=QPAGE(cq)+"#"+c.dataset.copy;const bx=$("#qshare");bx.classList.add("show");bx.querySelector("textarea").value=t;copyText(t,c)}
 });
 function route(){
   const h=location.hash.replace(/^#/,"");

@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/nuzhno-li-mne-samomu-kontrolirovat-zdorove
   en: /en/future-canvas/do-i-need-to-monitor-my-health-myself
+socialImage: og/q-wm17gl-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **Who will look after health?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-wm17gl">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-wm17gl">Challenge a friend to a duel of worlds</a></div>
 
@@ -67,3 +70,5 @@ updated: 2026-11-16
 ---
 
 Source: “Unobvious Scenarios” cycle: thesis game of 15 Sep; “Unobvious Scenarios” cycle: assembly session (a couple aged 70–80). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Do I need to monitor my health myself?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The centre controls health: how much to drink and how many squats will be set for you. Gadgets and corporations measure everything for me, and health is needed in order to work. I decide little myself, but everything is suggested to me. Rules world: The tools are provided; after that, you manage on your own. There are gadgets and sensors, and capital flows into biotech and health. But the limit is the person: the body can't keep up with the speed of the world. Results take time and effort. Autonomy world: All the tools are yours: both biohacking and discipline. I build my own health system: apps, biohacking, restrictions. For example, a fridge that won't open until morning. Community world: The environment holds it up: people just don't wreck it. No need to monitor: your wife or neighbours will tell you if something's wrong. I watch myself and compare with others. The main thing is to surround yourself with decent people."}}]}</script>

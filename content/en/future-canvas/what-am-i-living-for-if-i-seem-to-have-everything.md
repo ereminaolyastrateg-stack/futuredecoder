@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/zachem-ya-zhivu-esli-vse-vrode-est
   en: /en/future-canvas/what-am-i-living-for-if-i-seem-to-have-everything
+socialImage: og/q-1qsnxkr-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will the search for meaning in life work?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1qsnxkr">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1qsnxkr">Challenge a friend to a duel of worlds</a></div>
 
@@ -66,7 +69,7 @@ updated: 2026-11-16
 
 ## Mixes and paradoxes from this game
 
-**Minimal comfort and a great goal** (ЦС + ЦЗ). For the last 60 years marketing has sold a selfish image of the future: “do it for yourself”. But people's need to do something for others and be part of something shared remains unmet. The host believes minimal comfort with a great goal beats maximum comfort without one.
+**Minimal comfort and a great goal** (CS + CE). For the last 60 years marketing has sold a selfish image of the future: “do it for yourself”. But people's need to do something for others and be part of something shared remains unmet. The host believes minimal comfort with a great goal beats maximum comfort without one.
 
 - **Paradox:** Comfort kills movement, and a goal demands giving up part of your comfort.
 - **Experiment for a week:** Find one thing where your contribution is needed not by you but by others.
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “Globalisation and Localisation” cycle: second part, 27 Jun (a person aged 35+ looking for meaning). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What am I living for, if I seem to have everything?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: The system issues meaning, and you can find your own within it. Every system answers why you live: religion, the state, the corporation (“bake the tastiest doughnuts”). The state more often gives comfort and control than meaning. You can find your own meanings inside the system's meanings (family, a vegetable garden, service) or use it as a source of money and live your own life in your free time. Rules world: Meaning lies in belonging: joining a movement. You unite situationally around a big goal or justice, around a visionary or a blogger. A small project gives a tangible result, and you feel you have influence. You can try different movements and switch if it's not yours. Autonomy world: The search for meaning is handed to AI and replaced with configuring agents. “Study my messages and profile, find ten possible meanings.” Agents do everything, the person makes no effort, yet truth is born in the search itself. An algorithm can help find similar “lost” people to search together. Community world: Meaning is found together with those who share a similar image of the future. People look for their own kind and decide whom to connect with. You belong to several communities at once. The first step is doing something for others for free: improving a courtyard, coaching children, helping older people with the internet."}}]}</script>

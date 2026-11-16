@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/chto-delat-esli-moya-rabota-stanet-ne-nuzhna
   en: /en/future-canvas/what-do-i-do-if-my-job-is-no-longer-needed
+socialImage: og/q-1pdeebv-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people earn money if there isn't work for everyone?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-1pdeebv">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-1pdeebv">Challenge a friend to a duel of worlds</a></div>
 
@@ -74,3 +77,5 @@ updated: 2026-11-16
 ---
 
 Source: “Dystopias” cycle: game of 15 Aug (Saturday). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What do I do if my job is no longer needed?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: Pay will be tied to the minimum, with a bonus for what matters to the state. Jobs are distributed by quotas; you need passes and certificates. Pay is the regional subsistence minimum plus a bonus for sectors important to the state. Those who guard and secure grow: security staff, the military. Rules world: There's no salary: you work as much as you've agreed. Access to resources (water, air) gets more expensive; everyone survives as they can. The main institution is science, and scientists become priests. Everyone else negotiates work themselves or takes part in experiments. Autonomy world: Not a right to work but a right to capital. There isn't work for everyone, and earnings detach from labour. Capital comes in different forms: intellectual (a digital twin runs some of your consultations), property (a generation passes flats to only children), shares and assets. You labour to be useful and earn in another way. Community world: Two worlds: corporations pay by grade, communities by ability. Corporations set the norms and fit people to business needs. Next to them live autonomous households with almost no pay: there are agreements and a minimum income. If the system threw someone out because of age or illness, the community will take them in, together with their experience."}}]}</script>

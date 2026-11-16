@@ -6,6 +6,7 @@ lang: en
 translations:
   ru: /polotno/komu-verit-esli-vse-govoryat-gladko
   en: /en/future-canvas/whom-do-i-trust-when-everyone-sounds-polished
+socialImage: og/q-eg4owr-en.png
 tags:
   - future-canvas
 created: 2026-11-16
@@ -13,6 +14,8 @@ updated: 2026-11-16
 ---
 
 **How will people tell a real specialist when everything is beautifully packaged?** Four answers from four worlds of the Future Decoder method. They come from participants of the scenario games, not from experts.
+
+<script>(function(){var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/en/"+h)})()</script>
 
 <div class="polotno-cta"><a class="polotno-btn" href="/static/polotno/en/#q-eg4owr">Open in the interactive canvas →</a><a class="polotno-btn ghost" href="/static/polotno/en/#new-eg4owr">Challenge a friend to a duel of worlds</a></div>
 
@@ -76,7 +79,7 @@ updated: 2026-11-16
 - **Paradox:** Freedom from tasks without work of your own turns into emptiness.
 - **Experiment for a week:** Instead of “what else could I automate”, ask “what would I do if money weren't an issue”.
 
-**Not everything fashionable is something we need** (ЦС + ДС). Companies roll out AI because “everyone is”, without understanding why; travel is the same. You can't be autonomous in everything: you need to understand where autonomy is really needed and where you can rely on others.
+**Not everything fashionable is something we need** (CS + DS). Companies roll out AI because “everyone is”, without understanding why; travel is the same. You can't be autonomous in everything: you need to understand where autonomy is really needed and where you can rely on others.
 
 - **Paradox:** Freedom of choice without understanding your own desires leads you to follow trends.
 - **Experiment for a week:** Pick one fashionable decision in your life and ask: why is it for me specifically?
@@ -84,3 +87,5 @@ updated: 2026-11-16
 ---
 
 Source: “AI and the Human” cycle: second part, 28 Jul (a consultant aged 40). Draft of the Future Decoder knowledge base, updated after every game. [All questions](/en/future-canvas/)
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Whom do I trust when everyone sounds polished?", "acceptedAnswer": {"@type": "Answer", "text": "Autopilot world: An algorithm judges, and the key skill becomes pleasing it. You used to have to please your boss; now it's the algorithm, and it's unclear how it judges. Systems dismiss people by efficiency and predict who will leave. I have five digital copies in different tones: for the boss, the client, the family. Rules world: People trust results: whoever did in two weeks what the team couldn't in two months. Big companies hire a solo practitioner for what their staff can't do. Then the staff come to learn: “How did you do that?” Those with their own product and methodology survive, not just a service. Autonomy world: What's checked is genuine experience, not the packaging: explain it without slides. Everyone speaks beautifully; CVs and presentations no longer mean anything. A good specialist can explain their system for three hours without a slide, and the answers to questions immediately show their level. Accumulated, confirmed experience is valued: the client publishes what work was done, without ratings, for others to judge. Community world: People trust the living and their own: word of mouth, taste, community. Live contact and human services become more expensive and more valuable. Entrepreneurs are talking about taste again: AI doesn't understand what it's doing, so it can't speak about taste. A startup does something local rather than global, for its own community whose taste it shares."}}]}</script>
