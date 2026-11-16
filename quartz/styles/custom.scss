@@ -656,3 +656,23 @@ article .video {
     border: 0;
   }
 }
+
+// теги под заголовком — таблетки, цвет сценария у тегов сценариев
+ul.tags {
+  gap: 0.35rem !important;
+  margin: 0.4rem 0 1rem !important;
+  a.tag-link {
+    border-radius: 999px !important;
+    border: 1px solid var(--lightgray);
+    background: transparent !important;
+    padding: 0.15rem 0.65rem !important;
+    font-size: 0.8rem;
+    text-decoration: none !important;
+    color: var(--darkgray) !important;
+    &:hover { border-color: var(--dark); color: var(--dark) !important; }
+  }
+}
+a.tag-link[href*="ЦС"], a.tag-link[href*="scenario/cs"], a.tag-link[href*="scenario/CS"] { border-color: var(--dec-cs) !important; }
+a.tag-link[href*="ЦЗ"], a.tag-link[href*="scenario/ce"], a.tag-link[href*="scenario/CE"] { border-color: #e0c21f !important; }
+a.tag-link[href*="ДС"], a.tag-link[href*="scenario/ds"], a.tag-link[href*="scenario/DS"] { border-color: var(--dec-ds) !important; }
+a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="scenario/DE"] { border-color: var(--dec-dz) !important; }
