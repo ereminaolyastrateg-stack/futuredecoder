@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/libraries
-  - industry/adult-education
-  - industry/open-resources
-  - theme/learning-circle
-  - theme/peer-learning
-  - theme/facilitation
-  - macrotrend/mt-043
-  - macrotrend/mt-076
-  - macrotrend/mt-038
+signal_type: signal
+signal_id: SIG-EDU-025
+name: "P2PU Learning Circles"
+scenario: DS
+period: "Since 2015 — learning circles with libraries, according to P2PU’s history."
+geography: "United States; international library and community spaces"
+stage: "Facilitated peer-learning methodology"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Libraries"
+  - "adult education"
+  - "open resources"
+themes:
+  - "learning circle"
+  - "peer learning"
+  - "facilitation"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-076 — Digital communities and virtual interaction"
+  - "MT-038 — Inequality and resource distribution"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Libraries; adult education; open resources.  
-**Thematic tags:** #theme/learning-circle #theme/peer-learning #theme/facilitation
+**Thematic tags:** learning circle, peer learning, facilitation.
 
 ### Description
 

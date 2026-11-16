@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/higher-education
-  - industry/digital-transformation
-  - theme/university
-  - theme/co-creation
-  - theme/prototyping
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-029
+signal_type: signal
+signal_id: SIG-EDU-032
+name: "FOUNDING LAB"
+scenario: DE
+period: "2023–2024."
+geography: "Austria, Linz; international participants"
+stage: "Summer school and experimental semester"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Higher education"
+  - "digital transformation"
+themes:
+  - "university"
+  - "co creation"
+  - "prototyping"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-029 — Crisis of social institutions"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; digital transformation.  
-**Thematic tags:** #theme/university #theme/co-creation #theme/prototyping
+**Thematic tags:** university, co creation, prototyping.
 
 ### Description
 

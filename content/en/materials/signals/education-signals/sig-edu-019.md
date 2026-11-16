@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/work
-  - industry/higher-education
-  - industry/r&d
-  - industry/industry-collaboration
-  - theme/design-factory
-  - theme/interdisciplinarity
-  - theme/prototype
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-066
+signal_type: signal
+signal_id: SIG-EDU-019
+name: "Design Factory Global Network"
+scenario: CE
+period: "n.d."
+geography: "International network; coordination in Finland"
+stage: "Network of educational innovation hubs"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Higher education"
+  - "R&D"
+  - "industry collaboration"
+themes:
+  - "Design Factory"
+  - "interdisciplinarity"
+  - "prototype"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-066 — Transformation of work and talent management"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Higher education; R&D; industry collaboration.  
-**Thematic tags:** #theme/design-factory #theme/interdisciplinarity #theme/prototype
+**Thematic tags:** Design Factory, interdisciplinarity, prototype.
 
 ### Description
 

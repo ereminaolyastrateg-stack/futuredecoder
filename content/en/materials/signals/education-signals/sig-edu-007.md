@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/work
-  - industry/education
-  - industry/hr
-  - industry/digital-credentials
-  - theme/microcredentials
-  - theme/open-badges
-  - theme/verifiable-record
-  - macrotrend/mt-043
-  - macrotrend/mt-044
-  - macrotrend/mt-066
+signal_type: signal
+signal_id: SIG-EDU-007
+name: "Open Badges 3.0"
+scenario: CS
+period: "n.d."
+geography: "International standard"
+stage: "Specification for digital achievement credentials"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Education"
+  - "HR"
+  - "digital credentials"
+themes:
+  - "microcredentials"
+  - "Open Badges"
+  - "verifiable record"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-044 — Social trust and digital ethics"
+  - "MT-066 — Transformation of work and talent management"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Education; HR; digital credentials.  
-**Thematic tags:** #theme/microcredentials #theme/open-badges #theme/verifiable-record
+**Thematic tags:** microcredentials, Open Badges, verifiable record.
 
 ### Description
 

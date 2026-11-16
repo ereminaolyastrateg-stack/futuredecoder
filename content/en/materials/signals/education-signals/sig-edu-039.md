@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/stem
-  - industry/makerspaces
-  - industry/non-formal-education
-  - theme/participation
-  - theme/power
-  - theme/co-creating-rules
-  - macrotrend/mt-043
-  - macrotrend/mt-038
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-039
+name: "Rightful Presence and Radical Making"
+scenario: DE
+period: "5 September 2025 — lecture and discussion."
+geography: "Austria, Linz; international makerspace practices"
+stage: "Public discussion of research and educational practices"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "STEM"
+  - "makerspaces"
+  - "non-formal education"
+themes:
+  - "participation"
+  - "power"
+  - "co creating rules"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-038 — Inequality and resource distribution"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** STEM; makerspaces; non-formal education.  
-**Thematic tags:** #theme/participation #theme/power #theme/co-creating-rules
+**Thematic tags:** participation, power, co creating rules.
 
 ### Description
 

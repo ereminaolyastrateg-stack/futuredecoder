@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/design
-  - industry/film
-  - industry/trade-and-supply-chains
-  - theme/film
-  - theme/nature
-  - theme/supply-chains
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-030
+signal_type: signal
+signal_id: SIG-EDU-035
+name: "Nature’s Depot"
+scenario: DE
+period: "2024–2025; films presented as Showreel 2025."
+geography: "United Kingdom, RCA and DEFRA"
+stage: "Research-led educational project with speculative films"
+life_domains:
+  - "Education"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Design"
+  - "film"
+  - "trade and supply chains"
+themes:
+  - "film"
+  - "nature"
+  - "supply chains"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-030 — Culture as a source of futures"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; film; trade and supply chains.  
-**Thematic tags:** #theme/film #theme/nature #theme/supply-chains
+**Thematic tags:** film, nature, supply chains.
 
 ### Description
 

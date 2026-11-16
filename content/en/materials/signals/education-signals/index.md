@@ -12,6 +12,4 @@ created: 2026-11-16
 updated: 2026-11-16
 ---
 
-Each signal here is a separate note. The overview with the introduction and grouping by scenario and macrotrend is [[en/materials/signals/education|Education — signals and game discussions]].
-
-Explore connections through tags: #scenario/CS #scenario/CE #scenario/DS #scenario/DE
+Each signal is a separate note. Search and filter by world, life domain, industry, theme and macrotrend; the introduction to this collection is in the [[en/materials/signals/education|Education overview]].

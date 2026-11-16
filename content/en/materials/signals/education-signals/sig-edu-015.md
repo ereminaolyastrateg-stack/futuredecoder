@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/higher-education
-  - industry/social-and-environmental-projects
-  - theme/university-mission
-  - theme/public-benefit
-  - theme/interdisciplinarity
-  - macrotrend/mt-043
-  - macrotrend/mt-029
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-015
+name: "Learning Planet Academy"
+scenario: CE
+period: "January 2026 — the academy launch listed on its page."
+geography: "France; international programmes"
+stage: "Educational initiative and manifesto for a university mission"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Higher education"
+  - "social and environmental projects"
+themes:
+  - "university mission"
+  - "public benefit"
+  - "interdisciplinarity"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-029 — Crisis of social institutions"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; social and environmental projects.  
-**Thematic tags:** #theme/university-mission #theme/public-benefit #theme/interdisciplinarity
+**Thematic tags:** university mission, public benefit, interdisciplinarity.
 
 ### Description
 

@@ -11,18 +11,30 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/education
-  - industry/hr
-  - industry/digital-credentials
-  - theme/clr
-  - theme/portfolio
-  - theme/privacy
-  - theme/informal-learning
-  - macrotrend/mt-043
-  - macrotrend/mt-044
-  - macrotrend/mt-066
+signal_type: signal
+signal_id: SIG-EDU-008
+name: "Comprehensive Learner Record"
+scenario: CS
+period: "n.d."
+geography: "International standard"
+stage: "Specification for interoperable digital learning histories"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Education"
+  - "HR"
+  - "digital credentials"
+themes:
+  - "CLR"
+  - "portfolio"
+  - "privacy"
+  - "informal learning"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-044 — Social trust and digital ethics"
+  - "MT-066 — Transformation of work and talent management"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -42,7 +54,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Education; HR; digital credentials.  
-**Thematic tags:** #theme/clr #theme/portfolio #theme/privacy #theme/informal-learning
+**Thematic tags:** CLR, portfolio, privacy, informal learning.
 
 ### Description
 

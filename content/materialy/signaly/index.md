@@ -10,7 +10,8 @@ aliases:
   - signals/index
   - signaly/index
 tags:
-  - signals
+  - тип/указатель
+  - раздел/материалы
 created: 2026-11-12
 updated: 2026-11-12
 ---

@@ -20,7 +20,7 @@ LANGS = {
                url='materialy/signaly/obrazovanie', hub_url='materialy/signaly/education',
                other='en/materials/signals/education-signals',
                L=dict(scen='Сценарий', sph='Сферы', ind='Отрасли', tags='Тематические теги', mt='Макротренды-драйверы',
-                      brief='Кратко', other_lang='Этот сигнал на английском', other_label='Этот сигнал на английском',
+                      brief='Кратко', geo='География', period='Дата / период', stage='Тип и стадия', other_lang='Этот сигнал на английском', other_label='Этот сигнал на английском',
                       back='Все сигналы обзора', hubname='Образование — сигналы и обсуждения игр',
                       t_type='тип', t_sig='сигнал', t_scen='сценарий', t_sph='сфера', t_ind='отрасль', t_theme='тема', t_mt='макротренд',
                       t_hub='обзор', topic='сфера/образование')),
@@ -28,7 +28,7 @@ LANGS = {
                url='en/materials/signals/education-signals', hub_url='en/materials/signals/education',
                other='materialy/signaly/obrazovanie',
                L=dict(scen='Scenario', sph='Life domains', ind='Industries', tags='Thematic tags', mt='Macrotrend drivers',
-                      brief='In brief', other_lang='This signal in Russian', other_label='This signal in Russian',
+                      brief='In brief', geo='Geography', period='Date / period', stage='Type and stage', other_lang='This signal in Russian', other_label='This signal in Russian',
                       back='All signals in this overview', hubname='Education — signals and game discussions',
                       t_type='type', t_sig='signal', t_scen='scenario', t_sph='domain', t_ind='industry', t_theme='theme', t_mt='macrotrend',
                       t_hub='overview', topic='domain/education')),
@@ -87,24 +87,27 @@ def process(lang):
         ind = [x for x in re.split(r';', field(rest, L['ind'])) if x.strip()]
         themes = re.findall(r'`#([^`]+)`', field(rest, L['tags']))
         mts = re.findall(r'\[(MT-\d{3})[^\]]*\]', field(rest, L['mt']))
-        tags = [f"{L['t_type']}/{L['t_sig']}", f"{L['t_scen']}/{code}"]
-        tags += [f"{L['t_sph']}/{slugtag(x)}" for x in sph]
-        tags += [f"{L['t_ind']}/{slugtag(x)}" for x in ind]
-        tags += [f"{L['t_theme']}/{slugtag(x)}" for x in themes]
-        tags += [f"{L['t_mt']}/{x.lower()}" for x in mts]
-        seen = []; [seen.append(t) for t in tags if t not in seen]
+        # тегов немного (как в медиатеке); остальное — поля шапки для таблицы-каталога
+        seen = [f"{L['t_type']}/{L['t_sig']}", f"{L['t_scen']}/{code}", L['topic']]
+        mt_full = re.findall(r'\[(MT-\d{3}[^\]]*)\]', field(rest, L['mt']))
+        clean = lambda x: x.strip().rstrip('.').strip()
         # тело: ссылки на соседние сигналы → вики-ссылки, теги → кликабельные, макротренды → текст до появления заметок
         b = rest
         b = re.sub(r'\[([^\]]+)\]\(#(sig-edu-\d{3})\)', lambda m: link_sig(m, c['url']), b)
         b = re.sub(r'\[([^\]]+)\]\((?:\.\./)+[^)]*?#(sig-edu-\d{3})\)', lambda m: f"[[{c['other']}/{m.group(2)}|{m.group(1)}]]", b)
         b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', r'\1', b)
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
-                   lambda m: m.group(1) + ' ' + ' '.join(f"#{L['t_theme']}/{slugtag(x)}" for x in themes), b, flags=re.M)
+                   lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
         desc = field(rest, L['brief'])
         out = ['---', f'title: {yq(headline)}', f'description: {yq(desc)}', f'lang: {lang}',
                'translations:',
                f"  ru: /{LANGS['ru']['url']}/{sid.lower()}", f"  en: /{LANGS['en']['url']}/{sid.lower()}",
                'aliases:', f'  - {sid}', 'tags:'] + [f'  - {t}' for t in seen] + [
+               'signal_type: signal', f'signal_id: {sid}', f'name: {yq(name)}', f'scenario: {code}',
+               f"period: {yq(field(rest, L['period']).strip())}", f"geography: {yq(clean(field(rest, L['geo'])))}",
+               f"stage: {yq(clean(field(rest, L['stage'])))}",
+               'life_domains:'] + [f'  - {yq(clean(x))}' for x in sph] + ['industries:'] + [f'  - {yq(clean(x))}' for x in ind] + [
+               'themes:'] + [f'  - {yq(clean(x).replace(chr(45), chr(32)))}' for x in themes] + ['macrotrends:'] + [f'  - {yq(clean(x))}' for x in mt_full] + [
                'created: 2026-11-12', 'updated: 2026-11-16', '---', '',
                f'*{sid} · {name}*', '', b, '', '---', '',
                f"{L['back']}: [[{c['hub_url']}|{L['hubname']}]]", '']
@@ -117,9 +120,11 @@ def process(lang):
     fm2 = fm2.replace('updated: 2026-11-13', 'updated: 2026-11-16')
     note = ({'ru': '> Каждый сигнал — отдельная заметка со своими тегами и обратными ссылками: [[materialy/signaly/obrazovanie/index|все сигналы по образованию]]. Теги сценариев: #сценарий/ЦС #сценарий/ЦЗ #сценарий/ДС #сценарий/ДЗ',
              'en': '> Each signal is a separate note with its own tags and backlinks: [[en/materials/signals/education-signals/index|all education signals]]. Scenario tags: #scenario/CS #scenario/CE #scenario/DS #scenario/DE'})[lang]
-    hh = hub_head.rstrip().rstrip('-').rstrip()
-    hh = re.sub(r'(\n## )', '\n' + note + '\n\n## ', hh, count=1)
-    open(hub_path, 'w', encoding='utf-8').write(fm2 + hh + '\n\n' + hub_tail.strip() + '\n')
+    # обзор = вводный текст; списки по мирам и макротрендам заменяет таблица-каталог (SignalCatalog)
+    intro = hub_head.split('\n## ')[0].rstrip().rstrip('-').rstrip()
+    note = ({'ru': '> Каждый сигнал — отдельная заметка. Ниже — каталог: ищите и фильтруйте по миру, сфере, отрасли, теме и макротренду.',
+             'en': '> Each signal is a separate note. Below is the catalog: search and filter by world, life domain, industry, theme and macrotrend.'})[lang]
+    open(hub_path, 'w', encoding='utf-8').write(fm2 + intro + '\n\n' + note + '\n')
     return len(sigs)
 
 if __name__ == '__main__':

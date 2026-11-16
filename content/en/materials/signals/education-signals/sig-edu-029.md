@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - industry/programming
-  - industry/vocational-learning
-  - theme/programming
-  - theme/peer-review
-  - theme/repeated-attempt
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-076
+signal_type: signal
+signal_id: SIG-EDU-029
+name: "42"
+scenario: DE
+period: "n.d."
+geography: "France; the international 42 network"
+stage: "Project-based programming education and peer assessment"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Programming"
+  - "vocational learning"
+themes:
+  - "programming"
+  - "peer review"
+  - "repeated attempt"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-076 — Digital communities and virtual interaction"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Programming; vocational learning.  
-**Thematic tags:** #theme/programming #theme/peer-review #theme/repeated-attempt
+**Thematic tags:** programming, peer review, repeated attempt.
 
 ### Description
 

@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/higher-education
-  - industry/design
-  - industry/ai-literacy
-  - theme/ai-literacy
-  - theme/bias
-  - theme/authorship
-  - macrotrend/mt-043
-  - macrotrend/mt-047
-  - macrotrend/mt-044
+signal_type: signal
+signal_id: SIG-EDU-023
+name: "Critical AI Literacy 2035"
+scenario: DS
+period: "2025 — project; 2035 — scenario horizon."
+geography: "United Kingdom — RCA; Brazil — the education system explored"
+stage: "Speculative design research and learning activities"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Higher education"
+  - "design"
+  - "AI literacy"
+themes:
+  - "AI literacy"
+  - "bias"
+  - "authorship"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-047 — Advanced AI systems and cognitive computing"
+  - "MT-044 — Social trust and digital ethics"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; design; AI literacy.  
-**Thematic tags:** #theme/ai-literacy #theme/bias #theme/authorship
+**Thematic tags:** AI literacy, bias, authorship.
 
 ### Description
 

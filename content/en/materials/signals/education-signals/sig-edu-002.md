@@ -11,19 +11,31 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/work
-  - industry/education
-  - industry/edtech
-  - industry/service-design
-  - theme/ai
-  - theme/teacher-role
-  - theme/learning-environment
-  - theme/critical-thinking
-  - theme/empathy
-  - theme/speculative-design
-  - macrotrend/mt-043
-  - macrotrend/mt-047
-  - macrotrend/mt-002
+signal_type: signal
+signal_id: SIG-EDU-002
+name: "Rethinking the Future of Education"
+scenario: CS
+period: "2025 — project; 2035 — the setting of the fictional story."
+geography: "United Kingdom"
+stage: "Speculative RCA graduation project"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Education"
+  - "EdTech"
+  - "service design"
+themes:
+  - "AI"
+  - "teacher role"
+  - "learning environment"
+  - "critical thinking"
+  - "empathy"
+  - "speculative design"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-047 — Advanced AI systems and cognitive computing"
+  - "MT-002 — Human–machine interaction"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -43,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Education; EdTech; service design.  
-**Thematic tags:** #theme/ai #theme/teacher-role #theme/learning-environment #theme/critical-thinking #theme/empathy #theme/speculative-design
+**Thematic tags:** AI, teacher role, learning environment, critical thinking, empathy, speculative design.
 
 ### Description
 

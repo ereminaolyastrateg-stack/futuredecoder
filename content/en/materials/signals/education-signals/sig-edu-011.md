@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/higher-education
-  - industry/territorial-development
-  - theme/bioregion
-  - theme/university
-  - theme/regeneration
-  - macrotrend/mt-043
-  - macrotrend/mt-029
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-011
+name: "The Pluriversity"
+scenario: DE
+period: "2026 — exhibition project; 2070 — scenario horizon."
+geography: "Ireland — the imagined setting; Netherlands — the DDW exhibition"
+stage: "Speculative university model by Studio Saol"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Higher education"
+  - "territorial development"
+themes:
+  - "bioregion"
+  - "university"
+  - "regeneration"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-029 — Crisis of social institutions"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -43,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Place of living and public environment; Values, meaning and community.  
 **Industries:** Higher education; territorial development.  
-**Thematic tags:** #theme/bioregion #theme/university #theme/regeneration
+**Thematic tags:** bioregion, university, regeneration.
 
 ### Description
 

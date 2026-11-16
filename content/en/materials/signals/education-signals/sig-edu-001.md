@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/close-relationships-and-family
-  - industry/education
-  - industry/edtech
-  - industry/vr
-  - theme/vr
-  - theme/preschool
-  - theme/progress-assessment
-  - macrotrend/mt-043
-  - macrotrend/mt-002
-  - macrotrend/mt-047
+signal_type: signal
+signal_id: SIG-EDU-001
+name: "Future Chinese Preschool"
+scenario: CS
+period: "2024; a vision of education in 2035."
+geography: "United Kingdom; a project about China"
+stage: "Speculative RCA graduation project"
+life_domains:
+  - "Education"
+  - "Close relationships and family"
+industries:
+  - "Education"
+  - "EdTech"
+  - "VR"
+themes:
+  - "VR"
+  - "preschool"
+  - "progress assessment"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-002 — Human–machine interaction"
+  - "MT-047 — Advanced AI systems and cognitive computing"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** Education; EdTech; VR.  
-**Thematic tags:** #theme/vr #theme/preschool #theme/progress-assessment
+**Thematic tags:** VR, preschool, progress assessment.
 
 ### Description
 

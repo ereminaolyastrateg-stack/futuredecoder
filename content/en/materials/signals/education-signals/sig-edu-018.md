@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/design
-  - industry/exhibitions
-  - industry/cultural-education
-  - theme/biennial
-  - theme/school
-  - theme/educational-experiment
-  - macrotrend/mt-043
-  - macrotrend/mt-030
-  - macrotrend/mt-029
+signal_type: signal
+signal_id: SIG-EDU-018
+name: "A School of Schools"
+scenario: CE
+period: "2018 — biennial; 22 January 2018 — the organiser’s publication."
+geography: "Türkiye, Istanbul"
+stage: "Biennial exhibition and educational programme"
+life_domains:
+  - "Education"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Design"
+  - "exhibitions"
+  - "cultural education"
+themes:
+  - "biennial"
+  - "school"
+  - "educational experiment"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-030 — Culture as a source of futures"
+  - "MT-029 — Crisis of social institutions"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; exhibitions; cultural education.  
-**Thematic tags:** #theme/biennial #theme/school #theme/educational-experiment
+**Thematic tags:** biennial, school, educational experiment.
 
 ### Description
 

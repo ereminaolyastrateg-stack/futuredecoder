@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/design-education
-  - industry/foresight
-  - industry/film
-  - theme/imagination
-  - theme/scenarios
-  - theme/world-building
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-030
+signal_type: signal
+signal_id: SIG-EDU-024
+name: "superFUTURES"
+scenario: DS
+period: "n.d."
+geography: "United Kingdom, RCA"
+stage: "Research and educational unit"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Design education"
+  - "foresight"
+  - "film"
+themes:
+  - "imagination"
+  - "scenarios"
+  - "world building"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-030 — Culture as a source of futures"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design education; foresight; film.  
-**Thematic tags:** #theme/imagination #theme/scenarios #theme/world-building
+**Thematic tags:** imagination, scenarios, world building.
 
 ### Description
 

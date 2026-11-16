@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/work
-  - industry/school-education
-  - industry/assessment
-  - industry/admissions
-  - theme/portfolio
-  - theme/criteria
-  - theme/evidence-of-skills
-  - macrotrend/mt-043
-  - macrotrend/mt-044
-  - macrotrend/mt-031
+signal_type: signal
+signal_id: SIG-EDU-006
+name: "Mastery Transcript"
+scenario: CS
+period: "n.d."
+geography: "United States; international use"
+stage: "Platform and format for learner records"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "School education"
+  - "assessment"
+  - "admissions"
+themes:
+  - "portfolio"
+  - "criteria"
+  - "evidence of skills"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-044 — Social trust and digital ethics"
+  - "MT-031 — Human mastery"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** School education; assessment; admissions.  
-**Thematic tags:** #theme/portfolio #theme/criteria #theme/evidence-of-skills
+**Thematic tags:** portfolio, criteria, evidence of skills.
 
 ### Description
 

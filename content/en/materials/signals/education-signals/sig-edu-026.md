@@ -11,14 +11,26 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/close-relationships-and-family
-  - industry/school-education
-  - theme/choice
-  - theme/coach
-  - theme/independence
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-038
+signal_type: signal
+signal_id: SIG-EDU-026
+name: "Bredagora"
+scenario: DS
+period: "n.d."
+geography: "Netherlands, Breda"
+stage: "Agora-school practice with personal coaches"
+life_domains:
+  - "Education"
+  - "Close relationships and family"
+industries:
+  - "School education"
+themes:
+  - "choice"
+  - "coach"
+  - "independence"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-038 — Inequality and resource distribution"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -38,7 +50,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** School education.  
-**Thematic tags:** #theme/choice #theme/coach #theme/independence
+**Thematic tags:** choice, coach, independence.
 
 ### Description
 

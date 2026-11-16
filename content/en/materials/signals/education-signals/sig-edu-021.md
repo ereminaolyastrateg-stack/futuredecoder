@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/work
-  - industry/design
-  - industry/printing
-  - industry/open-online-learning
-  - theme/youtube
-  - theme/self-directed-learning
-  - theme/documentation
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-076
+signal_type: signal
+signal_id: SIG-EDU-021
+name: "Exercises in Learning"
+scenario: DS
+period: "n.d."
+geography: "Netherlands; the online YouTube platform"
+stage: "Realised personal design experiment"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Design"
+  - "printing"
+  - "open online learning"
+themes:
+  - "YouTube"
+  - "self directed learning"
+  - "documentation"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-076 — Digital communities and virtual interaction"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Design; printing; open online learning.  
-**Thematic tags:** #theme/youtube #theme/self-directed-learning #theme/documentation
+**Thematic tags:** YouTube, self directed learning, documentation.
 
 ### Description
 

@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/design-education
-  - industry/ecological-design
-  - theme/design
-  - theme/regeneration
-  - theme/responsibility
-  - macrotrend/mt-043
-  - macrotrend/mt-029
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-012
+name: "Regenerative Future(s)"
+scenario: CE
+period: "26 March 2025 — online publication."
+geography: "United Kingdom — RCA research"
+stage: "Research chapter and proposed educational framework"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Design education"
+  - "ecological design"
+themes:
+  - "design"
+  - "regeneration"
+  - "responsibility"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-029 — Crisis of social institutions"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Design education; ecological design.  
-**Thematic tags:** #theme/design #theme/regeneration #theme/responsibility
+**Thematic tags:** design, regeneration, responsibility.
 
 ### Description
 

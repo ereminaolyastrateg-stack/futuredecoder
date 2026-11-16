@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/science
-  - industry/school-education
-  - industry/citizen-research
-  - theme/citizen-science
-  - theme/student-researcher
-  - theme/uncertainty
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-033
+name: "Citizen Science in Education"
+scenario: DE
+period: "4 September 2025 — panel discussion."
+geography: "Austria, Linz; international research practices"
+stage: "Conference discussion of citizen science in education"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Science"
+  - "school education"
+  - "citizen research"
+themes:
+  - "citizen science"
+  - "student researcher"
+  - "uncertainty"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Science; school education; citizen research.  
-**Thematic tags:** #theme/citizen-science #theme/student-researcher #theme/uncertainty
+**Thematic tags:** citizen science, student researcher, uncertainty.
 
 ### Description
 

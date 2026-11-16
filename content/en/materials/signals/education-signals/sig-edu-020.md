@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/design
-  - industry/art
-  - industry/cultural-education
-  - theme/counterculture
-  - theme/free-education
-  - theme/pluralism
-  - macrotrend/mt-043
-  - macrotrend/mt-029
-  - macrotrend/mt-030
+signal_type: signal
+signal_id: SIG-EDU-020
+name: "University of the Underground"
+scenario: CE
+period: "n.d."
+geography: "Netherlands; United Kingdom; transnational programme"
+stage: "Independent educational and cultural initiative"
+life_domains:
+  - "Education"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Design"
+  - "art"
+  - "cultural education"
+themes:
+  - "counterculture"
+  - "free education"
+  - "pluralism"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-029 — Crisis of social institutions"
+  - "MT-030 — Culture as a source of futures"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; art; cultural education.  
-**Thematic tags:** #theme/counterculture #theme/free-education #theme/pluralism
+**Thematic tags:** counterculture, free education, pluralism.
 
 ### Description
 

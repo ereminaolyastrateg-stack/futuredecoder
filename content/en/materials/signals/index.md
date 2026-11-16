@@ -9,7 +9,8 @@ translations:
 aliases:
   - en/signals/index
 tags:
-  - signals
+  - type/index
+  - section/materials
 created: 2026-11-12
 updated: 2026-11-12
 ---

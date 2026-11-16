@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/work
-  - domain/place-of-living-and-public-environment
-  - industry/solar-energy
-  - industry/vocational-learning
-  - theme/practice
-  - theme/access-to-learning
-  - theme/solar-energy
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-038
+signal_type: signal
+signal_id: SIG-EDU-016
+name: "Solar Mamas"
+scenario: CE
+period: "n.d."
+geography: "India; rural communities in the Global South"
+stage: "Practical training programme by Barefoot College"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Place of living and public environment"
+industries:
+  - "Solar energy"
+  - "vocational learning"
+themes:
+  - "practice"
+  - "access to learning"
+  - "solar energy"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-038 — Inequality and resource distribution"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Place of living and public environment.  
 **Industries:** Solar energy; vocational learning.  
-**Thematic tags:** #theme/practice #theme/access-to-learning #theme/solar-energy
+**Thematic tags:** practice, access to learning, solar energy.
 
 ### Description
 

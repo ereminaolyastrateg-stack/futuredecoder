@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - industry/entrepreneurship-education
-  - industry/project-management
-  - theme/projects
-  - theme/team
-  - theme/change
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-066
+signal_type: signal
+signal_id: SIG-EDU-017
+name: "Kaospilot"
+scenario: DE
+period: "n.d."
+geography: "Denmark"
+stage: "Three-year educational programme"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Entrepreneurship education"
+  - "project management"
+themes:
+  - "projects"
+  - "team"
+  - "change"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-066 — Transformation of work and talent management"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Entrepreneurship education; project management.  
-**Thematic tags:** #theme/projects #theme/team #theme/change
+**Thematic tags:** projects, team, change.
 
 ### Description
 

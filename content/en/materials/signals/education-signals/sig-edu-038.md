@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - industry/design
-  - industry/informal-education
-  - industry/facilitation
-  - theme/collaborative-work
-  - theme/workshop-script
-  - theme/iteration
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-054
+signal_type: signal
+signal_id: SIG-EDU-038
+name: "Figuring Things Out Together"
+scenario: DE
+period: "n.d."
+geography: "Netherlands; international participant network"
+stage: "Documented practice and publication on collaborative workshops"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Design"
+  - "informal education"
+  - "facilitation"
+themes:
+  - "collaborative work"
+  - "workshop script"
+  - "iteration"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-054 — Designing futures and strategic vision"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Design; informal education; facilitation.  
-**Thematic tags:** #theme/collaborative-work #theme/workshop-script #theme/iteration
+**Thematic tags:** collaborative work, workshop script, iteration.
 
 ### Description
 

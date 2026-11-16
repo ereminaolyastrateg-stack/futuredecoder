@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/work
-  - industry/digital-fabrication
-  - industry/engineering-education
-  - theme/fab-lab
-  - theme/workshop
-  - theme/portfolio
-  - theme/distributed-learning
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-044
+signal_type: signal
+signal_id: SIG-EDU-010
+name: "Fab Academy"
+scenario: CE
+period: "n.d."
+geography: "International network of local laboratories"
+stage: "Educational programme with mentors and assessment of work"
+life_domains:
+  - "Education"
+  - "Work"
+industries:
+  - "Digital fabrication"
+  - "engineering education"
+themes:
+  - "Fab Lab"
+  - "workshop"
+  - "portfolio"
+  - "distributed learning"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-044 — Social trust and digital ethics"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -42,7 +54,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work.  
 **Industries:** Digital fabrication; engineering education.  
-**Thematic tags:** #theme/fab-lab #theme/workshop #theme/portfolio #theme/distributed-learning
+**Thematic tags:** Fab Lab, workshop, portfolio, distributed learning.
 
 ### Description
 

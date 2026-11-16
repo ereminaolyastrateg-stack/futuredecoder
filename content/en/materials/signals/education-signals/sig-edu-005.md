@@ -11,14 +11,26 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - industry/supplementary-education
-  - industry/edtech
-  - theme/learning-pathway
-  - theme/choice
-  - theme/personalisation
-  - macrotrend/mt-043
-  - macrotrend/mt-002
-  - macrotrend/mt-081
+signal_type: signal
+signal_id: SIG-EDU-005
+name: "TUMO Path"
+scenario: CS
+period: "14 February 2020 — publication; the page also lists a 2021 update."
+geography: "Armenia; the international TUMO network"
+stage: "Documented practice of personalised learning pathways"
+life_domains:
+  - "Education"
+industries:
+  - "Supplementary education"
+  - "EdTech"
+themes:
+  - "learning pathway"
+  - "choice"
+  - "personalisation"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-002 — Human–machine interaction"
+  - "MT-081 — Ecosystems, super-apps and the platform economy"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -38,7 +50,7 @@ updated: 2026-11-16
 
 **Life domains:** Education.  
 **Industries:** Supplementary education; EdTech.  
-**Thematic tags:** #theme/learning-pathway #theme/choice #theme/personalisation
+**Thematic tags:** learning pathway, choice, personalisation.
 
 ### Description
 

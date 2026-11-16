@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/everyday-life-consumption-and-leisure
-  - domain/values-meaning-and-community
-  - industry/museums
-  - industry/cultural-education
-  - industry/ai-interfaces
-  - theme/museum
-  - theme/personalisation
-  - theme/curiosity
-  - macrotrend/mt-043
-  - macrotrend/mt-002
-  - macrotrend/mt-047
+signal_type: signal
+signal_id: SIG-EDU-004
+name: "Bubble Talk"
+scenario: CS
+period: "2026."
+geography: "Austria, Linz"
+stage: "Experimental Ars Electronica Futurelab prototype"
+life_domains:
+  - "Education"
+  - "Everyday life, consumption and leisure"
+  - "Values, meaning and community"
+industries:
+  - "Museums"
+  - "cultural education"
+  - "AI interfaces"
+themes:
+  - "museum"
+  - "personalisation"
+  - "curiosity"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-002 — Human–machine interaction"
+  - "MT-047 — Advanced AI systems and cognitive computing"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Everyday life, consumption and leisure; Values, meaning and community.  
 **Industries:** Museums; cultural education; AI interfaces.  
-**Thematic tags:** #theme/museum #theme/personalisation #theme/curiosity
+**Thematic tags:** museum, personalisation, curiosity.
 
 ### Description
 

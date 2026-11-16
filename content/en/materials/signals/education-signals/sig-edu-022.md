@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/design
-  - industry/ai
-  - industry/information-platforms
-  - theme/values
-  - theme/information-environment
-  - theme/user-interests
-  - macrotrend/mt-043
-  - macrotrend/mt-044
-  - macrotrend/mt-081
+signal_type: signal
+signal_id: SIG-EDU-022
+name: "Deepself"
+scenario: DS
+period: "n.d."
+geography: "Netherlands"
+stage: "Speculative Design Academy Eindhoven installation"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Design"
+  - "AI"
+  - "information platforms"
+themes:
+  - "values"
+  - "information environment"
+  - "user interests"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-044 — Social trust and digital ethics"
+  - "MT-081 — Ecosystems, super-apps and the platform economy"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design; AI; information platforms.  
-**Thematic tags:** #theme/values #theme/information-environment #theme/user-interests
+**Thematic tags:** values, information environment, user interests.
 
 ### Description
 

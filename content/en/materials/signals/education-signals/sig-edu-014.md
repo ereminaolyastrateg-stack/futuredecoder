@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/close-relationships-and-family
-  - domain/values-meaning-and-community
-  - industry/design
-  - industry/school-education
-  - industry/social-inquiry
-  - theme/educational-pathway
-  - theme/inequality
-  - theme/social-connections
-  - macrotrend/mt-043
-  - macrotrend/mt-038
-  - macrotrend/mt-030
+signal_type: signal
+signal_id: SIG-EDU-014
+name: "The 12-Year-Old’s Birthday Party"
+scenario: CS
+period: "n.d."
+geography: "Netherlands"
+stage: "Participatory graduation design project"
+life_domains:
+  - "Education"
+  - "Close relationships and family"
+  - "Values, meaning and community"
+industries:
+  - "Design"
+  - "school education"
+  - "social inquiry"
+themes:
+  - "educational pathway"
+  - "inequality"
+  - "social connections"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-038 — Inequality and resource distribution"
+  - "MT-030 — Culture as a source of futures"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -43,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Close relationships and family; Values, meaning and community.  
 **Industries:** Design; school education; social inquiry.  
-**Thematic tags:** #theme/educational-pathway #theme/inequality #theme/social-connections
+**Thematic tags:** educational pathway, inequality, social connections.
 
 ### Description
 

@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/design-education
-  - industry/film
-  - industry/cultural-research
-  - theme/rituals
-  - theme/future-norms
-  - theme/rehearsal
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-030
+signal_type: signal
+signal_id: SIG-EDU-034
+name: "Ficta Ordo"
+scenario: DE
+period: "October 2025 — June 2026."
+geography: "United Kingdom, RCA"
+stage: "Speculative educational framework and student films"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Design education"
+  - "film"
+  - "cultural research"
+themes:
+  - "rituals"
+  - "future norms"
+  - "rehearsal"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-030 — Culture as a source of futures"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design education; film; cultural research.  
-**Thematic tags:** #theme/rituals #theme/future-norms #theme/rehearsal
+**Thematic tags:** rituals, future norms, rehearsal.
 
 ### Description
 

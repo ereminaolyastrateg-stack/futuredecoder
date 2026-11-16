@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/CE
   - domain/education
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/museums
-  - industry/cultural-institutions
-  - industry/non-formal-education
-  - theme/museum
-  - theme/democracy
-  - theme/non-formal-education
-  - macrotrend/mt-043
-  - macrotrend/mt-030
-  - macrotrend/mt-029
+signal_type: signal
+signal_id: SIG-EDU-013
+name: "Learning to Disrupt"
+scenario: CE
+period: "5 September 2025 — conference session."
+geography: "Austria, Linz; European practices"
+stage: "Conference programme on non-formal education"
+life_domains:
+  - "Education"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Museums"
+  - "cultural institutions"
+  - "non-formal education"
+themes:
+  - "museum"
+  - "democracy"
+  - "non formal education"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-030 — Culture as a source of futures"
+  - "MT-029 — Crisis of social institutions"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Museums; cultural institutions; non-formal education.  
-**Thematic tags:** #theme/museum #theme/democracy #theme/non-formal-education
+**Thematic tags:** museum, democracy, non formal education.
 
 ### Description
 

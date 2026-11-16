@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - industry/informal-education
-  - industry/facilitation
-  - industry/design
-  - theme/instructions
-  - theme/workshop
-  - theme/self-organisation
-  - macrotrend/mt-043
-  - macrotrend/mt-007
-  - macrotrend/mt-031
+signal_type: signal
+signal_id: SIG-EDU-009
+name: "An Automatic Workshop"
+scenario: CS
+period: "2018 — the workshop documented in the publication."
+geography: "Netherlands, Amsterdam"
+stage: "Documented experiment with group instructions"
+life_domains:
+  - "Education"
+industries:
+  - "Informal education"
+  - "facilitation"
+  - "design"
+themes:
+  - "instructions"
+  - "workshop"
+  - "self organisation"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-007 — Work automation"
+  - "MT-031 — Human mastery"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -39,7 +51,7 @@ updated: 2026-11-16
 
 **Life domains:** Education.  
 **Industries:** Informal education; facilitation; design.  
-**Thematic tags:** #theme/instructions #theme/workshop #theme/self-organisation
+**Thematic tags:** instructions, workshop, self organisation.
 
 ### Description
 

@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/place-of-living-and-public-environment
-  - domain/values-meaning-and-community
-  - industry/territorial-development
-  - industry/housing
-  - industry/education
-  - theme/neighbourhood
-  - theme/experiment
-  - theme/feedback
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-029
+signal_type: signal
+signal_id: SIG-EDU-031
+name: "Adaptive Neighbourhoods Lab"
+scenario: DE
+period: "2026 — exhibition model; 2070 — the Pluriversity scenario horizon."
+geography: "Ireland — the imagined setting; Netherlands — the DDW exhibition"
+stage: "Speculative lab within The Pluriversity project"
+life_domains:
+  - "Education"
+  - "Place of living and public environment"
+  - "Values, meaning and community"
+industries:
+  - "Territorial development"
+  - "housing"
+  - "education"
+themes:
+  - "neighbourhood"
+  - "experiment"
+  - "feedback"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-029 — Crisis of social institutions"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Territorial development; housing; education.  
-**Thematic tags:** #theme/neighbourhood #theme/experiment #theme/feedback
+**Thematic tags:** neighbourhood, experiment, feedback.
 
 ### Description
 

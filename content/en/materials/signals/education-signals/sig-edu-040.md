@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/close-relationships-and-family
-  - industry/school-education
-  - industry/online-education
-  - theme/student-project
-  - theme/academic-credit
-  - theme/mentor
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-044
+signal_type: signal
+signal_id: SIG-EDU-040
+name: "Sora Schools"
+scenario: DE
+period: "n.d."
+geography: "United States; online school"
+stage: "School model with projects, mentors and academic requirements"
+life_domains:
+  - "Education"
+  - "Close relationships and family"
+industries:
+  - "School education"
+  - "online education"
+themes:
+  - "student project"
+  - "academic credit"
+  - "mentor"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-044 — Social trust and digital ethics"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -39,7 +51,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** School education; online education.  
-**Thematic tags:** #theme/student-project #theme/academic-credit #theme/mentor
+**Thematic tags:** student project, academic credit, mentor.
 
 ### Description
 

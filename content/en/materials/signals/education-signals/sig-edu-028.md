@@ -11,17 +11,29 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/art
-  - industry/creative-technology
-  - industry/design
-  - theme/art
-  - theme/technology
-  - theme/personal-inquiry
-  - macrotrend/mt-043
-  - macrotrend/mt-026
-  - macrotrend/mt-031
+signal_type: signal
+signal_id: SIG-EDU-028
+name: "School of Machines"
+scenario: DS
+period: "n.d."
+geography: "Germany, Berlin; international programmes"
+stage: "Independent hands-on educational programmes"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Art"
+  - "creative technology"
+  - "design"
+themes:
+  - "art"
+  - "technology"
+  - "personal inquiry"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-026 — Creative economy"
+  - "MT-031 — Human mastery"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -41,7 +53,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Art; creative technology; design.  
-**Thematic tags:** #theme/art #theme/technology #theme/personal-inquiry
+**Thematic tags:** art, technology, personal inquiry.
 
 ### Description
 

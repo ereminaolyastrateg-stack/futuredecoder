@@ -676,3 +676,42 @@ a.tag-link[href*="ЦС"], a.tag-link[href*="scenario/cs"], a.tag-link[href*="sce
 a.tag-link[href*="ЦЗ"], a.tag-link[href*="scenario/ce"], a.tag-link[href*="scenario/CE"] { border-color: #e0c21f !important; }
 a.tag-link[href*="ДС"], a.tag-link[href*="scenario/ds"], a.tag-link[href*="scenario/DS"] { border-color: var(--dec-ds) !important; }
 a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="scenario/DE"] { border-color: var(--dec-dz) !important; }
+
+// Каталог сигналов
+.signal-catalog {
+  .signal-filters { grid-template-columns: repeat(4, minmax(9rem, 1fr)); }
+  .signal-filter-trend { grid-column: span 2; }
+  .signal-table { min-width: 64rem; }
+  .signal-table td:first-child { min-width: 9rem; }
+  .signal-table td:nth-child(3) { min-width: 18rem; }
+  .signal-id { font-size: 0.72rem; font-weight: 500; color: var(--gray); margin-top: 0.2rem; letter-spacing: 0.03em; }
+  .signal-hint { color: var(--gray); }
+  button.media-chip { border: 0; cursor: pointer; font: inherit; font-size: 0.76rem; color: var(--dark); }
+  button.media-chip:hover { outline: 1.5px solid var(--dark); }
+  .signal-themes { margin-top: 0.45rem; }
+  .theme-chip { background: transparent !important; outline: 1px solid var(--lightgray); }
+  .world-chip { font-weight: 700; white-space: nowrap; }
+  .world-cs { background: var(--dec-cs) !important; color: #fff !important; }
+  .world-ce { background: var(--dec-cz) !important; }
+  .world-ds { background: var(--dec-ds) !important; color: #fff !important; }
+  .world-de { background: var(--dec-dz) !important; }
+}
+// на страницах с каталогом не нужен стандартный список заметок папки
+body[data-slug="materialy/signaly/obrazovanie/index"],
+body[data-slug="en/materials/signals/education-signals/index"],
+body[data-slug="materialy/signaly/index"],
+body[data-slug="en/materials/signals/index"] {
+  .page-listing { display: none; }
+}
+// в проводнике папка сигналов — ссылка на каталог, без 40 длинных строк
+.explorer li:has(> .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="en/materials/signals/education-signals/index"]) > .folder-outer {
+  display: none !important;
+}
+.explorer .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"] > svg,
+.explorer .folder-container[data-folderpath="en/materials/signals/education-signals/index"] > svg {
+  visibility: hidden;
+}
+// теги под заголовком заметки — компактнее
+ul.tags { justify-content: flex-start !important; }
+ul.tags a.tag-link { font-size: 0.74rem !important; padding: 0.1rem 0.55rem !important; white-space: nowrap; }

@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/work
-  - domain/close-relationships-and-family
-  - industry/higher-education
-  - industry/adult-learning
-  - theme/life-experience
-  - theme/personal-plan
-  - theme/portfolio
-  - macrotrend/mt-043
-  - macrotrend/mt-031
-  - macrotrend/mt-066
+signal_type: signal
+signal_id: SIG-EDU-027
+name: "College Unbound"
+scenario: DS
+period: "n.d."
+geography: "United States"
+stage: "Higher-education model for adults"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Close relationships and family"
+industries:
+  - "Higher education"
+  - "adult learning"
+themes:
+  - "life experience"
+  - "personal plan"
+  - "portfolio"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-031 — Human mastery"
+  - "MT-066 — Transformation of work and talent management"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Close relationships and family.  
 **Industries:** Higher education; adult learning.  
-**Thematic tags:** #theme/life-experience #theme/personal-plan #theme/portfolio
+**Thematic tags:** life experience, personal plan, portfolio.
 
 ### Description
 

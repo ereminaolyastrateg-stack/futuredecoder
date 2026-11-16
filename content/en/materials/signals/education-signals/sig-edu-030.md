@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/DS
   - domain/education
-  - domain/close-relationships-and-family
-  - domain/values-meaning-and-community
-  - industry/school-and-informal-education
-  - theme/intention
-  - theme/reflection
-  - theme/shared-rules
-  - macrotrend/mt-043
-  - macrotrend/mt-076
-  - macrotrend/mt-031
+signal_type: signal
+signal_id: SIG-EDU-030
+name: "Agile Learning Centers"
+scenario: DS
+period: "n.d."
+geography: "International network of learning communities"
+stage: "Self-directed learning model"
+life_domains:
+  - "Education"
+  - "Close relationships and family"
+  - "Values, meaning and community"
+industries:
+  - "School and informal education"
+themes:
+  - "intention"
+  - "reflection"
+  - "shared rules"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-076 — Digital communities and virtual interaction"
+  - "MT-031 — Human mastery"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -39,7 +51,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Close relationships and family; Values, meaning and community.  
 **Industries:** School and informal education.  
-**Thematic tags:** #theme/intention #theme/reflection #theme/shared-rules
+**Thematic tags:** intention, reflection, shared rules.
 
 ### Description
 

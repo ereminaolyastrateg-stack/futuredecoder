@@ -11,15 +11,27 @@ tags:
   - type/signal
   - scenario/CS
   - domain/education
-  - domain/values-meaning-and-community
-  - industry/simulation
-  - industry/research-into-social-systems
-  - theme/simulation
-  - theme/rules
-  - theme/ai-agents
-  - macrotrend/mt-043
-  - macrotrend/mt-013
-  - macrotrend/mt-047
+signal_type: signal
+signal_id: SIG-EDU-003
+name: "Gamolution"
+scenario: CS
+period: "n.d."
+geography: "Online; artificial societies within a model"
+stage: "Experimental simulation platform"
+life_domains:
+  - "Education"
+  - "Values, meaning and community"
+industries:
+  - "Simulation"
+  - "research into social systems"
+themes:
+  - "simulation"
+  - "rules"
+  - "AI agents"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-013 — Gamification"
+  - "MT-047 — Advanced AI systems and cognitive computing"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -39,7 +51,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Simulation; research into social systems.  
-**Thematic tags:** #theme/simulation #theme/rules #theme/ai-agents
+**Thematic tags:** simulation, rules, AI agents.
 
 ### Description
 

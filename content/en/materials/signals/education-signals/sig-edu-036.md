@@ -11,16 +11,28 @@ tags:
   - type/signal
   - scenario/DE
   - domain/education
-  - domain/work
-  - domain/values-meaning-and-community
-  - industry/education
-  - industry/social-entrepreneurship
-  - theme/youth-project
-  - theme/learning-through-action
-  - theme/public-benefit
-  - macrotrend/mt-043
-  - macrotrend/mt-054
-  - macrotrend/mt-031
+signal_type: signal
+signal_id: SIG-EDU-036
+name: "Learning Planet Youth Design Challenge"
+scenario: DE
+period: "2026–2027 edition; launch on 22 September 2026."
+geography: "France; international programme"
+stage: "Challenge and support programme for youth-led social projects"
+life_domains:
+  - "Education"
+  - "Work"
+  - "Values, meaning and community"
+industries:
+  - "Education"
+  - "social entrepreneurship"
+themes:
+  - "youth project"
+  - "learning through action"
+  - "public benefit"
+macrotrends:
+  - "MT-043 — Education, knowledge and literacy"
+  - "MT-054 — Designing futures and strategic vision"
+  - "MT-031 — Human mastery"
 created: 2026-11-12
 updated: 2026-11-16
 ---
@@ -40,7 +52,7 @@ updated: 2026-11-16
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Education; social entrepreneurship.  
-**Thematic tags:** #theme/youth-project #theme/learning-through-action #theme/public-benefit
+**Thematic tags:** youth project, learning through action, public benefit.
 
 ### Description
 
