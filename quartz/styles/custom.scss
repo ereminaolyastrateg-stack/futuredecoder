@@ -737,6 +737,7 @@ ul.tags a.tag-link { font-size: 0.74rem !important; padding: 0.1rem 0.55rem !imp
         "grid-sidebar-left grid-footer grid-footer" !important;
     }
     .right.sidebar { display: none !important; }
+    #quartz-body > .center, #quartz-body > .page-header, #quartz-body > footer { grid-column: 2 / 4 !important; }
     .page-header, .center > article, .center > .page-footer { max-width: 46rem; }
   }
 }
