@@ -621,3 +621,21 @@ body[data-slug="en/index"] {
     margin: 0.3rem 0;
   }
 }
+
+// кнопки внутри статей сильнее обычных ссылок
+article a.polotno-btn {
+  display: inline-block;
+  padding: 0.7rem 1.3rem !important;
+  border-radius: 999px !important;
+  background: var(--dec-ink) !important;
+  color: #fff !important;
+  border: 2px solid var(--dec-ink);
+  text-decoration: none !important;
+  font-weight: 700;
+  line-height: 1.2;
+  svg { display: none; }
+  &:hover { background: linear-gradient(115deg, #f08a4b, #e9508e, #7a5cf0, #2fa7e8) !important; border-color: transparent; }
+  &.ghost { background: transparent !important; color: var(--dark) !important; border-color: var(--dark); }
+  &.ghost:hover { color: #fff !important; }
+}
+article .about-contact a svg { display: none; }
