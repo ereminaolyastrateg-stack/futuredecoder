@@ -9,6 +9,12 @@
 - [Сотрудничество](https://futuredecoder.org/sotrudnichestvo) / [Work with me](https://futuredecoder.org/en/work-with-me): сценарные игры, лаборатория, сценарии и исследования для компаний, обучение, личная стратегия.
 - [Лекции и выступления](https://futuredecoder.org/lekcii) / [Talks](https://futuredecoder.org/en/talks): записи лекций, темы выступлений. YouTube: https://www.youtube.com/@futuredecoder_eremina
 
+## Тексты / Texts
+
+- [Ограничение наших ментальных моделей](https://futuredecoder.org/theory/the-future-as-a-mental-model) / [The Limits of Our Mental Models](https://futuredecoder.org/en/theory/the-future-as-a-mental-model): как образ будущего, когнитивные искажения и метафоры управляют решениями (Полак, Инайятулла, Канеман, Голдратт).
+- [Сигналы об образовании](https://futuredecoder.org/materialy/signaly/obrazovanie/) / [Education signals](https://futuredecoder.org/en/materials/signals/education-signals/): 40 атомарных заметок с разметкой по четырём мирам.
+- [Как устроена заметка в саду](https://futuredecoder.org/o-sade/kak-pisat-zametki) / [How a note works](https://futuredecoder.org/en/about-the-garden/how-to-write-notes): правила Цеттелькастена сада.
+
 ## Полотно будущего (база знаний)
 
 - [Все вопросы, RU](https://futuredecoder.org/polotno/): 51 вопросов о будущем, на каждый до четырёх ответов из игр, с сигналами, ценой и шагом на неделю.
