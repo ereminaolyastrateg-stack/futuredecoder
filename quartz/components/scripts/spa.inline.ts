@@ -32,6 +32,8 @@ const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined 
   if ("routerIgnore" in a.dataset) return
   const { href } = a
   if (!isLocalUrl(href)) return
+  // standalone pages (e.g. /static/polotno/) have their own layout: load them normally
+  if (new URL(href).pathname.startsWith("/static/")) return
   return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
 }
 
