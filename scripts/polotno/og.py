@@ -133,6 +133,8 @@ if __name__ == '__main__':
          ('about-en', 'Olga Eremina', 'Futurist and strategist, author of the Future Decoder method. Games, the lab, scenarios for companies.', photo, 'About the author'),
          ('talks-ru', 'Лекции и выступления', 'Хаос и неопределённость, образ будущего, глобальные тренды, будущее бизнеса и человека.', photo, 'Оля Ерёмина'),
          ('talks-en', 'Talks and lectures', 'Chaos and uncertainty, images of the future, global trends, the future of business and of people.', photo, 'Olga Eremina'),
+         ('theory-ru', 'Ограничение наших ментальных моделей', 'Как прошлый опыт, метафоры и образы будущего управляют нашими решениями — и как это заметить.', None, 'Теория · Оля Ерёмина'),
+         ('theory-en', 'The limits of our mental models', 'How past experience, metaphors and images of the future steer our decisions, and how to notice it.', None, 'Theory · Olga Eremina'),
          ('work-ru', 'Сотрудничество', 'Сценарные игры, лаборатория «Архитектура человека», сценарии и исследования для компаний, обучение.', None, 'Декодер Будущего'),
          ('work-en', 'Work with me', 'Scenario games, the Architecture of a Person lab, scenarios and research for companies, training.', None, 'Future Decoder')]
     for key, t, s, ph, lab in P:
