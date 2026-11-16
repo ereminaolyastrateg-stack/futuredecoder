@@ -467,6 +467,7 @@ a.external {
 }
 .explorer .folder-title,
 .explorer .folder-button {
+  font-family: var(--bodyFont);
   font-weight: 600;
 }
 .explorer li > a {
@@ -552,6 +553,12 @@ body[data-slug="en/index"] {
       &:hover {
         transform: translateY(-2px);
       }
+    }
+    li:first-child a {
+      background: var(--dec-holo) !important;
+      color: #fff !important;
+      border-color: transparent;
+      text-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     }
     li:nth-child(5n + 2) a { background: var(--dec-cs) !important; color: #fff !important; border-color: var(--dec-cs); }
     li:nth-child(5n + 3) a { background: var(--dec-cz) !important; border-color: var(--dec-cz); }

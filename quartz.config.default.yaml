@@ -100,6 +100,20 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      title:
+        name: Oswald
+        weights: [500, 700]
+      header:
+        name: Oswald
+        weights: [500, 700]
+      body:
+        name: Inter
+        weights: [400, 500, 600, 700]
+        includeItalic: true
+      interface: '"Inter", system-ui, sans-serif'
+      code: IBM Plex Mono
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
