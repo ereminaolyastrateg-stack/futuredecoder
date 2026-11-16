@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/risk-uncertainty-and-profit
   en: /en/media-library/books/risk-uncertainty-and-profit
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "1921"
 rating: "not yet specified"

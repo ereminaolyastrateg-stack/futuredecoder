@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-should-i-learn-so-i-don-t-fall-behind
 socialImage: og/q-s8ectp-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/учёба
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

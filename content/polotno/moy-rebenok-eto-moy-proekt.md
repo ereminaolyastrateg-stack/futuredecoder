@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/is-my-child-my-project
 socialImage: og/q-1v6z0jr-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/семья-и-дети
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-will-happen-to-me-if-ai-is-switched-off-tomorrow
 socialImage: og/q-149n75v-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

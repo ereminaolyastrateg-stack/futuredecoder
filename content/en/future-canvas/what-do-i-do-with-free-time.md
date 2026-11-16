@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-do-i-do-with-free-time
 socialImage: og/q-186avsd-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

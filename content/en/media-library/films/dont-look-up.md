@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/dont-look-up
   en: /en/media-library/films/dont-look-up
 tags:
-  - media-library
-  - film
-  - attention
+  - section/media-library
+  - type/film
+  - theme/attention
 media_type: film
 year: "2021"
 rating: "not yet specified"

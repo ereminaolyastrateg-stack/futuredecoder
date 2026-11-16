@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-is-there-seemingly-more-money-yet-life-isn-t-easier
 socialImage: og/q-falg3n-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/money
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

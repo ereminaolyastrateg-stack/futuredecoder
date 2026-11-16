@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/does-anything-depend-on-me-at-all
 socialImage: og/q-1mwtqwj-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/society
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

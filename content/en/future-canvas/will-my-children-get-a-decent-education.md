@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-my-children-get-a-decent-education
 socialImage: og/q-1ly0e9n-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/learning
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

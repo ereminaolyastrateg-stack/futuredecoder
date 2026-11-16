@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-the-global-world-swallow-my-city-my-business-my
 socialImage: og/q-1nkrwct-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/дом-и-среда
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

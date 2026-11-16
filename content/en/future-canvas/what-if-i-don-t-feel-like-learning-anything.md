@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-if-i-don-t-feel-like-learning-anything
 socialImage: og/q-14tns10-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/learning
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

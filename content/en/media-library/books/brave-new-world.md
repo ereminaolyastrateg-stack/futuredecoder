@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/brave-new-world
   en: /en/media-library/books/brave-new-world
 tags:
-  - media-library
-  - book
-  - education
-  - control
+  - section/media-library
+  - type/book
+  - theme/education
+  - theme/control
 media_type: book
 year: "1932"
 author: Aldous Huxley

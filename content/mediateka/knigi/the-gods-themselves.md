@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/the-gods-themselves
   en: /en/media-library/books/the-gods-themselves
 tags:
-  - media-library
-  - book
-  - systems
-  - identity
+  - раздел/медиатека
+  - тип/книга
+  - тема/системы
+  - тема/идентичность
 media_type: book
 year: "1972"
 author: Айзек Азимов

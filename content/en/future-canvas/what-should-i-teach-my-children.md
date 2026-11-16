@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-should-i-teach-my-children
 socialImage: og/q-14a9huy-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/family-and-children
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

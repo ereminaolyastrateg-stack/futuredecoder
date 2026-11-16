@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/future-shock
   en: /en/media-library/books/future-shock
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "1970"
 rating: "not yet specified"

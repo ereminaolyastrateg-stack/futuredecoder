@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-menu
   en: /en/media-library/films/the-menu
 tags:
-  - media-library
-  - film
-  - mastery
+  - раздел/медиатека
+  - тип/фильм
+  - тема/мастерство
 media_type: film
 year: "2022"
 director: Марк Майлод

@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-is-happiness-and-can-it-be-measured
 socialImage: og/q-vqcq96-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/meaning-and-creativity
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

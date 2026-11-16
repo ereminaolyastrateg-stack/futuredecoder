@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing
 socialImage: og/q-1nntm5g-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

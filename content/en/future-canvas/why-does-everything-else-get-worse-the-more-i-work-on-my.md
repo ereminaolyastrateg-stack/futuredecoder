@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-does-everything-else-get-worse-the-more-i-work-on-my
 socialImage: og/q-lkwuum-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

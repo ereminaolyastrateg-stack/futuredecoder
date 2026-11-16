@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/atomic-habits
   en: /en/media-library/books/atomic-habits
 tags:
-  - media-library
-  - book
-  - systems
+  - section/media-library
+  - type/book
+  - theme/systems
 media_type: book
 year: "2018"
 rating: "not yet specified"

@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/2001-a-space-odyssey
   en: /en/media-library/films/2001-a-space-odyssey
 tags:
-  - media-library
-  - film
-  - tech
+  - раздел/медиатека
+  - тип/фильм
+  - тема/технологии
 media_type: film
 year: "1968"
 rating: "пока не указан"

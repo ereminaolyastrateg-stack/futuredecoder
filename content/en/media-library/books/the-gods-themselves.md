@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/the-gods-themselves
   en: /en/media-library/books/the-gods-themselves
 tags:
-  - media-library
-  - book
-  - systems
-  - identity
+  - section/media-library
+  - type/book
+  - theme/systems
+  - theme/identity
 media_type: book
 year: "1972"
 author: Isaac Asimov

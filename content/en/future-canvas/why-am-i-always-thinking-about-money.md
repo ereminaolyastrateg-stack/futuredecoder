@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-am-i-always-thinking-about-money
 socialImage: og/q-goae5c-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/money
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

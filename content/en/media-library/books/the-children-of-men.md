@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-children-of-men
   en: /en/media-library/books/the-children-of-men
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "1992"
 rating: "not yet specified"

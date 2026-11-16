@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/wuthering-heights
   en: /en/media-library/books/wuthering-heights
 tags:
-  - media-library
-  - book
-  - culture
-  - loneliness
+  - раздел/медиатека
+  - тип/книга
+  - тема/культура
+  - тема/одиночество
 media_type: book
 year: "1847"
 author: Эмили Бронте

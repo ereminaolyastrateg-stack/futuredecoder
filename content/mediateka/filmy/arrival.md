@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/arrival
   en: /en/media-library/films/arrival
 tags:
-  - media-library
-  - film
-  - language
-  - future
+  - раздел/медиатека
+  - тип/фильм
+  - тема/язык
+  - тема/будущее
 media_type: film
 year: "2016"
 director: Дени Вильнёв

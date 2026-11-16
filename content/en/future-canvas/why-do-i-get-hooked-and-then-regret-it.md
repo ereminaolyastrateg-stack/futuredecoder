@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-do-i-get-hooked-and-then-regret-it
 socialImage: og/q-dk20o0-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/leisure-and-experiences
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

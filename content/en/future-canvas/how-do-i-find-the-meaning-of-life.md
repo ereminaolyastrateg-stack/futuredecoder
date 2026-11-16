@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-find-the-meaning-of-life
 socialImage: og/q-ti11p7-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/meaning-and-creativity
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

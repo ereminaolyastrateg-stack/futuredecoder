@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/if-i-live-long-do-i-need-to-hurry
 socialImage: og/q-6p32d-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/смысл-и-творчество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

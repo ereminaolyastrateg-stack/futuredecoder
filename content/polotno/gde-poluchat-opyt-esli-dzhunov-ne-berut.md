@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/where-do-i-get-experience-if-nobody-hires-juniors
 socialImage: og/q-8xb89s-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/учёба
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

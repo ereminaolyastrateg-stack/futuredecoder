@@ -7,9 +7,9 @@ translations:
   ru: /zachem-etot-sad
   en: /en/why-talk-about-the-future
 tags:
-  - образ_будущего
-  - книга
-  - введение
+  - тема/образ-будущего
+  - раздел/книга
+  - тип/введение
 date: 2026-06-26
 ---
 

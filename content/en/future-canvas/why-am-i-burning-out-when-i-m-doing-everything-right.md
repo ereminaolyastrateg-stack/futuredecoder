@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-am-i-burning-out-when-i-m-doing-everything-right
 socialImage: og/q-zgg9bj-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

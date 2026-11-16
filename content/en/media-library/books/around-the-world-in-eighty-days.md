@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/around-the-world-in-eighty-days
   en: /en/media-library/books/around-the-world-in-eighty-days
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "1872"
 rating: "not yet specified"

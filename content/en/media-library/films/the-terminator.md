@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/the-terminator
   en: /en/media-library/films/the-terminator
 tags:
-  - media-library
-  - film
-  - artificial-intelligence
-  - future
+  - section/media-library
+  - type/film
+  - theme/ai
+  - theme/future
 media_type: film
 year: "1984"
 director: James Cameron

@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-do-i-pay-taxes-and-what-do-i-get-in-return
 socialImage: og/q-1y1u7jg-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/money
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

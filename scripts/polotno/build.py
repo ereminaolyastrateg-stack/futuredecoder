@@ -134,6 +134,11 @@ def mixes_for(q):
     return [m for m in data['m'] if m['src'] == q['src']][:3]
 
 
+def tagslug(x):
+    x = re.sub(r'[«»“”"\'(),:;!?]', '', x.strip().lower())
+    return re.sub(r'-+', '-', re.sub(r'\s+', '-', x)).strip('-')
+
+
 def page(q, lang):
     en = lang == 'en'
     g = (lambda o, k: o.get(k + '_en') or '') if en else (lambda o, k: o.get(k) or '')
@@ -157,7 +162,9 @@ def page(q, lang):
     if has_en:
         fm.append(f"  en: /en/future-canvas/{q['slug_en']}")
     fm += [f"socialImage: og/q-{q['id']}-{'en' if en else 'ru'}.png",
-           'tags:', '  - polotno' if not en else '  - future-canvas', f'created: {TODAY}', f'updated: {TODAY}', '---', '']
+           'tags:', ('  - type/canvas-question' if en else '  - тип/вопрос-полотна'),
+           ('  - theme/' + tagslug(q.get('sphere_en') or '') if en else '  - тема/' + tagslug(q.get('sphere') or '')),
+           ('  - section/future-canvas' if en else '  - раздел/полотно'), f'created: {TODAY}', f'updated: {TODAY}', '---', '']
     body = [intro, '']
     # ссылки из приложения ведут на эту страницу (у неё своя картинка для соцсетей), а отсюда — в приложение
     body.append(f'<script>(function(){{var h=location.hash;if(/^#(q|duel|new)-/.test(h))location.replace("/static/polotno/{"en/" if en else ""}"+h)}})()</script>')

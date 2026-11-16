@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/dead-poets-society
   en: /en/media-library/films/dead-poets-society
 tags:
-  - media-library
-  - film
-  - human
+  - раздел/медиатека
+  - тип/фильм
+  - тема/человек
 media_type: film
 year: "1989"
 rating: "пока не указан"

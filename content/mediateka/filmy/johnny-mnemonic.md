@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/johnny-mnemonic
   en: /en/media-library/films/johnny-mnemonic
 tags:
-  - media-library
-  - film
-  - tech
+  - раздел/медиатека
+  - тип/фильм
+  - тема/технологии
 media_type: film
 year: "1995"
 rating: "пока не указан"

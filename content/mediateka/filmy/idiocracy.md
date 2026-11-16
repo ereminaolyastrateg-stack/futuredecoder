@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/idiocracy
   en: /en/media-library/films/idiocracy
 tags:
-  - media-library
-  - film
-  - education
+  - раздел/медиатека
+  - тип/фильм
+  - тема/образование
 media_type: film
 year: "2006"
 director: Майк Джадж

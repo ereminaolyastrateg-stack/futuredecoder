@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-city-in-history
   en: /en/media-library/books/the-city-in-history
 tags:
-  - media-library
-  - book
-  - systems
+  - раздел/медиатека
+  - тип/книга
+  - тема/системы
 media_type: book
 year: "1961"
 rating: "пока не указан"

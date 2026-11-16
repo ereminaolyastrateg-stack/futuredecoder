@@ -7,7 +7,7 @@ translations:
   ru: /ob-avtore
   en: /en/about
 tags:
-  - об_авторе
+  - раздел/об-авторе
 date: 2026-11-16
 socialImage: og/about-ru.png
 ---

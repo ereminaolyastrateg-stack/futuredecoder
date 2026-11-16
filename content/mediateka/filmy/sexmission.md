@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/sexmission
   en: /en/media-library/films/sexmission
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "1984"
 rating: "пока не указан"

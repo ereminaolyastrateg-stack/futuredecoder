@@ -7,8 +7,8 @@ translations:
   ru: /sotrudnichestvo
   en: /en/work-with-me
 tags:
-  - сотрудничество
-  - об_авторе
+  - раздел/сотрудничество
+  - раздел/об-авторе
 date: 2026-11-16
 socialImage: og/work-ru.png
 ---

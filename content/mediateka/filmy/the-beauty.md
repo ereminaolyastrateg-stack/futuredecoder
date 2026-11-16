@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-beauty
   en: /en/media-library/films/the-beauty
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "2026"
 rating: "пока не указан"

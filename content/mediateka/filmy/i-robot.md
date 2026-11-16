@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/i-robot
   en: /en/media-library/films/i-robot
 tags:
-  - media-library
-  - film
-  - tech
+  - раздел/медиатека
+  - тип/фильм
+  - тема/технологии
 media_type: film
 year: "2004"
 rating: "пока не указан"

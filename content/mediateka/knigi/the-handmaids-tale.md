@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-handmaids-tale
   en: /en/media-library/books/the-handmaids-tale
 tags:
-  - media-library
-  - book
-  - control
+  - раздел/медиатека
+  - тип/книга
+  - тема/контроль
 media_type: book
 year: "1985"
 rating: "пока не указан"

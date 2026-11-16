@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/profession
   en: /en/media-library/books/profession
 tags:
-  - media-library
-  - book
-  - education
-  - novella
+  - section/media-library
+  - type/book
+  - theme/education
+  - type/novella
 media_type: book
 year: "1957"
 author: Isaac Asimov

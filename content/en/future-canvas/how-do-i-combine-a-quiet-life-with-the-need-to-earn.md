@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-combine-a-quiet-life-with-the-need-to-earn
 socialImage: og/q-96enn8-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

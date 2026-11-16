@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-menu
   en: /en/media-library/films/the-menu
 tags:
-  - media-library
-  - film
-  - mastery
+  - section/media-library
+  - type/film
+  - theme/mastery
 media_type: film
 year: "2022"
 director: Mark Mylod

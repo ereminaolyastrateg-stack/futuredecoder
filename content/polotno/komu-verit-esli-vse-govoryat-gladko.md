@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/whom-do-i-trust-when-everyone-sounds-polished
 socialImage: og/q-eg4owr-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

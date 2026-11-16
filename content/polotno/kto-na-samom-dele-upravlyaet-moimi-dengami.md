@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-really-manages-my-money
 socialImage: og/q-7p18xw-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/деньги
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

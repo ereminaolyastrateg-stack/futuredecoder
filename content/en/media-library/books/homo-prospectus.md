@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/homo-prospectus
   en: /en/media-library/books/homo-prospectus
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "2016"
 rating: "not yet specified"

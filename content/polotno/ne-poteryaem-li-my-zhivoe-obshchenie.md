@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-we-lose-live-human-contact
 socialImage: og/q-1n3li0z-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/отношения
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

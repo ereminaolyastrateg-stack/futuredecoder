@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-am-i-living-for-if-i-seem-to-have-everything
 socialImage: og/q-1qsnxkr-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/смысл-и-творчество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

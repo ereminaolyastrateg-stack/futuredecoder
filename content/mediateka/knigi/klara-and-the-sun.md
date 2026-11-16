@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/klara-and-the-sun
   en: /en/media-library/books/klara-and-the-sun
 tags:
-  - media-library
-  - book
-  - human
+  - раздел/медиатека
+  - тип/книга
+  - тема/человек
 media_type: book
 year: "2021"
 rating: "пока не указан"

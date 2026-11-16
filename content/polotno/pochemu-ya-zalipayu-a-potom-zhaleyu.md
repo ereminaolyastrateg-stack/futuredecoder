@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-do-i-get-hooked-and-then-regret-it
 socialImage: og/q-dk20o0-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/отдых-и-впечатления
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

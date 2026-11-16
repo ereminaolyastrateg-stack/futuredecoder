@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-culture-map
   en: /en/media-library/books/the-culture-map
 tags:
-  - media-library
-  - book
-  - systems
+  - section/media-library
+  - type/book
+  - theme/systems
 media_type: book
 year: "2014"
 rating: "not yet specified"

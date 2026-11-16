@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-congress
   en: /en/media-library/films/the-congress
 tags:
-  - media-library
-  - film
-  - tech
+  - раздел/медиатека
+  - тип/фильм
+  - тема/технологии
 media_type: film
 year: "2013"
 rating: "пока не указан"

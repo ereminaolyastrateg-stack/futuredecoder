@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-matrix
   en: /en/media-library/films/the-matrix
 tags:
-  - media-library
-  - film
-  - tech
+  - section/media-library
+  - type/film
+  - theme/technology
 media_type: film
 year: "1999"
 rating: "not yet specified"

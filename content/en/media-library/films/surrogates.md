@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/surrogates
   en: /en/media-library/films/surrogates
 tags:
-  - media-library
-  - film
-  - tech
+  - section/media-library
+  - type/film
+  - theme/technology
 media_type: film
 year: "2009"
 rating: "not yet specified"

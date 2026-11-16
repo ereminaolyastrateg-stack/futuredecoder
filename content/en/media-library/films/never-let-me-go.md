@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/never-let-me-go
   en: /en/media-library/films/never-let-me-go
 tags:
-  - media-library
-  - film
-  - human
+  - section/media-library
+  - type/film
+  - theme/human
 media_type: film
 year: "2010"
 rating: "not yet specified"

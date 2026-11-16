@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/hyperion
   en: /en/media-library/books/hyperion
 tags:
-  - media-library
-  - book
-  - future
+  - раздел/медиатека
+  - тип/книга
+  - тема/будущее
 media_type: book
 year: "1989"
 rating: "пока не указан"

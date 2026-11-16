@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-get-out-of-salary-and-mortgage-life
 socialImage: og/q-bakwq1-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

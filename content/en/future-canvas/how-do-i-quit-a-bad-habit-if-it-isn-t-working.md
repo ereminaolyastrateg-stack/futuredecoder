@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-quit-a-bad-habit-if-it-isn-t-working
 socialImage: og/q-1479rs9-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

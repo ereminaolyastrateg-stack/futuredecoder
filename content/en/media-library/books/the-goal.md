@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-goal
   en: /en/media-library/books/the-goal
 tags:
-  - media-library
-  - book
-  - systems
+  - section/media-library
+  - type/book
+  - theme/systems
 media_type: book
 year: "1984"
 rating: "not yet specified"

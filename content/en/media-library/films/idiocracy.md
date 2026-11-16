@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/idiocracy
   en: /en/media-library/films/idiocracy
 tags:
-  - media-library
-  - film
-  - education
+  - section/media-library
+  - type/film
+  - theme/education
 media_type: film
 year: "2006"
 director: Mike Judge

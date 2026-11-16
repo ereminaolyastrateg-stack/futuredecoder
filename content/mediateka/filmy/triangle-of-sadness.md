@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/triangle-of-sadness
   en: /en/media-library/films/triangle-of-sadness
 tags:
-  - media-library
-  - film
-  - inequality
+  - раздел/медиатека
+  - тип/фильм
+  - тема/неравенство
 media_type: film
 year: "2022"
 director: Рубен Эстлунд

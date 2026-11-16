@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/cybervillage
   en: /en/media-library/films/cybervillage
 tags:
-  - media-library
-  - film
-  - ecology
+  - section/media-library
+  - type/film
+  - theme/ecology
 media_type: film
 year: "2023"
 rating: "not yet specified"

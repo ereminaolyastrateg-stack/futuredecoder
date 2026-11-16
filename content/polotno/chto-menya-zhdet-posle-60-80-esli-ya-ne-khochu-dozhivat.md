@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-awaits-me-after-60-80-if-i-don-t-want-to-just-live-out
 socialImage: og/q-harw19-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

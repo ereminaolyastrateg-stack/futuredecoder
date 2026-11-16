@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/gattaca
   en: /en/media-library/films/gattaca
 tags:
-  - media-library
-  - film
-  - control
+  - section/media-library
+  - type/film
+  - theme/control
 media_type: film
 year: "1997"
 rating: "not yet specified"

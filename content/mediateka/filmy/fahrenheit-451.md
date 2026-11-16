@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/fahrenheit-451
   en: /en/media-library/films/fahrenheit-451
 tags:
-  - media-library
-  - film
-  - attention
+  - раздел/медиатека
+  - тип/фильм
+  - тема/внимание
 media_type: film
 year: "1966"
 rating: "пока не указан"

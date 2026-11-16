@@ -7,9 +7,9 @@ translations:
   ru: /zachem-etot-sad
   en: /en/why-talk-about-the-future
 tags:
-  - images_of_the_future
-  - book
-  - introduction
+  - theme/images-of-the-future
+  - section/book
+  - type/introduction
 date: 2026-06-26
 ---
 

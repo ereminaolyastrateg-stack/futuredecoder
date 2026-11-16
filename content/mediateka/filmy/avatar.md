@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/avatar
   en: /en/media-library/films/avatar
 tags:
-  - media-library
-  - film
-  - ecology
+  - раздел/медиатека
+  - тип/фильм
+  - тема/экология
 media_type: film
 year: "2009"
 rating: "пока не указан"

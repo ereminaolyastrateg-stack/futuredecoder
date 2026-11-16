@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-should-i-teach-my-children
 socialImage: og/q-14a9huy-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/семья-и-дети
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

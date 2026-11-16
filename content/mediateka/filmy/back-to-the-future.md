@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/back-to-the-future
   en: /en/media-library/films/back-to-the-future
 tags:
-  - media-library
-  - film
-  - future
+  - раздел/медиатека
+  - тип/фильм
+  - тема/будущее
 media_type: film
 year: "1985"
 rating: "пока не указан"

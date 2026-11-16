@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/stranger-things
   en: /en/media-library/films/stranger-things
 tags:
-  - media-library
-  - film
-  - culture
-  - series
+  - section/media-library
+  - type/film
+  - theme/culture
+  - type/series
 media_type: film
 year: "2016"
 creator: Matt and Ross Duffer

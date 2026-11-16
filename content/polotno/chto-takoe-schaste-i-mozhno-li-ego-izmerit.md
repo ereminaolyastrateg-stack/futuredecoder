@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-is-happiness-and-can-it-be-measured
 socialImage: og/q-vqcq96-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/смысл-и-творчество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/a-clockwork-orange
   en: /en/media-library/films/a-clockwork-orange
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "1971"
 rating: "пока не указан"

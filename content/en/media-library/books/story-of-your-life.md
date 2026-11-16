@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/story-of-your-life
   en: /en/media-library/books/story-of-your-life
 tags:
-  - media-library
-  - book
-  - language
-  - novella
+  - section/media-library
+  - type/book
+  - theme/language
+  - type/novella
 media_type: book
 year: "1998"
 author: Ted Chiang

@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/terminator-2-judgment-day
   en: /en/media-library/films/terminator-2-judgment-day
 tags:
-  - media-library
-  - film
-  - artificial-intelligence
-  - future
+  - раздел/медиатека
+  - тип/фильм
+  - тема/ии
+  - тема/будущее
 media_type: film
 year: "1991"
 director: Джеймс Кэмерон

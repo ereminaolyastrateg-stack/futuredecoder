@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-quit-a-bad-habit-if-it-isn-t-working
 socialImage: og/q-1479rs9-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

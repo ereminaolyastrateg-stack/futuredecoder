@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-wealth-of-nations
   en: /en/media-library/books/the-wealth-of-nations
 tags:
-  - media-library
-  - book
-  - systems
+  - раздел/медиатека
+  - тип/книга
+  - тема/системы
 media_type: book
 year: "1776"
 rating: "пока не указан"

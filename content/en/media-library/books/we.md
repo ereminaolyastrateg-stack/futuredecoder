@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/we
   en: /en/media-library/books/we
 tags:
-  - media-library
-  - book
-  - control
+  - section/media-library
+  - type/book
+  - theme/control
 media_type: book
 year: "1924"
 rating: "not yet specified"

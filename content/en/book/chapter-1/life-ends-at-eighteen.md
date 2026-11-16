@@ -9,10 +9,10 @@ translations:
 aliases:
   - /en/book/stories/life-ends-at-eighteen
 tags:
-  - images_of_the_future
-  - book
-  - personal_story
-  - work_and_education
+  - theme/images-of-the-future
+  - section/book
+  - type/personal-story
+  - theme/work-and-education
 date: 2026-06-26
 ---
 

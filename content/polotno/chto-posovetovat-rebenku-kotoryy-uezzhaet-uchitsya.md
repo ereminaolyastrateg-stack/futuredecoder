@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-advice-should-i-give-my-child-who-s-leaving-home-to
 socialImage: og/q-60n6lr-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/семья-и-дети
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

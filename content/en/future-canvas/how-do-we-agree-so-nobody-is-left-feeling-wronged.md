@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-we-agree-so-nobody-is-left-feeling-wronged
 socialImage: og/q-kqj95t-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/society
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

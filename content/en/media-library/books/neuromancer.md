@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/neuromancer
   en: /en/media-library/books/neuromancer
 tags:
-  - media-library
-  - book
-  - tech
+  - section/media-library
+  - type/book
+  - theme/technology
 media_type: book
 year: "1984"
 rating: "not yet specified"

@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/wuthering-heights
   en: /en/media-library/books/wuthering-heights
 tags:
-  - media-library
-  - book
-  - culture
-  - loneliness
+  - section/media-library
+  - type/book
+  - theme/culture
+  - theme/loneliness
 media_type: book
 year: "1847"
 author: Emily Brontë

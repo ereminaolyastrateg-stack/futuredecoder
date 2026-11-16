@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/saltburn
   en: /en/media-library/films/saltburn
 tags:
-  - media-library
-  - film
-  - inequality
-  - culture
+  - раздел/медиатека
+  - тип/фильм
+  - тема/неравенство
+  - тема/культура
 media_type: film
 year: "2023"
 director: Эмиральд Феннелл

@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/in-time
   en: /en/media-library/films/in-time
 tags:
-  - media-library
-  - film
-  - inequality
+  - section/media-library
+  - type/film
+  - theme/inequality
 media_type: film
 year: "2011"
 rating: "not yet specified"

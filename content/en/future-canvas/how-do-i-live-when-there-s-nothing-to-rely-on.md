@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on
 socialImage: og/q-13efk23-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/society
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

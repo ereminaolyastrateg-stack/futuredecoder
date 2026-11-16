@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-rum-diary
   en: /en/media-library/books/the-rum-diary
 tags:
-  - media-library
-  - book
-  - inequality
+  - раздел/медиатека
+  - тип/книга
+  - тема/неравенство
 media_type: book
 year: "1998"
 rating: "пока не указан"

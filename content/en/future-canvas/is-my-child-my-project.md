@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/is-my-child-my-project
 socialImage: og/q-1v6z0jr-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/family-and-children
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

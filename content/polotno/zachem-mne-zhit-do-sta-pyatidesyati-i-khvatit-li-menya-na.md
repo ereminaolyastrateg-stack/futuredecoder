@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-would-i-live-to-150-and-will-i-have-enough-in-me-for-it
 socialImage: og/q-1kn4azl-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

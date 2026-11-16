@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/what-women-want
   en: /en/media-library/films/what-women-want
 tags:
-  - media-library
-  - film
-  - human
+  - раздел/медиатека
+  - тип/фильм
+  - тема/человек
 media_type: film
 year: "2000"
 rating: "пока не указан"

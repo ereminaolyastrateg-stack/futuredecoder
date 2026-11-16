@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/never-let-me-go
   en: /en/media-library/books/never-let-me-go
 tags:
-  - media-library
-  - book
-  - human
+  - section/media-library
+  - type/book
+  - theme/human
 media_type: book
 year: "2005"
 rating: "not yet specified"

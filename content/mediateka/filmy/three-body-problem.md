@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/three-body-problem
   en: /en/media-library/films/three-body-problem
 tags:
-  - media-library
-  - film
-  - future
+  - раздел/медиатека
+  - тип/фильм
+  - тема/будущее
 media_type: film
 year: "2024"
 rating: "пока не указан"

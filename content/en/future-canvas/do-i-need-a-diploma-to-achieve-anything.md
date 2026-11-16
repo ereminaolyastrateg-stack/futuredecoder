@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/do-i-need-a-diploma-to-achieve-anything
 socialImage: og/q-e1qjut-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/learning
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

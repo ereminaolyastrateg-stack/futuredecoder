@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-hunger-games
   en: /en/media-library/films/the-hunger-games
 tags:
-  - media-library
-  - film
-  - inequality
+  - section/media-library
+  - type/film
+  - theme/inequality
 media_type: film
 year: "2012"
 rating: "not yet specified"

@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-happens-if-money-suddenly-gets-really-tight
 socialImage: og/q-1kf1bzg-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/деньги
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

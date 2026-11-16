@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/feeling-good
   en: /en/media-library/books/feeling-good
 tags:
-  - media-library
-  - book
-  - human
+  - section/media-library
+  - type/book
+  - theme/human
 media_type: book
 year: "1980"
 rating: "not yet specified"

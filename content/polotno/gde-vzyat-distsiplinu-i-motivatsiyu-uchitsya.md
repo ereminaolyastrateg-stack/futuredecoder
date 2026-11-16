@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/where-do-i-find-the-discipline-and-motivation-to-learn
 socialImage: og/q-6dz24f-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/смысл-и-творчество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/its-not-luck
   en: /en/media-library/books/its-not-luck
 tags:
-  - media-library
-  - book
-  - systems
+  - раздел/медиатека
+  - тип/книга
+  - тема/системы
 media_type: book
 year: "1994"
 rating: "пока не указан"

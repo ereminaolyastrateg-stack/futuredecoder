@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/is-it-bad-to-choose-what-s-more-convenient
 socialImage: og/q-89nsb3-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

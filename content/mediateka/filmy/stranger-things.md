@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/stranger-things
   en: /en/media-library/films/stranger-things
 tags:
-  - media-library
-  - film
-  - culture
-  - series
+  - раздел/медиатека
+  - тип/фильм
+  - тема/культура
+  - тип/сериал
 media_type: film
 year: "2016"
 creator: Мэтт и Росс Дафферы

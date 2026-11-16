@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it
 socialImage: og/q-sc36oi-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/money
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/black-mirror
   en: /en/media-library/films/black-mirror
 tags:
-  - media-library
-  - film
-  - digital-ethics
-  - series
+  - section/media-library
+  - type/film
+  - theme/digital-ethics
+  - type/series
 media_type: film
 year: "2011"
 country: United Kingdom

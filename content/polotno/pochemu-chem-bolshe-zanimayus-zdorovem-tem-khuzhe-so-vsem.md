@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-does-everything-else-get-worse-the-more-i-work-on-my
 socialImage: og/q-lkwuum-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

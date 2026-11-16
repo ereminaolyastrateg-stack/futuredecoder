@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-will-pay-for-me-if-something-happens
 socialImage: og/q-1pdb5sb-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

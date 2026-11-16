@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-do-i-do-if-my-job-is-no-longer-needed
 socialImage: og/q-1pdeebv-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

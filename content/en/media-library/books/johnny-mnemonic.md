@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/johnny-mnemonic
   en: /en/media-library/books/johnny-mnemonic
 tags:
-  - media-library
-  - book
-  - tech
+  - section/media-library
+  - type/book
+  - theme/technology
 media_type: book
 year: "1981"
 rating: "not yet specified"

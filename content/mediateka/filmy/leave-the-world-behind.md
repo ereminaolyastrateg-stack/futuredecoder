@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/leave-the-world-behind
   en: /en/media-library/films/leave-the-world-behind
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "2023"
 rating: "пока не указан"

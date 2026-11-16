@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/fahrenheit-451
   en: /en/media-library/books/fahrenheit-451
 tags:
-  - media-library
-  - book
-  - education
-  - attention
+  - section/media-library
+  - type/book
+  - theme/education
+  - theme/attention
 media_type: book
 year: "1953"
 author: Ray Bradbury

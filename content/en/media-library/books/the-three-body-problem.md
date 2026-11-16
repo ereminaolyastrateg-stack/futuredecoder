@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-three-body-problem
   en: /en/media-library/books/the-three-body-problem
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "2006"
 rating: "not yet specified"

@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/power-and-progress
   en: /en/media-library/books/power-and-progress
 tags:
-  - media-library
-  - book
-  - inequality
+  - section/media-library
+  - type/book
+  - theme/inequality
 media_type: book
 year: "2023"
 rating: "not yet specified"

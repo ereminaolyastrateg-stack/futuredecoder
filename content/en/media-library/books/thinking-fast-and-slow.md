@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/thinking-fast-and-slow
   en: /en/media-library/books/thinking-fast-and-slow
 tags:
-  - media-library
-  - book
-  - attention
+  - section/media-library
+  - type/book
+  - theme/attention
 media_type: book
 year: "2011"
 rating: "not yet specified"

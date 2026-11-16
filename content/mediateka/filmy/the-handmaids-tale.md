@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-handmaids-tale
   en: /en/media-library/films/the-handmaids-tale
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "2017"
 rating: "пока не указан"

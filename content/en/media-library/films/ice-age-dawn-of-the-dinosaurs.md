@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/ice-age-dawn-of-the-dinosaurs
   en: /en/media-library/films/ice-age-dawn-of-the-dinosaurs
 tags:
-  - media-library
-  - film
-  - ecology
+  - section/media-library
+  - type/film
+  - theme/ecology
 media_type: film
 year: "2009"
 rating: "not yet specified"

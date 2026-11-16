@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/if-everyone-chooses-work-they-love-who-will-do-what-s-needed
 socialImage: og/q-1rpt873-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

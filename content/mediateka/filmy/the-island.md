@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-island
   en: /en/media-library/films/the-island
 tags:
-  - media-library
-  - film
-  - human
+  - раздел/медиатека
+  - тип/фильм
+  - тема/человек
 media_type: film
 year: "2005"
 rating: "пока не указан"

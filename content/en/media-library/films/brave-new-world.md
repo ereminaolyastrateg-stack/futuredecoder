@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/brave-new-world
   en: /en/media-library/films/brave-new-world
 tags:
-  - media-library
-  - film
-  - control
+  - section/media-library
+  - type/film
+  - theme/control
 media_type: film
 year: "2020"
 rating: "not yet specified"

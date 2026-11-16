@@ -7,8 +7,8 @@ translations:
   ru: /lekcii
   en: /en/talks
 tags:
-  - talks
-  - about
+  - section/talks
+  - section/about
 date: 2026-11-16
 socialImage: og/talks-en.png
 ---

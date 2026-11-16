@@ -7,8 +7,8 @@ translations:
   ru: /lekcii
   en: /en/talks
 tags:
-  - лекции
-  - об_авторе
+  - раздел/лекции
+  - раздел/об-авторе
 date: 2026-11-16
 socialImage: og/talks-ru.png
 ---

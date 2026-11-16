@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-ai-make-me-dumber
 socialImage: og/q-xroq92-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/учёба
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

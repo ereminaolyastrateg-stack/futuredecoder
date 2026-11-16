@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/the-rum-diary
   en: /en/media-library/films/the-rum-diary
 tags:
-  - media-library
-  - film
-  - inequality
+  - section/media-library
+  - type/film
+  - theme/inequality
 media_type: film
 year: "2011"
 rating: "not yet specified"

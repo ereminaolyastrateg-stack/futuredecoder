@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-do-i-do-with-free-time
 socialImage: og/q-186avsd-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

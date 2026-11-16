@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-will-pay-for-me-if-something-happens
 socialImage: og/q-1pdb5sb-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

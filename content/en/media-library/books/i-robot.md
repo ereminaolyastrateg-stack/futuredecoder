@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/i-robot
   en: /en/media-library/books/i-robot
 tags:
-  - media-library
-  - book
-  - tech
+  - section/media-library
+  - type/book
+  - theme/technology
 media_type: book
 year: "1950"
 rating: "not yet specified"

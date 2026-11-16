@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/can-i-influence-taxes-at-all
 socialImage: og/q-xhjrca-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/деньги
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

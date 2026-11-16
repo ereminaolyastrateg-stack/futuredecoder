@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/enemy-of-the-state
   en: /en/media-library/films/enemy-of-the-state
 tags:
-  - media-library
-  - film
-  - control
+  - раздел/медиатека
+  - тип/фильм
+  - тема/контроль
 media_type: film
 year: "1998"
 rating: "пока не указан"

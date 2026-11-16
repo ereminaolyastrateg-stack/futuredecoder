@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-s-to-blame-if-ai-gets-it-wrong
 socialImage: og/q-1ed6gi9-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/society
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

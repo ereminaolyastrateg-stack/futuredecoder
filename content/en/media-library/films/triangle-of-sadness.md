@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/triangle-of-sadness
   en: /en/media-library/films/triangle-of-sadness
 tags:
-  - media-library
-  - film
-  - inequality
+  - section/media-library
+  - type/film
+  - theme/inequality
 media_type: film
 year: "2022"
 director: Ruben Östlund

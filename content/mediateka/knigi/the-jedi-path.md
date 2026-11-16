@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-jedi-path
   en: /en/media-library/books/the-jedi-path
 tags:
-  - media-library
-  - book
-  - attention
+  - раздел/медиатека
+  - тип/книга
+  - тема/внимание
 media_type: book
 year: "2021"
 rating: "пока не указан"

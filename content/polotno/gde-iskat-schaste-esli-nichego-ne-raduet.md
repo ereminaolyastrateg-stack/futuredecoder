@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/where-do-i-look-for-happiness-when-nothing-brings-me-joy
 socialImage: og/q-1ughwei-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

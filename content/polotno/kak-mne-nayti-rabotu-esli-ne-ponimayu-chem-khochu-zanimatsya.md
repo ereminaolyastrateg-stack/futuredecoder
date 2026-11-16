@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-find-a-job-if-i-don-t-know-what-i-want-to-do
 socialImage: og/q-1keb6an-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

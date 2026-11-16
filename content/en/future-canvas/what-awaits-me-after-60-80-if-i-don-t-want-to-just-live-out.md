@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/what-awaits-me-after-60-80-if-i-don-t-want-to-just-live-out
 socialImage: og/q-harw19-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

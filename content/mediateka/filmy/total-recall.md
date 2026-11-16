@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/total-recall
   en: /en/media-library/films/total-recall
 tags:
-  - media-library
-  - film
-  - tech
+  - раздел/медиатека
+  - тип/фильм
+  - тема/технологии
 media_type: film
 year: "1990"
 rating: "пока не указан"

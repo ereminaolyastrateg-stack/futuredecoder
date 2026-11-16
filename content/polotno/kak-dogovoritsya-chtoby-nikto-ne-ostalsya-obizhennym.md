@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-we-agree-so-nobody-is-left-feeling-wronged
 socialImage: og/q-kqj95t-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/общество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

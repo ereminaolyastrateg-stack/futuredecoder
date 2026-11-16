@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/a-clockwork-orange
   en: /en/media-library/books/a-clockwork-orange
 tags:
-  - media-library
-  - book
-  - control
+  - section/media-library
+  - type/book
+  - theme/control
 media_type: book
 year: "1962"
 rating: "not yet specified"

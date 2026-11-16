@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-camp-of-the-saints
   en: /en/media-library/books/the-camp-of-the-saints
 tags:
-  - media-library
-  - book
-  - inequality
+  - раздел/медиатека
+  - тип/книга
+  - тема/неравенство
 media_type: book
 year: "1973"
 rating: "пока не указан"

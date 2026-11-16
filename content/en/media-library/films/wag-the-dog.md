@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/wag-the-dog
   en: /en/media-library/films/wag-the-dog
 tags:
-  - media-library
-  - film
-  - attention
+  - section/media-library
+  - type/film
+  - theme/attention
 media_type: film
 year: "1997"
 rating: "not yet specified"

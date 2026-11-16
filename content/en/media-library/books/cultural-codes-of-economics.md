@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/cultural-codes-of-economics
   en: /en/media-library/books/cultural-codes-of-economics
 tags:
-  - media-library
-  - book
-  - systems
+  - section/media-library
+  - type/book
+  - theme/systems
 media_type: book
 year: "2022"
 rating: "not yet specified"

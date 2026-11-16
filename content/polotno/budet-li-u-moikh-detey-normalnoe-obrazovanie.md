@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-my-children-get-a-decent-education
 socialImage: og/q-1ly0e9n-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/учёба
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

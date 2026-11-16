@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/brave-new-world
   en: /en/media-library/books/brave-new-world
 tags:
-  - media-library
-  - book
-  - education
-  - control
+  - раздел/медиатека
+  - тип/книга
+  - тема/образование
+  - тема/контроль
 media_type: book
 year: "1932"
 author: Олдос Хаксли

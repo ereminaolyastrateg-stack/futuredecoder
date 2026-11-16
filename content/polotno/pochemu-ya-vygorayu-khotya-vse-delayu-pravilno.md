@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-am-i-burning-out-when-i-m-doing-everything-right
 socialImage: og/q-zgg9bj-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

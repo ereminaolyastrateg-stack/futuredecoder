@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/the-terminator
   en: /en/media-library/films/the-terminator
 tags:
-  - media-library
-  - film
-  - artificial-intelligence
-  - future
+  - раздел/медиатека
+  - тип/фильм
+  - тема/ии
+  - тема/будущее
 media_type: film
 year: "1984"
 director: Джеймс Кэмерон

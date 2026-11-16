@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-is-there-seemingly-more-money-yet-life-isn-t-easier
 socialImage: og/q-falg3n-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/деньги
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

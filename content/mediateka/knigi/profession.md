@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/knigi/profession
   en: /en/media-library/books/profession
 tags:
-  - media-library
-  - book
-  - education
-  - novella
+  - раздел/медиатека
+  - тип/книга
+  - тема/образование
+  - тип/повесть
 media_type: book
 year: "1957"
 author: Айзек Азимов

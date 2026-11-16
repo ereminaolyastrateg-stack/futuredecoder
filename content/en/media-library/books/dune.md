@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/dune
   en: /en/media-library/books/dune
 tags:
-  - media-library
-  - book
-  - ecology
+  - section/media-library
+  - type/book
+  - theme/ecology
 media_type: book
 year: "1965"
 rating: "not yet specified"

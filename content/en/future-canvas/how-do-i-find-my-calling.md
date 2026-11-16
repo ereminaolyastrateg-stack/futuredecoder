@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-find-my-calling
 socialImage: og/q-tix0jc-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/work
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

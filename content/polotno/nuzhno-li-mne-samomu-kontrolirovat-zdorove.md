@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/do-i-need-to-monitor-my-health-myself
 socialImage: og/q-wm17gl-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/здоровье
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

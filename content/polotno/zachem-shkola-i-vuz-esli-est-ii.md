@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-school-and-university-if-there-s-ai
 socialImage: og/q-fa1rrm-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/учёба
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

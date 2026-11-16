@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/why-school-and-university-if-there-s-ai
 socialImage: og/q-fa1rrm-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/learning
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

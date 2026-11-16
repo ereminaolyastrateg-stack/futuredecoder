@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/wall-e
   en: /en/media-library/films/wall-e
 tags:
-  - media-library
-  - film
-  - ecology
+  - section/media-library
+  - type/film
+  - theme/ecology
 media_type: film
 year: "2008"
 rating: "not yet specified"

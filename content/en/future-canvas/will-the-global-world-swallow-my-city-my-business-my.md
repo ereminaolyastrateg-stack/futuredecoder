@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/will-the-global-world-swallow-my-city-my-business-my
 socialImage: og/q-1nkrwct-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/home-and-surroundings
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

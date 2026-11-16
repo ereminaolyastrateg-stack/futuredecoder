@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/does-anything-depend-on-me-at-all
 socialImage: og/q-1mwtqwj-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/общество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/do-i-have-to-show-that-i-m-happy
 socialImage: og/q-r7gh4x-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/meaning-and-creativity
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

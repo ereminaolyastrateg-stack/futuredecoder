@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/do-i-have-to-show-that-i-m-happy
 socialImage: og/q-r7gh4x-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/смысл-и-творчество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

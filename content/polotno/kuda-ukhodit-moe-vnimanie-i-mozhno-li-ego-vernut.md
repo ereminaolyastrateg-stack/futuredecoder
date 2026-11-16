@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/where-does-my-attention-go-and-can-i-get-it-back
 socialImage: og/q-tdt3gr-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/внимание-и-информация
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

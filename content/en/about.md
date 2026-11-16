@@ -7,7 +7,7 @@ translations:
   ru: /ob-avtore
   en: /en/about
 tags:
-  - about
+  - section/about
 date: 2026-11-16
 socialImage: og/about-en.png
 ---

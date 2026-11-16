@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/niu-lai
   en: /en/media-library/films/niu-lai
 tags:
-  - media-library
-  - film
-  - attention
+  - section/media-library
+  - type/film
+  - theme/attention
 media_type: film
 year: "2026"
 rating: "not yet specified"

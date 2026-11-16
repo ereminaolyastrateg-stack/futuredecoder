@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-really-manages-my-money
 socialImage: og/q-7p18xw-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/money
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

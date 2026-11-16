@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/snuff
   en: /en/media-library/books/snuff
 tags:
-  - media-library
-  - book
-  - attention
+  - раздел/медиатека
+  - тип/книга
+  - тема/внимание
 media_type: book
 year: "2011"
 rating: "пока не указан"

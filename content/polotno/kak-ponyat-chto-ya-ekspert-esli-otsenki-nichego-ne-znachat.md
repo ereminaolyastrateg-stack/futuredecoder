@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-know-i-m-an-expert-if-grades-mean-nothing
 socialImage: og/q-1p821k-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/работа
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

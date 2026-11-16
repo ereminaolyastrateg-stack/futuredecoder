@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/saltburn
   en: /en/media-library/films/saltburn
 tags:
-  - media-library
-  - film
-  - inequality
-  - culture
+  - section/media-library
+  - type/film
+  - theme/inequality
+  - theme/culture
 media_type: film
 year: "2023"
 director: Emerald Fennell

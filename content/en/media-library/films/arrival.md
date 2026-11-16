@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/arrival
   en: /en/media-library/films/arrival
 tags:
-  - media-library
-  - film
-  - language
-  - future
+  - section/media-library
+  - type/film
+  - theme/language
+  - theme/future
 media_type: film
 year: "2016"
 director: Denis Villeneuve

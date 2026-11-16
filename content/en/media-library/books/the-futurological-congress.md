@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-futurological-congress
   en: /en/media-library/books/the-futurological-congress
 tags:
-  - media-library
-  - book
-  - future
+  - section/media-library
+  - type/book
+  - theme/future
 media_type: book
 year: "1971"
 rating: "not yet specified"

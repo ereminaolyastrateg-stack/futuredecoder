@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/terminator-2-judgment-day
   en: /en/media-library/films/terminator-2-judgment-day
 tags:
-  - media-library
-  - film
-  - artificial-intelligence
-  - future
+  - section/media-library
+  - type/film
+  - theme/ai
+  - theme/future
 media_type: film
 year: "1991"
 director: James Cameron

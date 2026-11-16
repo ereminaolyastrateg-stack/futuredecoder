@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/knigi/the-hunger-games
   en: /en/media-library/books/the-hunger-games
 tags:
-  - media-library
-  - book
-  - inequality
+  - раздел/медиатека
+  - тип/книга
+  - тема/неравенство
 media_type: book
 year: "2008"
 rating: "пока не указан"

@@ -7,10 +7,10 @@ translations:
   ru: /mediateka/filmy/wuthering-heights
   en: /en/media-library/films/wuthering-heights
 tags:
-  - media-library
-  - film
-  - culture
-  - loneliness
+  - section/media-library
+  - type/film
+  - theme/culture
+  - theme/loneliness
 media_type: film
 year: "2026"
 director: Emerald Fennell

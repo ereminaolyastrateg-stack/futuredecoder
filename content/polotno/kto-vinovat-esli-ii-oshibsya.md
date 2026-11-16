@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/who-s-to-blame-if-ai-gets-it-wrong
 socialImage: og/q-1ed6gi9-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/общество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---

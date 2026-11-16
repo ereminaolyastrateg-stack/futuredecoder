@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/do-i-need-to-monitor-my-health-myself
 socialImage: og/q-wm17gl-en.png
 tags:
-  - future-canvas
+  - type/canvas-question
+  - theme/health
+  - section/future-canvas
 created: 2026-11-16
 updated: 2026-11-16
 ---

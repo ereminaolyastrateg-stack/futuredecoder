@@ -7,9 +7,9 @@ translations:
   ru: /mediateka/filmy/dune
   en: /en/media-library/films/dune
 tags:
-  - media-library
-  - film
-  - inequality
+  - раздел/медиатека
+  - тип/фильм
+  - тема/неравенство
 media_type: film
 year: "2021"
 rating: "пока не указан"

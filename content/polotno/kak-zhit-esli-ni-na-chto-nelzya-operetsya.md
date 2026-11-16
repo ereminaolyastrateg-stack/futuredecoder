@@ -8,7 +8,9 @@ translations:
   en: /en/future-canvas/how-do-i-live-when-there-s-nothing-to-rely-on
 socialImage: og/q-13efk23-ru.png
 tags:
-  - polotno
+  - тип/вопрос-полотна
+  - тема/общество
+  - раздел/полотно
 created: 2026-11-16
 updated: 2026-11-16
 ---
