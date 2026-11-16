@@ -74,6 +74,15 @@ PAIRS_EN = '''const PAIRS = {
 h, n = re.subn(r'const PAIRS = \{.*?\n\};', lambda m: PAIRS_EN, h, flags=re.S)
 assert n == 1
 
+TX_EN = r"""const TX = {
+  tg:"Telegram", wa:"WhatsApp", more:"Other apps", story:"Image for stories", res:"Share the result",
+  me:"Me", fr:"Friend", duel:"Duel of worlds", saved:"Image saved",
+  resText:(q,me,fr,url)=>`My friend and I played a duel of worlds on Future Decoder.\nQuestion: “${q}”\nI'm in the ${me}, my friend is in the ${fr}.\nWhich world are you building?`,
+  storyCta:"Which world are you building?", file:"duel-future-decoder.png"
+};"""
+h, n = re.subn(r'const TX = \{.*?\n\};', lambda m: TX_EN, h, flags=re.S)
+assert n == 1
+
 # --- plain string replacements (order matters: longer first where they overlap)
 R = [
  ('<html lang="ru">', '<html lang="en">'),
