@@ -12,6 +12,7 @@ This is my digital garden about learning to see not one predicted future, but ma
 
 Here I collect notes on trends, signals, scenarios, mental models, and my own experience of working with the future.
 
+- [Future Canvas](/static/polotno/en/): questions about the future and four answers to each from game participants, a duel of worlds, dilemmas and a daily signal
 - [Why Talk About the Future](/en/why-talk-about-the-future)
 - [Book](/en/book/)
 - [Materials](/en/materials/)

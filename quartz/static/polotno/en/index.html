@@ -43,11 +43,14 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(-
 .L-ЦС{--c:var(--cs);--on:#fff} .L-ЦЗ{--c:var(--cz);--on:var(--ink)} .L-ДС{--c:var(--ds);--on:#fff} .L-ДЗ{--c:var(--dz);--on:var(--ink)}
 .brace{color:var(--link);font-size:13px;font-weight:500}
 .mast{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
-.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px;line-height:.95;text-transform:uppercase;letter-spacing:.02em}
+.mastl{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{text-decoration:none;display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px;line-height:.95;text-transform:uppercase;letter-spacing:.02em}
 .logo i{width:34px;height:34px;border-radius:8px;background:var(--holo);display:block}
 nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
 nav.tabs a{text-decoration:none;padding:7px 16px;border:1px solid var(--ink);border-radius:999px;font-size:14px;font-weight:500;background:var(--surface)}
 nav.tabs a[aria-current="page"]{background:var(--ink);color:#fff}
+a.garden{text-decoration:none;padding:7px 16px;border-radius:999px;font-size:14px;font-weight:600;background:var(--ink);color:#fff}
+a.garden:hover{background:var(--holo);color:var(--ink)}
 nav.tabs a.langsw{font-weight:700;border-style:dashed}
 .hero{position:relative;overflow:hidden;border-radius:18px;background:var(--holo);padding:34px 30px 30px;color:#fff;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:end}
 .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 80% 80%,rgba(25,24,24,.35),transparent 55%);pointer-events:none}
@@ -167,7 +170,7 @@ footer{margin-top:44px;border-top:1px solid var(--ink);padding-top:14px;font-siz
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="crayon"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.4"/></filter></svg>
 <div class="wrap">
   <div class="mast">
-    <div class="logo"><i aria-hidden="true"></i><span>Future<br>Decoder</span></div>
+    <div class="mastl"><a class="logo" href="/en/" title="Future Decoder digital garden"><i aria-hidden="true"></i><span>Future<br>Decoder</span></a><a class="garden" href="/en/">← To the garden</a></div>
     <nav class="tabs" aria-label="Sections">
       <a href="#canvas" data-tab="canvas">Canvas</a>
       <a href="#dilemmas" data-tab="dilemmas">Dilemmas</a>

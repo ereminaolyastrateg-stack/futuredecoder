@@ -89,6 +89,8 @@ R = [
   'const HINTS = {"ЦС":"the system decides, the result isn\'t yours","ЦЗ":"you take part by shared rules","ДС":"you decide, you own it","ДЗ":"you create together with others"};'),
  ('Не получилось загрузить базу (data.json). Если вы открыли файл с компьютера, загрузите папку на сайт: браузер не читает соседние файлы локально.',
   'Could not load the knowledge base (data.json). If you opened the file from your computer, upload the folder to a site: browsers don\'t read neighbouring files locally.'),
+ ('<a class="logo" href="/" title="Цифровой сад Декодера">', '<a class="logo" href="/en/" title="Future Decoder digital garden">'),
+ ('<a class="garden" href="/">← В сад</a>', '<a class="garden" href="/en/">← To the garden</a>'),
  ('aria-label="Разделы"', 'aria-label="Sections"'),
  ('data-tab="canvas">Полотно</a>', 'data-tab="canvas">Canvas</a>'),
  ('data-tab="dilemmas">Дилеммы</a>', 'data-tab="dilemmas">Dilemmas</a>'),
