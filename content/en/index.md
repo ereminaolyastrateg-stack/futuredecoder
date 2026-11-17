@@ -14,6 +14,7 @@ This is my digital garden about learning to see not one predicted future, but ma
 Here I collect notes on trends, signals, scenarios, mental models, and my own experience of working with the future.
 
 - [Future Canvas](/static/polotno/en/)
+- [A letter from 2035](/static/letter/en/)
 - [Why Talk About the Future](/en/why-talk-about-the-future)
 - [Book](/en/book/)
 - [Four Worlds](/en/four-worlds/)
