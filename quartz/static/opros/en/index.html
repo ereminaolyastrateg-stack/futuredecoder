@@ -160,7 +160,7 @@ ru:{
   showW:"Показать, к каким мирам тянет", hideW:"Скрыть миры",
   wHead:["Мир","Сейчас","Хочу"],
   wNote:"Каждый вариант относится к одному из четырёх миров метода. Это не диагноз, а подсказка, где искать сигналы и шаги.",
-  md:"Скачать заметку (.md)", json:"Файл для бота (.json)", print:"Распечатать / PDF", wipe:"Стереть всё",
+  md:"Скачать заметку (.md)", json:"Файл для бота (.json)", print:"Скачать PDF", wipe:"Стереть всё", wipeSure:"Точно стереть? Нажмите ещё раз", busy:"Готовлю файл…", saved:"Сохранено", dlFail:"Не получилось скачать здесь",
   wipeQ:"Стереть все ответы в этом браузере?",
   next2:"Что дальше: с этой картой можно прийти в лабораторию «Архитектура человека» — там мы связываем «хочу» с ресурсами, ищем тучи и рычаги и выходим на один шаг.",
   lab:"Про лабораторию",
@@ -191,7 +191,7 @@ en:{
   showW:"Show which worlds pull me", hideW:"Hide worlds",
   wHead:["World","Now","Wanted"],
   wNote:"Each option belongs to one of the method's four worlds. It's not a diagnosis, just a hint where to look for signals and steps.",
-  md:"Download note (.md)", json:"File for the bot (.json)", print:"Print / PDF", wipe:"Erase everything",
+  md:"Download note (.md)", json:"File for the bot (.json)", print:"Download PDF", wipe:"Erase everything", wipeSure:"Sure? Click again to erase", busy:"Preparing the file…", saved:"Saved", dlFail:"Download is not available here",
   wipeQ:"Erase all answers in this browser?",
   next2:"What next: bring this map to the «Human Architecture» lab, where we link your wants to resources, find conflicts and levers, and arrive at one step.",
   lab:"About the lab",
@@ -208,7 +208,7 @@ function plural(n,f){const a=n%10,b=n%100;return f[(a===1&&b!==11)?0:(a>=2&&a<=4
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
-const title = v=>v.s_ru?L(v,"s"):L(v,"n");
+const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}}
@@ -243,7 +243,7 @@ function rStart(){
   el.querySelector("#all").onclick=()=>{S.sel=D.spheres.map(s=>s.id);save();rStart()};
   el.querySelector("#none").onclick=()=>{S.sel=[];save();rStart()};
   el.querySelector("#go").onclick=()=>{S.pos=Math.min(S.pos,queue().length-1);save();location.hash="run"};
-  const re=el.querySelector("#re");if(re)re.onclick=()=>{if(confirm(T.wipeQ)){const sel=S.sel;wipe();S.sel=sel;save();rStart()}};
+  const re=el.querySelector("#re");if(re)re.onclick=()=>sure(re,T.restart,()=>{const sel=S.sel;wipe();S.sel=sel;save();rStart()});
 }
 
 function fieldsFor(v,a){
@@ -314,7 +314,7 @@ function colHTML(data,filter,cls){
       for(const {v,r} of items){if(!filter.includes(r.a))continue;
         const extra=[r.take,r.give,r.why].filter(Boolean).map(esc).join(" · ");
         const tag=cls==="now"?`<span class="tag ${r.a}">${r.a==="keep"?T.tagKeep:T.tagDrop}</span>`:(r.a==="want"?`<span class="tag want">${T.tagWant}</span>`:"");
-        lines.push(`<li><span class="${cls==="now"&&r.a==="drop"?"drop-t":""}">${esc(title(v))}</span>${tag}<small>${esc(nm(sb))}${extra?" — "+extra:""}</small></li>`)}
+        lines.push(`<li><span class="${cls==="now"&&r.a==="drop"?"drop-t":""}">${esc(vtitle(v))}</span>${tag}<small>${esc(nm(sb))}${extra?" — "+extra:""}</small></li>`)}
       if(own&&cls!=="no")lines.push(`<li><i>${esc(own)}</i><small>${esc(nm(sb))}</small></li>`);
     }
     if(lines.length)h+=`<div class="sp">${esc(nm(sp))}</div><ul>${lines.join("")}</ul>`;
@@ -342,16 +342,50 @@ function rResult(){
   <div class="row noprint"><button class="btn" id="md">${T.md}</button><button class="btn ghost" id="js">${T.json}</button><button class="btn ghost" id="pr">${T.print}</button><button class="link" id="wp">${T.wipe}</button></div>
   <p class="noprint" style="margin-top:22px">${T.next2} <a href="${LAB}">${T.lab}</a></p>`;
   el.querySelector("#tw").onclick=()=>{showW=!showW;rResult()};
-  el.querySelector("#md").onclick=()=>dl(toMD(data),"text/markdown","md");
-  el.querySelector("#js").onclick=()=>dl(JSON.stringify(toJSON(data),null,2),"application/json","json");
-  el.querySelector("#pr").onclick=()=>window.print();
-  el.querySelector("#wp").onclick=()=>{if(confirm(T.wipeQ)){wipe();location.hash="start";route()}};
+  el.querySelector("#md").onclick=e=>dl(toMD(data),"text/markdown","md",e.currentTarget);
+  el.querySelector("#js").onclick=e=>dl(JSON.stringify(toJSON(data),null,2),"application/json","json",e.currentTarget);
+  el.querySelector("#pr").onclick=e=>pdf(e.currentTarget);
+  const wp=el.querySelector("#wp");wp.onclick=()=>sure(wp,T.wipe,()=>{wipe();location.hash="start";route()});
 }
 function today(){return new Date().toISOString().slice(0,10)}
-function dl(text,type,ext){
-  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:type+";charset=utf-8"}));
-  a.download=(LANG==="ru"?"kak-seichas-i-kakim-hochu-":"now-and-wanted-")+today()+"."+ext;document.body.appendChild(a);a.click();
-  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);
+function sure(btn,label,act){
+  if(btn.dataset.sure){act();return}
+  btn.dataset.sure="1";btn.textContent=T.wipeSure;
+  setTimeout(()=>{if(btn.isConnected){delete btn.dataset.sure;btn.textContent=label}},4000);
+}
+// Внутри Claude страница скачивает через capability downloads, на сайте обычной ссылкой.
+let DLNS=null;
+try{if(window.claude&&typeof window.claude.use==="function")window.claude.use("downloads").then(ns=>{DLNS=ns}).catch(()=>{})}catch(e){}
+function flash(btn,t){if(!btn)return;const o=btn.dataset.label||btn.textContent;btn.dataset.label=o;btn.textContent=t;setTimeout(()=>{btn.textContent=o},2500)}
+function fname(ext){return (LANG==="ru"?"kak-seichas-i-kakim-hochu-":"now-and-wanted-")+today()+"."+ext}
+async function dl(data,type,ext,btn){
+  if(DLNS){
+    try{await DLNS.save({filename:fname(ext),data});flash(btn,T.saved)}
+    catch(e){if(!(e&&e.code==="declined"))flash(btn,T.dlFail)}
+    return;
+  }
+  const blob=data instanceof Blob?data:new Blob([data],{type:type+";charset=utf-8"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fname(ext);document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);
+}
+function loadPdfLib(){
+  if(window.html2pdf)return Promise.resolve();
+  return new Promise((ok,no)=>{const s=document.createElement("script");
+    s.src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js";
+    s.onload=ok;s.onerror=no;document.head.appendChild(s)});
+}
+async function pdf(btn){
+  const o=btn.textContent;btn.textContent=T.busy;btn.disabled=true;
+  try{
+    await loadPdfLib();
+    const src=document.getElementById("s-result");
+    const blob=await html2pdf().set({margin:[12,12,14,12],image:{type:"jpeg",quality:0.95},
+      html2canvas:{scale:2,backgroundColor:"#ffffff",ignoreElements:n=>n.classList&&n.classList.contains("noprint")},
+      jsPDF:{unit:"mm",format:"a4",orientation:"portrait"},pagebreak:{mode:["css","legacy"],avoid:[".sp","li",".wbar"]}
+    }).from(src).outputPdf("blob");
+    btn.textContent=o;btn.disabled=false;
+    await dl(blob,"application/pdf","pdf",btn);
+  }catch(e){btn.textContent=o;btn.disabled=false;try{window.print()}catch(_){flash(btn,T.dlFail)}}
 }
 function toMD(data){
   const {now,fut}=worldCounts();
@@ -359,7 +393,7 @@ function toMD(data){
     for(const {sp,subs} of data){let part="";
       for(const {sb,items,own} of subs){for(const {v,r} of items){if(!filter.includes(r.a))continue;
         const bits=[];if(r.take)bits.push(T.mdTake+": "+r.take);if(r.give)bits.push(T.mdGive+": "+r.give);if(r.why)bits.push(T.mdWhy+": "+r.why);
-        part+=`- **${title(v)}** (${T.buttons[r.a]}; ${nm(sb)}; ${T.worlds[v.w]})${bits.length?"\n  - "+bits.join("\n  - "):""}\n`}}
+        part+=`- **${vtitle(v)}** (${T.buttons[r.a]}; ${nm(sb)}; ${T.worlds[v.w]})${bits.length?"\n  - "+bits.join("\n  - "):""}\n`}}
       if(part){s+=`\n### ${nm(sp)}\n${part}`;any=true}}
     return any?s:"";};
   let own="";for(const {sp,subs} of data)for(const {sb,own:o} of subs)if(o)own+=`- ${nm(sp)} / ${nm(sb)}: ${o}\n`;
@@ -371,7 +405,7 @@ function toMD(data){
 function toJSON(data){
   return {format:"futuredecoder-opros/1",lang:LANG,date:today(),spheres:data.map(({sp,subs})=>({id:sp.id,name:nm(sp),
     subspheres:subs.map(({sb,items,own})=>({id:sb.id,name:nm(sb),own:own||undefined,
-      answers:items.map(({v,r})=>({card:v.id,world:v.w,name:title(v),signal:v.g_src||undefined,answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
+      answers:items.map(({v,r})=>({card:v.id,world:v.w,name:vtitle(v),signal:v.g_src||undefined,answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
     worlds:worldCounts()};
 }
 
