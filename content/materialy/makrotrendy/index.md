@@ -3,6 +3,9 @@ title: Макротренды
 seoTitle: Макротренды — Декодер Будущего
 description: Большие силы изменений и то, как каждая из них проявляется в четырёх мирах Декодера — ЦС, ЦЗ, ДС и ДЗ. Со сценами 2035 года, сигналами и выводами игр.
 lang: ru
+translations:
+  ru: /materialy/makrotrendy/
+  en: /en/materials/macrotrends/
 tags:
   - тип/указатель
 date: 2026-11-17

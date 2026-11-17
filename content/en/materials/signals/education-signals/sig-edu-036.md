@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** An author develops a social project and learns from emerging tasks, difficulties and responses. Learning is connected to what is discovered while trying to change a real situation.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-031 — Human mastery.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Education; social entrepreneurship.  

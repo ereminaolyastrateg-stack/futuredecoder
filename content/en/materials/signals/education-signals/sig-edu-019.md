@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Universities and partners establish a shared setting and ways of working for educational projects. A challenge meaningful to the network provides direction, while ability is demonstrated through collaborative practical work.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work.  
 **Industries:** Higher education; R&D; industry collaboration.  

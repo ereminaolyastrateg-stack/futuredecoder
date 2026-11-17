@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** A person chooses the task, gathers knowledge from open videos and builds their own route towards a result. The emphasis is on independently deciding what and how to learn.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-076 — Digital communities and virtual interaction.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
 
 **Life domains:** Education; Work.  
 **Industries:** Design; printing; open online learning.  

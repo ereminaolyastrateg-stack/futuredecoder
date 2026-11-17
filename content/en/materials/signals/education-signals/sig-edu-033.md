@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Learners participate in research whose outcome is not known in advance. Working with methods, data and uncertainty provides feedback that may change the next research step.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Science; school education; citizen research.  

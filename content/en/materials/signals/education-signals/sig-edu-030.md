@@ -52,7 +52,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Children determine much of their day, state intentions and participate in choosing community rules. The emphasis is on their right to direct their own learning with support from the environment.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-076 — Digital communities and virtual interaction; MT-031 — Human mastery.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-076 — Digital communities and virtual interaction; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
 
 **Life domains:** Education; Close relationships and family; Values, meaning and community.  
 **Industries:** School and informal education.  

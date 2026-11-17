@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Training responds to a specific community need: servicing solar systems. Acquired skill gains meaning through a useful technical role and recognition of that contribution.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-038 — Inequality and resource distribution.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
 
 **Life domains:** Education; Work; Place of living and public environment.  
 **Industries:** Solar energy; vocational learning.  

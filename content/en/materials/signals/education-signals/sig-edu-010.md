@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **In the original deck:** CS — Centralized — Synthetic.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-044 — Social trust and digital ethics.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
 
 **Life domains:** Education; Work.  
 **Industries:** Digital fabrication; engineering education.  

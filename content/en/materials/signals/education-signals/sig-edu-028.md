@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Technical skills are connected to the participant’s own artistic or research question. Their chosen topic and the work through which they want to express it are central.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-026 — Creative economy; MT-031 — Human mastery.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-026 — Creative economy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Art; creative technology; design.  

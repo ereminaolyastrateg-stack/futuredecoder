@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **In the original deck:** CE — Centralized — Earth.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work.  
 **Industries:** Entrepreneurship education; project management.  

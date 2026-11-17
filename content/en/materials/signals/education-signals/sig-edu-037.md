@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** A team begins with an open social problem, clarifies the need and makes prototypes. The response and the knowledge required become clearer through inquiry and testing ideas.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work.  
 **Industries:** Engineering education; R&D; social innovation.  

@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Ability is described through school-defined competencies and verified work. A shared record format lets others examine the result against explicit criteria.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; MT-031 — Human mastery.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work.  
 **Industries:** School education; assessment; admissions.  

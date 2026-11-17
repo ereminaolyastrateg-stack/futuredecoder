@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **In the original deck:** DS — Decentralized — Synthetic.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-076 — Digital communities and virtual interaction.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
 
 **Life domains:** Education; Work.  
 **Industries:** Programming; vocational learning.  

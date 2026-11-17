@@ -49,7 +49,7 @@ def field(body, label):
     return m.group(1).strip() if m else ''
 
 # заметки макротрендов: MT-id → базовый путь; к нему добавляется -cs/-ce/-ds/-de по сценарию сигнала
-MT_NOTES = {'ru': {'MT-031': 'materialy/makrotrendy/masterstvo-cheloveka'}, 'en': {}}
+MT_NOTES = {'ru': {'MT-031': 'materialy/makrotrendy/masterstvo-cheloveka'}, 'en': {'MT-031': 'en/materials/macrotrends/human-mastery'}}
 SCEN_SLUG = {'ЦС': 'cs', 'ЦЗ': 'ce', 'ДС': 'ds', 'ДЗ': 'de', 'CS': 'cs', 'CE': 'ce', 'DS': 'ds', 'DE': 'de'}
 
 def link_mt(m, lang, code):

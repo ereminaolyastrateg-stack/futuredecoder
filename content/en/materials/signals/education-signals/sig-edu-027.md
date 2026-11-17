@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** An adult develops a personal plan from their own life and professional challenges. Their experience and chosen goal become the basis of the educational route.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work; Close relationships and family.  
 **Industries:** Higher education; adult learning.  

@@ -52,7 +52,7 @@ updated: 2026-11-16
 
 **Why this scenario:** Part of the facilitator’s work is written into instructions and a sequence of actions. The group can follow the session using a process arranged in advance.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-007 — Work automation; MT-031 — Human mastery.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-007 — Work automation; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
 **Life domains:** Education.  
 **Industries:** Informal education; facilitation; design.  

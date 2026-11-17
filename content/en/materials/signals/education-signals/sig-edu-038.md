@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Why this scenario:** The group changes the workshop script, materials and roles and observes how this affects collaboration. The way of learning itself can be rebuilt in response to feedback.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-031 — Human mastery; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work.  
 **Industries:** Design; informal education; facilitation.  
