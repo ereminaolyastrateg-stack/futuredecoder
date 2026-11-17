@@ -15,5 +15,6 @@ updated: 2026-11-17
 *Макротренд — большая сила изменений. В каждом из четырёх миров Декодера она выглядит по-своему, поэтому у макротренда пять заметок: общая и по одной на каждый мир. В каждой есть сцена из 2035 года, сигналы и то, что нашли на играх.*
 
 - [[materialy/makrotrendy/masterstvo-cheloveka|Мастерство человека]] (MT-031): [[materialy/makrotrendy/masterstvo-cheloveka-cs|ЦС]] · [[materialy/makrotrendy/masterstvo-cheloveka-ce|ЦЗ]] · [[materialy/makrotrendy/masterstvo-cheloveka-ds|ДС]] · [[materialy/makrotrendy/masterstvo-cheloveka-de|ДЗ]]
+- [[materialy/makrotrendy/obrazovanie-znanie-gramotnost|Образование, знание и грамотность]] (MT-043): [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-cs|ЦС]] · [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ce|ЦЗ]] · [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ds|ДС]] · [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-de|ДЗ]]
 
 Сигналы, из которых собраны макротренды, — в [[materialy/signaly/index|разделе «Сигналы»]].
