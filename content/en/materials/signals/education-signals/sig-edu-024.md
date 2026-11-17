@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
 
-**Life domains:** Education; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Design education; foresight; film.  
 **Thematic tags:** imagination, scenarios, world building.
 

@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; MT-066 — Transformation of work and talent management.
 
-**Life domains:** Education; Work; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Education; HR; digital credentials.  
 **Thematic tags:** CLR, portfolio, privacy, informal learning.
 

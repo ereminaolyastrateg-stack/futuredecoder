@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
-**Life domains:** Education; Work.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** School education; assessment; admissions.  
 **Thematic tags:** portfolio, criteria, evidence of skills.
 

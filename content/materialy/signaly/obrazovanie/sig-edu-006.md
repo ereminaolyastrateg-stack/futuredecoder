@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Макротренды-драйверы:** [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-cs|MT-043 — Образование, знание и грамотность]]; MT-044 — Общественное доверие и цифровая этика; [[materialy/makrotrendy/masterstvo-cheloveka-cs|MT-031 — Мастерство человека]].
 
-**Сферы:** Образование; Работа.  
+**Сферы:** [[chetyre-mira/sfery/obrazovanie-cs|Образование]]; [[chetyre-mira/sfery/rabota-cs|Работа]].  
 **Отрасли:** Школьное образование; оценивание; поступление.  
 **Тематические теги:** портфолио, критерий, доказательства навыка.
 

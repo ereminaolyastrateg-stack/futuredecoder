@@ -61,7 +61,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-047 — Advanced AI systems and cognitive computing; MT-002 — Human–machine interaction.
 
-**Life domains:** Education; Work.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** Education; EdTech; service design.  
 **Thematic tags:** AI, teacher role, learning environment, critical thinking, empathy, speculative design.
 

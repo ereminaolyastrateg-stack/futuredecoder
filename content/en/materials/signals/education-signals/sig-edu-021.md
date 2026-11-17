@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
 
-**Life domains:** Education; Work.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]].  
 **Industries:** Design; printing; open online learning.  
 **Thematic tags:** YouTube, self directed learning, documentation.
 

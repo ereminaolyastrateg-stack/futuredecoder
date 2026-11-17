@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; MT-081 — Ecosystems, super-apps and the platform economy.
 
-**Life domains:** Education; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Design; AI; information platforms.  
 **Thematic tags:** values, information environment, user interests.
 

@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
-**Life domains:** Education; Work.  
+**Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Entrepreneurship education; project management.  
 **Thematic tags:** projects, team, change.
 

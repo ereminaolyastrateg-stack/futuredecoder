@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
-**Life domains:** Education; Work; Close relationships and family.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]].  
 **Industries:** Higher education; adult learning.  
 **Thematic tags:** life experience, personal plan, portfolio.
 

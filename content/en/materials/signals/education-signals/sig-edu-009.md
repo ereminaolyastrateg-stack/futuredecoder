@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-007 — Work automation; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
-**Life domains:** Education.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Informal education; facilitation; design.  
 **Thematic tags:** instructions, workshop, self organisation.
 

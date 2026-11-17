@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-030 — Culture as a source of futures; MT-029 — Crisis of social institutions.
 
-**Life domains:** Education; Place of living and public environment; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Design; exhibitions; cultural education.  
 **Thematic tags:** biennial, school, educational experiment.
 

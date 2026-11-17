@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Макротренды-драйверы:** [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ce|MT-043 — Образование, знание и грамотность]]; [[materialy/makrotrendy/masterstvo-cheloveka-ce|MT-031 — Мастерство человека]]; MT-066 — Трансформация рынка труда и управление талантами.
 
-**Сферы:** Образование; Работа.  
+**Сферы:** [[chetyre-mira/sfery/obrazovanie-ce|Образование]]; [[chetyre-mira/sfery/rabota-ce|Работа]].  
 **Отрасли:** Высшее образование; R&D; сотрудничество с индустрией.  
 **Тематические теги:** Design Factory, междисциплинарность, прототип.
 

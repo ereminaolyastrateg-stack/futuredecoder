@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-076 — Digital communities and virtual interaction; MT-038 — Inequality and resource distribution.
 
-**Life domains:** Education; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Libraries; adult education; open resources.  
 **Thematic tags:** learning circle, peer learning, facilitation.
 

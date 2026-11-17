@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
 
-**Life domains:** Education; Work; Place of living and public environment.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]].  
 **Industries:** Solar energy; vocational learning.  
 **Thematic tags:** practice, access to learning, solar energy.
 

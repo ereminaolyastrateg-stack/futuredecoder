@@ -107,6 +107,8 @@ updated: 2026-11-17
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-cs|Мастерство человека — ЦС]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-cs|Образование — ЦС]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-006|Mastery Transcript]], [[materialy/signaly/obrazovanie/sig-edu-009|An Automatic Workshop]] и все остальные — по тегу #сценарий/ЦС или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ЦС».
 
+**В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-cs|Здоровье]] · [[chetyre-mira/sfery/finansy-cs|Финансы]] · [[chetyre-mira/sfery/rabota-cs|Работа]] · [[chetyre-mira/sfery/obrazovanie-cs|Образование]] · [[chetyre-mira/sfery/semya-cs|Семья]] · [[chetyre-mira/sfery/sreda-cs|Среда]] · [[chetyre-mira/sfery/byt-cs|Быт]] · [[chetyre-mira/sfery/smysl-cs|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
+
 **Другие миры:** [[chetyre-mira/centr-zemlya|ЦЗ — Центр + Земля]] · [[chetyre-mira/decentr-sintetika|ДС — Децентр + Синтетика]] · [[chetyre-mira/decentr-zemlya|ДЗ — Децентр + Земля]].
 
 **Определения внешних моделей:** [AQAL](https://integrallife.com/quadrants/); [Cynefin](https://cynefin.io/wiki/Cynefin); [спиральная динамика](https://spiral-dynamics.com/Graves/colors.htm); [Грейнер](https://store.hbr.org/product/evolution-and-revolution-as-organizations-grow/98308); [Адизес](https://adizes-institute.gitbook.io/adizes/dictionary-of-terms/organizational-lifecycle); [BCG](https://www.bcg.com/publications/2014/growth-share-matrix-bcg-classics-revisited); [Минцберг](https://pubsonline.informs.org/doi/10.1287/mnsc.26.3.322).

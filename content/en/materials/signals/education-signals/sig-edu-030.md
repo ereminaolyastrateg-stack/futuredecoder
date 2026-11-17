@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-076 — Digital communities and virtual interaction; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
 
-**Life domains:** Education; Close relationships and family; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** School and informal education.  
 **Thematic tags:** intention, reflection, shared rules.
 

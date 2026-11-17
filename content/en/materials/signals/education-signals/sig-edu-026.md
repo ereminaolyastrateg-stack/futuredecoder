@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
 
-**Life domains:** Education; Close relationships and family.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]].  
 **Industries:** School education.  
 **Thematic tags:** choice, coach, independence.
 

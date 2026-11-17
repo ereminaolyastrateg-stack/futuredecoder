@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-047 — Advanced AI systems and cognitive computing; MT-044 — Social trust and digital ethics.
 
-**Life domains:** Education; Work; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Higher education; design; AI literacy.  
 **Thematic tags:** AI literacy, bias, authorship.
 

@@ -101,6 +101,8 @@ In the games people separated the efficiency of AI help from independence from i
 - Macrotrends: [[en/materials/macrotrends/human-mastery-ds|Human Mastery — DS]], [[en/materials/macrotrends/education-knowledge-literacy-ds|Education — DS]].
 - Signals: [[en/materials/signals/education-signals/sig-edu-021|Exercises in Learning]], [[en/materials/signals/education-signals/sig-edu-027|College Unbound]] and all the others — under the tag #scenario/DS or in the [[en/materials/signals/education|catalog]] filtered by world.
 
+**In the eight life spheres:** [[en/four-worlds/life-spheres/health-ds|Health]] · [[en/four-worlds/life-spheres/finance-ds|Finance]] · [[en/four-worlds/life-spheres/work-ds|Work]] · [[en/four-worlds/life-spheres/education-ds|Education]] · [[en/four-worlds/life-spheres/family-ds|Family]] · [[en/four-worlds/life-spheres/place-ds|Place]] · [[en/four-worlds/life-spheres/everyday-life-ds|Everyday life]] · [[en/four-worlds/life-spheres/meaning-ds|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
+
 **Other worlds:** [[en/four-worlds/centralized-synthetic|CS — Centralized + Synthetic]] · [[en/four-worlds/centralized-earth|CE — Centralized + Earth]] · [[en/four-worlds/decentralized-earth|DE — Decentralized + Earth]].
 
 **Definitions of external models:** [AQAL](https://integrallife.com/quadrants/); [Cynefin](https://cynefin.io/wiki/Cynefin); [Spiral Dynamics](https://spiral-dynamics.com/Graves/colors.htm); [Greiner](https://store.hbr.org/product/evolution-and-revolution-as-organizations-grow/98308); [Adizes](https://adizes-institute.gitbook.io/adizes/dictionary-of-terms/organizational-lifecycle); [BCG](https://www.bcg.com/publications/2014/growth-share-matrix-bcg-classics-revisited).

@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
 
-**Life domains:** Education; Everyday life, consumption and leisure; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/everyday-life-cs|Everyday life, consumption and leisure]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Museums; cultural education; AI interfaces.  
 **Thematic tags:** museum, personalisation, curiosity.
 

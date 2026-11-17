@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-038 — Inequality and resource distribution; MT-030 — Culture as a source of futures.
 
-**Life domains:** Education; Close relationships and family; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/family-cs|Close relationships and family]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Design; school education; social inquiry.  
 **Thematic tags:** educational pathway, inequality, social connections.
 

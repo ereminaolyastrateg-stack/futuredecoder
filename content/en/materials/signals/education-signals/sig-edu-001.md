@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
 
-**Life domains:** Education; Close relationships and family.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/family-cs|Close relationships and family]].  
 **Industries:** Education; EdTech; VR.  
 **Thematic tags:** VR, preschool, progress assessment.
 

@@ -27,6 +27,8 @@ The worlds come from two questions. **Where do decisions and rules sit:** in a c
 
 Each world's page covers what it looks like in life, its person, its strength and price, which well-known models it echoes (AQAL, Cynefin, Spiral Dynamics, generational archetypes, stages of organisational development), where it appears in history, and what the games added. At the bottom — everything from this world in the garden.
 
+How each world looks in the eight life spheres — from health and finance to meaning and community — is in the [[en/four-worlds/life-spheres/index|Life Spheres]] section: 33 subspheres, 132 cards.
+
 Comparisons with external models show a similarity of logic, not equivalence: each model has its own subject and axes.
 
 How the four worlds work with images of the future — in the article [[en/theory/the-future-as-a-mental-model|"The Future as a Mental Model"]].

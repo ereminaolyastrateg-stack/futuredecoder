@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-038 — Inequality and resource distribution; MT-054 — Designing futures and strategic vision.
 
-**Life domains:** Education; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** STEM; makerspaces; non-formal education.  
 **Thematic tags:** participation, power, co creating rules.
 

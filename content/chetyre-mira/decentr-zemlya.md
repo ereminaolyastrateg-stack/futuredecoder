@@ -111,6 +111,8 @@ updated: 2026-11-17
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-de|Мастерство человека — ДЗ]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-de|Образование — ДЗ]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-038|Figuring Things Out Together]], [[materialy/signaly/obrazovanie/sig-edu-029|42]] и все остальные — по тегу #сценарий/ДЗ или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ДЗ».
 
+**В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-de|Здоровье]] · [[chetyre-mira/sfery/finansy-de|Финансы]] · [[chetyre-mira/sfery/rabota-de|Работа]] · [[chetyre-mira/sfery/obrazovanie-de|Образование]] · [[chetyre-mira/sfery/semya-de|Семья]] · [[chetyre-mira/sfery/sreda-de|Среда]] · [[chetyre-mira/sfery/byt-de|Быт]] · [[chetyre-mira/sfery/smysl-de|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
+
 **Другие миры:** [[chetyre-mira/centr-sintetika|ЦС — Центр + Синтетика]] · [[chetyre-mira/centr-zemlya|ЦЗ — Центр + Земля]] · [[chetyre-mira/decentr-sintetika|ДС — Децентр + Синтетика]].
 
 **Определения внешних моделей:** [AQAL](https://integrallife.com/quadrants/); [Cynefin](https://cynefin.io/wiki/Cynefin); [спиральная динамика](https://spiral-dynamics.com/Graves/colors.htm); [Грейнер](https://store.hbr.org/product/evolution-and-revolution-as-organizations-grow/98308); [Адизес](https://adizes-institute.gitbook.io/adizes/dictionary-of-terms/organizational-lifecycle); [BCG](https://www.bcg.com/publications/2014/growth-share-matrix-bcg-classics-revisited); [Минцберг](https://pubsonline.informs.org/doi/10.1287/mnsc.26.3.322).

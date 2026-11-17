@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Макротренды-драйверы:** [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ds|MT-043 — Образование, знание и грамотность]]; [[materialy/makrotrendy/masterstvo-cheloveka-ds|MT-031 — Мастерство человека]]; MT-076 — Цифровые сообщества и виртуальное взаимодействие.
 
-**Сферы:** Образование; Работа.  
+**Сферы:** [[chetyre-mira/sfery/obrazovanie-ds|Образование]]; [[chetyre-mira/sfery/rabota-ds|Работа]].  
 **Отрасли:** Дизайн; печать; открытое онлайн-обучение.  
 **Тематические теги:** YouTube, самообразование, документация.
 

@@ -1,0 +1,1382 @@
+{
+ "subs": {
+  "Тело и физические возможности": {
+   "name": "Body and physical abilities",
+   "question": "Which abilities of my body do I want to keep or develop? What do I want to do more easily? What am I ready to rely on: assistive devices, guidance or my own sense of movement?",
+   "boundary": "Body functions and bodily sense. The medical route is H5; routine and recovery are H2."
+  },
+  "Привычки, сон и восстановление": {
+   "name": "Habits, sleep and recovery",
+   "question": "How do I want to feel after sleep and rest? Which rhythm of eating, activity and recovery suits me? How much daily attention am I ready to give it?",
+   "boundary": "Rhythm and well-being. Delivery, cleaning and cooking as housework are B2."
+  },
+  "Психическое здоровье": {
+   "name": "Mental health",
+   "question": "What emotional stability and support do I want? What am I ready to change in how I relate to myself and my feelings? How do I want to get help in hard times?",
+   "boundary": "Mental state and support. The format of close relationships is K1; life role is V1."
+  },
+  "Когнитивное здоровье": {
+   "name": "Cognitive health",
+   "question": "How do I want my attention, memory and clarity of thinking to be? What do I want to offload, and what do I want to keep as my own ability? How will I notice overload?",
+   "boundary": "How memory and attention work. Learning content is E1; proof of training is E3."
+  },
+  "Профилактика, лечение, реабилитация и уход": {
+   "name": "Prevention, treatment, rehabilitation and care",
+   "question": "How do I want to organise medical care and recovery? Who links my visits into one route? Which decisions do I want to take part in personally?",
+   "boundary": "Choosing and coordinating care, not prescriptions. Practical help for loved ones is K3."
+  },
+  "Доходы и поступления": {
+   "name": "Income and inflows",
+   "question": "Where from and for what do I want to receive money? How far should income depend on time, results, capital or personal mastery? Which conditions suit me? Which inflows can I receive without working — help from others, benefits or money from selling property? Which are regular and which one-off?",
+   "boundary": "Sources of inflow, including regular and one-off inflows without earnings. Selling property turns an asset into money; the whole proceeds are not profit. Career role and growth are W1; building assets is F3."
+  },
+  "Расходы и обязательства": {
+   "name": "Spending and obligations",
+   "question": "How do I want to allocate current money and pay obligations? Which spending decisions do I keep for myself? How do I keep payments within my means?",
+   "boundary": "Managing cash flow. The motive for consumption is V5, choosing goods is B3, protection from shocks is F4."
+  },
+  "Капитал и накопления": {
+   "name": "Capital and savings",
+   "question": "What do I want to accumulate and why? Which assets and abilities do I consider my capital? From what means and for whom am I building it?",
+   "boundary": "Composition and creation of capital. Income from it is F1; reserves and protection horizon are F4. Education is not a liquid asset."
+  },
+  "Финансовая устойчивость": {
+   "name": "Financial resilience",
+   "question": "What will I rely on if I lose income or face a big expense? For how long do I want to be prepared? Which obligations and dependencies am I ready to accept?",
+   "boundary": "The way to withstand shocks and the planning horizon. Not a list of savings, which is F3."
+  },
+  "Направление, роль и профессиональный рост": {
+   "name": "Direction, role and professional growth",
+   "question": "Who do I want to be at work? What do I count as progress: conditions, scope of responsibility, project value, product quality or recognition? How do I want to change, reduce or end my professional role, and do I want other work afterwards?",
+   "boundary": "Role and career criterion, including changing and ending a career. Source of money is F1, daily actions W2, transfer of ownership F3, preparing successors W4. Continuing to work is not required."
+  },
+  "Выполнение задач": {
+   "name": "Getting tasks done",
+   "question": "How do I want to produce a concrete work result? Which decisions am I ready to make myself? What do I do personally, and what do I hand to software, a template or another person?",
+   "boundary": "The way of doing concrete work. Career progress is W1; team authority is W4."
+  },
+  "Время, место и условия труда": {
+   "name": "Time, place and working conditions",
+   "question": "Where, when and at what pace do I want to work? Which conditions do I need? How important are ready equipment, colleagues nearby, mobility or the chance to go deep?",
+   "boundary": "Space, schedule and conditions. Where to live is C1; how to do the task is W2."
+  },
+  "Сотрудничество и управление": {
+   "name": "Collaboration and management",
+   "question": "How do I want to work with others? Who distributes tasks and decides in disagreements? Who can change the rules of joint work, and how? How do we pass on experience, documentation and unfinished work, and who owns shared results?",
+   "boundary": "Work coordination, including handover of experience and work, rights to joint results, monetary and non-monetary exchange. Public decisions are C4; the need for a social circle is V3."
+  },
+  "Цель, маршрут и доступ к знаниям": {
+   "name": "Purpose, route and access to knowledge",
+   "question": "Why do I need knowledge? What do I want to understand myself, and where is an answer enough? Who chooses topics, sequence and sources?",
+   "boundary": "Choice of content and path. Practice is E2; diplomas and recognition are E3."
+  },
+  "Практика и применение знаний": {
+   "name": "Practice and applying knowledge",
+   "question": "How will I turn familiarity with a topic into the ability to act? On which tasks will I try? What should work without the help I had before?",
+   "boundary": "Changing skill through practice. Producing a work product is W2; assessment and documents are E3."
+  },
+  "Обратная связь и признание": {
+   "name": "Feedback and recognition",
+   "question": "How will I know what I've learned and what I can't do yet? Whose assessment matters? Why do I need confirmation: licensing, professional trust or recognition of my contribution?",
+   "boundary": "Assessment of training and evidence. Learning content is E1; career status is W1."
+  },
+  "Близость, договорённости и совместная жизнь": {
+   "name": "Closeness, agreements and life together",
+   "question": "Whom do I consider closest? Do I need partnership and a shared household? How much shared life, mutual support and independence do I want?",
+   "boundary": "The closest circle and shared life, including without a partner. Wider social life is V3; concrete help in need is K3."
+  },
+  "Воспитание и развитие детей": {
+   "name": "Raising and developing children",
+   "question": "Do I want parenthood, and what place should it have in my life? How am I ready to invest time, money and attention? What help do I want to rely on?",
+   "boundary": "The parent's role and the conditions for development. Choosing not to have children, uncertainty and life stage are not scenarios."
+  },
+  "Забота и помощь близким": {
+   "name": "Care and help for loved ones",
+   "question": "How do I want to help loved ones when they can't cope on their own? What do I take on, and whom do I trust with the rest? How will I get help myself? What help do I want to receive and give after the loss of a loved one, including organising a farewell and supporting those left behind?",
+   "boundary": "Concrete support in need, including help after a loss and organising a farewell. Not ordinary housework (B2), not medical prescriptions (H5), not the definition of closeness (K1)."
+  },
+  "Место жизни и мобильность": {
+   "name": "Place of living and mobility",
+   "question": "Where do I want to build everyday life, and how tied to a place do I want to be? How often do I want to and can I move around? What matters more: nearby services, belonging, the option to move, or a base of my own?",
+   "boundary": "Geography, transport and attachment to place. Type and furnishing of the home is B1; environmental conditions are C3."
+  },
+  "Инфраструктура, права и безопасность": {
+   "name": "Infrastructure, rights and safety",
+   "question": "How do I want to get basic services and help when things fail? Who protects my interests? What can I really choose, prepare or decide within the existing rules? How will I get water, energy and connectivity — through a provider, my own equipment or together with others?",
+   "boundary": "Access to utility and public infrastructure, rights, physical safety, including own and shared supply and restoring access. Personal accounts and data are B5; the state of the local environment is C3."
+  },
+  "Природа и качество среды": {
+   "name": "Nature and environmental quality",
+   "question": "How important are air, water, quiet and living nature to me? Which conditions do I consider enough? What am I ready to change in my life for the environment, and how do I account for my impact? What do I want to preserve and restore, even without direct benefit to myself?",
+   "boundary": "Environmental quality and ecological priority, including natural processes, biodiversity and restoring nature. Not just decorative greenery or gardening."
+  },
+  "Участие в общих решениях": {
+   "name": "Taking part in shared decisions",
+   "question": "Which shared issues do I want to decide? Do I believe I can have influence, and what powers do I really have? What do I delegate, and where am I ready to take part in choosing rules and priorities?",
+   "boundary": "The right to shape and make shared decisions, including civic duties within real powers. Supporting a public result through action is V4."
+  },
+  "Жильё и обустройство": {
+   "name": "Housing and home setup",
+   "question": "What kind of home do I want: a flat or a house, its size, surroundings, equipment? Do I need ownership, or is access enough? Which cares of setting up a home am I ready to take on?",
+   "boundary": "The desired home and space. Geographic ties and moves are C1; household routine is B2."
+  },
+  "Быт и домашний сервис": {
+   "name": "Household and home services",
+   "question": "Which household tasks do I want to do, and which not? Who cooks, cleans and looks after things? How do we share the load, and how much will I pay for freed-up time? How do I want to supply the home with food and household items: buy, grow, make or share?",
+   "boundary": "Housework and maintenance, including supplying, making, storing, repairing and sharing household items. Food as health is H2; care when someone loses independence is K3."
+  },
+  "Одежда, личные вещи и уход": {
+   "name": "Clothing, personal items and grooming",
+   "question": "Which things and care do I need? What matters more: novelty, quality, exact fit or sufficiency? Where am I ready to dig into details, and what share of the budget will I allocate?",
+   "boundary": "Concrete consumption of clothing, personal items and non-medical care. The general motive for consumption is V5."
+  },
+  "Отдых, путешествия и впечатления": {
+   "name": "Leisure, travel and experiences",
+   "question": "What do I want from free time: a change of events, cultural experience, personal impressions or depth and quiet? Do I need to travel for that?",
+   "boundary": "Concrete leisure. Why I consume experiences at all is V5; recovery as a routine is H2."
+  },
+  "Цифровые сервисы, данные и безопасность": {
+   "name": "Digital services, data and security",
+   "question": "How do I want to use communications, accounts and digital services? What am I ready to share for convenience? Who stores the data and is responsible for settings, recovering access and protection? What should happen to my accounts and files after my death?",
+   "boundary": "Personal digital life, including access devices, data transfer, ending subscriptions and digital legacy. Network availability as infrastructure is C2. Security, privacy and control are different outcomes."
+  },
+  "Моя роль, ценности и смысл": {
+   "name": "My role, values and meaning",
+   "question": "What do I live for, and what role do I give myself in the world? What do I want to receive, continue, discover, create or preserve? What will make me consider my life meaningful? What place do worldview, faith and spiritual practices have in my life?",
+   "boundary": "Role and meaning outwards, including worldview, faith and choosing between values. The criterion of enough comfort is V5; concrete public action is V4."
+  },
+  "Комфорт и отношение к потреблению": {
+   "name": "Comfort and attitude to consumption",
+   "question": "What does consumption give me: convenience, status, emotions or support for what matters? Where is enough for me? For what am I ready to spend more, or to skip a purchase?",
+   "boundary": "The general motive and the line of sufficiency. Concrete purchases are B3, leisure B4, budgeting F2."
+  },
+  "Отношение к людям, дружба и сообщества": {
+   "name": "Relationships with people, friendship and communities",
+   "question": "What place do other people have in my life? Do I need company, belonging, shared interests, deep understanding or a mix? What am I ready to give to these relationships myself?",
+   "boundary": "The social environment: friends, acquaintances, communities and different circles. K1 is the closest circle. The number of people isn't tied to a scenario; combinations are possible."
+  },
+  "Творчество и самовыражение": {
+   "name": "Creativity and self-expression",
+   "question": "What do I want to express or create — even if it brings no money and nobody needs it? How do I want to bring my idea to life? Do I want to share what I've made, and on what terms?",
+   "boundary": "Self-expression and realising a personal idea. A finished product and publication are optional, and you may not give this a place in your life at all."
+  },
+  "Вклад и общественное действие": {
+   "name": "Contribution and public action",
+   "question": "Beyond my personal life, what do I want to support or change — and what am I ready to do for it? Do I believe my contribution can change something? What exactly?",
+   "boundary": "Change for others through support. V3 is connections and belonging; C4 is rules, priorities and distributing resources."
+  }
+ },
+ "cards": {
+  "H1-ЦС": {
+   "name": "Body support with service",
+   "situation": "If I need to improve or heal myself, I trust one clinic: it picks the treatment, monitors it and reminds me when to come for a check-up.",
+   "plus": "Support for a specific function without having to master the whole technique; a clear contact for servicing.",
+   "minus": "Dependence on the quality of fitting, consumables and service; help from a device doesn't develop your own abilities.",
+   "practices": [
+    "I go to a workshop where they fit my glasses and later repair them."
+   ]
+  },
+  "H1-ЦЗ": {
+   "name": "Strength and endurance with a coach",
+   "situation": "Twice a week I train with a coach who adjusts my load.",
+   "plus": "External motivation and timely feedback; a consistent sequence of sessions.",
+   "minus": "Cost and dependence on the coach's competence; an awkward schedule can get in the way of regularity.",
+   "practices": [
+    "A coach builds a strength programme for me and corrects my technique."
+   ]
+  },
+  "H1-ДС": {
+   "name": "Personal tech support",
+   "situation": "I choose my own watch or sensors for training and decide what to track.",
+   "plus": "Support can be fitted to a personal goal and changed piece by piece; the chosen metrics are visible.",
+   "minus": "Measurement and interpretation errors; costs of compatibility and maintenance; numbers can crowd out sensations.",
+   "practices": [
+    "I compare data from my watch and app and adjust the load myself.",
+    "I combine data from several wearables into my own training plan."
+   ]
+  },
+  "H1-ДЗ": {
+   "name": "Feeling the body and mastering movement",
+   "situation": "I go to dance or movement classes to feel my body better.",
+   "plus": "A finer sense of movement and independence in choosing a manageable load.",
+   "minus": "Takes time and regularity; subjective sensation doesn't replace assessment of an injury or illness.",
+   "practices": [
+    "I train my balance with yoga and physical exercise."
+   ]
+  },
+  "H2-ЦС": {
+   "name": "Recovery by a ready-made programme",
+   "situation": "I use a ready-made sleep and nutrition programme with reminders.",
+   "plus": "Less daily planning; easier to repeat the chosen routine.",
+   "minus": "A ready routine may not match your life; without the programme the habit may not hold.",
+   "practices": [
+    "I sleep and eat according to a sanatorium's fixed schedule.",
+    "I take a ready-made sleep recovery course based on a protocol."
+   ]
+  },
+  "H2-ЦЗ": {
+   "name": "Habits with personal guidance",
+   "situation": "With a sleep specialist I gradually change my habits and discuss the results.",
+   "plus": "Personal review of difficulties and gradual change; support for regularity.",
+   "minus": "Cost and meeting time; quality depends on the specialist's skill and how realistic the plan is.",
+   "practices": [
+    "A sleep consultant helps me keep a diary and change my habits."
+   ]
+  },
+  "H2-ДС": {
+   "name": "A configured sleep and rest mode",
+   "situation": "At home, lights and notifications automatically switch to a calm evening mode.",
+   "plus": "Fewer repeated decisions; conditions can be set to my own schedule.",
+   "minus": "Settings need maintenance; not every device metric reflects the quality of recovery.",
+   "practices": [
+    "I choose my own tracker, alarm and rest schedule."
+   ]
+  },
+  "H2-ДЗ": {
+   "name": "My own rhythm and sense of measure",
+   "situation": "I watch when I get tired and adjust sleep and rest to how I feel.",
+   "plus": "My own needs become clearer; the routine is easier to adjust when life changes.",
+   "minus": "Observation takes time and can be inaccurate; persistent problems need separate attention.",
+   "practices": [
+    "I go to bed guided by tiredness rather than a norm.",
+    "I avoid overload and leave time in my day for recovery."
+   ]
+  },
+  "H3-ЦС": {
+   "name": "An accessible support service",
+   "situation": "I contact a service that matches me with a psychologist and arranges the session.",
+   "plus": "Easier to make the first step; fewer organisational tasks in a hard period.",
+   "minus": "Limited choice of specialists and formats; switching services can break continuity.",
+   "practices": [
+    "I get a consultation through an accessible support system.",
+    "I go through a structured remote help programme via a service."
+   ]
+  },
+  "H3-ЦЗ": {
+   "name": "Working with a psychotherapist",
+   "situation": "I meet a psychotherapist regularly and work through my reactions.",
+   "plus": "Stable contact and consistent work with feelings; personal feedback.",
+   "minus": "Cost, time and finding the right specialist; change can be slow.",
+   "practices": [
+    "In a hard period I turn to a psychologist I know.",
+    "I meet regularly with a psychotherapist I chose."
+   ]
+  },
+  "H3-ДС": {
+   "name": "Support at hand",
+   "situation": "I keep a journal and the contacts of people I can turn to for support on my phone.",
+   "plus": "Support is collected in a convenient form; individual tools can be swapped.",
+   "minus": "Needs setting up and judging quality; an app doesn't provide professional help on its own.",
+   "practices": [
+    "I choose an app with exercises and decide myself when to open it.",
+    "I combine exercises, audio practices and mood notes to suit my needs."
+   ]
+  },
+  "H3-ДЗ": {
+   "name": "Understanding myself and changing reactions",
+   "situation": "I write down what I feel and learn to understand why I react the way I do.",
+   "plus": "More understanding of my own feelings and more say in choosing changes.",
+   "minus": "You can get stuck in self-analysis or wrong explanations; it takes time and willingness to ask for help.",
+   "practices": [
+    "I work through feelings by talking and writing.",
+    "I practise skills for handling difficult thoughts from a WHO guide."
+   ]
+  },
+  "H4-ЦС": {
+   "name": "Offloading memory to a ready assistant",
+   "situation": "My calendar reminds me about medicines, bills and important meetings.",
+   "plus": "Fewer missed tasks and less load on memory; easy to start.",
+   "minus": "Dependence on the service being available; too many prompts can distract and hide changes in your state.",
+   "practices": [
+    "I hand reminders and notes to a ready-made digital service."
+   ]
+  },
+  "H4-ЦЗ": {
+   "name": "Maintaining abilities with a specialist",
+   "situation": "When I have trouble with memory or attention, I see a specialist.",
+   "plus": "Difficulties are seen in the context of the person's state; there is professional feedback.",
+   "minus": "Limited availability and cost; not every plan transfers to everyday life as hoped.",
+   "practices": [
+    "I train my memory with a teacher or mentor."
+   ]
+  },
+  "H4-ДС": {
+   "name": "My own external memory",
+   "situation": "I keep notes, decisions and my calendar in my own system where everything is easy to find.",
+   "plus": "Needed information is easier to recover; the person sets the rules for access and reminders.",
+   "minus": "The archive needs care; search errors or data loss create a new burden.",
+   "practices": [
+    "I build a local assistant to search my own notes."
+   ]
+  },
+  "H4-ДЗ": {
+   "name": "Keeping clarity and focus",
+   "situation": "Every day I read or think for an hour without my phone and notifications.",
+   "plus": "Attention stays one's own support; fatigue is easier to notice.",
+   "minus": "Results are hard to measure quickly; habits depend on life circumstances and don't explain every difficulty.",
+   "practices": [
+    "I read complex texts and compare the arguments on my own."
+   ]
+  },
+  "H5-ЦС": {
+   "name": "A route through a clinic or insurer",
+   "situation": "At the clinic a coordinator arranges my tests and collects the results.",
+   "plus": "Less organisational load; it's clear who is responsible for the next step.",
+   "minus": "Network and coverage limits; a standard route may handle an unusual case poorly.",
+   "practices": [
+    "I book appointments and get prescriptions through a health service.",
+    "The system arranges the sequence of tests and reminders according to the treatment plan."
+   ]
+  },
+  "H5-ЦЗ": {
+   "name": "A doctor who knows my history",
+   "situation": "I see one family doctor who knows my history.",
+   "plus": "The doctor knows the history and circumstances; easier to link treatment with recovery.",
+   "minus": "Dependence on a particular team's availability; a risk of delaying a second opinion.",
+   "practices": [
+    "For a long time I've been seeing one trusted doctor."
+   ]
+  },
+  "H5-ДС": {
+   "name": "My own medical history and choice of care",
+   "situation": "I keep my test results and reports and decide myself whom to show them to.",
+   "plus": "More freedom in choosing care; less history lost between institutions.",
+   "minus": "Coordination stays with the person; information may be incomplete and prescriptions uncoordinated.",
+   "practices": [
+    "I get my results myself and manage my records in an app.",
+    "I gather my treatment history from several institutions into one record I can access."
+   ]
+  },
+  "H5-ДЗ": {
+   "name": "Shared decisions about health",
+   "situation": "Before treatment I discuss different options with my doctor and how they would affect my life.",
+   "plus": "Decisions are better tied to life priorities; the person understands the choice and its limits.",
+   "minus": "Discussion takes time and energy; information can be complex and contradictory.",
+   "practices": [
+    "I choose treatment together with my doctor after comparing benefits and risks."
+   ]
+  },
+  "F1-ЦС": {
+   "name": "A fixed salary",
+   "situation": "I get a stable salary every month and don't look for clients.",
+   "plus": "Easier to plan inflows; no need to chase each payment.",
+   "minus": "Dependence on one employer; extra effort has limited link to income.",
+   "practices": [
+    "I get a fixed salary for a permanent job.",
+    "My employer offers flexible forms of pay within a shared system."
+   ]
+  },
+  "F1-ЦЗ": {
+   "name": "Pay for results within an organisation",
+   "situation": "I have a base salary and a bonus for my team's results.",
+   "plus": "Contribution and reward are linked; you can earn more inside the organisation.",
+   "minus": "Income fluctuates; criteria and assessment can change without the employee's say.",
+   "practices": [
+    "My income grows with my manager's trust and the complexity of my assignments."
+   ]
+  },
+  "F1-ДС": {
+   "name": "Income from assets I own",
+   "situation": "I get income from my own flat or another asset, taking the costs into account.",
+   "plus": "Part of the inflow doesn't require selling personal time for each payment.",
+   "minus": "Requires capital; vacancies, losses, management costs and falling payouts are possible.",
+   "practices": [
+    "I combine income from rent, a digital product and an asset portfolio."
+   ]
+  },
+  "F1-ДЗ": {
+   "name": "Income from my mastery and product",
+   "situation": "I sell my own course or product that I came up with and made myself.",
+   "plus": "Reward is tied to quality and a personal professional signature.",
+   "minus": "Income depends on demand, reputation and ability to work; scaling can change quality.",
+   "practices": [
+    "I sell a product I made directly to clients."
+   ]
+  },
+  "F2-ЦС": {
+   "name": "Bills paid in a set order",
+   "situation": "My phone and utility bills are paid automatically.",
+   "plus": "Fewer forgotten bills and manual repetitions.",
+   "minus": "Mistakes can repeat automatically; it's easy to stop noticing regular costs growing.",
+   "practices": [
+    "I set money aside for mandatory payments in envelopes.",
+    "I set up automatic payments for utilities and phone."
+   ]
+  },
+  "F2-ЦЗ": {
+   "name": "A budget with a financial adviser",
+   "situation": "Once a month I go through the family budget with a financial adviser.",
+   "plus": "Easier to make sense of complex spending and work out a realistic order.",
+   "minus": "The cost of advice; possible conflict of interest; the person still has to follow the plan.",
+   "practices": [
+    "A financial adviser helps me sort out debts and spending."
+   ]
+  },
+  "F2-ДС": {
+   "name": "My own limits and regular payments",
+   "situation": "I set spending and payment limits in an app and review them.",
+   "plus": "Routine payments follow my own rules; deviations are visible.",
+   "minus": "Settings and balances need checking; an error in one rule can affect several payments.",
+   "practices": [
+    "I record spending in a notebook by my own categories.",
+    "I pick an app and create my own limits by category.",
+    "I combine several accounts into a personal system for tracking regular payments."
+   ]
+  },
+  "F2-ДЗ": {
+   "name": "Spending by meaningful priorities",
+   "situation": "My family and I decide together what to spend money on and what not to buy.",
+   "plus": "Spending is tied to meaningful priorities; the cost of obligations is easier to see.",
+   "minus": "Takes attention and conversations; people may judge what's necessary differently.",
+   "practices": [
+    "I separate spending on what matters to me from purchases out of habit."
+   ]
+  },
+  "F3-ЦС": {
+   "name": "Saving without giving up current comfort",
+   "situation": "I put small sums aside and pay for big purchases in instalments.",
+   "plus": "You can keep your usual consumption and gradually build a reserve.",
+   "minus": "Capital grows more slowly; interest on loans can eat up savings.",
+   "practices": [
+    "I put a small sum into the bank every month.",
+    "I take part in a pension scheme with automatic contributions.",
+    "A ready-made investment programme automatically shifts asset shares as the goal date approaches."
+   ]
+  },
+  "F3-ЦЗ": {
+   "name": "Housing and education by plan",
+   "situation": "Following a plan with an adviser, I save for housing or education.",
+   "plus": "Capital is tied to clear life opportunities; easier to stay consistent.",
+   "minus": "Housing can be illiquid, education doesn't guarantee returns; the strategy needs revisiting.",
+   "practices": [
+    "An adviser helps include inheritance questions in the family's financial plan."
+   ]
+  },
+  "F3-ДС": {
+   "name": "Automatic topping up of assets",
+   "situation": "Every month I automatically top up my savings or investments.",
+   "plus": "Regularity depends less on monthly effort; the choice of assets stays with you.",
+   "minus": "Auto-saving doesn't remove market risk; a wrong initial choice is repeated too.",
+   "practices": [
+    "I split my savings between deposits and diversified funds myself."
+   ]
+  },
+  "F3-ДЗ": {
+   "name": "Family wealth and passing it on",
+   "situation": "In our family we discuss inheritance and teach the children how to handle money.",
+   "plus": "Useful assets and experience can be kept for the long term; continuity grows stronger.",
+   "minus": "Possible conflicts between heirs, concentration of wealth and limits on personal choice.",
+   "practices": []
+  },
+  "F4-ЦС": {
+   "name": "The next few months and outside support",
+   "situation": "I know what help or insurance I can count on if I lose my job.",
+   "plus": "Less self-organised protection; existing programmes are used.",
+   "minus": "A short personal horizon; outside help can be limited or late, and credit creates debt.",
+   "practices": [
+    "I keep some money for illness or job loss.",
+    "I rely on deposit insurance and available social protection."
+   ]
+  },
+  "F4-ЦЗ": {
+   "name": "Protection matched to life goals",
+   "situation": "I plan a financial cushion with an adviser to match my obligations.",
+   "plus": "Protection is matched to specific deadlines and obligations.",
+   "minus": "The plan depends on the quality of its assumptions; a specialist's help doesn't remove responsibility for loans.",
+   "practices": [
+    "I consult on risks to income, health and property."
+   ]
+  },
+  "F4-ДС": {
+   "name": "A medium-term reserve by my own rules",
+   "situation": "I keep a reserve for several months of living on an accessible account.",
+   "plus": "More time to rebuild after losing income; your own limits of protection are visible.",
+   "minus": "A reserve takes resources and discipline; the estimate may underrate how long hard times last.",
+   "practices": [
+    "I build a cash reserve and insurance policies myself.",
+    "I test scenarios of losing my main income in my own cash-flow spreadsheet."
+   ]
+  },
+  "F4-ДЗ": {
+   "name": "Family resilience across generations",
+   "situation": "We agreed in advance who will take care of the bills and documents if I can't.",
+   "plus": "A long horizon and several supports; knowledge isn't concentrated in one person.",
+   "minus": "Complex agreements and different interests across generations; family support isn't guaranteed.",
+   "practices": []
+  },
+  "W1-ЦС": {
+   "name": "A specialist with better conditions",
+   "situation": "I work as a specialist with a good salary and a convenient schedule, without managing people.",
+   "plus": "A clear role and a way to improve conditions; you can stay a specialist.",
+   "minus": "The ceiling depends on how the organisation is built; higher pay may come with a hidden rise in workload.",
+   "practices": [
+    "I choose an employer with transparent pay and conditions for growth."
+   ]
+  },
+  "W1-ЦЗ": {
+   "name": "A leader of people and large projects",
+   "situation": "I lead a large team and project and am responsible for people and the budget.",
+   "plus": "You can influence a large result and people's growth.",
+   "minus": "More responsibility for others' work, more conflicts and organisational load.",
+   "practices": [
+    "I lead a team and am responsible for a complex project in the organisation."
+   ]
+  },
+  "W1-ДС": {
+   "name": "An independent project professional",
+   "situation": "I choose my own clients and run several independent projects at once.",
+   "plus": "Freedom to choose projects; the value of expertise grows without a mandatory career ladder.",
+   "minus": "Uneven workload, the need to sell your work and keep up proof of quality.",
+   "practices": [
+    "I build a portfolio of project roles instead of a single permanent position."
+   ]
+  },
+  "W1-ДЗ": {
+   "name": "A master of my craft and product",
+   "situation": "For years I've been developing my own product and working under my own name.",
+   "plus": "Building deep mastery and a personal signature.",
+   "minus": "A slow path to recognition; a high bar of quality can limit speed and volume.",
+   "practices": []
+  },
+  "W2-ЦС": {
+   "name": "A clear task and a ready procedure",
+   "situation": "I get clear tasks, do them by the instructions and pass difficult cases to my manager.",
+   "plus": "It's clear what to do and when a task is finished; less uncertainty.",
+   "minus": "Little influence on the idea; instructions may not cover a difficult case.",
+   "practices": [
+    "I do the work by step-by-step instructions.",
+    "I receive tasks in a system and mark them as done."
+   ]
+  },
+  "W2-ЦЗ": {
+   "name": "A meaningful result with a manager",
+   "situation": "My manager explains the purpose of the project, and I'm responsible for the result of my part.",
+   "plus": "The value of the work is visible, and there is support in difficult cases.",
+   "minus": "Dependence on the quality of management; approvals can slow work down.",
+   "practices": [
+    "My manager explains the purpose of the task and helps me fix mistakes.",
+    "At difficult stages I discuss with a mentor not only the result but also the method."
+   ]
+  },
+  "W2-ДС": {
+   "name": "My own processes with minimal routine",
+   "situation": "I remove repetitive work routine with templates and configured tools.",
+   "plus": "Repetitive work takes less manual effort; you can change the rules yourself.",
+   "minus": "An error scales with the process; checking and maintenance don't disappear.",
+   "practices": [
+    "I set up automatic report generation from data."
+   ]
+  },
+  "W2-ДЗ": {
+   "name": "Deep work on quality",
+   "situation": "I work several days in a row without meetings to do a complex task well.",
+   "plus": "The chance to deepen mastery and solve non-standard problems.",
+   "minus": "High time costs; hard to promise an exact deadline for exploratory work.",
+   "practices": []
+  },
+  "W3-ЦС": {
+   "name": "An office where everything is ready",
+   "situation": "I come to an office where the equipment, internet and workplace are already set up.",
+   "plus": "Ready equipment and less organisational hassle.",
+   "minus": "Tied to a place and schedule; comforts don't make up for an awkward schedule.",
+   "practices": [
+    "I come to a dedicated office at a set time.",
+    "I use a ready workplace and company equipment."
+   ]
+  },
+  "W3-ЦЗ": {
+   "name": "A work environment next to colleagues",
+   "situation": "I work next to colleagues and learn from them as I go.",
+   "plus": "Quick discussion and a sense of common cause; access to colleagues' experience.",
+   "minus": "Noise, interruptions and the need to agree on when to be present.",
+   "practices": [
+    "I go to the office for meetings, mentoring and sharing experience."
+   ]
+  },
+  "W3-ДС": {
+   "name": "Remote work on my own schedule",
+   "situation": "I work from home and agree my availability hours with clients myself.",
+   "plus": "Work can be fitted to life, and the place can change.",
+   "minus": "Organising conditions falls on the person; the boundaries of working time can blur.",
+   "practices": [
+    "I switch between a home office and a coworking space.",
+    "I set up one workflow across several devices and countries."
+   ]
+  },
+  "W3-ДЗ": {
+   "name": "Place and time for deep focus",
+   "situation": "I agree on meeting-free days and work in a quiet place.",
+   "plus": "Conditions support attentive work and an individual rhythm.",
+   "minus": "Needs space, discipline and agreements; not every profession allows this mode.",
+   "practices": []
+  },
+  "W4-ЦС": {
+   "name": "Clear roles and measurable rules",
+   "situation": "In my team everyone has a clear role and the rules of work are understood.",
+   "plus": "Less uncertainty about duties and accepting results.",
+   "minus": "Formal metrics can encourage rivalry and hide mutual help.",
+   "practices": [
+    "The team is managed by roles, metrics and scheduled meetings."
+   ]
+  },
+  "W4-ЦЗ": {
+   "name": "A team with a respected leader",
+   "situation": "I work with a strong leader whom I trust to choose the direction.",
+   "plus": "Disputes are settled quickly, and there is one direction.",
+   "minus": "Dependence on one leader; disagreement can be hard to voice.",
+   "practices": [
+    "The leader helps the team reconcile conflicting goals."
+   ]
+  },
+  "W4-ДС": {
+   "name": "Independent contractors and clear contracts",
+   "situation": "I assemble a team of independent contractors for a project and agree on the result.",
+   "plus": "A flexible line-up for the task and limited contractual obligations.",
+   "minus": "Coordinating separate parts can be expensive; shared responsibility can be blurred.",
+   "practices": [
+    "I assemble a project team with shared documents and transparent tasks.",
+    "Several specialists work as a temporary network without a permanent hierarchy."
+   ]
+  },
+  "W4-ДЗ": {
+   "name": "A self-managing team for the task",
+   "situation": "In our small team we distribute roles ourselves and revisit decisions.",
+   "plus": "Participants influence the rules and can use different strengths.",
+   "minus": "Discussions take time; without clear authority, decisions can stall.",
+   "practices": [
+    "The team itself discusses what to improve after a project."
+   ]
+  },
+  "E1-ЦС": {
+   "name": "A ready answer for the task at hand",
+   "situation": "When a specific task comes up, I find a short ready-made guide instead of long study.",
+   "plus": "Quick access to what you need without a full course.",
+   "minus": "Shallow understanding and dependence on the answer's quality; harder to spot a mistake.",
+   "practices": [
+    "I listen to a lesson where the teacher explains the right solution.",
+    "I take a ready-made online course for a specific work skill."
+   ]
+  },
+  "E1-ЦЗ": {
+   "name": "Systematic knowledge through a chosen programme",
+   "situation": "I study a long programme with a teacher and learn the subject systematically.",
+   "plus": "Consistency and reliance on the experience of teachers and authors.",
+   "minus": "Someone else's programme may lag behind your needs; considerable time and cost.",
+   "practices": [
+    "I take a long programme with a teacher and discussion of the material."
+   ]
+  },
+  "E1-ДС": {
+   "name": "The right skill at the right moment",
+   "situation": "I learn a new tool through short lessons right on my own project.",
+   "plus": "Specific needs are met quickly; the route is easy to change.",
+   "minus": "Fragmented knowledge; constantly chasing skills can crowd out fundamentals.",
+   "practices": [
+    "I choose courses on different platforms and keep my own learning plan."
+   ]
+  },
+  "E1-ДЗ": {
+   "name": "Curiosity and my own research",
+   "situation": "I explore a topic that interests me through books and archives, without exams or a diploma.",
+   "plus": "Depth and freedom to explore without immediate gain.",
+   "minus": "It's unclear when you've studied enough; gaps and dead ends are possible.",
+   "practices": [
+    "Instead of a fixed programme, I gather a circle of people for joint research."
+   ]
+  },
+  "E2-ЦС": {
+   "name": "Practice by example and prompts",
+   "situation": "I learn a language with ready-made dialogues in an app and practise pronunciation.",
+   "plus": "Easy to start; mistakes show up quickly.",
+   "minus": "You can learn to follow the prompt without mastering the action yourself.",
+   "practices": [
+    "I practise on standard tasks with automatic checking."
+   ]
+  },
+  "E2-ЦЗ": {
+   "name": "Experience under a master's guidance",
+   "situation": "I learn a craft from a master and make a real object with their hints.",
+   "plus": "Execution mistakes are noticed quickly; practical experience builds up.",
+   "minus": "Quality depends on the master and on available tasks; possible dependence on one way of doing things.",
+   "practices": [
+    "I practise a skill with regular feedback from a mentor."
+   ]
+  },
+  "E2-ДС": {
+   "name": "My own drills and working templates",
+   "situation": "I create my own exercises to master a skill I need for work.",
+   "plus": "Practice is tied to personal tasks; good solutions can be reused.",
+   "minus": "You may train only on convenient cases and reinforce your own mistakes.",
+   "practices": [
+    "I create my own practice cycle of tasks and self-checks.",
+    "I check progress on tasks I choose, without being tied to one course."
+   ]
+  },
+  "E2-ДЗ": {
+   "name": "My own project with an unknown solution",
+   "situation": "I try to build something I don't yet know how to make and learn from my mistakes.",
+   "plus": "Develops the ability to act without ready instructions.",
+   "minus": "Lots of trial and error; hard to estimate the time and completeness of learning in advance.",
+   "practices": [
+    "I learn skills in my own project with a living result."
+   ]
+  },
+  "E3-ЦС": {
+   "name": "A diploma as the key to opportunities",
+   "situation": "I take an official exam to get the certificate I need for admission.",
+   "plus": "A clear document saves you from explaining your training every time.",
+   "minus": "Formal success doesn't guarantee skill; requirements and recognition can change.",
+   "practices": [
+    "I get a school-leaving certificate after exams.",
+    "An institution issues a digital document with a verifiable signature."
+   ]
+  },
+  "E3-ЦЗ": {
+   "name": "Assessment by an experienced teacher",
+   "situation": "A teacher goes through my work and shows what to improve.",
+   "plus": "Strengths and gaps are visible in detail; professional trust builds up.",
+   "minus": "Subjectivity and dependence on the chosen tradition of assessment.",
+   "practices": [
+    "A professional community assesses a specific project, not just a diploma."
+   ]
+  },
+  "E3-ДС": {
+   "name": "A portable portfolio and credentials",
+   "situation": "I build a portfolio of real projects and reviews to show my skills.",
+   "plus": "You can show concrete achievements to different audiences.",
+   "minus": "A portfolio needs updating; not every audience trusts the chosen evidence.",
+   "practices": [
+    "I gather skill credentials from different courses into a digital profile.",
+    "I combine portable digital credentials in a personal wallet."
+   ]
+  },
+  "E3-ДЗ": {
+   "name": "Recognition of an independent contribution",
+   "situation": "I publish my own research and improve it after critical reviews.",
+   "plus": "Feedback concerns the substantive value of your own contribution.",
+   "minus": "Recognition may come late or not at all; a competent audience is hard to find.",
+   "practices": [
+    "I prove my qualification with published work and a project result."
+   ]
+  },
+  "K1-ЦС": {
+   "name": "Closeness compatible with usual life",
+   "situation": "My partner and I live separately and agree on meetings and shared expenses in advance.",
+   "plus": "Clear expectations and less organisational friction.",
+   "minus": "Predictability can make it harder to discuss changed needs; services don't create mutuality.",
+   "practices": [
+    "I see my relatives on family holidays."
+   ]
+  },
+  "K1-ЦЗ": {
+   "name": "Family as a solid shared support",
+   "situation": "We gather as a whole family for holidays and support each other in hard times.",
+   "plus": "Belonging and stable mutual obligations.",
+   "minus": "Pressure of expectations; personal wishes can get lost behind habitual roles.",
+   "practices": [
+    "I keep up regular family rituals and make decisions around my loved ones."
+   ]
+  },
+  "K1-ДС": {
+   "name": "An independent life with chosen ties",
+   "situation": "My partner and I have separate plans and space, and we choose our shared days ourselves.",
+   "plus": "More personal space and a flexible format.",
+   "minus": "Less spontaneous shared life; support in a hard moment has to be agreed separately.",
+   "practices": [
+    "I build a distributed network of care and regular meetings while living in different countries."
+   ]
+  },
+  "K1-ДЗ": {
+   "name": "Our own culture of closeness and shared life",
+   "situation": "My loved ones and I invent our own family traditions and rules of communication.",
+   "plus": "The format can reflect the participants and change with them.",
+   "minus": "Takes conversations and emotional work; a common language may fail in a conflict.",
+   "practices": [
+    "Together we agree on boundaries, responsibilities and time for each other."
+   ]
+  },
+  "K2-ЦС": {
+   "name": "Conditions for the child while keeping my own life",
+   "situation": "Kindergarten, after-school care and a nanny help me combine children, work and personal life.",
+   "plus": "Easier to combine parenthood with work and other parts of life.",
+   "minus": "High cost and dependence on available help; delegating doesn't remove parental responsibilities.",
+   "practices": [
+    "I use clubs, after-school care and available family services.",
+    "I get help from several services through one family centre."
+   ]
+  },
+  "K2-ЦЗ": {
+   "name": "Life built around a family with children",
+   "situation": "I fit my work around the children and organise family days together with relatives.",
+   "plus": "There is an image of the desired family and support from relatives' experience.",
+   "minus": "Traditional expectations may differ from the child's needs or the adults' possibilities.",
+   "practices": [
+    "Older relatives take part in raising the children.",
+    "I build my work schedule around important stages in my children's lives."
+   ]
+  },
+  "K2-ДС": {
+   "name": "Help I put together myself",
+   "situation": "I put together the schedule of school, clubs and helpers for my child myself.",
+   "plus": "Help can be flexibly fitted to the family and its parts changed.",
+   "minus": "The parent remains the coordinator; separate helpers may not see the whole picture of the child.",
+   "practices": [
+    "I coordinate the schedules of several helpers and clubs in one calendar."
+   ]
+  },
+  "K2-ДЗ": {
+   "name": "Life together and the child's independence",
+   "situation": "Together with my child we choose what to explore and learn at home.",
+   "plus": "Close contact and the chance to follow the child's changing interests.",
+   "minus": "Needs a lot of time and attention; adults find it hard to tolerate an uncertain result.",
+   "practices": [
+    "We discuss rules with the children and take their opinion into account."
+   ]
+  },
+  "K3-ЦС": {
+   "name": "Help through a ready service",
+   "situation": "A home help service visits an elderly relative on a schedule.",
+   "plus": "Help depends less on one relative being constantly present.",
+   "minus": "Cost and dependence on the service; unfamiliar workers may keep changing.",
+   "practices": [
+    "I order regular visits from a home helper.",
+    "A service coordinates several kinds of home help in one care plan."
+   ]
+  },
+  "K3-ЦЗ": {
+   "name": "Family care and regular helpers",
+   "situation": "Relatives agree on days to help an elderly family member, and there is a regular helper.",
+   "plus": "Familiar people know the habits better and notice changes.",
+   "minus": "Relatives get overloaded and duties are shared unequally; the limits of help are hard to discuss.",
+   "practices": [
+    "I invite a regular helper whom my relative trusts.",
+    "I choose a small circle of rotating helpers for stable care."
+   ]
+  },
+  "K3-ДС": {
+   "name": "I put together the right help myself",
+   "situation": "After a relative's operation I arrange separate services, transport and meal delivery.",
+   "plus": "Help is fitted more precisely to the case; parts can be changed.",
+   "minus": "A heavy load on the organiser; gaps between providers remain their job.",
+   "practices": [
+    "I coordinate doctors' and helpers' visits in a family calendar."
+   ]
+  },
+  "K3-ДЗ": {
+   "name": "A circle of mutual support",
+   "situation": "My neighbours and I take turns helping someone who finds it hard to cope alone.",
+   "plus": "Care takes into account the person's wishes and the possibilities of several participants.",
+   "minus": "Help isn't always available on time; complex needs can exceed what the circle can do.",
+   "practices": [
+    "We agree with friends and family on mutual help.",
+    "We set up a local network exchanging hours of help for people who need it."
+   ]
+  },
+  "C1-ЦС": {
+   "name": "Everything nearby and travel without hassle",
+   "situation": "I live near the metro, shops and a doctor, so I rarely need a car.",
+   "plus": "Less time on the road and organising trips; owning a vehicle is optional.",
+   "minus": "Convenience depends on density of services, timetables and fares; not every need will be close by.",
+   "practices": [
+    "I use public transport and city routes."
+   ]
+  },
+  "C1-ЦЗ": {
+   "name": "Becoming a local in the chosen place",
+   "situation": "After moving, I get to know my neighbours through the library and local events.",
+   "plus": "Familiar routes and people; easier to build local knowledge and trust.",
+   "minus": "Changing place can be painful; local habits don't suit everyone.",
+   "practices": [
+    "Together with the community I restore a meeting place to keep ties with the neighbourhood."
+   ]
+  },
+  "C1-ДС": {
+   "name": "A portable life and free moves",
+   "situation": "I can move to another city for a few months while keeping my work and usual services.",
+   "plus": "You can change place faster to suit tasks and circumstances.",
+   "minus": "Moves take money and energy; harder to keep lasting local ties.",
+   "practices": [
+    "I use several services for housing, transport and mobile work.",
+    "I build a portable set of services for living between two cities."
+   ]
+  },
+  "C1-ДЗ": {
+   "name": "My own base with the option to return",
+   "situation": "There is a home place I return to with my children and pass on family stories to them.",
+   "plus": "A place to return to and an accumulated connection with people and history.",
+   "minus": "Keeping the connection takes time; the next generations' interests may differ.",
+   "practices": []
+  },
+  "C2-ЦС": {
+   "name": "Handled requests and repairs",
+   "situation": "When something breaks at home, I call a service that organises the repair itself.",
+   "plus": "Less bureaucratic and organisational load.",
+   "minus": "A fee and dependence on the intermediary; they can't always influence the service's own timing.",
+   "practices": [
+    "I submit an application at an office window and get a ticket number.",
+    "A service automatically routes a request between agencies for a life event."
+   ]
+  },
+  "C2-ЦЗ": {
+   "name": "A professional who handles my case",
+   "situation": "If there's a dispute over a service, I trust a lawyer to handle my case.",
+   "plus": "The solution takes circumstances into account; the consequences of actions are clearer.",
+   "minus": "Cost and finding a competent specialist; the result also depends on outside institutions.",
+   "practices": []
+  },
+  "C2-ДС": {
+   "name": "My own backup access to services",
+   "situation": "I keep backup internet and service contacts in case of outages.",
+   "plus": "Less vulnerable to a single way of access; easier to act during a failure.",
+   "minus": "Backups need checking and money; they don't replace public infrastructure.",
+   "practices": [
+    "I keep my own archive of documents and track my applications.",
+    "I set up deadline reminders and document exchange in one storage."
+   ]
+  },
+  "C2-ДЗ": {
+   "name": "The ability to act and defend interests",
+   "situation": "When there are utility problems, I study the rules and push for a solution together with my neighbours.",
+   "plus": "Knowledge and the ability to act grow; joint efforts can strengthen a request.",
+   "minus": "Takes time and skills; personal activity doesn't guarantee an institution will change its decision.",
+   "practices": [
+    "I join neighbours to jointly monitor how a city outage is fixed."
+   ]
+  },
+  "C3-ЦС": {
+   "name": "Urban comfort with serviced protection",
+   "situation": "I live in a building where the management company services ventilation and water filtration.",
+   "plus": "You can get comfort without rebuilding your whole urban lifestyle.",
+   "minus": "Protection covers a limited space; nice design can hide unsolved environmental problems.",
+   "practices": [
+    "I live in a district with waste sorting and public transport."
+   ]
+  },
+  "C3-ЦЗ": {
+   "name": "Green habits together with those around",
+   "situation": "Together with my neighbours I sort waste and clean up the shared area.",
+   "plus": "Easier to join a clear shared practice; less to organise from scratch.",
+   "minus": "Without support from those around the habit may fade; an accepted practice isn't always ecologically effective.",
+   "practices": []
+  },
+  "C3-ДС": {
+   "name": "Technical protection of my own conditions",
+   "situation": "At home I monitor air quality myself with a sensor and a purifier.",
+   "plus": "You can improve available conditions by your own criteria.",
+   "minus": "Technology doesn't remove all sources of pollution; false precision of readings and the cost of consumables.",
+   "practices": [
+    "I choose devices to save energy and control the climate at home.",
+    "I set up a home energy system around my own production and consumption."
+   ]
+  },
+  "C3-ДЗ": {
+   "name": "Ecology as a condition of the way of life",
+   "situation": "I live closer to nature and look after my plot, even if the trip to the city is longer.",
+   "plus": "Ecological requirements are built into the way of life itself.",
+   "minus": "Fewer conveniences and possibly long trips; a natural setting doesn't guarantee cleanliness and safety.",
+   "practices": [
+    "Together with my neighbours I create rules for sharing resources and repairs."
+   ]
+  },
+  "C4-ЦС": {
+   "name": "Electing representatives and monitoring delivery",
+   "situation": "The building council decides on repairs, and I read its reports.",
+   "plus": "No need to discuss every decision all the time; there is a defined person in charge.",
+   "minus": "Representatives can drift away from participants' interests; monitoring also takes attention.",
+   "practices": [
+    "I vote for a representative in municipal elections.",
+    "I follow the decisions and reports of elected bodies."
+   ]
+  },
+  "C4-ЦЗ": {
+   "name": "A shared voice through a trusted leader",
+   "situation": "Through a trusted representative I take part in solving my neighbourhood's problems.",
+   "plus": "A shared voice can be stronger than separate requests; easier to agree a direction.",
+   "minus": "Dependence on the leader; the minority's view can get lost.",
+   "practices": [
+    "I pass agreed wishes on to the district representative."
+   ]
+  },
+  "C4-ДС": {
+   "name": "Direct participation in individual decisions",
+   "situation": "I vote online on improving my courtyard and check the result.",
+   "plus": "You can have targeted influence without constant participation in meetings.",
+   "minus": "A narrow agenda and digital exclusion; voting doesn't replace understanding the consequences.",
+   "practices": [
+    "I submit projects and vote on a city participation platform.",
+    "I use an open platform to discuss and track public initiatives."
+   ]
+  },
+  "C4-ДЗ": {
+   "name": "Setting the agenda and rules together",
+   "situation": "Together with my neighbours I decide what to spend money on and how to arrange the courtyard.",
+   "plus": "Participants influence how the problem is framed and what the solution is.",
+   "minus": "High time costs; an active minority may decide more than the rest.",
+   "practices": [
+    "I take part in allocating part of the local budget together with others.",
+    "I take part in a citizens' assembly that prepares recommendations for the authorities."
+   ]
+  },
+  "B1-ЦС": {
+   "name": "A modern flat in a convenient area",
+   "situation": "I live in a convenient modern flat with services and delivery nearby.",
+   "plus": "Ready conveniences and fewer worries about equipment; services are close by.",
+   "minus": "Standard solutions and the complex's rules; regular fees and dependence on management.",
+   "practices": [
+    "I live in a complex with ready infrastructure and services."
+   ]
+  },
+  "B1-ЦЗ": {
+   "name": "A flat in the heart of city life",
+   "situation": "I live in the city centre so I can walk to meetings and exhibitions.",
+   "plus": "Access to cultural events, architecture and meeting places.",
+   "minus": "Price, noise and the limits of old buildings; living in the geographic centre doesn't make it CE.",
+   "practices": [
+    "I choose to live near people with shared values and traditions."
+   ]
+  },
+  "B1-ДС": {
+   "name": "Rented housing to suit the situation",
+   "situation": "I rent where it's convenient for me now and move easily.",
+   "plus": "Housing is easier to change with circumstances; fewer lasting investments in setup.",
+   "minus": "Uncertainty about renewals and rules; repeated moves and limited influence over the space.",
+   "practices": [
+    "I use a modular layout and local automation of my home space."
+   ]
+  },
+  "B1-ДЗ": {
+   "name": "A country house and life my own way",
+   "situation": "I live in a country house with a garden and a workshop and arrange my household myself.",
+   "plus": "More space and more ways to arrange everyday life to suit you.",
+   "minus": "Cares about the house and grounds, costs and long trips; possible isolation.",
+   "practices": [
+    "Together with my family I design a space for different rhythms and shared activities."
+   ]
+  },
+  "B2-ЦС": {
+   "name": "Household as a ready service",
+   "situation": "I order food delivery, cleaning and laundry so I don't have to do them myself.",
+   "plus": "A significant part of the routine is handed over; you get a ready result.",
+   "minus": "Constant costs, providers' schedules and fluctuating quality.",
+   "practices": []
+  },
+  "B2-ЦЗ": {
+   "name": "A cook and a regular helper",
+   "situation": "We have regular household helpers who know the family's habits.",
+   "plus": "A familiar person takes tastes into account and notices needs without detailed instructions.",
+   "minus": "Dependence on a particular helper; trust, pay and clear boundaries of work are needed.",
+   "practices": []
+  },
+  "B2-ДС": {
+   "name": "Machines do the routine",
+   "situation": "A robot vacuum and other appliances do part of the housework on a schedule.",
+   "plus": "Less repetitive manual work; the mode can be set to suit you.",
+   "minus": "Cost of equipment, space, repairs and maintenance; machines don't do all the housework.",
+   "practices": [
+    "I choose appliances and apps to automate household tasks.",
+    "I link lighting, heating and sensors into a local home system."
+   ]
+  },
+  "B2-ДЗ": {
+   "name": "Favourite tasks and shared care for the home",
+   "situation": "I cook Sunday dinner with pleasure, and we share the rest of the housework.",
+   "plus": "The joy of household tasks is kept; the load can be shared meaningfully.",
+   "minus": "Agreements need revisiting; one person's favourite task can create work for another.",
+   "practices": [
+    "I keep some household tasks as time for being together."
+   ]
+  },
+  "B3-ЦС": {
+   "name": "The joy of shopping without long choosing",
+   "situation": "I buy pre-selected outfits and don't spend time searching.",
+   "plus": "Quick choice and the pleasure of novelty; fewer comparisons.",
+   "minus": "Unnecessary purchases, dependence on recommendations and rising repeat costs.",
+   "practices": [
+    "I choose items through an online shop's recommendations and delivery."
+   ]
+  },
+  "B3-ЦЗ": {
+   "name": "Enough good, familiar things",
+   "situation": "I buy well-made things and repair them instead of replacing them often.",
+   "plus": "Less attention goes to shopping; predictable quality.",
+   "minus": "A habitual choice may stop fitting; the price of quality isn't always justified by durability.",
+   "practices": [
+    "I buy shoes from a craftsman I know.",
+    "I wear things from a local maker and take them for repair.",
+    "A craftsman makes an item for me and keeps servicing it."
+   ]
+  },
+  "B3-ДС": {
+   "name": "Picked to fit my exact requirements",
+   "situation": "A service picks purchases by my rules and budget when they're really needed.",
+   "plus": "Less searching with an exact match to the request.",
+   "minus": "You need to formulate requirements; the assistant may promote what's good for the seller, not for you.",
+   "practices": [
+    "I compare reviews, prices and specs in several shops."
+   ]
+  },
+  "B3-ДЗ": {
+   "name": "Basic sufficiency and things I love",
+   "situation": "I wear a few simple things but choose the ones I love with special care.",
+   "plus": "Money and attention are focused on what really matters.",
+   "minus": "Careful choosing takes time; a favourite category can also become an expensive collection.",
+   "practices": [
+    "I buy second-hand and repair things.",
+    "I take part in local exchange and repair of things with neighbours."
+   ]
+  },
+  "B4-ЦС": {
+   "name": "Frequent change of ready-made experiences",
+   "situation": "I buy ready-made tours and often choose new short trips.",
+   "plus": "Lots of new events with little preparation.",
+   "minus": "Costs and fatigue from intensity; less time to get to know a place deeply.",
+   "practices": [
+    "I book a package trip with transport and hotel."
+   ]
+  },
+  "B4-ЦЗ": {
+   "name": "Travel with a guide and company",
+   "situation": "I travel with a small club and a guide who knows the place well.",
+   "plus": "Meaningful context and company; less need to build the route yourself.",
+   "minus": "The shared pace and programme may not suit you; strong dependence on the leader.",
+   "practices": [
+    "I choose a small trip with a guide matched to my interests."
+   ]
+  },
+  "B4-ДС": {
+   "name": "Experiences made for me, including virtual",
+   "situation": "I build my own travel route with digital assistants and choose alternative experiences.",
+   "plus": "You can get the right impressions without necessarily travelling far.",
+   "minus": "Preparation and choosing take attention; possible dependence on a platform and loss of access.",
+   "practices": []
+  },
+  "B4-ДЗ": {
+   "name": "My own pace and deep experience",
+   "situation": "I spend my holiday in one city, walking unhurriedly and getting to know the place deeply.",
+   "plus": "More time for experiencing, attention and rest at your own pace.",
+   "minus": "Less variety in the same time; quiet and long free time can be expensive.",
+   "practices": [
+    "I choose a trip that involves local life and learning a craft."
+   ]
+  },
+  "B5-ЦС": {
+   "name": "The convenience of familiar platforms",
+   "situation": "I keep photos, documents and chats in one cloud account.",
+   "plus": "Fewer settings; convenient access and ready ways to recover it.",
+   "minus": "Dependence on the platform and its rules; handing over data doesn't guarantee security.",
+   "practices": [
+    "A platform links several services into one interface and account."
+   ]
+  },
+  "B5-ЦЗ": {
+   "name": "Personal security guidance",
+   "situation": "A specialist helps me protect the family's devices and accounts.",
+   "plus": "Individual review and a contact for help; less self-study.",
+   "minus": "Cost and trust in the specialist; their mistake or excessive access also creates risk.",
+   "practices": []
+  },
+  "B5-ДС": {
+   "name": "My own data and independence from platforms",
+   "situation": "I keep the family archive myself and make backups without depending on a platform.",
+   "plus": "More control over storage and the ability to switch providers.",
+   "minus": "Administration and backups fall on the person; storing it yourself isn't the same as protecting it.",
+   "practices": [
+    "I set up a password manager and personal cloud storage.",
+    "I build a portable data archive with locally managed access."
+   ]
+  },
+  "B5-ДЗ": {
+   "name": "A smaller digital footprint",
+   "situation": "I don't post my personal life online and agree on privacy with my loved ones.",
+   "plus": "Less unnecessary information ends up with strangers.",
+   "minus": "Some conveniences and public opportunities are unavailable; you can't fully control your footprint alone.",
+   "practices": [
+    "I remove unnecessary apps and limit notifications.",
+    "I choose services with encryption and data minimisation."
+   ]
+  },
+  "V1-ЦС": {
+   "name": "Enjoying the goods of the world",
+   "situation": "I use conveniences and services without setting myself a public mission.",
+   "plus": "You can value everyday life without the duty of having a great mission.",
+   "minus": "A sense of a meaningful life can depend heavily on the availability of external goods.",
+   "practices": []
+  },
+  "V1-ЦЗ": {
+   "name": "Being part of something bigger",
+   "situation": "I take part in a big public project with a shared goal and rules.",
+   "plus": "A sense of continuity and of personal effort linked to a larger result.",
+   "minus": "If the shared cause is in crisis, personal footing can shake; one's own and accepted values may conflict.",
+   "practices": [
+    "I choose to take part in a big mission with a strong team."
+   ]
+  },
+  "V1-ДС": {
+   "name": "Expanding my own possibilities",
+   "situation": "I try new tools to do what I couldn't do before.",
+   "plus": "Many paths for trying things and expanding personal experience.",
+   "minus": "Constantly searching for the next opportunity can get in the way of depth and finishing things.",
+   "practices": [
+    "I master new possibilities through open technologies and practice."
+   ]
+  },
+  "V1-ДЗ": {
+   "name": "Creating and preserving what is valuable",
+   "situation": "Together with the residents I collect and preserve the stories of my neighbourhood.",
+   "plus": "A sense of significance is tied to something concrete you created or preserved.",
+   "minus": "You can overload yourself with a mission; the value of a contribution doesn't always get outside confirmation.",
+   "practices": [
+    "I create a product I consider useful beyond my own life.",
+    "I pass on knowledge through an open archive and co-creation."
+   ]
+  },
+  "V5-ЦС": {
+   "name": "More accessible comfort",
+   "situation": "I pay for ready household services so I spend less time organising.",
+   "plus": "Everyday inconveniences can be steadily reduced.",
+   "minus": "The level of \"enough\" can keep moving away, raising costs and dependence on income.",
+   "practices": [
+    "I choose convenient delivery, appliances and familiar services."
+   ]
+  },
+  "V5-ЦЗ": {
+   "name": "Confirming status",
+   "situation": "I belong to a prestigious professional club and feel I belong to my circle.",
+   "plus": "Choices help express belonging and the desired position.",
+   "minus": "Dependence on outside judgement; overpaying for a symbol and having to maintain status.",
+   "practices": [
+    "I invest in services and things that my circle recognises."
+   ]
+  },
+  "V5-ДС": {
+   "name": "Emotions and new experiences",
+   "situation": "Instead of new things I buy interesting trips and experiences.",
+   "plus": "Money brings experiences without having to accumulate things.",
+   "minus": "Novelty quickly becomes ordinary; spending on access can be hard to notice.",
+   "practices": [
+    "I choose trips and hobbies to my own taste."
+   ]
+  },
+  "V5-ДЗ": {
+   "name": "Enough in the basics, deep in what matters",
+   "situation": "I don't replace a working phone, but I put money and time into a favourite hobby.",
+   "plus": "Fewer unnecessary purchases; more resources for what matters.",
+   "minus": "Needs your own criterion of enough; possible conflicts with those around and expensive exceptions.",
+   "practices": [
+    "I create consumption rules that free up time and attention."
+   ]
+  },
+  "V3-ЦС": {
+   "name": "Pleasant company without complex organising",
+   "situation": "I go to an organised dinner or walk to meet people.",
+   "plus": "Easier to find company and start talking.",
+   "minus": "Ties may stay superficial; the organiser decides access and format.",
+   "practices": [
+    "I meet people through city clubs and ready-made events."
+   ]
+  },
+  "V3-ЦЗ": {
+   "name": "Belonging and being needed in a community",
+   "situation": "I help run local community meetings and feel needed.",
+   "plus": "A sense of belonging and being needed; a familiar circle of mutual support.",
+   "minus": "The community's expectations can become excessive; hard to step out of a habitual role.",
+   "practices": [
+    "I support the regular meetings of a stable community."
+   ]
+  },
+  "V3-ДС": {
+   "name": "Different people for different interests",
+   "situation": "I have different communities for books, travel and other interests.",
+   "plus": "Different interests find their company; the intensity of contact can vary.",
+   "minus": "Fragmented attention; few people see the whole person or notice their absence.",
+   "practices": [
+    "I connect circles of friends with different interests myself."
+   ]
+  },
+  "V3-ДЗ": {
+   "name": "Relationships where we can understand each other",
+   "situation": "I often meet two close friends for long conversations.",
+   "plus": "You can be understood without having to be the same; trust survives change.",
+   "minus": "Such ties take time and mutual wish; they can't be secured by one-sided effort.",
+   "practices": [
+    "Every week I meet a close friend with no agenda.",
+    "With friends I create a space for deep conversations and mutual help."
+   ]
+  },
+  "V2-ЦС": {
+   "name": "Easily making something beautiful and personal",
+   "situation": "I make a family photo album in a ready-made service and give it to my loved ones.",
+   "plus": "A personal result comes quickly without long mastering of technique.",
+   "minus": "Expressiveness is limited by the format; works can look alike.",
+   "practices": [
+    "I make an illustration from ready elements in an editor."
+   ]
+  },
+  "V2-ЦЗ": {
+   "name": "Expressing myself through mastery and tradition",
+   "situation": "For several years I've been studying singing with a teacher and performing at small concerts.",
+   "plus": "You can reach expressiveness by relying on a developed tradition and a master.",
+   "minus": "Dependence on the teacher's aesthetics; a personal idea may not fit the chosen approach.",
+   "practices": [
+    "I learn drawing in an artist's studio."
+   ]
+  },
+  "V2-ДС": {
+   "name": "Realising my ideas with technology",
+   "situation": "I invent a story and use software to make pictures and music for it.",
+   "plus": "You can quickly realise ideas beyond the technique you've mastered.",
+   "minus": "Much time goes into selecting; limits of platforms, rights and control over the result.",
+   "practices": [
+    "I combine different creative tools to experiment with a new format."
+   ]
+  },
+  "V2-ДЗ": {
+   "name": "Finding my own way of expression",
+   "situation": "I write stories in my own style, without aiming for views and likes.",
+   "plus": "Your own voice and a deep connection with the material gradually form.",
+   "minus": "A long path and an uncertain result; there may be no outside recognition.",
+   "practices": [
+    "I develop a recognisable authorial language and my own theme."
+   ]
+  },
+  "V4-ЦС": {
+   "name": "The main changes don't depend on me",
+   "situation": "I regularly donate to a charity and read its reports.",
+   "plus": "You can support a solution without a separate organisational role.",
+   "minus": "Little influence on the approach; easy to miss the absence of results.",
+   "practices": [
+    "I rely on municipal services and established rules.",
+    "I use institutional mechanisms for petitions and voting."
+   ]
+  },
+  "V4-ЦЗ": {
+   "name": "Together with others my contribution gains strength",
+   "situation": "I help a civic organisation and do my part of a shared project.",
+   "plus": "Scale and division of labour increase what a personal contribution can do.",
+   "minus": "Dependence on the organisation's goals and quality; its interests may diverge from those of the people it helps.",
+   "practices": [
+    "I take part in an association I trust to represent our interests."
+   ]
+  },
+  "V4-ДС": {
+   "name": "My everyday choice also changes the world",
+   "situation": "I choose a help project myself and switch if I don't see results.",
+   "plus": "A contribution can be made regular and its direction changed independently.",
+   "minus": "Convenient regularity can keep ineffective support going; reliable information about results is needed.",
+   "practices": [
+    "I use digital tools to organise my own campaign.",
+    "I collect data on a problem and build an open tool to solve it."
+   ]
+  },
+  "V4-ДЗ": {
+   "name": "I can start the change myself",
+   "situation": "Together with my neighbours I collect data about a dangerous crossing and push for change.",
+   "plus": "The link between participation and concrete benefit is visible; the approach can change with the situation.",
+   "minus": "A high personal load and limited scale; the result may depend on one initiator.",
+   "practices": [
+    "I organise a shared initiative with people based on discussion.",
+    "I help participants set rules together and evaluate changes."
+   ]
+  }
+ }
+}

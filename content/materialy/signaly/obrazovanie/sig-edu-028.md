@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Макротренды-драйверы:** [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ds|MT-043 — Образование, знание и грамотность]]; MT-026 — Креативная экономика; [[materialy/makrotrendy/masterstvo-cheloveka-ds|MT-031 — Мастерство человека]].
 
-**Сферы:** Образование; Работа; Ценности, смысл и сообщество.  
+**Сферы:** [[chetyre-mira/sfery/obrazovanie-ds|Образование]]; [[chetyre-mira/sfery/rabota-ds|Работа]]; [[chetyre-mira/sfery/smysl-ds|Ценности, смысл и сообщество]].  
 **Отрасли:** Искусство; творческие технологии; дизайн.  
 **Тематические теги:** искусство, технологии, личное исследование.
 

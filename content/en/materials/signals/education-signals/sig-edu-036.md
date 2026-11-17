@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]].
 
-**Life domains:** Education; Work; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Education; social entrepreneurship.  
 **Thematic tags:** youth project, learning through action, public benefit.
 

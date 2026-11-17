@@ -54,7 +54,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
 
-**Life domains:** Education; Close relationships and family.  
+**Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/family-de|Close relationships and family]].  
 **Industries:** School education; online education.  
 **Thematic tags:** student project, academic credit, mentor.
 

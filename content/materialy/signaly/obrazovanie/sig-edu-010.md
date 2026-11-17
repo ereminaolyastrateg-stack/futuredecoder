@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Макротренды-драйверы:** [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ce|MT-043 — Образование, знание и грамотность]]; [[materialy/makrotrendy/masterstvo-cheloveka-ce|MT-031 — Мастерство человека]]; MT-044 — Общественное доверие и цифровая этика.
 
-**Сферы:** Образование; Работа.  
+**Сферы:** [[chetyre-mira/sfery/obrazovanie-ce|Образование]]; [[chetyre-mira/sfery/rabota-ce|Работа]].  
 **Отрасли:** Цифровое производство; инженерное образование.  
 **Тематические теги:** Fab Lab, мастерская, портфолио, распределённое обучение.
 

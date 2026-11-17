@@ -72,6 +72,26 @@ def link_world(body, lang, code, label):
     return re.sub(r'^(\*\*' + re.escape(label) + r':\*\*[ \t]*)(.+?)\.?[ \t]*$',
                   lambda m: f'{m.group(1)}[[{path}|{m.group(2)}]].', body, count=1, flags=re.M)
 
+SPHERE_NOTES = {
+    'ru': {'Здоровье': 'zdorovye', 'Финансы': 'finansy', 'Работа': 'rabota', 'Образование': 'obrazovanie',
+           'Близкие отношения и семья': 'semya', 'Место жизни и общественная среда': 'sreda',
+           'Быт, потребление и отдых': 'byt', 'Ценности, смысл и сообщество': 'smysl'},
+    'en': {'Health': 'health', 'Finance': 'finance', 'Work': 'work', 'Education': 'education',
+           'Close relationships and family': 'family', 'Place of living and public environment': 'place',
+           'Everyday life, consumption and leisure': 'everyday-life', 'Values, meaning and community': 'meaning'}}
+SPHERE_BASE = {'ru': 'chetyre-mira/sfery', 'en': 'en/four-worlds/life-spheres'}
+
+def link_spheres(body, lang, code, label):
+    sl = SCEN_SLUG.get(code)
+    def repl(m):
+        parts = [x.strip() for x in m.group(2).split(';') if x.strip()]
+        out = []
+        for x in parts:
+            k = SPHERE_NOTES[lang].get(x)
+            out.append(f'[[{SPHERE_BASE[lang]}/{k}-{sl}|{x}]]' if k and sl else x)
+        return m.group(1) + '; '.join(out) + '.' + m.group(3)
+    return re.sub(r'^(\*\*' + re.escape(label) + r':\*\*[ \t]*)(.+?)\.?([ \t]*)$', repl, body, count=1, flags=re.M)
+
 def link_sig(m, url):
     text, sid = m.group(1), m.group(2).lower()
     return f'[[{url}/{sid}|{text}]]'
@@ -125,6 +145,7 @@ def process(lang):
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
                    lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
         b = link_world(b, lang, code, L['scen'])
+        b = link_spheres(b, lang, code, L['sph'])
         desc = field(rest, L['brief'])
         out = ['---', f'title: {yq(headline)}', f'description: {yq(desc)}', f'lang: {lang}',
                'translations:',

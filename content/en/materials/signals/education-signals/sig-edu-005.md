@@ -53,7 +53,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-081 — Ecosystems, super-apps and the platform economy.
 
-**Life domains:** Education.  
+**Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Supplementary education; EdTech.  
 **Thematic tags:** learning pathway, choice, personalisation.
 

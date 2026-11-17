@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
 
-**Life domains:** Education; Work.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]].  
 **Industries:** Digital fabrication; engineering education.  
 **Thematic tags:** Fab Lab, workshop, portfolio, distributed learning.
 

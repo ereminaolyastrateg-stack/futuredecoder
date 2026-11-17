@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-026 — Creative economy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
 
-**Life domains:** Education; Work; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Art; creative technology; design.  
 **Thematic tags:** art, technology, personal inquiry.
 

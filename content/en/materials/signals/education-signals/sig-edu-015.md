@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
 
-**Life domains:** Education; Work; Values, meaning and community.  
+**Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Higher education; social and environmental projects.  
 **Thematic tags:** university mission, public benefit, interdisciplinarity.
 
