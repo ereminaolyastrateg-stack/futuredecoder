@@ -13,14 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Place of living and public environment is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Place of living and public environment is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/place-cs\|CS]] | [[en/four-worlds/life-spheres/place-ce\|CE]] | [[en/four-worlds/life-spheres/place-ds\|DS]] | [[en/four-worlds/life-spheres/place-de\|DE]] |
-|---|---|---|---|---|
-| Place of living and mobility | [[en/four-worlds/life-spheres/place-cs#place-of-living-and-mobility\|Everything nearby and travel without hassle]] | [[en/four-worlds/life-spheres/place-ce#place-of-living-and-mobility\|Becoming a local in the chosen place]] | [[en/four-worlds/life-spheres/place-ds#place-of-living-and-mobility\|A portable life and free moves]] | [[en/four-worlds/life-spheres/place-de#place-of-living-and-mobility\|My own base with the option to return]] |
-| Infrastructure, rights and safety | [[en/four-worlds/life-spheres/place-cs#infrastructure-rights-and-safety\|Handled requests and repairs]] | [[en/four-worlds/life-spheres/place-ce#infrastructure-rights-and-safety\|A professional who handles my case]] | [[en/four-worlds/life-spheres/place-ds#infrastructure-rights-and-safety\|My own backup access to services]] | [[en/four-worlds/life-spheres/place-de#infrastructure-rights-and-safety\|The ability to act and defend interests]] |
-| Nature and environmental quality | [[en/four-worlds/life-spheres/place-cs#nature-and-environmental-quality\|Urban comfort with serviced protection]] | [[en/four-worlds/life-spheres/place-ce#nature-and-environmental-quality\|Green habits together with those around]] | [[en/four-worlds/life-spheres/place-ds#nature-and-environmental-quality\|Technical protection of my own conditions]] | [[en/four-worlds/life-spheres/place-de#nature-and-environmental-quality\|Ecology as a condition of the way of life]] |
-| Taking part in shared decisions | [[en/four-worlds/life-spheres/place-cs#taking-part-in-shared-decisions\|Electing representatives and monitoring delivery]] | [[en/four-worlds/life-spheres/place-ce#taking-part-in-shared-decisions\|A shared voice through a trusted leader]] | [[en/four-worlds/life-spheres/place-ds#taking-part-in-shared-decisions\|Direct participation in individual decisions]] | [[en/four-worlds/life-spheres/place-de#taking-part-in-shared-decisions\|Setting the agenda and rules together]] |
+[[en/four-worlds/life-spheres/place-cs|Place of living and public environment in CS]] · [[en/four-worlds/life-spheres/place-ce|Place of living and public environment in CE]] · [[en/four-worlds/life-spheres/place-ds|Place of living and public environment in DS]] · [[en/four-worlds/life-spheres/place-de|Place of living and public environment in DE]]
 
 ## Subsphere questions
 

@@ -13,6 +13,8 @@ tags:
   - scenario/DE
 aliases:
   - "work-DE"
+sphere: "Work"
+items: [{"sub": "Direction, role and professional growth", "anchor": "direction-role-and-professional-growth", "name": "A master of my craft and product", "situation": "For years I've been developing my own product and working under my own name.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Getting tasks done", "anchor": "getting-tasks-done", "name": "Deep work on quality", "situation": "I work several days in a row without meetings to do a complex task well.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Time, place and working conditions", "anchor": "time-place-and-working-conditions", "name": "Place and time for deep focus", "situation": "I agree on meeting-free days and work in a quiet place.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Collaboration and management", "anchor": "collaboration-and-management", "name": "A self-managing team for the task", "situation": "In our small team we distribute roles ourselves and revisit decisions.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

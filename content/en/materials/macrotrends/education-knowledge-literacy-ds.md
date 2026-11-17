@@ -20,6 +20,10 @@ aliases:
   - "MT-043-DS"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Education, Knowledge and Literacy"
+essence: "The person builds the path, whoever needs the result recognises"
+scene: "Anya retrains"
+themes: ["self directed learning", "personal route", "tool dependence"]
 ---
 
 *[[en/materials/macrotrends/education-knowledge-literacy|Education, Knowledge and Literacy]] is a macrotrend about who leads the learning path and who recognises the result when knowledge is open to all. This is its version in the **[[en/four-worlds/decentralized-synthetic|Decentralized — Synthetic]]** world, where people build their own learning path.*

@@ -13,6 +13,8 @@ tags:
   - scenario/DS
 aliases:
   - "meaning-DS"
+sphere: "Values, meaning and community"
+items: [{"sub": "My role, values and meaning", "anchor": "my-role-values-and-meaning", "name": "Expanding my own possibilities", "situation": "I try new tools to do what I couldn't do before.", "spend": ["Time", "Money", "Intellect"], "give": ["Intellect", "Freedom of choice", "Self-realisation"]}, {"sub": "Comfort and attitude to consumption", "anchor": "comfort-and-attitude-to-consumption", "name": "Emotions and new experiences", "situation": "Instead of new things I buy interesting trips and experiences.", "spend": ["Time", "Money"], "give": ["Soul", "Freedom of choice"]}, {"sub": "Relationships with people, friendship and communities", "anchor": "relationships-with-people-friendship-and-communities", "name": "Different people for different interests", "situation": "I have different communities for books, travel and other interests.", "spend": ["Time", "Intellect"], "give": ["Intellect", "Soul", "Freedom of choice"]}, {"sub": "Creativity and self-expression", "anchor": "creativity-and-self-expression", "name": "Realising my ideas with technology", "situation": "I invent a story and use software to make pictures and music for it.", "spend": ["Time", "Money", "Intellect"], "give": ["Soul", "Freedom of choice", "Self-realisation"]}, {"sub": "Contribution and public action", "anchor": "contribution-and-public-action", "name": "My everyday choice also changes the world", "situation": "I choose a help project myself and switch if I don't see results.", "spend": ["Time", "Money", "Intellect"], "give": ["Freedom of choice", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

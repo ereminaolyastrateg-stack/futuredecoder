@@ -20,6 +20,10 @@ aliases:
   - "MT-031-DE"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Human Mastery"
+essence: "The master listens to the environment: change what exists, together with people"
+scene: "One building"
+themes: ["collaboration", "learning by doing", "passing on experience"]
 ---
 
 *[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/decentralized-earth|Decentralized — Earth]]** world, where a master keeps changing what exists, together with the people around them.*

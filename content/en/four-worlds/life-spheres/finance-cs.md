@@ -13,6 +13,8 @@ tags:
   - scenario/CS
 aliases:
   - "finance-CS"
+sphere: "Finance"
+items: [{"sub": "Income and inflows", "anchor": "income-and-inflows", "name": "A fixed salary", "situation": "I get a stable salary every month and don't look for clients.", "spend": ["Time", "Freedom of choice"], "give": ["Money", "Energy and health"]}, {"sub": "Spending and obligations", "anchor": "spending-and-obligations", "name": "Bills paid in a set order", "situation": "My phone and utility bills are paid automatically.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Capital and savings", "anchor": "capital-and-savings", "name": "Saving without giving up current comfort", "situation": "I put small sums aside and pay for big purchases in instalments.", "spend": ["Money", "Freedom of choice"], "give": ["Capital", "Energy and health"]}, {"sub": "Financial resilience", "anchor": "financial-resilience", "name": "The next few months and outside support", "situation": "I know what help or insurance I can count on if I lose my job.", "spend": ["Money", "Freedom of choice"], "give": ["Money", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

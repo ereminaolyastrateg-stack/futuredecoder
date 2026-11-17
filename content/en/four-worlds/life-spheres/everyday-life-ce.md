@@ -13,6 +13,8 @@ tags:
   - scenario/CE
 aliases:
   - "everyday-life-CE"
+sphere: "Everyday life, consumption and leisure"
+items: [{"sub": "Housing and home setup", "anchor": "housing-and-home-setup", "name": "A flat in the heart of city life", "situation": "I live in the city centre so I can walk to meetings and exhibitions.", "spend": ["Time", "Money"], "give": ["Soul", "Self-realisation"]}, {"sub": "Household and home services", "anchor": "household-and-home-services", "name": "A cook and a regular helper", "situation": "We have regular household helpers who know the family's habits.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Time", "Soul"]}, {"sub": "Clothing, personal items and grooming", "anchor": "clothing-personal-items-and-grooming", "name": "Enough good, familiar things", "situation": "I buy well-made things and repair them instead of replacing them often.", "spend": ["Time", "Money"], "give": ["Time", "Money", "Energy and health"]}, {"sub": "Leisure, travel and experiences", "anchor": "leisure-travel-and-experiences", "name": "Travel with a guide and company", "situation": "I travel with a small club and a guide who knows the place well.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Intellect", "Soul"]}, {"sub": "Digital services, data and security", "anchor": "digital-services-data-and-security", "name": "Personal security guidance", "situation": "A specialist helps me protect the family's devices and accounts.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Energy and health", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

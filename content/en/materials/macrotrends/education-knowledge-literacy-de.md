@@ -20,6 +20,10 @@ aliases:
   - "MT-043-DE"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Education, Knowledge and Literacy"
+essence: "The path is born in a shared cause, the environment recognises"
+scene: "The river behind the school"
+themes: ["learning by doing", "joint research", "co authoring rules"]
 ---
 
 *[[en/materials/macrotrends/education-knowledge-literacy|Education, Knowledge and Literacy]] is a macrotrend about who leads the learning path and who recognises the result when knowledge is open to all. This is its version in the **[[en/four-worlds/decentralized-earth|Decentralized — Earth]]** world, where knowledge is born in a shared cause.*

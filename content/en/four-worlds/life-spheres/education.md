@@ -13,13 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Education is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 3 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Education is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 3 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/education-cs\|CS]] | [[en/four-worlds/life-spheres/education-ce\|CE]] | [[en/four-worlds/life-spheres/education-ds\|DS]] | [[en/four-worlds/life-spheres/education-de\|DE]] |
-|---|---|---|---|---|
-| Purpose, route and access to knowledge | [[en/four-worlds/life-spheres/education-cs#purpose-route-and-access-to-knowledge\|A ready answer for the task at hand]] | [[en/four-worlds/life-spheres/education-ce#purpose-route-and-access-to-knowledge\|Systematic knowledge through a chosen programme]] | [[en/four-worlds/life-spheres/education-ds#purpose-route-and-access-to-knowledge\|The right skill at the right moment]] | [[en/four-worlds/life-spheres/education-de#purpose-route-and-access-to-knowledge\|Curiosity and my own research]] |
-| Practice and applying knowledge | [[en/four-worlds/life-spheres/education-cs#practice-and-applying-knowledge\|Practice by example and prompts]] | [[en/four-worlds/life-spheres/education-ce#practice-and-applying-knowledge\|Experience under a master's guidance]] | [[en/four-worlds/life-spheres/education-ds#practice-and-applying-knowledge\|My own drills and working templates]] | [[en/four-worlds/life-spheres/education-de#practice-and-applying-knowledge\|My own project with an unknown solution]] |
-| Feedback and recognition | [[en/four-worlds/life-spheres/education-cs#feedback-and-recognition\|A diploma as the key to opportunities]] | [[en/four-worlds/life-spheres/education-ce#feedback-and-recognition\|Assessment by an experienced teacher]] | [[en/four-worlds/life-spheres/education-ds#feedback-and-recognition\|A portable portfolio and credentials]] | [[en/four-worlds/life-spheres/education-de#feedback-and-recognition\|Recognition of an independent contribution]] |
+[[en/four-worlds/life-spheres/education-cs|Education in CS]] · [[en/four-worlds/life-spheres/education-ce|Education in CE]] · [[en/four-worlds/life-spheres/education-ds|Education in DS]] · [[en/four-worlds/life-spheres/education-de|Education in DE]]
 
 ## Subsphere questions
 

@@ -20,6 +20,10 @@ aliases:
   - "MT-031-CE"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Human Mastery"
+essence: "The master listens to the shared goal: find your place in a big cause"
+scene: "Third year at the academy"
+themes: ["mentor", "school of mastery", "recognition of mastery"]
 ---
 
 *[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/centralized-earth|Centralized — Earth]]** world, where a master fits into a big shared cause.*

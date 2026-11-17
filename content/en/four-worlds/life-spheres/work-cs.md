@@ -13,6 +13,8 @@ tags:
   - scenario/CS
 aliases:
   - "work-CS"
+sphere: "Work"
+items: [{"sub": "Direction, role and professional growth", "anchor": "direction-role-and-professional-growth", "name": "A specialist with better conditions", "situation": "I work as a specialist with a good salary and a convenient schedule, without managing people.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Money", "Energy and health"]}, {"sub": "Getting tasks done", "anchor": "getting-tasks-done", "name": "A clear task and a ready procedure", "situation": "I get clear tasks, do them by the instructions and pass difficult cases to my manager.", "spend": ["Intellect", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Time, place and working conditions", "anchor": "time-place-and-working-conditions", "name": "An office where everything is ready", "situation": "I come to an office where the equipment, internet and workplace are already set up.", "spend": ["Time", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Collaboration and management", "anchor": "collaboration-and-management", "name": "Clear roles and measurable rules", "situation": "In my team everyone has a clear role and the rules of work are understood.", "spend": ["Time", "Freedom of choice"], "give": ["Time", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

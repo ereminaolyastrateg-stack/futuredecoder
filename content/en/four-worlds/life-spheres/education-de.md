@@ -13,6 +13,8 @@ tags:
   - scenario/DE
 aliases:
   - "education-DE"
+sphere: "Education"
+items: [{"sub": "Purpose, route and access to knowledge", "anchor": "purpose-route-and-access-to-knowledge", "name": "Curiosity and my own research", "situation": "I explore a topic that interests me through books and archives, without exams or a diploma.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Practice and applying knowledge", "anchor": "practice-and-applying-knowledge", "name": "My own project with an unknown solution", "situation": "I try to build something I don't yet know how to make and learn from my mistakes.", "spend": ["Time", "Money", "Intellect", "Energy and health"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Feedback and recognition", "anchor": "feedback-and-recognition", "name": "Recognition of an independent contribution", "situation": "I publish my own research and improve it after critical reviews.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Soul", "Self-realisation", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

@@ -20,6 +20,10 @@ aliases:
   - "MT-043-CE"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Education, Knowledge and Literacy"
+essence: "A school with a mission leads the path, the community recognises"
+scene: "First year"
+themes: ["school of mastery", "mentor", "public mission"]
 ---
 
 *[[en/materials/macrotrends/education-knowledge-literacy|Education, Knowledge and Literacy]] is a macrotrend about who leads the learning path and who recognises the result when knowledge is open to all. This is its version in the **[[en/four-worlds/centralized-earth|Centralized — Earth]]** world, where a school with a big mission teaches and the community recognises.*

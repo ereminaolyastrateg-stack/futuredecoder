@@ -13,14 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Finance is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Finance is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/finance-cs\|CS]] | [[en/four-worlds/life-spheres/finance-ce\|CE]] | [[en/four-worlds/life-spheres/finance-ds\|DS]] | [[en/four-worlds/life-spheres/finance-de\|DE]] |
-|---|---|---|---|---|
-| Income and inflows | [[en/four-worlds/life-spheres/finance-cs#income-and-inflows\|A fixed salary]] | [[en/four-worlds/life-spheres/finance-ce#income-and-inflows\|Pay for results within an organisation]] | [[en/four-worlds/life-spheres/finance-ds#income-and-inflows\|Income from assets I own]] | [[en/four-worlds/life-spheres/finance-de#income-and-inflows\|Income from my mastery and product]] |
-| Spending and obligations | [[en/four-worlds/life-spheres/finance-cs#spending-and-obligations\|Bills paid in a set order]] | [[en/four-worlds/life-spheres/finance-ce#spending-and-obligations\|A budget with a financial adviser]] | [[en/four-worlds/life-spheres/finance-ds#spending-and-obligations\|My own limits and regular payments]] | [[en/four-worlds/life-spheres/finance-de#spending-and-obligations\|Spending by meaningful priorities]] |
-| Capital and savings | [[en/four-worlds/life-spheres/finance-cs#capital-and-savings\|Saving without giving up current comfort]] | [[en/four-worlds/life-spheres/finance-ce#capital-and-savings\|Housing and education by plan]] | [[en/four-worlds/life-spheres/finance-ds#capital-and-savings\|Automatic topping up of assets]] | [[en/four-worlds/life-spheres/finance-de#capital-and-savings\|Family wealth and passing it on]] |
-| Financial resilience | [[en/four-worlds/life-spheres/finance-cs#financial-resilience\|The next few months and outside support]] | [[en/four-worlds/life-spheres/finance-ce#financial-resilience\|Protection matched to life goals]] | [[en/four-worlds/life-spheres/finance-ds#financial-resilience\|A medium-term reserve by my own rules]] | [[en/four-worlds/life-spheres/finance-de#financial-resilience\|Family resilience across generations]] |
+[[en/four-worlds/life-spheres/finance-cs|Finance in CS]] · [[en/four-worlds/life-spheres/finance-ce|Finance in CE]] · [[en/four-worlds/life-spheres/finance-ds|Finance in DS]] · [[en/four-worlds/life-spheres/finance-de|Finance in DE]]
 
 ## Subsphere questions
 

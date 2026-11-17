@@ -13,15 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Health is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 5 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Health is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 5 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/health-cs\|CS]] | [[en/four-worlds/life-spheres/health-ce\|CE]] | [[en/four-worlds/life-spheres/health-ds\|DS]] | [[en/four-worlds/life-spheres/health-de\|DE]] |
-|---|---|---|---|---|
-| Body and physical abilities | [[en/four-worlds/life-spheres/health-cs#body-and-physical-abilities\|Body support with service]] | [[en/four-worlds/life-spheres/health-ce#body-and-physical-abilities\|Strength and endurance with a coach]] | [[en/four-worlds/life-spheres/health-ds#body-and-physical-abilities\|Personal tech support]] | [[en/four-worlds/life-spheres/health-de#body-and-physical-abilities\|Feeling the body and mastering movement]] |
-| Habits, sleep and recovery | [[en/four-worlds/life-spheres/health-cs#habits-sleep-and-recovery\|Recovery by a ready-made programme]] | [[en/four-worlds/life-spheres/health-ce#habits-sleep-and-recovery\|Habits with personal guidance]] | [[en/four-worlds/life-spheres/health-ds#habits-sleep-and-recovery\|A configured sleep and rest mode]] | [[en/four-worlds/life-spheres/health-de#habits-sleep-and-recovery\|My own rhythm and sense of measure]] |
-| Mental health | [[en/four-worlds/life-spheres/health-cs#mental-health\|An accessible support service]] | [[en/four-worlds/life-spheres/health-ce#mental-health\|Working with a psychotherapist]] | [[en/four-worlds/life-spheres/health-ds#mental-health\|Support at hand]] | [[en/four-worlds/life-spheres/health-de#mental-health\|Understanding myself and changing reactions]] |
-| Cognitive health | [[en/four-worlds/life-spheres/health-cs#cognitive-health\|Offloading memory to a ready assistant]] | [[en/four-worlds/life-spheres/health-ce#cognitive-health\|Maintaining abilities with a specialist]] | [[en/four-worlds/life-spheres/health-ds#cognitive-health\|My own external memory]] | [[en/four-worlds/life-spheres/health-de#cognitive-health\|Keeping clarity and focus]] |
-| Prevention, treatment, rehabilitation and care | [[en/four-worlds/life-spheres/health-cs#prevention-treatment-rehabilitation-and-care\|A route through a clinic or insurer]] | [[en/four-worlds/life-spheres/health-ce#prevention-treatment-rehabilitation-and-care\|A doctor who knows my history]] | [[en/four-worlds/life-spheres/health-ds#prevention-treatment-rehabilitation-and-care\|My own medical history and choice of care]] | [[en/four-worlds/life-spheres/health-de#prevention-treatment-rehabilitation-and-care\|Shared decisions about health]] |
+[[en/four-worlds/life-spheres/health-cs|Health in CS]] · [[en/four-worlds/life-spheres/health-ce|Health in CE]] · [[en/four-worlds/life-spheres/health-ds|Health in DS]] · [[en/four-worlds/life-spheres/health-de|Health in DE]]
 
 ## Subsphere questions
 

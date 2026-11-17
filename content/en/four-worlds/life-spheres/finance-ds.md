@@ -13,6 +13,8 @@ tags:
   - scenario/DS
 aliases:
   - "finance-DS"
+sphere: "Finance"
+items: [{"sub": "Income and inflows", "anchor": "income-and-inflows", "name": "Income from assets I own", "situation": "I get income from my own flat or another asset, taking the costs into account.", "spend": ["Time", "Money", "Capital"], "give": ["Money", "Freedom of choice"]}, {"sub": "Spending and obligations", "anchor": "spending-and-obligations", "name": "My own limits and regular payments", "situation": "I set spending and payment limits in an app and review them.", "spend": ["Time", "Intellect"], "give": ["Time", "Money", "Freedom of choice"]}, {"sub": "Capital and savings", "anchor": "capital-and-savings", "name": "Automatic topping up of assets", "situation": "Every month I automatically top up my savings or investments.", "spend": ["Time", "Money", "Intellect"], "give": ["Capital", "Freedom of choice"]}, {"sub": "Financial resilience", "anchor": "financial-resilience", "name": "A medium-term reserve by my own rules", "situation": "I keep a reserve for several months of living on an accessible account.", "spend": ["Time", "Money"], "give": ["Capital", "Energy and health", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

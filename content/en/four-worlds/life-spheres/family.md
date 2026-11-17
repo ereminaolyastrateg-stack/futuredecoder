@@ -13,13 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Close relationships and family is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 3 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Close relationships and family is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 3 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/family-cs\|CS]] | [[en/four-worlds/life-spheres/family-ce\|CE]] | [[en/four-worlds/life-spheres/family-ds\|DS]] | [[en/four-worlds/life-spheres/family-de\|DE]] |
-|---|---|---|---|---|
-| Closeness, agreements and life together | [[en/four-worlds/life-spheres/family-cs#closeness-agreements-and-life-together\|Closeness compatible with usual life]] | [[en/four-worlds/life-spheres/family-ce#closeness-agreements-and-life-together\|Family as a solid shared support]] | [[en/four-worlds/life-spheres/family-ds#closeness-agreements-and-life-together\|An independent life with chosen ties]] | [[en/four-worlds/life-spheres/family-de#closeness-agreements-and-life-together\|Our own culture of closeness and shared life]] |
-| Raising and developing children | [[en/four-worlds/life-spheres/family-cs#raising-and-developing-children\|Conditions for the child while keeping my own life]] | [[en/four-worlds/life-spheres/family-ce#raising-and-developing-children\|Life built around a family with children]] | [[en/four-worlds/life-spheres/family-ds#raising-and-developing-children\|Help I put together myself]] | [[en/four-worlds/life-spheres/family-de#raising-and-developing-children\|Life together and the child's independence]] |
-| Care and help for loved ones | [[en/four-worlds/life-spheres/family-cs#care-and-help-for-loved-ones\|Help through a ready service]] | [[en/four-worlds/life-spheres/family-ce#care-and-help-for-loved-ones\|Family care and regular helpers]] | [[en/four-worlds/life-spheres/family-ds#care-and-help-for-loved-ones\|I put together the right help myself]] | [[en/four-worlds/life-spheres/family-de#care-and-help-for-loved-ones\|A circle of mutual support]] |
+[[en/four-worlds/life-spheres/family-cs|Close relationships and family in CS]] · [[en/four-worlds/life-spheres/family-ce|Close relationships and family in CE]] · [[en/four-worlds/life-spheres/family-ds|Close relationships and family in DS]] · [[en/four-worlds/life-spheres/family-de|Close relationships and family in DE]]
 
 ## Subsphere questions
 

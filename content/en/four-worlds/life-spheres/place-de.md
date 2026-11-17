@@ -13,6 +13,8 @@ tags:
   - scenario/DE
 aliases:
   - "place-DE"
+sphere: "Place of living and public environment"
+items: [{"sub": "Place of living and mobility", "anchor": "place-of-living-and-mobility", "name": "My own base with the option to return", "situation": "There is a home place I return to with my children and pass on family stories to them.", "spend": ["Time", "Money"], "give": ["Soul", "Freedom of choice", "Self-realisation"]}, {"sub": "Infrastructure, rights and safety", "anchor": "infrastructure-rights-and-safety", "name": "The ability to act and defend interests", "situation": "When there are utility problems, I study the rules and push for a solution together with my neighbours.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Freedom of choice", "Influence and scale"]}, {"sub": "Nature and environmental quality", "anchor": "nature-and-environmental-quality", "name": "Ecology as a condition of the way of life", "situation": "I live closer to nature and look after my plot, even if the trip to the city is longer.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Soul", "Energy and health", "Self-realisation"]}, {"sub": "Taking part in shared decisions", "anchor": "taking-part-in-shared-decisions", "name": "Setting the agenda and rules together", "situation": "Together with my neighbours I decide what to spend money on and how to arrange the courtyard.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

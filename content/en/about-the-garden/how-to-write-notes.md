@@ -11,7 +11,7 @@ tags:
   - type/guidelines
   - theme/zettelkasten
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 *In short: the garden follows the Zettelkasten method. Each note holds one idea, signal or story; it has front matter with a description and tags, links to other notes and a "Connections" block at the end. That way the garden grows as a network, and search engines and AI understand what each page is about.*
@@ -59,7 +59,7 @@ tags:
 aliases:
   - SIG-EDU-041
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 ```
 
@@ -124,6 +124,12 @@ The Russian version uses the same groups in Russian: `тип/`, `сценари�
 - To a Future Canvas question: `[[en/future-canvas/how-do-i-choose-a-profession-when-everything-keeps-changing|How do I choose a profession?]]`.
 - To external sites: a normal link `[text](https://...)`.
 - Backlinks appear by themselves: the page you linked to shows on the right who links to it.
+
+## Large sets go into a filterable table
+
+If there are more than a dozen notes of one kind — signals, books and films, macrotrend cards, life-sphere options — we don't publish them as a long list. The section page gathers them in a **catalog table** with search and filters: by world, sphere, theme, macrotrend. Clicking a label in the table switches the filter on. In the side menu such a folder is collapsed so navigation stays short.
+
+For a note to appear in a catalog, its front matter needs the fields the table is built from: for a signal — `signal_id`, `scenario`, `themes` and others (see "Signal front matter"); for a macrotrend card — `macrotrend_id`, `mt_name`, `scenario`, `essence`, `scene`, `themes`; for a sphere card — `sphere`, `scenario` and an `items` list. A new kind of note means a new catalog, not a new list.
 
 ## Ethics
 

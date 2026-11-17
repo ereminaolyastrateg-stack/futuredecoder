@@ -20,6 +20,10 @@ aliases:
   - "MT-031-CS"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Human Mastery"
+essence: "The master listens to the instruction: execute what exists precisely, and don’t get bored"
+scene: "One shift"
+themes: ["responsibility", "checking understanding", "ai at work"]
 ---
 
 *[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/centralized-synthetic|Centralized — Synthetic]]** world, where a master precisely executes what already exists.*

@@ -144,6 +144,12 @@ def build(lang):
                    trans(path_card(lang, sp, sc), path_card(other, sp, sc)).rstrip('\n'),
                    f'scenario: {code(lang, sc)}', 'tags:', f"  - {l['type_card']}", f'  - {tag_sphere(lang, sp)}',
                    f"  - {l['sc_tag']}/{code(lang, sc)}", 'aliases:', f'  - {yq(sp + "_" + sc) if lang == "ru" else yq(SPHERES[sp][2] + "-" + SC_EN[sc])}',
+                   f'sphere: {yq(spn)}',
+                   'items: ' + json.dumps([dict(sub=sub_name(lang, c['sub']), anchor=slug_heading(sub_name(lang, c['sub'])),
+                                               name=tr(lang, c, 'name'), situation=tr(lang, c, 'situation'),
+                                               spend=[x for x in res(lang, c['spend']).split(', ') if x],
+                                               give=[x for x in res(lang, c['give']).split(', ') if x]) for c in cards],
+                                         ensure_ascii=False),
                    f'date: {DATE}', f'updated: {DATE}', '---']
             out = [x for x in out if x != ''] + ['', lead, '']
             for c in cards:
@@ -172,19 +178,19 @@ def build(lang):
             rows.append(f"| {sub_name(lang, s)} | " + ' | '.join(cells) + ' |')
         any_c = next(iter(subs.values()))
         if lang == 'ru':
-            lead = f"*«{spn}» — одна из восьми сфер жизни, через которые метод Декодер Будущего смотрит на человека. В сфере {len(subs)} подсферы; каждая выглядит по-разному в четырёх мирах. Таблица ведёт к карточкам с ситуациями из жизни, плюсами, ценой и примерами.*"
+            lead = f"*«{spn}» — одна из восьми сфер жизни, через которые метод Декодер Будущего смотрит на человека. В сфере {len(subs)} подсферы; каждая выглядит по-разному в четырёх мирах. Ниже — все варианты в таблице с фильтрами и ссылки на четыре карточки.*"
             seo = f'{spn}: сфера жизни в четырёх сценариях будущего'
             desc = clip(f'{spn} в четырёх мирах Декодера Будущего: ' + ', '.join(s.lower() for s in subs) + '. Ситуации, плюсы, цена и примеры.')
         else:
-            lead = f"*{spn} is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has {len(subs)} subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*"
+            lead = f"*{spn} is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has {len(subs)} subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*"
             seo = f'{spn}: a life sphere in four future scenarios'
             desc = clip(f'{spn} in the four Future Decoder worlds: ' + ', '.join(sub_name(lang, s).lower() for s in subs) + '. Situations, benefits, costs and examples.')
         hub = ['---', f'title: {yq(spn)}', f'seoTitle: {yq(seo)}', f'description: {yq(desc)}', f'lang: {lang}']
         t_ = trans(path_hub(lang, sp), path_hub(other, sp))
         if t_: hub.append(t_.rstrip('\n'))
         hub += ['tags:', f"  - {l['type_hub']}", f'  - {tag_sphere(lang, sp)}', f'date: {DATE}', f'updated: {DATE}', '---', '', lead, '',
-                f"| {l['sub']} | " + ' | '.join(f"[[{path_card(lang, sp, sc)}\\|{code(lang, sc)}]]" for sc in SC) + ' |',
-                '|---|---|---|---|---|'] + rows + ['', f"## {l['q']}", '']
+                ' · '.join(f"[[{path_card(lang, sp, sc)}|{spn} {'в мире' if lang == 'ru' else 'in'} {code(lang, sc)}]]" for sc in SC), '',
+                f"## {l['q']}", '']
         for s in subs:
             q = any_c and (subs[s]['ЦС']['question'] if lang == 'ru' else TR['subs'][s]['question'])
             b = subs[s]['ЦС']['boundary'] if lang == 'ru' else TR['subs'][s]['boundary']

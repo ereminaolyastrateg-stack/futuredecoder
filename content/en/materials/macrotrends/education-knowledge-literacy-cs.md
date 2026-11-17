@@ -20,6 +20,10 @@ aliases:
   - "MT-043-CS"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Education, Knowledge and Literacy"
+essence: "A platform leads the path, a digital record recognises"
+scene: "Mira, thirteen"
+themes: ["personalisation", "progress assessment", "digital record"]
 ---
 
 *[[en/materials/macrotrends/education-knowledge-literacy|Education, Knowledge and Literacy]] is a macrotrend about who leads the learning path and who recognises the result when knowledge is open to all. This is its version in the **[[en/four-worlds/centralized-synthetic|Centralized — Synthetic]]** world, where a platform builds the path and a digital record recognises the result.*

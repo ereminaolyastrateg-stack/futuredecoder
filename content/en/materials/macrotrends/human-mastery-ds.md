@@ -20,6 +20,10 @@ aliases:
   - "MT-031-DS"
 date: 2026-11-17
 updated: 2026-11-17
+mt_name: "Human Mastery"
+essence: "The master listens to themselves: create what doesn’t exist yet"
+scene: "The seventh synthesizer"
+themes: ["self directed learning", "learning by trying", "teaching while learning"]
 ---
 
 *[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/decentralized-synthetic|Decentralized — Synthetic]]** world, where a master creates what doesn't exist yet, because it interests them.*

@@ -13,6 +13,8 @@ tags:
   - scenario/DS
 aliases:
   - "health-DS"
+sphere: "Health"
+items: [{"sub": "Body and physical abilities", "anchor": "body-and-physical-abilities", "name": "Personal tech support", "situation": "I choose my own watch or sensors for training and decide what to track.", "spend": ["Time", "Money", "Intellect"], "give": ["Energy and health", "Freedom of choice"]}, {"sub": "Habits, sleep and recovery", "anchor": "habits-sleep-and-recovery", "name": "A configured sleep and rest mode", "situation": "At home, lights and notifications automatically switch to a calm evening mode.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Energy and health", "Freedom of choice"]}, {"sub": "Mental health", "anchor": "mental-health", "name": "Support at hand", "situation": "I keep a journal and the contacts of people I can turn to for support on my phone.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Energy and health", "Freedom of choice"]}, {"sub": "Cognitive health", "anchor": "cognitive-health", "name": "My own external memory", "situation": "I keep notes, decisions and my calendar in my own system where everything is easy to find.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Intellect", "Freedom of choice"]}, {"sub": "Prevention, treatment, rehabilitation and care", "anchor": "prevention-treatment-rehabilitation-and-care", "name": "My own medical history and choice of care", "situation": "I keep my test results and reports and decide myself whom to show them to.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

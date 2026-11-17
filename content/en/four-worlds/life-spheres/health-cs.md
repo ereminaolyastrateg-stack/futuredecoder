@@ -13,6 +13,8 @@ tags:
   - scenario/CS
 aliases:
   - "health-CS"
+sphere: "Health"
+items: [{"sub": "Body and physical abilities", "anchor": "body-and-physical-abilities", "name": "Body support with service", "situation": "If I need to improve or heal myself, I trust one clinic: it picks the treatment, monitors it and reminds me when to come for a check-up.", "spend": ["Time", "Money"], "give": ["Energy and health", "Freedom of choice"]}, {"sub": "Habits, sleep and recovery", "anchor": "habits-sleep-and-recovery", "name": "Recovery by a ready-made programme", "situation": "I use a ready-made sleep and nutrition programme with reminders.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Mental health", "anchor": "mental-health", "name": "An accessible support service", "situation": "I contact a service that matches me with a psychologist and arranges the session.", "spend": ["Time", "Money"], "give": ["Time", "Energy and health"]}, {"sub": "Cognitive health", "anchor": "cognitive-health", "name": "Offloading memory to a ready assistant", "situation": "My calendar reminds me about medicines, bills and important meetings.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Prevention, treatment, rehabilitation and care", "anchor": "prevention-treatment-rehabilitation-and-care", "name": "A route through a clinic or insurer", "situation": "At the clinic a coordinator arranges my tests and collects the results.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

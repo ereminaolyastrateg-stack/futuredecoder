@@ -13,6 +13,8 @@ tags:
   - scenario/DS
 aliases:
   - "work-DS"
+sphere: "Work"
+items: [{"sub": "Direction, role and professional growth", "anchor": "direction-role-and-professional-growth", "name": "An independent project professional", "situation": "I choose my own clients and run several independent projects at once.", "spend": ["Time", "Money", "Energy and health"], "give": ["Money", "Freedom of choice", "Self-realisation"]}, {"sub": "Getting tasks done", "anchor": "getting-tasks-done", "name": "My own processes with minimal routine", "situation": "I remove repetitive work routine with templates and configured tools.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Freedom of choice", "Self-realisation"]}, {"sub": "Time, place and working conditions", "anchor": "time-place-and-working-conditions", "name": "Remote work on my own schedule", "situation": "I work from home and agree my availability hours with clients myself.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Freedom of choice"]}, {"sub": "Collaboration and management", "anchor": "collaboration-and-management", "name": "Independent contractors and clear contracts", "situation": "I assemble a team of independent contractors for a project and agree on the result.", "spend": ["Time", "Money", "Intellect"], "give": ["Freedom of choice", "Self-realisation"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

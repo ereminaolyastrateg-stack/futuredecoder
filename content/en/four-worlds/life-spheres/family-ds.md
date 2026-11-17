@@ -13,6 +13,8 @@ tags:
   - scenario/DS
 aliases:
   - "family-DS"
+sphere: "Close relationships and family"
+items: [{"sub": "Closeness, agreements and life together", "anchor": "closeness-agreements-and-life-together", "name": "An independent life with chosen ties", "situation": "My partner and I have separate plans and space, and we choose our shared days ourselves.", "spend": ["Time", "Money"], "give": ["Soul", "Freedom of choice"]}, {"sub": "Raising and developing children", "anchor": "raising-and-developing-children", "name": "Help I put together myself", "situation": "I put together the schedule of school, clubs and helpers for my child myself.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Freedom of choice"]}, {"sub": "Care and help for loved ones", "anchor": "care-and-help-for-loved-ones", "name": "I put together the right help myself", "situation": "After a relative's operation I arrange separate services, transport and meal delivery.", "spend": ["Time", "Money", "Intellect"], "give": ["Soul", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---

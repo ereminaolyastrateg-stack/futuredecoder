@@ -3,11 +3,13 @@ import HeaderConstructor from "../Header"
 import LanguageSwitcherConstructor from "../LanguageSwitcher"
 import MediaLibraryCatalogConstructor from "../MediaLibraryCatalog"
 import SignalCatalogConstructor from "../SignalCatalog"
+import CardCatalogConstructor from "../CardCatalog"
 
 const Header = HeaderConstructor()
 const LanguageSwitcher = LanguageSwitcherConstructor()
 const MediaLibraryCatalog = MediaLibraryCatalogConstructor()
 const SignalCatalog = SignalCatalogConstructor()
+const CardCatalog = CardCatalogConstructor()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -51,6 +53,7 @@ export const DefaultFrame: PageFrame = {
           <Content {...componentData} />
           <MediaLibraryCatalog {...componentData} />
           <SignalCatalog {...componentData} />
+          <CardCatalog {...componentData} />
           <hr />
           <div class="page-footer">
             {afterBody.map((BodyComponent) => (

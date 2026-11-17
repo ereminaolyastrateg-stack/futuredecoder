@@ -13,14 +13,9 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*Work is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. The table leads to cards with life situations, benefits, costs and examples.*
+*Work is one of the eight life spheres through which the Future Decoder method looks at a person. The sphere has 4 subspheres; each looks different in the four worlds. Below are all the options in a filterable table and links to the four cards.*
 
-| Subsphere | [[en/four-worlds/life-spheres/work-cs\|CS]] | [[en/four-worlds/life-spheres/work-ce\|CE]] | [[en/four-worlds/life-spheres/work-ds\|DS]] | [[en/four-worlds/life-spheres/work-de\|DE]] |
-|---|---|---|---|---|
-| Direction, role and professional growth | [[en/four-worlds/life-spheres/work-cs#direction-role-and-professional-growth\|A specialist with better conditions]] | [[en/four-worlds/life-spheres/work-ce#direction-role-and-professional-growth\|A leader of people and large projects]] | [[en/four-worlds/life-spheres/work-ds#direction-role-and-professional-growth\|An independent project professional]] | [[en/four-worlds/life-spheres/work-de#direction-role-and-professional-growth\|A master of my craft and product]] |
-| Getting tasks done | [[en/four-worlds/life-spheres/work-cs#getting-tasks-done\|A clear task and a ready procedure]] | [[en/four-worlds/life-spheres/work-ce#getting-tasks-done\|A meaningful result with a manager]] | [[en/four-worlds/life-spheres/work-ds#getting-tasks-done\|My own processes with minimal routine]] | [[en/four-worlds/life-spheres/work-de#getting-tasks-done\|Deep work on quality]] |
-| Time, place and working conditions | [[en/four-worlds/life-spheres/work-cs#time-place-and-working-conditions\|An office where everything is ready]] | [[en/four-worlds/life-spheres/work-ce#time-place-and-working-conditions\|A work environment next to colleagues]] | [[en/four-worlds/life-spheres/work-ds#time-place-and-working-conditions\|Remote work on my own schedule]] | [[en/four-worlds/life-spheres/work-de#time-place-and-working-conditions\|Place and time for deep focus]] |
-| Collaboration and management | [[en/four-worlds/life-spheres/work-cs#collaboration-and-management\|Clear roles and measurable rules]] | [[en/four-worlds/life-spheres/work-ce#collaboration-and-management\|A team with a respected leader]] | [[en/four-worlds/life-spheres/work-ds#collaboration-and-management\|Independent contractors and clear contracts]] | [[en/four-worlds/life-spheres/work-de#collaboration-and-management\|A self-managing team for the task]] |
+[[en/four-worlds/life-spheres/work-cs|Work in CS]] · [[en/four-worlds/life-spheres/work-ce|Work in CE]] · [[en/four-worlds/life-spheres/work-ds|Work in DS]] · [[en/four-worlds/life-spheres/work-de|Work in DE]]
 
 ## Subsphere questions
 

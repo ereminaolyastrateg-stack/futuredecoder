@@ -13,6 +13,8 @@ tags:
   - scenario/DE
 aliases:
   - "family-DE"
+sphere: "Close relationships and family"
+items: [{"sub": "Closeness, agreements and life together", "anchor": "closeness-agreements-and-life-together", "name": "Our own culture of closeness and shared life", "situation": "My loved ones and I invent our own family traditions and rules of communication.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation"]}, {"sub": "Raising and developing children", "anchor": "raising-and-developing-children", "name": "Life together and the child's independence", "situation": "Together with my child we choose what to explore and learn at home.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Care and help for loved ones", "anchor": "care-and-help-for-loved-ones", "name": "A circle of mutual support", "situation": "My neighbours and I take turns helping someone who finds it hard to cope alone.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17
 ---
