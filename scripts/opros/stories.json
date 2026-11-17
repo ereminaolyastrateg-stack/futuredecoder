@@ -1,0 +1,115 @@
+{
+  "_readme": "Мини-истории для опросника: одна фраза от «я» на базе фронтирного сигнала. Ключ — id карточки сферы. Если истории нет, в опроснике показывается название и ситуация карточки.",
+  "W1-ЦС": {
+    "ru": "Работаю специалистом с хорошей зарплатой, а следующий проект и курс под него мне предлагает внутренняя платформа компании.",
+    "en": "I work as a well-paid specialist, and the company's internal platform suggests my next project and the course to prepare for it.",
+    "sig_ru": "ИИ-маркетплейсы внутренних талантов: Mastercard сэкономила $21 млн и сократила внешний найм на 30%.",
+    "sig_en": "AI internal talent marketplaces: Mastercard saved $21M and cut external hiring by 30%.",
+    "src": "https://www.thehirehub.ai/blog/internal-mobility-2026-ai-unlocking-hidden-talent", "date": "2026-04"
+  },
+  "W1-ЦЗ": {
+    "ru": "Руковожу командой и расту по прозрачной лестнице: подтверждаю навык экзаменом или проектом и получаю следующий уровень.",
+    "en": "I lead a team and grow along a transparent ladder: I prove a skill with an exam or a project and move up a level.",
+    "sig_ru": "86% работодателей ценят сертификаты без диплома, 78% ставят опыт выше дипломов.",
+    "sig_en": "86% of employers value non-degree certificates; 78% put experience above diplomas.",
+    "src": "https://builtin.com/articles/new-hiring-rules-proof-over-pedigree", "date": "2026-05"
+  },
+  "W1-ДС": {
+    "ru": "Выбираю клиентов и веду несколько проектов сразу, а продажи, поддержку и рутину делают мои ИИ-агенты.",
+    "en": "I choose my clients and run several projects at once, while my AI agents handle sales, support and routine.",
+    "sig_ru": "Компания Medvi из двух человек продала на $401 млн за первый полный год и идёт к $1,8 млрд в 2026-м.",
+    "sig_en": "Medvi, a two-person company, sold $401M in its first full year and is tracking toward $1.8B in 2026.",
+    "src": "https://www.noqta.tn/en/blog/one-person-ai-company-solopreneur-guide-2026", "date": "2026"
+  },
+  "W1-ДЗ": {
+    "ru": "Годами развиваю своё дело под собственным именем, а договоры и страховку делю с такими же независимыми мастерами в кооперативе.",
+    "en": "For years I've grown my own craft under my own name, sharing contracts and insurance with fellow independents in a cooperative.",
+    "sig_ru": "Кооператив независимых специалистов SMart объединяет больше 100 000 человек: счета, страховка, общие льготы.",
+    "sig_en": "SMart, a cooperative of independent workers, has 100,000+ members: invoicing, insurance, shared benefits.",
+    "src": "https://www.jobbers.io/the-rise-of-freelance-collectives-how-solo-workers-are-forming-unions-in-2026/", "date": "2026"
+  },
+  "W2-ЦС": {
+    "ru": "Утром открываю приложение, а там уже понятные задачи со сроками и подсказками, как их сделать.",
+    "en": "In the morning I open the app and my tasks are already there, with deadlines and hints on how to do them.",
+    "sig_ru": "Алгоритмы распределяют задачи, ставят сроки и задают порядок работы; у 78% платформенных работников учитывается время на каждую задачу.",
+    "sig_en": "Algorithms assign tasks, set deadlines and order the work; 78% of platform workers have time tracked per task.",
+    "src": "https://www.eurofound.europa.eu/en/publications/all/algorithmic-control-how-digital-surveillance-is-shaping-online-platform-work-in-europe", "date": "2026-02"
+  },
+  "W2-ЦЗ": {
+    "ru": "Руководитель объясняет смысл проекта, а я отвечаю за свою часть и работаю с ИИ по общему стандарту компании.",
+    "en": "My manager explains why the project matters; I own my part and use AI according to the company-wide standard.",
+    "sig_ru": "Shopify сделала работу с ИИ обязательной и включила её в оценку сотрудников.",
+    "sig_en": "Shopify made AI use mandatory and added it to performance reviews.",
+    "src": "https://www.tomshardware.com/tech-industry/artificial-intelligence/shopify-ceo-teams-must-prove-ai-cant-do-a-task-before-asking-for-new-hires-resources", "date": "2025-04"
+  },
+  "W2-ДС": {
+    "ru": "Рутину забирают мои настроенные ИИ-агенты, а я ставлю им задачи и проверяю результат.",
+    "en": "My own AI agents take the routine; I set their tasks and check the results.",
+    "sig_ru": "Microsoft описывает новую роль «агент-босс»: человек сам создаёт ИИ-агентов, поручает им работу и управляет ими.",
+    "sig_en": "Microsoft describes a new role, the 'agent boss': a person who builds, delegates to and manages AI agents.",
+    "src": "https://www.geekwire.com/2025/meet-your-new-ai-teammate-microsoft-sees-humans-as-agent-bosses-upending-the-workplace/", "date": "2025-04"
+  },
+  "W2-ДЗ": {
+    "ru": "Несколько дней без встреч делаю сложную задачу, а удачный приём потом показываю коллегам, и они его подхватывают.",
+    "en": "I spend a few meeting-free days on a hard task, then show colleagues the trick that worked, and they pick it up.",
+    "sig_ru": "В Citi сеть из 4000 коллег-«ускорителей» довела использование ИИ до 70% среди 182 000 сотрудников: учились друг у друга.",
+    "sig_en": "At Citi, a network of 4,000 peer 'accelerators' brought AI adoption to 70% of 182,000 employees by learning from each other.",
+    "src": "https://www.leadwithai.co/article/people-copy-people-ai-adoption-scales-socially", "date": "2026-01"
+  },
+  "W3-ЦС": {
+    "ru": "Пять дней в неделю прихожу в офис, где уже всё готово: техника, еда, переговорки.",
+    "en": "Five days a week I come to an office where everything is ready: equipment, food, meeting rooms.",
+    "sig_ru": "55% компаний из Fortune 100 требуют пять дней в офисе, в 2021 году таких было 5%.",
+    "sig_en": "55% of Fortune 100 companies require five office days a week, up from 5% in 2021.",
+    "src": "https://www.credaily.com/briefs/return-to-office-trend-accelerates-as-employers-tighten-rules", "date": "2026"
+  },
+  "W3-ЦЗ": {
+    "ru": "Работаю рядом с коллегами четыре дня в неделю по официальной программе, и пятница моя.",
+    "en": "I work alongside colleagues four days a week under an official programme, and Friday is mine.",
+    "sig_ru": "В Польше с начала 2026 года идёт государственный пилот: 90 работодателей и больше 5000 сотрудников пробуют четырёхдневку и сокращённый день.",
+    "sig_en": "Poland's state pilot since early 2026: 90 employers and 5,000+ workers trying four-day weeks and shorter days.",
+    "src": "https://devby.io/news/v-polshe-podelilis-pervymi-itogami-eksperimenta-s-4-dnevkoi", "date": "2026"
+  },
+  "W3-ДС": {
+    "ru": "Работаю удалённо, из дома или из другой страны, и согласую часы с заказчиками.",
+    "en": "I work remotely, from home or from another country, and agree my hours with clients.",
+    "sig_ru": "Визы для удалённых работников в 2026 году есть больше чем в 65 странах, в 2020-м их было 12.",
+    "sig_en": "65+ countries offer remote-worker visas in 2026, up from 12 in 2020.",
+    "src": "https://voxbooster.com/blog/digital-nomad-visa-statistics-2026/", "date": "2026"
+  },
+  "W3-ДЗ": {
+    "ru": "Работаю не в офисе, а в тихом общем пространстве у дома, где рядом соседи, которые тоже работают на себя.",
+    "en": "Instead of an office I work in a quiet shared space near home, next to neighbours who also work for themselves.",
+    "sig_ru": "Во Франции 4041 «третье место» (tiers-lieux) в 2026 году против 1800 в 2018-м.",
+    "sig_en": "France has 4,041 'third places' (tiers-lieux) in 2026, up from 1,800 in 2018.",
+    "src": "https://www.carenews.com/carenews-info/news/4-041-tiers-lieux-recenses-en-france", "date": "2026-10"
+  },
+  "W4-ЦС": {
+    "ru": "У каждого в команде ясная роль, а задачи и премию считает система по метрикам.",
+    "en": "Everyone on the team has a clear role, and a system sets tasks and bonuses by metrics.",
+    "sig_ru": "ИИ уже ставит задачи, следит за работой и оценивает людей в большинстве компаний, а обязательные правила ЕС отложены до 2027 года.",
+    "sig_en": "AI already sets tasks, monitors and evaluates workers at most firms, while binding EU rules slipped to 2027.",
+    "src": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-06-algorithmic-management-default/scan.html", "date": "2026-06"
+  },
+  "W4-ЦЗ": {
+    "ru": "Доверяю сильному руководителю выбор направления, а правила работы с ИИ у нас записаны в общем договоре.",
+    "en": "I trust a strong leader to set the direction, and our rules for working with AI are written into a shared agreement.",
+    "sig_ru": "27 октября 2026 года корейские металлурги подписали отраслевое соглашение: прежде чем вводить ИИ, работодатель договаривается с профсоюзом.",
+    "sig_en": "On 27 October 2026 Korea's metal industry signed an agreement: employers must settle with the union before bringing in AI.",
+    "src": "https://blog.pebblous.ai/blog/metal-union-ai-prior-agreement-clause/en/", "date": "2026-10"
+  },
+  "W4-ДС": {
+    "ru": "Под каждый проект собираю независимых подрядчиков и ИИ-агентов и договариваюсь с ними о результате.",
+    "en": "For each project I assemble independent contractors and AI agents and agree on the result with them.",
+    "sig_ru": "28% руководителей думают нанимать отдельных менеджеров для смешанных команд из людей и ИИ-агентов.",
+    "sig_en": "28% of leaders are considering hiring managers for hybrid teams of people and AI agents.",
+    "src": "https://www.itpro.com/technology/artificial-intelligence/should-workers-prepare-to-become-ai-agent-bosses", "date": "2025"
+  },
+  "W4-ДЗ": {
+    "ru": "В нашей небольшой команде нет начальника: мы сами распределяем роли и раз в квартал пересматриваем решения.",
+    "en": "Our small team has no boss: we split the roles ourselves and revisit decisions every quarter.",
+    "sig_ru": "В Bayer около 100 000 сотрудников перешли на самоорганизованные команды, которые каждые 90 дней сами выбирают, над чем работать.",
+    "sig_en": "At Bayer about 100,000 employees moved to self-directed teams that choose their work every 90 days.",
+    "src": "https://fortune.com/europe/2024/04/11/pharmaceutical-giant-bayer-ceo-bill-anderson-rid-bosses-staff-self-organize-save-2-billion/", "date": "2024–2026"
+  }
+}

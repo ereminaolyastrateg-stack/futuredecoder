@@ -72,6 +72,8 @@ h3{font-family:var(--display);font-weight:500;text-transform:uppercase;font-size
 .card[data-a="drop"]{border-color:var(--drop)}
 .card[data-a="no"]{opacity:.7}
 .card h4{margin:0 0 4px;font-size:17px}
+.card .story{font-size:18px;font-weight:600;line-height:1.35;margin:0 0 6px}
+.card .sig{font-size:13px;color:var(--muted);margin:0 0 10px}
 .card p{margin:0 0 10px}
 .more{font-size:14px;color:var(--muted);margin:0 0 10px}
 .more summary{cursor:pointer;color:var(--ink);font-weight:500}
@@ -163,7 +165,7 @@ ru:{
   next2:"Что дальше: с этой картой можно прийти в лабораторию «Архитектура человека» — там мы связываем «хочу» с ресурсами, ищем тучи и рычаги и выходим на один шаг.",
   lab:"Про лабораторию",
   noStore:"Браузер не даёт сохранять черновик: ответы пропадут при закрытии страницы. Скачай итог в конце.",
-  of:"из", step:"Подсфера", tagKeep:"сохраняю", tagDrop:"убираю", tagWant:"новое",
+  of:"из", step:"Подсфера", sig:"Сигнал:", tagKeep:"сохраняю", tagDrop:"убираю", tagWant:"новое",
   worlds:{"ЦС":"Мир автопилота","ЦЗ":"Мир правил","ДС":"Мир автономии","ДЗ":"Мир сообщества"},
   mdTitle:"Как сейчас и каким хочу", mdDate:"Дата", mdSpheres:"Сферы",
   mdTake:"забираю", mdGive:"даст", mdWhy:"почему", mdOwn:"своими словами", mdWorlds:"Тяга к мирам",
@@ -194,7 +196,7 @@ en:{
   next2:"What next: bring this map to the «Human Architecture» lab, where we link your wants to resources, find conflicts and levers, and arrive at one step.",
   lab:"About the lab",
   noStore:"Your browser doesn't allow saving a draft: answers will be lost when you close the page. Download the result at the end.",
-  of:"of", step:"Subsphere", tagKeep:"keep", tagDrop:"drop", tagWant:"new",
+  of:"of", step:"Subsphere", sig:"Signal:", tagKeep:"keep", tagDrop:"drop", tagWant:"new",
   worlds:{"ЦС":"Autopilot world","ЦЗ":"World of rules","ДС":"World of autonomy","ДЗ":"World of community"},
   mdTitle:"Now and wanted", mdDate:"Date", mdSpheres:"Spheres",
   mdTake:"take", mdGive:"gives", mdWhy:"why", mdOwn:"in my own words", mdWorlds:"Pull of the worlds",
@@ -206,6 +208,7 @@ function plural(n,f){const a=n%10,b=n%100;return f[(a===1&&b!==11)?0:(a>=2&&a<=4
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
+const title = v=>v.s_ru?L(v,"s"):L(v,"n");
 
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}}
@@ -262,7 +265,8 @@ function rRun(){
   <h2>${esc(nm(sb))}</h2><p class="q">${esc(L(sb,"q"))}</p>
   <div class="cards">${order(sb).map(v=>{const a=(S.ans[v.id]||{}).a||"";
     const ex=v.ex.map(e=>`<p>${esc(e[LANG]||e.ru)}${e.src?` <a href="${esc(e.src)}" target="_blank" rel="noopener">${T.src}</a>`:""}</p>`).join("");
-    return `<article class="card" data-id="${v.id}" data-a="${a}"><h4>${esc(L(v,"n"))}</h4><p>${esc(L(v,"t"))}</p>
+    const head=v.s_ru?`<p class="story">${esc(L(v,"s"))}</p><p class="sig">${T.sig} ${esc(L(v,"g"))} <a href="${esc(v.g_src)}" target="_blank" rel="noopener">${T.src}, ${esc(v.g_date)}</a></p>`:`<h4>${esc(L(v,"n"))}</h4><p>${esc(L(v,"t"))}</p>`;
+    return `<article class="card" data-id="${v.id}" data-a="${a}">${head}
     <details class="more"><summary>${T.more}</summary><p><b>${T.plus}</b> ${esc(L(v,"p"))}</p><p><b>${T.minus}</b> ${esc(L(v,"m"))}</p>${ex?`<p><b>${T.ex}</b></p>${ex}`:""}</details>
     <div class="ans" role="group">${Object.entries(T.buttons).map(([k,lab])=>`<button data-v="${k}" aria-pressed="${a===k}">${lab}</button>`).join("")}</div>
     <div class="fields">${fieldsFor(v,a)}</div></article>`}).join("")}</div>
@@ -310,7 +314,7 @@ function colHTML(data,filter,cls){
       for(const {v,r} of items){if(!filter.includes(r.a))continue;
         const extra=[r.take,r.give,r.why].filter(Boolean).map(esc).join(" · ");
         const tag=cls==="now"?`<span class="tag ${r.a}">${r.a==="keep"?T.tagKeep:T.tagDrop}</span>`:(r.a==="want"?`<span class="tag want">${T.tagWant}</span>`:"");
-        lines.push(`<li><span class="${cls==="now"&&r.a==="drop"?"drop-t":""}">${esc(L(v,"n"))}</span>${tag}<small>${esc(nm(sb))}${extra?" — "+extra:""}</small></li>`)}
+        lines.push(`<li><span class="${cls==="now"&&r.a==="drop"?"drop-t":""}">${esc(title(v))}</span>${tag}<small>${esc(nm(sb))}${extra?" — "+extra:""}</small></li>`)}
       if(own&&cls!=="no")lines.push(`<li><i>${esc(own)}</i><small>${esc(nm(sb))}</small></li>`);
     }
     if(lines.length)h+=`<div class="sp">${esc(nm(sp))}</div><ul>${lines.join("")}</ul>`;
@@ -355,7 +359,7 @@ function toMD(data){
     for(const {sp,subs} of data){let part="";
       for(const {sb,items,own} of subs){for(const {v,r} of items){if(!filter.includes(r.a))continue;
         const bits=[];if(r.take)bits.push(T.mdTake+": "+r.take);if(r.give)bits.push(T.mdGive+": "+r.give);if(r.why)bits.push(T.mdWhy+": "+r.why);
-        part+=`- **${L(v,"n")}** (${T.buttons[r.a]}; ${nm(sb)}; ${T.worlds[v.w]})${bits.length?"\n  - "+bits.join("\n  - "):""}\n`}}
+        part+=`- **${title(v)}** (${T.buttons[r.a]}; ${nm(sb)}; ${T.worlds[v.w]})${bits.length?"\n  - "+bits.join("\n  - "):""}\n`}}
       if(part){s+=`\n### ${nm(sp)}\n${part}`;any=true}}
     return any?s:"";};
   let own="";for(const {sp,subs} of data)for(const {sb,own:o} of subs)if(o)own+=`- ${nm(sp)} / ${nm(sb)}: ${o}\n`;
@@ -367,7 +371,7 @@ function toMD(data){
 function toJSON(data){
   return {format:"futuredecoder-opros/1",lang:LANG,date:today(),spheres:data.map(({sp,subs})=>({id:sp.id,name:nm(sp),
     subspheres:subs.map(({sb,items,own})=>({id:sb.id,name:nm(sb),own:own||undefined,
-      answers:items.map(({v,r})=>({card:v.id,world:v.w,name:L(v,"n"),answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
+      answers:items.map(({v,r})=>({card:v.id,world:v.w,name:title(v),signal:v.g_src||undefined,answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
     worlds:worldCounts()};
 }
 

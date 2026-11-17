@@ -4,7 +4,7 @@
 Результат: quartz/static/opros/data.json — общий для RU и EN страниц.
 Запуск: python3 scripts/opros/build.py
 """
-import json, sys
+import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -13,6 +13,7 @@ from build import SPHERES  # noqa: E402
 
 src = json.loads((ROOT / 'scripts/spheres/source_ru.json').read_text())
 tr = json.loads((ROOT / 'scripts/spheres/tr_en.json').read_text())
+stories = json.loads((ROOT / 'scripts/opros/stories.json').read_text())
 
 spheres = []
 by_sphere = {}
@@ -28,7 +29,7 @@ for c in src:
     if key not in subs:
         te = tr['subs'].get(c['sub'], {})
         subs[key] = {'id': key, 'ru': c['sub'], 'en': te.get('name', c['sub']),
-                     'q_ru': c['question'], 'q_en': te.get('question', ''), 'v': []}
+                     'q_ru': re.sub(r'\s*Дополнение v\d+:\s*', ' ', c['question']).strip(), 'q_en': te.get('question', ''), 'v': []}
         s['subs'].append(subs[key])
     ce = tr['cards'].get(c['id'], {})
     en_pr = ce.get('practices', [])
@@ -45,11 +46,15 @@ for c in src:
         'm_ru': c['minus'], 'm_en': ce.get('minus', ''),
         'ex': ex[:2],
     })
+    st = stories.get(c['id'])
+    if st:  # мини-история из одной фразы на базе фронтирного сигнала
+        subs[key]['v'][-1].update({'s_ru': st['ru'], 's_en': st['en'],
+            'g_ru': st['sig_ru'], 'g_en': st['sig_en'], 'g_src': st['src'], 'g_date': st['date']})
 
 out = ROOT / 'quartz/static/opros/data.json'
 out.write_text(json.dumps({'spheres': spheres}, ensure_ascii=False, separators=(',', ':')))
 n = sum(len(x['subs']) for x in spheres)
-print(f'{out.relative_to(ROOT)}: {len(spheres)} сфер, {n} подсфер, {len(src)} вариантов, {out.stat().st_size//1024} КБ')
+print(f'{out.relative_to(ROOT)}: {len(spheres)} сфер, {n} подсфер, {len(src)} вариантов, историй {sum(1 for k in stories if k in {c["id"] for c in src})}, {out.stat().st_size//1024} КБ')
 
 # --- страницы RU и EN из одного шаблона ---
 tpl = (ROOT / 'scripts/opros/template.html').read_text()
