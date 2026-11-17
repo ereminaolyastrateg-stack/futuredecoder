@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** International network; coordination in Finland.  
 **Type and stage:** Network of educational innovation hubs.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** Universities and partners establish a shared setting and ways of working for educational projects. A challenge meaningful to the network provides direction, while ability is demonstrated through collaborative practical work.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work.  
 **Industries:** Higher education; R&D; industry collaboration.  

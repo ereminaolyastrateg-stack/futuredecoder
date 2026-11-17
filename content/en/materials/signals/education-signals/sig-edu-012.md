@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 26 March 2025 — online publication.  
 **Geography:** United Kingdom — RCA research.  
 **Type and stage:** Research chapter and proposed educational framework.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** A common purpose is proposed for designers: restoring ecological and social conditions. It defines what counts as valuable and responsible professional work.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Design education; ecological design.  

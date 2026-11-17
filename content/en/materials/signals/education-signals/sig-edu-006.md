@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** United States; international use.  
 **Type and stage:** Platform and format for learner records.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** Ability is described through school-defined competencies and verified work. A shared record format lets others examine the result against explicit criteria.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work.  
 **Industries:** School education; assessment; admissions.  

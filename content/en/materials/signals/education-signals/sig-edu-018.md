@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 2018 — biennial; 22 January 2018 — the organiser’s publication.  
 **Geography:** Türkiye, Istanbul.  
 **Type and stage:** Biennial exhibition and educational programme.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** The biennial makes public the question of what counts as a school and who can organise learning. The focus is on reconsidering the recognised form of education through a cultural institution.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-030 — Culture as a source of futures; MT-029 — Crisis of social institutions.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-030 — Culture as a source of futures; MT-029 — Crisis of social institutions.
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; exhibitions; cultural education.  

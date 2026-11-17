@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands; the online YouTube platform.  
 **Type and stage:** Realised personal design experiment.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** A person chooses the task, gathers knowledge from open videos and builds their own route towards a result. The emphasis is on independently deciding what and how to learn.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
 
 **Life domains:** Education; Work.  
 **Industries:** Design; printing; open online learning.  

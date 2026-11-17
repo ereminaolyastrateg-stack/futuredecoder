@@ -47,11 +47,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands, Breda.  
 **Type and stage:** Agora-school practice with personal coaches.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** The learner starts from their own questions and interests and chooses what and how to study. A coach helps them follow that route and notice gaps.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** School education.  

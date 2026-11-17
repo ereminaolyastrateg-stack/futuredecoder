@@ -22,7 +22,7 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **Centralized — Synthetic** world, where a master precisely executes what already exists.*
+*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/centralized-synthetic|Centralized — Synthetic]]** world, where a master precisely executes what already exists.*
 
 ## 2035. One shift
 

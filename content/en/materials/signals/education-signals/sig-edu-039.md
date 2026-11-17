@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 5 September 2025 — lecture and discussion.  
 **Geography:** Austria, Linz; international makerspace practices.  
 **Type and stage:** Public discussion of research and educational practices.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Young people help create the space and its rules through collective action and critical inquiry. The organisation of learning becomes something participants can discuss and change as they work.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-038 — Inequality and resource distribution; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-038 — Inequality and resource distribution; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** STEM; makerspaces; non-formal education.  

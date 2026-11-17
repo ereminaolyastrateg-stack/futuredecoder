@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 4 September 2025 — panel discussion.  
 **Geography:** Austria, Linz; international research practices.  
 **Type and stage:** Conference discussion of citizen science in education.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Learners participate in research whose outcome is not known in advance. Working with methods, data and uncertainty provides feedback that may change the next research step.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Science; school education; citizen research.  

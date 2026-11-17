@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Germany, Berlin; international programmes.  
 **Type and stage:** Independent hands-on educational programmes.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** Technical skills are connected to the participant’s own artistic or research question. Their chosen topic and the work through which they want to express it are central.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-026 — Creative economy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-026 — Creative economy; [[en/materials/macrotrends/human-mastery-ds|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Art; creative technology; design.  

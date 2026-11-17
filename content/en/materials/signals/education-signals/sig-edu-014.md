@@ -50,13 +50,13 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands.  
 **Type and stage:** Participatory graduation design project.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** Here we examine the arrangement criticised by the project: at twelve, a system allocates children to educational tracks. An early external decision sets boundaries and can have lasting effects on the options available to a person.
 
 **In the original deck:** CE — Centralized — Earth.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-038 — Inequality and resource distribution; MT-030 — Culture as a source of futures.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-038 — Inequality and resource distribution; MT-030 — Culture as a source of futures.
 
 **Life domains:** Education; Close relationships and family; Values, meaning and community.  
 **Industries:** Design; school education; social inquiry.  

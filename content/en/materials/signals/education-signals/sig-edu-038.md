@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands; international participant network.  
 **Type and stage:** Documented practice and publication on collaborative workshops.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** The group changes the workshop script, materials and roles and observes how this affects collaboration. The way of learning itself can be rebuilt in response to feedback.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work.  
 **Industries:** Design; informal education; facilitation.  

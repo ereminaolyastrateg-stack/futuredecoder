@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 2026–2027 edition; launch on 22 September 2026.  
 **Geography:** France; international programme.  
 **Type and stage:** Challenge and support programme for youth-led social projects.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** An author develops a social project and learns from emerging tasks, difficulties and responses. Learning is connected to what is discovered while trying to change a real situation.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]].
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]].
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Education; social entrepreneurship.  

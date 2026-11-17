@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** International standard.  
 **Type and stage:** Specification for digital achievement credentials.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** An achievement is recorded through a common standard, identifying its issuer, criteria and evidence. The authenticity of the record can be checked through an established digital procedure.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work.  
 **Industries:** Education; HR; digital credentials.  

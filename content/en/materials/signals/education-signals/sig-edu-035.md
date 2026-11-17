@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 2024–2025; films presented as Showreel 2025.  
 **Geography:** United Kingdom, RCA and DEFRA.  
 **Type and stage:** Research-led educational project with speculative films.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Several future worlds are created to investigate the consequences of decisions about trade and nature. Questions and understanding of relationships develop through working with scenarios and films.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; film; trade and supply chains.  

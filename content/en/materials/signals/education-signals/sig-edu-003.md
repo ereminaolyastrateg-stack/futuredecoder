@@ -48,11 +48,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Online; artificial societies within a model.  
 **Type and stage:** Experimental simulation platform.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** A person sets the rules of an artificial society, and the model shows behaviour that might emerge. The focus is on using a system to investigate and choose rules; applying its results to real life requires separate validation.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-013 — Gamification; MT-047 — Advanced AI systems and cognitive computing.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-013 — Gamification; MT-047 — Advanced AI systems and cognitive computing.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Simulation; research into social systems.  

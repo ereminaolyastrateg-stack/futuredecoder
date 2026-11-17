@@ -3,6 +3,9 @@ title: "ЦЗ — Центр + Земля"
 seoTitle: "Сценарий ЦЗ: Центр + Земля — мир общего смысла и мастерства"
 description: "Мир ЦЗ в методе Декодер Будущего: порядок через общий смысл, авторитет и живое мастерство. Человек этого мира, сильная сторона и цена, связи с AQAL, Cynefin, спиральной динамикой."
 lang: ru
+translations:
+  ru: /chetyre-mira/centr-zemlya
+  en: /en/four-worlds/centralized-earth
 scenario: CE
 scenario_ru: ЦЗ
 tags:
@@ -101,7 +104,7 @@ updated: 2026-11-17
 
 ## Мир ЦЗ в саду
 
-- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ce|Мастерство человека — ЦЗ]].
+- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ce|Мастерство человека — ЦЗ]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ce|Образование — ЦЗ]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-010|Fab Academy]], [[materialy/signaly/obrazovanie/sig-edu-016|Solar Mamas]] и все остальные — по тегу #сценарий/ЦЗ или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ЦЗ».
 
 **Другие миры:** [[chetyre-mira/centr-sintetika|ЦС — Центр + Синтетика]] · [[chetyre-mira/decentr-sintetika|ДС — Децентр + Синтетика]] · [[chetyre-mira/decentr-zemlya|ДЗ — Децентр + Земля]].

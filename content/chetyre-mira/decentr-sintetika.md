@@ -3,6 +3,9 @@ title: "ДС — Децентр + Синтетика"
 seoTitle: "Сценарий ДС: Децентр + Синтетика — мир техно-суверена"
 description: "Мир ДС в методе Декодер Будущего: самостоятельность через свой инструмент, способ и воспроизводимость. Человек этого мира, сильная сторона и цена, связи с AQAL, спиральной динамикой, Cynefin."
 lang: ru
+translations:
+  ru: /chetyre-mira/decentr-sintetika
+  en: /en/four-worlds/decentralized-synthetic
 scenario: DS
 scenario_ru: ДС
 tags:
@@ -101,7 +104,7 @@ updated: 2026-11-17
 
 ## Мир ДС в саду
 
-- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ds|Мастерство человека — ДС]].
+- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ds|Мастерство человека — ДС]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ds|Образование — ДС]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-021|Exercises in Learning]], [[materialy/signaly/obrazovanie/sig-edu-027|College Unbound]] и все остальные — по тегу #сценарий/ДС или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ДС».
 
 **Другие миры:** [[chetyre-mira/centr-sintetika|ЦС — Центр + Синтетика]] · [[chetyre-mira/centr-zemlya|ЦЗ — Центр + Земля]] · [[chetyre-mira/decentr-zemlya|ДЗ — Децентр + Земля]].

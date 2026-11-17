@@ -50,13 +50,13 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** International network of local laboratories.  
 **Type and stage:** Educational programme with mentors and assessment of work.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** There is a shared programme, mentors and criteria of mastery recognised within the school. Within that common direction, each participant makes their own projects and demonstrates ability through work.
 
 **In the original deck:** CS — Centralized — Synthetic.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
 
 **Life domains:** Education; Work.  
 **Industries:** Digital fabrication; engineering education.  

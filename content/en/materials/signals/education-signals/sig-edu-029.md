@@ -48,13 +48,13 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** France; the international 42 network.  
 **Type and stage:** Project-based programming education and peer assessment.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** The student searches for a solution, writes and tests code, receives feedback from the result and other students, and tries again. The next step becomes clearer through inquiry, error and revision.
 
 **In the original deck:** DS — Decentralized — Synthetic.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-076 — Digital communities and virtual interaction.
 
 **Life domains:** Education; Work.  
 **Industries:** Programming; vocational learning.  

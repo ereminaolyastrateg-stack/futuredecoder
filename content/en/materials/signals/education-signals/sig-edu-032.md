@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 2023–2024.  
 **Geography:** Austria, Linz; international participants.  
 **Type and stage:** Summer school and experimental semester.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Future university formats are tested through a summer school and experimental semester. Participants learn inside the prototype while also discovering how learning itself should be organised.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-029 — Crisis of social institutions.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-029 — Crisis of social institutions.
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; digital transformation.  

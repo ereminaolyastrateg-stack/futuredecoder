@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 5 September 2025 — conference session.  
 **Geography:** Austria, Linz; European practices.  
 **Type and stage:** Conference programme on non-formal education.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** Museums and workshops are proposed for recognition as meaningful settings for democratic education. The shared social question is which places and forms of participation count as education.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-030 — Culture as a source of futures; MT-029 — Crisis of social institutions.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-030 — Culture as a source of futures; MT-029 — Crisis of social institutions.
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Museums; cultural institutions; non-formal education.  

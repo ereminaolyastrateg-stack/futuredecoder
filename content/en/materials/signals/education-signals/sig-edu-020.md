@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands; United Kingdom; transnational programme.  
 **Type and stage:** Independent educational and cultural initiative.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** The educational community states shared principles: free provision for students, pluralism and transnationality. These define which forms of learning and participation it values.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-029 — Crisis of social institutions; MT-030 — Culture as a source of futures.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-029 — Crisis of social institutions; MT-030 — Culture as a source of futures.
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Design; art; cultural education.  

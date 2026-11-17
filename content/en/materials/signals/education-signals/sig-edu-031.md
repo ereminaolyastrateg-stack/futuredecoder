@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 2026 — exhibition model; 2070 — the Pluriversity scenario horizon.  
 **Geography:** Ireland — the imagined setting; Netherlands — the DDW exhibition.  
 **Type and stage:** Speculative lab within The Pluriversity project.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Residents try ways of living together, observe consequences and revise rules and decisions. Knowledge of a suitable neighbourhood arrangement emerges through repeated trials and feedback.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-029 — Crisis of social institutions.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-029 — Crisis of social institutions.
 
 **Life domains:** Education; Place of living and public environment; Values, meaning and community.  
 **Industries:** Territorial development; housing; education.  

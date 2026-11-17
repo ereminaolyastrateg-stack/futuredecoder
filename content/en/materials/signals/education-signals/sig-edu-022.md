@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Netherlands.  
 **Type and stage:** Speculative Design Academy Eindhoven installation.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** In this speculative vision, information selection should serve the individual’s own values. The main question is how to give a person influence over what shapes their knowledge and view of the world.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; MT-081 — Ecosystems, super-apps and the platform economy.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; MT-081 — Ecosystems, super-apps and the platform economy.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design; AI; information platforms.  

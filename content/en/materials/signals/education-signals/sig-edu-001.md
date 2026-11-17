@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** 2024; a vision of education in 2035.  
 **Geography:** United Kingdom; a project about China.  
 **Type and stage:** Speculative RCA graduation project.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** The lesson plan, digital environment and progress tracking are combined in a system designed in advance. Part of organising and assessing learning is delegated to that arrangement.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** Education; EdTech; VR.  

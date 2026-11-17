@@ -3,6 +3,9 @@ title: "ДЗ — Децентр + Земля"
 seoTitle: "Сценарий ДЗ: Децентр + Земля — мир участия и соавторства"
 description: "Мир ДЗ в методе Декодер Будущего: порядок и знание возникают в участии, взаимодействии и пересмотре опыта. Человек этого мира, сильная сторона и цена, связи с AQAL, Cynefin, Остром."
 lang: ru
+translations:
+  ru: /chetyre-mira/decentr-zemlya
+  en: /en/four-worlds/decentralized-earth
 scenario: DE
 scenario_ru: ДЗ
 tags:
@@ -105,7 +108,7 @@ updated: 2026-11-17
 
 ## Мир ДЗ в саду
 
-- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-de|Мастерство человека — ДЗ]].
+- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-de|Мастерство человека — ДЗ]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-de|Образование — ДЗ]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-038|Figuring Things Out Together]], [[materialy/signaly/obrazovanie/sig-edu-029|42]] и все остальные — по тегу #сценарий/ДЗ или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ДЗ».
 
 **Другие миры:** [[chetyre-mira/centr-sintetika|ЦС — Центр + Синтетика]] · [[chetyre-mira/centr-zemlya|ЦЗ — Центр + Земля]] · [[chetyre-mira/decentr-sintetika|ДС — Децентр + Синтетика]].

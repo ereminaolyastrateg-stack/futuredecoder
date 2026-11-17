@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 2025 — project; 2035 — scenario horizon.  
 **Geography:** United Kingdom — RCA; Brazil — the education system explored.  
 **Type and stage:** Speculative design research and learning activities.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** The learner is asked to retain their own judgement: notice AI bias, examine an answer and decide what to accept or change. Using the tool rests on an independent intellectual position.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-047 — Advanced AI systems and cognitive computing; MT-044 — Social trust and digital ethics.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-047 — Advanced AI systems and cognitive computing; MT-044 — Social trust and digital ethics.
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; design; AI literacy.  

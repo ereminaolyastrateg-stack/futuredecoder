@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** United Kingdom, RCA.  
 **Type and stage:** Research and educational unit.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** A person can construct several images of the future and consider which resonate with them and which assumptions sustain them. The emphasis is on their own imagination and relationship to possible futures.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design education; foresight; film.  

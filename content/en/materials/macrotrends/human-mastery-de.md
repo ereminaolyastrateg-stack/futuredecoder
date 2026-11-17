@@ -22,7 +22,7 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **Decentralized — Earth** world, where a master keeps changing what exists, together with the people around them.*
+*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/decentralized-earth|Decentralized — Earth]]** world, where a master keeps changing what exists, together with the people around them.*
 
 ## 2035. One building
 

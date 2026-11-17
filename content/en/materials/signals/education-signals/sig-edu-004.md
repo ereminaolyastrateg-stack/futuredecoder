@@ -50,11 +50,11 @@ updated: 2026-11-16
 **Date / period:** 2026.  
 **Geography:** Austria, Linz.  
 **Type and stage:** Experimental Ars Electronica Futurelab prototype.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** A system selects the museum route, taking account of a person’s interests and adding unfamiliar topics. Even the move beyond familiar interests is partly organised by a digital guide.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-047 — Advanced AI systems and cognitive computing.
 
 **Life domains:** Education; Everyday life, consumption and leisure; Values, meaning and community.  
 **Industries:** Museums; cultural education; AI interfaces.  

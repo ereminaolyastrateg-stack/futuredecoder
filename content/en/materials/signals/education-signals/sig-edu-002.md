@@ -55,11 +55,11 @@ updated: 2026-11-16
 **Date / period:** 2025 — project; 2035 — the setting of the fictional story.  
 **Geography:** United Kingdom.  
 **Type and stage:** Speculative RCA graduation project.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** Routine tasks and the provision of explanations are proposed as functions for AI. The project asks what can be entrusted to a system and which decisions, abilities and relationships should remain with teachers and learners.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-047 — Advanced AI systems and cognitive computing; MT-002 — Human–machine interaction.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-047 — Advanced AI systems and cognitive computing; MT-002 — Human–machine interaction.
 
 **Life domains:** Education; Work.  
 **Industries:** Education; EdTech; service design.  

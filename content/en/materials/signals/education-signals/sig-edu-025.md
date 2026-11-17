@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** Since 2015 — learning circles with libraries, according to P2PU’s history.  
 **Geography:** United States; international library and community spaces.  
 **Type and stage:** Facilitated peer-learning methodology.  
-**Scenario:** DS — Decentralized — Synthetic.
+**Scenario:** [[en/four-worlds/decentralized-synthetic|DS — Decentralized — Synthetic]].
 
 **Why this scenario:** Participants gather around a chosen topic and study open resources together. A facilitator supports their work, while the group retains agency over its learning direction and participation.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-076 — Digital communities and virtual interaction; MT-038 — Inequality and resource distribution.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ds|MT-043 — Education, knowledge and literacy]]; MT-076 — Digital communities and virtual interaction; MT-038 — Inequality and resource distribution.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Libraries; adult education; open resources.  

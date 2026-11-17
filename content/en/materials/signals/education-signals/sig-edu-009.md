@@ -48,11 +48,11 @@ updated: 2026-11-16
 **Date / period:** 2018 — the workshop documented in the publication.  
 **Geography:** Netherlands, Amsterdam.  
 **Type and stage:** Documented experiment with group instructions.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** Part of the facilitator’s work is written into instructions and a sequence of actions. The group can follow the session using a process arranged in advance.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-007 — Work automation; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-007 — Work automation; [[en/materials/macrotrends/human-mastery-cs|MT-031 — Human mastery]].
 
 **Life domains:** Education.  
 **Industries:** Informal education; facilitation; design.  

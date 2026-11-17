@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** January 2026 — the academy launch listed on its page.  
 **Geography:** France; international programmes.  
 **Type and stage:** Educational initiative and manifesto for a university mission.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** A common direction is proposed for the university: serving the world and addressing planetary challenges. This mission gives training its purpose and defines a publicly useful result.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Higher education; social and environmental projects.  

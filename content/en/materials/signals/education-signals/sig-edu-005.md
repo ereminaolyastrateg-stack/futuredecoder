@@ -47,11 +47,11 @@ updated: 2026-11-16
 **Date / period:** 14 February 2020 — publication; the page also lists a 2021 update.  
 **Geography:** Armenia; the international TUMO network.  
 **Type and stage:** Documented practice of personalised learning pathways.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** The learner chooses areas of interest, while an algorithm assembles and adjusts the sequence of activities. The organisation of the route and coordination of next steps are delegated to a system.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-002 — Human–machine interaction; MT-081 — Ecosystems, super-apps and the platform economy.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-002 — Human–machine interaction; MT-081 — Ecosystems, super-apps and the platform economy.
 
 **Life domains:** Education.  
 **Industries:** Supplementary education; EdTech.  

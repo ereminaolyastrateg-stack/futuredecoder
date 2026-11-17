@@ -3,6 +3,9 @@ title: "ЦС — Центр + Синтетика"
 seoTitle: "Сценарий ЦС: Центр + Синтетика — мир системы и стандарта"
 description: "Мир ЦС в методе Декодер Будущего: порядок через систему, стандарт и воспроизводимость. Человек этого мира, сильная сторона и цена, связи с AQAL, Cynefin, спиральной динамикой."
 lang: ru
+translations:
+  ru: /chetyre-mira/centr-sintetika
+  en: /en/four-worlds/centralized-synthetic
 scenario: CS
 scenario_ru: ЦС
 tags:
@@ -101,7 +104,7 @@ updated: 2026-11-17
 
 ## Мир ЦС в саду
 
-- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-cs|Мастерство человека — ЦС]].
+- Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-cs|Мастерство человека — ЦС]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-cs|Образование — ЦС]].
 - Сигналы: [[materialy/signaly/obrazovanie/sig-edu-006|Mastery Transcript]], [[materialy/signaly/obrazovanie/sig-edu-009|An Automatic Workshop]] и все остальные — по тегу #сценарий/ЦС или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ЦС».
 
 **Другие миры:** [[chetyre-mira/centr-zemlya|ЦЗ — Центр + Земля]] · [[chetyre-mira/decentr-sintetika|ДС — Децентр + Синтетика]] · [[chetyre-mira/decentr-zemlya|ДЗ — Децентр + Земля]].

@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** Since 2014 — CBI history in the IdeaSquare report for 2021–2023.  
 **Geography:** Switzerland, CERN; international university teams.  
 **Type and stage:** Challenge-Based Innovation educational courses.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** A team begins with an open social problem, clarifies the need and makes prototypes. The response and the knowledge required become clearer through inquiry and testing ideas.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work.  
 **Industries:** Engineering education; R&D; social innovation.  

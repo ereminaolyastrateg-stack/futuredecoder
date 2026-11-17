@@ -48,13 +48,13 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** Denmark.  
 **Type and stage:** Three-year educational programme.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** Participants work in teams on real challenges, receive feedback from people and organisations, and revise their actions along the way. The knowledge needed and the next step emerge through the work itself.
 
 **In the original deck:** CE — Centralized — Earth.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work.  
 **Industries:** Entrepreneurship education; project management.  

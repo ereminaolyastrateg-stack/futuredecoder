@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** India; rural communities in the Global South.  
 **Type and stage:** Practical training programme by Barefoot College.  
-**Scenario:** CE — Centralized — Earth.
+**Scenario:** [[en/four-worlds/centralized-earth|CE — Centralized — Earth]].
 
 **Why this scenario:** Training responds to a specific community need: servicing solar systems. Acquired skill gains meaning through a useful technical role and recognition of that contribution.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-ce|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-ce|MT-031 — Human mastery]]; MT-038 — Inequality and resource distribution.
 
 **Life domains:** Education; Work; Place of living and public environment.  
 **Industries:** Solar energy; vocational learning.  

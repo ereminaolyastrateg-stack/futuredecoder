@@ -22,7 +22,7 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **Decentralized — Synthetic** world, where a master creates what doesn't exist yet, because it interests them.*
+*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/decentralized-synthetic|Decentralized — Synthetic]]** world, where a master creates what doesn't exist yet, because it interests them.*
 
 ## 2035. The seventh synthesizer
 

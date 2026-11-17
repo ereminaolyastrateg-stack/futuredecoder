@@ -48,11 +48,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** United States; online school.  
 **Type and stage:** School model with projects, mentors and academic requirements.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** A learner develops a project, and acquired knowledge and abilities are linked to what the work demonstrates. The next step can be refined through the result and mentors’ feedback.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; [[en/materials/macrotrends/human-mastery-de|MT-031 — Human mastery]]; MT-044 — Social trust and digital ethics.
 
 **Life domains:** Education; Close relationships and family.  
 **Industries:** School education; online education.  

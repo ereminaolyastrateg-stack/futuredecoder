@@ -50,13 +50,13 @@ updated: 2026-11-16
 **Date / period:** 2026 — exhibition project; 2070 — scenario horizon.  
 **Geography:** Ireland — the imagined setting; Netherlands — the DDW exhibition.  
 **Type and stage:** Speculative university model by Studio Saol.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** In the proposed model, learning follows the needs of a living bioregion: people try responses, receive feedback from the place and its communities, and revise their actions. The university evolves with what is discovered through that process.
 
 **In the original deck:** CE — Centralized — Earth.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-029 — Crisis of social institutions; MT-054 — Designing futures and strategic vision.
 
 **Life domains:** Education; Work; Place of living and public environment; Values, meaning and community.  
 **Industries:** Higher education; territorial development.  

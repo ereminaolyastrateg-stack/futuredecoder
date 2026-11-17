@@ -22,7 +22,7 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **Centralized — Earth** world, where a master fits into a big shared cause.*
+*[[en/materials/macrotrends/human-mastery|Human Mastery]] is a macrotrend about how people respond to powerful technology: by proving that their own skill is worth something. This is its version in the **[[en/four-worlds/centralized-earth|Centralized — Earth]]** world, where a master fits into a big shared cause.*
 
 ## 2035. Third year at the academy
 

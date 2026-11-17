@@ -52,11 +52,11 @@ updated: 2026-11-16
 **Date / period:** n.d.  
 **Geography:** International standard.  
 **Type and stage:** Specification for interoperable digital learning histories.  
-**Scenario:** CS — Centralized — Synthetic.
+**Scenario:** [[en/four-worlds/centralized-synthetic|CS — Centralized — Synthetic]].
 
 **Why this scenario:** Different achievements are assembled in an interoperable, verifiable format. This reading focuses on a shared way of recording and checking experience that educators and employers can use.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-044 — Social trust and digital ethics; MT-066 — Transformation of work and talent management.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-cs|MT-043 — Education, knowledge and literacy]]; MT-044 — Social trust and digital ethics; MT-066 — Transformation of work and talent management.
 
 **Life domains:** Education; Work; Values, meaning and community.  
 **Industries:** Education; HR; digital credentials.  

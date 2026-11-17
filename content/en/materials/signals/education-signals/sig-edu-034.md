@@ -49,11 +49,11 @@ updated: 2026-11-16
 **Date / period:** October 2025 — June 2026.  
 **Geography:** United Kingdom, RCA.  
 **Type and stage:** Speculative educational framework and student films.  
-**Scenario:** DE — Decentralized — Earth.
+**Scenario:** [[en/four-worlds/decentralized-earth|DE — Decentralized — Earth]].
 
 **Why this scenario:** A possible rule is tried through ritual, action and an artistic situation. Its consequences become something to experience and discuss, after which the proposal can be reconsidered.
 
-**Macrotrend drivers:** MT-043 — Education, knowledge and literacy; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
+**Macrotrend drivers:** [[en/materials/macrotrends/education-knowledge-literacy-de|MT-043 — Education, knowledge and literacy]]; MT-054 — Designing futures and strategic vision; MT-030 — Culture as a source of futures.
 
 **Life domains:** Education; Values, meaning and community.  
 **Industries:** Design education; film; cultural research.  

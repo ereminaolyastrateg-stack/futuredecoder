@@ -49,7 +49,7 @@ def field(body, label):
     return m.group(1).strip() if m else ''
 
 # заметки макротрендов: MT-id → базовый путь; к нему добавляется -cs/-ce/-ds/-de по сценарию сигнала
-MT_NOTES = {'ru': {'MT-031': 'materialy/makrotrendy/masterstvo-cheloveka', 'MT-043': 'materialy/makrotrendy/obrazovanie-znanie-gramotnost'}, 'en': {'MT-031': 'en/materials/macrotrends/human-mastery'}}
+MT_NOTES = {'ru': {'MT-031': 'materialy/makrotrendy/masterstvo-cheloveka', 'MT-043': 'materialy/makrotrendy/obrazovanie-znanie-gramotnost'}, 'en': {'MT-031': 'en/materials/macrotrends/human-mastery', 'MT-043': 'en/materials/macrotrends/education-knowledge-literacy'}}
 SCEN_SLUG = {'ЦС': 'cs', 'ЦЗ': 'ce', 'ДС': 'ds', 'ДЗ': 'de', 'CS': 'cs', 'CE': 'ce', 'DS': 'ds', 'DE': 'de'}
 
 def link_mt(m, lang, code):
@@ -61,7 +61,9 @@ def link_mt(m, lang, code):
     return f'[[{base}-{sl}|{text}]]' if sl else f'[[{base}|{text}]]'
 
 WORLD_NOTES = {'ru': {'ЦС': 'chetyre-mira/centr-sintetika', 'ЦЗ': 'chetyre-mira/centr-zemlya',
-                      'ДС': 'chetyre-mira/decentr-sintetika', 'ДЗ': 'chetyre-mira/decentr-zemlya'}, 'en': {}}
+                      'ДС': 'chetyre-mira/decentr-sintetika', 'ДЗ': 'chetyre-mira/decentr-zemlya'},
+               'en': {'CS': 'en/four-worlds/centralized-synthetic', 'CE': 'en/four-worlds/centralized-earth',
+                      'DS': 'en/four-worlds/decentralized-synthetic', 'DE': 'en/four-worlds/decentralized-earth'}}
 
 def link_world(body, lang, code, label):
     path = WORLD_NOTES[lang].get(code)
