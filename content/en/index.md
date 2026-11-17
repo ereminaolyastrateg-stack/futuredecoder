@@ -16,7 +16,7 @@ Here I collect notes on trends, signals, scenarios, mental models, and my own ex
 - [Future Canvas](/static/polotno/en/)
 - [Why Talk About the Future](/en/why-talk-about-the-future)
 - [Book](/en/book/)
-- [Four Worlds](/en/four-worlds/) — the basic scenario logics
+- [Four Worlds](/en/four-worlds/)
 - [Materials](/en/materials/)
 - [Media Library](/en/media-library/)
 - [Theory](/en/theory/)
