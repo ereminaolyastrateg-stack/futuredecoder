@@ -60,6 +60,16 @@ def link_mt(m, lang, code):
     sl = SCEN_SLUG.get(code)
     return f'[[{base}-{sl}|{text}]]' if sl else f'[[{base}|{text}]]'
 
+WORLD_NOTES = {'ru': {'ЦС': 'chetyre-mira/centr-sintetika', 'ЦЗ': 'chetyre-mira/centr-zemlya',
+                      'ДС': 'chetyre-mira/decentr-sintetika', 'ДЗ': 'chetyre-mira/decentr-zemlya'}, 'en': {}}
+
+def link_world(body, lang, code, label):
+    path = WORLD_NOTES[lang].get(code)
+    if not path:
+        return body
+    return re.sub(r'^(\*\*' + re.escape(label) + r':\*\*[ \t]*)(.+?)\.?[ \t]*$',
+                  lambda m: f'{m.group(1)}[[{path}|{m.group(2)}]].', body, count=1, flags=re.M)
+
 def link_sig(m, url):
     text, sid = m.group(1), m.group(2).lower()
     return f'[[{url}/{sid}|{text}]]'
@@ -112,6 +122,7 @@ def process(lang):
         b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', lambda m: link_mt(m, lang, code), b)
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
                    lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
+        b = link_world(b, lang, code, L['scen'])
         desc = field(rest, L['brief'])
         out = ['---', f'title: {yq(headline)}', f'description: {yq(desc)}', f'lang: {lang}',
                'translations:',

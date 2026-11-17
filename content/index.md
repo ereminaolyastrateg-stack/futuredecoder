@@ -16,6 +16,7 @@ socialImage: og/home-ru.png
 - [Полотно будущего](/static/polotno/)
 - [Зачем говорить о будущем](/zachem-etot-sad)
 - [Книга](/kniga/)
+- [Четыре мира](/chetyre-mira/) — базовые логики сценариев
 - [Материалы](/materialy/)
 - [Медиатека](/mediateka/)
 - [Теория](/theory/)
