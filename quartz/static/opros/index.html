@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как сейчас и каким хочу</title>
+<meta name="description" content="Анонимный опросник по сферам жизни: выбери сферы, отметь, что есть и что хочешь, и собери свой образ будущего. Ответы не уходят с устройства.">
+<link rel="canonical" href="https://futuredecoder.org/static/opros/">
+<link rel="alternate" hreflang="ru" href="https://futuredecoder.org/static/opros/">
+<link rel="alternate" hreflang="en" href="https://futuredecoder.org/static/opros/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Как сейчас и каким хочу — Декодер Будущего">
+<meta property="og:description" content="Анонимный опросник по сферам жизни: выбери сферы, отметь, что есть и что хочешь, и собери свой образ будущего. Ответы не уходят с устройства.">
+<meta property="og:url" content="https://futuredecoder.org/static/opros/">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#efeeea; --surface:#fff; --ink:#191818; --muted:#5f5d58; --line:#d9d6ce;
+  --cs:#fc5721; --cz:#fedf3a; --ds:#1e7ff0; --dz:#fd7fb8; --link:#068ee6;
+  --want:#1e7ff0; --no:#8a877f; --keep:#2f9e6a; --drop:#fc5721;
+  --display:"Oswald","Arial Narrow",Impact,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --hand:"Caveat","Comic Sans MS",cursive;
+  --holo:linear-gradient(115deg,#f2d36b 0%,#f08a4b 18%,#e9508e 34%,#7a5cf0 50%,#2fa7e8 66%,#5fd3a0 82%,#f2d36b 100%);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 72px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.brand{font-family:var(--display);font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;color:var(--ink);font-size:15px}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
+nav.tabs a{text-decoration:none;color:var(--ink);padding:7px 16px;border:1px solid var(--ink);border-radius:999px;font-size:14px;font-weight:500;background:var(--surface)}
+nav.tabs a[aria-current="page"]{background:var(--ink);color:#fff}
+nav.tabs a.langsw{font-weight:700;border-style:dashed}
+h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(34px,6vw,58px);line-height:1;margin:0 0 6px;letter-spacing:.01em}
+h2{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:28px;line-height:1.1;margin:0 0 12px}
+h3{font-family:var(--display);font-weight:500;text-transform:uppercase;font-size:20px;margin:22px 0 8px}
+.hand{font-family:var(--hand);font-size:26px;line-height:1.1;color:var(--muted)}
+.holo{height:6px;border-radius:3px;background:var(--holo);margin:14px 0 22px}
+.lead{font-size:18px;max-width:640px}
+.muted{color:var(--muted)}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:14px;color:var(--muted);margin:18px 0}
+.note b{color:var(--ink)}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin:18px 0}
+.chip{display:flex;gap:10px;align-items:flex-start;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px}
+.chip[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.chip .box{flex:none;width:20px;height:20px;border:1.5px solid var(--ink);border-radius:5px;margin-top:2px;display:grid;place-items:center;font-size:14px;font-weight:700}
+.chip[aria-pressed="true"] .box{background:var(--ink);color:#fff}
+.chip small{display:block;color:var(--muted);font-size:13px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{border:1.5px solid var(--ink);background:var(--ink);color:#fff;border-radius:999px;padding:10px 20px;font-weight:600}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.small{padding:6px 14px;font-size:14px}
+.btn[disabled]{opacity:.35;cursor:not-allowed}
+.link{background:none;border:0;padding:0;text-decoration:underline;color:var(--muted);font-size:14px}
+.progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin:6px 0 18px}
+.progress i{display:block;height:100%;background:var(--ink);transition:width .2s}
+.crumb{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.q{font-size:18px;margin:6px 0 18px;max-width:700px}
+.cards{display:grid;gap:12px}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:16px 18px}
+.card[data-a="want"]{border-color:var(--want)}
+.card[data-a="keep"]{border-color:var(--keep)}
+.card[data-a="drop"]{border-color:var(--drop)}
+.card[data-a="no"]{opacity:.7}
+.card h4{margin:0 0 4px;font-size:17px}
+.card p{margin:0 0 10px}
+.more{font-size:14px;color:var(--muted);margin:0 0 10px}
+.more summary{cursor:pointer;color:var(--ink);font-weight:500}
+.more p{margin:6px 0}
+.ans{display:flex;gap:6px;flex-wrap:wrap}
+.ans button{border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 13px;font-size:14px;font-weight:500}
+.ans button[aria-pressed="true"][data-v="want"]{background:var(--want);border-color:var(--want);color:#fff}
+.ans button[aria-pressed="true"][data-v="no"]{background:var(--no);border-color:var(--no);color:#fff}
+.ans button[aria-pressed="true"][data-v="keep"]{background:var(--keep);border-color:var(--keep);color:#fff}
+.ans button[aria-pressed="true"][data-v="drop"]{background:var(--drop);border-color:var(--drop);color:#fff}
+.fields{display:grid;gap:8px;margin-top:12px}
+.fields label{font-size:13px;color:var(--muted);font-weight:500}
+textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fbfaf7;resize:vertical;min-height:44px}
+.own{margin-top:16px}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:22px;flex-wrap:wrap}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:10px}
+@media (max-width:700px){.cols{grid-template-columns:1fr}}
+.col{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.col h2{font-size:24px}
+.col .sp{font-weight:700;margin:14px 0 4px;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
+.col ul{margin:0;padding-left:18px}
+.col li{margin:3px 0}
+.col li small{display:block;color:var(--muted)}
+.tag{display:inline-block;font-size:12px;font-weight:600;border-radius:999px;padding:1px 8px;margin-left:4px;vertical-align:1px}
+.tag.keep{background:#e3f3ea;color:#1d6e48}.tag.drop{background:#ffe6dc;color:#b43b0c}.tag.want{background:#e1eeff;color:#0f58b0}
+.drop-t{text-decoration:line-through;text-decoration-color:var(--drop)}
+.worlds{margin-top:18px}
+.wbar{display:grid;grid-template-columns:150px 1fr 1fr;gap:10px;align-items:center;margin:6px 0;font-size:14px}
+.wbar .b{height:14px;border-radius:7px;background:var(--line);overflow:hidden}
+.wbar .b i{display:block;height:100%}
+.wh{display:grid;grid-template-columns:150px 1fr 1fr;gap:10px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.empty{color:var(--muted);font-style:italic}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+[hidden]{display:none!important}
+@media print{
+  body{background:#fff}
+  .top,.noprint,nav{display:none!important}
+  .col{border:0;padding:0}
+  .cols{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="brand" href="/">Декодер Будущего</a>
+    <nav class="tabs" aria-label="Разделы">
+      <a href="#start" data-s="start">Сферы</a>
+      <a href="#run" data-s="run">Опрос</a>
+      <a href="#result" data-s="result">Итог</a>
+      <a href="en/" hreflang="en" lang="en" class="langsw">EN</a>
+    </nav>
+  </div>
+
+  <section id="s-start" hidden></section>
+  <section id="s-run" hidden></section>
+  <section id="s-result" hidden></section>
+
+  <footer class="noprint">Варианты взяты из <a href="/chetyre-mira/sfery/">сфер жизни</a> метода «Декодер Будущего». Ответы хранятся только в этом браузере.</footer>
+</div>
+<script>
+if(/[?&]lang=en\b/.test(location.search)){location.replace("en/"+location.hash)}
+const LANG = document.documentElement.lang;
+const DATA_URL = "data.json";
+const KEY = "fd-opros-v1";
+const T = {
+ru:{
+  h1:"Как сейчас и каким хочу",
+  hand:"анонимный опросник по сферам жизни",
+  lead:"Выбери сферы, которые хочешь разобрать. В каждой подсфере будет четыре варианта жизни из «Декодера Будущего». Отметь, что у тебя уже есть и что ты хочешь. В конце получишь две картинки: как сейчас и каким хочешь своё будущее.",
+  privacy:"<b>Ответы не уходят с твоего устройства.</b> Мы ничего не собираем и не храним. Черновик сохраняется только в этом браузере, его можно стереть одной кнопкой. Итог скачай себе: заметкой для Obsidian или ИИ, файлом для бота или распечаткой.",
+  pick:"Какие сферы разбираем?", all:"Выбрать все", none:"Снять все",
+  subs:n=>n+" "+plural(n,["подсфера","подсферы","подсфер"]),
+  go:"Начать", cont:"Продолжить", restart:"Начать заново",
+  time:n=>"≈ "+n+" мин",
+  buttons:{want:"Хочу",no:"Не хочу",keep:"Есть, хочу сохранить",drop:"Есть, хочу убрать"},
+  more:"Плюсы, цена и пример", plus:"Что даёт:", minus:"Чем платишь:", ex:"Кто уже так живёт:", src:"источник",
+  f_take:"Что забираю из этого варианта?", f_give:"Что это мне даст?", f_why:"Почему нет? (по желанию)", f_dropwhy:"Чем мешает? (по желанию)", f_keepwhy:"Что здесь важно сохранить? (по желанию)",
+  own:"Своими словами: как у меня сейчас или как хочу (по желанию)",
+  back:"Назад", skip:"Пропустить", next:"Дальше", finish:"К итогу",
+  now:"Как сейчас", future:"Желаемое будущее", rejected:"Чего не хочу",
+  nowHint:"то, что уже есть: сохраняю и убираю", futHint:"то, что хочу, и то, что сохраняю",
+  emptyCol:"Пока пусто", emptyAll:"Ты ещё ничего не отметил(а). Вернись к опросу.",
+  showW:"Показать, к каким мирам тянет", hideW:"Скрыть миры",
+  wHead:["Мир","Сейчас","Хочу"],
+  wNote:"Каждый вариант относится к одному из четырёх миров метода. Это не диагноз, а подсказка, где искать сигналы и шаги.",
+  md:"Скачать заметку (.md)", json:"Файл для бота (.json)", print:"Распечатать / PDF", wipe:"Стереть всё",
+  wipeQ:"Стереть все ответы в этом браузере?",
+  next2:"Что дальше: с этой картой можно прийти в лабораторию «Архитектура человека» — там мы связываем «хочу» с ресурсами, ищем тучи и рычаги и выходим на один шаг.",
+  lab:"Про лабораторию",
+  noStore:"Браузер не даёт сохранять черновик: ответы пропадут при закрытии страницы. Скачай итог в конце.",
+  of:"из", step:"Подсфера", tagKeep:"сохраняю", tagDrop:"убираю", tagWant:"новое",
+  worlds:{"ЦС":"Мир автопилота","ЦЗ":"Мир правил","ДС":"Мир автономии","ДЗ":"Мир сообщества"},
+  mdTitle:"Как сейчас и каким хочу", mdDate:"Дата", mdSpheres:"Сферы",
+  mdTake:"забираю", mdGive:"даст", mdWhy:"почему", mdOwn:"своими словами", mdWorlds:"Тяга к мирам",
+  loadErr:"Не удалось загрузить данные. Обнови страницу."
+},
+en:{
+  h1:"Now and wanted",
+  hand:"an anonymous questionnaire on life spheres",
+  lead:"Choose the spheres you want to explore. Each subsphere offers four ways of living from Future Decoder. Mark what you already have and what you want. At the end you get two pictures: your life now and the future you want.",
+  privacy:"<b>Your answers never leave your device.</b> We collect and store nothing. A draft is kept only in this browser and can be erased with one button. Download the result: a note for Obsidian or AI, a file for the bot, or a printout.",
+  pick:"Which spheres shall we explore?", all:"Select all", none:"Clear all",
+  subs:n=>n+" "+(n===1?"subsphere":"subspheres"),
+  go:"Start", cont:"Continue", restart:"Start over",
+  time:n=>"≈ "+n+" min",
+  buttons:{want:"I want this",no:"Not for me",keep:"I have it, keep it",drop:"I have it, drop it"},
+  more:"Gains, price and an example", plus:"What it gives:", minus:"What it costs:", ex:"Who already lives this way:", src:"source",
+  f_take:"What do I take from this option?", f_give:"What will it give me?", f_why:"Why not? (optional)", f_dropwhy:"How does it get in the way? (optional)", f_keepwhy:"What matters to keep here? (optional)",
+  own:"In my own words: how it is now or how I want it (optional)",
+  back:"Back", skip:"Skip", next:"Next", finish:"See result",
+  now:"Now", future:"Wanted future", rejected:"What I don't want",
+  nowHint:"what I already have: keeping and dropping", futHint:"what I want plus what I keep",
+  emptyCol:"Empty so far", emptyAll:"Nothing marked yet. Go back to the questionnaire.",
+  showW:"Show which worlds pull me", hideW:"Hide worlds",
+  wHead:["World","Now","Wanted"],
+  wNote:"Each option belongs to one of the method's four worlds. It's not a diagnosis, just a hint where to look for signals and steps.",
+  md:"Download note (.md)", json:"File for the bot (.json)", print:"Print / PDF", wipe:"Erase everything",
+  wipeQ:"Erase all answers in this browser?",
+  next2:"What next: bring this map to the «Human Architecture» lab, where we link your wants to resources, find conflicts and levers, and arrive at one step.",
+  lab:"About the lab",
+  noStore:"Your browser doesn't allow saving a draft: answers will be lost when you close the page. Download the result at the end.",
+  of:"of", step:"Subsphere", tagKeep:"keep", tagDrop:"drop", tagWant:"new",
+  worlds:{"ЦС":"Autopilot world","ЦЗ":"World of rules","ДС":"World of autonomy","ДЗ":"World of community"},
+  mdTitle:"Now and wanted", mdDate:"Date", mdSpheres:"Spheres",
+  mdTake:"take", mdGive:"gives", mdWhy:"why", mdOwn:"in my own words", mdWorlds:"Pull of the worlds",
+  loadErr:"Couldn't load the data. Please reload the page."
+}}[LANG];
+const WC = {"ЦС":"var(--cs)","ЦЗ":"var(--cz)","ДС":"var(--ds)","ДЗ":"var(--dz)"};
+const LAB = "/sotrudnichestvo";
+function plural(n,f){const a=n%10,b=n%100;return f[(a===1&&b!==11)?0:(a>=2&&a<=4&&(b<10||b>=20))?1:2]}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
+const nm = o=>o[LANG]||o.ru;
+
+let D=null, S={sel:[],ans:{},own:{},order:{},pos:0}, canStore=true;
+function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}}
+function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
+function wipe(){try{localStorage.removeItem(KEY)}catch(e){}S={sel:[],ans:{},own:{},order:{},pos:0}}
+
+function queue(){const q=[];for(const sp of D.spheres)if(S.sel.includes(sp.id))for(const sb of sp.subs)q.push({sp,sb});return q}
+function order(sb){
+  if(!S.order[sb.id]){const a=sb.v.map(v=>v.id);for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}S.order[sb.id]=a}
+  return S.order[sb.id].map(id=>sb.v.find(v=>v.id===id)).filter(Boolean);
+}
+
+function show(name){
+  for(const n of ["start","run","result"])document.getElementById("s-"+n).hidden=n!==name;
+  document.querySelectorAll("nav.tabs a[data-s]").forEach(a=>a.dataset.s===name?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"));
+  ({start:rStart,run:rRun,result:rResult})[name]();
+  window.scrollTo(0,0);
+}
+function route(){const h=(location.hash||"#start").slice(1);show(["start","run","result"].includes(h)?h:"start")}
+
+function rStart(){
+  const el=document.getElementById("s-start");
+  const n=queue().length, answered=Object.keys(S.ans).length;
+  el.innerHTML=`<h1>${T.h1}</h1><div class="hand">${T.hand}</div><div class="holo"></div>
+  <p class="lead">${T.lead}</p><div class="note">${T.privacy}${canStore?"":"<br><br>"+T.noStore}</div>
+  <h2>${T.pick}</h2>
+  <div class="row"><button class="link" id="all">${T.all}</button><button class="link" id="none">${T.none}</button></div>
+  <div class="chips">${D.spheres.map(sp=>`<button class="chip" data-id="${sp.id}" aria-pressed="${S.sel.includes(sp.id)}"><span class="box">${S.sel.includes(sp.id)?"✓":""}</span><span>${esc(nm(sp))}<small>${T.subs(sp.subs.length)}</small></span></button>`).join("")}</div>
+  <div class="row"><button class="btn" id="go" ${n?"":"disabled"}>${answered?T.cont:T.go}</button><span class="muted">${n?T.time(Math.max(2,Math.round(n*1.5))):""}</span>
+  ${answered?`<button class="link" id="re">${T.restart}</button>`:""}</div>`;
+  el.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{const id=b.dataset.id;S.sel=S.sel.includes(id)?S.sel.filter(x=>x!==id):[...S.sel,id];save();rStart()});
+  el.querySelector("#all").onclick=()=>{S.sel=D.spheres.map(s=>s.id);save();rStart()};
+  el.querySelector("#none").onclick=()=>{S.sel=[];save();rStart()};
+  el.querySelector("#go").onclick=()=>{S.pos=Math.min(S.pos,queue().length-1);save();location.hash="run"};
+  const re=el.querySelector("#re");if(re)re.onclick=()=>{if(confirm(T.wipeQ)){const sel=S.sel;wipe();S.sel=sel;save();rStart()}};
+}
+
+function fieldsFor(v,a){
+  const r=S.ans[v.id]||{};
+  const ta=(k,lab)=>`<label>${lab}<textarea data-v="${v.id}" data-k="${k}" rows="2">${esc(r[k]||"")}</textarea></label>`;
+  if(a==="want")return ta("take",T.f_take)+ta("give",T.f_give);
+  if(a==="no")return ta("why",T.f_why);
+  if(a==="drop")return ta("why",T.f_dropwhy);
+  if(a==="keep")return ta("why",T.f_keepwhy);
+  return "";
+}
+function rRun(){
+  const el=document.getElementById("s-run"), q=queue();
+  if(!q.length){location.hash="start";return}
+  S.pos=Math.max(0,Math.min(S.pos,q.length-1));
+  const {sp,sb}=q[S.pos];
+  el.innerHTML=`<div class="crumb">${esc(nm(sp))} · ${T.step} ${S.pos+1} ${T.of} ${q.length}</div>
+  <div class="progress"><i style="width:${(S.pos+1)/q.length*100}%"></i></div>
+  <h2>${esc(nm(sb))}</h2><p class="q">${esc(L(sb,"q"))}</p>
+  <div class="cards">${order(sb).map(v=>{const a=(S.ans[v.id]||{}).a||"";
+    const ex=v.ex.map(e=>`<p>${esc(e[LANG]||e.ru)}${e.src?` <a href="${esc(e.src)}" target="_blank" rel="noopener">${T.src}</a>`:""}</p>`).join("");
+    return `<article class="card" data-id="${v.id}" data-a="${a}"><h4>${esc(L(v,"n"))}</h4><p>${esc(L(v,"t"))}</p>
+    <details class="more"><summary>${T.more}</summary><p><b>${T.plus}</b> ${esc(L(v,"p"))}</p><p><b>${T.minus}</b> ${esc(L(v,"m"))}</p>${ex?`<p><b>${T.ex}</b></p>${ex}`:""}</details>
+    <div class="ans" role="group">${Object.entries(T.buttons).map(([k,lab])=>`<button data-v="${k}" aria-pressed="${a===k}">${lab}</button>`).join("")}</div>
+    <div class="fields">${fieldsFor(v,a)}</div></article>`}).join("")}</div>
+  <div class="own"><label class="muted" style="font-size:14px">${T.own}<textarea id="own" rows="2">${esc(S.own[sb.id]||"")}</textarea></label></div>
+  <div class="nav"><button class="btn ghost" id="back" ${S.pos?"":"disabled"}>${T.back}</button>
+  <div class="row"><button class="btn ghost" id="skip">${T.skip}</button><button class="btn" id="next">${S.pos===q.length-1?T.finish:T.next}</button></div></div>`;
+  el.querySelectorAll(".card").forEach(c=>{
+    c.querySelectorAll(".ans button").forEach(b=>b.onclick=()=>{
+      const id=c.dataset.id, r=S.ans[id]||{};
+      if(r.a===b.dataset.v){delete S.ans[id]}else{S.ans[id]={a:b.dataset.v,take:r.take,give:r.give,why:r.why}}
+      save();const y=window.scrollY;rRun();window.scrollTo(0,y);
+    });
+  });
+  el.querySelectorAll("textarea[data-v]").forEach(t=>t.oninput=()=>{const r=S.ans[t.dataset.v];if(r){r[t.dataset.k]=t.value;save()}});
+  el.querySelector("#own").oninput=e=>{S.own[sb.id]=e.target.value;save()};
+  const go=d=>{S.pos+=d;save();if(S.pos>=q.length){S.pos=q.length-1;save();location.hash="result"}else{rRun();window.scrollTo(0,0)}};
+  el.querySelector("#back").onclick=()=>go(-1);
+  el.querySelector("#skip").onclick=()=>go(1);
+  el.querySelector("#next").onclick=()=>go(1);
+}
+
+function collect(){
+  const out=[];
+  for(const sp of D.spheres){
+    const subs=[];
+    for(const sb of sp.subs){
+      const items=sb.v.filter(v=>S.ans[v.id]).map(v=>({v,r:S.ans[v.id]}));
+      if(items.length||S.own[sb.id])subs.push({sb,items,own:S.own[sb.id]||""});
+    }
+    if(subs.length)out.push({sp,subs});
+  }
+  return out;
+}
+function worldCounts(){
+  const now={},fut={};for(const k in T.worlds){now[k]=0;fut[k]=0}
+  for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(!r)continue;
+    if(r.a==="keep"||r.a==="drop")now[v.w]++;if(r.a==="keep"||r.a==="want")fut[v.w]++}
+  return {now,fut};
+}
+function colHTML(data,filter,cls){
+  let h="";
+  for(const {sp,subs} of data){
+    const lines=[];
+    for(const {sb,items,own} of subs){
+      for(const {v,r} of items){if(!filter.includes(r.a))continue;
+        const extra=[r.take,r.give,r.why].filter(Boolean).map(esc).join(" · ");
+        const tag=cls==="now"?`<span class="tag ${r.a}">${r.a==="keep"?T.tagKeep:T.tagDrop}</span>`:(r.a==="want"?`<span class="tag want">${T.tagWant}</span>`:"");
+        lines.push(`<li><span class="${cls==="now"&&r.a==="drop"?"drop-t":""}">${esc(L(v,"n"))}</span>${tag}<small>${esc(nm(sb))}${extra?" — "+extra:""}</small></li>`)}
+      if(own&&cls!=="no")lines.push(`<li><i>${esc(own)}</i><small>${esc(nm(sb))}</small></li>`);
+    }
+    if(lines.length)h+=`<div class="sp">${esc(nm(sp))}</div><ul>${lines.join("")}</ul>`;
+  }
+  return h||`<p class="empty">${T.emptyCol}</p>`;
+}
+let showW=false;
+function rResult(){
+  const el=document.getElementById("s-result"), data=collect();
+  if(!data.length){el.innerHTML=`<h1>${T.h1}</h1><div class="holo"></div><p>${T.emptyAll}</p><button class="btn" onclick="location.hash='start'">${T.go}</button>`;return}
+  const {now,fut}=worldCounts(), mx=Math.max(1,...Object.values(now),...Object.values(fut));
+  el.innerHTML=`<h1>${T.h1}</h1><div class="hand">${new Date().toLocaleDateString(LANG)}</div><div class="holo"></div>
+  <div class="cols">
+    <div class="col"><h2>${T.now}</h2><div class="muted" style="font-size:14px">${T.nowHint}</div>${colHTML(data,["keep","drop"],"now")}</div>
+    <div class="col"><h2>${T.future}</h2><div class="muted" style="font-size:14px">${T.futHint}</div>${colHTML(data,["want","keep"],"fut")}</div>
+  </div>
+  <details class="col" style="margin-top:16px"><summary style="cursor:pointer;font-weight:600">${T.rejected}</summary>${colHTML(data,["no"],"no")}</details>
+  <div class="worlds noprint"><button class="btn ghost small" id="tw">${showW?T.hideW:T.showW}</button></div>
+  <div class="worlds" ${showW?"":"hidden"}>
+    <div class="wh"><span>${T.wHead[0]}</span><span>${T.wHead[1]}</span><span>${T.wHead[2]}</span></div>
+    ${Object.keys(T.worlds).map(k=>`<div class="wbar"><span>${T.worlds[k]}</span><span class="b"><i style="width:${now[k]/mx*100}%;background:${WC[k]}"></i></span><span class="b"><i style="width:${fut[k]/mx*100}%;background:${WC[k]}"></i></span></div>`).join("")}
+    <p class="muted" style="font-size:14px">${T.wNote}</p>
+  </div>
+  <div class="note noprint">${T.privacy}</div>
+  <div class="row noprint"><button class="btn" id="md">${T.md}</button><button class="btn ghost" id="js">${T.json}</button><button class="btn ghost" id="pr">${T.print}</button><button class="link" id="wp">${T.wipe}</button></div>
+  <p class="noprint" style="margin-top:22px">${T.next2} <a href="${LAB}">${T.lab}</a></p>`;
+  el.querySelector("#tw").onclick=()=>{showW=!showW;rResult()};
+  el.querySelector("#md").onclick=()=>dl(toMD(data),"text/markdown","md");
+  el.querySelector("#js").onclick=()=>dl(JSON.stringify(toJSON(data),null,2),"application/json","json");
+  el.querySelector("#pr").onclick=()=>window.print();
+  el.querySelector("#wp").onclick=()=>{if(confirm(T.wipeQ)){wipe();location.hash="start";route()}};
+}
+function today(){return new Date().toISOString().slice(0,10)}
+function dl(text,type,ext){
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:type+";charset=utf-8"}));
+  a.download=(LANG==="ru"?"kak-seichas-i-kakim-hochu-":"now-and-wanted-")+today()+"."+ext;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);
+}
+function toMD(data){
+  const {now,fut}=worldCounts();
+  const sec=(title,filter)=>{let s=`\n## ${title}\n`;let any=false;
+    for(const {sp,subs} of data){let part="";
+      for(const {sb,items,own} of subs){for(const {v,r} of items){if(!filter.includes(r.a))continue;
+        const bits=[];if(r.take)bits.push(T.mdTake+": "+r.take);if(r.give)bits.push(T.mdGive+": "+r.give);if(r.why)bits.push(T.mdWhy+": "+r.why);
+        part+=`- **${L(v,"n")}** (${T.buttons[r.a]}; ${nm(sb)}; ${T.worlds[v.w]})${bits.length?"\n  - "+bits.join("\n  - "):""}\n`}}
+      if(part){s+=`\n### ${nm(sp)}\n${part}`;any=true}}
+    return any?s:"";};
+  let own="";for(const {sp,subs} of data)for(const {sb,own:o} of subs)if(o)own+=`- ${nm(sp)} / ${nm(sb)}: ${o}\n`;
+  return `---\ntitle: "${T.mdTitle}"\ndate: ${today()}\ntags: [${LANG==="ru"?"тип/опрос":"type/questionnaire"}]\nsource: https://futuredecoder.org/static/opros/${LANG==="en"?"en/":""}\n---\n\n# ${T.mdTitle}\n\n${T.mdSpheres}: ${data.map(x=>nm(x.sp)).join(", ")}\n`
+   +sec(T.now,["keep","drop"])+sec(T.future,["want","keep"])+sec(T.rejected,["no"])
+   +(own?`\n## ${T.own.replace(/ \(.*\)$/,"")}\n${own}`:"")
+   +`\n## ${T.mdWorlds}\n| ${T.wHead.join(" | ")} |\n|---|---|---|\n${Object.keys(T.worlds).map(k=>`| ${T.worlds[k]} | ${now[k]} | ${fut[k]} |`).join("\n")}\n`;
+}
+function toJSON(data){
+  return {format:"futuredecoder-opros/1",lang:LANG,date:today(),spheres:data.map(({sp,subs})=>({id:sp.id,name:nm(sp),
+    subspheres:subs.map(({sb,items,own})=>({id:sb.id,name:nm(sb),own:own||undefined,
+      answers:items.map(({v,r})=>({card:v.id,world:v.w,name:L(v,"n"),answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
+    worlds:worldCounts()};
+}
+
+load();
+fetch(DATA_URL).then(r=>r.json()).then(d=>{D=d;
+  S.sel=S.sel.filter(id=>D.spheres.some(s=>s.id===id));
+  window.addEventListener("hashchange",route);route();
+}).catch(()=>{document.getElementById("s-start").hidden=false;document.getElementById("s-start").textContent=T.loadErr});
+</script>
+</body>
+</html>
