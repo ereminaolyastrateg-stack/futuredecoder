@@ -713,12 +713,16 @@ body[data-slug="en/four-worlds/index"] {
 .explorer li:has(> .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="en/materials/signals/education-signals/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="chetyre-mira/sfery/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="materialy/makrotrendy/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="en/materials/macrotrends/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="en/four-worlds/life-spheres/index"]) > .folder-outer {
   display: none !important;
 }
 .explorer .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"] > svg,
 .explorer .folder-container[data-folderpath="en/materials/signals/education-signals/index"] > svg,
 .explorer .folder-container[data-folderpath="chetyre-mira/sfery/index"] > svg,
+.explorer .folder-container[data-folderpath="materialy/makrotrendy/index"] > svg,
+.explorer .folder-container[data-folderpath="en/materials/macrotrends/index"] > svg,
 .explorer .folder-container[data-folderpath="en/four-worlds/life-spheres/index"] > svg {
   visibility: hidden;
 }
