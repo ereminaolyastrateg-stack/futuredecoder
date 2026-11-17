@@ -700,16 +700,24 @@ a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="sce
 body[data-slug="materialy/signaly/obrazovanie/index"],
 body[data-slug="en/materials/signals/education-signals/index"],
 body[data-slug="materialy/signaly/index"],
-body[data-slug="en/materials/signals/index"] {
+body[data-slug="en/materials/signals/index"],
+body[data-slug="chetyre-mira/sfery/index"],
+body[data-slug="en/four-worlds/life-spheres/index"],
+body[data-slug="chetyre-mira/index"],
+body[data-slug="en/four-worlds/index"] {
   .page-listing { display: none; }
 }
 // в проводнике папка сигналов — ссылка на каталог, без 40 длинных строк
 .explorer li:has(> .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"]) > .folder-outer,
-.explorer li:has(> .folder-container[data-folderpath="en/materials/signals/education-signals/index"]) > .folder-outer {
+.explorer li:has(> .folder-container[data-folderpath="en/materials/signals/education-signals/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="chetyre-mira/sfery/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="en/four-worlds/life-spheres/index"]) > .folder-outer {
   display: none !important;
 }
 .explorer .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"] > svg,
-.explorer .folder-container[data-folderpath="en/materials/signals/education-signals/index"] > svg {
+.explorer .folder-container[data-folderpath="en/materials/signals/education-signals/index"] > svg,
+.explorer .folder-container[data-folderpath="chetyre-mira/sfery/index"] > svg,
+.explorer .folder-container[data-folderpath="en/four-worlds/life-spheres/index"] > svg {
   visibility: hidden;
 }
 // теги под заголовком заметки — компактнее
