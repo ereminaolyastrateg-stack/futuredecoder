@@ -49,7 +49,7 @@ for c in src:
     st = stories.get(c['id'])
     if st:  # мини-история из одной фразы на базе фронтирного сигнала
         subs[key]['v'][-1].update({'s_ru': st['ru'], 's_en': st['en'],
-            'g_ru': st['sig_ru'], 'g_en': st['sig_en'], 'g_src': st['src'], 'g_date': st['date']})
+            'g_ru': st['sig_ru'], 'g_en': st['sig_en'], 'g_src': st['src'], 'g_src_en': st.get('src_en', st['src']), 'g_date': st['date']})
 
 out = ROOT / 'quartz/static/opros/data.json'
 out.write_text(json.dumps({'spheres': spheres}, ensure_ascii=False, separators=(',', ':')))

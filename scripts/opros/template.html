@@ -265,7 +265,7 @@ function rRun(){
   <h2>${esc(nm(sb))}</h2><p class="q">${esc(L(sb,"q"))}</p>
   <div class="cards">${order(sb).map(v=>{const a=(S.ans[v.id]||{}).a||"";
     const ex=v.ex.map(e=>`<p>${esc(e[LANG]||e.ru)}${e.src?` <a href="${esc(e.src)}" target="_blank" rel="noopener">${T.src}</a>`:""}</p>`).join("");
-    const head=v.s_ru?`<p class="story">${esc(L(v,"s"))}</p><p class="sig">${T.sig} ${esc(L(v,"g"))} <a href="${esc(v.g_src)}" target="_blank" rel="noopener">${T.src}, ${esc(v.g_date)}</a></p>`:`<h4>${esc(L(v,"n"))}</h4><p>${esc(L(v,"t"))}</p>`;
+    const head=v.s_ru?`<p class="story">${esc(L(v,"s"))}</p><p class="sig">${T.sig} ${esc(L(v,"g"))} <a href="${esc(LANG==="en"?v.g_src_en:v.g_src)}" target="_blank" rel="noopener">${T.src}${v.g_date&&v.g_date!=="сад"?", "+esc(v.g_date):""}</a></p>`:`<h4>${esc(L(v,"n"))}</h4><p>${esc(L(v,"t"))}</p>`;
     return `<article class="card" data-id="${v.id}" data-a="${a}">${head}
     <details class="more"><summary>${T.more}</summary><p><b>${T.plus}</b> ${esc(L(v,"p"))}</p><p><b>${T.minus}</b> ${esc(L(v,"m"))}</p>${ex?`<p><b>${T.ex}</b></p>${ex}`:""}</details>
     <div class="ans" role="group">${Object.entries(T.buttons).map(([k,lab])=>`<button data-v="${k}" aria-pressed="${a===k}">${lab}</button>`).join("")}</div>

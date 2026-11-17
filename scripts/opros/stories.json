@@ -415,5 +415,110 @@
     "sig_en": "On Russia's Gosuslugi portal you can name a trusted person who co-confirms changes to your account.",
     "src": "https://evening-kazan.ru/obshhestvo/news/na-gosuslugah-vvedut-funkciyu-doverennogo-lica-dlya-podtverzhdeniya-smeny-parolya",
     "date": "2025"
+  },
+  "E1-ЦС": {
+    "ru": "Когда появляется задача, ИИ-репетитор не выдаёт ответ, а коротким диалогом ведёт меня к нему.",
+    "en": "When a task comes up, an AI tutor doesn't hand me the answer but leads me to it in a short dialogue.",
+    "sig_ru": "За год все три крупные ИИ-лаборатории выпустили учебные режимы, которые задают вопросы вместо готовых ответов: ChatGPT, Gemini и Claude.",
+    "sig_en": "Within a year all three major AI labs shipped study modes that ask questions instead of giving answers: ChatGPT, Gemini and Claude.",
+    "src": "https://glasp.ai/articles/ai-study-modes-compared",
+    "date": "2026"
+  },
+  "E1-ЦЗ": {
+    "ru": "Полгода учусь по большой программе с преподавателем: программа общая для всех, а занятия идут в мастерской моего города.",
+    "en": "For six months I follow a big programme with a teacher: the curriculum is shared worldwide, the classes happen in a workshop in my city.",
+    "sig_ru": "Fab Academy: единая глобальная программа работает через локальные мастерские (из базы сигналов сада)",
+    "sig_en": "Fab Academy: one global programme runs through local workshops (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-010",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-010"
+  },
+  "E1-ДС": {
+    "ru": "Осваиваю новый инструмент короткими уроками прямо под свой проект и весь план учёбы строю вокруг него.",
+    "en": "I learn a new tool in short lessons for my own project and build my whole learning plan around it.",
+    "sig_ru": "College Unbound: взрослый сам строит план обучения вокруг своей жизни и проекта (из базы сигналов сада)",
+    "sig_en": "College Unbound: adults build their study plan around their own life and project (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-027",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-027"
+  },
+  "E1-ДЗ": {
+    "ru": "Исследую интересную тему по книгам и архивам и раз в неделю обсуждаю прочитанное в кружке, где ведущий — такой же участник, а не эксперт.",
+    "en": "I explore a topic I love through books and archives and once a week discuss it in a circle led by a fellow learner, not an expert.",
+    "sig_ru": "P2PU Learning Circles: учебную группу может вести человек, который не эксперт (из базы сигналов сада)",
+    "sig_en": "P2PU Learning Circles: a study group can be led by a non-expert (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-025",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-025"
+  },
+  "E2-ЦС": {
+    "ru": "Учу язык в приложении: сначала готовые диалоги, потом видеозвонок с ИИ-персонажем, который отвечает вживую.",
+    "en": "I learn a language in an app: first ready-made dialogues, then a video call with an AI character who answers live.",
+    "sig_ru": "У Duolingo 64,9 млн человек в день, и компания открывает видеозвонки с ИИ-собеседником всё большему числу учеников.",
+    "sig_en": "Duolingo has 64.9M daily users and is opening AI video-call conversation practice to far more learners.",
+    "src": "https://www.customerexperiencedive.com/news/duolingo-ceo-monetize-without-degrading-free-user-experience/873877/",
+    "date": "2026-11"
+  },
+  "E2-ЦЗ": {
+    "ru": "Учусь ремеслу у мастера и делаю настоящую вещь с его подсказками, а в конце получаю признанный статус.",
+    "en": "I learn a craft from a master, making a real object with their guidance, and earn a recognised status at the end.",
+    "sig_ru": "Solar Mamas: сельские женщины без формального образования получают статус инженеров через практику (из базы сигналов сада)",
+    "sig_en": "Solar Mamas: rural women without formal schooling become engineers through practice (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-016",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-016"
+  },
+  "E2-ДС": {
+    "ru": "Придумываю себе упражнения и учусь по видео, пока не соберу то, что нужно мне для работы.",
+    "en": "I design my own exercises and learn from videos until I can build what I need for my work.",
+    "sig_ru": "Exercises in Learning: печатный станок собран по знаниям только из YouTube (из базы сигналов сада)",
+    "sig_en": "Exercises in Learning: a printing press built from YouTube knowledge alone (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-021",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-021"
+  },
+  "E2-ДЗ": {
+    "ru": "Пробую собрать вещь, которую пока не умею делать, в мастерской, где учатся не у преподавателя, а у задачи и друг у друга.",
+    "en": "I try to build something I can't make yet in a workshop where you learn from the task and from each other, not from a teacher.",
+    "sig_ru": "Школа 42: нет лекций и преподавателей, знания добывают у задачи и у других студентов (из базы сигналов сада)",
+    "sig_en": "School 42: no lectures or teachers; you learn from the task and from fellow students (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-029",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-029"
+  },
+  "E3-ЦС": {
+    "ru": "Сдаю официальный экзамен, и результат сам попадает в мою цифровую запись навыков, которую видит работодатель.",
+    "en": "I pass an official exam and the result goes straight into my digital skills record that employers can see.",
+    "sig_ru": "Comprehensive Learner Record: учёба и работа собираются в одну проверяемую цифровую историю (из базы сигналов сада)",
+    "sig_en": "Comprehensive Learner Record: learning and work combine into one verifiable digital record (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-008",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-008"
+  },
+  "E3-ЦЗ": {
+    "ru": "Преподаватель разбирает мою работу и показывает, что улучшить, а ИИ помогает ему дать отзыв быстрее, но решает всё равно он.",
+    "en": "My teacher reviews my work and shows me what to improve; AI helps them give feedback faster, but the judgement is theirs.",
+    "sig_ru": "Gallup, 2026: 58% учителей в США не получили никаких правил, как использовать ИИ для оценки и обратной связи, — правила только складываются.",
+    "sig_en": "Gallup, 2026: 58% of US teachers have had no guidance on using AI for grading and feedback; the rules are still forming.",
+    "src": "https://www.edweek.org/technology/teachers-say-lack-of-ai-guidance-is-a-major-problem/2026/05",
+    "date": "2026-05"
+  },
+  "E3-ДС": {
+    "ru": "Собираю портфолио из реальных проектов, и каждый навык в нём подтверждён проверяемым цифровым значком.",
+    "en": "I build a portfolio of real projects, with each skill backed by a verifiable digital badge.",
+    "sig_ru": "Open Badges 3.0: навык превращается в переносимую проверяемую запись (из базы сигналов сада)",
+    "sig_en": "Open Badges 3.0: a skill becomes a portable, verifiable record (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-007",
+    "date": "сад",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-007"
+  },
+  "E3-ДЗ": {
+    "ru": "Публикую своё исследование в открытом проекте и дорабатываю его по отзывам других участников.",
+    "en": "I publish my research in an open project and improve it based on other participants' feedback.",
+    "sig_ru": "Citizen Science in Education: школьники становятся участниками настоящего производства знания (из базы сигналов сада)",
+    "sig_en": "Citizen Science in Education: pupils take part in producing real scientific knowledge (from the garden signal base)",
+    "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-033",
+    "date": "2025",
+    "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-033"
   }
 }
