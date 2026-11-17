@@ -287,5 +287,133 @@
     "sig_en": "Zocdoc, 2026: preparing questions for a visit is the top recommended use of AI, say 36% of patients and 66% of doctors.",
     "src": "https://keyt.com/stacker-medical-care/2026/08/31/the-health-secret-1-in-5-patients-keep-from-their-doctors/",
     "date": "2026-02"
+  },
+  "F1-ЦС": {
+    "ru": "Получаю стабильную зарплату и могу забрать заработанное за день прямо вечером, не дожидаясь дня выплаты.",
+    "en": "I get a steady salary and can take what I've earned that same evening instead of waiting for payday.",
+    "sig_ru": "DailyPay — выплата заработанного до дня зарплаты: больше 2000 работодателей и 6 млн сотрудников, у которых есть такая возможность.",
+    "sig_en": "DailyPay, on-demand pay before payday: 2,000+ employer clients and 6M+ eligible employees.",
+    "src": "https://yespress.io/dailypay",
+    "date": "2026-09"
+  },
+  "F1-ЦЗ": {
+    "ru": "У меня оклад и премия за результат команды, а вилку зарплат на моей позиции компания обязана показывать открыто.",
+    "en": "I have a base salary and a team bonus, and the company must openly show the pay range for my role.",
+    "sig_ru": "С 7 июня 2026 года в ЕС работодатели обязаны указывать вилку зарплаты в вакансиях и не могут запрещать сотрудникам обсуждать зарплату.",
+    "sig_en": "Since 7 June 2026 EU employers must publish pay ranges in job ads and may not ban staff from discussing pay.",
+    "src": "https://remoteworkeurope.eu/insights/eu-pay-transparency-remote-work",
+    "date": "2026-06"
+  },
+  "F1-ДС": {
+    "ru": "Получаю доход от своего актива, сдаю квартиру или держу облигации, и считаю его вместе с расходами.",
+    "en": "I earn income from my own asset, renting out a flat or holding bonds, and count it against the costs.",
+    "sig_ru": "Брокерские счета на Мосбирже открыли 43 млн частных инвесторов (октябрь 2026).",
+    "sig_en": "43 million private investors hold brokerage accounts on the Moscow Exchange (October 2026).",
+    "src": "https://ru.themoscowtimes.com/2026/11/05/pritok-chastnykh-investorov-na-mosbirzhu-v-oktyabre-vyros-mm-no-obem-investitsiy-sokratilsya-a210521",
+    "date": "2026-10"
+  },
+  "F1-ДЗ": {
+    "ru": "Продаю свой курс или продукт, и сообщество подписчиков каждый месяц поддерживает то, что я делаю.",
+    "en": "I sell my own course or product, and a community of subscribers supports what I do every month.",
+    "sig_ru": "На Boosty в 2026 году зарегистрировано больше 500 000 авторов, которые живут на подписки.",
+    "sig_en": "Over 500,000 creators are registered on Boosty in 2026, earning from subscriptions.",
+    "src": "https://blog.octobrowser.net/ru/kak-zarabotat-na-boosty",
+    "date": "2026"
+  },
+  "F2-ЦС": {
+    "ru": "Счета за связь и квартиру оплачиваются сами, а покупки по списку делает ИИ-агент банка.",
+    "en": "My phone and utility bills pay themselves, and the bank's AI agent buys what's on my list.",
+    "sig_ru": "Visa и Mastercard открыли платёжные сети для ИИ-агентов, которые покупают и платят от имени человека.",
+    "sig_en": "Visa and Mastercard opened their networks to AI agents that buy and pay on a person's behalf.",
+    "src": "https://techcrunch.com/2025/04/30/visa-and-mastercard-unveil-ai-powered-shopping",
+    "date": "2025-04"
+  },
+  "F2-ЦЗ": {
+    "ru": "У меня стоит самозапрет на кредиты, и раз в месяц мы сверяем семейные расходы по общим правилам.",
+    "en": "I've put a self-ban on loans, and once a month we check family spending against shared rules.",
+    "sig_ru": "На 1 августа 2026 года самозапрет на кредиты действует у 21,7 млн россиян.",
+    "sig_en": "As of 1 August 2026, 21.7 million Russians have an active self-ban on loans.",
+    "src": "https://finuslugi.ru/navigator/news/novosti_bankovskoj_otrasli/nbki-kolichestvo-samozapretov-na-kredity-vyroslo-na-35-chto-izmenilos-v-iyule",
+    "date": "2026-08"
+  },
+  "F2-ДС": {
+    "ru": "Настраиваю лимиты в приложении и выдаю своему ИИ-агенту виртуальную карту с потолком трат.",
+    "en": "I set my own limits in the app and give my AI agent a virtual card with a spending cap.",
+    "sig_ru": "Mastercard Agent Pay даёт ИИ-агентам виртуальные карты: покупки только в пределах, которые задал владелец.",
+    "sig_en": "Mastercard Agent Pay gives AI agents virtual cards that can only spend within limits the cardholder sets.",
+    "src": "https://cryptobriefing.com/mastercard-ai-payment-agentic-commerce/",
+    "date": "2026"
+  },
+  "F2-ДЗ": {
+    "ru": "Мы с семьёй решаем, что покупать, а что взять на время в соседской библиотеке вещей.",
+    "en": "As a family we decide what to buy and what to borrow from the neighbourhood library of things.",
+    "sig_ru": "Библиотека вещей Share Bristol: больше 1285 участников и 2430 вещей, которые можно взять на время.",
+    "sig_en": "Share Bristol's Library of Things: 1,285+ members and 2,430+ items to borrow.",
+    "src": "https://www.bristol247.com/business/better-business/share-bristols-library-of-things-membership-marks-milestone/",
+    "date": "2026-06"
+  },
+  "F3-ЦС": {
+    "ru": "Откладываю понемногу, а крупные покупки оплачиваю частями в сервисе рассрочки прямо в магазине.",
+    "en": "I save a little at a time and pay for big purchases in instalments right at checkout.",
+    "sig_ru": "Рынок оплаты частями в России за 2025 год вырос в 2,5 раза, до 940 млрд рублей; с апреля 2026-го он регулируется законом.",
+    "sig_en": "Russia's buy-now-pay-later market grew 2.5x in 2025 to 940 bn roubles; since April 2026 it is regulated by law.",
+    "src": "https://www.sostav.ru/publication/obem-rynka-servisov-oplaty-pokupok-chastyami-vyros-v-dva-raza-81423.html",
+    "date": "2026"
+  },
+  "F3-ЦЗ": {
+    "ru": "Коплю на жильё или учёбу в государственной программе, где государство добавляет к моим взносам.",
+    "en": "I save for a home or education in a state programme that tops up my contributions.",
+    "sig_ru": "Программа долгосрочных сбережений: к середине 2026 года заключено больше 12 млн договоров.",
+    "sig_en": "Russia's long-term savings programme: over 12 million contracts by mid-2026.",
+    "src": "https://finuslugi.ru/navigator/investirovat/stat_nakopitelnyy-schet-privyazka-k-karte-upravlenie-dengi",
+    "date": "2026"
+  },
+  "F3-ДС": {
+    "ru": "Каждый месяц автоматически пополняю брокерский счёт и выбираю, во что вкладывать.",
+    "en": "Every month I top up my brokerage account automatically and choose what to invest in.",
+    "sig_ru": "За первое полугодие 2026 года частные инвесторы вложили на Мосбирже почти 1,5 трлн рублей, на 70% больше, чем годом раньше.",
+    "sig_en": "In H1 2026 private investors put almost 1.5 trillion roubles into the Moscow Exchange, up 70% year on year.",
+    "src": "https://1prime.ru/20260708/mosbirzha-871375087.html",
+    "date": "2026-07"
+  },
+  "F3-ДЗ": {
+    "ru": "Мы в семье открыто говорим о наследстве и заранее учим детей обращаться с деньгами.",
+    "en": "As a family we talk openly about inheritance and teach the children to handle money early.",
+    "sig_ru": "До 2048 года наследникам в США перейдёт около $124 трлн, но две трети состоятельных семей откладывают разговор о наследстве.",
+    "sig_en": "About $124 trillion will pass to US heirs by 2048, yet two-thirds of wealthy families delay the inheritance talk.",
+    "src": "https://brokerchooser.com/news/why-silent-families-lose-generational-wealth--1e87d049",
+    "date": "2026"
+  },
+  "F4-ЦС": {
+    "ru": "Знаю, что при потере работы страховка сама выплатит часть дохода, без долгих проверок.",
+    "en": "I know that if I lose my job my insurance will pay part of my income automatically, without long checks.",
+    "sig_ru": "Появилась страховка дохода на случай, если работу заберёт ИИ: выплата срабатывает автоматически по данным.",
+    "sig_en": "Income cover for jobs lost to AI has appeared, paying out automatically on data triggers.",
+    "src": "https://www.artemis.bm/news/artificial-intelligence-taken-your-job-theres-a-parametric-insurance-policy-for-that",
+    "date": "2025"
+  },
+  "F4-ЦЗ": {
+    "ru": "Часть зарплаты сама уходит в резервный фонд на работе, и работодатель добавляет к нему.",
+    "en": "Part of my salary goes into a workplace emergency fund, and my employer adds to it.",
+    "sig_ru": "Gallagher, 2026: у больше чем половины работников в США нет финансовой подушки, а резервные фонды на работе предлагают лишь 5% работодателей.",
+    "sig_en": "Gallagher, 2026: over half of US workers have no emergency cushion, and only 5% of employers offer a savings programme.",
+    "src": "https://www.insurancebusinessmag.com/us/news/benefits/more-than-half-of-us-workers-have-no-emergency-cushion-and-few-employers-offer-one-593641.aspx",
+    "date": "2026-10"
+  },
+  "F4-ДС": {
+    "ru": "Держу резерв на несколько месяцев жизни на отдельном счёте и не трогаю его без нужды.",
+    "en": "I keep several months of living costs in a separate account and leave it alone unless I need it.",
+    "sig_ru": "Половине работников в США не хватает подушки даже на три месяца.",
+    "sig_en": "Half of US workers lack even a three-month cushion.",
+    "src": "https://www.hcamag.com/us/specialization/benefits/emergency-savings-half-of-workers-lack-a-three-month-cushion/593891",
+    "date": "2026-10"
+  },
+  "F4-ДЗ": {
+    "ru": "Мы заранее договорились, кто займётся счетами и документами, если я не смогу, и назначили доверенное лицо.",
+    "en": "We agreed in advance who'll handle the bills and papers if I can't, and named a trusted person.",
+    "sig_ru": "На Госуслугах можно назначить доверенное лицо, которое подтверждает смену пароля вместе с владельцем аккаунта.",
+    "sig_en": "On Russia's Gosuslugi portal you can name a trusted person who co-confirms changes to your account.",
+    "src": "https://evening-kazan.ru/obshhestvo/news/na-gosuslugah-vvedut-funkciyu-doverennogo-lica-dlya-podtverzhdeniya-smeny-parolya",
+    "date": "2025"
   }
 }
