@@ -14,6 +14,7 @@ tags:
 aliases:
   - "education-CS"
 sphere: "Education"
+sphere_order: 4
 items: [{"sub": "Purpose, route and access to knowledge", "anchor": "purpose-route-and-access-to-knowledge", "name": "A ready answer for the task at hand", "situation": "When a specific task comes up, I find a short ready-made guide instead of long study.", "spend": ["Time", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Practice and applying knowledge", "anchor": "practice-and-applying-knowledge", "name": "Practice by example and prompts", "situation": "I learn a language with ready-made dialogues in an app and practise pronunciation.", "spend": ["Time", "Freedom of choice"], "give": ["Time", "Intellect"]}, {"sub": "Feedback and recognition", "anchor": "feedback-and-recognition", "name": "A diploma as the key to opportunities", "situation": "I take an official exam to get the certificate I need for admission.", "spend": ["Time", "Money", "Energy and health"], "give": ["Money", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17

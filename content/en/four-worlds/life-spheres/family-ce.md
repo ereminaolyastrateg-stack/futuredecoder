@@ -14,6 +14,7 @@ tags:
 aliases:
   - "family-CE"
 sphere: "Close relationships and family"
+sphere_order: 5
 items: [{"sub": "Closeness, agreements and life together", "anchor": "closeness-agreements-and-life-together", "name": "Family as a solid shared support", "situation": "We gather as a whole family for holidays and support each other in hard times.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Energy and health"]}, {"sub": "Raising and developing children", "anchor": "raising-and-developing-children", "name": "Life built around a family with children", "situation": "I fit my work around the children and organise family days together with relatives.", "spend": ["Time", "Money", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation"]}, {"sub": "Care and help for loved ones", "anchor": "care-and-help-for-loved-ones", "name": "Family care and regular helpers", "situation": "Relatives agree on days to help an elderly family member, and there is a regular helper.", "spend": ["Time", "Money", "Energy and health"], "give": ["Soul", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17

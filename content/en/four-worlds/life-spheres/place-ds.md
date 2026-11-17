@@ -14,6 +14,7 @@ tags:
 aliases:
   - "place-DS"
 sphere: "Place of living and public environment"
+sphere_order: 6
 items: [{"sub": "Place of living and mobility", "anchor": "place-of-living-and-mobility", "name": "A portable life and free moves", "situation": "I can move to another city for a few months while keeping my work and usual services.", "spend": ["Time", "Money"], "give": ["Freedom of choice", "Self-realisation"]}, {"sub": "Infrastructure, rights and safety", "anchor": "infrastructure-rights-and-safety", "name": "My own backup access to services", "situation": "I keep backup internet and service contacts in case of outages.", "spend": ["Time", "Money", "Intellect"], "give": ["Energy and health", "Freedom of choice"]}, {"sub": "Nature and environmental quality", "anchor": "nature-and-environmental-quality", "name": "Technical protection of my own conditions", "situation": "At home I monitor air quality myself with a sensor and a purifier.", "spend": ["Time", "Money", "Intellect"], "give": ["Energy and health", "Freedom of choice"]}, {"sub": "Taking part in shared decisions", "anchor": "taking-part-in-shared-decisions", "name": "Direct participation in individual decisions", "situation": "I vote online on improving my courtyard and check the result.", "spend": ["Time", "Intellect"], "give": ["Freedom of choice", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17

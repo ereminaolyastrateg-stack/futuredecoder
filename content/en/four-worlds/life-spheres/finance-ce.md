@@ -14,6 +14,7 @@ tags:
 aliases:
   - "finance-CE"
 sphere: "Finance"
+sphere_order: 2
 items: [{"sub": "Income and inflows", "anchor": "income-and-inflows", "name": "Pay for results within an organisation", "situation": "I have a base salary and a bonus for my team's results.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Money", "Self-realisation", "Influence and scale"]}, {"sub": "Spending and obligations", "anchor": "spending-and-obligations", "name": "A budget with a financial adviser", "situation": "Once a month I go through the family budget with a financial adviser.", "spend": ["Time", "Money", "Energy and health"], "give": ["Money", "Intellect", "Freedom of choice"]}, {"sub": "Capital and savings", "anchor": "capital-and-savings", "name": "Housing and education by plan", "situation": "Following a plan with an adviser, I save for housing or education.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Intellect", "Capital"]}, {"sub": "Financial resilience", "anchor": "financial-resilience", "name": "Protection matched to life goals", "situation": "I plan a financial cushion with an adviser to match my obligations.", "spend": ["Time", "Money"], "give": ["Energy and health", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17

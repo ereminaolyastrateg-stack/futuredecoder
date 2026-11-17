@@ -14,6 +14,7 @@ tags:
 aliases:
   - "place-CS"
 sphere: "Place of living and public environment"
+sphere_order: 6
 items: [{"sub": "Place of living and mobility", "anchor": "place-of-living-and-mobility", "name": "Everything nearby and travel without hassle", "situation": "I live near the metro, shops and a doctor, so I rarely need a car.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Infrastructure, rights and safety", "anchor": "infrastructure-rights-and-safety", "name": "Handled requests and repairs", "situation": "When something breaks at home, I call a service that organises the repair itself.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Nature and environmental quality", "anchor": "nature-and-environmental-quality", "name": "Urban comfort with serviced protection", "situation": "I live in a building where the management company services ventilation and water filtration.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Energy and health"]}, {"sub": "Taking part in shared decisions", "anchor": "taking-part-in-shared-decisions", "name": "Electing representatives and monitoring delivery", "situation": "The building council decides on repairs, and I read its reports.", "spend": ["Time", "Freedom of choice"], "give": ["Time", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17

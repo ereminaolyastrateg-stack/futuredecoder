@@ -14,6 +14,7 @@ tags:
 aliases:
   - "finance-DE"
 sphere: "Finance"
+sphere_order: 2
 items: [{"sub": "Income and inflows", "anchor": "income-and-inflows", "name": "Income from my mastery and product", "situation": "I sell my own course or product that I came up with and made myself.", "spend": ["Time", "Intellect", "Energy and health"], "give": ["Money", "Freedom of choice", "Self-realisation"]}, {"sub": "Spending and obligations", "anchor": "spending-and-obligations", "name": "Spending by meaningful priorities", "situation": "My family and I decide together what to spend money on and what not to buy.", "spend": ["Time", "Energy and health"], "give": ["Money", "Soul", "Freedom of choice"]}, {"sub": "Capital and savings", "anchor": "capital-and-savings", "name": "Family wealth and passing it on", "situation": "In our family we discuss inheritance and teach the children how to handle money.", "spend": ["Time", "Money", "Intellect"], "give": ["Soul", "Capital", "Influence and scale"]}, {"sub": "Financial resilience", "anchor": "financial-resilience", "name": "Family resilience across generations", "situation": "We agreed in advance who will take care of the bills and documents if I can't.", "spend": ["Time", "Money", "Intellect"], "give": ["Soul", "Capital", "Freedom of choice"]}]
 date: 2026-11-17
 updated: 2026-11-17

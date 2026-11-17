@@ -14,6 +14,7 @@ tags:
 aliases:
   - "education-CE"
 sphere: "Education"
+sphere_order: 4
 items: [{"sub": "Purpose, route and access to knowledge", "anchor": "purpose-route-and-access-to-knowledge", "name": "Systematic knowledge through a chosen programme", "situation": "I study a long programme with a teacher and learn the subject systematically.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Self-realisation"]}, {"sub": "Practice and applying knowledge", "anchor": "practice-and-applying-knowledge", "name": "Experience under a master's guidance", "situation": "I learn a craft from a master and make a real object with their hints.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Self-realisation"]}, {"sub": "Feedback and recognition", "anchor": "feedback-and-recognition", "name": "Assessment by an experienced teacher", "situation": "A teacher goes through my work and shows what to improve.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Self-realisation"]}]
 date: 2026-11-17
 updated: 2026-11-17

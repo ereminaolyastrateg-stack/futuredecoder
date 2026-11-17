@@ -109,7 +109,7 @@ export default (() => {
             href: `/${p.slug}#${it.anchor}`,
             search: `${sphere} ${it.sub} ${it.name} ${it.situation}`,
             f: { sphere: [sphere], sub: [it.sub], scenario: [sc], spend: strs(it.spend), give: strs(it.give) },
-            order: `${p.slug?.replace(/-(cs|ce|ds|de)$/, "")}-${String(k).padStart(2, "0")}-${WORLDS[sc]?.n ?? 9}`,
+            order: `${String(f.sphere_order ?? 9).padStart(2, "0")}-${String(k).padStart(2, "0")}-${WORLDS[sc]?.n ?? 9}`,
             d: { sphere, sub: it.sub, sc, name: it.name, situation: it.situation, spend: strs(it.spend), give: strs(it.give) },
           })
         })

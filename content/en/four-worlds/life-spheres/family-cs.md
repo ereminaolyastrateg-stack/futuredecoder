@@ -14,6 +14,7 @@ tags:
 aliases:
   - "family-CS"
 sphere: "Close relationships and family"
+sphere_order: 5
 items: [{"sub": "Closeness, agreements and life together", "anchor": "closeness-agreements-and-life-together", "name": "Closeness compatible with usual life", "situation": "My partner and I live separately and agree on meetings and shared expenses in advance.", "spend": ["Time", "Money"], "give": ["Soul", "Freedom of choice"]}, {"sub": "Raising and developing children", "anchor": "raising-and-developing-children", "name": "Conditions for the child while keeping my own life", "situation": "Kindergarten, after-school care and a nanny help me combine children, work and personal life.", "spend": ["Money", "Freedom of choice"], "give": ["Time", "Self-realisation"]}, {"sub": "Care and help for loved ones", "anchor": "care-and-help-for-loved-ones", "name": "Help through a ready service", "situation": "A home help service visits an elderly relative on a schedule.", "spend": ["Time", "Money", "Freedom of choice"], "give": ["Time", "Soul"]}]
 date: 2026-11-17
 updated: 2026-11-17

@@ -14,6 +14,7 @@ tags:
 aliases:
   - "place-CE"
 sphere: "Place of living and public environment"
+sphere_order: 6
 items: [{"sub": "Place of living and mobility", "anchor": "place-of-living-and-mobility", "name": "Becoming a local in the chosen place", "situation": "After moving, I get to know my neighbours through the library and local events.", "spend": ["Time", "Freedom of choice"], "give": ["Soul", "Energy and health"]}, {"sub": "Infrastructure, rights and safety", "anchor": "infrastructure-rights-and-safety", "name": "A professional who handles my case", "situation": "If there's a dispute over a service, I trust a lawyer to handle my case.", "spend": ["Time", "Money"], "give": ["Intellect", "Energy and health", "Freedom of choice"]}, {"sub": "Nature and environmental quality", "anchor": "nature-and-environmental-quality", "name": "Green habits together with those around", "situation": "Together with my neighbours I sort waste and clean up the shared area.", "spend": ["Time", "Energy and health"], "give": ["Soul", "Energy and health"]}, {"sub": "Taking part in shared decisions", "anchor": "taking-part-in-shared-decisions", "name": "A shared voice through a trusted leader", "situation": "Through a trusted representative I take part in solving my neighbourhood's problems.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17

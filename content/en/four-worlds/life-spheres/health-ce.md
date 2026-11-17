@@ -14,6 +14,7 @@ tags:
 aliases:
   - "health-CE"
 sphere: "Health"
+sphere_order: 1
 items: [{"sub": "Body and physical abilities", "anchor": "body-and-physical-abilities", "name": "Strength and endurance with a coach", "situation": "Twice a week I train with a coach who adjusts my load.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Energy and health"]}, {"sub": "Habits, sleep and recovery", "anchor": "habits-sleep-and-recovery", "name": "Habits with personal guidance", "situation": "With a sleep specialist I gradually change my habits and discuss the results.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Energy and health"]}, {"sub": "Mental health", "anchor": "mental-health", "name": "Working with a psychotherapist", "situation": "I meet a psychotherapist regularly and work through my reactions.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Soul", "Energy and health"]}, {"sub": "Cognitive health", "anchor": "cognitive-health", "name": "Maintaining abilities with a specialist", "situation": "When I have trouble with memory or attention, I see a specialist.", "spend": ["Time", "Money", "Energy and health"], "give": ["Intellect", "Energy and health"]}, {"sub": "Prevention, treatment, rehabilitation and care", "anchor": "prevention-treatment-rehabilitation-and-care", "name": "A doctor who knows my history", "situation": "I see one family doctor who knows my history.", "spend": ["Time", "Money"], "give": ["Soul", "Energy and health"]}]
 date: 2026-11-17
 updated: 2026-11-17

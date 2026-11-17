@@ -144,7 +144,7 @@ def build(lang):
                    trans(path_card(lang, sp, sc), path_card(other, sp, sc)).rstrip('\n'),
                    f'scenario: {code(lang, sc)}', 'tags:', f"  - {l['type_card']}", f'  - {tag_sphere(lang, sp)}',
                    f"  - {l['sc_tag']}/{code(lang, sc)}", 'aliases:', f'  - {yq(sp + "_" + sc) if lang == "ru" else yq(SPHERES[sp][2] + "-" + SC_EN[sc])}',
-                   f'sphere: {yq(spn)}',
+                   f'sphere: {yq(spn)}', f'sphere_order: {list(SPHERES).index(sp) + 1}',
                    'items: ' + json.dumps([dict(sub=sub_name(lang, c['sub']), anchor=slug_heading(sub_name(lang, c['sub'])),
                                                name=tr(lang, c, 'name'), situation=tr(lang, c, 'situation'),
                                                spend=[x for x in res(lang, c['spend']).split(', ') if x],

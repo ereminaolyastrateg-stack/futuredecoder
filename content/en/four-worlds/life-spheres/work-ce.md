@@ -14,6 +14,7 @@ tags:
 aliases:
   - "work-CE"
 sphere: "Work"
+sphere_order: 3
 items: [{"sub": "Direction, role and professional growth", "anchor": "direction-role-and-professional-growth", "name": "A leader of people and large projects", "situation": "I lead a large team and project and am responsible for people and the budget.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Money", "Intellect", "Self-realisation", "Influence and scale"]}, {"sub": "Getting tasks done", "anchor": "getting-tasks-done", "name": "A meaningful result with a manager", "situation": "My manager explains the purpose of the project, and I'm responsible for the result of my part.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Soul", "Self-realisation", "Influence and scale"]}, {"sub": "Time, place and working conditions", "anchor": "time-place-and-working-conditions", "name": "A work environment next to colleagues", "situation": "I work next to colleagues and learn from them as I go.", "spend": ["Time", "Freedom of choice"], "give": ["Intellect", "Soul", "Self-realisation"]}, {"sub": "Collaboration and management", "anchor": "collaboration-and-management", "name": "A team with a respected leader", "situation": "I work with a strong leader whom I trust to choose the direction.", "spend": ["Time", "Energy and health", "Freedom of choice"], "give": ["Intellect", "Soul", "Influence and scale"]}]
 date: 2026-11-17
 updated: 2026-11-17

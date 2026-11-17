@@ -14,6 +14,7 @@ tags:
 aliases:
   - "education-DS"
 sphere: "Education"
+sphere_order: 4
 items: [{"sub": "Purpose, route and access to knowledge", "anchor": "purpose-route-and-access-to-knowledge", "name": "The right skill at the right moment", "situation": "I learn a new tool through short lessons right on my own project.", "spend": ["Time", "Money", "Intellect"], "give": ["Intellect", "Freedom of choice"]}, {"sub": "Practice and applying knowledge", "anchor": "practice-and-applying-knowledge", "name": "My own drills and working templates", "situation": "I create my own exercises to master a skill I need for work.", "spend": ["Time", "Money", "Intellect"], "give": ["Time", "Intellect", "Freedom of choice"]}, {"sub": "Feedback and recognition", "anchor": "feedback-and-recognition", "name": "A portable portfolio and credentials", "situation": "I build a portfolio of real projects and reviews to show my skills.", "spend": ["Time", "Intellect"], "give": ["Money", "Freedom of choice", "Self-realisation"]}]
 date: 2026-11-17
 updated: 2026-11-17
