@@ -48,6 +48,18 @@ def field(body, label):
     m = re.search(r'^\*\*' + re.escape(label) + r':\*\*\s*(.+?)\s*$', body, re.M)
     return m.group(1).strip() if m else ''
 
+# заметки макротрендов: MT-id → базовый путь; к нему добавляется -cs/-ce/-ds/-de по сценарию сигнала
+MT_NOTES = {'ru': {'MT-031': 'materialy/makrotrendy/masterstvo-cheloveka'}, 'en': {}}
+SCEN_SLUG = {'ЦС': 'cs', 'ЦЗ': 'ce', 'ДС': 'ds', 'ДЗ': 'de', 'CS': 'cs', 'CE': 'ce', 'DS': 'ds', 'DE': 'de'}
+
+def link_mt(m, lang, code):
+    text, mid = m.group(1), m.group(1)[:6]
+    base = MT_NOTES[lang].get(mid)
+    if not base:
+        return text
+    sl = SCEN_SLUG.get(code)
+    return f'[[{base}-{sl}|{text}]]' if sl else f'[[{base}|{text}]]'
+
 def link_sig(m, url):
     text, sid = m.group(1), m.group(2).lower()
     return f'[[{url}/{sid}|{text}]]'
@@ -97,7 +109,7 @@ def process(lang):
         b = rest
         b = re.sub(r'\[([^\]]+)\]\(#(sig-edu-\d{3})\)', lambda m: link_sig(m, c['url']), b)
         b = re.sub(r'\[([^\]]+)\]\((?:\.\./)+[^)]*?#(sig-edu-\d{3})\)', lambda m: f"[[{c['other']}/{m.group(2)}|{m.group(1)}]]", b)
-        b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', r'\1', b)
+        b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', lambda m: link_mt(m, lang, code), b)
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
                    lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
         desc = field(rest, L['brief'])
