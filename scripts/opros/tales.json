@@ -1,0 +1,327 @@
+[
+ {
+  "kind": "film",
+  "t_ru": "«Повар на колёсах» (2014)",
+  "t_en": "Chef (2014)",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "tvorch",
+   "svoboda",
+   "blizost"
+  ],
+  "sp": [
+   "rabota",
+   "semya"
+  ],
+  "ru": "Шеф уходит из ресторана, где за него решают меню, запускает фудтрак — и заново знакомится с сыном, пока они вместе колесят по стране.",
+  "en": "A chef quits a restaurant where others decide his menu, starts a food truck and gets to know his son again as they drive across the country.",
+  "url": "https://en.wikipedia.org/wiki/Chef_(2014_film)"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Земля кочевников» (2020)",
+  "t_en": "Nomadland (2020)",
+  "w": [
+   "ДС",
+   "ДЗ"
+  ],
+  "v": [
+   "svoboda",
+   "prinadl",
+   "pokoy"
+  ],
+  "sp": [
+   "byt",
+   "rabota",
+   "sreda"
+  ],
+  "ru": "После закрытия завода и потери дома героиня живёт в фургоне, работает сезонно и находит своих среди таких же кочевников.",
+  "en": "After the factory closes and she loses her home, a woman lives in a van, works seasonal jobs and finds her people among fellow nomads.",
+  "url": "https://en.wikipedia.org/wiki/Nomadland_(film)"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Стажёр» (2015)",
+  "t_en": "The Intern (2015)",
+  "w": [
+   "ЦЗ"
+  ],
+  "v": [
+   "razvit",
+   "prinadl",
+   "smysl"
+  ],
+  "sp": [
+   "rabota"
+  ],
+  "ru": "Семидесятилетний вдовец идёт стажёром в модный стартап — и его опыт и спокойствие оказываются нужнее, чем все думали.",
+  "en": "A seventy-year-old widower becomes an intern at a trendy start-up, and his experience and calm turn out to be needed more than anyone thought.",
+  "url": "https://en.wikipedia.org/wiki/The_Intern_(2015_film)"
+ },
+ {
+  "kind": "real",
+  "t_ru": "«Мальчик, который обуздал ветер» (реальная история, книга и фильм)",
+  "t_en": "The Boy Who Harnessed the Wind (true story, book and film)",
+  "w": [
+   "ДЗ",
+   "ДС"
+  ],
+  "v": [
+   "razvit",
+   "bezop",
+   "tvorch"
+  ],
+  "sp": [
+   "obrazovanie",
+   "sreda"
+  ],
+  "ru": "Подросток из Малави, которому не на что учиться, по библиотечной книге собирает из хлама ветряк — и даёт деревне электричество и воду.",
+  "en": "A teenager in Malawi who can't afford school builds a wind turbine from scrap using a library book, bringing his village electricity and water.",
+  "url": "https://en.wikipedia.org/wiki/William_Kamkwamba"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Невероятная жизнь Уолтера Митти» (2013)",
+  "t_en": "The Secret Life of Walter Mitty (2013)",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "novizna",
+   "svoboda",
+   "smysl"
+  ],
+  "sp": [
+   "rabota",
+   "smysl"
+  ],
+  "ru": "Человек, который годами только мечтал, отправляется искать пропавший кадр — и впервые проживает приключение сам, а не в голове.",
+  "en": "A man who spent years only daydreaming sets off to find a missing photo negative and, for the first time, lives an adventure himself.",
+  "url": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Джули и Джулия» (2009)",
+  "t_en": "Julie & Julia (2009)",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "tvorch",
+   "smysl",
+   "priznan"
+  ],
+  "sp": [
+   "rabota",
+   "smysl"
+  ],
+  "ru": "Молодая женщина на скучной работе решает за год приготовить все рецепты из книги Джулии Чайлд и пишет об этом блог. Маленький ежедневный шаг меняет её жизнь.",
+  "en": "A young woman in a dull job decides to cook every recipe in Julia Child's book within a year and blogs about it. A small daily step changes her life.",
+  "url": "https://en.wikipedia.org/wiki/Julie_%26_Julia"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Капитан Фантастик» (2016)",
+  "t_en": "Captain Fantastic (2016)",
+  "w": [
+   "ДЗ"
+  ],
+  "v": [
+   "svoboda",
+   "blizost",
+   "razvit"
+  ],
+  "sp": [
+   "semya",
+   "obrazovanie"
+  ],
+  "ru": "Отец растит шестерых детей в лесу по своим правилам. Когда им приходится выйти к людям, семья ищет, как остаться собой и не отрезать себя от мира.",
+  "en": "A father raises six children in the forest by his own rules. When they have to rejoin society, the family looks for a way to stay themselves without cutting off the world.",
+  "url": "https://en.wikipedia.org/wiki/Captain_Fantastic_(film)"
+ },
+ {
+  "kind": "real",
+  "t_ru": "«Скрытые фигуры» (реальная история, книга и фильм)",
+  "t_en": "Hidden Figures (true story, book and film)",
+  "w": [
+   "ЦЗ"
+  ],
+  "v": [
+   "priznan",
+   "razvit",
+   "bezop"
+  ],
+  "sp": [
+   "rabota",
+   "obrazovanie"
+  ],
+  "ru": "Математички NASA добиваются признания в системе, которая их не замечает. Одна из них сама осваивает язык новых машин IBM и учит свою команду — чтобы машины их не заменили.",
+  "en": "NASA mathematicians win recognition in a system that overlooks them. One of them teaches herself the language of the new IBM machines and trains her team so the machines don't replace them.",
+  "url": "https://en.wikipedia.org/wiki/Hidden_Figures"
+ },
+ {
+  "kind": "real",
+  "t_ru": "Barefoot College (Индия)",
+  "t_en": "Barefoot College (India)",
+  "w": [
+   "ДЗ"
+  ],
+  "v": [
+   "razvit",
+   "bezop",
+   "prinadl"
+  ],
+  "sp": [
+   "obrazovanie",
+   "sreda",
+   "rabota"
+  ],
+  "ru": "Женщины из деревень без формального образования учатся собирать и чинить солнечные системы и приносят свет в свои дома и сёла.",
+  "en": "Village women without formal education learn to build and repair solar systems and bring light to their homes and villages.",
+  "url": "https://en.wikipedia.org/wiki/Barefoot_College"
+ },
+ {
+  "kind": "real",
+  "t_ru": "La Borda (Барселона)",
+  "t_en": "La Borda (Barcelona)",
+  "w": [
+   "ДЗ"
+  ],
+  "v": [
+   "bezop",
+   "prinadl",
+   "dostatok"
+  ],
+  "sp": [
+   "byt",
+   "finansy"
+  ],
+  "ru": "Жильцы сами построили дом-кооператив на городской земле: квартиры не покупают и не снимают, а вносят возвратный пай и платят ниже рынка.",
+  "en": "Residents built their own co-operative building on city land: they neither buy nor rent their flats but pay a refundable share and below-market fees.",
+  "url": "https://www.elsaltodiario.com/vivienda/cooperativas-derecho-uso-se-reivindican-una-alternativa-al-problema-vivienda"
+ },
+ {
+  "kind": "real",
+  "t_ru": "Habitat for Humanity",
+  "t_en": "Habitat for Humanity",
+  "w": [
+   "ДЗ",
+   "ЦЗ"
+  ],
+  "v": [
+   "bezop",
+   "prinadl"
+  ],
+  "sp": [
+   "byt",
+   "finansy"
+  ],
+  "ru": "Семьи получают свой дом без первого взноса: вместо денег отрабатывают сотни часов на стройке своего и соседних домов.",
+  "en": "Families get a home of their own without a down payment: instead of money they put hundreds of hours into building their own and their neighbours' homes.",
+  "url": "https://en.wikipedia.org/wiki/Habitat_for_Humanity"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Дьявол носит Prada» (2006)",
+  "t_en": "The Devil Wears Prada (2006)",
+  "w": [
+   "ЦЗ"
+  ],
+  "v": [
+   "priznan",
+   "razvit",
+   "blizost"
+  ],
+  "sp": [
+   "rabota",
+   "semya"
+  ],
+  "ru": "Карьера в модном журнале идёт вверх, а отношения с близкими рушатся. Героиня понимает, чем платит, и выбирает свою дорогу.",
+  "en": "Her career at a fashion magazine takes off while her relationships fall apart. The heroine sees what she is paying and chooses her own road.",
+  "url": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film)"
+ },
+ {
+  "kind": "book",
+  "t_ru": "«Есть, молиться, любить» (книга и фильм)",
+  "t_en": "Eat Pray Love (book and film)",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "pokoy",
+   "novizna",
+   "smysl",
+   "zdorov"
+  ],
+  "sp": [
+   "smysl",
+   "zdorovye"
+  ],
+  "ru": "После развода героиня год живёт в трёх странах и по частям собирает себя заново: удовольствие, тишину и близость.",
+  "en": "After a divorce the heroine spends a year in three countries and puts herself back together piece by piece: pleasure, stillness and closeness.",
+  "url": "https://en.wikipedia.org/wiki/Eat,_Pray,_Love"
+ },
+ {
+  "kind": "real",
+  "t_ru": "Движение FIRE",
+  "t_en": "The FIRE movement",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "dostatok",
+   "svoboda",
+   "bezop"
+  ],
+  "sp": [
+   "finansy",
+   "rabota"
+  ],
+  "ru": "Люди годами откладывают большую часть дохода и считают свою цифру «сколько мне хватит», чтобы рано получить свободу выбирать работу.",
+  "en": "People save most of their income for years and work out their own “how much is enough” figure to win early freedom to choose their work.",
+  "url": "https://en.wikipedia.org/wiki/FIRE_movement"
+ },
+ {
+  "kind": "real",
+  "t_ru": "Город 15 минут (Париж)",
+  "t_en": "The 15-minute city (Paris)",
+  "w": [
+   "ЦС",
+   "ЦЗ"
+  ],
+  "v": [
+   "pokoy",
+   "zdorov",
+   "prinadl"
+  ],
+  "sp": [
+   "sreda",
+   "zdorovye"
+  ],
+  "ru": "Париж перестраивает районы так, чтобы работа, школа, врач и парк были в пятнадцати минутах пешком или на велосипеде.",
+  "en": "Paris is reshaping neighbourhoods so that work, school, the doctor and a park are within fifteen minutes on foot or by bike.",
+  "url": "https://en.wikipedia.org/wiki/15-minute_city"
+ },
+ {
+  "kind": "film",
+  "t_ru": "«Марсианин» (2015)",
+  "t_en": "The Martian (2015)",
+  "w": [
+   "ДС"
+  ],
+  "v": [
+   "bezop",
+   "razvit",
+   "tvorch"
+  ],
+  "sp": [
+   "zdorovye",
+   "obrazovanie"
+  ],
+  "ru": "Оставшись один на Марсе, ботаник решает задачи по одной: сначала еда, потом вода, потом связь. Ни одного ресурса нет сразу — каждый добывается из предыдущего.",
+  "en": "Stranded alone on Mars, a botanist solves problems one at a time: food, then water, then contact. No resource is there at once; each is won from the one before.",
+  "url": "https://en.wikipedia.org/wiki/The_Martian_(film)"
+ }
+]

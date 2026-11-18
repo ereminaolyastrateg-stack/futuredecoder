@@ -162,6 +162,14 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .vtags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px}.wt{padding:2px 8px;border-radius:999px;border:1px solid var(--line);background:#f8f9fa}
 .real{margin:4px 0 10px}
 @media(max-width:640px){.cpick{grid-template-columns:1fr}}
+.refs{font-size:13px;line-height:1.45;margin:6px 0 0;padding-left:20px}.refs li{margin:3px 0}
+.base{border:1.5px dashed var(--line);border-radius:14px;padding:10px 14px;margin:10px 0;background:#fff;font-size:14.5px;line-height:1.45}.base summary{cursor:pointer}.base ul{padding-left:20px}
+.tale{border:1.5px solid var(--line);border-left:6px solid #7048e8;border-radius:14px;padding:12px 16px;margin:14px 0;background:#fff}.tale .cap{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.tale.art{border-left-color:#e8590c}.tale textarea,.dta{width:100%;box-sizing:border-box;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff}
+.deepbox{border:2px solid #7048e8;border-radius:16px;padding:14px 16px;margin:16px 0;background:#f8f5ff}
+.sysg{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;margin:8px 0 14px}.sysr{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:14px;border-bottom:1px solid var(--line);padding:4px 0}
+.joker{border:2px solid #111;border-radius:16px;padding:14px 18px;margin:10px 0;background:repeating-linear-gradient(45deg,#fff,#fff 10px,#f8f9fa 10px,#f8f9fa 20px)}.joker .cap{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#868e96}.joker p{font-size:20px;font-weight:700;margin:6px 0 10px}
+@media(max-width:640px){.sysg{grid-template-columns:1fr}}
 .sumbox{border:1.5px solid var(--ink);border-radius:16px;padding:16px 18px;margin:20px 0}
 .sumbox .big{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px}
 .vbar{display:grid;grid-template-columns:150px 1fr 34px;gap:10px;align-items:center;margin:5px 0;font-size:14px}
@@ -312,7 +320,53 @@ ru:{
    otherP:"Это не отказ, а запас. Если первый шаг не сработает или захочется второго, начните отсюда.",
    oWays:"способ", oIdeas:"идея из тучи", oWants:"следующее «хочу»", oSrc:"где взять",
    brainH:"Как мозг меняет картину будущего",
-   brain:[["Не знаю","опрос"],["Задаю вопрос","зачем"],["Расширяю взгляд","тучи и рычаг"],["Ищу информацию","дороги и сигналы"],["Говорю с людьми","лаборатория"],["Вижу доказательства","лаборатория и игры"],["Принимаю","карта"],["Действую","первый шаг"]],
+   brain:[["Не знаю","опрос","старт","Канеман, «Думай медленно… решай быстро» (2011): быстрая система мозга держится за привычную картину","https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"],
+     ["Задаю вопрос","зачем","1-я неделя","Лёвенштейн (1994): любопытство включается, когда видишь дыру в своём знании","https://doi.org/10.1037/0033-2909.116.1.75"],
+     ["Расширяю взгляд","тучи и рычаг","1–2 недели","Шварц, «Искусство дальновидности» (1991): несколько сценариев вместо одного прогноза","https://en.wikipedia.org/wiki/Peter_Schwartz_(futurist)"],
+     ["Ищу информацию","дороги и сигналы","1-й месяц","Никерсон (1998): мы ищем то, что подтверждает наше мнение, — поэтому смотрим во все четыре мира","https://doi.org/10.1037/1089-2680.2.2.175"],
+     ["Говорю с людьми","лаборатория","1–3 месяца","Чалдини, «Психология влияния» (1984): мы сверяемся с тем, что делают люди рядом","https://en.wikipedia.org/wiki/Influence:_Science_and_Practice"],
+     ["Вижу доказательства","лаборатория и игры","2–4 месяца","Бандура (1977): вера «у меня получится» растёт от чужого примера и своего маленького успеха","https://doi.org/10.1037/0033-295X.84.2.191"],
+     ["Принимаю","карта","до полугода","Фестингер (1957): пока новое спорит со старой картиной, мозг его отбрасывает","https://en.wikipedia.org/wiki/Cognitive_dissonance"],
+     ["Действую","первый шаг","6–18 месяцев","Клир, «Атомные привычки» (2018); Лалли (2010): привычка складывается в среднем за 66 дней, от 18 до 254","https://doi.org/10.1002/ejsp.674"]],
+   brainTime:"Весь путь — около года-полутора. Так его описывает модель стадий изменений Прохазки и Диклементе: от «не думаю об этом» до закрепления.",
+   brainTimeUrl:"https://doi.org/10.1037/0022-006X.51.3.390",
+   baseH:"Что в основе",
+   baseP:"Четыре логики — это сценарная матрица 2×2, классический инструмент форсайта. Два вопроса: где держатся решения — в центре или у самих людей; и как получается результат — через собранную систему или через живое участие и мастерство. Это не прогнозы, а четыре способа устроить жизнь. В реальности они смешаны, и важно видеть все четыре, чтобы не застрять в одной.",
+   baseBooks:[["Питер Шварц, «Искусство дальновидности»","сценарии вместо одного прогноза"],["Даниэль Канеман, «Думай медленно… решай быстро»","почему мозг держится за привычное"],["Джеймс Клир, «Атомные привычки»","маленькие шаги и среда сильнее силы воли"],["Донелла Медоуз, «Азбука системного мышления»","рычаги, петли и задержки"],["Нассим Талеб, «Чёрный лебедь»","почему план надо проверять на неожиданное"]],
+   baseMore:"Подробнее о четырёх мирах", baseArt:"Будущее как ментальная модель",
+   vShuffle:"Показать другие", vRejected:"Вы отказались от этого в опросе. Посмотрите ещё раз:",
+   storyH:"Похожая история", storyShuffle:"Другая история", storyKind:{film:"фильм",book:"книга",real:"реальный кейс"},
+   artH:"Творческое задание", artShuffle:"Другое задание", artPh:"Что получилось? (необязательно)",
+   art:["Вылепите из пластилина два предмета: точку А и точку Б. Что изменилось в форме, цвете, размере?",
+     "Нарисуйте один обычный вторник в точке Б: с утра до вечера, где вы и кто рядом.",
+     "Напишите себе письмо из точки Б. Начните так: «Привет, у меня получилось. Самым трудным было…»",
+     "Придумайте предмет из будущего, который есть у вас в точке Б и которого нет сейчас. Нарисуйте его упаковку.",
+     "Соберите коллаж из пяти картинок своей точки Б и повесьте там, где видите его каждый день.",
+     "Придумайте название фильма о вашем пути из А в Б и опишите три кадра из него.",
+     "Соберите плейлист из пяти песен: точка А, туча, первый шаг, джокер, точка Б.",
+     "Найдите на улице предмет, похожий на ваш первый шаг, и сфотографируйте его."],
+   deepBtn:"Пройти дальше: проверить на системе", deepP:"Необязательно. Ещё четыре шага: как первый шаг встраивается в вашу жизнь, какие у него следствия, выдержит ли карта неожиданность — и полный круг.",
+   steps2:["Система","Следствия","Джокер","Полный круг"],
+   ex2:["Ваша жизнь — система из восьми сфер, и они связаны. Один шаг задевает сразу несколько. По Донелле Медоуз, в любой системе есть петли: усиливающие (чем больше, тем больше) и уравновешивающие (тянут назад к привычному), а ещё задержки — результат приходит не сразу.",
+     "Каждое действие даёт следствия первого порядка — сразу — и второго — потом. Именно вторые часто ломают план. Пройдите по сферам, которые задевает ваш шаг, и спросите: а что потом?",
+     "Джокер — событие, которое трудно предсказать, но которое всё меняет. Нассим Талеб называет такие «чёрными лебедями». Хорошая карта не та, где всё предсказано, а та, что выдерживает неожиданность. Тяните карту и проверяйте.",
+     "Вы прошли полный круг: от «не знаю» до системы и проверки на прочность. Вот ваша картина целиком."],
+   sysH:"Что задевает ваш первый шаг", sysP:"Отметьте у каждой сферы: шаг её улучшит (+), ухудшит (−) или не тронет. Схема покажет связи.",
+   sysQ:[["Что будет тянуть назад? Это уравновешивающая петля.","Когда я начну …, мне будет мешать …, потому что сейчас …"],
+     ["Что будет усиливать само себя? Это усиливающая петля.","Чем больше я …, тем больше …, а это даёт ещё …"],
+     ["Через сколько будет виден результат? Это задержка. Что поддержит вас, пока его не видно?","Результат будет виден примерно через …; пока его нет, меня поддержит …"]],
+   sysEg:"Пример: «Когда я начну искать соседей для общего дома, мне будет мешать страх потерять личное пространство, потому что сейчас я живу один».",
+   tmpl:"Шаблон:",
+   csqH:"А что потом?", csqP:"По каждой сфере, которую задевает шаг, допишите цепочку. Пример: «Если в сфере „Жильё“ станет дешевле, то появится запас, а через год — возможность учиться без кредита».",
+   csqT:(s,sign)=>`Если в сфере «${s}» станет ${sign}, то …, а через год …`, better:"лучше", worse:"хуже",
+   csqNone:"На прошлом шаге не отмечено ни одной сферы. Вернитесь и отметьте, что задевает шаг.",
+   jkH:"Ваш джокер", jkShuffle:"Вытянуть другой", jkQ:"Что станет с вашей картой?", jkT:"Если случится это, мой первый шаг …; меня выручит …; я заранее могу …",
+   jkSpare:"Какая запасная дорога пригодится?", jkNone:"никакая — придумаю новую",
+   jokers:[["finansy","Доход упал вдвое на полгода."],["finansy","Неожиданно пришли деньги — сумма, равная годовому доходу."],["rabota","Вашу работу за месяц начал делать ИИ."],["rabota","Вам предложили работу мечты в другой стране."],
+     ["zdorovye","Вы на три месяца выбыли из строя по здоровью."],["semya","В семье появился человек, о котором нужно заботиться: ребёнок или пожилой родитель."],["semya","Близкий человек уезжает надолго."],["byt","Нужно съехать с жилья за месяц."],
+     ["sreda","В городе резко изменились правила жизни: цены, транспорт, работа."],["sreda","Ваш район начали перестраивать."],["obrazovanie","В вашей профессии перестали спрашивать диплом — нужны только доказательства умений."],["smysl","Вы поняли, что цель, ради которой всё затевалось, вам больше не нужна."],
+     ["","Интернет и сервисы недоступны неделю."],["","У вас появился год свободного времени с сохранением дохода."],["","Знакомый предлагает начать общее дело."],["","Цены на всё выросли на треть."]],
+   fullH:"Ваша картина целиком", fullSys:"Шаг задевает:", fullLoops:"Петли и задержки:", fullCsq:"Следствия:", fullJk:"Джокер:",
    brainP:"Мозг не меняет картину будущего от одной мысли. Ему нужен путь: от «не знаю» к вопросу, от вопроса к новым вариантам, потом к разговору с людьми и доказательствам, что так можно. Только тогда он принимает новое и начинает действовать. Эта короткая версия проходит путь в одиночку. Два шага — разговор и доказательства — делаются только с другими людьми: для них и нужна лаборатория.",
    brainEnd:"Вы прошли путь в одиночку: от «не знаю» до первого шага. Чего здесь не было — разговора с людьми и проверки в мире. Без них мозг чаще всего возвращается к старой картине. В лаборатории мы проверяем карту вместе: с другими участниками, на четырёх сценариях и на живых примерах.",
    brainHere:"здесь", brainLab:"в лаборатории",
@@ -321,7 +375,7 @@ ru:{
    cYourH:"Ваша туча", cYourP:"Найдите у себя два «хочу», которые тянут в разные стороны: одно забирает то, что нужно другому, — время, деньги, силы или свободу.",
    cPickA:"Первое «хочу»", cPickB:"Второе «хочу»", cPick0:"— выберите —", cOwnB:"другое: то, чем придётся заплатить",
    cHint:(a,b)=>`Подсказка: похоже, сильнее всего спорят «${a}» и «${b}».`, cTake:"Взять эту пару", cAdd:"+ ещё одна туча", cDel:"Убрать тучу",
-   vAboutH:(v)=>`Что такое «${v}»`, vExH:"Как это получают в других сферах — с наших игр", vStep:"Что можно сделать:", vGame:"с игры",
+   vAboutH:(v)=>`Что такое «${v}»`, vExH:"Как это получают люди — примеры с наших игр", vStep:"Что можно сделать:", vGame:"с игры",
    realH:"Как сейчас — честно. Нажмите то, что про вас, или допишите своё:",
    real:{finansy:["живу от зарплаты до зарплаты","есть кредиты или долги","нет запаса на чёрный день","весь доход — одна работа","не понимаю, куда уходят деньги"],
      byt:["снимаю жильё","живу с родителями","ипотека на годы вперёд","тесно, негде побыть одному","быт съедает вечера и выходные"],
@@ -490,7 +544,53 @@ en:{
    otherP:"This isn't a refusal but a reserve. If the first step doesn't work or you want a second one, start here.",
    oWays:"way", oIdeas:"idea from a cloud", oWants:"next want", oSrc:"where to get",
    brainH:"How the brain changes its picture of the future",
-   brain:[["I don't know","questionnaire"],["I ask a question","why"],["I widen the view","clouds and lever"],["I look for information","roads and signals"],["I talk to people","the lab"],["I see proof","the lab and games"],["I accept","map"],["I act","first step"]],
+   brain:[["I don't know","questionnaire","start","Kahneman, Thinking, Fast and Slow (2011): the brain's fast system clings to the familiar picture","https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"],
+     ["I ask a question","why","week 1","Loewenstein (1994): curiosity switches on when you see a gap in your knowledge","https://doi.org/10.1037/0033-2909.116.1.75"],
+     ["I widen the view","clouds and lever","1–2 weeks","Schwartz, The Art of the Long View (1991): several scenarios instead of one forecast","https://en.wikipedia.org/wiki/Peter_Schwartz_(futurist)"],
+     ["I look for information","roads and signals","month 1","Nickerson (1998): we look for what confirms our view, so we look into all four worlds","https://doi.org/10.1037/1089-2680.2.2.175"],
+     ["I talk to people","the lab","1–3 months","Cialdini, Influence (1984): we check ourselves against what people around us do","https://en.wikipedia.org/wiki/Influence:_Science_and_Practice"],
+     ["I see proof","the lab and games","2–4 months","Bandura (1977): the belief “I can do it” grows from others' examples and your own small success","https://doi.org/10.1037/0033-295X.84.2.191"],
+     ["I accept","map","up to 6 months","Festinger (1957): while the new contradicts the old picture, the brain rejects it","https://en.wikipedia.org/wiki/Cognitive_dissonance"],
+     ["I act","first step","6–18 months","Clear, Atomic Habits (2018); Lally (2010): a habit takes 66 days on average, from 18 to 254","https://doi.org/10.1002/ejsp.674"]],
+   brainTime:"The whole path takes about a year to a year and a half. That's how Prochaska and DiClemente's stages-of-change model describes it: from “not thinking about it” to maintenance.",
+   brainTimeUrl:"https://doi.org/10.1037/0022-006X.51.3.390",
+   baseH:"What it's based on",
+   baseP:"The four logics are a 2×2 scenario matrix, a classic foresight tool. Two questions: where decisions are held — at the centre or with people themselves; and how results come about — through an assembled system or through live participation and craft. They're not forecasts but four ways to arrange a life. In reality they're mixed, and it matters to see all four so you don't get stuck in one.",
+   baseBooks:[["Peter Schwartz, The Art of the Long View","scenarios instead of one forecast"],["Daniel Kahneman, Thinking, Fast and Slow","why the brain clings to the familiar"],["James Clear, Atomic Habits","small steps and environment beat willpower"],["Donella Meadows, Thinking in Systems","levers, loops and delays"],["Nassim Taleb, The Black Swan","why a plan must be tested against the unexpected"]],
+   baseMore:"More about the four worlds", baseArt:"The future as a mental model",
+   vShuffle:"Show others", vRejected:"You turned this down in the questionnaire. Take another look:",
+   storyH:"A similar story", storyShuffle:"Another story", storyKind:{film:"film",book:"book",real:"real case"},
+   artH:"Creative task", artShuffle:"Another task", artPh:"What came out? (optional)",
+   art:["Model two objects from clay: point A and point B. What changed in shape, colour, size?",
+     "Draw one ordinary Tuesday at point B: morning to evening, where you are and who's around.",
+     "Write yourself a letter from point B. Start like this: “Hi, I made it. The hardest part was…”",
+     "Invent an object from the future that you have at point B and don't have now. Draw its packaging.",
+     "Make a collage of five pictures of your point B and hang it where you see it every day.",
+     "Come up with a title for a film about your road from A to B and describe three shots from it.",
+     "Make a five-song playlist: point A, the cloud, the first step, the joker, point B.",
+     "Find an object in the street that looks like your first step and take a photo of it."],
+   deepBtn:"Go further: test it on the system", deepP:"Optional. Four more steps: how the first step fits into your life, what follows from it, whether the map survives the unexpected — and the full circle.",
+   steps2:["System","Consequences","Joker","Full circle"],
+   ex2:["Your life is a system of eight spheres, and they're connected. One step touches several at once. In Donella Meadows' terms, every system has loops: reinforcing (the more, the more) and balancing (pulling back to the familiar), plus delays — results don't come at once.",
+     "Every action has first-order consequences — right away — and second-order ones — later. It's often the second that break a plan. Go through the spheres your step touches and ask: and then what?",
+     "A joker is an event that's hard to predict but changes everything. Nassim Taleb calls these “black swans”. A good map isn't one where everything is predicted but one that survives the unexpected. Draw a card and test it.",
+     "You've walked the full circle: from “I don't know” to the system and a stress test. Here is your whole picture."],
+   sysH:"What your first step touches", sysP:"For each sphere, mark whether the step will improve it (+), worsen it (−) or leave it alone. The diagram shows the links.",
+   sysQ:[["What will pull you back? That's a balancing loop.","When I start …, what will get in the way is …, because right now …"],
+     ["What will reinforce itself? That's a reinforcing loop.","The more I …, the more …, and that gives even more …"],
+     ["How long until you see a result? That's a delay. What will keep you going until then?","I'll see a result in about …; until then, what keeps me going is …"]],
+   sysEg:"Example: “When I start looking for people to share a home with, what will get in the way is fear of losing my personal space, because right now I live alone.”",
+   tmpl:"Template:",
+   csqH:"And then what?", csqP:"For each sphere the step touches, complete the chain. Example: “If housing gets cheaper, then I'll have a reserve, and in a year I can study without a loan.”",
+   csqT:(s,sign)=>`If «${s}» gets ${sign}, then …, and in a year …`, better:"better", worse:"worse",
+   csqNone:"No sphere was marked on the previous step. Go back and mark what the step touches.",
+   jkH:"Your joker", jkShuffle:"Draw another", jkQ:"What happens to your map?", jkT:"If this happens, my first step …; what will save me is …; I can prepare by …",
+   jkSpare:"Which spare road will come in handy?", jkNone:"none — I'll invent a new one",
+   jokers:[["finansy","Your income halves for six months."],["finansy","Money arrives out of the blue — a year's income."],["rabota","Within a month AI starts doing your job."],["rabota","You're offered your dream job in another country."],
+     ["zdorovye","Your health takes you out for three months."],["semya","Someone in the family now needs care: a child or an elderly parent."],["semya","Someone close leaves for a long time."],["byt","You have to move out within a month."],
+     ["sreda","The rules of life in your city change sharply: prices, transport, work."],["sreda","Your neighbourhood is being rebuilt."],["obrazovanie","Your profession no longer asks for a degree — only proof of skills."],["smysl","You realise the goal it was all for no longer matters to you."],
+     ["","The internet and services are down for a week."],["","You get a year of free time with your income kept."],["","An acquaintance offers to start a project together."],["","Prices rise by a third across the board."]],
+   fullH:"Your whole picture", fullSys:"The step touches:", fullLoops:"Loops and delays:", fullCsq:"Consequences:", fullJk:"Joker:",
    brainP:"The brain doesn't change its picture of the future from a single thought. It needs a path: from “I don't know” to a question, from the question to new options, then to talking with people and seeing proof that it can be done. Only then does it accept the new and start acting. This short version walks the path alone. Two steps — conversation and proof — only happen with other people: that's what the lab is for.",
    brainEnd:"You've walked the path alone, from “I don't know” to a first step. What was missing here is talking with people and testing in the world. Without them the brain usually slides back to the old picture. In the lab we test the map together: with other participants, against four scenarios and on live examples.",
    brainHere:"here", brainLab:"in the lab",
@@ -499,7 +599,7 @@ en:{
    cYourH:"Your cloud", cYourP:"Find two of your wants that pull in different directions: one takes what the other needs — time, money, energy or freedom.",
    cPickA:"First want", cPickB:"Second want", cPick0:"— choose —", cOwnB:"something else: what I'll have to pay",
    cHint:(a,b)=>`Hint: «${a}» and «${b}» seem to clash the most.`, cTake:"Take this pair", cAdd:"+ another cloud", cDel:"Remove cloud",
-   vAboutH:(v)=>`What «${v}» is`, vExH:"How people get it in other spheres — from our games", vStep:"What you can do:", vGame:"from a game",
+   vAboutH:(v)=>`What «${v}» is`, vExH:"How people get it — examples from our games", vStep:"What you can do:", vGame:"from a game",
    realH:"How it is now, honestly. Tap what's true for you or add your own:",
    real:{finansy:["living paycheck to paycheck","loans or debts","no rainy-day reserve","all income from one job","no idea where the money goes"],
      byt:["renting","living with parents","a mortgage for years ahead","cramped, no space of my own","chores eat my evenings and weekends"],
@@ -580,7 +680,7 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}]});
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}],vseed:0,sseed:0,aseed:0,art:"",deep:false,sys:{},sysA:{},csq:{},jk:-1,jkA:"",jkSpare:""});
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
@@ -925,23 +1025,87 @@ function cloudHTML(c,i){
   </div>`;
 }
 function brainSVG(end){
-  const B=T.lb.brain,W=900,H=200,n=B.length,x=i=>40+i*((W-80)/(n-1)),y=i=>160-i*((120)/(n-1)),lab=i=>i===4||i===5;
+  const B=T.lb.brain,W=900,H=230,n=B.length,x=i=>50+i*((W-100)/(n-1)),y=i=>170-i*((120)/(n-1)),lab=i=>i===4||i===5;
   let e=`<path d="M${x(0)},${y(0)} ${B.map((_,i)=>`L${x(i)},${y(i)}`).join(" ")}" fill="none" stroke="#ced4da" stroke-width="3"/>`,nd="";
-  B.forEach(([t,sub],i)=>{const L_=lab(i),col=L_?"#e8590c":"#7048e8",done=end&&!L_;
-    nd+=`<circle cx="${x(i)}" cy="${y(i)}" r="${L_?13:11}" fill="${L_?"#fff":done?"#7048e8":"#fff"}" stroke="${col}" stroke-width="3"/>${done?`<text x="${x(i)}" y="${y(i)+4.5}" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">✓</text>`:""}
+  B.forEach(([t,sub,tm],i)=>{const L_=lab(i),col=L_?"#e8590c":"#7048e8",done=end&&!L_;
+    nd+=`<text x="${x(i)}" y="${y(i)-18}" text-anchor="middle" font-size="10.5" fill="#868e96">${esc(tm)}</text><circle cx="${x(i)}" cy="${y(i)}" r="${L_?13:11}" fill="${done?"#7048e8":"#fff"}" stroke="${col}" stroke-width="3"/>${done?`<text x="${x(i)}" y="${y(i)+4.5}" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">✓</text>`:`<text x="${x(i)}" y="${y(i)+4}" text-anchor="middle" font-size="10.5" font-weight="700" fill="${col}">${i+1}</text>`}
     <foreignObject x="${x(i)-62}" y="${y(i)+16}" width="124" height="60"><div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center;font-size:12px;line-height:1.2;color:#111;font-weight:600">${esc(t)}<div style="font-weight:400;font-size:11px;color:${L_?"#c2410c":"#868e96"}">${esc(sub)}</div></div></foreignObject>`});
-  return `<svg viewBox="0 0 ${W} ${H+30}" width="100%" style="max-width:${W}px;display:block;margin:6px 0" role="img">${e}${nd}</svg>`;
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:6px 0" role="img">${e}${nd}</svg>`;
 }
-function brainHTML(end){return `<div class="brain"><h3 style="margin:0 0 4px">${T.lb.brainH}</h3>${brainSVG(end)}<p style="margin:4px 0 0">${esc(end?T.lb.brainEnd:T.lb.brainP)}</p><p class="muted" style="font-size:12.5px;margin:6px 0 0"><span style="color:#7048e8">●</span> ${T.lb.brainHere} &nbsp; <span style="color:#e8590c">○</span> ${T.lb.brainLab}</p></div>`}
-// ценность: о ней самой и примеры с игр из других сфер
+function brainHTML(end){
+  return `<div class="brain"><h3 style="margin:0 0 4px">${T.lb.brainH}</h3>${brainSVG(end)}<p style="margin:4px 0 0">${esc(end?T.lb.brainEnd:T.lb.brainP)}</p>
+  <p class="muted" style="font-size:13px;margin:6px 0 0"><span style="color:#7048e8">●</span> ${T.lb.brainHere} &nbsp; <span style="color:#e8590c">○</span> ${T.lb.brainLab} · ${esc(T.lb.brainTime)} <a href="${T.lb.brainTimeUrl}" target="_blank" rel="noopener">↗</a></p>
+  <details style="margin-top:6px"><summary class="muted" style="font-size:13px;cursor:pointer">${T.lb.baseH}: ${LANG==="ru"?"исследования к каждому шагу":"research behind each step"}</summary><ol class="refs">${T.lb.brain.map(b=>`<li><b>${esc(b[0])}.</b> <a href="${b[4]}" target="_blank" rel="noopener">${esc(b[3])}</a></li>`).join("")}</ol></details></div>`;
+}
+function baseHTML(){return `<details class="base"><summary><b>${T.lb.baseH}</b></summary><p>${esc(T.lb.baseP)}</p><ul>${T.lb.baseBooks.map(([b,w])=>`<li><b>${esc(b)}</b> — ${esc(w)}</li>`).join("")}</ul><p><a href="${LANG==="ru"?"/chetyre-mira/":"/en/four-worlds/"}" target="_blank" rel="noopener">${T.lb.baseMore}</a> · <a href="${LANG==="ru"?"/theory/The-Future-as-a-Mental-Model":"/en/theory/the-future-as-a-mental-model"}" target="_blank" rel="noopener">${T.lb.baseArt}</a></p></details>`}
+function rnd(seed,n){const a=[...Array(n).keys()];let s=seed*9301+49297;for(let i=n-1;i>0;i--){s=(s*9301+49297)%233280;const j=s%(i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
+// ценность: о ней самой и случайные примеры с игр + то, от чего отказались
 function valAbout(k){
   const V=D.vals&&D.vals[k];if(!V)return "";
-  const mine=new Set(S.lab.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id));
-  let ex=V.ex.filter(e=>!mine.has(e.sp));if(ex.length<3)ex=[...ex,...V.ex.filter(e=>mine.has(e.sp))];
-  const sph=id=>{const sp=D.spheres.find(s=>s.id===id);return sp?nm(sp):""};
+  const sph=id=>{const sp=D.spheres.find(s=>s.id===id);return sp?nm(sp):""},Lb=S.lab;
+  const pool=[];for(const kk in D.vals)for(const e of D.vals[kk].ex)pool.push({e,own:kk===k});
+  const ordO=rnd(Lb.vseed+1,V.ex.length),ordA=rnd(Lb.vseed+7,pool.length);
+  const pick=[V.ex[ordO[0]],V.ex[ordO[1]]];for(const i of ordA){const e=pool[i].e;if(!pick.includes(e)&&pick.length<3)pick.push(e)}
+  const rej=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&r.a==="no"&&v.g_ru)rej.push(v)}
+  const rv=rej.length?rej[rnd(Lb.vseed+3,rej.length)[0]]:null;
+  const exCard=e=>`<div class="oc" style="border-top-color:${WC[e.w]}"><p style="margin:0 0 4px;font-weight:700;font-size:14px">«${esc(L(e,"quote"))}»</p><p style="margin:0 0 6px">${esc(L(e,"one"))}</p><p class="muted" style="margin:0 0 8px;font-size:12.5px">${T.lb.vStep} ${esc(L(e,"step"))}</p>
+      <div class="vtags"><span class="wt" style="background:color-mix(in srgb,${WC[e.w]} 18%,#fff);border-color:${WC[e.w]}">${T.worlds[e.w]}</span>${e.sp?`<span class="wt">${esc(sph(e.sp))}</span>`:""}<a href="${esc(LANG==="en"?e.src_en:e.src)}" target="_blank" rel="noopener">${T.lb.vGame}</a></div></div>`;
+  const rejCard=v=>`<div class="oc" style="border-top-color:${WC[v.w]};background:#fffaf5"><p class="muted" style="margin:0 0 4px;font-size:12px">${T.lb.vRejected}</p><p style="margin:0 0 6px;font-weight:600">${esc(vtitle(v))}</p><p class="muted" style="margin:0 0 8px;font-size:12.5px">${T.lb.sig} ${esc(L(v,"g"))}</p><div class="vtags"><span class="wt" style="background:color-mix(in srgb,${WC[v.w]} 18%,#fff);border-color:${WC[v.w]}">${T.worlds[v.w]}</span><a href="${esc(LANG==="en"?v.g_src_en:v.g_src)}" target="_blank" rel="noopener">${T.src}</a></div></div>`;
   return `<div class="sumbox"><h3 style="margin-top:0">${esc(T.lb.vAboutH(vLabel(k)))}</h3><p class="big" style="font-weight:500">${esc(V[LANG]||V.ru)}</p>
-    <h3>${T.lb.vExH}</h3><div class="vex">${ex.slice(0,4).map(e=>`<div class="oc" style="border-top-color:${WC[e.w]}"><p style="margin:0 0 4px;font-weight:700;font-size:14px">«${esc(L(e,"quote"))}»</p><p style="margin:0 0 6px">${esc(L(e,"one"))}</p><p class="muted" style="margin:0 0 8px;font-size:12.5px">${T.lb.vStep} ${esc(L(e,"step"))}</p>
-      <div class="vtags"><span class="wt" style="background:color-mix(in srgb,${WC[e.w]} 18%,#fff);border-color:${WC[e.w]}">${T.worlds[e.w]}</span>${e.sp?`<span class="wt">${esc(sph(e.sp))}</span>`:""}<a href="${esc(LANG==="en"?e.src_en:e.src)}" target="_blank" rel="noopener">${T.lb.vGame}</a></div></div>`).join("")}</div></div>`;
+    <h3>${T.lb.vExH}</h3><div class="vex">${pick.map(exCard).join("")}${rv?rejCard(rv):""}</div><button class="btn ghost noprint" id="vshuf" style="margin-top:10px">↻ ${T.lb.vShuffle}</button></div>`;
+}
+function taleHTML(){
+  const Lb=S.lab,TL=D.tales||[];if(!TL.length)return "";
+  const f=Lb.first&&wayObj(Lb.first.key),fw=f&&f.v?f.v.w:null,sp=new Set(Lb.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id));
+  const sc=TL.map((t,i)=>({i,s:(Lb.lev&&t.v.includes(Lb.lev)?3:0)+(fw&&t.w.includes(fw)?2:0)+t.sp.filter(x=>sp.has(x)).length}));
+  const best=sc.sort((a,b)=>b.s-a.s),top=best.filter(x=>x.s>=best[0].s-1).map(x=>x.i),pool=Lb.sseed?[...Array(TL.length).keys()]:top;
+  const t=TL[pool[rnd(Lb.sseed+11,pool.length)[0]]];
+  return `<div class="tale"><span class="cap">${T.lb.storyH} · ${T.lb.storyKind[t.kind]}</span><h3 style="margin:2px 0 6px">${esc(LANG==="ru"?t.t_ru:t.t_en)}</h3><p style="margin:0 0 8px">${esc(LANG==="ru"?t.ru:t.en)}</p>
+    <div class="vtags">${t.w.map(w=>`<span class="wt" style="background:color-mix(in srgb,${WC[w]} 18%,#fff);border-color:${WC[w]}">${T.worlds[w]}</span>`).join("")}${t.v.map(v=>`<span class="wt">${esc(T.vals[v])}</span>`).join("")}<a href="${esc(t.url)}" target="_blank" rel="noopener">${T.src}</a></div>
+    <button class="btn ghost noprint" id="sshuf" style="margin-top:10px">↻ ${T.lb.storyShuffle}</button></div>`;
+}
+function artHTML(){const A=T.lb.art,i=rnd(S.lab.aseed+5,A.length)[0];
+  return `<div class="tale art"><span class="cap">${T.lb.artH}</span><p class="big" style="margin:4px 0 8px;font-weight:600">${esc(A[i])}</p><textarea rows="2" id="artA" placeholder="${esc(T.lb.artPh)}">${esc(S.lab.art||"")}</textarea><button class="btn ghost noprint" id="ashuf" style="margin-top:8px">↻ ${T.lb.artShuffle}</button></div>`}
+// ---------- Продолжение «Проверить на системе» ----------
+function sysSVG(){
+  const Lb=S.lab,f=Lb.first&&wayObj(Lb.first.key),W=760,H=440,cx=380,cy=220,R=165,SP=D.spheres;
+  let e="",n="";
+  SP.forEach((sp,i)=>{const a=-Math.PI/2+i*2*Math.PI/SP.length,x=cx+R*1.55*Math.cos(a),y=cy+R*Math.sin(a),m=Lb.sys[sp.id]||"";
+    for(let j=i+1;j<SP.length;j++){if(Lb.sys[SP[j].id]&&m){const b=-Math.PI/2+j*2*Math.PI/SP.length;e+=`<path d="M${x},${y} L${cx+R*1.55*Math.cos(b)},${cy+R*Math.sin(b)}" stroke="#e9ecef" stroke-width="1.2"/>`}}
+    if(m)e+=`<path d="M${cx},${cy} L${x},${y}" stroke="${m==="+"?"#2f9e44":"#e8590c"}" stroke-width="3" ${m==="+"?"":'stroke-dasharray="7 5"'}/>`;
+    n+=`<rect x="${x-78}" y="${y-22}" width="156" height="44" rx="22" fill="${m==="+"?"#d8f1df":m==="-"?"#ffe8dd":"#fff"}" stroke="${m==="+"?"#2f9e44":m==="-"?"#e8590c":"#ced4da"}" stroke-width="${m?2.2:1.2}"/>`+
+      `<foreignObject x="${x-74}" y="${y-20}" width="148" height="40"><div xmlns="http://www.w3.org/1999/xhtml" style="height:40px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;line-height:1.15;font-weight:600;color:#111">${m?(m==="+"?"+ ":"− "):""}${esc(nm(sp))}</div></foreignObject>`});
+  n+=`<circle cx="${cx}" cy="${cy}" r="72" fill="#7048e8"/><foreignObject x="${cx-62}" y="${cy-52}" width="124" height="104"><div xmlns="http://www.w3.org/1999/xhtml" style="height:104px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.2;color:#fff;font-weight:600">${esc(cut(f?f.title:"…",90))}</div></foreignObject>`;
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:8px auto" role="img">${e}${n}</svg>`;
+}
+function tplArea(id,val,tpl,rows){return `<p class="eg" style="margin:2px 0 4px">${T.lb.tmpl} ${esc(tpl)}</p><textarea rows="${rows||2}" data-deep="${id}" placeholder="${esc(tpl)}" class="dta">${esc(val||"")}</textarea>`}
+function deepBody(step,ex){
+  const Lb=S.lab,SP=D.spheres;
+  if(step===6){
+    return `<h2>${T.lb.steps2[0]}</h2>${ex}<h3>${T.lb.sysH}</h3><p class="muted">${T.lb.sysP}</p>${sysSVG()}
+      <div class="sysg">${SP.map(sp=>{const m=Lb.sys[sp.id]||"";return `<div class="sysr"><span>${esc(nm(sp))}</span><span class="tags">${["+","-",""].map(v=>`<button class="tg" data-sys="${sp.id}" data-m="${v}" aria-pressed="${m===v}">${v==="+"?"+":v==="-"?"−":"0"}</button>`).join("")}</span></div>`}).join("")}</div>
+      ${T.lb.sysQ.map(([q,t],i)=>`<p class="cq"><span class="num">${i+1}</span><b>${esc(q)}</b></p>${tplArea("sysA:"+i,Lb.sysA[i],t)}`).join("")}<p class="eg" style="margin-left:0">${esc(T.lb.sysEg)}</p>`;
+  }
+  if(step===7){
+    const ms=SP.filter(sp=>Lb.sys[sp.id]);
+    return `<h2>${T.lb.csqH}</h2>${ex}<p class="muted">${esc(T.lb.csqP)}</p>`+(ms.length?ms.map(sp=>{const m=Lb.sys[sp.id];return `<div class="item" style="border-left-color:${m==="+"?"#2f9e44":"#e8590c"}"><p class="t">${m==="+"?"+":"−"} ${esc(nm(sp))}</p>${tplArea("csq:"+sp.id,Lb.csq[sp.id],T.lb.csqT(nm(sp),m==="+"?T.lb.better:T.lb.worse))}</div>`}).join(""):`<p class="note">${T.lb.csqNone}</p>`);
+  }
+  if(step===8){
+    const J=T.lb.jokers;if(Lb.jk<0||Lb.jk>=J.length)Lb.jk=rnd(Date.now()%997,J.length)[0];
+    const [jsp,jt]=J[Lb.jk],spn=jsp?nm(D.spheres.find(s=>s.id===jsp)):"";
+    const spare=wayList().filter(o=>!(Lb.first&&Lb.first.key===o.key));
+    return `<h2>${T.lb.steps2[2]}</h2>${ex}<div class="joker"><span class="cap">${T.lb.jkH}${spn?" · "+esc(spn):""}</span><p>${esc(jt)}</p><button class="btn ghost noprint" id="jkshuf">↻ ${T.lb.jkShuffle}</button></div>
+      <p class="cq"><span class="num">1</span><b>${T.lb.jkQ}</b></p>${tplArea("jkA",Lb.jkA,T.lb.jkT,3)}
+      <p class="cq"><span class="num">2</span><b>${T.lb.jkSpare}</b></p><div class="tags" style="flex-direction:column;align-items:stretch">${spare.slice(0,8).map(o=>`<button class="tg" style="text-align:left;border-radius:10px" data-jks="${esc(o.key)}" aria-pressed="${Lb.jkSpare===o.key}">${o.v?`<b>${T.worlds[o.v.w]}.</b> `:""}${esc(cut(o.v?stepText(o.v):o.title,120))}</button>`).join("")}<button class="tg" style="text-align:left;border-radius:10px" data-jks="~" aria-pressed="${Lb.jkSpare==="~"}">${T.lb.jkNone}</button></div>`;
+  }
+  // 9: полный круг
+  const ms=SP.filter(sp=>Lb.sys[sp.id]),J=T.lb.jokers[Lb.jk]||null,so=Lb.jkSpare&&Lb.jkSpare!=="~"?wayObj(Lb.jkSpare):null;
+  return `<h2>${T.lb.fullH}</h2>${ex}<div id="fmapwrap"><div id="fmap">${finalMap()}</div></div>${sysSVG()}
+    <div class="sumbox">${ms.length?`<p><b>${T.lb.fullSys}</b> ${ms.map(sp=>`${Lb.sys[sp.id]==="+"?"+":"−"} ${esc(nm(sp))}`).join(", ")}</p>`:""}
+    ${[0,1,2].some(i=>(Lb.sysA[i]||"").trim())?`<p><b>${T.lb.fullLoops}</b></p><ul>${[0,1,2].filter(i=>(Lb.sysA[i]||"").trim()).map(i=>`<li>${esc(Lb.sysA[i].trim())}</li>`).join("")}</ul>`:""}
+    ${ms.some(sp=>(Lb.csq[sp.id]||"").trim())?`<p><b>${T.lb.fullCsq}</b></p><ul>${ms.filter(sp=>(Lb.csq[sp.id]||"").trim()).map(sp=>`<li>${esc(Lb.csq[sp.id].trim())}</li>`).join("")}</ul>`:""}
+    ${J?`<p><b>${T.lb.fullJk}</b> ${esc(J[1])}${(Lb.jkA||"").trim()?` — ${esc(Lb.jkA.trim())}`:""}${so?` (${esc(cut(so.title,80))})`:""}</p>`:""}</div>
+    ${artHTML()}<div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>${brainHTML(true)}`;
 }
 // ---------- Рычаг ----------
 function levSug(){const vc=valCounts();return Object.keys(vc).sort((a,b)=>vc[b]-vc[a])[0]||null}
@@ -1096,16 +1260,16 @@ function rLab(){
   Lb.picks=Lb.picks.filter(id=>W.some(x=>x.v.id===id));
   Lb.ways=(Lb.ways||[]).filter(k=>{const o=wayObj(k);return o&&o.title});
   if(Lb.first&&!wayObj(Lb.first.key))Lb.first=null;
-  const NS=T.lb.steps.length;
-  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${T.lb.steps.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div>`;
+  const STEPS=Lb.deep?[...T.lb.steps,...T.lb.steps2]:T.lb.steps,NS=STEPS.length;if(Lb.step>=NS)Lb.step=NS-1;
+  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${STEPS.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div>`;
   if(!W.length){el.innerHTML=head+`<p>${T.lb.empty}</p><a class="btn" href="#start">${T.go}</a>`;return}
   if(Lb.step>0&&!Lb.picks.length)Lb.step=0;
-  const ex=`<p class="expl">${esc(T.lb.ex[Lb.step])}</p>`;
+  const ex=`<p class="expl">${esc(Lb.step<6?T.lb.ex[Lb.step]:T.lb.ex2[Lb.step-6])}</p>`;
   const nav=(canNext,last)=>`<div class="row noprint" style="margin-top:18px">${Lb.step?`<button class="btn ghost" id="lb">${T.lb.back}</button>`:""}${last?`<a class="btn" href="#result">${T.lb.toRes}</a>`:`<button class="btn" id="ln" ${canNext?"":"disabled"}>${T.lb.next}</button>`}</div>`;
   let body="";
   if(Lb.step===0){
     const pSph=new Set(Lb.picks.map(id=>card(id).sp.id));
-    body=`<p>${T.lb.intro}</p>${brainHTML(false)}${ex}<h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(Lb.picks.length,pSph.size)}.</p>`+
+    body=`<p>${T.lb.intro}</p>${brainHTML(false)}${baseHTML()}${ex}<h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(Lb.picks.length,pSph.size)}.</p>`+
       W.map(x=>{const on=Lb.picks.includes(x.v.id);return `<button class="pick" data-id="${x.v.id}" aria-pressed="${on}" ${!on&&Lb.picks.length>=10?"disabled":""}><span class="box">${on?"✓":""}</span><span>${esc(vtitle(x.v))}<small>${esc(nm(x.sp))} · ${esc(nm(x.sb))} · ${T.worlds[x.v.w]}</small></span></button>`}).join("")+nav(Lb.picks.length>0);
   }else if(Lb.step===1){
     const vc=valCounts(), ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]), mx=Math.max(1,...Object.values(vc));
@@ -1130,11 +1294,13 @@ function rLab(){
     body=`<h2>${esc(T.lb.wH(vLabel(Lb.lev)||"…"))}</h2>${ex}<p class="big" style="font-weight:600">${T.lb.wStart}</p>`+
       Object.keys(byWant).map(w=>`<h3 style="margin-top:20px">${w==="_"?T.lb.ideaWay:esc(T.lb.wFor(short(vtitle(card(w).v),70)))}</h3>`+byWant[w].map(o=>wayHTML(o,"take")).join("")).join("")+
       `<h3 style="margin-top:20px">${T.lb.ownWay}</h3><div class="way${Lb.first&&Lb.first.key==="own"?" on":""}" style="border-left-color:var(--ink)"><textarea rows="2" id="ownway" placeholder="${T.lb.ownWayPh}">${esc(Lb.own||"")}</textarea>${(Lb.own||"").trim()?`<button class="btn ${Lb.first&&Lb.first.key==="own"?"":"ghost"} noprint" data-take="own" style="margin-top:8px">${Lb.first&&Lb.first.key==="own"?"✓ "+T.lb.startedOn:T.lb.startOn}</button>`:""}</div>`+nav(!!(Lb.first&&wayObj(Lb.first.key)));
+  }else if(Lb.step>=6){
+    body=deepBody(Lb.step,ex)+(Lb.step===NS-1?`<div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`:"")+nav(true,Lb.step===NS-1);
   }else{
     const rs_=[...new Set([...Lb.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id),...S.sel])],kwA=(Lb.kwA||"").split(",").map(x=>x.trim().toLowerCase());
     body=`<h2>${T.lb.mapH}</h2>${ex}<div class="real noprint"><p class="muted" style="margin:0 0 6px;font-size:14px">${T.lb.realH}</p><div class="tags">${rs_.flatMap(id=>(T.lb.real[id]||[])).map(t=>`<button class="tg" data-real="${esc(t)}" aria-pressed="${kwA.includes(t.toLowerCase())}">${esc(t)}</button>`).join("")}</div></div><div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label><label>${T.lb.kwB}<input type="text" id="kwB" value="${esc(Lb.kwB||"")}" placeholder="${esc(T.lb.kwBph)}"></label></div>
-      <div id="fmapwrap"><div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p></div><div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>${brainHTML(true)}
-      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
+      <div id="fmapwrap"><div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p></div><div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>${taleHTML()}${artHTML()}${Lb.deep?"":`<div class="deepbox noprint"><p style="margin:0 0 8px">${esc(T.lb.deepP)}</p><button class="btn" id="deep">${T.lb.deepBtn} →</button></div>`}${Lb.deep?"":brainHTML(true)}
+      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,!Lb.deep);
   }
   el.innerHTML=head+body;
   const q=s=>el.querySelectorAll(s);
@@ -1163,6 +1329,15 @@ function rLab(){
   q("button[data-take]").forEach(b=>b.onclick=()=>{const k=b.dataset.take;Lb.first=(Lb.first&&Lb.first.key===k)?null:{key:k};Lb.gain={};save();rLab()});
   q(".tg[data-gain]").forEach(b=>b.onclick=()=>{const k=b.dataset.gain;Lb.gain=Lb.gain||{};if(Lb.gain[k])delete Lb.gain[k];else Lb.gain[k]=true;save();rLab()});
   q("textarea[data-th]").forEach(t=>t.oninput=()=>{Lb.th=Lb.th||{};Lb.th[t.dataset.th]=t.value;save()});
+  const vs=el.querySelector("#vshuf");if(vs)vs.onclick=()=>{Lb.vseed=(Lb.vseed||0)+1;save();rLab()};
+  const ss=el.querySelector("#sshuf");if(ss)ss.onclick=()=>{Lb.sseed=(Lb.sseed||0)+1;save();rLab()};
+  const as=el.querySelector("#ashuf");if(as)as.onclick=()=>{Lb.aseed=(Lb.aseed||0)+1;save();rLab()};
+  const aa=el.querySelector("#artA");if(aa)aa.oninput=()=>{Lb.art=aa.value;save()};
+  const dp=el.querySelector("#deep");if(dp)dp.onclick=()=>{Lb.deep=true;Lb.step=6;save();rLab();window.scrollTo(0,0)};
+  q(".tg[data-sys]").forEach(b=>b.onclick=()=>{const k=b.dataset.sys,m=b.dataset.m;if(m)Lb.sys[k]=m;else delete Lb.sys[k];save();rLab()});
+  q("textarea[data-deep]").forEach(t=>t.oninput=()=>{const [k,i]=t.dataset.deep.split(":");if(i===undefined)Lb[k]=t.value;else{Lb[k]=Lb[k]||{};Lb[k][i]=t.value}save()});
+  const jk=el.querySelector("#jkshuf");if(jk)jk.onclick=()=>{const n=T.lb.jokers.length;Lb.jk=(Lb.jk+1+Math.floor(Math.random()*(n-1)))%n;save();rLab()};
+  q(".tg[data-jks]").forEach(b=>b.onclick=()=>{Lb.jkSpare=b.dataset.jks;save();rLab()});
   const ln=el.querySelector("#ln");if(ln)ln.onclick=()=>{if(Lb.step===2&&!Lb.lev)Lb.lev=levSug();Lb.step=Math.min(NS-1,Lb.step+1);save();rLab();window.scrollTo(0,0)};
   const lb=el.querySelector("#lb");if(lb)lb.onclick=()=>{Lb.step=Math.max(0,Lb.step-1);save();rLab();window.scrollTo(0,0)};
 }
@@ -1193,6 +1368,13 @@ function labMD(){
       const sp=wayList().filter(o=>o.key!==Lb.first.key);if(sp.length){s+=`- ${T.lb.otherH}:\n`;for(const o of sp)s+=`  - ${o.v?stepText(o.v)+" ("+T.worlds[o.v.w]+")":o.title}\n`}
       if(lt.gk.length&&Lb.def&&!lt.ok){s+=`\n${T.lb.thinkH}\n`;T.lb.think.forEach(([qq,e],i)=>{s+=`- ${qq}${(Lb.th||{})[i]?`\n  - ${Lb.th[i].trim()}`:` (${T.lb.eg} ${e})`}\n`})}}
   }
+  if(Lb.deep){const SP=D.spheres,ms=SP.filter(sp=>Lb.sys[sp.id]);
+    s+=`\n### ${T.lb.steps2.join(" · ")}\n`;
+    if(ms.length)s+=`- ${T.lb.fullSys} ${ms.map(sp=>(Lb.sys[sp.id]==="+"?"+":"−")+" "+nm(sp)).join(", ")}\n`;
+    [0,1,2].forEach(i=>{if((Lb.sysA[i]||"").trim())s+=`- ${T.lb.sysQ[i][0]} ${Lb.sysA[i].trim()}\n`});
+    ms.forEach(sp=>{if((Lb.csq[sp.id]||"").trim())s+=`- ${nm(sp)}: ${Lb.csq[sp.id].trim()}\n`});
+    const J=T.lb.jokers[Lb.jk];if(J)s+=`- ${T.lb.fullJk} ${J[1]}${(Lb.jkA||"").trim()?" — "+Lb.jkA.trim():""}\n`;}
+  if((Lb.art||"").trim())s+=`- ${T.lb.artH}: ${Lb.art.trim()}\n`;
   return s;
 }
 

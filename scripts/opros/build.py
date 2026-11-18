@@ -77,7 +77,8 @@ for k, v in values.items():
     vals_out[k] = {'ru': v['ru'], 'en': v['en'], 'ex': exs}
 
 out = ROOT / 'quartz/static/opros/data.json'
-out.write_text(json.dumps({'spheres': spheres, 'vals': vals_out}, ensure_ascii=False, separators=(',', ':')))
+tales = json.loads((ROOT / 'scripts/opros/tales.json').read_text())
+out.write_text(json.dumps({'spheres': spheres, 'vals': vals_out, 'tales': tales}, ensure_ascii=False, separators=(',', ':')))
 n = sum(len(x['subs']) for x in spheres)
 print(f'{out.relative_to(ROOT)}: {len(spheres)} сфер, {n} подсфер, {len(src)} вариантов, историй {sum(1 for k in stories if k in {c["id"] for c in src})}, {out.stat().st_size//1024} КБ')
 
