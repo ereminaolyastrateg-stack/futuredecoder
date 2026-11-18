@@ -90,7 +90,7 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .own{margin-top:16px}
 .nav{display:flex;justify-content:space-between;gap:10px;margin-top:22px;flex-wrap:wrap}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:10px}
-@media (max-width:700px){.cols{grid-template-columns:1fr}}
+@media (max-width:700px){.cols,.wcards{grid-template-columns:1fr}.wbar,.wh{grid-template-columns:110px 1fr 1fr}}
 .col{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
 .col h2{font-size:24px}
 .col .sp{font-weight:700;margin:14px 0 4px;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
@@ -101,6 +101,16 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .tag.keep{background:#e3f3ea;color:#1d6e48}.tag.drop{background:#ffe6dc;color:#b43b0c}.tag.want{background:#e1eeff;color:#0f58b0}
 .drop-t{text-decoration:line-through;text-decoration-color:var(--drop)}
 .worlds{margin-top:18px}
+.verdict{font-size:19px;font-weight:600;line-height:1.4;margin:14px 0 6px}
+.wcards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 26px}
+.wcard{border:1px solid var(--line);border-left:6px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--surface);font-size:14px;line-height:1.45}
+.wcard h3{margin:0 0 2px;font-size:16px}
+.wcard .cnt{font-size:12px;color:var(--muted);margin-bottom:8px}
+.wcard p{margin:6px 0}
+.wcard b{font-weight:600}
+.labbox{border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:26px 0 8px}
+.labbox h2{margin-top:0}
+.labbox ul{margin:8px 0 14px;padding-left:20px}
 .wbar{display:grid;grid-template-columns:150px 1fr 1fr;gap:10px;align-items:center;margin:6px 0;font-size:14px}
 .wbar .b{height:14px;border-radius:7px;background:var(--line);overflow:hidden}
 .wbar .b i{display:block;height:100%}
@@ -142,6 +152,25 @@ const KEY = "fd-opros-v1";
 const T = {
 ru:{
   h1:"Как сейчас и каким хочу",
+  concl:"Главное", details:"Подробно по сферам",
+  wPrep:{"ЦС":"мире автопилота","ЦЗ":"мире правил","ДС":"мире автономии","ДЗ":"мире сообщества"},
+  wGen:{"ЦС":"мира автопилота","ЦЗ":"мира правил","ДС":"мира автономии","ДЗ":"мира сообщества"},
+  vSame:(a)=>`Сейчас больше всего вы живёте в ${a} и туда же хотите. Вопрос не в смене мира, а в том, что в нём усилить.`,
+  vShift:(a,b)=>`Сейчас больше всего вы живёте в ${a}, а хотите жить в ${b}.`,
+  vOnlyFut:(b)=>`Вы отметили только желаемое. Больше всего вас тянет в сторону ${b}.`,
+  vAnd:" и ", vGrow:(c)=>` Сильнее всего растёт тяга в сторону ${c}.`,
+  cnt:(n,f)=>`сейчас ${n} · хочу ${f}`,
+  lGive:"Даёт:", lPay:"Чем платите:", lPull:"Если тянет сюда:", lStep:"Первый шаг:", lLess:"Хотите меньше этого мира:", tLess:"подумайте, что из его плюсов всё же важно сохранить, когда будете уходить.",
+  wTxt:{
+   "ЦС":["Экономию сил и времени: многое работает само, удобно и предсказуемо.","Зависимостью от сервисов и платформ: часть навыков и контроля уходит из рук.","Хочется разгрузить голову и освободить время для главного.","Выберите одну рутину, которую можно отдать сервису, и честно посмотрите, что получите взамен и от чего начнёте зависеть."],
+   "ЦЗ":["Опору и защищённость: понятные роли, общие правила, признание.","Гибкостью и скоростью: приходится подстраиваться под общие нормы и иерархию.","Хочется надёжности: людей и институтов, на которые можно опереться.","Найдите одну опору (наставника, семью, организацию) и договоритесь о регулярной встрече."],
+   "ДС":["Свободу выбора, контроль над своей жизнью и рост.","Вся ответственность на вас, решения утомляют, бывает одиноко.","Хочется больше решать самостоятельно.","Найдите сферу, где сейчас за вас решает кто-то другой, и заберите себе одно решение."],
+   "ДЗ":["Смысл, близость, взаимную поддержку и общее дело.","Временем на договорённости, компромиссами, зависимостью от группы.","Хочется не в одиночку, а вместе с людьми, близкими по ценностям.","Найдите место, где уже делают то, что вам откликается, и придите туда один раз."]},
+  labH:"Хотите разобраться глубже?",
+  labP:"В лаборатории «Архитектура человека» мы:",
+  labL:["проходим все сферы жизни, а не только выбранные;","разбираем, какие переходы между мирами реальны и чего они стоят;","учимся выбирать из выбранного: всё сразу не потянуть;","смотрим больше примеров и свежих сигналов;","придумываем свой вариант будущего вместе с другими участниками."],
+  labBtn:"Узнать про лабораторию",
+  mdConcl:"Главное", mdSteps:"Миры: что дают, чем платим, первый шаг",
   hand:"анонимный опросник по сферам жизни",
   lead:"Выбери сферы, которые хочешь разобрать. В каждой подсфере будет четыре варианта жизни из «Декодера Будущего». Отметь, что у тебя уже есть и что ты хочешь. В конце получишь две картинки: как сейчас и каким хочешь своё будущее.",
   privacy:"<b>Ответы не уходят с твоего устройства.</b> Мы ничего не собираем и не храним. Черновик сохраняется только в этом браузере, его можно стереть одной кнопкой. Итог скачай себе: заметкой для Obsidian или ИИ, файлом для бота или распечаткой.",
@@ -173,6 +202,25 @@ ru:{
 },
 en:{
   h1:"Now and wanted",
+  concl:"The main thing", details:"Details by sphere",
+  wGen:{"ЦС":"the autopilot world","ЦЗ":"the world of rules","ДС":"the world of autonomy","ДЗ":"the world of community"},
+  wPrep:{"ЦС":"the autopilot world","ЦЗ":"the world of rules","ДС":"the world of autonomy","ДЗ":"the world of community"},
+  vSame:(a)=>`Right now you mostly live in ${a}, and that's where you want to be. The question is not changing worlds but what to strengthen in it.`,
+  vShift:(a,b)=>`Right now you mostly live in ${a}, but you want to live in ${b}.`,
+  vOnlyFut:(b)=>`You marked only what you want. You are most drawn to ${b}.`,
+  vAnd:" and ", vGrow:(c)=>` The strongest pull is growing toward ${c}.`,
+  cnt:(n,f)=>`now ${n} · want ${f}`,
+  lGive:"Gives:", lPay:"What you pay:", lPull:"If you're drawn here:", lStep:"First step:", lLess:"You want less of this world:", tLess:"think about which of its benefits still matter to keep as you move away.",
+  wTxt:{
+   "ЦС":["Saves energy and time: much runs by itself, conveniently and predictably.","Dependence on services and platforms: some skills and control slip out of your hands.","You want to clear your head and free time for what matters.","Pick one routine you could hand to a service, and look honestly at what you get in return and what you'll come to depend on."],
+   "ЦЗ":["Support and security: clear roles, shared rules, recognition.","Flexibility and speed: you adapt to shared norms and hierarchy.","You want reliability: people and institutions you can lean on.","Find one anchor (a mentor, family, an organisation) and agree on a regular meeting."],
+   "ДС":["Freedom of choice, control over your life, and growth.","All the responsibility is yours, decisions get tiring, it can be lonely.","You want to decide more for yourself.","Find an area where someone else decides for you now, and take back one decision."],
+   "ДЗ":["Meaning, closeness, mutual support and a shared cause.","Time spent agreeing, compromises, dependence on the group.","You want to act not alone but with people who share your values.","Find a place where people already do what resonates with you, and go there once."]},
+  labH:"Want to go deeper?",
+  labP:"In the «Human Architecture» lab we:",
+  labL:["go through all life spheres, not just the ones you chose;","work out which shifts between worlds are realistic and what they cost;","learn to choose among your choices: you can't do everything at once;","look at more examples and fresh signals;","design your own version of the future together with other participants."],
+  labBtn:"About the lab",
+  mdConcl:"The main thing", mdSteps:"Worlds: what they give, what we pay, first step",
   hand:"an anonymous questionnaire on life spheres",
   lead:"Choose the spheres you want to explore. Each subsphere offers four ways of living from Future Decoder. Mark what you already have and what you want. At the end you get two pictures: your life now and the future you want.",
   privacy:"<b>Your answers never leave your device.</b> We collect and store nothing. A draft is kept only in this browser and can be erased with one button. Download the result: a note for Obsidian or AI, a file for the bot, or a printout.",
@@ -306,6 +354,20 @@ function worldCounts(){
     if(r.a==="keep"||r.a==="drop")now[v.w]++;if(r.a==="keep"||r.a==="want")fut[v.w]++}
   return {now,fut};
 }
+function conclusion(){
+  const {now,fut}=worldCounts(), ks=Object.keys(T.worlds);
+  const top=o=>{const m=Math.max(...ks.map(k=>o[k]));return m?ks.filter(k=>o[k]===m):[]};
+  const nm2=a=>a.map(k=>T.wPrep[k]).join(T.vAnd), gn2=a=>a.map(k=>T.wGen[k]).join(T.vAnd);
+  const tn=top(now), tf=top(fut);
+  let v="";
+  if(!tn.length&&tf.length)v=T.vOnlyFut(gn2(tf));
+  else if(tn.length&&tf.length&&tn.join()===tf.join())v=T.vSame(nm2(tn));
+  else if(tn.length&&tf.length)v=T.vShift(nm2(tn),nm2(tf));
+  const gains=ks.map(k=>fut[k]-now[k]), g=Math.max(...gains);
+  if(v&&g>0&&tn.length){const gk=ks.filter((k,i)=>gains[i]===g&&!tf.includes(k));if(gk.length)v+=T.vGrow(gn2(gk))}
+  const shown=ks.filter(k=>now[k]||fut[k]).sort((a,b)=>(fut[b]-now[b])-(fut[a]-now[a])||fut[b]-fut[a]);
+  return {now,fut,v,shown};
+}
 function colHTML(data,filter,cls){
   let h="";
   for(const {sp,subs} of data){
@@ -326,22 +388,26 @@ function rResult(){
   const el=document.getElementById("s-result"), data=collect();
   if(!data.length){el.innerHTML=`<h1>${T.h1}</h1><div class="holo"></div><p>${T.emptyAll}</p><button class="btn" onclick="location.hash='start'">${T.go}</button>`;return}
   const {now,fut}=worldCounts(), mx=Math.max(1,...Object.values(now),...Object.values(fut));
+  const C=conclusion();
   el.innerHTML=`<h1>${T.h1}</h1><div class="hand">${new Date().toLocaleDateString(LANG)}</div><div class="holo"></div>
+  <h2>${T.concl}</h2>
+  <div class="worlds">
+    <div class="wh"><span>${T.wHead[0]}</span><span>${T.wHead[1]}</span><span>${T.wHead[2]}</span></div>
+    ${Object.keys(T.worlds).map(k=>`<div class="wbar"><span>${T.worlds[k]}</span><span class="b"><i style="width:${now[k]/mx*100}%;background:${WC[k]}"></i></span><span class="b"><i style="width:${fut[k]/mx*100}%;background:${WC[k]}"></i></span></div>`).join("")}
+  </div>
+  ${C.v?`<p class="verdict">${esc(C.v)}</p>`:""}
+  <div class="wcards">${C.shown.map(k=>{const t=T.wTxt[k];return `<div class="wcard" style="border-left-color:${WC[k]}"><h3>${T.worlds[k]}</h3><div class="cnt">${T.cnt(now[k],fut[k])}</div>
+    <p><b>${T.lGive}</b> ${t[0]}</p><p><b>${T.lPay}</b> ${t[1]}</p>${fut[k]>now[k]?`<p><b>${T.lPull}</b> ${t[2]}</p><p><b>${T.lStep}</b> ${t[3]}</p>`:fut[k]<now[k]?`<p><b>${T.lLess}</b> ${T.tLess}</p>`:""}</div>`}).join("")}</div>
+  <h2>${T.details}</h2>
   <div class="cols">
     <div class="col"><h2>${T.now}</h2><div class="muted" style="font-size:14px">${T.nowHint}</div>${colHTML(data,["keep","drop"],"now")}</div>
     <div class="col"><h2>${T.future}</h2><div class="muted" style="font-size:14px">${T.futHint}</div>${colHTML(data,["want","keep"],"fut")}</div>
   </div>
   <details class="col" style="margin-top:16px"><summary style="cursor:pointer;font-weight:600">${T.rejected}</summary>${colHTML(data,["no"],"no")}</details>
-  <div class="worlds noprint"><button class="btn ghost small" id="tw">${showW?T.hideW:T.showW}</button></div>
-  <div class="worlds" ${showW?"":"hidden"}>
-    <div class="wh"><span>${T.wHead[0]}</span><span>${T.wHead[1]}</span><span>${T.wHead[2]}</span></div>
-    ${Object.keys(T.worlds).map(k=>`<div class="wbar"><span>${T.worlds[k]}</span><span class="b"><i style="width:${now[k]/mx*100}%;background:${WC[k]}"></i></span><span class="b"><i style="width:${fut[k]/mx*100}%;background:${WC[k]}"></i></span></div>`).join("")}
-    <p class="muted" style="font-size:14px">${T.wNote}</p>
-  </div>
+  <p class="muted" style="font-size:14px;margin-top:14px">${T.wNote}</p>
+  <div class="labbox"><h2>${T.labH}</h2><p>${T.labP}</p><ul>${T.labL.map(x=>`<li>${x}</li>`).join("")}</ul><a class="btn" href="${LAB}">${T.labBtn}</a></div>
   <div class="note noprint">${T.privacy}</div>
-  <div class="row noprint"><button class="btn" id="md">${T.md}</button><button class="btn ghost" id="js">${T.json}</button><button class="btn ghost" id="pr">${T.print}</button><button class="link" id="wp">${T.wipe}</button></div>
-  <p class="noprint" style="margin-top:22px">${T.next2} <a href="${LAB}">${T.lab}</a></p>`;
-  el.querySelector("#tw").onclick=()=>{showW=!showW;rResult()};
+  <div class="row noprint"><button class="btn" id="md">${T.md}</button><button class="btn ghost" id="js">${T.json}</button><button class="btn ghost" id="pr">${T.print}</button><button class="link" id="wp">${T.wipe}</button></div>`;
   el.querySelector("#md").onclick=e=>dl(toMD(data),"text/markdown","md",e.currentTarget);
   el.querySelector("#js").onclick=e=>dl(JSON.stringify(toJSON(data),null,2),"application/json","json",e.currentTarget);
   el.querySelector("#pr").onclick=e=>pdf(e.currentTarget);
@@ -409,6 +475,9 @@ function toMD(data){
     return any?s:"";};
   let own="";for(const {sp,subs} of data)for(const {sb,own:o} of subs)if(o)own+=`- ${nm(sp)} / ${nm(sb)}: ${o}\n`;
   return `---\ntitle: "${T.mdTitle}"\ndate: ${today()}\ntags: [${LANG==="ru"?"тип/опрос":"type/questionnaire"}]\nsource: https://futuredecoder.org/static/opros/${LANG==="en"?"en/":""}\n---\n\n# ${T.mdTitle}\n\n${T.mdSpheres}: ${data.map(x=>nm(x.sp)).join(", ")}\n`
+   +(()=>{const C=conclusion();let s=`\n## ${T.mdConcl}\n\n${C.v}\n`;
+      if(C.shown.length){s+=`\n### ${T.mdSteps}\n`;for(const k of C.shown){const t=T.wTxt[k];s+=`\n**${T.worlds[k]}** (${T.cnt(C.now[k],C.fut[k])})\n- ${T.lGive} ${t[0]}\n- ${T.lPay} ${t[1]}\n`+(C.fut[k]>C.now[k]?`- ${T.lPull} ${t[2]}\n- ${T.lStep} ${t[3]}\n`:C.fut[k]<C.now[k]?`- ${T.lLess} ${T.tLess}\n`:"")}}
+      return s})()
    +sec(T.now,["keep","drop"])+sec(T.future,["want","keep"])+sec(T.rejected,["no"])
    +(own?`\n## ${T.own.replace(/ \(.*\)$/,"")}\n${own}`:"")
    +`\n## ${T.mdWorlds}\n| ${T.wHead.join(" | ")} |\n|---|---|---|\n${Object.keys(T.worlds).map(k=>`| ${T.worlds[k]} | ${now[k]} | ${fut[k]} |`).join("\n")}\n`;
