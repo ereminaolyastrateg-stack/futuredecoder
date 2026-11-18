@@ -1,0 +1,333 @@
+{
+ "F1-ЦС": {
+  "step_ru": "Возьмите одну подработку, где деньги приходят сразу после работы, и посмотрите, как это меняет ваш месяц.",
+  "step_en": "Take one side gig where you get paid right after the work, and see how it changes your month.",
+  "how_ru": "В России к октябрю 2026 года 17,6 млн самозанятых: оформить свой доход можно в приложении за несколько минут, без открытия бизнеса.",
+  "how_en": "Russia had 17.6 million self-employed by October 2026: you can register your own income in an app in a few minutes, without setting up a business.",
+  "without": [
+   "money",
+   "skills"
+  ],
+  "src": "https://www.advgazeta.ru/ag-expert/news/samozanyatost-v-tsifrakh/",
+  "date": "2026-10",
+  "game": false
+ },
+ "F1-ЦЗ": {
+  "step_ru": "Узнайте вилку зарплат на вашей позиции и придите к руководителю с цифрами, а не с просьбой.",
+  "step_en": "Find out the salary range for your role and go to your manager with numbers rather than a request.",
+  "how_ru": "С 7 июня 2026 года в ЕС работодатели обязаны указывать вилку зарплаты в вакансиях и не могут запрещать сотрудникам обсуждать зарплату.",
+  "how_en": "Since 7 June 2026 employers in the EU must state the salary range in job ads and may not forbid staff from discussing pay.",
+  "without": [
+   "money",
+   "time"
+  ],
+  "src": "https://remoteworkeurope.eu/insights/eu-pay-transparency-remote-work",
+  "date": "2026-06",
+  "game": false
+ },
+ "F1-ДС": {
+  "step_ru": "Начните с суммы, которую не жалко: важна не сумма, а привычка, что часть денег работает без вас.",
+  "step_en": "Start with an amount you won't miss: what matters is not the sum but the habit of part of your money working without you.",
+  "how_ru": "На игре про финансы пришли к тому, что страх денег снимают маленькие игровые шаги, а не большие решения.",
+  "how_en": "At the game on finance people concluded that fear of money is eased by small playful steps, not big decisions.",
+  "without": [
+   "skills",
+   "time"
+  ],
+  "src": "https://futuredecoder.org/polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/why-am-i-always-thinking-about-money",
+  "q_ru": "Почему я всё время думаю о деньгах?",
+  "q_en": "Why am I always thinking about money?"
+ },
+ "F1-ДЗ": {
+  "step_ru": "Напишите один разбор того, в чём вы понимаете лучше других, покажите его десяти людям и посмотрите, кто попросит ещё.",
+  "step_en": "Write one breakdown of something you understand better than most, show it to ten people and see who asks for more.",
+  "how_ru": "Участник игры регулярно переводит деньги авторам, которых читает: «поддерживаю то, что мне нравится». Так и выглядят первые подписчики.",
+  "how_en": "A game participant regularly sends money to the authors they read: “I support what I like.” That is what first subscribers look like.",
+  "without": [
+   "money",
+   "place"
+  ],
+  "src": "https://futuredecoder.org/polotno/zachem-ya-plachu-nalogi-i-chto-poluchayu-vzamen",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/why-do-i-pay-taxes-and-what-do-i-get-in-return",
+  "q_ru": "Зачем я плачу налоги и что получаю взамен?",
+  "q_en": "Why do I pay taxes, and what do I get in return?"
+ },
+ "F2-ЦС": {
+  "step_ru": "Переведите один регулярный платёж на автоплатёж и заметьте, сколько внимания освободилось.",
+  "step_en": "Switch one regular payment to autopay and notice how much attention it frees up.",
+  "how_ru": "Visa и Mastercard открыли платёжные сети для ИИ-агентов, которые покупают и платят от имени человека.",
+  "how_en": "Visa and Mastercard opened their payment networks to AI agents that shop and pay on a person's behalf.",
+  "without": [
+   "money",
+   "time",
+   "skills"
+  ],
+  "src": "https://techcrunch.com/2025/04/30/visa-and-mastercard-unveil-ai-powered-shopping",
+  "date": "2025-04",
+  "game": false
+ },
+ "F2-ЦЗ": {
+  "step_ru": "Включите самозапрет на кредиты на Госуслугах: это бесплатно и занимает пять минут.",
+  "step_en": "Turn on the self-ban on loans on Gosuslugi: it's free and takes five minutes.",
+  "how_ru": "На 1 августа 2026 года самозапрет на кредиты включили 21,7 млн россиян.",
+  "how_en": "By 1 August 2026, 21.7 million Russians had turned on the self-ban on loans.",
+  "without": [
+   "money",
+   "time",
+   "skills"
+  ],
+  "src": "https://finuslugi.ru/navigator/news/novosti_bankovskoj_otrasli/nbki-kolichestvo-samozapretov-na-kredity-vyroslo-na-35-chto-izmenilos-v-iyule",
+  "date": "2026-08",
+  "game": false
+ },
+ "F2-ДС": {
+  "step_ru": "Наведите порядок в одном счёте или одной категории трат, ничего нового не изучая.",
+  "step_en": "Put one account or one spending category in order without learning anything new.",
+  "how_ru": "Ответ с игры про финансы: дисциплина — это порядок в том, что уже есть, а не новые инструменты.",
+  "how_en": "An answer from the game on finance: discipline is order in what you already have, not new tools.",
+  "without": [
+   "money",
+   "skills",
+   "people"
+  ],
+  "src": "https://futuredecoder.org/polotno/pochemu-ya-vse-vremya-dumayu-o-dengakh",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/why-am-i-always-thinking-about-money",
+  "q_ru": "Почему я всё время думаю о деньгах?",
+  "q_en": "Why am I always thinking about money?"
+ },
+ "F2-ДЗ": {
+  "step_ru": "Прежде чем купить вещь на один раз, спросите в чате дома, нет ли её у соседей.",
+  "step_en": "Before buying something you'll use once, ask in your building's chat whether a neighbour has it.",
+  "how_ru": "В библиотеке вещей Share Bristol больше 1285 участников и 2430 вещей, которые можно взять на время.",
+  "how_en": "The Share Bristol library of things has over 1,285 members and 2,430 items you can borrow.",
+  "without": [
+   "money"
+  ],
+  "src": "https://www.bristol247.com/business/better-business/share-bristols-library-of-things-membership-marks-milestone/",
+  "date": "2026-06",
+  "game": false
+ },
+ "F3-ЦС": {
+  "step_ru": "Включите в банке автопополнение копилки с зарплаты или с покупок, чтобы деньги откладывались без отдельного решения.",
+  "step_en": "Turn on automatic top-ups of a savings pot from your salary or purchases, so money is set aside without a separate decision each time.",
+  "how_ru": "ВТБ откладывает в «Копилку» процент от зарплаты, от трат по карте или фиксированную сумму: 1500 ₽ в месяц за год дают 18 000 ₽.",
+  "how_en": "VTB sets aside a share of salary, of card spending or a fixed sum into a savings pot: 1,500 roubles a month becomes 18,000 in a year.",
+  "without": [
+   "time",
+   "skills"
+  ],
+  "src": "https://www.vtb.ru/privilegia/premialnye-produkty/avtopopolnenie/",
+  "date": "2026",
+  "game": false
+ },
+ "F3-ЦЗ": {
+  "step_ru": "Посчитайте, сколько добавит государство к вашим взносам, и начните с минимальной суммы.",
+  "step_en": "Work out how much the state will add to your contributions, and start with the minimum amount.",
+  "how_ru": "Программа долгосрочных сбережений: государство доплачивает до 36 тыс. ₽ в год, претендовать можно уже с 2 тыс. ₽ взносов.",
+  "how_en": "Russia's long-term savings programme: the state adds up to 36,000 roubles a year, and you qualify from 2,000 roubles of contributions.",
+  "without": [
+   "skills",
+   "time"
+  ],
+  "src": "https://www.cbr.ru/rsci/activity_npf/program",
+  "date": "2026-07",
+  "game": false
+ },
+ "F3-ДС": {
+  "step_ru": "Настройте автоперевод небольшой суммы в день зарплаты в инвестиции, которые выбрали вы, и не трогайте их полгода.",
+  "step_en": "Set up an automatic transfer of a small sum on payday into investments you chose, and leave them alone for six months.",
+  "how_ru": "За первое полугодие 2026 года частные инвесторы вложили на Мосбирже почти 1,5 трлн рублей, на 70% больше, чем годом раньше.",
+  "how_en": "In the first half of 2026 retail investors put almost 1.5 trillion roubles into the Moscow Exchange, 70% more than a year earlier.",
+  "without": [
+   "time"
+  ],
+  "src": "https://1prime.ru/20260708/mosbirzha-871375087.html",
+  "date": "2026-07",
+  "game": false
+ },
+ "F3-ДЗ": {
+  "step_ru": "Устройте семейный разговор о деньгах: что у нас есть, что передаём дальше и чему учим детей.",
+  "step_en": "Hold a family conversation about money: what we have, what we pass on and what we teach the children.",
+  "how_ru": "Карточка с игры: в семейных офисах 76% вовлекают в решения о деньгах молодое поколение.",
+  "how_en": "A card from the game: 76% of family offices involve the younger generation in money decisions.",
+  "without": [
+   "money",
+   "skills"
+  ],
+  "src": "https://futuredecoder.org/polotno/kto-na-samom-dele-upravlyaet-moimi-dengami",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/who-really-manages-my-money",
+  "q_ru": "Кто на самом деле управляет моими деньгами?",
+  "q_en": "Who really manages my money?"
+ },
+ "F4-ЦС": {
+  "step_ru": "Выпишите, от каких рисков вас уже страхуют работодатель, банк и карта: защиты часто больше, чем кажется.",
+  "step_en": "List which risks your employer, bank and card already cover you for: there is often more protection than it seems.",
+  "how_ru": "Появилась страховка дохода на случай, если работу заберёт ИИ: выплата срабатывает автоматически по данным.",
+  "how_en": "There is now income insurance in case AI takes your job: the payout triggers automatically from data.",
+  "without": [
+   "money",
+   "skills"
+  ],
+  "src": "https://www.artemis.bm/news/artificial-intelligence-taken-your-job-theres-a-parametric-insurance-policy-for-that",
+  "date": "2025",
+  "game": false
+ },
+ "F4-ЦЗ": {
+  "step_ru": "Проверьте, какие правила уже работают на вашу защиту, и подключите то, что бесплатно или почти бесплатно.",
+  "step_en": "Check which rules already work to protect you, and sign up for what is free or nearly free.",
+  "how_ru": "С 2026 года самозанятые в России могут сами подключить страхование и получать выплаты по больничным.",
+  "how_en": "Since 2026 self-employed people in Russia can sign up for insurance themselves and receive sick pay.",
+  "without": [
+   "skills"
+  ],
+  "src": "https://www.sostav.ru/blogs/282131/91773",
+  "date": "2026-06",
+  "game": false
+ },
+ "F4-ДС": {
+  "step_ru": "Напишите на одной странице, на чём вы продержитесь три месяца, если доход упадёт вдвое.",
+  "step_en": "Write on one page what would keep you going for three months if your income halved.",
+  "how_ru": "Ответ с игры на вопрос «Что будет, если денег вдруг станет совсем мало?»: свой стресс-сценарий с минимумом денег, продуманный заранее.",
+  "how_en": "An answer from the game to “What happens if money suddenly gets really tight?”: your own stress scenario with minimal money, thought through in advance.",
+  "without": [
+   "money",
+   "skills",
+   "people"
+  ],
+  "src": "https://futuredecoder.org/polotno/chto-budet-esli-deneg-vdrug-stanet-sovsem-malo",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/what-happens-if-money-suddenly-gets-really-tight",
+  "q_ru": "Что будет, если денег вдруг станет совсем мало?",
+  "q_en": "What happens if money suddenly gets really tight?"
+ },
+ "F4-ДЗ": {
+  "step_ru": "Вспомните трёх людей, к которым можно обратиться в беде, и сделайте что-то для одного из них на этой неделе.",
+  "step_en": "Think of three people you could turn to in trouble, and do something for one of them this week.",
+  "how_ru": "Ответ с игры на вопрос о стабильности: «Не имея 100 ₽, имея 100 друзей».",
+  "how_en": "An answer from the game to the question about stability: “No hundred roubles, but a hundred friends.”",
+  "without": [
+   "money",
+   "skills"
+  ],
+  "src": "https://futuredecoder.org/polotno/gde-vzyat-stabilnost-esli-dengi-ee-bolshe-ne-garantiruyut",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it",
+  "q_ru": "Где взять стабильность, если деньги её больше не гарантируют?",
+  "q_en": "Where do I find stability if money no longer guarantees it?"
+ },
+ "B1-ЦС": {
+  "step_ru": "Посчитайте, сколько стоит жить по подписке рядом с работой и сколько ипотека с дорогой; сравните не только деньги, но и часы.",
+  "step_en": "Work out what it costs to live on subscription near work versus a mortgage plus the commute; compare not just money but hours.",
+  "how_ru": "Сигнал с игры про финансы: недвижимость по подписке — нет владения, только доступ.",
+  "how_en": "A signal from the game on finance: property on subscription, no ownership, only access.",
+  "without": [
+   "money"
+  ],
+  "src": "https://futuredecoder.org/polotno/kto-na-samom-dele-upravlyaet-moimi-dengami",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/who-really-manages-my-money",
+  "q_ru": "Кто на самом деле управляет моими деньгами?",
+  "q_en": "Who really manages my money?"
+ },
+ "B1-ЦЗ": {
+  "step_ru": "Проверьте, под какие программы вы подходите: семейная, дальневосточная или арктическая ипотека, льгота работодателя, бесплатная земля.",
+  "step_en": "Check which programmes you qualify for: family, Far East or Arctic mortgage, an employer scheme, free land.",
+  "how_ru": "По программе «Гектар» в 2026 году землю под дом бесплатно дают уже в 19 регионах — от Карелии до Дальнего Востока.",
+  "how_en": "Under Russia's “Hectare” programme in 2026, land for a house is given free in 19 regions, from Karelia to the Far East.",
+  "without": [
+   "money"
+  ],
+  "src": "https://t-j.ru/gektar/",
+  "date": "2026",
+  "game": false
+ },
+ "B1-ДС": {
+  "step_ru": "Поживите месяц там, где хотели бы жить, в обмен на помощь хостелу, ферме или проекту — без аренды.",
+  "step_en": "Live for a month where you'd like to live in exchange for helping a hostel, farm or project, with no rent.",
+  "how_ru": "На Worldpackers больше 2 млн путешественников из 172 стран меняют навыки на жильё.",
+  "how_en": "More than 2 million travellers from 172 countries swap skills for accommodation on Worldpackers.",
+  "without": [
+   "money",
+   "place"
+  ],
+  "src": "https://worldpackers.com/hosts/eco_projects",
+  "date": "2026",
+  "game": false
+ },
+ "B1-ДЗ": {
+  "step_ru": "Начните поиск жилья с поиска людей, с которыми готовы жить или строить вместе.",
+  "step_en": "Start your search for a home by looking for people you'd be ready to live or build with.",
+  "how_ru": "Habitat for Humanity: вместо первого взноса семьи отрабатывают 300–500 часов на стройке своего и соседних домов.",
+  "how_en": "Habitat for Humanity: instead of a down payment, families put in 300–500 hours building their own and their neighbours' homes.",
+  "without": [
+   "money"
+  ],
+  "src": "https://joingerald.com/learn/financial-wellness/habitat-home-program-guide",
+  "date": "2026",
+  "game": false
+ },
+ "C1-ЦС": {
+  "step_ru": "Проживите неделю так, будто машины нет: проверьте, что из нужного уже есть в пятнадцати минутах пешком.",
+  "step_en": "Live for a week as if you had no car: check what you need is already within fifteen minutes' walk.",
+  "how_ru": "Ташкент к 2027 году перестроит 100 махаллей по принципу «всё нужное в 15 минутах пешком», к 2030-му — 400.",
+  "how_en": "By 2027 Tashkent will rebuild 100 neighbourhoods on the “everything within 15 minutes' walk” principle, and 400 by 2030.",
+  "without": [
+   "money"
+  ],
+  "src": "https://daryo.uz/en/2026/11/02/tashkent-plans-to-renovate-100-neighborhoods-by-2027/",
+  "date": "2026-11",
+  "game": false
+ },
+ "C1-ЦЗ": {
+  "step_ru": "Сходите на одно местное событие или в библиотеку вещей и познакомьтесь хотя бы с одним соседом.",
+  "step_en": "Go to one local event or library of things and meet at least one neighbour.",
+  "how_ru": "Библиотека вещей в Твикенеме (Лондон): больше 1000 жителей берут инструменты вместо покупки.",
+  "how_en": "The library of things in Twickenham (London): over 1,000 residents borrow tools instead of buying them.",
+  "without": [
+   "money"
+  ],
+  "src": "https://www.richmond.gov.uk/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/library_of_things_blog",
+  "date": "2026-05",
+  "game": false
+ },
+ "C1-ДС": {
+  "step_ru": "Сложите в один чемодан то, без чего не обойтись, и посмотрите, что ещё держит вас на месте.",
+  "step_en": "Pack what you can't do without into one suitcase and see what else keeps you in place.",
+  "how_ru": "Сигнал с игры: мебельный бренд делает переносную мебель для тех, кто снимает на короткий срок, — вся жизнь в чемодане.",
+  "how_en": "A signal from the game: a furniture brand makes portable furniture for short-term renters, a whole life in a suitcase.",
+  "without": [
+   "money",
+   "time"
+  ],
+  "src": "https://futuredecoder.org/polotno/gde-vzyat-stabilnost-esli-dengi-ee-bolshe-ne-garantiruyut",
+  "date": "игра",
+  "game": true,
+  "src_en": "https://futuredecoder.org/en/future-canvas/where-do-i-find-stability-if-money-no-longer-guarantees-it",
+  "q_ru": "Где взять стабильность, если деньги её больше не гарантируют?",
+  "q_en": "Where do I find stability if money no longer guarantees it?"
+ },
+ "C1-ДЗ": {
+  "step_ru": "Узнайте, что даёт вашей профессии переезд в малый город или село: там нужны люди, и за это платят.",
+  "step_en": "Find out what moving to a small town or village offers your profession: people are needed there, and it pays.",
+  "how_ru": "«Земский доктор» и «Земский учитель»: от 1 до 2 млн ₽ за пять лет работы в селе или малом городе.",
+  "how_en": "Russia's “Rural Doctor” and “Rural Teacher” schemes: 1–2 million roubles for five years' work in a village or small town.",
+  "without": [
+   "money"
+  ],
+  "src": "https://www.sravni.ru/text/programma-zemskij-doktor/",
+  "date": "2026",
+  "game": false
+ }
+}

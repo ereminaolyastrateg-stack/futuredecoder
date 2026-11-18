@@ -14,6 +14,7 @@ from build import SPHERES  # noqa: E402
 src = json.loads((ROOT / 'scripts/spheres/source_ru.json').read_text())
 tr = json.loads((ROOT / 'scripts/spheres/tr_en.json').read_text())
 stories = json.loads((ROOT / 'scripts/opros/stories.json').read_text())
+steps = json.loads((ROOT / 'scripts/opros/steps.json').read_text())  # первый шаг: кто уже так начинает, и без какого ресурса
 
 spheres = []
 by_sphere = {}
@@ -50,6 +51,10 @@ for c in src:
     if st:  # мини-история из одной фразы на базе фронтирного сигнала
         subs[key]['v'][-1].update({'s_ru': st['ru'], 's_en': st['en'],
             'g_ru': st['sig_ru'], 'g_en': st['sig_en'], 'g_src': st['src'], 'g_src_en': st.get('src_en', st['src']), 'g_date': st['date']})
+    sp = steps.get(c['id'])
+    if sp:
+        subs[key]['v'][-1].update({'st_ru': sp['step_ru'], 'st_en': sp['step_en'], 'hw_ru': sp['how_ru'], 'hw_en': sp['how_en'],
+            'st_wo': sp['without'], 'st_src': sp['src'], 'st_src_en': sp.get('src_en', sp['src']), 'st_date': sp['date'], 'st_game': sp['game']})
 
 out = ROOT / 'quartz/static/opros/data.json'
 out.write_text(json.dumps({'spheres': spheres}, ensure_ascii=False, separators=(',', ':')))
