@@ -378,11 +378,22 @@ async function pdf(btn){
   const o=btn.textContent;btn.textContent=T.busy;btn.disabled=true;
   try{
     await loadPdfLib();
-    const src=document.getElementById("s-result");
-    const blob=await html2pdf().set({margin:[12,12,14,12],image:{type:"jpeg",quality:0.95},
-      html2canvas:{scale:2,backgroundColor:"#ffffff",ignoreElements:n=>n.classList&&n.classList.contains("noprint")},
-      jsPDF:{unit:"mm",format:"a4",orientation:"portrait"},pagebreak:{mode:["css","legacy"],avoid:[".sp","li",".wbar"]}
-    }).from(src).outputPdf("blob");
+    const y=window.scrollY; window.scrollTo(0,0);
+    // Снимаем копию итога фиксированной ширины: без кнопок, со всеми раскрытыми блоками.
+    const src=document.getElementById("s-result").cloneNode(true);
+    src.removeAttribute("id");src.hidden=false;
+    src.querySelectorAll(".noprint").forEach(n=>n.remove());
+    src.querySelectorAll("details").forEach(d=>{d.open=true});
+    src.querySelectorAll("summary").forEach(s=>{s.style.listStyle="none";s.style.display="block"});
+    src.querySelectorAll("[hidden]").forEach(n=>{if(!n.classList.contains("worlds"))n.hidden=false});
+    src.style.cssText="width:auto;max-width:none;padding:0;background:#fff;margin:0";
+    let blob;
+    try{
+      blob=await html2pdf().set({margin:[12,12,14,12],image:{type:"jpeg",quality:0.95},
+        html2canvas:{scale:2,backgroundColor:"#ffffff",scrollX:0,scrollY:0},
+        jsPDF:{unit:"mm",format:"a4",orientation:"portrait"},pagebreak:{mode:["css","legacy"],avoid:[".sp","li",".wbar","h2"]}
+      }).from(src).outputPdf("blob");
+    }finally{window.scrollTo(0,y)}
     btn.textContent=o;btn.disabled=false;
     await dl(blob,"application/pdf","pdf",btn);
   }catch(e){btn.textContent=o;btn.disabled=false;try{window.print()}catch(_){flash(btn,T.dlFail)}}
