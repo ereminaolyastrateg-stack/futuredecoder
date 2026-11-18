@@ -1140,7 +1140,7 @@ function short(t,n){n=n||80;t=String(t).trim();let s=t;const c=t.indexOf(":");
 function cut(t,n){t=String(t||"").trim();return t.length>n?t.slice(0,n-1).replace(/\s+\S*$/,"")+"…":t}
 function valCounts(){const c={};for(const id of S.lab.picks){for(const v of (S.lab.vals[id]||[]))c[v]=(c[v]||0)+1;const o=(S.lab.vown[id]||"").trim().toLowerCase();if(o)c["~"+o]=(c["~"+o]||0)+1}return c}
 function vLabel(k){return k?(k.startsWith("~")?k.slice(1):T.vals[k]):""}
-function hasVal(id,k){return k.startsWith("~")?(S.lab.vown[id]||"").trim().toLowerCase()===k.slice(1):(S.lab.vals[id]||[]).includes(k)}
+function hasVal(id,k){if(!k)return false;return k.startsWith("~")?(S.lab.vown[id]||"").trim().toLowerCase()===k.slice(1):(S.lab.vals[id]||[]).includes(k)}
 function joinList(a){return a.length<2?a.join(""):a.slice(0,-1).join(", ")+(LANG==="ru"?" и ":" and ")+a[a.length-1]}
 function wvals(id){return [...(S.lab.vals[id]||[]).map(k=>T.vals[k]),...((S.lab.vown[id]||"").trim()?[S.lab.vown[id].trim()]:[])]}
 // ---------- Тучи (Голдратт) ----------
@@ -1553,16 +1553,21 @@ function picSVG(){
 }
 function finalMap(){return picSVG()}
 function rLab(){
-  const el=document.getElementById("s-lab"),Lb=S.lab,W=wants(),X=T.lb2;
+  const el=document.getElementById("s-lab"),W=wants(),X=T.lb2;
+  if(!S.lab.v3){const o=S.lab,n=LAB0();for(const k of ["picks","vals","vown","srcs","srcT","forg","aOwn","bOwn","aud","kwA","notMine"])if(o[k]!==undefined)n[k]=o[k];n.v3=true;S.lab=n;save()}
+  const Lb=S.lab;
   Lb.picks=Lb.picks.filter(id=>W.some(x=>x.v.id===id));
   Lb.levs=(Lb.levs||[]).filter(k=>valCounts()[k]);Lb.lev=Lb.levs[0]||null;
   Lb.field=Lb.field||{};
   if(Lb.first&&!(wayObj(Lb.first.key)||{}).title)Lb.first=null;
   Lb.qs=Lb.qs&&Lb.qs.length?Lb.qs:[{v:"",w:"",lim:"",on:false}];
   const STEPS=Lb.deep?[...X.steps,...X.steps2]:X.steps,NS=STEPS.length;if(Lb.step>=NS)Lb.step=NS-1;
-  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${STEPS.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div>`;
-  if(!W.length){el.innerHTML=head+`<p>${T.lb.empty}</p><a class="btn" href="#start">${T.go}</a>`;return}
   if(Lb.step>0&&!Lb.picks.length&&!(Lb.notMine||[]).length)Lb.step=0;
+  if(Lb.step>=5&&!Lb.levs.length)Lb.step=4;
+  if(Lb.step>=7&&!qsOn().length)Lb.step=5;
+  if(Lb.step>=8&&!Lb.first)Lb.step=fieldItems().length?7:6;
+  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${STEPS.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div><p class="noprint" style="margin:-6px 0 10px;font-size:13px"><button class="btn ghost" id="labreset" style="font-size:12.5px;padding:4px 10px">${LANG==="ru"?"Начать лабораторию заново":"Restart the lab"}</button></p>`;
+  if(!W.length){el.innerHTML=head+`<p>${T.lb.empty}</p><a class="btn" href="#start">${T.go}</a>`;return}
   const st=Lb.step,ex=`<p class="expl">${esc(st<12?X.ex[st]:X.ex2[st-12])}</p>`;
   const nav=(canNext,last)=>`<div class="row noprint" style="margin-top:18px">${st?`<button class="btn ghost" id="lb">${T.lb.back}</button>`:""}${last?`<a class="btn" href="#result">${T.lb.toRes}</a>`:`<button class="btn" id="ln" ${canNext?"":"disabled"}>${T.lb.next}</button>`}</div>`;
   const SP=D.spheres,tplBtns=(k,arr)=>`<p class="muted" style="margin:12px 0 6px;font-size:14px">${X.addOwn}</p><div class="tags noprint">${arr.map((t,j)=>`<button class="tg" data-addt="${k}" data-j="${j}">+ ${esc(t)}</button>`).join("")}</div>`;
@@ -1702,6 +1707,7 @@ function rLab(){
   const nc=el.querySelector("#nextcyc");if(nc)nc.onclick=()=>{const act=((Lb.rev||{}).act||"").trim();Lb.cycles.push({step:stepNow(),changed:act,layer:(Lb.rev||{}).layer||"",date:today()});
     if(act){Lb.dayA=act;Lb.kwA=""}
     Lb.first=null;Lb.extra=[];Lb.emb={};Lb.fb={};Lb.sys={};Lb.loop={};Lb.csq={};Lb.csqTo={};Lb.jk=-1;Lb.jkA="";Lb.jkSpare="";Lb.rev={};go(7)};
+  const lr=el.querySelector("#labreset");if(lr)lr.onclick=()=>{const keep=Lb.picks;S.lab=LAB0();S.lab.picks=keep;S.lab.v3=true;save();rLab();window.scrollTo(0,0)};
   const ln=el.querySelector("#ln");if(ln)ln.onclick=()=>go(Math.min(NS-1,st+1));
   const lb=el.querySelector("#lb");if(lb)lb.onclick=()=>go(Math.max(0,st-1));
 }
