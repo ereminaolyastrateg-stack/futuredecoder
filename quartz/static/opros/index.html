@@ -137,6 +137,7 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .wo{font-size:12px;padding:2px 9px;border-radius:999px;background:#f1f3f5;color:#495057}
 .wo.hit{background:#d8f1df;color:#1b6e2e;font-weight:600}
 .promise{border:2px dashed #7048e8;border-radius:16px;padding:18px 20px;margin:18px 0 8px;background:#fff}.promise p{margin:8px 0}
+.field{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}@media(max-width:860px){.field{grid-template-columns:1fr}}.field .way p.t{font-size:14px}
 .abcols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.abcols{grid-template-columns:1fr}}.abcols input{width:100%}.dayopt{margin-top:18px}.dayopt summary{cursor:pointer}
 .days{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:700px){.days{grid-template-columns:1fr}}.days textarea{width:100%}
 .audr{display:flex;flex-wrap:wrap;gap:8px 14px;margin:6px 0}.aud input{margin-top:6px}
@@ -239,21 +240,36 @@ ru:{
    dNow:"Сейчас в моей жизни есть: ", dHonest:"Честно: ", dStep:"Я уже делаю: ", dHave:"В моём дне есть: ", dTail:"Утром я …, днём …, вечером …, рядом со мной …",
    audNone:"В опросе вы не отмечали, что у вас уже есть, — можно сразу к дням.", ladFirst:"Ваш рычаг:", sfPick:"— выберите сферу —", nmH:"Оказалось не моё",
    mdQ:"Вопросы-тучи", mdDay:"День А и день Б", mdCheck:"Шаг под лупой", mdThing:"Вещь из будущего", mdDeep:"Шаг в системе", timerLeft:"осталось",
-   steps:["Выбрать","Откуда и зачем","Узкое горлышко","Вопросы-тучи","Поиск рычага","Точки А и Б","Шаг под лупой","История и вещь","Карта"],
-   steps2:["Встроить","Петли","Джокер","Пересмотр"],
+   steps:["Хочу","Как сейчас","Два дня","Ценности","С чего начать","Тучи","Разбор туч","Поле рычагов","История и вещь","Встроить","Обратная связь","Картина"],
+   steps2:["Петли","Джокер","Пересмотр"],
    ex:["Начинаем снаружи: в опросе вы отмечали, что нравится в мирах будущего. Оставьте главное — то, с чем хотите работать.",
-       "Желание — это способ, за ним стоит ценность. А ещё у каждого желания есть источник: что-то мы видели сами, что-то услышали в рекламе, что-то помним из семьи. Часть «хочу» окажется не вашей — это уже открытие.",
-       "Узкое горлышко — ценность, через которую проходит больше всего ваших желаний. Пока её не хватает, буксуют сразу несколько «хочу». Посмотрите, что это такое на самом деле, как её получают другие и где она у вас уже есть.",
-       "Желание закрывает поиск, вопрос открывает. Запишите до пяти вопросов: как получить ценность через желаемый способ и что при этом не хочется отдавать. Каждый такой вопрос — уже грозовая туча: цель, способ и то, что ему мешает.",
-       "Рычаг — это способ получить ценность из узкого горлышка через то, что вы хотите, и не платить тем, чего у вас нет. Чтобы его найти, разберите тучу: она держится на скрытом «потому что…». Если это неправда, туча рассеивается. Потом посмотрите, как люди уже решают то же самое в четырёх логиках — сначала те, что обходятся без недостающего ресурса, — и выберите свой рычаг.",
-       "Теперь соберём, как у вас сейчас и как хочется. Многое уже есть: то, что вы отметили в опросе, и то, что написали про узкое горлышко. Проверьте и допишите своё. Для каждой вещи из точки А — для чего она вам, помогает или мешает и насколько трудно её поменять.",
-       "Три проверки шага: могу ли я, есть ли возможность, хочу ли (модель COM-B). Потом лесенка — быстрый, средний и трудный шаг, как в годовом кейсе «Каталога других миров». И кто будет рядом.",
+       "Теперь честно: как у вас сейчас. Многое уже есть из опроса — проверьте и допишите своё. Для каждой вещи: для чего она вам, помогает или мешает и насколько трудно её поменять.",
+       "Из «как сейчас» и «хочу» собираются два обычных дня. Поставьте их рядом. Глядя на них, оставьте только то, чего правда хотите: часть «хочу» на фоне настоящего дня окажется чужой.",
+       "Желание — это способ, за ним стоит ценность. Отметьте, ради чего каждое «хочу», и откуда оно у вас: видели сами, услышали, помните из семьи.",
+       "Ценности собираются в кластеры: на одни работает много ваших «хочу», на другие — одно. Выберите одну или две, с которых начнёте, и посмотрите, как их получают другие и где они у вас уже есть.",
+       "Желание закрывает поиск, вопрос открывает. Запишите вопросы: как получить ценность через желаемый способ и чем при этом не хочется платить. Каждый такой вопрос — грозовая туча: цель, способ и то, что ему мешает. Разберём до трёх.",
+       "Туча держится на скрытом «потому что…». Если это неправда — туча рассеивается, и это уже рычаг: смена картины. Кроме того, у каждой тучи есть решения — наши сигналы, примеры с игр, ваше своё и минимальный шаг. Всё, что откликается, отправляйте в поле рычагов.",
+       "Здесь собрано всё, что вы нашли по всем тучам, по трём уровням. Действие — сделать что-то одно. Правило или привычка — что вы теперь делаете всегда. Смена картины — что вы перестали считать правдой; это самый сильный уровень. Выберите рычаг, с которым пойдёте дальше.",
        "Сначала чужая история — доказательство, что так бывает. Потом своя вещь из точки Б: закройте глаза, проживите там минуту и принесите оттуда один предмет. Это не план, а образ и пожелание.",
-       "Карта на одном экране и обещание на неделю. Карта — черновик: её можно и нужно переписывать."],
-   ex2:["Шаг не живёт в пустоте: он во что-то встраивается, что-то вытесняет и обо что-то спотыкается. Отметьте, куда он встаёт первым, что задевает и какой обратной связи вы ждёте.",
-        "По Донелле Медоуз в системе есть петли: усиливающие (R) и уравновешивающие (B), а ещё задержки. Допишите, что будет потом, и посмотрите на свой цикл целиком.",
+       "Рычаг не живёт в пустоте: он встаёт в какую-то сферу, что-то усиливает, а что-то задевает. Честно отметьте и плюсы, и минусы — иначе картина получится только из хорошего. И решите, с чего начнёте завтра.",
+       "Рычаг — это эксперимент. Что вы должны увидеть, если он работает? Каким станет ваше «сейчас» после шага? Когда проверите? Можно добавить ещё один рычаг и пройти этот путь снова.",
+       "Вся картина на одном экране: где вы сейчас, какие тучи разобрали, какие рычаги нашли, какой шаг делаете, какой станет точка А и какой обратной связи ждёте на пути к Б. И обещание на неделю."],
+   ex2:["По Донелле Медоуз в системе есть петли: усиливающие (R) и уравновешивающие (B), а ещё задержки. Допишите, что будет потом, и посмотрите на свой цикл целиком.",
         "Джокер — неожиданное событие. Хорошая карта не та, где всё предсказано, а та, что выдерживает удар.",
         "Вернитесь сюда к дате из обещания. Сравните, что ждали и что получилось, — это и есть обратная связь. Потом новый круг."],
+   keepQ:"Что из этого вы правда хотите?", keepIt:"оставляю",
+   startH:"Выберите одну или две ценности, с которых начнёте", qVal:"ценность",
+   addF:"+ в поле рычагов", inF:"✓ в поле рычагов", picCand:"Если это неправда — что тогда? Это и есть смена картины:",
+   exH:"Как это закрывали на играх", exShuf:"другие примеры", minStep:"Минимальный шаг", minStepPh:"Самое маленькое, что можно сделать уже завтра",
+   lvl:{act:"Действие",rule:"Правило или привычка",pic:"Смена картины"}, lvlP:{act:"сделать что-то одно",rule:"что я теперь делаю всегда",pic:"что я перестал(-а) считать правдой"},
+   fieldNone:"Поле пустое: вернитесь к разбору туч и отправьте сюда то, что откликается.", chooseL:"Это мой рычаг", chosenL:"Мой рычаг", lvlMove:"уровень", fromQ:"туча",
+   embSf:"В какую сферу рычаг встаёт первым", plusQ:"Что станет лучше", plusPh:"Станет лучше …, потому что …", minusQ:"Что станет хуже или чем придётся заплатить", minusPh:"Хуже станет …; придётся отказаться от …",
+   hinderQ:"Что помешает", hinderPh:"Когда я начну …, мешать будет …", tomQ:"С чего начну завтра", tomPh:"Завтра я …",
+   fbSee:"Что я должен(-на) увидеть, если рычаг работает", fbSeePh:"Через … я увижу …; от людей услышу …; в цифрах изменится …",
+   fbExpA:"Какой станет точка А после шага", fbExpAPh:"У меня будет …; станет лучше …; останется …", fbDate:"Когда проверю",
+   addLev:"+ Ещё один рычаг", addLevP:"Этот рычаг сохранится на картине, а вы вернётесь в поле рычагов за следующим.", levDone:"Рычаги в работе",
+   picH:"Ваша картина", cA:"ТОЧКА А · СЕЙЧАС", cC:"ТУЧИ", cL:"РЫЧАГИ", cS:"ШАГ", cN:"НОВАЯ А", cF:"ОБРАТНАЯ СВЯЗЬ", cB:"ТОЧКА Б · ХОЧУ",
+   deepBtn3:"Дальше: петли, джокер и пересмотр", deepP3:"Необязательно. Три шага: какие у рычага следствия по цепочке, выдержит ли картина неожиданность — и пересмотр через неделю с новым кругом.",
    srcQ:"Откуда это у меня?", src:{saw:"видел сам",heard:"слышал, реклама",mem:"помню из семьи",forg:"так делали раньше"},
    srcPh:"Я хочу …, потому что видел / слышал / помню …", notMine:"это не моё — убрать",
    forgPh:"Как это делали раньше? (это станет одним из решений)",
@@ -532,21 +548,36 @@ en:{
    dNow:"What my life has now: ", dHonest:"Honestly: ", dStep:"I'm already doing: ", dHave:"My day has: ", dTail:"In the morning I …, in the afternoon …, in the evening …, around me …",
    audNone:"In the questionnaire you didn't mark anything you already have — you can go straight to the days.", ladFirst:"Your lever:", sfPick:"— choose a sphere —", nmH:"Turned out not mine",
    mdQ:"Questions", mdDay:"Day A and day B", mdCheck:"Step check", mdThing:"Object from the future", mdDeep:"The step in the system", timerLeft:"left",
-   steps:["Choose","Where from & why","Bottleneck","Questions","Find the lever","Points A & B","Step check","Story & object","Map"],
-   steps2:["Fit in","Loops","Joker","Review"],
+   steps:["Wants","Now","Two days","Values","Where to start","Clouds","Untangle","Lever field","Story & object","Fit in","Feedback","Picture"],
+   steps2:["Loops","Joker","Review"],
    ex:["We start outside: in the questionnaire you marked what you like in the worlds of the future. Keep the main things you want to work with.",
-       "A want is a means; a value stands behind it. Every want also has a source: something we saw ourselves, heard in an ad, or remember from family. Some wants will turn out not to be yours — that's already a discovery.",
-       "The bottleneck is the value most of your wants pass through. While it is missing, several wants stall at once. See what it really is, how others get it and where you already have it.",
-       "A want closes the search; a question opens it. Write up to five questions: how to get the value through the way you want, and what you don't want to give up. Each question is already a storm cloud: the goal, the way, and what stands in its way.",
-       "A lever is a way to get the bottleneck value through what you want, without paying with what you don’t have. To find it, untangle the cloud: it rests on a hidden “because…”. If that isn’t true, the cloud evaporates. Then see how people already solve the same thing in four logics — first those that work without the missing resource — and choose your lever.",
-       "Now let's gather how things are and how you want them. Much is already here: what you marked in the questionnaire and what you wrote about the bottleneck. Check it and add your own. For each thing at point A — what it's for, whether it helps or hurts, and how hard it is to change.",
-       "Three checks on the step: can I, do I have the opportunity, do I want to (the COM-B model). Then a ladder — a quick, a medium and a hard step, as in the year-long “Catalogue of Other Worlds” case. And who will be with you.",
+       "Now honestly: how things are. Much is already here from the questionnaire — check it and add your own. For each thing: what it's for, whether it helps or hurts, and how hard it is to change.",
+       "Two ordinary days are drafted from “now” and “want”. Put them side by side. Looking at them, keep only what you truly want: next to a real day, some wants turn out not to be yours.",
+       "A want is a means; a value stands behind it. Mark what each want is for, and where it comes from: seen yourself, heard, remembered from family.",
+       "Values form clusters: many wants serve some, one serves others. Choose one or two to start with, and see how others get them and where you already have them.",
+       "A want closes the search; a question opens it. Write questions: how to get the value through the way you want, and what you don't want to pay with. Each is a storm cloud: the goal, the way and what stands in its way. We'll untangle up to three.",
+       "A cloud rests on a hidden “because…”. If that isn't true, the cloud evaporates — and that is already a lever: a change of picture. Each cloud also has solutions — our signals, examples from the games, your own and a minimal step. Send whatever resonates to the lever field.",
+       "Everything you found across all clouds is here, on three levels. Action — do one thing. Rule or habit — what you now always do. Change of picture — what you stopped believing; the strongest level. Choose the lever you'll take further.",
        "First someone else's story — proof that this happens. Then your own object from point B: close your eyes, live there for a minute and bring back one thing. It's not a plan but an image and a wish.",
-       "The map on one screen and a promise for the week. The map is a draft: it can and should be rewritten."],
-   ex2:["A step doesn't live in a vacuum: it fits somewhere, pushes something out and trips over something. Mark where it lands first, what it touches and what feedback you expect.",
-        "In Donella Meadows' terms a system has loops — reinforcing (R) and balancing (B) — and delays. Write what happens next and look at your cycle as a whole.",
+       "A lever doesn't live in a vacuum: it lands in some sphere, strengthens something and touches something else. Mark both the pluses and the minuses honestly — otherwise the picture is made only of good things. And decide what you'll start with tomorrow.",
+       "A lever is an experiment. What should you see if it works? What will your “now” look like after the step? When will you check? You can add another lever and go through this again.",
+       "The whole picture on one screen: where you are, which clouds you untangled, which levers you found, the step you're taking, what point A becomes and what feedback you expect on the way to B. And a promise for the week."],
+   ex2:["In Donella Meadows' terms a system has loops — reinforcing (R) and balancing (B) — and delays. Write what happens next and look at your cycle as a whole.",
         "A joker is an unexpected event. A good map isn't one where everything is predicted but one that survives the blow.",
         "Come back here on the date from your promise. Compare what you expected with what happened — that is the feedback. Then a new circle."],
+   keepQ:"Which of these do you truly want?", keepIt:"keep",
+   startH:"Choose one or two values to start with", qVal:"value",
+   addF:"+ to the lever field", inF:"✓ in the lever field", picCand:"If it isn't true — then what? That is the change of picture:",
+   exH:"How it was solved at the games", exShuf:"other examples", minStep:"Minimal step", minStepPh:"The smallest thing you could do tomorrow",
+   lvl:{act:"Action",rule:"Rule or habit",pic:"Change of picture"}, lvlP:{act:"do one thing",rule:"what I now always do",pic:"what I stopped believing"},
+   fieldNone:"The field is empty: go back to untangling and send here whatever resonates.", chooseL:"This is my lever", chosenL:"My lever", lvlMove:"level", fromQ:"cloud",
+   embSf:"Which sphere the lever lands in first", plusQ:"What gets better", plusPh:"… gets better, because …", minusQ:"What gets worse, or what you'll pay with", minusPh:"… gets worse; I'll have to give up …",
+   hinderQ:"What will get in the way", hinderPh:"When I start …, what will get in the way is …", tomQ:"What I'll start with tomorrow", tomPh:"Tomorrow I …",
+   fbSee:"What I should see if the lever works", fbSeePh:"In … I'll see …; from people I'll hear …; in numbers … will change",
+   fbExpA:"What point A will look like after the step", fbExpAPh:"I'll have …; better: …; still left: …", fbDate:"When I'll check",
+   addLev:"+ Another lever", addLevP:"This lever stays on the picture, and you go back to the lever field for the next one.", levDone:"Levers in progress",
+   picH:"Your picture", cA:"POINT A · NOW", cC:"CLOUDS", cL:"LEVERS", cS:"STEP", cN:"NEW A", cF:"FEEDBACK", cB:"POINT B · WANT",
+   deepBtn3:"Go further: loops, joker and review", deepP3:"Optional. Three steps: what follows from the lever down the chain, whether the picture survives the unexpected — and a review in a week with a new circle.",
    srcQ:"Where does this come from?", src:{saw:"saw it myself",heard:"heard it, ads",mem:"remember from family",forg:"how it was done before"},
    srcPh:"I want …, because I saw / heard / remember …", notMine:"not mine — remove",
    forgPh:"How was this done before? (it will become one of the solutions)",
@@ -821,7 +852,7 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}],vseed:0,sseed:0,aseed:0,art:"",deep:false,sys:{},sysA:{},csq:{},jk:-1,jkA:"",jkSpare:"",csqTo:{},cycles:[],changed:"",srcs:{},srcT:{},forg:{},notMine:[],lvA:{},qs:[{w:"",lim:"",on:false}],qc:{},aud:{},dayA:"",dayB:"",com:{},comT:{},lad:{},who:{},succ:"",thing:{},prDate:"",sf:"",sfT:"",sq:{},loop:{},rev:{},aOwn:[],bOwn:[]});
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}],vseed:0,sseed:0,aseed:0,art:"",deep:false,sys:{},sysA:{},csq:{},jk:-1,jkA:"",jkSpare:"",csqTo:{},cycles:[],changed:"",srcs:{},srcT:{},forg:{},notMine:[],lvA:{},qs:[{w:"",lim:"",on:false}],qc:{},aud:{},dayA:"",dayB:"",com:{},comT:{},lad:{},who:{},succ:"",thing:{},prDate:"",sf:"",sfT:"",sq:{},loop:{},rev:{},aOwn:[],bOwn:[],levs:[],field:{},extra:[],emb:{},fb:{}});
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
@@ -1239,7 +1270,7 @@ function cycleSVG(){
   e+=ar(cA+bw,mid,cS,mid,"#7048e8");
   const y1={};first.forEach((o,i)=>{const y=ys(first.length,i);y1[o.id]=y;n+=box(c1,y,bw,46,i===0?T.lb.l1:"",`${o.m==="+"?"+":"−"} ${sn(o.id)}`,col(o.m));e+=ar(cS+bw,mid,c1,y,col(o.m),o.m==="-",o.m==="+"?"+":"−")});
   const y2={};sec.forEach((o,i)=>{const y=ys(sec.length,i);y2[o.from+o.to]=y;n+=box(c2,y,bw,46,i===0?T.lb.l2:"",`${o.m==="+"?"+":"−"} ${sn(o.to)}`,col(o.m));e+=ar(c1+bw,y1[o.from],c2,y,col(o.m),o.m==="-",o.m==="+"?"+":"−")});
-  n+=box(cA2,mid,bw,84,T.lb.lA2,((Lb.rev||{}).act||(Lb.sq||{}).expA||Lb.changed||"").trim()||"?","#111","#fbfaff",true);
+  n+=box(cA2,mid,bw,84,T.lb.lA2,((Lb.rev||{}).act||(Lb.fb||{}).expA||(Lb.sq||{}).expA||Lb.changed||"").trim()||"?","#111","#fbfaff",true);
   first.forEach(o=>{if(!sec.some(x=>x.from===o.id))e+=ar(c1+bw,y1[o.id],cA2,mid,"#ced4da",true)});
   sec.forEach(o=>{e+=ar(c2+bw,y2[o.from+o.to],cA2,mid,"#ced4da",true)});
   // возврат: пересмотр → следующий шаг
@@ -1439,8 +1470,7 @@ function finalMap(){
   n+=`<rect x="288" y="${sy-fh/2}" width="294" height="${fh}" rx="12" fill="#7048e8"/>`+fo(298,sy-fh/2+4,276,fh-8,`<div style="display:flex;flex-direction:column;justify-content:center;height:${fh-8}px;color:#fff"><span style="font-size:10.5px;font-weight:700;letter-spacing:.06em;opacity:.8">${T.lb.mFirst.toUpperCase()}</span><span style="font-weight:600;font-size:13px">${esc(cut(f?f.title:T.lb.sNone,110))}</span></div>`);
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:10px auto" role="img"><defs><marker id="fm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#7048e8"/></marker></defs>${e}${n}</svg>`;
 }
-// ---------- Новая структура: Мир → Ситуация → Вещь → Возврат ----------
-const LIMK=["money","time","energy",null,"time",null,"place"];
+// ---------- Структура v3: хочу → сейчас → два дня → ценности → тучи → поле рычагов → встроить → обратная связь → картина ----------
 function limKeys(t){t=(t||"").toLowerCase();const o=[];
   for(const [k,r] of [["money",/ден[ье]г|денеж|дорог|кредит|money|spend|cost|loan/],["time",/врем|выходн|час|time|weekend|hour/],["energy",/сил|выгор|устал|energy|burn|tired/],["place",/переезж|жиль|квартир|moving|home|flat/],["skills",/навык|учить|skill|learn/],["people",/одиночк|alone/]])if(r.test(t))o.push(k);
   return o}
@@ -1448,114 +1478,188 @@ function getP(o,path){for(const k of path.split("."))o=o==null?undefined:o[k];re
 function setP(o,path,v){const ks=path.split(".");for(let i=0;i<ks.length-1;i++){if(o[ks[i]]==null||typeof o[ks[i]]!=="object")o[ks[i]]={};o=o[ks[i]]}o[ks[ks.length-1]]=v}
 function qsOn(){return (S.lab.qs||[]).map((q,i)=>Object.assign({},q,{i})).filter(q=>q.on&&q.w&&card(q.w)&&S.lab.picks.includes(q.w))}
 function wName(id){const c=card(id);return c?short(L(c.v,"n")||vtitle(c.v),60):""}
-function qText(q){return T.lb2.qTxt(vLabel(S.lab.lev)||"…",q.w&&card(q.w)?wName(q.w):"…",(q.lim||"").trim()||"…")}
+function qVal(q){return q.v||S.lab.lev}
+function qText(q){return T.lb2.qTxt(vLabel(qVal(q))||"…",q.w&&card(q.w)?wName(q.w):"…",(q.lim||"").trim()||"…")}
 function firstTitle(){const f=S.lab.first&&wayObj(S.lab.first.key);return f?f.title:""}
-function stepNow(){return ((S.lab.lad||{}).quick||"").trim()||firstTitle()}
+function stepNow(){return ((S.lab.emb||{}).tom||"").trim()||firstTitle()}
 function haveCards(){const o=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&(r.a==="keep"||r.a==="drop"))o.push({v,a:r.a})}return o}
-function dayDraft(b){const X=T.lb2,Lb=S.lab,ks=haveCards().filter(x=>x.a==="keep").slice(0,5).map(x=>short(L(x.v,"n")||vtitle(x.v),40));
-  if(!b)return (ks.length?X.dNow+ks.join(", ")+". ":"")+((Lb.aOwn||[]).length?Lb.aOwn.map(x=>(x.t||"").trim()).filter(Boolean).join(". ")+". ":"")+((Lb.kwA||"").trim()?X.dHonest+Lb.kwA.trim()+". ":"")+X.dTail;
-  const st=stepNow();return (st?X.dStep+st+". ":"")+(Lb.picks.length?X.dHave+Lb.picks.map(wName).join(", ")+". ":"")+X.dTail}
+function ownT(arr,tpl){return (arr||[]).map(x=>(x.t||"").trim()).filter(t=>t&&!tpl.some(x=>x.replace(/\s*…\s*$/,"")===t)).map(t=>t.replace(/\s*…\s*$/,""))}
+function dayDraft(b){const X=T.lb2,Lb=S.lab;
+  if(!b){const ks=haveCards().filter(x=>x.a==="keep").slice(0,5).map(x=>short(L(x.v,"n")||vtitle(x.v),40)),ow=ownT(Lb.aOwn,X.aTpl);
+    return (ks.length?X.dNow+ks.join(", ")+". ":"")+(ow.length?ow.join(". ")+". ":"")+((Lb.kwA||"").trim()?X.dHonest+Lb.kwA.trim()+". ":"")+X.dTail}
+  const ow=ownT(Lb.bOwn,X.bTpl);return (Lb.picks.length?X.dHave+Lb.picks.map(wName).join(", ")+". ":"")+(ow.length?ow.join(". ")+". ":"")+X.dTail}
 function tagChips(path,opts,multi){const cur=getP(S.lab,path);return `<span class="tags">${Object.keys(opts).map(k=>`<button class="tg" data-c="${path}" data-val="${esc(k)}" ${multi?"data-multi=1":""} aria-pressed="${multi?(cur||[]).includes(k):cur===k}">${esc(opts[k])}</button>`).join("")}</span>`}
 function fld(path,ph,rows,rr){const v=getP(S.lab,path)||"";return rows?`<textarea rows="${rows}" data-f="${path}" ${rr?"data-rr=1":""} placeholder="${esc(ph)}">${esc(v)}</textarea>`:`<input type="text" data-f="${path}" ${rr?"data-rr=1":""} value="${esc(v)}" placeholder="${esc(ph)}">`}
 function qnum(n,t){return `<p class="cq"><span class="num">${n}</span><b>${esc(t)}</b></p>`}
+// кандидаты в рычаги
+function wayObj(key){
+  const Lb=S.lab,qc=i=>(Lb.qc||{})[i]||{};
+  if(!key)return null;
+  if(key.startsWith("sig:")){const c=card(key.slice(4));return c?{key,v:c.v,title:stepText(c.v),lvl:"act"}:null}
+  if(key.startsWith("ex:")){const [,k,i]=key.split(":"),e=D.vals[k]&&D.vals[k].ex[+i];return e?{key,ex:e,w:e.w,title:L(e,"step")||L(e,"one"),lvl:"act"}:null}
+  if(key.startsWith("own:"))return {key,title:(qc(key.slice(4)).own||"").trim(),lvl:"rule",q:+key.slice(4)};
+  if(key.startsWith("min:"))return {key,title:(qc(key.slice(4)).min||"").trim(),lvl:"act",q:+key.slice(4)};
+  if(key.startsWith("pic:"))return {key,title:(qc(key.slice(4)).ifnot||"").trim(),lvl:"pic",q:+key.slice(4)};
+  if(key.startsWith("forg:"))return {key,title:((Lb.forg||{})[key.slice(5)]||"").trim(),lvl:"rule",forg:true};
+  const c=card(key);return c?{key,v:c.v,title:stepText(c.v),lvl:"act"}:null;
+}
+function fieldItems(){const F=S.lab.field||{};return Object.keys(F).map(k=>{const o=wayObj(k);if(!o||!o.title)return null;o.lvl=F[k]||o.lvl;return o}).filter(Boolean)}
+function wayList(){return fieldItems()}
+function candBtn(key,lvl){const on=!!(S.lab.field||{})[key];return `<button class="btn ${on?"":"ghost"} noprint" data-fk="${esc(key)}" data-lv="${lvl}" style="margin-top:8px">${on?T.lb2.inF:T.lb2.addF}</button>`}
+function sigCand(v,lk){const X=T.lb2,has=!!v.st_ru,src=has?(LANG==="en"?(v.st_src_en||v.st_src):v.st_src):(LANG==="en"?v.g_src_en:v.g_src),key="sig:"+v.id,on=!!(S.lab.field||{})[key];
+  const tags=(v.st_wo||[]).map(k=>`<span class="wo${lk.includes(k)?" hit":""}">${T.lb.wo[k]}</span>`).join("");
+  return `<div class="way${on?" on":""}" style="border-left-color:${WC[v.w]}"><p class="t"><b>${T.worlds[v.w]}.</b> ${esc(stepText(v))}</p>${tags?`<div class="wos">${tags}</div>`:""}<p class="muted" style="font-size:13.5px;margin:6px 0 0">${has?T.lb.how+" "+esc(L(v,"hw")):v.g_ru?T.lb.noStep+" "+esc(L(v,"g")):""} ${src?`<a href="${esc(src)}" target="_blank" rel="noopener">${has&&v.st_game?T.lb.game:T.src}</a>`:""}</p>${candBtn(key,"act")}</div>`}
+function exCand(k,i){const e=D.vals[k].ex[i],key=`ex:${k}:${i}`,on=!!(S.lab.field||{})[key];
+  return `<div class="way${on?" on":""}" style="border-left-color:${WC[e.w]}"><p class="muted" style="margin:0 0 4px;font-size:13px">«${esc(L(e,"quote"))}»</p><p class="t"><b>${T.worlds[e.w]}.</b> ${esc(L(e,"step")||L(e,"one"))}</p><p class="muted" style="font-size:13px;margin:4px 0 0">${esc(L(e,"one"))} <a href="${esc(LANG==="en"?e.src_en:e.src)}" target="_blank" rel="noopener">${T.lb.vGame}</a></p>${candBtn(key,"act")}</div>`}
+// ---------- Картина ----------
+function picSVG(){
+  const Lb=S.lab,X=T.lb2,W=1000,H=640,top=54,bot=H-60;
+  const fo=(x,y,w,h,html,st)=>`<foreignObject x="${x}" y="${y}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:12px;line-height:1.3;color:#111;height:${h}px;overflow:hidden;${st||""}">${html}</div></foreignObject>`;
+  const cap=(x,t,col)=>`<text x="${x}" y="${top-12}" font-size="11" font-weight="700" letter-spacing=".05em" fill="${col||"#868e96"}">${esc(t)}</text>`;
+  const chip=(t,col,dr)=>`<span style="display:inline-block;margin:0 4px 5px 0;padding:3px 8px;border-radius:999px;font-size:11.5px;line-height:1.25;background:${dr?"#fff":"#f1f3f5"};border:1.5px solid ${col||"#ced4da"};${dr?"text-decoration:line-through;color:#868e96":""}">${esc(cut(t,42))}</span>`;
+  const ar=(x1,y1,x2,y2,c,dash,w)=>`<path d="M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}" fill="none" stroke="${c}" stroke-width="${w||2}" ${dash?'stroke-dasharray="5 4"':""} marker-end="url(#pm${c.slice(1)})"/>`;
+  const box=(x,y,w,h,html,stroke,fill,sw,dash)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="10" fill="${fill||"#fff"}" stroke="${stroke||"#ced4da"}" stroke-width="${sw||1.3}" ${dash?'stroke-dasharray="5 4"':""}/>`+fo(x+7,y+3,w-14,h-6,`<div style="display:flex;flex-direction:column;justify-content:center;height:${h-6}px;${fill==="#7048e8"?"color:#fff;font-weight:600":""}">${html}</div>`);
+  let e="",n="";const mid=(top+bot)/2;
+  // A
+  const keep=haveCards(),aH=[...(Lb.kwA||"").split(",").map(x=>x.trim()).filter(Boolean).map(t=>chip(t,"#e8590c")),...ownT(Lb.aOwn,X.aTpl).map(t=>chip(t)),...keep.map(x=>chip(L(x.v,"n")||vtitle(x.v),WC[x.v.w],x.a==="drop"))].join("");
+  n+=cap(16,X.cA)+`<rect x="8" y="${top-2}" width="160" height="${bot-top+4}" rx="14" fill="#fff" stroke="#adb5bd" stroke-width="1.5"/>`+fo(16,top+6,146,bot-top-12,aH||"…");
+  // тучи
+  const qs=qsOn(),qh=Math.min(92,(bot-top)/Math.max(1,qs.length)-10),qy=i=>top+(i+0.5)*((bot-top)/Math.max(1,qs.length))-qh/2;
+  n+=cap(190,X.cC);qs.forEach((q,i)=>{const y=qy(i);e+=ar(168,y+qh/2,188,y+qh/2,"#adb5bd");n+=box(188,y,150,qh,`<b style="font-size:11.5px">${esc(vLabel(qVal(q)))}</b><span style="font-size:11px">${esc(cut(wName(q.w),40))}</span><span style="font-size:11px;color:#e8590c">${esc(X.qNot)} ${esc(cut(q.lim||"…",30))}</span>`,"#e8590c")});
+  // рычаги
+  const fi=fieldItems(),chosen=Lb.first&&Lb.first.key,ex=(Lb.extra||[]).map(x=>x.key);
+  const ord=[...fi.filter(o=>o.key===chosen||ex.includes(o.key)),...fi.filter(o=>o.key!==chosen&&!ex.includes(o.key))].slice(0,7);
+  const lh=Math.min(70,(bot-top)/Math.max(1,ord.length)-8),ly=i=>top+(i+0.5)*((bot-top)/Math.max(1,ord.length))-lh/2,lcol={act:"#1e7ff0",rule:"#2f9e44",pic:"#7048e8"};
+  n+=cap(362,X.cL);let cy=mid;
+  ord.forEach((o,i)=>{const y=ly(i),on=o.key===chosen,was=ex.includes(o.key);if(on)cy=y+lh/2;
+    qs.forEach((q,j)=>{if(o.q===q.i||(on&&!fi.some(z=>z.q!==undefined&&z.key===chosen)&&j===0))e+=ar(338,qy(j)+qh/2,360,y+lh/2,on||was?"#7048e8":"#dee2e6",!(on||was),on?2.4:1.2)});
+    n+=box(360,y,180,lh,`<span style="font-size:10px;font-weight:700;letter-spacing:.04em;opacity:.8">${esc(X.lvl[o.lvl].toUpperCase())}</span><span style="font-size:11.5px">${esc(cut(o.title,80))}</span>`,on||was?"#7048e8":lcol[o.lvl],on?"#7048e8":"#fff",on?2:1.2,!(on||was))});
+  // шаг, новая А, обратная связь
+  const exs=Lb.extra||[],lastF=(exs[exs.length-1]||{}).fb||{},fb0=Lb.fb||{},fb={see:fb0.see||lastF.see,expA:fb0.expA||lastF.expA,date:fb0.date||lastF.date},stp=stepNow();
+  n+=cap(566,X.cS);const sy=Math.max(top,Math.min(bot-90,cy-45));
+  e+=ar(540,cy,562,sy+45,"#7048e8",false,3);n+=box(562,sy,140,90,`<span style="font-size:12px">${esc(cut(stp||"…",90))}</span>`,"#7048e8","#7048e8",2);exs.forEach((x,i)=>{const t=((x.emb||{}).tom||"").trim()||x.title,y=sy+100+i*44;if(y+40<bot)n+=box(562,y,140,38,`<span style="font-size:11px">✓ ${esc(cut(t,60))}</span>`,"#7048e8","#f3f0ff",1.2)});
+  n+=cap(726,X.cN);n+=box(724,top,120,(bot-top)/2-14,`<span>${esc(cut(fb.expA||"?",120))}</span>`,"#111","#fbfaff",2.2);
+  n+=`<text x="726" y="${mid+20}" font-size="11" font-weight="700" letter-spacing=".05em" fill="#2f9e44">${esc(X.cF)}</text>`+box(724,mid+28,120,(bot-top)/2-30,`<span>${esc(cut(fb.see||"?",110))}</span>${fb.date?`<span style="color:#868e96;font-size:11px;margin-top:4px">⧖ ${esc(fb.date)}</span>`:""}`,"#2f9e44");
+  e+=ar(702,sy+30,724,top+(bot-top)/4,"#7048e8",false,2.4)+ar(702,sy+60,724,mid+28+((bot-top)/2-30)/2,"#2f9e44",true,2);
+  // Б
+  const bH=[...(Lb.levs||[]).map(k=>`<span style="display:inline-block;margin:0 4px 6px 0;padding:3px 9px;border-radius:999px;background:#7048e8;color:#fff;font-size:11.5px;font-weight:600">${esc(vLabel(k))}</span>`),...Lb.picks.map(id=>chip(wName(id),WC[card(id).v.w])),...ownT(Lb.bOwn,X.bTpl).map(t=>chip(t,"#7048e8"))].join("");
+  n+=cap(868,X.cB,"#111")+`<rect x="864" y="${top-2}" width="128" height="${bot-top+4}" rx="14" fill="#fbfaff" stroke="#111" stroke-width="2.2"/>`+fo(871,top+6,114,bot-top-12,bH||"…");
+  e+=ar(844,top+(bot-top)/4,864,mid,"#adb5bd",true,1.6);
+  // новый круг
+  const yb=H-26;e+=`<path d="M784,${mid-14} C784,${yb} 640,${yb} 400,${yb} S88,${yb} 88,${bot+4}" fill="none" stroke="#7048e8" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#pm7048e8)"/>`;
+  n+=`<rect x="330" y="${yb-13}" width="200" height="26" rx="13" fill="#f3f0ff" stroke="#7048e8"/><text x="430" y="${yb+4}" text-anchor="middle" font-size="12" font-weight="700" fill="#7048e8">↻ ${esc(T.lb.lRev)}</text>`;
+  const mk=c=>`<marker id="pm${c}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#${c}"/></marker>`;
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:10px auto" role="img"><defs>${["7048e8","2f9e44","adb5bd","dee2e6","1e7ff0"].map(mk).join("")}</defs>${e}${n}</svg>`;
+}
+function finalMap(){return picSVG()}
 function rLab(){
   const el=document.getElementById("s-lab"),Lb=S.lab,W=wants(),X=T.lb2;
   Lb.picks=Lb.picks.filter(id=>W.some(x=>x.v.id===id));
+  Lb.levs=(Lb.levs||[]).filter(k=>valCounts()[k]);Lb.lev=Lb.levs[0]||null;
+  Lb.field=Lb.field||{};
   if(Lb.first&&!(wayObj(Lb.first.key)||{}).title)Lb.first=null;
-  Lb.qs=Lb.qs&&Lb.qs.length?Lb.qs:[{w:"",lim:"",on:false}];
+  Lb.qs=Lb.qs&&Lb.qs.length?Lb.qs:[{v:"",w:"",lim:"",on:false}];
   const STEPS=Lb.deep?[...X.steps,...X.steps2]:X.steps,NS=STEPS.length;if(Lb.step>=NS)Lb.step=NS-1;
   const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${STEPS.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div>`;
   if(!W.length){el.innerHTML=head+`<p>${T.lb.empty}</p><a class="btn" href="#start">${T.go}</a>`;return}
-  if(Lb.step>0&&!Lb.picks.length)Lb.step=0;
-  const st=Lb.step,ex=`<p class="expl">${esc(st<9?X.ex[st]:X.ex2[st-9])}</p>`;
+  if(Lb.step>0&&!Lb.picks.length&&!(Lb.notMine||[]).length)Lb.step=0;
+  const st=Lb.step,ex=`<p class="expl">${esc(st<12?X.ex[st]:X.ex2[st-12])}</p>`;
   const nav=(canNext,last)=>`<div class="row noprint" style="margin-top:18px">${st?`<button class="btn ghost" id="lb">${T.lb.back}</button>`:""}${last?`<a class="btn" href="#result">${T.lb.toRes}</a>`:`<button class="btn" id="ln" ${canNext?"":"disabled"}>${T.lb.next}</button>`}</div>`;
-  const lev=vLabel(Lb.lev),SP=D.spheres;
+  const SP=D.spheres,tplBtns=(k,arr)=>`<p class="muted" style="margin:12px 0 6px;font-size:14px">${X.addOwn}</p><div class="tags noprint">${arr.map((t,j)=>`<button class="tg" data-addt="${k}" data-j="${j}">+ ${esc(t)}</button>`).join("")}</div>`;
   let body="";
   if(st===0){
     const pSph=new Set(Lb.picks.map(id=>card(id).sp.id));
     body=`<p>${T.lb.intro}</p>${brainHTML(false)}${baseHTML()}${ex}<h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(Lb.picks.length,pSph.size)}.</p>`+
       W.map(x=>{const on=Lb.picks.includes(x.v.id);return `<button class="pick" data-id="${x.v.id}" aria-pressed="${on}" ${!on&&Lb.picks.length>=10?"disabled":""}><span class="box">${on?"✓":""}</span><span>${esc(vtitle(x.v))}<small>${esc(nm(x.sp))} · ${esc(nm(x.sb))} · ${T.worlds[x.v.w]}</small></span></button>`}).join("")+nav(Lb.picks.length>0);
   }else if(st===1){
-    const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]),mx=Math.max(1,...Object.values(vc));
-    body=`<h2>${X.steps[1]}</h2>${ex}`+Lb.picks.map(id=>{const c=card(id),sel=Lb.vals[id]||[],sr=(Lb.srcs||{})[id]||[];return `<div class="item" style="border-left-color:${WC[c.v.w]}"><p class="t">${esc(vtitle(c.v))}</p>
-      <p class="muted" style="margin:6px 0 4px;font-size:14px">${X.srcQ}</p>${tagChips("srcs."+id,X.src,true)}${fld("srcT."+id,X.srcPh)}${sr.includes("forg")?fld("forg."+id,X.forgPh,2):""}
-      <p class="muted" style="margin:10px 0 4px;font-size:14px">${T.lb.whyP}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${id}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${id}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}">
-      <button class="btn ghost noprint" data-nm="${id}" style="margin-top:8px;font-size:13px">${X.notMine}</button></div>`}).join("")+
-      `<div class="sumbox"><p class="big">${ks.length?esc(T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))):T.lb.valsNone}</p>${ks.map(k=>`<div class="vbar"><span>${esc(vLabel(k))}</span><span class="b"><i style="width:${vc[k]/mx*100}%;background:var(--ink)"></i></span><span>${vc[k]}</span></div>`).join("")}</div>`+nav(ks.length>0);
-  }else if(st===2){
-    const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]),sug=ks[0];
-    if(Lb.lev&&!vc[Lb.lev])Lb.lev=null;if(!Lb.lev&&sug)Lb.lev=sug;
-    body=`<h2>${T.lb.levH}</h2>${ex}`+(ks.length?`<p class="muted" style="font-size:14px">${T.lb.levP}</p>${levSVG()}<h3>${T.lb.levPick}</h3><div class="tags" style="gap:10px">${ks.map(k=>`<button class="tg big" data-lev="${esc(k)}" aria-pressed="${Lb.lev===k}">${esc(vLabel(k))} · ${vc[k]}${k===sug?` <small>(${T.lb.levSug})</small>`:""}</button>`).join("")}</div>${Lb.lev?`<div class="sumbox"><p class="big" style="margin:0">${esc(T.lb.levT(lev,levIds().length,Lb.picks.length))}</p></div>`+valAbout(Lb.lev)+
-      `<div class="item"><h3 style="margin-top:0">${esc(X.lvH)}: ${esc(lev)}</h3>${X.lvQ.map(([k,qq,ph],i)=>qnum(i+1,qq)+fld("lvA."+k,ph,2)).join("")}</div>`:""}`:`<p class="note">${T.lb.levNone}</p>`)+nav(!!Lb.lev);
-  }else if(st===3){
-    const lvI=levIds(),oth=Lb.picks.filter(id=>!lvI.includes(id)),nOn=qsOn().length;
-    const opt=sel=>`<option value="">${X.qPick}</option>`+[...lvI,...oth].map(id=>`<option value="${id}" ${sel===id?"selected":""}>${lvI.includes(id)?"★ ":""}${esc(wName(id))}</option>`).join("");
-    body=`<h2>${X.qsH}</h2>${ex}<p class="big" style="font-weight:600">${esc(X.qsTpl(lev))}</p>${X.qEg.map(e=>`<p class="eg" style="margin-left:0">${esc(e)}</p>`).join("")}`+
-      Lb.qs.map((qq,i)=>`<div class="item qrow" style="border-left-color:${qq.on?"#7048e8":"var(--line)"}"><p class="t">${esc(qText(qq))}</p>
-        <div class="cpick"><label>${X.qVia}<select data-qw="${i}">${opt(qq.w)}</select></label><label>${X.qNot}${fld("qs."+i+".lim",X.qLimPh,0,true)}</label></div>
-        <div class="tags" style="margin-top:6px">${X.limHint.map((h,j)=>`<button class="tg" data-qh="${i}" data-j="${j}" aria-pressed="${(qq.lim||"")===h}">${esc(h)}</button>`).join("")}</div>
-        <label class="noprint" style="display:block;margin-top:8px;font-weight:600"><input type="checkbox" data-qon="${i}" ${qq.on?"checked":""} ${!qq.on&&(nOn>=2||!qq.w)?"disabled":""}> ${X.qOn}</label></div>`).join("")+
-      `<p class="note">${esc(X.limConv)}</p>${Lb.qs.length<5?`<button class="btn ghost noprint" id="qadd">${X.qAdd}</button>`:""}<p class="muted">${X.qMax}</p>`+nav(nOn>0);
-  }else if(st===4){
-    const qs=qsOn();
-    body=`<h2>${X.steps[4]}</h2>${ex}`+(qs.length?qs.map(qq=>{const c=card(qq.w),lk=limKeys(qq.lim),ws=wayList().filter(o=>o.q===qq.i),lim=(qq.lim||"").trim();
-      const svg=cloudRaw({goal:lev,needA:wvals(qq.w).join(", ")||lev,needB:lk.length?joinList(lk.map(k=>T.res[k])):lim,dA:wName(qq.w),dB:`${X.qNot} ${lim}`,cA:WC[c.v.w],cB:"#e8590c"},"q"+qq.i);
-      const ownK="own:"+qq.i,ownOn=Lb.first&&Lb.first.key===ownK,ownT=((Lb.qc||{})[qq.i]||{}).own||"";
-      return `<div class="item cloud"><h3 style="margin-top:0">${esc(qText(qq))}</h3>${svg}
-        ${qnum(1,X.cqWhy)}${fld("qc."+qq.i+".why",X.cqWhyPh,2)}${qnum(2,X.cqIf)}${fld("qc."+qq.i+".ifnot",X.cqIfPh,2)}
-        <h3>${X.solH}</h3><p class="muted" style="font-size:14px">${esc(X.solP(lk.map(k=>T.res[k]).join(", ")))}</p>${ws.filter(o=>o.v).map(o=>wayHTML(o,"take")).join("")}
-        <div class="way${ownOn?" on":""}" style="border-left-color:var(--ink)"><p class="t"><b>${X.ownSol}.</b></p>${fld("qc."+qq.i+".own",X.ownSolPh,2,true)}${ownT.trim()?`<button class="btn ${ownOn?"":"ghost"} noprint" data-take="${ownK}" style="margin-top:8px">${ownOn?"✓ "+X.startedOn:X.startOn}</button>`:""}</div>
-        <p class="cq"><b>${esc(X.replQ)}</b></p>${fld("qc."+qq.i+".repl",X.replPh,2)}</div>`}).join("")+
-      wayList().filter(o=>o.forg).map(o=>wayHTML(o,"take")).join(""):`<p class="note">${X.noQs}</p>`)+nav(!!(Lb.first&&(wayObj(Lb.first.key)||{}).title));
-  }else if(st===5){
     const hv=haveCards().slice(0,14),rs_=[...new Set([...Lb.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id),...S.sel])],kwA=(Lb.kwA||"").split(",").map(x=>x.trim().toLowerCase());
     const audRow=(path,title,col,strike,del)=>`<div class="item aud" style="border-left-color:${col}">${title}${fld(path+".fn",X.audFn)}<div class="audr">${tagChips(path+".eff",X.aEff)}${tagChips(path+".dif",X.aDif)}</div>${strike?fld(path+".repl",X.audRepl):""}${del||""}</div>`;
-    const lvA=Lb.lvA||{},lvL=X.lvQ.filter(([k])=>(lvA[k]||"").trim());
-    const tplBtns=(k,arr)=>`<p class="muted" style="margin:12px 0 6px;font-size:14px">${X.addOwn}</p><div class="tags noprint">${arr.map((t,j)=>`<button class="tg" data-addt="${k}" data-j="${j}">+ ${esc(t)}</button>`).join("")}</div>`;
-    body=`<h2>${X.steps[5]}</h2>${ex}<div class="abcols"><div><h3 style="margin-top:0">${X.ptAH}</h3>`+
-      (hv.length?`<p class="muted" style="margin:0;font-size:13px">${X.fromSurvey}</p>`+hv.map(({v,a})=>audRow("aud."+v.id,`<p class="t">${a==="drop"?"<s>":""}${esc(short(vtitle(v),90))}${a==="drop"?"</s>":""}</p>`,WC[v.w],a==="drop")).join(""):"")+
-      (lvL.length?`<p class="muted" style="margin:10px 0 0;font-size:13px">${X.fromLev} · ${esc(lev)}</p>`+lvL.map(([k,qq])=>`<div class="item" style="border-left-color:#7048e8"><p class="muted" style="margin:0;font-size:13px">${esc(qq)}</p><p class="t" style="margin:2px 0 0">${esc(lvA[k].trim())}</p></div>`).join(""):"")+
+    body=`<h2>${X.ptAH}</h2>${ex}`+(hv.length?`<p class="muted" style="margin:0;font-size:13px">${X.fromSurvey}</p>`+hv.map(({v,a})=>audRow("aud."+v.id,`<p class="t">${a==="drop"?"<s>":""}${esc(short(vtitle(v),90))}${a==="drop"?"</s>":""}</p>`,WC[v.w],a==="drop")).join(""):"")+
       (Lb.aOwn||[]).map((x,i)=>audRow("aOwn."+i,fld("aOwn."+i+".t",X.aTpl[0],0),"var(--ink)",false,`<button class="btn ghost noprint" data-delt="aOwn" data-i="${i}" style="font-size:13px;margin-top:6px">${X.delIt}</button>`)).join("")+tplBtns("aOwn",X.aTpl)+
-      `<div class="real noprint"><p class="muted" style="margin:14px 0 6px;font-size:14px">${X.realH}</p><div class="tags">${rs_.flatMap(id=>(T.lb.real[id]||[])).map(t=>`<button class="tg" data-real="${esc(t)}" aria-pressed="${kwA.includes(t.toLowerCase())}">${esc(t)}</button>`).join("")}</div></div></div>
-      <div><h3 style="margin-top:0">${X.ptBH}</h3><div class="item" style="border-left-color:#7048e8;background:#f3f0ff"><p class="muted" style="margin:0;font-size:13px">${X.bFirst}</p><p class="t" style="margin:2px 0 0">${esc(firstTitle()||"…")}</p></div>`+
-      Lb.picks.map(id=>{const c=card(id);return `<div class="item" style="border-left-color:${WC[c.v.w]}"><p class="t" style="margin:0">${esc(short(vtitle(c.v),90))}</p></div>`}).join("")+
-      (Lb.bOwn||[]).map((x,i)=>`<div class="item" style="border-left-color:var(--ink)">${fld("bOwn."+i+".t",X.bTpl[0],0)}<button class="btn ghost noprint" data-delt="bOwn" data-i="${i}" style="font-size:13px;margin-top:6px">${X.delIt}</button></div>`).join("")+tplBtns("bOwn",X.bTpl)+`</div></div>
-      <details class="dayopt" ${(Lb.dayA||Lb.dayB)?"open":""}><summary><b>${X.dayOpt}</b></summary><div class="days"><div><h3>${X.dayA}</h3>${fld("dayA",X.dayTpl,5)}<button class="btn ghost noprint" data-draft="dayA">${X.draft}</button></div>
-      <div><h3>${X.dayB}</h3>${fld("dayB",X.dayTpl,5)}<button class="btn ghost noprint" data-draft="dayB">${X.draft}</button></div></div></details>`+nav(true);
+      `<div class="real noprint"><p class="muted" style="margin:14px 0 6px;font-size:14px">${X.realH}</p><div class="tags">${rs_.flatMap(id=>(T.lb.real[id]||[])).map(t=>`<button class="tg" data-real="${esc(t)}" aria-pressed="${kwA.includes(t.toLowerCase())}">${esc(t)}</button>`).join("")}</div></div>`+nav(true);
+  }else if(st===2){
+    if(!(Lb.dayA||"").trim())Lb.dayA=dayDraft(false);if(!(Lb.dayB||"").trim())Lb.dayB=dayDraft(true);
+    const all=[...Lb.picks,...(Lb.notMine||[]).filter(id=>card(id)&&!Lb.picks.includes(id))];
+    body=`<h2>${X.steps[2]}</h2>${ex}<div class="days"><div><h3>${X.dayA}</h3>${fld("dayA",X.dayTpl,6)}<button class="btn ghost noprint" data-draft="dayA">${X.draft}</button></div>
+      <div><h3>${X.dayB}</h3>${fld("dayB",X.dayTpl,6)}<button class="btn ghost noprint" data-draft="dayB">${X.draft}</button></div></div>
+      <h3>${X.keepQ}</h3>`+all.map(id=>{const c=card(id),on=Lb.picks.includes(id);return `<div class="item" style="border-left-color:${WC[c.v.w]};${on?"":"opacity:.55"}"><p class="t" style="margin:0 0 6px">${on?"":"<s>"}${esc(vtitle(c.v))}${on?"":"</s>"}</p><span class="tags"><button class="tg" data-keep="${id}" data-on="1" aria-pressed="${on}">${X.keepIt}</button><button class="tg" data-keep="${id}" data-on="0" aria-pressed="${!on}">${X.notMine}</button></span></div>`}).join("")+
+      `<h3>${X.ptBH}</h3>`+(Lb.bOwn||[]).map((x,i)=>`<div class="item" style="border-left-color:var(--ink)">${fld("bOwn."+i+".t",X.bTpl[0],0)}<button class="btn ghost noprint" data-delt="bOwn" data-i="${i}" style="font-size:13px;margin-top:6px">${X.delIt}</button></div>`).join("")+tplBtns("bOwn",X.bTpl)+nav(Lb.picks.length>0);
+  }else if(st===3){
+    const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]),mx=Math.max(1,...Object.values(vc));
+    body=`<h2>${X.steps[3]}</h2>${ex}`+Lb.picks.map(id=>{const c=card(id),sel=Lb.vals[id]||[],sr=(Lb.srcs||{})[id]||[];return `<div class="item" style="border-left-color:${WC[c.v.w]}"><p class="t">${esc(vtitle(c.v))}</p>
+      <p class="muted" style="margin:6px 0 4px;font-size:14px">${T.lb.whyP}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${id}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${id}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}">
+      <p class="muted" style="margin:10px 0 4px;font-size:14px">${X.srcQ}</p>${tagChips("srcs."+id,X.src,true)}${fld("srcT."+id,X.srcPh)}${sr.includes("forg")?fld("forg."+id,X.forgPh,2):""}</div>`}).join("")+
+      `<div class="sumbox"><p class="big">${ks.length?esc(T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))):T.lb.valsNone}</p>${ks.map(k=>`<div class="vbar"><span>${esc(vLabel(k))}</span><span class="b"><i style="width:${vc[k]/mx*100}%;background:var(--ink)"></i></span><span>${vc[k]}</span></div>`).join("")}</div>`+nav(ks.length>0);
+  }else if(st===4){
+    const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]);
+    if(!Lb.levs.length&&ks[0]){Lb.levs=[ks[0]];Lb.lev=ks[0]}
+    body=`<h2>${X.steps[4]}</h2>${ex}<p class="muted" style="font-size:14px">${T.lb.levP}</p>${levSVG()}<h3>${X.startH}</h3><div class="tags" style="gap:10px">${ks.map((k,i)=>{const on=Lb.levs.includes(k);return `<button class="tg big" data-levs="${esc(k)}" aria-pressed="${on}" ${!on&&Lb.levs.length>=2?"disabled":""}>${esc(vLabel(k))} · ${vc[k]}${i===0?` <small>(${T.lb.levSug})</small>`:""}</button>`}).join("")}</div>`+
+      Lb.levs.map(k=>valAbout(k)).join("")+(Lb.lev?`<div class="item"><h3 style="margin-top:0">${esc(X.lvH)}: ${esc(vLabel(Lb.lev))}</h3>${X.lvQ.map(([k,qq,ph],i)=>qnum(i+1,qq)+fld("lvA."+k,ph,2)).join("")}</div>`:"")+nav(Lb.levs.length>0);
+  }else if(st===5){
+    const nOn=qsOn().length;
+    body=`<h2>${X.qsH}</h2>${ex}<p class="big" style="font-weight:600">${esc(X.qsTpl(vLabel(Lb.lev)))}</p>${X.qEg.map(e=>`<p class="eg" style="margin-left:0">${esc(e)}</p>`).join("")}`+
+      Lb.qs.map((qq,i)=>{const v=qVal(qq),lvI=Lb.picks.filter(id=>hasVal(id,v)),oth=Lb.picks.filter(id=>!lvI.includes(id));
+        const opt=`<option value="">${X.qPick}</option>`+[...lvI,...oth].map(id=>`<option value="${id}" ${qq.w===id?"selected":""}>${lvI.includes(id)?"★ ":""}${esc(wName(id))}</option>`).join("");
+        return `<div class="item qrow" style="border-left-color:${qq.on?"#7048e8":"var(--line)"}"><p class="t">${esc(qText(qq))}</p>
+        <div class="cpick">${Lb.levs.length>1?`<label>${X.qVal}<select data-qv="${i}">${Lb.levs.map(k=>`<option value="${k}" ${v===k?"selected":""}>${esc(vLabel(k))}</option>`).join("")}</select></label>`:""}<label>${X.qVia}<select data-qw="${i}">${opt}</select></label><label>${X.qNot}${fld("qs."+i+".lim",X.qLimPh,0,true)}</label></div>
+        <div class="tags" style="margin-top:6px">${X.limHint.map((h,j)=>`<button class="tg" data-qh="${i}" data-j="${j}" aria-pressed="${(qq.lim||"")===h}">${esc(h)}</button>`).join("")}</div>
+        <label class="noprint" style="display:block;margin-top:8px;font-weight:600"><input type="checkbox" data-qon="${i}" ${qq.on?"checked":""} ${!qq.on&&(nOn>=3||!qq.w)?"disabled":""}> ${X.qOn}</label></div>`}).join("")+
+      `<p class="note">${esc(X.limConv)}</p>${Lb.qs.length<5?`<button class="btn ghost noprint" id="qadd">${X.qAdd}</button>`:""}`+nav(nOn>0);
   }else if(st===6){
-    const ws=wayList(),com=Lb.com||{},who=Lb.who||{};
-    body=`<h2>${X.steps[6]}</h2>${ex}<div class="sumbox"><p class="muted" style="margin:0 0 4px">${X.ladFirst}</p><p class="big" style="margin:0;font-weight:600">${esc(firstTitle()||"…")}</p></div>
-      <h3>${X.comH}</h3>${X.com.map(([k,qq],i)=>`<div class="item">${qnum(i+1,qq)}${tagChips("com."+k,X.comA)}${com[k]&&com[k]!=="yes"?fld("comT."+k,X.comNoPh,2)+`<p class="eg" style="margin-left:0">${esc(X.comHint)}</p>`:""}</div>`).join("")}
-      <h3>${X.ladH}</h3><datalist id="wl">${ws.map(o=>`<option value="${esc(o.title)}">`).join("")}</datalist>${X.lad.map(([k,t])=>`<div class="item"><p class="t">${esc(t)}</p><input type="text" list="wl" data-f="lad.${k}" value="${esc((Lb.lad||{})[k]||"")}" placeholder="${esc(k==="quick"?X.ladQuickPh:X.ladPh)}"></div>`).join("")}
-      <h3>${X.whoH}</h3>${X.whoPh.map((p,i)=>`<div class="item"><p class="t">${esc(p)}</p><select data-f="who.${i}.lv" data-rr=1><option value=""></option>${X.whoLv.map((l,j)=>`<option value="${j}" ${String((who[i]||{}).lv)===String(j)?"selected":""}>${esc(l)}</option>`).join("")}</select>${fld("who."+i+".names",X.whoNames)}</div>`).join("")}
-      <h3>${X.succH}</h3>${fld("succ",X.succH,2)}<p class="eg" style="margin-left:0">${esc(X.succP)}</p>`+nav(true);
+    const qs=qsOn();
+    body=`<h2>${X.steps[6]}</h2>${ex}`+qs.map(qq=>{const c=card(qq.w),lk=limKeys(qq.lim),lim=(qq.lim||"").trim(),i=qq.i,vk=qVal(qq),qc=(Lb.qc||{})[i]||{};
+      const sigs=c.sb.v.map((v,j)=>({v,j,hit:lk.filter(k=>(v.st_wo||[]).includes(k)).length})).sort((a,b)=>b.hit-a.hit||a.j-b.j).map(x=>x.v);
+      const V=D.vals[vk],exi=V?rnd((Lb.vseed||0)+11+i,V.ex.length).slice(0,2):[];
+      const svg=cloudRaw({goal:vLabel(vk),needA:wvals(qq.w).join(", ")||vLabel(vk),needB:lk.length?joinList(lk.map(k=>T.res[k])):lim,dA:wName(qq.w),dB:`${X.qNot} ${lim}`,cA:WC[c.v.w],cB:"#e8590c"},"q"+i);
+      const own=(k,ph,lvl)=>{const key=k+":"+i,t=(qc[k==="pic"?"ifnot":k]||"").trim();return fld("qc."+i+"."+(k==="pic"?"ifnot":k),ph,2,true)+(t?candBtn(key,lvl):"")};
+      return `<div class="item cloud"><h3 style="margin-top:0">${esc(qText(qq))}</h3>${svg}
+        ${qnum(1,X.cqWhy)}${fld("qc."+i+".why",X.cqWhyPh,2)}${qnum(2,X.cqIf)}<p class="eg" style="margin-left:0">${esc(X.picCand)}</p>${own("pic",X.cqIfPh,"pic")}
+        <h3>${X.solH}</h3><p class="muted" style="font-size:14px">${esc(X.solP(lk.map(k=>T.res[k]).join(", ")))}</p>${sigs.map(v=>sigCand(v,lk)).join("")}
+        ${exi.length?`<h3>${X.exH}</h3>${exi.map(j=>exCand(vk,j)).join("")}<button class="btn ghost noprint" data-exs="1">↻ ${X.exShuf}</button>`:""}
+        <h3>${X.ownSol}</h3>${own("own",X.ownSolPh,"rule")}<h3>${X.minStep}</h3>${own("min",X.minStepPh,"act")}</div>`}).join("")+
+      (()=>{const fg=Object.keys(Lb.forg||{}).filter(id=>(Lb.forg[id]||"").trim()&&Lb.picks.includes(id)&&((Lb.srcs||{})[id]||[]).includes("forg"));return fg.length?`<h3>${X.forgWay}</h3>`+fg.map(id=>`<div class="way" style="border-left-color:var(--ink)"><p class="t">${esc(Lb.forg[id].trim())}</p>${candBtn("forg:"+id,"rule")}</div>`).join(""):""})()+
+      (qs.length?"":`<p class="note">${X.noQs}</p>`)+nav(fieldItems().length>0);
   }else if(st===7){
-    body=`<h2>${X.steps[7]}</h2>${ex}${taleHTML()}<div class="tale art"><span class="cap">${X.ttH}</span><p style="margin:4px 0 8px">${esc(X.ttP)}</p><button class="btn ghost noprint" id="tt">${X.ttTimer}</button> <span id="ttc" class="big" style="font-weight:700;margin-left:8px"></span></div>
-      <div class="item"><h3 style="margin-top:0">${X.thH}</h3><p class="note" style="margin-top:0">${esc(X.thNote)}</p>${X.th.map(([k,t])=>`<p class="cq"><b>${esc(t)}</b></p>${fld("thing."+k,t,2)}`).join("")}</div>`+nav(true);
+    const fi=fieldItems(),done=(Lb.extra||[]);
+    body=`<h2>${X.steps[7]}</h2>${ex}`+(done.length?`<div class="sumbox"><p class="muted" style="margin:0 0 4px">${X.levDone}</p>${done.map(x=>`<p style="margin:2px 0"><b>✓ ${esc(x.title)}</b></p>`).join("")}</div>`:"")+
+      (fi.length?`<div class="field">${["act","rule","pic"].map(l=>`<div><h3 style="margin-top:0">${X.lvl[l]}</h3><p class="muted" style="font-size:13px;margin:-6px 0 8px">${X.lvlP[l]}</p>${fi.filter(o=>o.lvl===l).map(o=>{const on=Lb.first&&Lb.first.key===o.key,col=o.v?WC[o.v.w]:o.w?WC[o.w]:"var(--ink)";
+        return `<div class="way${on?" on":""}" style="border-left-color:${col}"><p class="t">${esc(o.title)}</p>${o.q!==undefined&&card((Lb.qs[o.q]||{}).w)?`<p class="muted" style="font-size:12px;margin:2px 0">${X.fromQ}: ${esc(cut(qText(Lb.qs[o.q]),80))}</p>`:""}<div class="tags noprint" style="margin-top:6px">${["act","rule","pic"].map(k=>`<button class="tg" data-fl="${esc(o.key)}" data-lv="${k}" aria-pressed="${o.lvl===k}" style="font-size:11.5px">${X.lvl[k]}</button>`).join("")}</div><button class="btn ${on?"":"ghost"} noprint" data-take="${esc(o.key)}" style="margin-top:8px">${on?"✓ "+X.chosenL:X.chooseL}</button></div>`}).join("")}</div>`).join("")}</div>`:`<p class="note">${X.fieldNone}</p>`)+nav(!!Lb.first);
   }else if(st===8){
-    const who=Object.values(Lb.who||{}).map(w=>(w.names||"").trim()).filter(Boolean).join(", ");
-    body=`<h2>${T.lb.mapH}</h2>${ex}<div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label><label>${T.lb.kwB}<input type="text" id="kwB" value="${esc(Lb.kwB||"")}" placeholder="${esc(T.lb.kwBph)}"></label></div>
-      <div id="fmapwrap"><div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p></div><div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>
-      <div id="promwrap"><div class="promise"><h2 style="margin-top:0">${X.prH}</h2><p><span class="muted">${X.prStep}</span><br><b>${esc(stepNow()||"…")}</b></p><p><span class="muted">${X.prWho}</span><br><b>${esc(who||"…")}</b></p><p><span class="muted">${X.prSucc}</span><br><b>${esc((Lb.succ||"").trim()||"…")}</b></p><p><span class="muted">${X.prDate}</span> <b id="prd">${esc(Lb.prDate||"____")}</b> <input type="date" class="noprint" id="prDate" value="${esc(Lb.prDate||"")}"></p><p class="muted" style="font-size:12px;margin:0">futuredecoder.org</p></div></div>
-      <div class="row noprint"><button class="btn ghost" id="prpdf">${X.prPdf}</button></div>
-      ${Lb.deep?"":`<div class="deepbox noprint"><p style="margin:0 0 8px">${esc(X.deepP)}</p><button class="btn" id="deep">${X.deepBtn} →</button></div>${brainHTML(true)}`}
-      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,!Lb.deep);
+    body=`<h2>${X.steps[8]}</h2>${ex}${taleHTML()}<div class="tale art"><span class="cap">${X.ttH}</span><p style="margin:4px 0 8px">${esc(X.ttP)}</p><button class="btn ghost noprint" id="tt">${X.ttTimer}</button> <span id="ttc" class="big" style="font-weight:700;margin-left:8px"></span></div>
+      <div class="item"><h3 style="margin-top:0">${X.thH}</h3><p class="note" style="margin-top:0">${esc(X.thNote)}</p>${X.th.map(([k,t])=>`<p class="cq"><b>${esc(t)}</b></p>${fld("thing."+k,t,2)}`).join("")}</div>`+nav(true);
   }else if(st===9){
-    body=`<h2>${X.steps2[0]}</h2>${ex}<h3>${X.sfH}</h3><select data-sf="1"><option value="">${X.sfPick}</option>${SP.map(sp=>`<option value="${sp.id}" ${Lb.sf===sp.id?"selected":""}>${esc(nm(sp))}</option>`).join("")}</select>${fld("sfT",X.sfPh,2)}
+    const em=Lb.emb||{};
+    body=`<h2>${X.steps[9]}</h2>${ex}<div class="sumbox"><p class="muted" style="margin:0 0 4px">${X.chosenL}</p><p class="big" style="margin:0;font-weight:600">${esc(firstTitle()||"…")}</p></div>
+      <h3>${X.embSf}</h3><select data-sf="1"><option value="">${X.sfPick}</option>${SP.map(sp=>`<option value="${sp.id}" ${em.sf===sp.id?"selected":""}>${esc(nm(sp))}</option>`).join("")}</select>
       <p class="muted" style="margin-top:14px">${T.lb.sysP}</p>${sysSVG()}<div class="sysg">${SP.map(sp=>{const m=Lb.sys[sp.id]||"";return `<div class="sysr"><span>${esc(nm(sp))}</span><span class="tags">${["+","-",""].map(v=>`<button class="tg" data-sys="${sp.id}" data-m="${v}" aria-pressed="${m===v}">${v==="+"?"+":v==="-"?"−":"0"}</button>`).join("")}</span></div>`}).join("")}</div>
-      ${X.sysQ2.map(([k,qq,ph],i)=>qnum(i+1,qq)+`<p class="eg" style="margin:2px 0 4px">${T.lb.tmpl} ${esc(ph)}</p>`+fld("sq."+k,ph,2)).join("")}`+nav(true);
+      <div class="days"><div>${qnum("+",X.plusQ)}${fld("emb.plus",X.plusPh,3)}</div><div>${qnum("−",X.minusQ)}${fld("emb.minus",X.minusPh,3)}</div></div>
+      ${qnum(1,X.hinderQ)}${fld("emb.hinder",X.hinderPh,2)}${qnum(2,X.tomQ)}${fld("emb.tom",X.tomPh,2)}`+nav(true);
   }else if(st===10){
-    body=deepBody(7,ex)+X.loopQ.map(([k,qq,ph],i)=>qnum(i+1,qq)+`<p class="eg" style="margin:2px 0 4px">${T.lb.tmpl} ${esc(ph)}</p>`+fld("loop."+k,ph,2,k==="delay")).join("")+nav(true);
+    const who=Lb.who||{};
+    body=`<h2>${X.steps[10]}</h2>${ex}<div class="sumbox"><p class="muted" style="margin:0 0 4px">${X.chosenL}</p><p class="big" style="margin:0;font-weight:600">${esc(firstTitle()||"…")}</p>${stepNow()!==firstTitle()?`<p style="margin:6px 0 0">${esc(stepNow())}</p>`:""}</div>
+      ${qnum(1,X.fbSee)}${fld("fb.see",X.fbSeePh,2)}${qnum(2,X.fbExpA)}${fld("fb.expA",X.fbExpAPh,2)}${qnum(3,X.fbDate)}<input type="date" data-f="fb.date" value="${esc((Lb.fb||{}).date||"")}">
+      <h3>${X.whoH}</h3>${X.whoPh.map((p,i)=>`<div class="item"><p class="t">${esc(p)}</p><select data-f="who.${i}.lv" data-rr=1><option value=""></option>${X.whoLv.map((l,j)=>`<option value="${j}" ${String((who[i]||{}).lv)===String(j)?"selected":""}>${esc(l)}</option>`).join("")}</select>${fld("who."+i+".names",X.whoNames)}</div>`).join("")}
+      <div class="deepbox noprint"><p style="margin:0 0 8px">${esc(X.addLevP)}</p><button class="btn ghost" id="addlev">${X.addLev}</button></div>`+nav(true);
   }else if(st===11){
+    const who=Object.values(Lb.who||{}).map(w=>(w.names||"").trim()).filter(Boolean).join(", "),fb=Lb.fb||{};
+    body=`<h2>${X.picH}</h2>${ex}<div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label></div>
+      <div id="fmapwrap"><div id="fmap">${picSVG()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p></div><div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>
+      <div id="promwrap"><div class="promise"><h2 style="margin-top:0">${X.prH}</h2><p><span class="muted">${X.prStep}</span><br><b>${esc(stepNow()||"…")}</b></p><p><span class="muted">${X.prWho}</span><br><b>${esc(who||"…")}</b></p><p><span class="muted">${X.prSucc}</span><br><b>${esc((fb.see||"").trim()||"…")}</b></p><p><span class="muted">${X.prDate}</span> <b>${esc(fb.date||"____")}</b></p><p class="muted" style="font-size:12px;margin:0">futuredecoder.org</p></div></div>
+      <div class="row noprint"><button class="btn ghost" id="prpdf">${X.prPdf}</button></div>
+      ${Lb.deep?"":`<div class="deepbox noprint"><p style="margin:0 0 8px">${esc(X.deepP3)}</p><button class="btn" id="deep">${X.deepBtn3} →</button></div>${brainHTML(true)}`}
+      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,!Lb.deep);
+  }else if(st===12){
+    body=deepBody(7,ex)+X.loopQ.map(([k,qq,ph],i)=>qnum(i+1,qq)+`<p class="eg" style="margin:2px 0 4px">${T.lb.tmpl} ${esc(ph)}</p>`+fld("loop."+k,ph,2,k==="delay")).join("")+nav(true);
+  }else if(st===13){
     body=deepBody(8,ex)+nav(true);
   }else{
-    const sq=Lb.sq||{};
+    const fb=Lb.fb||{};
     body=`<h2>${X.revH}</h2>${ex}<h3>${X.revLayer}</h3>${tagChips("rev.layer",X.layers)}
       ${X.revEv.map(([k,t],i)=>qnum(i+1,t)+fld("rev."+k,t,2)).join("")}
-      ${(sq.fb||sq.expA)?`<div class="sumbox"><p class="muted" style="margin:0">${X.revExp}</p>${sq.fb?`<p style="margin:4px 0">${esc(sq.fb)}</p>`:""}${sq.expA?`<p style="margin:4px 0"><b>${esc(sq.expA)}</b></p>`:""}</div>`:""}
-      ${qnum(4,X.revAct)}${fld("rev.act",X.revActPh,2,true)}${qnum(5,X.revSucc)}${fld("rev.succ",(Lb.succ||"").trim()||X.revSucc,2)}
+      ${(fb.see||fb.expA)?`<div class="sumbox"><p class="muted" style="margin:0">${X.revExp}</p>${fb.see?`<p style="margin:4px 0">${esc(fb.see)}</p>`:""}${fb.expA?`<p style="margin:4px 0"><b>${esc(fb.expA)}</b></p>`:""}</div>`:""}
+      ${qnum(4,X.revAct)}${fld("rev.act",X.revActPh,2,true)}${qnum(5,X.revSucc)}${fld("rev.succ",(fb.see||"").trim()||X.revSucc,2)}
       ${cycleHTML()}<div class="deepbox"><p style="margin:0 0 8px">${esc(X.revNextP)}</p><button class="btn noprint" id="nextcyc">↻ ${X.revNext}</button></div>
-      <div class="row noprint"><button class="btn ghost" id="mappdf">${T.lb.mapPdf}</button></div><div id="fmapwrap" style="position:absolute;left:-9999px"><div id="fmap">${finalMap()}</div></div>${brainHTML(true)}
+      <div class="row noprint"><button class="btn ghost" id="mappdf">${T.lb.mapPdf}</button></div><div id="fmapwrap" style="position:absolute;left:-9999px"><div id="fmap">${picSVG()}</div></div>${brainHTML(true)}
       <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
   }
   el.innerHTML=head+body;
@@ -1563,14 +1667,18 @@ function rLab(){
   q(".pick").forEach(b=>b.onclick=()=>{const id=b.dataset.id;Lb.picks=Lb.picks.includes(id)?Lb.picks.filter(x=>x!==id):Lb.picks.length<10?[...Lb.picks,id]:Lb.picks;save();rLab()});
   q(".tg[data-v]").forEach(b=>b.onclick=()=>{const id=b.dataset.id,v=b.dataset.v,a=Lb.vals[id]||[];Lb.vals[id]=a.includes(v)?a.filter(x=>x!==v):a.length<3?[...a,v]:a;save();rLab()});
   q("input[data-own]").forEach(i=>i.onchange=()=>{Lb.vown[i.dataset.own]=i.value;save();rLab()});
-  q("button[data-nm]").forEach(b=>b.onclick=()=>{const id=b.dataset.nm;Lb.notMine=[...new Set([...(Lb.notMine||[]),id])];Lb.picks=Lb.picks.filter(x=>x!==id);save();rLab()});
-  q("[data-f]").forEach(t=>{const h=()=>{setP(Lb,t.dataset.f,t.value);save()};if(t.dataset.rr){t.oninput=h;t.onchange=()=>{h();rLab()}}else t.oninput=h});
+  q(".tg[data-keep]").forEach(b=>b.onclick=()=>{const id=b.dataset.keep,on=b.dataset.on==="1";Lb.notMine=(Lb.notMine||[]).filter(x=>x!==id);if(on){if(!Lb.picks.includes(id))Lb.picks.push(id)}else{Lb.picks=Lb.picks.filter(x=>x!==id);Lb.notMine.push(id)}save();rLab()});
+  q("[data-f]").forEach(t=>{const h=()=>{setP(Lb,t.dataset.f,t.value);save()};if(t.dataset.rr||t.type==="date"){t.oninput=h;t.onchange=()=>{h();if(t.dataset.rr)rLab()}}else t.oninput=h});
   q(".tg[data-c]").forEach(b=>b.onclick=()=>{const p=b.dataset.c,v=b.dataset.val,cur=getP(Lb,p);if(b.dataset.multi){const a=cur||[];setP(Lb,p,a.includes(v)?a.filter(x=>x!==v):[...a,v])}else setP(Lb,p,cur===v?"":v);save();rLab()});
-  q(".tg[data-lev]").forEach(b=>b.onclick=()=>{Lb.lev=b.dataset.lev;Lb.first=null;save();rLab()});
+  q(".tg[data-levs]").forEach(b=>b.onclick=()=>{const k=b.dataset.levs;Lb.levs=Lb.levs.includes(k)?Lb.levs.filter(x=>x!==k):[...Lb.levs,k].slice(0,2);Lb.lev=Lb.levs[0]||null;save();rLab()});
+  q("select[data-qv]").forEach(x=>x.onchange=()=>{Lb.qs[+x.dataset.qv].v=x.value;save();rLab()});
   q("select[data-qw]").forEach(x=>x.onchange=()=>{const qq=Lb.qs[+x.dataset.qw];qq.w=x.value;if(!x.value)qq.on=false;save();rLab()});
   q(".tg[data-qh]").forEach(b=>b.onclick=()=>{const qq=Lb.qs[+b.dataset.qh],h=X.limHint[+b.dataset.j];qq.lim=qq.lim===h?"":h;save();rLab()});
   q("input[data-qon]").forEach(c=>c.onchange=()=>{Lb.qs[+c.dataset.qon].on=c.checked;save();rLab()});
-  const qa=el.querySelector("#qadd");if(qa)qa.onclick=()=>{Lb.qs.push({w:"",lim:"",on:false});save();rLab()};
+  const qa=el.querySelector("#qadd");if(qa)qa.onclick=()=>{Lb.qs.push({v:"",w:"",lim:"",on:false});save();rLab()};
+  q("button[data-fk]").forEach(b=>b.onclick=()=>{const k=b.dataset.fk;if(Lb.field[k]){delete Lb.field[k];if(Lb.first&&Lb.first.key===k)Lb.first=null}else Lb.field[k]=b.dataset.lv;save();rLab()});
+  q(".tg[data-fl]").forEach(b=>b.onclick=()=>{Lb.field[b.dataset.fl]=b.dataset.lv;save();rLab()});
+  q("button[data-exs]").forEach(b=>b.onclick=()=>{Lb.vseed=(Lb.vseed||0)+1;save();rLab()});
   q("button[data-take]").forEach(b=>b.onclick=()=>{const k=b.dataset.take;Lb.first=(Lb.first&&Lb.first.key===k)?null:{key:k};save();rLab()});
   q(".tg[data-real]").forEach(b=>b.onclick=()=>{const t=b.dataset.real,arr=(Lb.kwA||"").split(",").map(x=>x.trim()).filter(Boolean),i=arr.findIndex(x=>x.toLowerCase()===t.toLowerCase());if(i>=0)arr.splice(i,1);else arr.push(t);Lb.kwA=arr.join(", ");save();rLab()});
   q("button[data-addt]").forEach(b=>b.onclick=()=>{const k=b.dataset.addt,arr=Lb[k]=Lb[k]||[];arr.push({t:(k==="aOwn"?X.aTpl:X.bTpl)[+b.dataset.j].replace(/\s*…\s*$/,"")+" "});save();rLab();const i=el.querySelector(`[data-f="${k}.${arr.length-1}.t"]`);if(i){i.focus();i.setSelectionRange(i.value.length,i.value.length)}});
@@ -1579,61 +1687,56 @@ function rLab(){
   const tt=el.querySelector("#tt");if(tt)tt.onclick=()=>{clearInterval(window._tt);let s=180;const c=el.querySelector("#ttc"),f=()=>{c.textContent=s>0?`${Math.floor(s/60)}:${String(s%60).padStart(2,"0")} ${X.timerLeft}`:X.ttDone;if(s--<=0)clearInterval(window._tt)};f();window._tt=setInterval(f,1000)};
   const mp=el.querySelector("#mappdf");if(mp)mp.onclick=()=>mapPdf(mp);
   const pp=el.querySelector("#prpdf");if(pp)pp.onclick=()=>pdf(pp,"promwrap","portrait","obeshchanie-");
-  const pd=el.querySelector("#prDate");if(pd)pd.onchange=()=>{Lb.prDate=pd.value;save();el.querySelector("#prd").textContent=pd.value||"____"};
-  ["kwA","kwB"].forEach(id=>{const i=el.querySelector("#"+id);if(i)i.oninput=()=>{Lb[id]=i.value;save();document.getElementById("fmap").innerHTML=finalMap()}});
-  const vs=el.querySelector("#vshuf");if(vs)vs.onclick=()=>{Lb.vseed=(Lb.vseed||0)+1;save();rLab()};
+  const ka=el.querySelector("#kwA");if(ka)ka.oninput=()=>{Lb.kwA=ka.value;save();document.getElementById("fmap").innerHTML=picSVG()};
+  q("#vshuf").forEach(vs=>vs.onclick=()=>{Lb.vseed=(Lb.vseed||0)+1;save();rLab()});
   const ss=el.querySelector("#sshuf");if(ss)ss.onclick=()=>{Lb.sseed=(Lb.sseed||0)+1;save();rLab()};
-  const dp=el.querySelector("#deep");if(dp)dp.onclick=()=>{Lb.deep=true;go(9)};
-  const sf=el.querySelector("select[data-sf]");if(sf)sf.onchange=()=>{if(Lb.sf&&Lb.sys[Lb.sf]==="+"&&Lb.sf!==sf.value)delete Lb.sys[Lb.sf];Lb.sf=sf.value;if(sf.value&&!Lb.sys[sf.value])Lb.sys[sf.value]="+";save();rLab()};
+  const dp=el.querySelector("#deep");if(dp)dp.onclick=()=>{Lb.deep=true;go(12)};
+  const sf=el.querySelector("select[data-sf]");if(sf)sf.onchange=()=>{const em=Lb.emb=Lb.emb||{};if(em.sf&&Lb.sys[em.sf]==="+"&&em.sf!==sf.value)delete Lb.sys[em.sf];em.sf=sf.value;if(sf.value&&!Lb.sys[sf.value])Lb.sys[sf.value]="+";save();rLab()};
   q(".tg[data-sys]").forEach(b=>b.onclick=()=>{const k=b.dataset.sys,m=b.dataset.m;if(m)Lb.sys[k]=m;else delete Lb.sys[k];save();rLab()});
   q("textarea[data-deep]").forEach(t=>t.oninput=()=>{const [k,i]=t.dataset.deep.split(":");if(i===undefined)Lb[k]=t.value;else{Lb[k]=Lb[k]||{};Lb[k][i]=t.value}save()});
   const jk=el.querySelector("#jkshuf");if(jk)jk.onclick=()=>{const n=T.lb.jokers.length;Lb.jk=(Lb.jk+1+Math.floor(Math.random()*(n-1)))%n;save();rLab()};
   q(".tg[data-jks]").forEach(b=>b.onclick=()=>{Lb.jkSpare=b.dataset.jks;save();rLab()});
   q("select[data-cto]").forEach(x=>x.onchange=()=>{const k=x.dataset.cto;Lb.csqTo[k]=Object.assign(Lb.csqTo[k]||{m:"+"},{to:x.value});if(!x.value)delete Lb.csqTo[k];save();rLab()});
   q(".tg[data-ctm]").forEach(b=>b.onclick=()=>{const k=b.dataset.ctm;if(!Lb.csqTo[k])return;Lb.csqTo[k].m=b.dataset.m;save();rLab()});
+  const al=el.querySelector("#addlev");if(al)al.onclick=()=>{if(Lb.first){const o=wayObj(Lb.first.key);Lb.extra=[...(Lb.extra||[]).filter(x=>x.key!==o.key),{key:o.key,title:o.title,lvl:Lb.field[o.key]||o.lvl,emb:Lb.emb||{},fb:Lb.fb||{}}]}Lb.first=null;Lb.emb={};Lb.fb={};go(7)};
   const nc=el.querySelector("#nextcyc");if(nc)nc.onclick=()=>{const act=((Lb.rev||{}).act||"").trim();Lb.cycles.push({step:stepNow(),changed:act,layer:(Lb.rev||{}).layer||"",date:today()});
-    if(act){Lb.dayA=act;Lb.kwA=""}if(((Lb.rev||{}).succ||"").trim())Lb.succ=Lb.rev.succ.trim();
-    Lb.first=null;Lb.lad={};Lb.com={};Lb.comT={};Lb.sys={};Lb.sf="";Lb.sfT="";Lb.sq={};Lb.loop={};Lb.csq={};Lb.csqTo={};Lb.jk=-1;Lb.jkA="";Lb.jkSpare="";Lb.rev={};Lb.prDate="";go(4)};
+    if(act){Lb.dayA=act;Lb.kwA=""}
+    Lb.first=null;Lb.extra=[];Lb.emb={};Lb.fb={};Lb.sys={};Lb.loop={};Lb.csq={};Lb.csqTo={};Lb.jk=-1;Lb.jkA="";Lb.jkSpare="";Lb.rev={};go(7)};
   const ln=el.querySelector("#ln");if(ln)ln.onclick=()=>go(Math.min(NS-1,st+1));
   const lb=el.querySelector("#lb");if(lb)lb.onclick=()=>go(Math.max(0,st-1));
 }
 function labMD(){
   const Lb=S.lab,X=T.lb2;if(!Lb.picks.length)return "";
   const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]),li=(t,v)=>(v||"").trim()?`- ${t} ${String(v).trim()}\n`:"";
-  let s=`\n## ${T.mdLab}\n\n### ${T.mdVals}\n`;
+  let s=`\n## ${T.mdLab}\n`;
+  const au=Object.keys(Lb.aud||{}).filter(id=>card(id));
+  if(au.length||(Lb.aOwn||[]).length||(Lb.kwA||"").trim()){s+=`\n### ${X.ptAH}\n`;for(const id of au){const a=Lb.aud[id];s+=`- ${short(vtitle(card(id).v),80)}: ${[a.fn,a.eff&&X.aEff[a.eff],a.dif&&X.aDif[a.dif],a.repl&&X.audRepl+" "+a.repl].filter(x=>(x||"").trim()).join("; ")}\n`}
+    for(const x of (Lb.aOwn||[]))if((x.t||"").trim())s+=`- ${x.t.trim()}${[x.fn,x.eff&&X.aEff[x.eff],x.dif&&X.aDif[x.dif]].filter(y=>(y||"").trim()).map(y=>"; "+y).join("")}\n`;
+    s+=li(X.realH,Lb.kwA)}
+  if((Lb.dayA||"").trim()||(Lb.dayB||"").trim())s+=`\n### ${X.mdDay}\n`+li(X.dayA+":",Lb.dayA)+li(X.dayB+":",Lb.dayB);
+  s+=`\n### ${T.mdVals}\n`;
   for(const id of Lb.picks){const c=card(id);if(!c)continue;const v=wvals(id),sr=((Lb.srcs||{})[id]||[]).map(k=>X.src[k]);
-    s+=`- ${vtitle(c.v)}${v.length?" — "+v.join(", "):""}\n`;if(sr.length||((Lb.srcT||{})[id]||"").trim())s+=`  - ${X.srcQ} ${sr.join(", ")}${((Lb.srcT||{})[id]||"").trim()?"; "+Lb.srcT[id].trim():""}\n`;if(((Lb.forg||{})[id]||"").trim())s+=`  - ${X.forgWay}: ${Lb.forg[id].trim()}\n`}
+    s+=`- ${vtitle(c.v)}${v.length?" — "+v.join(", "):""}\n`;if(sr.length||((Lb.srcT||{})[id]||"").trim())s+=`  - ${X.srcQ} ${sr.join(", ")}${((Lb.srcT||{})[id]||"").trim()?"; "+Lb.srcT[id].trim():""}\n`}
+  for(const x of ownT(Lb.bOwn,X.bTpl))s+=`- ${x}\n`;
   if((Lb.notMine||[]).length)s+=`- ${X.nmH}: ${Lb.notMine.map(id=>card(id)?vtitle(card(id).v):"").filter(Boolean).join("; ")}\n`;
   if(ks.length)s+=`\n${T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))}\n`;
-  if(Lb.lev){s+=`\n### ${T.lb.levH}\n- ${T.lb.levT(vLabel(Lb.lev),levIds().length,Lb.picks.length)}\n`;for(const [k,qq] of X.lvQ)s+=li(qq,(Lb.lvA||{})[k])}
+  if(Lb.levs&&Lb.levs.length){s+=`\n### ${X.steps[4]}\n- ${Lb.levs.map(vLabel).join(", ")}\n`;for(const [k,qq] of X.lvQ)s+=li(qq,(Lb.lvA||{})[k])}
   const qs=(Lb.qs||[]).filter(q=>q.w&&card(q.w));
   if(qs.length){s+=`\n### ${X.mdQ}\n`;(Lb.qs||[]).forEach((qq,i)=>{if(!qq.w||!card(qq.w))return;s+=`- ${qq.on?"★ ":""}${qText(qq)}\n`;const c=(Lb.qc||{})[i]||{};
-    for(const [f,lab] of [["why",X.cqWhy],["ifnot",X.cqIf],["own",X.ownSol],["repl",X.replQ]])if((c[f]||"").trim())s+=`  - ${lab} ${c[f].trim()}\n`})}
-  const fo=Lb.first&&wayObj(Lb.first.key);
-  if(fo){s+=`\n### ${T.mdRes}\n- ${T.lb.picStep(fo.title)}\n`;const v=fo.v;if(v&&v.st_ru)s+=`  - ${T.lb.how} ${L(v,"hw")} ${LANG==="en"?(v.st_src_en||v.st_src):v.st_src}\n`;
-    const sp=wayList().filter(o=>o.key!==Lb.first.key);if(sp.length){s+=`- ${T.lb.otherH}:\n`;for(const o of sp)s+=`  - ${o.title}${o.v?" ("+T.worlds[o.v.w]+")":""}\n`}}
-  const au=Object.keys(Lb.aud||{}).filter(id=>card(id)),hasDay=(Lb.aOwn||[]).length||(Lb.bOwn||[]).length||(Lb.dayA||"").trim()||(Lb.dayB||"").trim();
-  if(au.length||hasDay){s+=`\n### ${X.mdDay}\n`;for(const id of au){const a=Lb.aud[id];s+=`- ${short(vtitle(card(id).v),80)}: ${[a.fn,a.eff&&X.aEff[a.eff],a.dif&&X.aDif[a.dif],a.repl&&X.audRepl+" "+a.repl].filter(x=>(x||"").trim()).join("; ")}\n`}
-    for(const x of (Lb.aOwn||[]))if((x.t||"").trim())s+=`- ${X.ptAH}: ${x.t.trim()}${[x.fn,x.eff&&X.aEff[x.eff],x.dif&&X.aDif[x.dif]].filter(y=>(y||"").trim()).map(y=>"; "+y).join("")}\n`;
-    for(const x of (Lb.bOwn||[]))if((x.t||"").trim())s+=`- ${X.ptBH}: ${x.t.trim()}\n`;
-    s+=li(T.lb.ptA+":",Lb.kwA)+li(X.dayA+":",Lb.dayA)+li(X.dayB+":",Lb.dayB)}
-  const com=Lb.com||{},lad=Lb.lad||{},who=Lb.who||{};
-  if(Object.keys(com).length||Object.values(lad).some(x=>(x||"").trim())||(Lb.succ||"").trim()){s+=`\n### ${X.mdCheck}\n`;
-    for(const [k,qq] of X.com)if(com[k])s+=`- ${qq} ${X.comA[com[k]]}${((Lb.comT||{})[k]||"").trim()?" — "+Lb.comT[k].trim():""}\n`;
-    for(const [k,t] of X.lad)s+=li(t+":",lad[k]);
-    X.whoPh.forEach((p,i)=>{const w=who[i]||{};if(w.lv!==undefined&&w.lv!==""||(w.names||"").trim())s+=`- ${X.whoH} (${p}): ${w.lv!==undefined&&w.lv!==""?X.whoLv[+w.lv]:""}${(w.names||"").trim()?" — "+w.names.trim():""}\n`});
-    s+=li(X.succH,Lb.succ)}
+    for(const [f,lab] of [["why",X.cqWhy],["ifnot",X.cqIf],["own",X.ownSol],["min",X.minStep]])if((c[f]||"").trim())s+=`  - ${lab} ${c[f].trim()}\n`})}
+  const fi=fieldItems();if(fi.length){s+=`\n### ${X.steps[7]}\n`;for(const l of ["act","rule","pic"]){const xs=fi.filter(o=>o.lvl===l);if(xs.length){s+=`- ${X.lvl[l]}:\n`;for(const o of xs)s+=`  - ${(Lb.first&&Lb.first.key===o.key)||(Lb.extra||[]).some(x=>x.key===o.key)?"★ ":""}${o.title}\n`}}}
   const th=Lb.thing||{};if(Object.values(th).some(x=>(x||"").trim())){s+=`\n### ${X.mdThing}\n_${X.thNote}_\n`;for(const [k,t] of X.th)s+=li(t,th[k])}
-  if(stepNow())s+=`\n### ${X.prH}\n- ${X.prStep} ${stepNow()}\n`+li(X.prSucc,Lb.succ)+li(X.prDate,Lb.prDate);
-  if(Lb.deep){const SP=D.spheres,ms=SP.filter(sp=>Lb.sys[sp.id]);s+=`\n### ${X.mdDeep}\n`;
-    if(Lb.sf)s+=`- ${X.sfH}: ${nm(SP.find(x=>x.id===Lb.sf))}${(Lb.sfT||"").trim()?" — "+Lb.sfT.trim():""}\n`;
-    if(ms.length)s+=`- ${T.lb.fullSys} ${ms.map(sp=>(Lb.sys[sp.id]==="+"?"+":"−")+" "+nm(sp)).join(", ")}\n`;
-    for(const [k,qq] of X.sysQ2)s+=li(qq,(Lb.sq||{})[k]);
+  const lev1=(title,em,fb)=>{let r=`\n### ${X.chosenL}: ${title}\n`;if(em.sf)r+=`- ${X.embSf}: ${nm(D.spheres.find(x=>x.id===em.sf))}\n`;r+=li(X.plusQ+":",em.plus)+li(X.minusQ+":",em.minus)+li(X.hinderQ+":",em.hinder)+li(X.tomQ+":",em.tom)+li(X.fbSee+":",fb.see)+li(X.fbExpA+":",fb.expA)+li(X.fbDate+":",fb.date);return r};
+  for(const x of (Lb.extra||[]))s+=lev1(x.title,x.emb||{},x.fb||{});
+  if(Lb.first)s+=lev1(firstTitle(),Lb.emb||{},Lb.fb||{});
+  const ms=D.spheres.filter(sp=>Lb.sys[sp.id]);if(ms.length)s+=`- ${T.lb.fullSys} ${ms.map(sp=>(Lb.sys[sp.id]==="+"?"+":"−")+" "+nm(sp)).join(", ")}\n`;
+  const who=Lb.who||{};X.whoPh.forEach((p,i)=>{const w=who[i]||{};if((w.lv!==undefined&&w.lv!=="")||(w.names||"").trim())s+=`- ${X.whoH} (${p}): ${w.lv!==undefined&&w.lv!==""?X.whoLv[+w.lv]:""}${(w.names||"").trim()?" — "+w.names.trim():""}\n`});
+  if(Lb.deep){const SP=D.spheres;s+=`\n### ${X.steps2.join(" · ")}\n`;
     ms.forEach(sp=>{if((Lb.csq[sp.id]||"").trim())s+=`- ${nm(sp)}: ${Lb.csq[sp.id].trim()}\n`});
     Object.keys(Lb.csqTo||{}).forEach(k=>{const c=Lb.csqTo[k];if(c&&c.to)s+=`- ${nm(SP.find(x=>x.id===k))} → ${c.m==="-"?"−":"+"} ${nm(SP.find(x=>x.id===c.to))}\n`});
     for(const [k,qq] of X.loopQ)s+=li(qq,(Lb.loop||{})[k]);
     const J=T.lb.jokers[Lb.jk];if(J)s+=`- ${T.lb.fullJk} ${J[1]}${(Lb.jkA||"").trim()?" — "+Lb.jkA.trim():""}\n`;
-    const rv=Lb.rev||{};if(rv.layer||Object.values(rv).some(x=>(x||"").trim())){s+=`\n### ${X.revH}\n`;if(rv.layer)s+=`- ${X.revLayer} ${X.layers[rv.layer]}\n`;for(const [k,t] of X.revEv)s+=li(t+":",rv[k]);s+=li(X.revAct,rv.act)+li(X.revSucc,rv.succ)}}
+    const rv=Lb.rev||{};if(rv.layer||Object.values(rv).some(x=>(x||"").trim())){if(rv.layer)s+=`- ${X.revLayer} ${X.layers[rv.layer]}\n`;for(const [k,t] of X.revEv)s+=li(t+":",rv[k]);s+=li(X.revAct,rv.act)+li(X.revSucc,rv.succ)}}
   if(Lb.cycles&&Lb.cycles.length){s+=`\n### ${T.lb.cycDone}\n`;Lb.cycles.forEach((c,i)=>{s+=`- ${T.lb.cycN(i+1)} (${c.date}): ${c.step}${c.changed?` → ${c.changed}`:""}\n`})}
   return s;
 }
