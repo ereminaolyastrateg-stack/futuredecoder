@@ -137,6 +137,8 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .wo{font-size:12px;padding:2px 9px;border-radius:999px;background:#f1f3f5;color:#495057}
 .wo.hit{background:#d8f1df;color:#1b6e2e;font-weight:600}
 .promise{border:2px dashed #7048e8;border-radius:16px;padding:18px 20px;margin:18px 0 8px;background:#fff}.promise p{margin:8px 0}
+#s-lab svg foreignObject,.mmw,.mmw *{pointer-events:none}
+.belrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.belrow select{max-width:100%}.belrow input{flex:1;min-width:200px}
 .minimap{margin:6px 0 4px;border:1px solid var(--line);border-radius:14px;padding:6px 12px;background:#fff}.minimap summary{cursor:pointer;font-size:13px}.mmw{max-width:640px;margin:0 auto}.got{margin:6px 0 16px;font-size:14.5px}
 .offer{border:2px solid #7048e8;border-radius:16px;padding:16px 18px;background:#fbfaff;margin:12px 0}.offer.soft{border-style:dashed}
 .sysg2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:6px 18px}.sysg2 .sysr{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:13.5px;padding:3px 0;border-bottom:1px solid var(--line)}
@@ -313,6 +315,7 @@ ru:{
     mapH:"Ваша карта", gotH:"Что вы уже получили:", newT:"новое",
     win:[(w,n,m,s)=>`Ваши «хочу» больше всего тянут в мир «${w}» (${n} из ${m}); сферы: ${s}.`,(n)=>`Точка А описана в ${n} сферах — это левая колонка карты.`,(k,n)=>`Остаётся «хочу»: ${k}, не моё: ${n}. Это колонка Б.`,(v,n,m)=>`Ваш главный двигатель — «${v}»: на него работают ${n} из ${m} «хочу».`,(f,c)=>`Неверных убеждений: ${f}, туч: ${c}. Всё решённое уже в поле рычагов.`,(n,k)=>`В поле рычагов: ${n}, финалистов: ${k}.`,(t,p,m)=>t?`Рычаг «${t}»: плюсов ${p}, минусов ${m}.`:"Выберите рычаг — он встанет в центр карты.",()=>"Карта замкнулась: от точки А через рычаг и шаг к точке Б."],
     cC:"УБЕЖДЕНИЯ И ТУЧИ", given:"данность",
+    res:["денег","свободного времени","сил","своего жилья","стабильной работы","поддержки близких","нужных навыков","здоровья","свободы","удобства"], pickPh:"— выберите —", ownPh:"впишите своё", belTxt2:{no:(v)=>`«${v}» нельзя получить без`,only:(v)=>`«${v}» можно получить только через`,cost:(v)=>`Ради ценности «${v}» придётся отказаться от`},
    },
    keepQ:"Что из этого вы правда хотите?", keepIt:"оставляю",
    startH:"Выберите одну или две ценности, с которых начнёте", qVal:"ценность",
@@ -675,6 +678,7 @@ en:{
     mapH:"Your map", gotH:"What you already have:", newT:"new",
     win:[(w,n,m,s)=>`Your wants pull most towards the «${w}» world (${n} of ${m}); spheres: ${s}.`,(n)=>`Point A is described in ${n} spheres — the left column of the map.`,(k,n)=>`Wants kept: ${k}, not mine: ${n}. That's column B.`,(v,n,m)=>`Your main driver is «${v}»: ${n} of ${m} wants serve it.`,(f,c)=>`Untrue beliefs: ${f}, clouds: ${c}. Everything resolved is already in the lever field.`,(n,k)=>`In the lever field: ${n}, finalists: ${k}.`,(t,p,m)=>t?`Lever «${t}»: ${p} pluses, ${m} minuses.`:"Choose a lever — it goes to the centre of the map.",()=>"The map is closed: from point A through the lever and step to point B."],
     cC:"BELIEFS & CLOUDS", given:"a given",
+    res:["money","free time","energy","a home of my own","a stable job","support of loved ones","the right skills","health","freedom","convenience"], pickPh:"— choose —", ownPh:"write your own", belTxt2:{no:(v)=>`«${v}» is impossible without`,only:(v)=>`«${v}» can only come through`,cost:(v)=>`For «${v}» I would have to give up`},
    },
    keepQ:"Which of these do you truly want?", keepIt:"keep",
    startH:"Choose one or two values to start with", qVal:"value",
@@ -1614,6 +1618,9 @@ function exCand(k,i){const e=D.vals[k].ex[i],key=`ex:${k}:${i}`,on=!!(S.lab.fiel
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,5)}
 function nowSph(){return [...new Set([...S.lab.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id),...S.sel])]}
 function nowText(){const n=S.lab.now||{};return D.spheres.filter(sp=>(n[sp.id]||"").trim()).map(sp=>nm(sp)+": "+n[sp.id].trim())}
+function belText(b){const Y=T.lb2.v4;if(!b.tpl||b.tpl==="own")return (b.tpl==="own"?b.own:b.text)||"";const item=b.x==="~"?(b.xOwn||"").trim():b.tpl==="only"?(card(b.x)?wName(b.x):""):(Y.res[+b.x]||"");return item?`${Y.belTxt2[b.tpl](vLabel(b.v))} ${item}`:""}
+function belItem(b){return b.x==="~"?(b.xOwn||"").trim().toLowerCase():b.x||""}
+function optSel(attr,opts,cur){const Y=T.lb2.v4;return `<select ${attr}><option value="">${Y.pickPh}</option>${opts.map(([k,l])=>`<option value="${esc(k)}" ${cur===k?"selected":""}>${esc(l)}</option>`).join("")}<option value="~" ${cur==="~"?"selected":""}>${T.lb2.wOwnOpt}</option></select>`}
 function belById(id){return (S.lab.bel||[]).find(b=>b.id===id)}
 function clById(id){return (S.lab.cl2||[]).find(c=>c.id===id)}
 function belTitle(b){return (b.ifnot||"").trim()||((LANG==="en"?"No longer true: ":"Больше не считаю: ")+(b.text||"").trim())}
@@ -1641,7 +1648,10 @@ function elems(){const Lb=S.lab,Y=T.lb2.v4,o=[];
 function linkOf(fk,ek){const l=(S.lab.link[fk]||{})[ek];if(l!==undefined)return l;return (S.lab.cover[fk]||[]).includes(ek)?"+":""}
 function sysElems(fk){const Lb=S.lab;return [...elems(),...D.spheres.map(sp=>({k:"s:"+sp.id,t:"s",label:nm(sp)})),...[...(Lb.fin||[]),...(Lb.extra||[]).map(x=>x.key)].filter(k=>k!==fk&&wayObj(k)).map(k=>({k:"l:"+k,t:"l",label:cut(wayObj(k).title,60)}))]}
 function score(fk){let p=0,m=0;for(const e of sysElems(fk)){const l=linkOf(fk,e.k);if(l==="+")p++;else if(l==="-")m++}return [p,m]}
-function belRoots(){const stop=new Set("нельзя получить можно только через чтобы придётся будет больше своими impossible without through only have will would could should".split(" "));
+function belRoots(){const ic={};for(const b of (S.lab.bel||[])){const it=belItem(b);if(it&&b.tpl&&b.tpl!=="own")ic[it]=(ic[it]||0)+1}
+  const byItem=Object.keys(ic).filter(k=>ic[k]>=2).map(k=>{const b=S.lab.bel.find(x=>belItem(x)===k);return b.x==="~"?b.xOwn.trim():b.tpl==="only"?wName(b.x):T.lb2.v4.res[+b.x]});if(byItem.length)return byItem;
+  return belRootsW()}
+function belRootsW(){const stop=new Set("нельзя получить можно только через чтобы придётся будет больше своими impossible without through only have will would could should".split(" "));
   const cnt={};for(const b of (S.lab.bel||[])){const ws=new Set(((b.text||"").toLowerCase().match(/[a-zа-яё]{5,}/g)||[]).filter(w=>!stop.has(w)&&!Object.keys(valCounts()).some(k=>vLabel(k).toLowerCase().includes(w))));ws.forEach(w=>cnt[w]=(cnt[w]||0)+1)}
   return Object.keys(cnt).filter(w=>cnt[w]>=2).sort((a,b)=>cnt[b]-cnt[a])}
 function ics(){const Lb=S.lab,fb=Lb.fb||{},d=(fb.date||"").replace(/-/g,"");if(!d)return null;const cl=t=>(t||"").replace(/[\n\r]+/g," ").replace(/[,;]/g,"\\$&");
@@ -1752,12 +1762,12 @@ function rLab(){
     const roots=belRoots(),r0=roots[0],fl=(Lb.bel||[]).filter(b=>b.st==="false"&&(b.text||"").trim());
     body=`<h2>${Y.steps[4]}</h2>${ex}<h3>${Y.belH}</h3><p class="muted">${Y.belP}</p>`+Lb.levs.map(k=>`<div class="noprint" style="margin:6px 0"><b>${esc(vLabel(k))}:</b> <span class="tags">${Y.belTpl.map(([t,l])=>`<button class="tg" data-belt="${t}" data-v="${esc(k)}">+ ${esc(l)}</button>`).join("")}</span></div>`).join("")+
       (r0?`<div class="sumbox"><p style="margin:0"><b>${Y.rootH}.</b> ${esc(Y.rootP(r0))}</p></div>`:"")+
-      Lb.bel.map((b,i)=>{const isRoot=r0&&(b.text||"").toLowerCase().includes(r0);return `<div class="item bel" style="border-left-color:${b.st==="false"?"#7048e8":b.st==="true"?"#adb5bd":"#e8590c"}">${isRoot?`<p class="muted" style="margin:0 0 4px;font-size:12px;color:#7048e8"><b>● ${Y.rootH}</b></p>`:""}${fld("bel."+i+".text","…",2)}
+      Lb.bel.map((b,i)=>{const isRoot=r0&&(b.text||"").toLowerCase().includes(r0.toLowerCase());return `<div class="item bel" style="border-left-color:${b.st==="false"?"#7048e8":b.st==="true"?"#adb5bd":"#e8590c"}">${isRoot?`<p class="muted" style="margin:0 0 4px;font-size:12px;color:#7048e8"><b>● ${Y.rootH}</b></p>`:""}${!b.tpl?fld("bel."+i+".text","…",2):b.tpl==="own"?fld("bel."+i+".own","…",2):`<div class="belrow"><b>${esc(Y.belTxt2[b.tpl](vLabel(b.v)))}</b> ${optSel(`data-bx="${i}"`,b.tpl==="only"?[...Lb.picks.filter(id=>hasVal(id,b.v)),...Lb.picks.filter(id=>!hasVal(id,b.v))].map(id=>[id,wName(id)]):Y.res.map((r,j)=>[String(j),r]),b.x||"")}${b.x==="~"?fld("bel."+i+".xOwn",Y.ownPh,0):""}</div>`}
         ${qnum(1,Y.belSrc)}${tagChips("bel."+i+".src",Y.belSrcO)}${qnum(2,Y.belWhy)}${fld("bel."+i+".why",Y.belWhyPh,2)}${qnum(3,Y.belIf)}${fld("bel."+i+".ifnot",Y.belIfPh,2)}
         <div class="row noprint" style="margin-top:8px"><button class="btn ${b.st==="false"?"":"ghost"}" data-bst="${i}" data-v="false">${b.st==="false"?Y.belFalseOn:Y.belFalse}</button><button class="btn ${b.st==="true"?"":"ghost"}" data-bst="${i}" data-v="true">${b.st==="true"?Y.belTrueOn:Y.belTrue}</button><button class="btn ghost" data-bdel="${i}" style="font-size:13px">${Y.belDel}</button></div></div>`}).join("")+
       (fl.length?`<div class="sumbox"><h3 style="margin-top:0">${Y.falseH}</h3>${fl.map(b=>`<p style="margin:4px 0">— ${esc(b.text.trim())}</p>`).join("")}</div>`:"")+
       `<h3>${Y.clH}</h3><p class="note">${esc(Y.clP)}</p>`+Lb.cl2.map((c,i)=>{const inF=("cl:"+c.id) in Lb.field;return `<div class="item cloud">${tagChips("cl2."+i+".kind",Y.clKind)}
-        <div class="days"><div>${qnum("A",Y.clA)}${fld("cl2."+i+".a","…",0)}${qnum("",Y.clNA)}${fld("cl2."+i+".na","…",0)}</div><div>${qnum("B",Y.clB)}${fld("cl2."+i+".b","…",0)}${qnum("",Y.clNB)}${fld("cl2."+i+".nb","…",0)}</div></div>
+        <div class="days"><div>${qnum("A",Y.clA)}${optSel(`data-cs="${i}" data-k="a"`,[...Lb.picks,...(Lb.notMine||[])].filter(card).map(id=>[id,wName(id)]),c.aSel||"")}${c.aSel==="~"?fld("cl2."+i+".aOwn",Y.ownPh,0):""}${qnum("",Y.clNA)}${optSel(`data-cs="${i}" data-k="na"`,Object.keys(T.vals).map(k=>[k,T.vals[k]]),c.naSel||"")}${c.naSel==="~"?fld("cl2."+i+".naOwn",Y.ownPh,0):""}</div><div>${qnum("B",Y.clB)}${optSel(`data-cs="${i}" data-k="b"`,[...Lb.picks,...(Lb.notMine||[])].filter(card).map(id=>[id,wName(id)]),c.bSel||"")}${c.bSel==="~"?fld("cl2."+i+".bOwn",Y.ownPh,0):""}${qnum("",Y.clNB)}${optSel(`data-cs="${i}" data-k="nb"`,Object.keys(T.vals).map(k=>[k,T.vals[k]]),c.nbSel||"")}${c.nbSel==="~"?fld("cl2."+i+".nbOwn",Y.ownPh,0):""}</div></div>
         ${qnum("",Y.clGoal)}${fld("cl2."+i+".goal","…",0)}<div data-clsvg="${i}">${clSVG(c)}</div>
         ${qnum(1,Y.clWhy)}${fld("cl2."+i+".why",Y.clWhyPh,2)}${qnum(2,Y.belIf)}${fld("cl2."+i+".ifnot",Y.belIfPh,2)}
         <div class="row noprint" style="margin-top:8px"><button class="btn ${inF?"":"ghost"}" data-clf="${c.id}" data-ci="${i}">${inF?Y.clInF:Y.clToF}</button><button class="btn ghost" data-cldel="${i}" style="font-size:13px">${Y.belDel}</button></div></div>`}).join("")+
@@ -1830,13 +1840,16 @@ function rLab(){
   q(".tg[data-keep]").forEach(b=>b.onclick=()=>{const id=b.dataset.keep,on=b.dataset.on==="1";Lb.notMine=(Lb.notMine||[]).filter(x=>x!==id);if(on){if(!Lb.picks.includes(id))Lb.picks.push(id)}else{Lb.picks=Lb.picks.filter(x=>x!==id);Lb.notMine.push(id)}save();rLab()});
   const live=()=>{const who=Lb.who||{},whoN=[...Object.values(who).map(w=>(w&&w.names||"").trim()),(who.talk||"").trim()].filter(Boolean).join(", "),V={step:stepNow()||"…",who:whoN||"…",see:((Lb.fb||{}).see||"").trim()||"…",date:(Lb.fb||{}).date||"____",remind:((Lb.thing||{}).remind||"").trim()||"…"};
     q("[data-live]").forEach(x=>x.textContent=V[x.dataset.live]);const fm=el.querySelector("#fmap");if(fm){clearTimeout(window._fmT);window._fmT=setTimeout(()=>{fm.innerHTML=picSVG()},300)}};
-  q("[data-f]").forEach(t=>{const h=()=>{setP(Lb,t.dataset.f,t.value);save();const m=/^cl2\.(\d+)\./.exec(t.dataset.f);if(m){const d=el.querySelector(`[data-clsvg="${m[1]}"]`);if(d)d.innerHTML=clSVG(Lb.cl2[+m[1]])}live()};if(t.dataset.rr){t.oninput=h;t.onchange=()=>{h();rLab()}}else t.oninput=h});
+  q("[data-f]").forEach(t=>{const h=()=>{setP(Lb,t.dataset.f,t.value);save();const mb=/^bel\.(\d+)\./.exec(t.dataset.f);if(mb){const bb=Lb.bel[+mb[1]];bb.text=belText(bb)}
+    const m=/^cl2\.(\d+)\.(\w+)/.exec(t.dataset.f);if(m){const cc=Lb.cl2[+m[1]],f=m[2];if(f==="aOwn")cc.a=t.value;if(f==="bOwn")cc.b=t.value;if(f==="naOwn")cc.na=t.value;if(f==="nbOwn")cc.nb=t.value;const d=el.querySelector(`[data-clsvg="${m[1]}"]`);if(d)d.innerHTML=clSVG(Lb.cl2[+m[1]])}live()};if(t.dataset.rr){t.oninput=h;t.onchange=()=>{h();rLab()}}else t.oninput=h});
   q(".tg[data-c]").forEach(b=>b.onclick=()=>{const p=b.dataset.c,v=b.dataset.val,cur=getP(Lb,p);if(b.dataset.multi){const a=cur||[];setP(Lb,p,a.includes(v)?a.filter(x=>x!==v):[...a,v])}else setP(Lb,p,cur===v?"":v);save();rLab()});
   q(".tg[data-nowadd]").forEach(b=>b.onclick=()=>{const k=b.dataset.nowadd,t=b.dataset.t,cur=(Lb.now[k]||"").trim();Lb.now[k]=cur?(cur.replace(/[.;,]?$/,"")+"; "+t):t;save();rLab()});
   q(".tg[data-levs]").forEach(b=>b.onclick=()=>{const k=b.dataset.levs;Lb.levs=Lb.levs.includes(k)?Lb.levs.filter(x=>x!==k):[...Lb.levs,k].slice(0,2);Lb.lev=Lb.levs[0]||null;save();rLab()});
-  q(".tg[data-belt]").forEach(b=>b.onclick=()=>{const t=b.dataset.belt;Lb.bel.push({id:uid(),tpl:t,v:b.dataset.v,text:Y.belTxt[t](vLabel(b.dataset.v)),st:""});save();rLab();const ta=el.querySelector(`[data-f="bel.${Lb.bel.length-1}.text"]`);if(ta){ta.focus();ta.setSelectionRange(ta.value.length,ta.value.length)}});
+  q(".tg[data-belt]").forEach(b=>b.onclick=()=>{const t=b.dataset.belt;Lb.bel.push({id:uid(),tpl:t,v:b.dataset.v,x:"",xOwn:"",own:"",text:"",st:""});save();rLab();if(t==="own"){const ta=el.querySelector(`[data-f="bel.${Lb.bel.length-1}.own"]`);if(ta)ta.focus()}});
   q("button[data-bst]").forEach(b=>b.onclick=()=>{const bl=Lb.bel[+b.dataset.bst],v=b.dataset.v,k="bel:"+bl.id;bl.st=bl.st===v?"":v;if(bl.st==="false"){if(!(k in Lb.field))Lb.field[k]=""}else{delete Lb.field[k];Lb.fin=Lb.fin.filter(x=>x!==k)}save();rLab()});
   q("button[data-bdel]").forEach(b=>b.onclick=()=>{const bl=Lb.bel.splice(+b.dataset.bdel,1)[0];delete Lb.field["bel:"+bl.id];save();rLab()});
+  q("select[data-bx]").forEach(x=>x.onchange=()=>{const bb=Lb.bel[+x.dataset.bx];bb.x=x.value;bb.text=belText(bb);save();rLab()});
+  q("select[data-cs]").forEach(x=>x.onchange=()=>{const cc=Lb.cl2[+x.dataset.cs],k=x.dataset.k,v=x.value;cc[k+"Sel"]=v;cc[k]=v==="~"?(cc[k+"Own"]||""):!v?"":(k==="a"||k==="b")?wName(v):T.vals[v];save();rLab()});
   const ca=el.querySelector("#cladd");if(ca)ca.onclick=()=>{Lb.cl2.push({id:uid(),kind:"both"});save();rLab()};
   q("button[data-clf]").forEach(b=>b.onclick=()=>{const k="cl:"+b.dataset.clf;if(!(k in Lb.field)&&!((Lb.cl2[+b.dataset.ci]||{}).ifnot||"").trim()){const t=el.querySelector(`[data-f="cl2.${b.dataset.ci}.ifnot"]`);if(t)t.focus();return}if(k in Lb.field)delete Lb.field[k];else Lb.field[k]="";save();rLab()});
   q("button[data-cldel]").forEach(b=>b.onclick=()=>{const c=Lb.cl2.splice(+b.dataset.cldel,1)[0];delete Lb.field["cl:"+c.id];save();rLab()});
