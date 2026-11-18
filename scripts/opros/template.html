@@ -154,6 +154,7 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .canvas{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
 .oc{background:#fff;border:1px solid var(--line);border-top:4px solid var(--ink);border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.35}
 @media(max-width:760px){.abmap{grid-template-columns:1fr}.abmap .arr{transform:rotate(90deg);justify-self:center}}
+.kw{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 4px}.kw label{font-size:13.5px;color:var(--muted)}.kw input{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}@media(max-width:640px){.kw{grid-template-columns:1fr}}
 .sumbox{border:1.5px solid var(--ink);border-radius:16px;padding:16px 18px;margin:20px 0}
 .sumbox .big{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px}
 .vbar{display:grid;grid-template-columns:150px 1fr 34px;gap:10px;align-items:center;margin:5px 0;font-size:14px}
@@ -211,9 +212,9 @@ const T = {
 ru:{
   h1:"Как сейчас и каким хочу",
   lb:{
-   steps:["Выбрать","Зачем","Тучи","Рычаг","Способы","Что нужно","Первый шаг"],
+   steps:["Выбрать","Зачем","Тучи","Рычаг","Дороги","Карта"],
    h:"Продолжить: от «хочу» к первому шагу",
-   intro:"Это короткая версия лаборатории «Архитектура человека». Семь шагов: выбрать главные «хочу», понять, ради чего они, разобрать, где они спорят, найти ценность-рычаг, выбрать способы её получить, понять, чего не хватает, и сделать первый шаг без этого. На каждом шаге — вопросы и примеры, а отвечаете вы. Всё остаётся в этом браузере.",
+   intro:"Это короткая версия лаборатории «Архитектура человека». Шесть шагов: выбрать главные «хочу», понять, ради чего они, разобрать, где они спорят, найти ценность-рычаг, выбрать дорогу, с которой начнёте, и увидеть свою карту от точки А к точке Б. На каждом шаге — вопросы и примеры, а отвечаете вы. Всё остаётся в этом браузере.",
    empty:"Сначала отметьте хотя бы одно «хочу» в опросе.",
    pickH:"Выберите до 10 «хочу», с которыми хотите работать дальше",
    pickN:(n,s)=>`Выбрано ${n} из 10, сфер: ${s}. Можно и из одной: глубина важнее ширины`,
@@ -264,9 +265,8 @@ ru:{
        "Желание — это способ. За ним стоит ценность, то, что вы на самом деле хотите получить. Когда видна ценность, видны и другие дороги к ней.",
        "Грозовая туча — метод Элияху Голдратта. Два желания спорят, но у них есть общая цель. Конфликт держится на скрытом «потому что…». Найдите его и проверьте: если это неправда, туча рассеивается. Отвечайте по порядку, примеры подскажут.",
        "Рычаг — ценность, на которую работает больше всего ваших желаний. Сдвинете её, и сдвинутся сразу несколько. Мы подсветили самую частую, но выбираете вы.",
-       "Одна ценность — много дорог. Ниже способы, которыми люди уже сегодня получают то же самое, в четырёх логиках. Выберите до трёх, которые вам ближе. Можно взять способ из чужого мира или дописать свой.",
-       "Теперь про ресурсы: что нужно каждому способу и что из этого у вас уже есть. Если чего-то не хватает, это не тупик, а следующий вопрос: где это взять? Подсказки в четырёх логиках, ответ ваш. В конце посмотрите на картину целиком.",
-       "Начинаем с того, что не требует недостающего. Шаг хорош, если он сам добывает то, чего не хватало: тогда запускается петля."],
+       "Одна ценность — много дорог. Ниже способы, которыми люди уже сегодня получают то же самое, в четырёх логиках. Выберите один, с которого начнёте. Остальные не пропадут: на карте они останутся запасными дорогами.",
+       "Ваша карта на одном экране: откуда вы идёте, куда хотите прийти, ради каких ценностей и какой дорогой начинаете. Пунктиры — запасные дороги: если первая не сработает, есть с чего начать снова."],
    gA:"Общая цель", gAq:"Чего вы хотите добиться и тем и другим?", gAph:"например: чувствовать себя в безопасности",
    gB:"Потребность", gBq:(t)=>`Ради чего вам «${t}»?`, gBph:"например: своё место, которое никто не отнимет",
    gD:"Действие",
@@ -304,6 +304,10 @@ ru:{
    otherH:"Другие пути из А в Б, которые вы пока отложили",
    otherP:"Это не отказ, а запас. Если первый шаг не сработает или захочется второго, начните отсюда.",
    oWays:"способ", oIdeas:"идея из тучи", oWants:"следующее «хочу»", oSrc:"где взять",
+   wStart:"Выберите одну дорогу, с которой начнёте.", startOn:"Начну с этого", startedOn:"Начинаю с этого",
+   kwA:"Точка А своими словами (необязательно)", kwAph:"например: съёмная квартира, одна зарплата, нет запаса",
+   kwB:"Точка Б ключевыми словами: что у вас там есть", kwBph:"например: свой дом, запас на полгода, два источника дохода",
+   mA:"ТОЧКА А · СЕЙЧАС", mB:"ТОЧКА Б · ХОЧУ", mMid:"ЧТО МОЖНО СДЕЛАТЬ", mFirst:"первый шаг", mSpare:"запасные дороги", mVals:"ради чего", mLeave:"уйти от", mHold:"держит:", mWorld:(w)=>`живу в ${w}`,
    schemeH:"Ваша схема",
    sig:"Сигнал:",
    idea:"Идея",
@@ -365,9 +369,9 @@ ru:{
 en:{
   h1:"Now and wanted",
   lb:{
-   steps:["Choose","Why","Clouds","Lever","Ways","Needs","First step"],
+   steps:["Choose","Why","Clouds","Lever","Roads","Map"],
    h:"Continue: from wants to a first step",
-   intro:"This is a short version of the «Human Architecture» lab. Seven steps: pick your main wants, see what they are for, untangle where they clash, find the lever value, choose ways to get it, see what is missing, and take a first step without it. Each step has questions and examples, and you do the answering. Everything stays in this browser.",
+   intro:"This is a short version of the «Human Architecture» lab. Six steps: pick your main wants, see what they are for, untangle where they clash, find the lever value, choose the road you start on, and see your map from point A to point B. Each step has questions and examples, and you do the answering. Everything stays in this browser.",
    empty:"First mark at least one want in the questionnaire.",
    pickH:"Choose up to 10 wants to keep working with",
    pickN:(n,s)=>`${n} of 10 chosen, spheres: ${s}. One sphere is fine: depth beats breadth`,
@@ -418,9 +422,8 @@ en:{
        "A want is a means. Behind it is a value, what you really want to get. Once the value is visible, other roads to it become visible too.",
        "The storm cloud is Eliyahu Goldratt's method. Two wants clash, yet they share a goal. The conflict rests on a hidden “because…”. Find it and test it: if it isn't true, the cloud evaporates. Answer in order; the examples will help.",
        "The lever is the value most of your wants serve. Move it and several move at once. We've highlighted the most frequent one, but the choice is yours.",
-       "One value, many roads. Below are ways people already get the same thing today, in four logics. Pick up to three that feel closest. You can take a way from another world or add your own.",
-       "Now resources: what each way needs and what you already have. If something is missing, that is not a dead end but the next question: where can you get it? Prompts come in four logics; the answer is yours. Then look at the whole picture.",
-       "We start with what doesn't need the missing resource. A step is good if it brings in what was missing: then the loop starts."],
+       "One value, many roads. Below are ways people already get the same thing today, in four logics. Choose one to start with. The others don't disappear: they stay on your map as spare roads.",
+       "Your map on one screen: where you come from, where you want to get to, for which values, and which road you start on. Dashed lines are spare roads: if the first doesn't work, you have somewhere to start again."],
    gA:"Common goal", gAq:"What do you want to achieve with both?", gAph:"e.g. to feel secure",
    gB:"Need", gBq:(t)=>`What is «${t}» for?`, gBph:"e.g. a place of my own that no one can take away",
    gD:"Action",
@@ -458,6 +461,10 @@ en:{
    otherH:"Other roads from A to B you've set aside for now",
    otherP:"This isn't a refusal but a reserve. If the first step doesn't work or you want a second one, start here.",
    oWays:"way", oIdeas:"idea from a cloud", oWants:"next want", oSrc:"where to get",
+   wStart:"Choose one road to start with.", startOn:"I'll start here", startedOn:"Starting here",
+   kwA:"Point A in your own words (optional)", kwAph:"e.g. a rented flat, one salary, no reserve",
+   kwB:"Point B in key words: what you have there", kwBph:"e.g. a home of my own, six months' reserve, two income streams",
+   mA:"POINT A · NOW", mB:"POINT B · WANTED", mMid:"WHAT I CAN DO", mFirst:"first step", mSpare:"spare roads", mVals:"what for", mLeave:"move away from", mHold:"holding me:", mWorld:(w)=>`living in ${w}`,
    schemeH:"Your scheme",
    sig:"Signal:",
    idea:"Idea",
@@ -524,7 +531,7 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:""});
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:""});
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
@@ -870,7 +877,7 @@ function wayHTML(o,mode,extra){
   const v=o.v,L_=S.lab;
   const on=mode==="pick"?L_.ways.includes(o.key):(L_.first&&L_.first.key===o.key);
   const btn=mode==="none"?"":mode==="pick"?`<button class="btn ${on?"":"ghost"} noprint" data-way="${esc(o.key)}" ${!on&&L_.ways.length>=3?"disabled":""} style="margin-top:8px">${on?"✓ "+T.lb.picked:T.lb.pickWay}</button>`
-                         :`<button class="btn ${on?"":"ghost"} noprint" data-take="${esc(o.key)}" style="margin-top:8px">${on?"✓ "+T.lb.taken:T.lb.take}</button>`;
+                         :`<button class="btn ${on?"":"ghost"} noprint" data-take="${esc(o.key)}" style="margin-top:8px">${on?"✓ "+T.lb.startedOn:T.lb.startOn}</button>`;
   if(!v)return `<div class="way${on?" on":""}" style="border-left-color:var(--ink)"><p class="t"><b>${o.idea?T.lb.ideaWay:T.lb.ownWay}.</b> ${esc(o.title)}</p>${extra||""}${btn}</div>`;
   const has=!!v.st_ru,src=has?(LANG==="en"?(v.st_src_en||v.st_src):v.st_src):(LANG==="en"?v.g_src_en:v.g_src);
   const tags=(v.st_wo||[]).map(k=>`<span class="wo${k===L_.def?" hit":""}">${T.lb.wo[k]}</span>`).join("");
@@ -943,6 +950,50 @@ function mapHTML(){
   const O=other.length?`<h3 style="margin:22px 0 4px">${T.lb.otherH}</h3><p class="muted" style="font-size:14px;margin:0 0 8px">${T.lb.otherP}</p><div class="canvas">${other.map(x=>`<div class="oc" style="border-top-color:${x.w?WC[x.w]:"var(--ink)"}"><span class="cap">${esc(x.g)}${x.w?" · "+T.worlds[x.w]:""}</span>${esc(cut(x.t,140))}</div>`).join("")}</div>`:"";
   return `<div class="sumbox" style="margin-top:22px"><h2 style="margin-top:0">${T.lb.mapH}</h2><div class="abmap">${A}<div class="arr">→</div>${St}<div class="arr">→</div>${B}</div>${O}<p class="big" style="margin-top:16px">${T.lb.picQ}</p></div>`;
 }
+function finalMap(){
+  const Lb=S.lab,W=1000,H=640,top=58,bot=H-14,kind=k=>(k||"").split(/[,;\n]+/).map(x=>x.trim()).filter(Boolean);
+  const C=conclusion(),wk=Object.keys(T.worlds),mx=Math.max(...wk.map(k=>C.now[k])),nowW=mx?wk.filter(k=>C.now[k]===mx):[];
+  const keep=[],drop=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&r.a==="keep")keep.push(v);if(r&&r.a==="drop")drop.push(v)}
+  const cs=findClouds(),c0=(cs[0]&&Lb.clouds[cs[0].key])||{},why=(c0.why||"").trim();
+  const chip=(t,col,x)=>`<span style="display:inline-block;margin:0 4px 5px 0;padding:3px 9px;border-radius:999px;font-size:12px;line-height:1.3;background:${x==="drop"?"#fff":"#f1f3f5"};border:1.5px solid ${col||"#ced4da"};${x==="drop"?"text-decoration:line-through;color:#868e96":""}">${esc(cut(t,40))}</span>`;
+  const fo=(x,y,w,h,html)=>`<foreignObject x="${x}" y="${y}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:12.5px;line-height:1.35;color:#111;height:${h}px;overflow:hidden">${html}</div></foreignObject>`;
+  const cap=(x,y,t,col)=>`<text x="${x}" y="${y}" font-size="12" font-weight="700" letter-spacing=".05em" fill="${col||"#868e96"}">${esc(t)}</text>`;
+  let e="",n="";
+  // точка А
+  const aKw=kind(Lb.kwA);
+  let aH=`${nowW.length?`<p style="margin:0 0 8px;font-weight:600">${esc(T.lb.mWorld(nowW.map(k=>T.wPrep[k]).join(T.vAnd)))}</p>`:""}`+
+    (aKw.length?aKw.map(t=>chip(t)).join(""):keep.slice(0,6).map(v=>chip(L(v,"n"),WC[v.w])).join(""))+
+    (drop.length?`<p style="margin:8px 0 4px;color:#868e96">${T.lb.mLeave}</p>`+drop.slice(0,5).map(v=>chip(L(v,"n"),WC[v.w],"drop")).join(""):"")+
+    (why?`<p style="margin:10px 0 0"><span style="color:#868e96">${T.lb.mHold}</span> ${esc(cut(why,120))}</p>`:"");
+  n+=`<rect x="10" y="${top-26}" width="230" height="${bot-top+26}" rx="16" fill="#fff" stroke="#adb5bd" stroke-width="1.5"/>`+cap(26,top-6,T.lb.mA)+fo(22,top+4,206,bot-top-12,aH);
+  // точка Б
+  const bx=760,bKw=kind(Lb.kwB),P=Lb.picks.map(card).filter(Boolean),kwH=bKw.length?Math.min(150,24+Math.ceil(bKw.length/2)*28):0;
+  n+=`<rect x="${bx}" y="${top-26}" width="230" height="${bot-top+26}" rx="16" fill="#fbfaff" stroke="#111" stroke-width="2.5"/>`+cap(bx+16,top-6,T.lb.mB,"#111");
+  if(kwH)n+=fo(bx+12,top+2,206,kwH,bKw.map(t=>chip(t,"#7048e8")).join(""));
+  const r0=top+kwH+8,rh=Math.min(56,(bot-8-r0)/Math.max(1,P.length)),ry=i=>r0+i*rh;
+  P.forEach((c,i)=>{n+=`<rect x="${bx+12}" y="${ry(i)}" width="206" height="${rh-6}" rx="9" fill="#fff" stroke="#ced4da"/><rect x="${bx+12}" y="${ry(i)}" width="6" height="${rh-6}" rx="3" fill="${WC[c.v.w]}"/>`+fo(bx+24,ry(i)+2,190,rh-10,`<div style="display:flex;align-items:center;height:${rh-10}px">${esc(cut(L(c.v,"n")||vtitle(c.v),60))}</div>`)});
+  // ценности
+  const vc=valCounts();let vk=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]).slice(0,5);const lev=Lb.lev&&vc[Lb.lev]?Lb.lev:vk[0];
+  if(lev&&!vk.includes(lev))vk=[...vk.slice(0,4),lev];
+  const others=vk.filter(k=>k!==lev),mid=Math.floor(others.length/2),order=lev?[...others.slice(0,mid),lev,...others.slice(mid)]:others;
+  const vx=665,vy=i=>top+30+(i+0.5)*((bot-top-40)/Math.max(1,order.length)),vY={};order.forEach((k,i)=>vY[k]=vy(i));
+  n+=cap(vx-36,top-6,T.lb.mVals);
+  order.forEach(k=>{P.forEach((c,i)=>{if(hasVal(c.v.id,k)){const L_=k===lev;e+=`<path d="M${vx+(L_?52:38)},${vY[k]} C${vx+70},${vY[k]} ${bx-30},${ry(i)+(rh-6)/2} ${bx+12},${ry(i)+(rh-6)/2}" fill="none" stroke="${L_?"#7048e8":"#ced4da"}" stroke-width="${L_?2.6:1.4}"/>`}})});
+  order.forEach(k=>{const L_=k===lev,r=L_?52:38,lbl=vLabel(k),fs=L_?(lbl.length>11?11.5:13.5):(lbl.length>10?9.5:11.5);n+=`<circle cx="${vx}" cy="${vY[k]}" r="${r}" fill="${L_?"#7048e8":"#fff"}" stroke="${L_?"#7048e8":"#adb5bd"}" stroke-width="1.6"/>`+fo(vx-r+4,vY[k]-r+4,2*r-8,2*r-8,`<div style="display:flex;align-items:center;justify-content:center;text-align:center;height:${2*r-8}px;font-size:${fs}px;font-weight:600;line-height:1.1;overflow-wrap:anywhere;hyphens:auto;color:${L_?"#fff":"#111"}">${esc(lbl)}</div>`)});
+  // середина: первый шаг и запасные дороги
+  const levY=lev?vY[lev]:(top+bot)/2,f=Lb.first&&wayObj(Lb.first.key);
+  const sp0=wayList().filter(o=>!(Lb.first&&Lb.first.key===o.key)),grp={};sp0.forEach(o=>(grp[o.want||"_"]=grp[o.want||"_"]||[]).push(o));const gs=Object.values(grp),spare=[];for(let i=0;spare.length<6&&i<6;i++)for(const g of gs)if(g[i]&&spare.length<6)spare.push(g[i]);
+  const nS=spare.length+1,sh=(bot-top-20)/nS,slots=[...Array(nS)].map((_,i)=>top+20+i*sh+sh/2);
+  let si=0,best=1e9;slots.forEach((y,i)=>{if(Math.abs(y-levY)<best){best=Math.abs(y-levY);si=i}});
+  n+=cap(270,top-6,T.lb.mMid)+(spare.length?`<text x="582" y="${top-6}" text-anchor="end" font-size="11.5" fill="#adb5bd">· ${esc(T.lb.mSpare)} — - - -</text>`:"");
+  let k2=0;slots.forEach((y,i)=>{if(i===si)return;const o=spare[k2++];if(!o)return;const col=o.v?WC[o.v.w]:"#868e96",bh=Math.min(46,sh-8);
+    e+=`<path d="M240,${y} L292,${y}" stroke="#ced4da" stroke-width="1.4" stroke-dasharray="4 4"/><path d="M582,${y} C600,${y} 610,${levY} ${vx-(lev?52:38)},${levY}" fill="none" stroke="#dee2e6" stroke-width="1.2" stroke-dasharray="4 4"/>`;
+    n+=`<rect x="292" y="${y-bh/2}" width="290" height="${bh}" rx="10" fill="#fff" stroke="${col}" stroke-width="1.4" stroke-dasharray="5 4"/>`+fo(300,y-bh/2+2,276,bh-4,`<div style="display:flex;align-items:center;height:${bh-4}px;font-size:11.5px;color:#495057">${esc(cut(o.v?stepText(o.v):o.title,95))}</div>`)});
+  const sy=slots[si],fh=Math.min(92,Math.max(64,sh-6));
+  e+=`<path d="M240,${sy} L284,${sy}" stroke="#7048e8" stroke-width="4" marker-end="url(#fm)"/><path d="M582,${sy} C605,${sy} 600,${levY} ${vx-(lev?54:40)},${levY}" fill="none" stroke="#7048e8" stroke-width="4" marker-end="url(#fm)"/>`;
+  n+=`<rect x="288" y="${sy-fh/2}" width="294" height="${fh}" rx="12" fill="#7048e8"/>`+fo(298,sy-fh/2+4,276,fh-8,`<div style="display:flex;flex-direction:column;justify-content:center;height:${fh-8}px;color:#fff"><span style="font-size:10.5px;font-weight:700;letter-spacing:.06em;opacity:.8">${T.lb.mFirst.toUpperCase()}</span><span style="font-weight:600;font-size:13px">${esc(cut(f?f.title:T.lb.sNone,110))}</span></div>`);
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:10px auto" role="img"><defs><marker id="fm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#7048e8"/></marker></defs>${e}${n}</svg>`;
+}
 // ---------- Отрисовка ----------
 function rLab(){
   const el=document.getElementById("s-lab"), Lb=S.lab, W=wants();
@@ -973,34 +1024,13 @@ function rLab(){
     body=`<h2>${T.lb.levH}</h2>${ex}`+(ks.length?`<p class="muted" style="font-size:14px">${T.lb.levP}</p>${levSVG()}<h3>${T.lb.levPick}</h3><div class="tags" style="gap:10px">${ks.map(k=>`<button class="tg big" data-lev="${esc(k)}" aria-pressed="${Lb.lev===k}">${esc(vLabel(k))} · ${vc[k]}${k===sug?` <small>(${T.lb.levSug})</small>`:""}</button>`).join("")}</div>${Lb.lev?`<div class="sumbox"><p class="big" style="margin:0">${esc(T.lb.levT(vLabel(Lb.lev),levIds().length,Lb.picks.length))}</p></div>`:""}`:`<p class="note">${T.lb.levNone}</p>`)+nav(!!Lb.lev||!ks.length);
   }else if(Lb.step===4){
     const ws=wayList(),byWant={};for(const o of ws)(byWant[o.want||"_"]=byWant[o.want||"_"]||[]).push(o);
-    body=`<h2>${esc(T.lb.wH(vLabel(Lb.lev)||"…"))}</h2>${ex}<p class="muted"><b>${T.lb.nWays(Lb.ways.length)}</b></p>`+
-      Object.keys(byWant).map(w=>`<h3 style="margin-top:20px">${w==="_"?T.lb.ideaWay:esc(T.lb.wFor(short(vtitle(card(w).v),70)))}</h3>`+byWant[w].map(o=>wayHTML(o,"pick")).join("")).join("")+
-      `<h3 style="margin-top:20px">${T.lb.ownWay}</h3><div class="way" style="border-left-color:var(--ink)"><textarea rows="2" id="ownway" placeholder="${T.lb.ownWayPh}">${esc(Lb.own||"")}</textarea>${(Lb.own||"").trim()?`<button class="btn ${Lb.ways.includes("own")?"":"ghost"} noprint" data-way="own" ${!Lb.ways.includes("own")&&Lb.ways.length>=3?"disabled":""} style="margin-top:8px">${Lb.ways.includes("own")?"✓ "+T.lb.picked:T.lb.pickWay}</button>`:""}</div>`+nav(Lb.ways.length>0);
-  }else if(Lb.step===5){
-    const st=needStats();
-    body=`<h2>${T.lb.needH}</h2>${ex}<p class="muted" style="font-size:14px">${T.lb.needP}</p>`+st.ws.map(o=>{const nd=needOf(o.key);return wayHTML(o,"none",`<div class="tags" style="margin-top:8px">${Object.keys(T.res).map(k=>`<button class="tg ${nd[k]||""}" data-nw="${esc(o.key)}" data-r="${k}">${T.res[k]}${nd[k]==="have"?" · "+T.lb.have:nd[k]==="lack"?" · "+T.lb.lack:""}</button>`).join("")}</div><input type="text" data-nt="${esc(o.key)}" value="${esc(Lb.needTxt[o.key]||"")}" placeholder="${T.lb.needPh}" style="margin-top:8px">`)}).join("")+
-      (lackKeys().length?lackKeys().map(srcHTML).join(""):"")+
-      `<div class="sumbox"><h3 style="margin-top:0">${T.lb.anH}</h3>${schemeSVG()}<p>${st.top?esc(T.lb.anSug(T.res[st.top],st.lack[st.top],st.ws.length)):T.lb.anNone}</p>${T.lb.anQ.map((q,i)=>`<p class="cq"><span class="num">${i+1}</span>${esc(q)}</p>`).join("")}
-        <h3>${T.lb.defQ}</h3><div class="tags" style="gap:10px">${Object.keys(T.res).map(k=>`<button class="tg big" data-def="${k}" aria-pressed="${Lb.def===k}">${T.res[k]}</button>`).join("")}<button class="tg big" data-def="" aria-pressed="${Lb.def===""}">${T.lb.defNone}</button></div>
-        <textarea rows="2" id="deftxt" placeholder="${T.lb.defTxtPh}" style="width:100%;box-sizing:border-box;margin-top:10px;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px">${esc(Lb.defTxt||"")}</textarea></div>`+nav(Lb.def!==null);
+    body=`<h2>${esc(T.lb.wH(vLabel(Lb.lev)||"…"))}</h2>${ex}<p class="big" style="font-weight:600">${T.lb.wStart}</p>`+
+      Object.keys(byWant).map(w=>`<h3 style="margin-top:20px">${w==="_"?T.lb.ideaWay:esc(T.lb.wFor(short(vtitle(card(w).v),70)))}</h3>`+byWant[w].map(o=>wayHTML(o,"take")).join("")).join("")+
+      `<h3 style="margin-top:20px">${T.lb.ownWay}</h3><div class="way${Lb.first&&Lb.first.key==="own"?" on":""}" style="border-left-color:var(--ink)"><textarea rows="2" id="ownway" placeholder="${T.lb.ownWayPh}">${esc(Lb.own||"")}</textarea>${(Lb.own||"").trim()?`<button class="btn ${Lb.first&&Lb.first.key==="own"?"":"ghost"} noprint" data-take="own" style="margin-top:8px">${Lb.first&&Lb.first.key==="own"?"✓ "+T.lb.startedOn:T.lb.startOn}</button>`:""}</div>`+nav(!!(Lb.first&&wayObj(Lb.first.key)));
   }else{
-    const def=Lb.def,ws=Lb.ways.map(wayObj).filter(Boolean);
-    const free=ws.filter(o=>bypass(o,def)),rest=ws.filter(o=>!bypass(o,def));
-    let more="";
-    if(def&&!free.length){const seen=new Set(ws.map(o=>o.key)),alt=[];for(const id of levIds().slice(0,4))for(const v of card(id).sb.v)if(!seen.has(v.id)&&(v.st_wo||[]).includes(def)){seen.add(v.id);alt.push({key:v.id,v})}
-      if(alt.length)more=`<p class="note">${esc(T.lb.fsMore(T.res[def]))}</p>`+alt.map(o=>wayHTML(o,"take")).join("")}
-    body=`<h2>${T.lb.steps[6]}</h2>${ex}<p class="muted">${esc(T.lb.fsP(def?T.res[def]:""))}</p>`+[...free,...rest].map(o=>wayHTML(o,"take")).join("")+more;
-    const f=Lb.first,fo=f&&wayObj(f.key);
-    if(fo){
-      const lt=loopTxt();
-      body+=`<h2 style="margin-top:26px">${T.lb.gainH}</h2><p class="muted">${T.lb.gainP}</p><div class="tags">${Object.keys(T.res).map(k=>`<button class="tg${Lb.gain[k]?" have":""}" data-gain="${k}" aria-pressed="${!!Lb.gain[k]}">${Lb.gain[k]?"+ ":""}${T.res[k]}</button>`).join("")}</div>`+
-        (lt.gk.length?loopSVG(cut(fo.title,70),lt.gl,vLabel(Lb.lev)||"…",lt.ok)+`<p class="big" style="${lt.ok?"":"color:#c2410c"}">${esc(lt.txt)}</p>`:"")+
-        (lt.gk.length&&def&&!lt.ok?`<div class="sumbox"><h3 style="margin-top:0">${T.lb.thinkH}</h3>${T.lb.think.map(([q,e],i)=>`<p class="cq"><span class="num">${i+1}</span><b>${esc(q)}</b></p><p class="eg">${T.lb.eg} ${esc(e)}</p><textarea rows="1" data-th="${i}" placeholder="…" style="width:100%;box-sizing:border-box;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:7px 10px">${esc((Lb.th||{})[i]||"")}</textarea>`).join("")}</div>`:"");
-      const cnt={};for(const x of W)cnt[x.sp.id]=(cnt[x.sp.id]||0)+1;const top=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a])[0],tsp=D.spheres.find(s=>s.id===top);
-      body+=mapHTML();
-    }
-    if(!fo)body+=mapHTML();
-    body+=`<div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
+    body=`<h2>${T.lb.mapH}</h2>${ex}<div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label><label>${T.lb.kwB}<input type="text" id="kwB" value="${esc(Lb.kwB||"")}" placeholder="${esc(T.lb.kwBph)}"></label></div>
+      <div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p>
+      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
   }
   el.innerHTML=head+body;
   const q=s=>el.querySelectorAll(s);
@@ -1011,11 +1041,12 @@ function rLab(){
   q("input[data-rep]").forEach(c=>c.onchange=()=>{cl(c.dataset.rep).rep=c.checked;save()});
   q(".tg[data-lev]").forEach(b=>b.onclick=()=>{Lb.lev=b.dataset.lev;Lb.ways=[];Lb.first=null;save();rLab()});
   q("button[data-way]").forEach(b=>b.onclick=()=>{const k=b.dataset.way;Lb.ways=Lb.ways.includes(k)?Lb.ways.filter(x=>x!==k):Lb.ways.length<3?[...Lb.ways,k]:Lb.ways;save();rLab()});
-  const ow=el.querySelector("#ownway");if(ow)ow.onchange=()=>{Lb.own=ow.value;if(!ow.value.trim())Lb.ways=Lb.ways.filter(x=>x!=="own");save();rLab()};
+  const ow=el.querySelector("#ownway");if(ow)ow.onchange=()=>{Lb.own=ow.value;if(!ow.value.trim()&&Lb.first&&Lb.first.key==="own")Lb.first=null;save();rLab()};
   q(".tg[data-nw]").forEach(b=>b.onclick=()=>{const r=needOf(b.dataset.nw),k=b.dataset.r;r[k]=!r[k]?"have":r[k]==="have"?"lack":undefined;if(!r[k])delete r[k];save();rLab()});
   q("input[data-nt]").forEach(i=>i.onchange=()=>{Lb.needTxt[i.dataset.nt]=i.value;save()});
   q(".tg[data-def]").forEach(b=>b.onclick=()=>{Lb.def=b.dataset.def;save();rLab()});
   q("textarea[data-src]").forEach(t=>t.oninput=()=>{Lb.src=Lb.src||{};Lb.src[t.dataset.src]=t.value;save()});
+  ["kwA","kwB"].forEach(id=>{const i=el.querySelector("#"+id);if(i)i.oninput=()=>{Lb[id]=i.value;save();document.getElementById("fmap").innerHTML=finalMap()}});
   const pB=el.querySelector("#pointB");if(pB)pB.oninput=()=>{Lb.pointB=pB.value;save()};
   const dt=el.querySelector("#deftxt");if(dt)dt.oninput=()=>{Lb.defTxt=dt.value;save()};
   q("button[data-take]").forEach(b=>b.onclick=()=>{const k=b.dataset.take;Lb.first=(Lb.first&&Lb.first.key===k)?null:{key:k};Lb.gain={};save();rLab()});
@@ -1042,10 +1073,13 @@ function labMD(){
     for(const k in (Lb.src||{}))if((Lb.src[k]||"").trim())s+=`- ${T.lb.srcH(T.res[k])} ${Lb.src[k].trim()}\n`;
     if(Lb.def)s+=`- ${T.lb.picDef(T.res[Lb.def])}${(Lb.defTxt||"").trim()?" "+Lb.defTxt.trim():""}\n`;
     if((Lb.pointB||"").trim())s+=`- ${T.lb.ptB}: ${Lb.pointB.trim()}\n`;
+    if((Lb.kwA||"").trim())s+=`- ${T.lb.ptA}: ${Lb.kwA.trim()}\n`;
+    if((Lb.kwB||"").trim())s+=`- ${T.lb.ptB}: ${Lb.kwB.trim()}\n`;
     const fo=Lb.first&&wayObj(Lb.first.key);
     if(fo){const v=fo.v;s+=`- ${T.lb.picStep(fo.title)}\n`;
       if(v&&v.st_ru)s+=`  - ${T.lb.how} ${L(v,"hw")} ${LANG==="en"?(v.st_src_en||v.st_src):v.st_src}\n`;
       const lt=loopTxt();if(lt.gk.length)s+=`  - ${lt.txt}\n`;
+      const sp=wayList().filter(o=>o.key!==Lb.first.key);if(sp.length){s+=`- ${T.lb.otherH}:\n`;for(const o of sp)s+=`  - ${o.v?stepText(o.v)+" ("+T.worlds[o.v.w]+")":o.title}\n`}
       if(lt.gk.length&&Lb.def&&!lt.ok){s+=`\n${T.lb.thinkH}\n`;T.lb.think.forEach(([qq,e],i)=>{s+=`- ${qq}${(Lb.th||{})[i]?`\n  - ${Lb.th[i].trim()}`:` (${T.lb.eg} ${e})`}\n`})}}
   }
   return s;
