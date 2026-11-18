@@ -170,6 +170,7 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .sysg{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;margin:8px 0 14px}.sysr{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:14px;border-bottom:1px solid var(--line);padding:4px 0}
 .joker{border:2px solid #111;border-radius:16px;padding:14px 18px;margin:10px 0;background:repeating-linear-gradient(45deg,#fff,#fff 10px,#f8f9fa 10px,#f8f9fa 20px)}.joker .cap{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#868e96}.joker p{font-size:20px;font-weight:700;margin:6px 0 10px}
 @media(max-width:640px){.sysg{grid-template-columns:1fr}}
+.csqto{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px;font-size:13.5px}.csqto select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
 .sumbox{border:1.5px solid var(--ink);border-radius:16px;padding:16px 18px;margin:20px 0}
 .sumbox .big{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px}
 .vbar{display:grid;grid-template-columns:150px 1fr 34px;gap:10px;align-items:center;margin:5px 0;font-size:14px}
@@ -366,6 +367,12 @@ ru:{
      ["zdorovye","Вы на три месяца выбыли из строя по здоровью."],["semya","В семье появился человек, о котором нужно заботиться: ребёнок или пожилой родитель."],["semya","Близкий человек уезжает надолго."],["byt","Нужно съехать с жилья за месяц."],
      ["sreda","В городе резко изменились правила жизни: цены, транспорт, работа."],["sreda","Ваш район начали перестраивать."],["obrazovanie","В вашей профессии перестали спрашивать диплом — нужны только доказательства умений."],["smysl","Вы поняли, что цель, ради которой всё затевалось, вам больше не нужна."],
      ["","Интернет и сервисы недоступны неделю."],["","У вас появился год свободного времени с сохранением дохода."],["","Знакомый предлагает начать общее дело."],["","Цены на всё выросли на треть."]],
+   storyWhy:(v,w)=>`Подобрана потому, что она про «${v}» — как ваш рычаг${w?`, и в ${w}, как ваш первый шаг`:""}.`,
+   csqTo:"Это потом заденет сферу:", csqNoTo:"— никакую —",
+   loopH:"Ваш цикл", loopP:"Точка А → шаг → что он задевает сразу → что из этого потом → новая точка А. Дальше пересмотр и следующий шаг — круг замыкается. R — усиливающая петля: изменения подталкивают друг друга. B — уравновешивающая: что-то тянет назад.",
+   lA:"точка А · сейчас", lStep:"шаг", l1:"сразу", l2:"потом", lA2:"новая точка А", lRev:"пересмотр → следующий шаг", lDelay:"задержка", lB:"точка Б",
+   cycH:"Круг замкнулся", cycP:"Сделайте шаг, поживите с ним и вернитесь. Что изменилось в точке А?", cycPh:"Сейчас у меня …; стало лучше …; осталось …",
+   cycBtn:"Начать следующий круг", cycN:(n)=>`Круг ${n}`, cycDone:"Уже сделано:",
    fullH:"Ваша картина целиком", fullSys:"Шаг задевает:", fullLoops:"Петли и задержки:", fullCsq:"Следствия:", fullJk:"Джокер:",
    brainP:"Мозг не меняет картину будущего от одной мысли. Ему нужен путь: от «не знаю» к вопросу, от вопроса к новым вариантам, потом к разговору с людьми и доказательствам, что так можно. Только тогда он принимает новое и начинает действовать. Эта короткая версия проходит путь в одиночку. Два шага — разговор и доказательства — делаются только с другими людьми: для них и нужна лаборатория.",
    brainEnd:"Вы прошли путь в одиночку: от «не знаю» до первого шага. Чего здесь не было — разговора с людьми и проверки в мире. Без них мозг чаще всего возвращается к старой картине. В лаборатории мы проверяем карту вместе: с другими участниками, на четырёх сценариях и на живых примерах.",
@@ -590,6 +597,12 @@ en:{
      ["zdorovye","Your health takes you out for three months."],["semya","Someone in the family now needs care: a child or an elderly parent."],["semya","Someone close leaves for a long time."],["byt","You have to move out within a month."],
      ["sreda","The rules of life in your city change sharply: prices, transport, work."],["sreda","Your neighbourhood is being rebuilt."],["obrazovanie","Your profession no longer asks for a degree — only proof of skills."],["smysl","You realise the goal it was all for no longer matters to you."],
      ["","The internet and services are down for a week."],["","You get a year of free time with your income kept."],["","An acquaintance offers to start a project together."],["","Prices rise by a third across the board."]],
+   storyWhy:(v,w)=>`Chosen because it's about «${v}», like your lever${w?`, and set in the ${w}, like your first step`:""}.`,
+   csqTo:"Later this will touch:", csqNoTo:"— nothing else —",
+   loopH:"Your cycle", loopP:"Point A → step → what it touches right away → what follows later → new point A. Then a review and the next step — the circle closes. R is a reinforcing loop: changes push each other on. B is a balancing loop: something pulls back.",
+   lA:"point A · now", lStep:"step", l1:"right away", l2:"later", lA2:"new point A", lRev:"review → next step", lDelay:"delay", lB:"point B",
+   cycH:"The circle has closed", cycP:"Take the step, live with it and come back. What has changed at point A?", cycPh:"Now I have …; better: …; still left: …",
+   cycBtn:"Start the next circle", cycN:(n)=>`Circle ${n}`, cycDone:"Already done:",
    fullH:"Your whole picture", fullSys:"The step touches:", fullLoops:"Loops and delays:", fullCsq:"Consequences:", fullJk:"Joker:",
    brainP:"The brain doesn't change its picture of the future from a single thought. It needs a path: from “I don't know” to a question, from the question to new options, then to talking with people and seeing proof that it can be done. Only then does it accept the new and start acting. This short version walks the path alone. Two steps — conversation and proof — only happen with other people: that's what the lab is for.",
    brainEnd:"You've walked the path alone, from “I don't know” to a first step. What was missing here is talking with people and testing in the world. Without them the brain usually slides back to the old picture. In the lab we test the map together: with other participants, against four scenarios and on live examples.",
@@ -680,7 +693,7 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}],vseed:0,sseed:0,aseed:0,art:"",deep:false,sys:{},sysA:{},csq:{},jk:-1,jkA:"",jkSpare:""});
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}],vseed:0,sseed:0,aseed:0,art:"",deep:false,sys:{},sysA:{},csq:{},jk:-1,jkA:"",jkSpare:"",csqTo:{},cycles:[],changed:""});
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
@@ -1056,13 +1069,16 @@ function valAbout(k){
 }
 function taleHTML(){
   const Lb=S.lab,TL=D.tales||[];if(!TL.length)return "";
-  const f=Lb.first&&wayObj(Lb.first.key),fw=f&&f.v?f.v.w:null,sp=new Set(Lb.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id));
-  const sc=TL.map((t,i)=>({i,s:(Lb.lev&&t.v.includes(Lb.lev)?3:0)+(fw&&t.w.includes(fw)?2:0)+t.sp.filter(x=>sp.has(x)).length}));
-  const best=sc.sort((a,b)=>b.s-a.s),top=best.filter(x=>x.s>=best[0].s-1).map(x=>x.i),pool=Lb.sseed?[...Array(TL.length).keys()]:top;
-  const t=TL[pool[rnd(Lb.sseed+11,pool.length)[0]]];
+  const f=Lb.first&&wayObj(Lb.first.key),fw=f&&f.v?f.v.w:null,lev=Lb.lev;
+  let pool=TL.map((t,i)=>i).filter(i=>lev&&TL[i].v.includes(lev));
+  const byW=pool.filter(i=>fw&&TL[i].w.includes(fw));
+  if(!pool.length)pool=TL.map((t,i)=>i);
+  const ord=[...byW,...pool.filter(i=>!byW.includes(i))];
+  const t=TL[ord[(Lb.sseed||0)%ord.length]],hitV=lev&&t.v.includes(lev),hitW=fw&&t.w.includes(fw);
   return `<div class="tale"><span class="cap">${T.lb.storyH} · ${T.lb.storyKind[t.kind]}</span><h3 style="margin:2px 0 6px">${esc(LANG==="ru"?t.t_ru:t.t_en)}</h3><p style="margin:0 0 8px">${esc(LANG==="ru"?t.ru:t.en)}</p>
-    <div class="vtags">${t.w.map(w=>`<span class="wt" style="background:color-mix(in srgb,${WC[w]} 18%,#fff);border-color:${WC[w]}">${T.worlds[w]}</span>`).join("")}${t.v.map(v=>`<span class="wt">${esc(T.vals[v])}</span>`).join("")}<a href="${esc(t.url)}" target="_blank" rel="noopener">${T.src}</a></div>
-    <button class="btn ghost noprint" id="sshuf" style="margin-top:10px">↻ ${T.lb.storyShuffle}</button></div>`;
+    ${hitV?`<p class="muted" style="margin:0 0 8px;font-size:13.5px">${esc(T.lb.storyWhy(vLabel(lev),hitW?T.wPrep[fw]:""))}</p>`:""}
+    <div class="vtags">${t.w.map(w=>`<span class="wt" style="background:color-mix(in srgb,${WC[w]} 18%,#fff);border-color:${WC[w]}">${T.worlds[w]}</span>`).join("")}${t.v.map(v=>`<span class="wt" style="${v===lev?"border-color:#7048e8;background:#f3f0ff;font-weight:600":""}">${esc(T.vals[v])}</span>`).join("")}<a href="${esc(t.url)}" target="_blank" rel="noopener">${T.src}</a></div>
+    ${ord.length>1?`<button class="btn ghost noprint" id="sshuf" style="margin-top:10px">↻ ${T.lb.storyShuffle}</button>`:""}</div>`;
 }
 function artHTML(){const A=T.lb.art,i=rnd(S.lab.aseed+5,A.length)[0];
   return `<div class="tale art"><span class="cap">${T.lb.artH}</span><p class="big" style="margin:4px 0 8px;font-weight:600">${esc(A[i])}</p><textarea rows="2" id="artA" placeholder="${esc(T.lb.artPh)}">${esc(S.lab.art||"")}</textarea><button class="btn ghost noprint" id="ashuf" style="margin-top:8px">↻ ${T.lb.artShuffle}</button></div>`}
@@ -1078,6 +1094,40 @@ function sysSVG(){
   n+=`<circle cx="${cx}" cy="${cy}" r="72" fill="#7048e8"/><foreignObject x="${cx-62}" y="${cy-52}" width="124" height="104"><div xmlns="http://www.w3.org/1999/xhtml" style="height:104px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;line-height:1.2;color:#fff;font-weight:600">${esc(cut(f?f.title:"…",90))}</div></foreignObject>`;
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:8px auto" role="img">${e}${n}</svg>`;
 }
+function cycleSVG(){
+  const Lb=S.lab,SP=D.spheres,f=Lb.first&&wayObj(Lb.first.key),sn=id=>{const x=SP.find(s=>s.id===id);return x?nm(x):""};
+  const first=SP.filter(sp=>Lb.sys[sp.id]).map(sp=>({id:sp.id,m:Lb.sys[sp.id]}));
+  const sec=[];first.forEach(o=>{const c=Lb.csqTo[o.id];if(c&&c.to)sec.push({from:o.id,to:c.to,m:c.m||"+"})});
+  const W=980,H=Math.max(360,Math.max(first.length,sec.length,1)*62+170),top=60,mid=(H-70)/2+20;
+  const cA=20,cS=205,c1=395,c2=590,cA2=785,bw=165;
+  const ys=(n,i)=>top+20+(i+0.5)*((H-150)/Math.max(1,n));
+  const col=m=>m==="-"?"#e8590c":"#2f9e44";
+  let e="",n="";
+  const box=(x,y,w,h,cap,t,stroke,fill,bold)=>`<rect x="${x}" y="${y-h/2}" width="${w}" height="${h}" rx="12" fill="${fill||"#fff"}" stroke="${stroke||"#ced4da"}" stroke-width="${bold?2.5:1.4}"/>${cap?`<text x="${x+8}" y="${y-h/2-6}" font-size="11" fill="#868e96">${esc(cap)}</text>`:""}<foreignObject x="${x+6}" y="${y-h/2+3}" width="${w-12}" height="${h-6}"><div xmlns="http://www.w3.org/1999/xhtml" style="height:${h-6}px;display:flex;align-items:center;font-size:12px;line-height:1.2;color:${fill==="#7048e8"?"#fff":"#111"};font-weight:${bold?600:400};overflow:hidden">${esc(cut(t,90))}</div></foreignObject>`;
+  const ar=(x1,y1,x2,y2,c,dash,lab)=>`<path d="M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}" fill="none" stroke="${c}" stroke-width="2.4" ${dash?'stroke-dasharray="6 5"':""} marker-end="url(#cy${c.slice(1)})"/>${lab?`<text x="${(x1+x2)/2}" y="${(y1+y2)/2-5}" text-anchor="middle" font-size="13" font-weight="700" fill="${c}">${lab}</text>`:""}`;
+  const aKw=(Lb.kwA||"").trim()||(Lb.cycles.length?Lb.cycles[Lb.cycles.length-1].changed:"");
+  n+=box(cA,mid,bw,84,T.lb.lA,aKw||"…","#adb5bd","#fff",true);
+  n+=box(cS,mid,bw,84,T.lb.lStep,f?f.title:"…","#7048e8","#7048e8",true);
+  e+=ar(cA+bw,mid,cS,mid,"#7048e8");
+  const y1={};first.forEach((o,i)=>{const y=ys(first.length,i);y1[o.id]=y;n+=box(c1,y,bw,46,i===0?T.lb.l1:"",`${o.m==="+"?"+":"−"} ${sn(o.id)}`,col(o.m));e+=ar(cS+bw,mid,c1,y,col(o.m),o.m==="-",o.m==="+"?"+":"−")});
+  const y2={};sec.forEach((o,i)=>{const y=ys(sec.length,i);y2[o.from+o.to]=y;n+=box(c2,y,bw,46,i===0?T.lb.l2:"",`${o.m==="+"?"+":"−"} ${sn(o.to)}`,col(o.m));e+=ar(c1+bw,y1[o.from],c2,y,col(o.m),o.m==="-",o.m==="+"?"+":"−")});
+  n+=box(cA2,mid,bw,84,T.lb.lA2,(Lb.changed||"").trim()||"?","#111","#fbfaff",true);
+  first.forEach(o=>{if(!sec.some(x=>x.from===o.id))e+=ar(c1+bw,y1[o.id],cA2,mid,"#ced4da",true)});
+  sec.forEach(o=>{e+=ar(c2+bw,y2[o.from+o.to],cA2,mid,"#ced4da",true)});
+  // возврат: пересмотр → следующий шаг
+  const yb=H-28;e+=`<path d="M${cA2+bw/2},${mid+42} C${cA2+bw/2},${yb} ${cA2+bw/2-40},${yb} ${(cA2+cS)/2},${yb} S${cS+bw/2},${yb} ${cS+bw/2},${mid+44}" fill="none" stroke="#7048e8" stroke-width="3" marker-end="url(#cy7048e8)"/>`;
+  n+=`<rect x="${(cA2+cS+bw)/2-110}" y="${yb-14}" width="220" height="28" rx="14" fill="#f3f0ff" stroke="#7048e8"/><text x="${(cA2+cS+bw)/2}" y="${yb+5}" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7048e8">↻ ${esc(T.lb.lRev)}</text>`;
+  if((Lb.sysA[2]||"").trim())n+=`<text x="${(cA2+cS+bw)/2+125}" y="${yb+5}" font-size="12" fill="#868e96">⧖ ${esc(T.lb.lDelay)}</text>`;
+  const anyNeg=first.some(o=>o.m==="-")||sec.some(o=>o.m==="-"),anyPos=first.some(o=>o.m==="+");
+  n+=`<text x="${(cA2+cS+bw)/2}" y="${yb-24}" text-anchor="middle" font-size="22" font-weight="800" fill="#7048e8">${anyNeg&&anyPos?"R + B":anyNeg?"B":"R"}</text>`;
+  // точка Б как ориентир
+  const bKw=(Lb.kwB||"").trim();
+  n+=`<text x="${cA2+bw}" y="${top-26}" text-anchor="end" font-size="11" fill="#868e96">${esc(T.lb.lB)} →</text><text x="${cA2+bw}" y="${top-10}" text-anchor="end" font-size="12.5" font-weight="600" fill="#111">${esc(cut(bKw||(Lb.lev?vLabel(Lb.lev):""),60))}</text>`;
+  e+=`<path d="M${cA2+bw/2},${mid-42} L${cA2+bw/2},${top-4}" stroke="#adb5bd" stroke-width="1.5" stroke-dasharray="3 4"/>`;
+  const mk=c=>`<marker id="cy${c}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#${c}"/></marker>`;
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:8px auto" role="img"><defs>${["7048e8","2f9e44","e8590c","ced4da"].map(mk).join("")}</defs>${e}${n}</svg>`;
+}
+function cycleHTML(){return `<div class="sumbox"><h3 style="margin-top:0">${T.lb.loopH}${S.lab.cycles.length?" · "+T.lb.cycN(S.lab.cycles.length+1):""}</h3><p class="muted" style="font-size:14px">${esc(T.lb.loopP)}</p><div id="cyc">${cycleSVG()}</div></div>`}
 function tplArea(id,val,tpl,rows){return `<p class="eg" style="margin:2px 0 4px">${T.lb.tmpl} ${esc(tpl)}</p><textarea rows="${rows||2}" data-deep="${id}" placeholder="${esc(tpl)}" class="dta">${esc(val||"")}</textarea>`}
 function deepBody(step,ex){
   const Lb=S.lab,SP=D.spheres;
@@ -1088,7 +1138,7 @@ function deepBody(step,ex){
   }
   if(step===7){
     const ms=SP.filter(sp=>Lb.sys[sp.id]);
-    return `<h2>${T.lb.csqH}</h2>${ex}<p class="muted">${esc(T.lb.csqP)}</p>`+(ms.length?ms.map(sp=>{const m=Lb.sys[sp.id];return `<div class="item" style="border-left-color:${m==="+"?"#2f9e44":"#e8590c"}"><p class="t">${m==="+"?"+":"−"} ${esc(nm(sp))}</p>${tplArea("csq:"+sp.id,Lb.csq[sp.id],T.lb.csqT(nm(sp),m==="+"?T.lb.better:T.lb.worse))}</div>`}).join(""):`<p class="note">${T.lb.csqNone}</p>`);
+    return `<h2>${T.lb.csqH}</h2>${ex}<p class="muted">${esc(T.lb.csqP)}</p>`+(ms.length?ms.map(sp=>{const m=Lb.sys[sp.id];return `<div class="item" style="border-left-color:${m==="+"?"#2f9e44":"#e8590c"}"><p class="t">${m==="+"?"+":"−"} ${esc(nm(sp))}</p>${tplArea("csq:"+sp.id,Lb.csq[sp.id],T.lb.csqT(nm(sp),m==="+"?T.lb.better:T.lb.worse))}<div class="csqto"><span class="muted">${T.lb.csqTo}</span><select data-cto="${sp.id}"><option value="">${T.lb.csqNoTo}</option>${SP.filter(x=>x.id!==sp.id).map(x=>`<option value="${x.id}" ${(Lb.csqTo[sp.id]||{}).to===x.id?"selected":""}>${esc(nm(x))}</option>`).join("")}</select><span class="tags">${["+","-"].map(v=>`<button class="tg" data-ctm="${sp.id}" data-m="${v}" aria-pressed="${((Lb.csqTo[sp.id]||{}).m||"+")===v&&!!(Lb.csqTo[sp.id]||{}).to}">${v==="+"?"+":"−"}</button>`).join("")}</span></div></div>`}).join("")+cycleHTML():`<p class="note">${T.lb.csqNone}</p>`);
   }
   if(step===8){
     const J=T.lb.jokers;if(Lb.jk<0||Lb.jk>=J.length)Lb.jk=rnd(Date.now()%997,J.length)[0];
@@ -1100,11 +1150,12 @@ function deepBody(step,ex){
   }
   // 9: полный круг
   const ms=SP.filter(sp=>Lb.sys[sp.id]),J=T.lb.jokers[Lb.jk]||null,so=Lb.jkSpare&&Lb.jkSpare!=="~"?wayObj(Lb.jkSpare):null;
-  return `<h2>${T.lb.fullH}</h2>${ex}<div id="fmapwrap"><div id="fmap">${finalMap()}</div></div>${sysSVG()}
+  return `<h2>${T.lb.fullH}</h2>${ex}<div id="fmapwrap"><div id="fmap">${finalMap()}</div></div>
     <div class="sumbox">${ms.length?`<p><b>${T.lb.fullSys}</b> ${ms.map(sp=>`${Lb.sys[sp.id]==="+"?"+":"−"} ${esc(nm(sp))}`).join(", ")}</p>`:""}
     ${[0,1,2].some(i=>(Lb.sysA[i]||"").trim())?`<p><b>${T.lb.fullLoops}</b></p><ul>${[0,1,2].filter(i=>(Lb.sysA[i]||"").trim()).map(i=>`<li>${esc(Lb.sysA[i].trim())}</li>`).join("")}</ul>`:""}
     ${ms.some(sp=>(Lb.csq[sp.id]||"").trim())?`<p><b>${T.lb.fullCsq}</b></p><ul>${ms.filter(sp=>(Lb.csq[sp.id]||"").trim()).map(sp=>`<li>${esc(Lb.csq[sp.id].trim())}</li>`).join("")}</ul>`:""}
     ${J?`<p><b>${T.lb.fullJk}</b> ${esc(J[1])}${(Lb.jkA||"").trim()?` — ${esc(Lb.jkA.trim())}`:""}${so?` (${esc(cut(so.title,80))})`:""}</p>`:""}</div>
+    ${cycleHTML()}<div class="deepbox"><h3 style="margin-top:0">${T.lb.cycH}</h3><p>${T.lb.cycP}</p><textarea rows="2" data-deep="changed" class="dta" placeholder="${esc(T.lb.cycPh)}">${esc(Lb.changed||"")}</textarea><button class="btn noprint" id="nextcyc" style="margin-top:10px">↻ ${T.lb.cycBtn}</button></div>
     ${artHTML()}<div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>${brainHTML(true)}`;
 }
 // ---------- Рычаг ----------
@@ -1224,7 +1275,7 @@ function finalMap(){
   let aH=`${nowW.length?`<p style="margin:0 0 8px;font-weight:600">${esc(T.lb.mWorld(nowW.map(k=>T.wPrep[k]).join(T.vAnd)))}</p>`:""}`+
     (aKw.length?aKw.map(t=>chip(t)).join(""):keep.slice(0,6).map(v=>chip(L(v,"n"),WC[v.w])).join(""))+
     (drop.length?`<p style="margin:8px 0 4px;color:#868e96">${T.lb.mLeave}</p>`+drop.slice(0,5).map(v=>chip(L(v,"n"),WC[v.w],"drop")).join(""):"")+
-    (why?`<p style="margin:10px 0 0"><span style="color:#868e96">${T.lb.mHold}</span> ${esc(cut(why,120))}</p>`:"");
+    (why?`<p style="margin:10px 0 0"><span style="color:#868e96">${T.lb.mHold}</span> ${esc(cut(why,120))}</p>`:"")+(Lb.cycles&&Lb.cycles.length?`<p style="margin:10px 0 2px;color:#868e96">${T.lb.cycDone}</p>`+Lb.cycles.map(c=>chip("✓ "+cut(c.step,40),"#7048e8")).join(""):"");
   n+=`<rect x="10" y="${top-26}" width="230" height="${bot-top+26}" rx="16" fill="#fff" stroke="#adb5bd" stroke-width="1.5"/>`+cap(26,top-6,T.lb.mA)+fo(22,top+4,206,bot-top-12,aH);
   // точка Б
   const bx=760,bKw=kind(Lb.kwB),P=Lb.picks.map(card).filter(Boolean),kwH=bKw.length?Math.min(150,24+Math.ceil(bKw.length/2)*28):0;
@@ -1335,9 +1386,13 @@ function rLab(){
   const aa=el.querySelector("#artA");if(aa)aa.oninput=()=>{Lb.art=aa.value;save()};
   const dp=el.querySelector("#deep");if(dp)dp.onclick=()=>{Lb.deep=true;Lb.step=6;save();rLab();window.scrollTo(0,0)};
   q(".tg[data-sys]").forEach(b=>b.onclick=()=>{const k=b.dataset.sys,m=b.dataset.m;if(m)Lb.sys[k]=m;else delete Lb.sys[k];save();rLab()});
-  q("textarea[data-deep]").forEach(t=>t.oninput=()=>{const [k,i]=t.dataset.deep.split(":");if(i===undefined)Lb[k]=t.value;else{Lb[k]=Lb[k]||{};Lb[k][i]=t.value}save()});
+  q("textarea[data-deep]").forEach(t=>t.oninput=()=>{const [k,i]=t.dataset.deep.split(":");if(i===undefined)Lb[k]=t.value;else{Lb[k]=Lb[k]||{};Lb[k][i]=t.value}save();const cy=document.getElementById("cyc");if(cy&&k==="changed")cy.innerHTML=cycleSVG()});
   const jk=el.querySelector("#jkshuf");if(jk)jk.onclick=()=>{const n=T.lb.jokers.length;Lb.jk=(Lb.jk+1+Math.floor(Math.random()*(n-1)))%n;save();rLab()};
   q(".tg[data-jks]").forEach(b=>b.onclick=()=>{Lb.jkSpare=b.dataset.jks;save();rLab()});
+  q("select[data-cto]").forEach(x=>x.onchange=()=>{const k=x.dataset.cto;Lb.csqTo[k]=Object.assign(Lb.csqTo[k]||{m:"+"},{to:x.value});if(!x.value)delete Lb.csqTo[k];save();rLab()});
+  q(".tg[data-ctm]").forEach(b=>b.onclick=()=>{const k=b.dataset.ctm;if(!Lb.csqTo[k])return;Lb.csqTo[k].m=b.dataset.m;save();rLab()});
+  const nc=el.querySelector("#nextcyc");if(nc)nc.onclick=()=>{const f=Lb.first&&wayObj(Lb.first.key);Lb.cycles.push({step:f?f.title:"",changed:(Lb.changed||"").trim(),date:today()});
+    if((Lb.changed||"").trim())Lb.kwA=Lb.changed.trim();Lb.first=null;Lb.sys={};Lb.sysA={};Lb.csq={};Lb.csqTo={};Lb.jk=-1;Lb.jkA="";Lb.jkSpare="";Lb.changed="";Lb.step=4;save();rLab();window.scrollTo(0,0)};
   const ln=el.querySelector("#ln");if(ln)ln.onclick=()=>{if(Lb.step===2&&!Lb.lev)Lb.lev=levSug();Lb.step=Math.min(NS-1,Lb.step+1);save();rLab();window.scrollTo(0,0)};
   const lb=el.querySelector("#lb");if(lb)lb.onclick=()=>{Lb.step=Math.max(0,Lb.step-1);save();rLab();window.scrollTo(0,0)};
 }
@@ -1374,6 +1429,8 @@ function labMD(){
     [0,1,2].forEach(i=>{if((Lb.sysA[i]||"").trim())s+=`- ${T.lb.sysQ[i][0]} ${Lb.sysA[i].trim()}\n`});
     ms.forEach(sp=>{if((Lb.csq[sp.id]||"").trim())s+=`- ${nm(sp)}: ${Lb.csq[sp.id].trim()}\n`});
     const J=T.lb.jokers[Lb.jk];if(J)s+=`- ${T.lb.fullJk} ${J[1]}${(Lb.jkA||"").trim()?" — "+Lb.jkA.trim():""}\n`;}
+  if(Lb.cycles&&Lb.cycles.length){s+=`\n### ${T.lb.cycDone}\n`;Lb.cycles.forEach((c,i)=>{s+=`- ${T.lb.cycN(i+1)} (${c.date}): ${c.step}${c.changed?` → ${c.changed}`:""}\n`})}
+  Object.keys(Lb.csqTo||{}).forEach(k=>{const c=Lb.csqTo[k];if(c&&c.to)s+=`- ${nm(D.spheres.find(x=>x.id===k))} → ${c.m==="-"?"−":"+"} ${nm(D.spheres.find(x=>x.id===c.to))}\n`});
   if((Lb.art||"").trim())s+=`- ${T.lb.artH}: ${Lb.art.trim()}\n`;
   return s;
 }
