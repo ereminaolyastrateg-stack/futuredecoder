@@ -56,6 +56,7 @@ h3{font-family:var(--display);font-weight:500;text-transform:uppercase;font-size
 .chip[aria-pressed="true"] .box{background:var(--ink);color:#fff}
 .chip small{display:block;color:var(--muted);font-size:13px}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+a.btn{display:inline-block;text-decoration:none}
 .btn{border:1.5px solid var(--ink);background:var(--ink);color:#fff;border-radius:999px;padding:10px 20px;font-weight:600}
 .btn.ghost{background:transparent;color:var(--ink)}
 .btn.small{padding:6px 14px;font-size:14px}
@@ -108,6 +109,34 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .wcard .cnt{font-size:12px;color:var(--muted);margin-bottom:8px}
 .wcard p{margin:6px 0}
 .wcard b{font-weight:600}
+.steps{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 18px}
+.steps span{font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.steps span.on{border-color:var(--ink);color:var(--ink);font-weight:600}
+.steps span.done{color:var(--ink)}
+.pick{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;margin:6px 0;font-size:15px;line-height:1.4}
+.pick[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.pick .box{flex:none;width:18px;height:18px;border:1.5px solid var(--ink);border-radius:5px;margin-top:2px;display:grid;place-items:center;font-size:12px;font-weight:700}
+.pick[aria-pressed="true"] .box{background:var(--ink);color:#fff}
+.pick small{display:block;color:var(--muted);font-size:12px}
+.item{background:var(--surface);border:1.5px solid var(--line);border-left:6px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0}
+.item .t{font-weight:600;margin:0 0 8px;line-height:1.4}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tg{font:inherit;font-size:13px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink)}
+.tg[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tg.need{background:#fff3c4;border-color:#c9a400}
+.tg.lack{background:#ffd9cc;border-color:var(--drop,#d9480f)}
+.tg.have{background:#d8f1df;border-color:#2f9e44}
+.item input[type=text],.item textarea{width:100%;box-sizing:border-box;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-top:8px;background:#fff}
+.sumbox{border:1.5px solid var(--ink);border-radius:16px;padding:16px 18px;margin:20px 0}
+.sumbox .big{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px}
+.vbar{display:grid;grid-template-columns:150px 1fr 34px;gap:10px;align-items:center;margin:5px 0;font-size:14px}
+.vbar .b{height:12px;border-radius:6px;background:var(--line);overflow:hidden;display:flex}
+.vbar .b i{display:block;height:100%}
+.pair{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin:8px 0}
+.pair .z{font-size:22px}
+.pair .s{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:14px}
+.why{font-size:14px;color:var(--muted);margin:6px 0}
+@media (max-width:700px){.pair{grid-template-columns:1fr}.pair .z{text-align:center}.vbar{grid-template-columns:110px 1fr 30px}}
 .labbox{border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:26px 0 8px}
 .labbox h2{margin-top:0}
 .labbox ul{margin:8px 0 14px;padding-left:20px}
@@ -134,6 +163,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
       <a href="#start" data-s="start">{{T_START}}</a>
       <a href="#run" data-s="run">{{T_RUN}}</a>
       <a href="#result" data-s="result">{{T_RESULT}}</a>
+      <a href="#lab" data-s="lab">{{T_LAB}}</a>
       <a href="{{OTHER}}" hreflang="{{OTHERLANG}}" lang="{{OTHERLANG}}" class="langsw">{{OTHERLABEL}}</a>
     </nav>
   </div>
@@ -141,6 +171,7 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
   <section id="s-start" hidden></section>
   <section id="s-run" hidden></section>
   <section id="s-result" hidden></section>
+  <section id="s-lab" hidden></section>
 
   <footer class="noprint">{{FOOTER}}</footer>
 </div>
@@ -152,6 +183,40 @@ const KEY = "fd-opros-v1";
 const T = {
 ru:{
   h1:"Как сейчас и каким хочу",
+  lb:{
+   steps:["Выбрать","Зачем","Тучи","Ресурсы"],
+   h:"Продолжить: от «хочу» к первому шагу",
+   intro:"Это короткая версия лаборатории «Архитектура человека». Четыре шага: выбрать главные «хочу», понять, ради чего они, столкнуть их между собой и посмотреть, каких ресурсов не хватает. Всё остаётся в этом браузере.",
+   empty:"Сначала отметьте хотя бы одно «хочу» в опросе.",
+   pickH:"Выберите до 10 «хочу», с которыми хотите работать дальше",
+   pickN:(n)=>`Выбрано ${n} из 10`,
+   whyH:"Зачем мне это",
+   whyP:"Отметьте у каждого «хочу» до трёх ценностей: ради чего оно вам. Если нужного слова нет, допишите своё.",
+   ownPh:"своё слово (необязательно)",
+   valsSum:(a)=>`Ради чего всё это: ${a}.`,
+   valsNone:"Отметьте ценности, и здесь появится вывод.",
+   cloudH:"Грозовые тучи",
+   cloudP:"Здесь ваши желания тянут в разные стороны. Это не ошибка, а место, где рождаются новые идеи: как получить и то и другое?",
+   cloudNone:"Явных туч не видно: ваши «хочу» тянут в одну сторону. Это хороший знак, но в лаборатории мы всё равно проверяем их на прочность.",
+   cloudVal:(a,b)=>`Одно желание тянет к ценности «${a}», другое к ценности «${b}».`,
+   cloudW:{"ЦС|ДЗ":"Здесь вы хотите одновременно, чтобы за вас решала система и чтобы вы решали вместе с другими.","ЦЗ|ДС":"Здесь вы хотите одновременно жить по общим правилам и решать всё сами."},
+   ideaPh:"Как получить и то и другое? Ваша идея",
+   replace:"Эта идея заменяет оба желания",
+   resH:"Что мне для этого нужно",
+   resP:"Нажимайте на ресурс у каждого желания: один раз — нужен и есть, второй — нужен, но не хватает, третий — убрать.",
+   resSum:(r,n,m)=>`Ваше узкое горлышко — ${r}: этого не хватает для ${n} из ${m} желаний.`,
+   resNone:"Отметьте ресурсы, и здесь появится ваше горлышко.",
+   have:"есть", lack:"не хватает",
+   waysH:(r)=>`Как двигаться, когда не хватает ресурса «${r}»`,
+   ways:{"ЦС":"Автоматизировать: отдать сервису или технике то, что съедает этот ресурс.","ЦЗ":"Опереться на других: правила, помощники, наставник, работодатель.","ДС":"Упростить: решить для себя, без чего можно обойтись и что сделать по-другому.","ДЗ":"Сделать вместе: поделить нагрузку с теми, кто хочет того же."},
+   idea:"Идея",
+   next:"Дальше", back:"Назад", toRes:"К итогу",
+   finH:"Это четверть пути",
+   finP:"В лаборатории мы делаем то же по всем сферам жизни: связываем желания в карту, находим рычаг, придумываем первый шаг без ресурса, которого не хватает, и проверяем картину на четырёх сценариях будущего.",
+  },
+  vals:{svoboda:"свобода",bezop:"безопасность",zdorov:"здоровье",blizost:"близость",razvit:"развитие",priznan:"признание",smysl:"смысл",tvorch:"творчество",dostatok:"достаток",pokoy:"покой",novizna:"новизна",prinadl:"принадлежность"},
+  res:{time:"время",money:"деньги",energy:"силы и здоровье",skills:"навыки",people:"люди и связи",place:"место и жильё"},
+  mdLab:"Продолжение: зачем, тучи, ресурсы", mdVals:"Ценности", mdClouds:"Грозовые тучи", mdRes:"Ресурсы",
   concl:"Главное", details:"Подробно по сферам",
   wPrep:{"ЦС":"мире автопилота","ЦЗ":"мире правил","ДС":"мире автономии","ДЗ":"мире сообщества"},
   wGen:{"ЦС":"мира автопилота","ЦЗ":"мира правил","ДС":"мира автономии","ДЗ":"мира сообщества"},
@@ -202,6 +267,40 @@ ru:{
 },
 en:{
   h1:"Now and wanted",
+  lb:{
+   steps:["Choose","Why","Clouds","Resources"],
+   h:"Continue: from wants to a first step",
+   intro:"This is a short version of the «Human Architecture» lab. Four steps: pick your main wants, see what they are for, let them collide, and find which resources you lack. Everything stays in this browser.",
+   empty:"First mark at least one want in the questionnaire.",
+   pickH:"Choose up to 10 wants to keep working with",
+   pickN:(n)=>`${n} of 10 chosen`,
+   whyH:"Why I want this",
+   whyP:"Tag each want with up to three values: what it is for. If the right word is missing, add your own.",
+   ownPh:"your own word (optional)",
+   valsSum:(a)=>`What it is all for: ${a}.`,
+   valsNone:"Tag values and your summary will appear here.",
+   cloudH:"Storm clouds",
+   cloudP:"Here your wants pull in different directions. That's not a mistake but the place where new ideas are born: how can you get both?",
+   cloudNone:"No clear clouds: your wants pull the same way. A good sign, though in the lab we still stress-test them.",
+   cloudVal:(a,b)=>`One want pulls toward «${a}», the other toward «${b}».`,
+   cloudW:{"ЦС|ДЗ":"Here you want both a system deciding for you and deciding together with others.","ЦЗ|ДС":"Here you want both to live by shared rules and to decide everything yourself."},
+   ideaPh:"How could you get both? Your idea",
+   replace:"This idea replaces both wants",
+   resH:"What I need for this",
+   resP:"Tap a resource on each want: once — needed and available, twice — needed but lacking, three times — remove.",
+   resSum:(r,n,m)=>`Your bottleneck is ${r}: it is lacking for ${n} of ${m} wants.`,
+   resNone:"Mark resources and your bottleneck will appear here.",
+   have:"have", lack:"lacking",
+   waysH:(r)=>`How to move when «${r}» is short`,
+   ways:{"ЦС":"Automate: hand what eats this resource to a service or a machine.","ЦЗ":"Lean on others: rules, helpers, a mentor, an employer.","ДС":"Simplify: decide yourself what you can drop or do differently.","ДЗ":"Do it together: share the load with people who want the same."},
+   idea:"Idea",
+   next:"Next", back:"Back", toRes:"To the summary",
+   finH:"That's a quarter of the way",
+   finP:"In the lab we do the same across all life spheres: link your wants into a map, find the lever, design a first step without the resource you lack, and test the picture against four future scenarios.",
+  },
+  vals:{svoboda:"freedom",bezop:"security",zdorov:"health",blizost:"closeness",razvit:"growth",priznan:"recognition",smysl:"meaning",tvorch:"creativity",dostatok:"prosperity",pokoy:"calm",novizna:"novelty",prinadl:"belonging"},
+  res:{time:"time",money:"money",energy:"energy and health",skills:"skills",people:"people and connections",place:"place and home"},
+  mdLab:"Continued: why, clouds, resources", mdVals:"Values", mdClouds:"Storm clouds", mdRes:"Resources",
   concl:"The main thing", details:"Details by sphere",
   wGen:{"ЦС":"the autopilot world","ЦЗ":"the world of rules","ДС":"the world of autonomy","ДЗ":"the world of community"},
   wPrep:{"ЦС":"the autopilot world","ЦЗ":"the world of rules","ДС":"the world of autonomy","ДЗ":"the world of community"},
@@ -258,10 +357,11 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-let D=null, S={sel:[],ans:{},own:{},order:{},pos:0}, canStore=true;
-function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}}
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},res:{}});
+let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
+function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
-function wipe(){try{localStorage.removeItem(KEY)}catch(e){}S={sel:[],ans:{},own:{},order:{},pos:0}}
+function wipe(){try{localStorage.removeItem(KEY)}catch(e){}S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}}
 
 function queue(){const q=[];for(const sp of D.spheres)if(S.sel.includes(sp.id))for(const sb of sp.subs)q.push({sp,sb});return q}
 function order(sb){
@@ -270,12 +370,12 @@ function order(sb){
 }
 
 function show(name){
-  for(const n of ["start","run","result"])document.getElementById("s-"+n).hidden=n!==name;
+  for(const n of ["start","run","result","lab"])document.getElementById("s-"+n).hidden=n!==name;
   document.querySelectorAll("nav.tabs a[data-s]").forEach(a=>a.dataset.s===name?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"));
-  ({start:rStart,run:rRun,result:rResult})[name]();
+  ({start:rStart,run:rRun,result:rResult,lab:rLab})[name]();
   window.scrollTo(0,0);
 }
-function route(){const h=(location.hash||"#start").slice(1);show(["start","run","result"].includes(h)?h:"start")}
+function route(){const h=(location.hash||"#start").slice(1);show(["start","run","result","lab"].includes(h)?h:"start")}
 
 function rStart(){
   const el=document.getElementById("s-start");
@@ -405,6 +505,7 @@ function rResult(){
   </div>
   <details class="col" style="margin-top:16px"><summary style="cursor:pointer;font-weight:600">${T.rejected}</summary>${colHTML(data,["no"],"no")}</details>
   <p class="muted" style="font-size:14px;margin-top:14px">${T.wNote}</p>
+  <div class="sumbox noprint"><p class="big">${T.lb.h}</p><p>${T.lb.intro}</p><a class="btn" href="#lab">${T.lb.next}</a></div>
   <div class="labbox"><h2>${T.labH}</h2><p>${T.labP}</p><ul>${T.labL.map(x=>`<li>${x}</li>`).join("")}</ul><a class="btn" href="${LAB}">${T.labBtn}</a></div>
   <div class="note noprint">${T.privacy}</div>
   <div class="row noprint"><button class="btn" id="md">${T.md}</button><button class="btn ghost" id="js">${T.json}</button><button class="btn ghost" id="pr">${T.print}</button><button class="link" id="wp">${T.wipe}</button></div>`;
@@ -479,14 +580,99 @@ function toMD(data){
       if(C.shown.length){s+=`\n### ${T.mdSteps}\n`;for(const k of C.shown){const t=T.wTxt[k];s+=`\n**${T.worlds[k]}** (${T.cnt(C.now[k],C.fut[k])})\n- ${T.lGive} ${t[0]}\n- ${T.lPay} ${t[1]}\n`+(C.fut[k]>C.now[k]?`- ${T.lPull} ${t[2]}\n- ${T.lStep} ${t[3]}\n`:C.fut[k]<C.now[k]?`- ${T.lLess} ${T.tLess}\n`:"")}}
       return s})()
    +sec(T.now,["keep","drop"])+sec(T.future,["want","keep"])+sec(T.rejected,["no"])
-   +(own?`\n## ${T.own.replace(/ \(.*\)$/,"")}\n${own}`:"")
+   +(own?`\n## ${T.own.replace(/ \(.*\)$/,"")}\n${own}`:"")+labMD()
    +`\n## ${T.mdWorlds}\n| ${T.wHead.join(" | ")} |\n|---|---|---|\n${Object.keys(T.worlds).map(k=>`| ${T.worlds[k]} | ${now[k]} | ${fut[k]} |`).join("\n")}\n`;
 }
 function toJSON(data){
   return {format:"futuredecoder-opros/1",lang:LANG,date:today(),spheres:data.map(({sp,subs})=>({id:sp.id,name:nm(sp),
     subspheres:subs.map(({sb,items,own})=>({id:sb.id,name:nm(sb),own:own||undefined,
       answers:items.map(({v,r})=>({card:v.id,world:v.w,name:vtitle(v),signal:v.g_src||undefined,answer:r.a,take:r.take||undefined,give:r.give||undefined,why:r.why||undefined}))}))})),
-    worlds:worldCounts()};
+    worlds:worldCounts(),lab:S.lab.picks.length?S.lab:undefined};
+}
+
+// ---------- Продолжение: зачем, тучи, ресурсы ----------
+const TENS=[["svoboda","bezop"],["svoboda","blizost"],["svoboda","prinadl"],["novizna","pokoy"],["novizna","bezop"],["razvit","pokoy"],["priznan","pokoy"],["dostatok","pokoy"],["dostatok","smysl"]];
+const DIAG={"ЦС":"ДЗ","ДЗ":"ЦС","ЦЗ":"ДС","ДС":"ЦЗ"};
+function card(id){for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v)if(v.id===id)return {sp,sb,v};return null}
+function wants(){const out=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&(r.a==="want"||r.a==="keep"))out.push({sp,sb,v,a:r.a})}return out}
+function labItems(){
+  const L=S.lab, gone=new Set(), its=[];
+  for(const k in L.clouds){const c=L.clouds[k];if(c&&c.rep&&c.idea&&c.idea.trim())k.split("~").forEach(x=>gone.add(x))}
+  for(const id of L.picks){if(gone.has(id))continue;const c=card(id);if(c)its.push({id,title:vtitle(c.v),w:c.v.w,sub:nm(c.sb)})}
+  for(const k in L.clouds){const c=L.clouds[k];if(c&&c.rep&&c.idea&&c.idea.trim()){const [a,b]=k.split("~");its.push({id:"idea:"+k,title:c.idea.trim(),w:null,sub:T.lb.idea})}}
+  return its;
+}
+function valCounts(){const c={};for(const id of S.lab.picks){for(const v of (S.lab.vals[id]||[]))c[v]=(c[v]||0)+1;const o=(S.lab.vown[id]||"").trim().toLowerCase();if(o)c["~"+o]=(c["~"+o]||0)+1}return c}
+function vLabel(k){return k.startsWith("~")?k.slice(1):T.vals[k]}
+function findClouds(){
+  const P=S.lab.picks, out=[];
+  for(let i=0;i<P.length;i++)for(let j=i+1;j<P.length;j++){
+    const a=P[i],b=P[j],va=S.lab.vals[a]||[],vb=S.lab.vals[b]||[];
+    let best=null;
+    for(const [x,y] of TENS){if((va.includes(x)&&vb.includes(y)&&!va.includes(y))){best={kind:"v",x,y};break}if(va.includes(y)&&vb.includes(x)&&!va.includes(x)){best={kind:"v",x:y,y:x};break}}
+    const ca=card(a),cb=card(b);
+    if(!best&&ca&&cb&&DIAG[ca.v.w]===cb.v.w)best={kind:"w",w:[ca.v.w,cb.v.w].sort().join("|")};
+    if(best)out.push({a,b,key:a+"~"+b,...best,score:(best.kind==="v"?2:1)+(ca.sb.id!==cb.sb.id?0.5:0)});
+  }
+  out.sort((p,q)=>q.score-p.score);
+  const used={},res=[];for(const c of out){if((used[c.a]||0)>=2||(used[c.b]||0)>=2)continue;res.push(c);used[c.a]=(used[c.a]||0)+1;used[c.b]=(used[c.b]||0)+1;if(res.length>=3)break}
+  return res;
+}
+function resStats(its){const need={},lack={};for(const k in T.res){need[k]=0;lack[k]=0}
+  for(const it of its){const r=S.lab.res[it.id]||{};for(const k in r){if(!(k in need))continue;need[k]++;if(r[k]==="lack")lack[k]++}}
+  let top=null;for(const k in T.res){if(lack[k]&&(!top||lack[k]>lack[top]||(lack[k]===lack[top]&&need[k]>need[top])))top=k}
+  return {need,lack,top};
+}
+function joinList(a){return a.length<2?a.join(""):a.slice(0,-1).join(", ")+(LANG==="ru"?" и ":" and ")+a[a.length-1]}
+function rLab(){
+  const el=document.getElementById("s-lab"), L=S.lab, W=wants();
+  L.picks=L.picks.filter(id=>W.some(x=>x.v.id===id));
+  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${T.lb.steps.map((s,i)=>`<span class="${i===L.step?"on":i<L.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div>`;
+  if(!W.length){el.innerHTML=head+`<p>${T.lb.empty}</p><a class="btn" href="#start">${T.go}</a>`;return}
+  const nav=(canNext,last)=>`<div class="row noprint" style="margin-top:18px">${L.step?`<button class="btn ghost" id="lb">${T.lb.back}</button>`:""}${last?`<a class="btn" href="#result">${T.lb.toRes}</a>`:`<button class="btn" id="ln" ${canNext?"":"disabled"}>${T.lb.next}</button>`}</div>`;
+  let body="";
+  if(L.step===0){
+    body=`<p>${T.lb.intro}</p><h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(L.picks.length)}</p>`+
+      W.map(x=>{const on=L.picks.includes(x.v.id);return `<button class="pick" data-id="${x.v.id}" aria-pressed="${on}" ${!on&&L.picks.length>=10?"disabled":""}><span class="box">${on?"✓":""}</span><span>${esc(vtitle(x.v))}<small>${esc(nm(x.sp))} · ${esc(nm(x.sb))} · ${T.worlds[x.v.w]}</small></span></button>`}).join("")+nav(L.picks.length>0);
+  }else if(L.step===1){
+    const vc=valCounts(), ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]), mx=Math.max(1,...Object.values(vc));
+    body=`<h2>${T.lb.whyH}</h2><p>${T.lb.whyP}</p>`+L.picks.map(id=>{const c=card(id),sel=L.vals[id]||[];return `<div class="item" style="border-left-color:${WC[c.v.w]}"><p class="t">${esc(vtitle(c.v))}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${id}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${id}" value="${esc(L.vown[id]||"")}" placeholder="${T.lb.ownPh}"></div>`}).join("")+
+      `<div class="sumbox"><p class="big">${ks.length?esc(T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))):T.lb.valsNone}</p>${ks.map(k=>`<div class="vbar"><span>${esc(vLabel(k))}</span><span class="b"><i style="width:${vc[k]/mx*100}%;background:var(--ink)"></i></span><span>${vc[k]}</span></div>`).join("")}</div>`+nav(true);
+  }else if(L.step===2){
+    const cl=findClouds();
+    body=`<h2>${T.lb.cloudH}</h2><p>${T.lb.cloudP}</p>`+(cl.length?cl.map(c=>{const A=card(c.a),B=card(c.b),st=L.clouds[c.key]||{};
+      const why=c.kind==="v"?T.lb.cloudVal(T.vals[c.x],T.vals[c.y]):T.lb.cloudW[c.w];
+      return `<div class="item"><div class="pair"><div class="s">${esc(vtitle(A.v))}</div><div class="z">⚡</div><div class="s">${esc(vtitle(B.v))}</div></div><p class="why">${esc(why)}</p><textarea rows="2" data-cloud="${c.key}" placeholder="${T.lb.ideaPh}">${esc(st.idea||"")}</textarea><label class="muted" style="font-size:14px;display:block;margin-top:6px"><input type="checkbox" data-rep="${c.key}" ${st.rep?"checked":""}> ${T.lb.replace}</label></div>`}).join(""):`<p class="note">${T.lb.cloudNone}</p>`)+nav(true);
+  }else{
+    const its=labItems(), st=resStats(its), mx=Math.max(1,...Object.values(st.need));
+    body=`<h2>${T.lb.resH}</h2><p>${T.lb.resP}</p>`+its.map(it=>{const r=L.res[it.id]||{};return `<div class="item" style="border-left-color:${it.w?WC[it.w]:"var(--ink)"}"><p class="t">${esc(it.title)}</p><div class="tags">${Object.keys(T.res).map(k=>`<button class="tg ${r[k]||""}" data-rid="${esc(it.id)}" data-r="${k}">${T.res[k]}${r[k]==="have"?" · "+T.lb.have:r[k]==="lack"?" · "+T.lb.lack:""}</button>`).join("")}</div></div>`}).join("")+
+      `<div class="sumbox"><p class="big">${st.top?esc(T.lb.resSum(T.res[st.top],st.lack[st.top],its.length)):T.lb.resNone}</p>${Object.keys(T.res).filter(k=>st.need[k]).map(k=>`<div class="vbar"><span>${T.res[k]}</span><span class="b"><i style="width:${(st.need[k]-st.lack[k])/mx*100}%;background:#2f9e44"></i><i style="width:${st.lack[k]/mx*100}%;background:var(--drop,#d9480f)"></i></span><span>${st.lack[k]}/${st.need[k]}</span></div>`).join("")}
+      ${st.top?`<h3 style="margin-top:16px">${esc(T.lb.waysH(T.res[st.top]))}</h3>${Object.keys(T.lb.ways).map(w=>`<p style="border-left:5px solid ${WC[w]};padding-left:10px;margin:8px 0"><b>${T.worlds[w]}.</b> ${T.lb.ways[w]}</p>`).join("")}`:""}</div>
+      <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
+  }
+  el.innerHTML=head+body;
+  const q=s=>el.querySelectorAll(s);
+  q(".pick").forEach(b=>b.onclick=()=>{const id=b.dataset.id;L.picks=L.picks.includes(id)?L.picks.filter(x=>x!==id):L.picks.length<10?[...L.picks,id]:L.picks;save();rLab()});
+  q(".tg[data-v]").forEach(b=>b.onclick=()=>{const id=b.dataset.id,v=b.dataset.v,a=L.vals[id]||[];L.vals[id]=a.includes(v)?a.filter(x=>x!==v):a.length<3?[...a,v]:a;save();rLab()});
+  q("input[data-own]").forEach(i=>i.onchange=()=>{L.vown[i.dataset.own]=i.value;save();rLab()});
+  q("textarea[data-cloud]").forEach(t=>t.oninput=()=>{const k=t.dataset.cloud;L.clouds[k]=Object.assign(L.clouds[k]||{},{idea:t.value});save()});
+  q("input[data-rep]").forEach(c=>c.onchange=()=>{const k=c.dataset.rep;L.clouds[k]=Object.assign(L.clouds[k]||{},{rep:c.checked});save()});
+  q(".tg[data-r]").forEach(b=>b.onclick=()=>{const id=b.dataset.rid,k=b.dataset.r,r=L.res[id]||(L.res[id]={});r[k]=!r[k]?"have":r[k]==="have"?"lack":undefined;if(!r[k])delete r[k];save();rLab()});
+  const ln=el.querySelector("#ln");if(ln)ln.onclick=()=>{L.step=Math.min(3,L.step+1);save();rLab();window.scrollTo(0,0)};
+  const lb=el.querySelector("#lb");if(lb)lb.onclick=()=>{L.step=Math.max(0,L.step-1);save();rLab();window.scrollTo(0,0)};
+}
+function labMD(){
+  const L=S.lab;if(!L.picks.length)return "";
+  const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]);
+  let s=`\n## ${T.mdLab}\n\n### ${T.mdVals}\n`;
+  for(const id of L.picks){const c=card(id);if(!c)continue;const v=[...(L.vals[id]||[]).map(k=>T.vals[k]),...((L.vown[id]||"").trim()?[L.vown[id].trim()]:[])];s+=`- ${vtitle(c.v)}${v.length?" — "+v.join(", "):""}\n`}
+  if(ks.length)s+=`\n${T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))}\n`;
+  const ids=Object.keys(L.clouds).filter(k=>L.clouds[k].idea&&L.clouds[k].idea.trim());
+  if(ids.length){s+=`\n### ${T.mdClouds}\n`;for(const k of ids){const [a,b]=k.split("~"),A=card(a),B=card(b);if(A&&B)s+=`- ${vtitle(A.v)} ⚡ ${vtitle(B.v)}\n  - ${T.lb.idea}: ${L.clouds[k].idea.trim()}\n`}}
+  const its=labItems(),st=resStats(its);
+  if(Object.values(st.need).some(x=>x)){s+=`\n### ${T.mdRes}\n`;for(const it of its){const r=L.res[it.id]||{};const parts=Object.keys(r).map(k=>`${T.res[k]} (${r[k]==="lack"?T.lb.lack:T.lb.have})`);if(parts.length)s+=`- ${it.title} — ${parts.join(", ")}\n`}
+    if(st.top)s+=`\n${T.lb.resSum(T.res[st.top],st.lack[st.top],its.length)}\n`}
+  return s;
 }
 
 load();
