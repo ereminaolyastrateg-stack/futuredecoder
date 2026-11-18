@@ -56,8 +56,28 @@ for c in src:
         subs[key]['v'][-1].update({'st_ru': sp['step_ru'], 'st_en': sp['step_en'], 'hw_ru': sp['how_ru'], 'hw_en': sp['how_en'],
             'st_wo': sp['without'], 'st_src': sp['src'], 'st_src_en': sp.get('src_en', sp['src']), 'st_date': sp['date'], 'st_game': sp['game']})
 
+# ценности: про саму ценность и примеры с игр из Полотна будущего
+import os
+values = json.loads((ROOT / 'scripts/opros/values.json').read_text())
+pol = json.loads((ROOT / 'quartz/static/polotno/data.json').read_text())
+pq = {q['id']: q for q in pol['q']}
+en_files = {f[:-3] for f in os.listdir(ROOT / 'content/en/future-canvas')}
+PSPH = {'Работа': 'rabota', 'Здоровье': 'zdorovye', 'Учёба': 'obrazovanie', 'Деньги': 'finansy', 'Смысл и творчество': 'smysl',
+        'Общество': 'sreda', 'Семья и дети': 'semya', 'Отношения': 'semya', 'Дом и среда': 'sreda', 'Внимание и информация': 'smysl', 'Отдых и впечатления': 'byt'}
+vals_out = {}
+for k, v in values.items():
+    exs = []
+    for qid, w in v['ex']:
+        q = pq[qid]; a = q['w'][w]
+        se = re.sub(r'[^a-z0-9]+', '-', q['ask_en'].lower()).strip('-')
+        exs.append({'w': w, 'sp': PSPH.get(q['sphere'], ''), 'q_ru': q['ask'], 'q_en': q['ask_en'],
+                    'one_ru': a['one'], 'one_en': a.get('one_en', ''), 'quote_ru': a.get('quote', '').strip('«»'), 'quote_en': a.get('quote_en', '').strip('“”«»'),
+                    'step_ru': a.get('step', ''), 'step_en': a.get('step_en', ''),
+                    'src': f"https://futuredecoder.org/polotno/{q['slug']}", 'src_en': f"https://futuredecoder.org/en/future-canvas/{se}" if se in en_files else f"https://futuredecoder.org/polotno/{q['slug']}"})
+    vals_out[k] = {'ru': v['ru'], 'en': v['en'], 'ex': exs}
+
 out = ROOT / 'quartz/static/opros/data.json'
-out.write_text(json.dumps({'spheres': spheres}, ensure_ascii=False, separators=(',', ':')))
+out.write_text(json.dumps({'spheres': spheres, 'vals': vals_out}, ensure_ascii=False, separators=(',', ':')))
 n = sum(len(x['subs']) for x in spheres)
 print(f'{out.relative_to(ROOT)}: {len(spheres)} сфер, {n} подсфер, {len(src)} вариантов, историй {sum(1 for k in stories if k in {c["id"] for c in src})}, {out.stat().st_size//1024} КБ')
 

@@ -155,6 +155,13 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .oc{background:#fff;border:1px solid var(--line);border-top:4px solid var(--ink);border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.35}
 @media(max-width:760px){.abmap{grid-template-columns:1fr}.abmap .arr{transform:rotate(90deg);justify-self:center}}
 .kw{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 4px}.kw label{font-size:13.5px;color:var(--muted)}.kw input{display:block;width:100%;box-sizing:border-box;margin-top:4px;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}@media(max-width:640px){.kw{grid-template-columns:1fr}}
+.brain{border:1.5px solid var(--line);border-radius:16px;padding:14px 16px;margin:14px 0;background:#fff;font-size:14.5px;line-height:1.45}
+.egcloud{border:1.5px dashed var(--line);border-radius:14px;padding:10px 14px;background:#fff}.egcloud summary{cursor:pointer}
+.cpick{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end;margin:10px 0}.cpick label{font-size:13.5px;color:var(--muted)}.cpick select{display:block;width:100%;margin-top:4px;font:inherit;font-size:14px;padding:8px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.vex{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.vtags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px}.wt{padding:2px 8px;border-radius:999px;border:1px solid var(--line);background:#f8f9fa}
+.real{margin:4px 0 10px}
+@media(max-width:640px){.cpick{grid-template-columns:1fr}}
 .sumbox{border:1.5px solid var(--ink);border-radius:16px;padding:16px 18px;margin:20px 0}
 .sumbox .big{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px}
 .vbar{display:grid;grid-template-columns:150px 1fr 34px;gap:10px;align-items:center;margin:5px 0;font-size:14px}
@@ -263,7 +270,7 @@ ru:{
    picQ:"Вопрос на неделю: что из этого шага можно сделать уже завтра?",
    ex:["Начинаем снаружи: вы отмечали, что вам нравится в мирах будущего. Теперь оставьте главное — то, с чем хотите работать.",
        "Желание — это способ. За ним стоит ценность, то, что вы на самом деле хотите получить. Когда видна ценность, видны и другие дороги к ней.",
-       "Грозовая туча — метод Элияху Голдратта. Два желания спорят, но у них есть общая цель. Конфликт держится на скрытом «потому что…». Найдите его и проверьте: если это неправда, туча рассеивается. Отвечайте по порядку, примеры подскажут.",
+       "Грозовая туча — метод Элияху Голдратта. Два желания спорят, но у них есть общая цель. Конфликт держится на скрытом «потому что…». Найдите его и проверьте: если это неправда, туча рассеивается. Сначала посмотрите пример, потом найдите своё противоречие и пройдите по тем же вопросам.",
        "Рычаг — ценность, на которую работает больше всего ваших желаний. Сдвинете её, и сдвинутся сразу несколько. Мы подсветили самую частую, но выбираете вы.",
        "Одна ценность — много дорог. Ниже способы, которыми люди уже сегодня получают то же самое, в четырёх логиках. Выберите один, с которого начнёте. Остальные не пропадут: на карте они останутся запасными дорогами.",
        "Ваша карта на одном экране: откуда вы идёте, куда хотите прийти, ради каких ценностей и какой дорогой начинаете. Пунктиры — запасные дороги: если первая не сработает, есть с чего начать снова."],
@@ -304,6 +311,27 @@ ru:{
    otherH:"Другие пути из А в Б, которые вы пока отложили",
    otherP:"Это не отказ, а запас. Если первый шаг не сработает или захочется второго, начните отсюда.",
    oWays:"способ", oIdeas:"идея из тучи", oWants:"следующее «хочу»", oSrc:"где взять",
+   brainH:"Как мозг меняет картину будущего",
+   brain:[["Не знаю","опрос"],["Задаю вопрос","зачем"],["Расширяю взгляд","тучи и рычаг"],["Ищу информацию","дороги и сигналы"],["Говорю с людьми","лаборатория"],["Вижу доказательства","лаборатория и игры"],["Принимаю","карта"],["Действую","первый шаг"]],
+   brainP:"Мозг не меняет картину будущего от одной мысли. Ему нужен путь: от «не знаю» к вопросу, от вопроса к новым вариантам, потом к разговору с людьми и доказательствам, что так можно. Только тогда он принимает новое и начинает действовать. Эта короткая версия проходит путь в одиночку. Два шага — разговор и доказательства — делаются только с другими людьми: для них и нужна лаборатория.",
+   brainEnd:"Вы прошли путь в одиночку: от «не знаю» до первого шага. Чего здесь не было — разговора с людьми и проверки в мире. Без них мозг чаще всего возвращается к старой картине. В лаборатории мы проверяем карту вместе: с другими участниками, на четырёх сценариях и на живых примерах.",
+   brainHere:"здесь", brainLab:"в лаборатории",
+   cEgH:"Пример тучи",
+   cEg:{goal:"чувствовать себя в безопасности",needA:"своё место, которое никто не отнимет",needB:"расти и не выгореть",dA:"Коплю на квартиру и во всём себе отказываю",dB:"Трачу на учёбу, отдых и своё дело",why:"«Нельзя и копить, и тратить на себя, потому что денег хватает только на одно».",ifnot:"«Если копить можно не только своими деньгами — с софинансированием, вскладчину, — хватит и на себя»."},
+   cYourH:"Ваша туча", cYourP:"Найдите у себя два «хочу», которые тянут в разные стороны: одно забирает то, что нужно другому, — время, деньги, силы или свободу.",
+   cPickA:"Первое «хочу»", cPickB:"Второе «хочу»", cPick0:"— выберите —", cOwnB:"другое: то, чем придётся заплатить",
+   cHint:(a,b)=>`Подсказка: похоже, сильнее всего спорят «${a}» и «${b}».`, cTake:"Взять эту пару", cAdd:"+ ещё одна туча", cDel:"Убрать тучу",
+   vAboutH:(v)=>`Что такое «${v}»`, vExH:"Как это получают в других сферах — с наших игр", vStep:"Что можно сделать:", vGame:"с игры",
+   realH:"Как сейчас — честно. Нажмите то, что про вас, или допишите своё:",
+   real:{finansy:["живу от зарплаты до зарплаты","есть кредиты или долги","нет запаса на чёрный день","весь доход — одна работа","не понимаю, куда уходят деньги"],
+     byt:["снимаю жильё","живу с родителями","ипотека на годы вперёд","тесно, негде побыть одному","быт съедает вечера и выходные"],
+     rabota:["работа не нравится, но держусь","выгораю","боюсь, что работу заберёт ИИ","не понимаю, чем хочу заниматься","зарплата не растёт"],
+     zdorovye:["постоянно устаю","плохо сплю","к врачу — только когда совсем плохо","нет времени на движение"],
+     obrazovanie:["знания устарели","начинаю курсы и бросаю","нет времени учиться","диплом не пригодился"],
+     semya:["мало времени с близкими","одиноко","ссоримся из-за денег и быта","всё держится на мне"],
+     sreda:["всё далеко, город неудобный","не знаю соседей","хочу уехать, но не на что","от меня ничего не зависит"],
+     smysl:["живу на автопилоте","не понимаю, зачем всё это","нет времени на своё","некогда остановиться и подумать"]},
+   mapPdf:"Скачать карту в PDF",
    wStart:"Выберите одну дорогу, с которой начнёте.", startOn:"Начну с этого", startedOn:"Начинаю с этого",
    kwA:"Точка А своими словами (необязательно)", kwAph:"например: съёмная квартира, одна зарплата, нет запаса",
    kwB:"Точка Б ключевыми словами: что у вас там есть", kwBph:"например: свой дом, запас на полгода, два источника дохода",
@@ -420,7 +448,7 @@ en:{
    picQ:"A question for the week: what part of this step could you do tomorrow?",
    ex:["We start outside: you marked what you like in the worlds of the future. Now keep the main things, the ones you want to work with.",
        "A want is a means. Behind it is a value, what you really want to get. Once the value is visible, other roads to it become visible too.",
-       "The storm cloud is Eliyahu Goldratt's method. Two wants clash, yet they share a goal. The conflict rests on a hidden “because…”. Find it and test it: if it isn't true, the cloud evaporates. Answer in order; the examples will help.",
+       "The storm cloud is Eliyahu Goldratt's method. Two wants clash, yet they share a goal. The conflict rests on a hidden “because…”. Find it and test it: if it isn't true, the cloud evaporates. Look at the example first, then find your own contradiction and go through the same questions.",
        "The lever is the value most of your wants serve. Move it and several move at once. We've highlighted the most frequent one, but the choice is yours.",
        "One value, many roads. Below are ways people already get the same thing today, in four logics. Choose one to start with. The others don't disappear: they stay on your map as spare roads.",
        "Your map on one screen: where you come from, where you want to get to, for which values, and which road you start on. Dashed lines are spare roads: if the first doesn't work, you have somewhere to start again."],
@@ -461,6 +489,27 @@ en:{
    otherH:"Other roads from A to B you've set aside for now",
    otherP:"This isn't a refusal but a reserve. If the first step doesn't work or you want a second one, start here.",
    oWays:"way", oIdeas:"idea from a cloud", oWants:"next want", oSrc:"where to get",
+   brainH:"How the brain changes its picture of the future",
+   brain:[["I don't know","questionnaire"],["I ask a question","why"],["I widen the view","clouds and lever"],["I look for information","roads and signals"],["I talk to people","the lab"],["I see proof","the lab and games"],["I accept","map"],["I act","first step"]],
+   brainP:"The brain doesn't change its picture of the future from a single thought. It needs a path: from “I don't know” to a question, from the question to new options, then to talking with people and seeing proof that it can be done. Only then does it accept the new and start acting. This short version walks the path alone. Two steps — conversation and proof — only happen with other people: that's what the lab is for.",
+   brainEnd:"You've walked the path alone, from “I don't know” to a first step. What was missing here is talking with people and testing in the world. Without them the brain usually slides back to the old picture. In the lab we test the map together: with other participants, against four scenarios and on live examples.",
+   brainHere:"here", brainLab:"in the lab",
+   cEgH:"Example cloud",
+   cEg:{goal:"to feel secure",needA:"a place of my own no one can take away",needB:"to grow and not burn out",dA:"I save for a flat and deny myself everything",dB:"I spend on learning, rest and my own project",why:"“I can't both save and spend on myself, because the money only covers one.”",ifnot:"“If saving doesn't have to be only my own money — co-funding, pooling — there's enough for me too.”"},
+   cYourH:"Your cloud", cYourP:"Find two of your wants that pull in different directions: one takes what the other needs — time, money, energy or freedom.",
+   cPickA:"First want", cPickB:"Second want", cPick0:"— choose —", cOwnB:"something else: what I'll have to pay",
+   cHint:(a,b)=>`Hint: «${a}» and «${b}» seem to clash the most.`, cTake:"Take this pair", cAdd:"+ another cloud", cDel:"Remove cloud",
+   vAboutH:(v)=>`What «${v}» is`, vExH:"How people get it in other spheres — from our games", vStep:"What you can do:", vGame:"from a game",
+   realH:"How it is now, honestly. Tap what's true for you or add your own:",
+   real:{finansy:["living paycheck to paycheck","loans or debts","no rainy-day reserve","all income from one job","no idea where the money goes"],
+     byt:["renting","living with parents","a mortgage for years ahead","cramped, no space of my own","chores eat my evenings and weekends"],
+     rabota:["don't like my job but hold on","burning out","afraid AI will take my job","don't know what I want to do","pay isn't growing"],
+     zdorovye:["always tired","sleeping badly","doctor only when it's really bad","no time to move"],
+     obrazovanie:["my knowledge is out of date","I start courses and drop them","no time to learn","my degree didn't help"],
+     semya:["little time with loved ones","lonely","we argue about money and chores","everything rests on me"],
+     sreda:["everything is far, the city is awkward","don't know my neighbours","want to move but can't afford it","nothing depends on me"],
+     smysl:["living on autopilot","don't see what it's all for","no time for my own things","no time to stop and think"]},
+   mapPdf:"Download the map as PDF",
    wStart:"Choose one road to start with.", startOn:"I'll start here", startedOn:"Starting here",
    kwA:"Point A in your own words (optional)", kwAph:"e.g. a rented flat, one salary, no reserve",
    kwB:"Point B in key words: what you have there", kwBph:"e.g. a home of my own, six months' reserve, two income streams",
@@ -531,7 +580,7 @@ const L = (o,k)=>o[k+"_"+LANG]||o[k+"_ru"]||"";
 const nm = o=>o[LANG]||o.ru;
 const vtitle = v=>v.s_ru?L(v,"s"):L(v,"n");
 
-const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:""});
+const LAB0=()=>({step:0,picks:[],vals:{},vown:{},clouds:{},lev:null,ways:[],own:"",need:{},needTxt:{},src:{},def:null,defTxt:"",first:null,gain:{},pointB:"",kwA:"",kwB:"",cpairs:[{a:"",b:""}]});
 let D=null, S={sel:[],ans:{},own:{},order:{},pos:0,lab:LAB0()}, canStore=true;
 function load(){try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r))}catch(e){canStore=false}S.lab=Object.assign(LAB0(),S.lab||{})}
 function save(){if(!canStore)return;try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){canStore=false}}
@@ -698,15 +747,15 @@ function sure(btn,label,act){
 let DLNS=null;
 try{if(window.claude&&typeof window.claude.use==="function")window.claude.use("downloads").then(ns=>{DLNS=ns}).catch(()=>{})}catch(e){}
 function flash(btn,t){if(!btn)return;const o=btn.dataset.label||btn.textContent;btn.dataset.label=o;btn.textContent=t;setTimeout(()=>{btn.textContent=o},2500)}
-function fname(ext){return (LANG==="ru"?"kak-seichas-i-kakim-hochu-":"now-and-wanted-")+today()+"."+ext}
-async function dl(data,type,ext,btn){
+function fname(ext,prefix){return (prefix||(LANG==="ru"?"kak-seichas-i-kakim-hochu-":"now-and-wanted-"))+today()+"."+ext}
+async function dl(data,type,ext,btn,prefix){
   if(DLNS){
-    try{await DLNS.save({filename:fname(ext),data});flash(btn,T.saved)}
+    try{await DLNS.save({filename:fname(ext,prefix),data});flash(btn,T.saved)}
     catch(e){if(!(e&&e.code==="declined"))flash(btn,T.dlFail)}
     return;
   }
   const blob=data instanceof Blob?data:new Blob([data],{type:type+";charset=utf-8"});
-  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fname(ext);document.body.appendChild(a);a.click();
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fname(ext,prefix);document.body.appendChild(a);a.click();
   setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);
 }
 function loadPdfLib(){
@@ -715,13 +764,13 @@ function loadPdfLib(){
     s.src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js";
     s.onload=ok;s.onerror=no;document.head.appendChild(s)});
 }
-async function pdf(btn){
+async function pdf(btn,srcId,orient,prefix){
   const o=btn.textContent;btn.textContent=T.busy;btn.disabled=true;
   try{
     await loadPdfLib();
     const y=window.scrollY; window.scrollTo(0,0);
     // Снимаем копию итога фиксированной ширины: без кнопок, со всеми раскрытыми блоками.
-    const src=document.getElementById("s-result").cloneNode(true);
+    const src=document.getElementById(srcId||"s-result").cloneNode(true);
     src.removeAttribute("id");src.hidden=false;
     src.querySelectorAll(".noprint").forEach(n=>n.remove());
     src.querySelectorAll("details").forEach(d=>{d.open=true});
@@ -732,11 +781,29 @@ async function pdf(btn){
     try{
       blob=await html2pdf().set({margin:[12,12,14,12],image:{type:"jpeg",quality:0.95},
         html2canvas:{scale:2,backgroundColor:"#ffffff",scrollX:0,scrollY:0},
-        jsPDF:{unit:"mm",format:"a4",orientation:"portrait"},pagebreak:{mode:["css","legacy"],avoid:[".sp","li",".wbar","h2"]}
+        jsPDF:{unit:"mm",format:"a4",orientation:orient||"portrait"},pagebreak:{mode:["css","legacy"],avoid:[".sp","li",".wbar","h2"]}
       }).from(src).outputPdf("blob");
     }finally{window.scrollTo(0,y)}
     btn.textContent=o;btn.disabled=false;
-    await dl(blob,"application/pdf","pdf",btn);
+    await dl(blob,"application/pdf","pdf",btn,prefix);
+  }catch(e){btn.textContent=o;btn.disabled=false;try{window.print()}catch(_){flash(btn,T.dlFail)}}
+}
+async function mapPdf(btn){
+  const o=btn.textContent;btn.textContent=T.busy;btn.disabled=true;
+  try{
+    await loadPdfLib();
+    const svg=document.querySelector("#fmap svg");
+    let xml=new XMLSerializer().serializeToString(svg).replace(/var\(--ink\)/g,"#111").replace(/var\(--line\)/g,"#dee2e6").replace(/var\(--muted\)/g,"#868e96").replace(/var\(--cs\)/g,"#fc5721").replace(/var\(--cz\)/g,"#fedf3a").replace(/var\(--ds\)/g,"#1e7ff0").replace(/var\(--dz\)/g,"#fd7fb8").replace("<svg",'<svg font-family="Inter, Arial, sans-serif"');
+    if(!/xmlns="http:\/\/www\.w3\.org\/2000\/svg"/.test(xml))xml=xml.replace("<svg","<svg xmlns=\"http://www.w3.org/2000/svg\"");
+    xml=xml.replace(/<svg([^>]*?) width="100%"/,'<svg$1 width="2000" height="1280"');
+    const img=new Image();await new Promise((ok,no)=>{img.onload=ok;img.onerror=no;img.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(xml)});
+    const cv=document.createElement("canvas");cv.width=2000;cv.height=1370;const x=cv.getContext("2d");
+    x.fillStyle="#fff";x.fillRect(0,0,cv.width,cv.height);x.fillStyle="#111";x.font="700 40px Inter, Arial, sans-serif";x.fillText(T.lb.mapH+" · "+today(),40,60);
+    x.drawImage(img,40,80,1920,1229);x.font="600 28px Inter, Arial, sans-serif";x.fillText(T.lb.picQ,40,1350);
+    cv.toDataURL("image/jpeg",0.5); // проверка, что холст не «запачкан»
+    const blob=await html2pdf().set({margin:[8,8,8,8],image:{type:"jpeg",quality:0.95},jsPDF:{unit:"mm",format:"a4",orientation:"landscape"}}).from(cv,"canvas").outputPdf("blob");
+    btn.textContent=o;btn.disabled=false;
+    await dl(blob,"application/pdf","pdf",btn,LANG==="ru"?"karta-":"map-");
   }catch(e){btn.textContent=o;btn.disabled=false;try{window.print()}catch(_){flash(btn,T.dlFail)}}
 }
 function toMD(data){
@@ -820,23 +887,33 @@ function findClouds(){
   return res;
 }
 function cl(k){return S.lab.clouds[k]||(S.lab.clouds[k]={})}
-function cloudSVG(c){
-  const st=cl(c.key),A=card(c.a),B=c.b?card(c.b):null,lb=T.lb.svg;
-  const dA=short(vtitle(A.v),70),dB=B?short(vtitle(B.v),70):(st.d2||"…"),nA=st.needA||wvals(c.a).join(", ")||"…",nB=st.needB||(B?wvals(c.b).join(", "):"")||"…",g=st.goal||"…";
-  const box=(x,y,w,h,cap,t,col,bold)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="#fff" stroke="${col||"#ced4da"}" stroke-width="${bold?2.5:1.4}"/><text x="${x+8}" y="${y-6}" font-size="11" fill="#868e96">${cap}</text><foreignObject x="${x+6}" y="${y+4}" width="${w-12}" height="${h-8}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:12.5px;line-height:1.25;color:#111;height:${h-8}px;display:flex;align-items:center;overflow:hidden">${esc(cut(t,90))}</div></foreignObject>`;
-  const ar=(x1,y1,x2,y2)=>`<path d="M${x1},${y1} L${x2},${y2}" stroke="#868e96" stroke-width="1.8" fill="none" marker-end="url(#ac${c.key.length})"/>`;
+function cloudRaw(t,id){
+  const lb=T.lb.svg;
+  const box=(x,y,w,h,cap,tx,col,bold)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="#fff" stroke="${col||"#ced4da"}" stroke-width="${bold?2.5:1.4}"/><text x="${x+8}" y="${y-6}" font-size="11" fill="#868e96">${cap}</text><foreignObject x="${x+6}" y="${y+4}" width="${w-12}" height="${h-8}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:12.5px;line-height:1.25;color:#111;height:${h-8}px;display:flex;align-items:center;overflow:hidden">${esc(cut(tx,90))}</div></foreignObject>`;
+  const ar=(x1,y1,x2,y2)=>`<path d="M${x1},${y1} L${x2},${y2}" stroke="#868e96" stroke-width="1.8" fill="none" marker-end="url(#ac${id})"/>`;
   const W=700,H=250;
-  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:8px 0" role="img"><defs><marker id="ac${c.key.length}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#868e96"/></marker></defs>
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;margin:8px 0" role="img"><defs><marker id="ac${id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#868e96"/></marker></defs>
   ${ar(250,62,182,112)}${ar(250,188,182,138)}${ar(480,50,422,50)}${ar(480,200,422,200)}
   <path d="M585,82 L570,115 L592,118 L577,160" stroke="#e8590c" stroke-width="3" fill="none"/>
-  ${box(10,95,170,60,lb.goal,g,"var(--ink)",true)}${box(250,22,170,60,lb.need,nA)}${box(250,168,170,60,lb.need,nB)}
-  ${box(480,22,210,60,lb.act,dA,WC[A.v.w],true)}${box(480,168,210,60,lb.act,dB,B?WC[B.v.w]:"#ced4da",true)}</svg>`;
+  ${box(10,95,170,60,lb.goal,t.goal||"…","var(--ink)",true)}${box(250,22,170,60,lb.need,t.needA||"…")}${box(250,168,170,60,lb.need,t.needB||"…")}
+  ${box(480,22,210,60,lb.act,t.dA||"…",t.cA,true)}${box(480,168,210,60,lb.act,t.dB||"…",t.cB,true)}</svg>`;
+}
+function cloudSVG(c){
+  const st=cl(c.key),A=card(c.a),B=c.b?card(c.b):null;
+  return cloudRaw({goal:st.goal,needA:st.needA||wvals(c.a).join(", "),needB:st.needB||(B?wvals(c.b).join(", "):""),dA:short(vtitle(A.v),70),dB:B?short(vtitle(B.v),70):st.d2,cA:WC[A.v.w],cB:B?WC[B.v.w]:"#ced4da"},c.key);
+}
+function userClouds(){
+  const P=S.lab.picks;S.lab.cpairs=S.lab.cpairs&&S.lab.cpairs.length?S.lab.cpairs:[{a:"",b:""}];
+  return S.lab.cpairs.map((p,i)=>{const a=P.includes(p.a)?p.a:"",b=p.b&&P.includes(p.b)&&p.b!==a?p.b:"";if(!a||(!b&&!p.own))return null;
+    const ca=card(a),cb=b?card(b):null;let vt=null;
+    if(cb){const va=S.lab.vals[a]||[],vb=S.lab.vals[b]||[];for(const [x,y] of TENS){if(va.includes(x)&&vb.includes(y)){vt=[x,y];break}if(va.includes(y)&&vb.includes(x)){vt=[y,x];break}}}
+    return {a,b:b||null,key:"u"+i,i,w:cb&&ca.v.w!==cb.v.w?[ca.v.w,cb.v.w].sort().join("|"):null,vt}}).filter(Boolean);
 }
 function cloudHTML(c,i){
   const st=cl(c.key),A=card(c.a),B=c.b?card(c.b):null,t=x=>esc(short(vtitle(x.v),60));
   const ta=(f,ph,rows)=>`<textarea rows="${rows||1}" data-cf="${f}" data-ck="${c.key}" data-ci="${i}" placeholder="${esc(ph)}">${esc(st[f]||"")}</textarea>`;
   const q=(n,txt)=>`<p class="cq"><span class="num">${n}</span><b>${esc(txt)}</b></p>`;
-  return `<div class="item cloud">${c.w?`<p class="muted" style="margin:0 0 4px;font-size:14px">${esc(T.lb.cloudW[c.w])}${c.vt?" "+esc(T.lb.cloudVal(T.vals[c.vt[0]],T.vals[c.vt[1]])):""}</p>`:`<p class="muted" style="margin:0 0 4px;font-size:14px">${esc(T.lb.oneWorld(T.worlds[A.v.w].toLowerCase(),""))}</p>`}
+  return `<div class="item cloud">${c.w||c.vt?`<p class="muted" style="margin:0 0 4px;font-size:14px">${c.w?esc(T.lb.cloudW[c.w]):""}${c.vt?" "+esc(T.lb.cloudVal(T.vals[c.vt[0]],T.vals[c.vt[1]])):""}</p>`:""}
     <div id="csvg${i}">${cloudSVG(c)}</div>
     ${B?"":q("0",T.lb.oneD2)+ta("d2",T.lb.oneD2ph)}
     ${q(1,T.lb.gBq(short(vtitle(A.v),50)))}${ta("needA",wvals(c.a).join(", ")||T.lb.gBph)}
@@ -846,6 +923,25 @@ function cloudHTML(c,i){
     ${q(5,T.lb.gIf)}<p class="eg">${esc(T.lb.gIfEg)}</p>${ta("ifnot",T.lb.gIfPh,2)}
     ${q(6,T.lb.gIdea)}<div class="inj">${["ЦС","ЦЗ","ДС","ДЗ"].map(w=>`<span style="border-left:4px solid ${WC[w]}"><b>${T.worlds[w]}:</b> ${esc(T.lb.inj[w])}</span>`).join("")}</div>${ta("idea",T.lb.ideaPh,2)}
   </div>`;
+}
+function brainSVG(end){
+  const B=T.lb.brain,W=900,H=200,n=B.length,x=i=>40+i*((W-80)/(n-1)),y=i=>160-i*((120)/(n-1)),lab=i=>i===4||i===5;
+  let e=`<path d="M${x(0)},${y(0)} ${B.map((_,i)=>`L${x(i)},${y(i)}`).join(" ")}" fill="none" stroke="#ced4da" stroke-width="3"/>`,nd="";
+  B.forEach(([t,sub],i)=>{const L_=lab(i),col=L_?"#e8590c":"#7048e8",done=end&&!L_;
+    nd+=`<circle cx="${x(i)}" cy="${y(i)}" r="${L_?13:11}" fill="${L_?"#fff":done?"#7048e8":"#fff"}" stroke="${col}" stroke-width="3"/>${done?`<text x="${x(i)}" y="${y(i)+4.5}" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">✓</text>`:""}
+    <foreignObject x="${x(i)-62}" y="${y(i)+16}" width="124" height="60"><div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center;font-size:12px;line-height:1.2;color:#111;font-weight:600">${esc(t)}<div style="font-weight:400;font-size:11px;color:${L_?"#c2410c":"#868e96"}">${esc(sub)}</div></div></foreignObject>`});
+  return `<svg viewBox="0 0 ${W} ${H+30}" width="100%" style="max-width:${W}px;display:block;margin:6px 0" role="img">${e}${nd}</svg>`;
+}
+function brainHTML(end){return `<div class="brain"><h3 style="margin:0 0 4px">${T.lb.brainH}</h3>${brainSVG(end)}<p style="margin:4px 0 0">${esc(end?T.lb.brainEnd:T.lb.brainP)}</p><p class="muted" style="font-size:12.5px;margin:6px 0 0"><span style="color:#7048e8">●</span> ${T.lb.brainHere} &nbsp; <span style="color:#e8590c">○</span> ${T.lb.brainLab}</p></div>`}
+// ценность: о ней самой и примеры с игр из других сфер
+function valAbout(k){
+  const V=D.vals&&D.vals[k];if(!V)return "";
+  const mine=new Set(S.lab.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id));
+  let ex=V.ex.filter(e=>!mine.has(e.sp));if(ex.length<3)ex=[...ex,...V.ex.filter(e=>mine.has(e.sp))];
+  const sph=id=>{const sp=D.spheres.find(s=>s.id===id);return sp?nm(sp):""};
+  return `<div class="sumbox"><h3 style="margin-top:0">${esc(T.lb.vAboutH(vLabel(k)))}</h3><p class="big" style="font-weight:500">${esc(V[LANG]||V.ru)}</p>
+    <h3>${T.lb.vExH}</h3><div class="vex">${ex.slice(0,4).map(e=>`<div class="oc" style="border-top-color:${WC[e.w]}"><p style="margin:0 0 4px;font-weight:700;font-size:14px">«${esc(L(e,"quote"))}»</p><p style="margin:0 0 6px">${esc(L(e,"one"))}</p><p class="muted" style="margin:0 0 8px;font-size:12.5px">${T.lb.vStep} ${esc(L(e,"step"))}</p>
+      <div class="vtags"><span class="wt" style="background:color-mix(in srgb,${WC[e.w]} 18%,#fff);border-color:${WC[e.w]}">${T.worlds[e.w]}</span>${e.sp?`<span class="wt">${esc(sph(e.sp))}</span>`:""}<a href="${esc(LANG==="en"?e.src_en:e.src)}" target="_blank" rel="noopener">${T.lb.vGame}</a></div></div>`).join("")}</div></div>`;
 }
 // ---------- Рычаг ----------
 function levSug(){const vc=valCounts();return Object.keys(vc).sort((a,b)=>vc[b]-vc[a])[0]||null}
@@ -927,7 +1023,7 @@ function mapHTML(){
   const Lb=S.lab,C=conclusion(),ks=Object.keys(T.worlds),mx=Math.max(...ks.map(k=>C.now[k]));
   const nowW=mx?ks.filter(k=>C.now[k]===mx):[];
   const drops=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&r.a==="drop")drops.push(v)}
-  const cs=findClouds(),c0=cs[0]&&Lb.clouds[cs[0].key]||{},goal=(c0.goal||"").trim(),why=(c0.why||"").trim();
+  const cs=userClouds(),c0=cs[0]&&Lb.clouds[cs[0].key]||{},goal=(c0.goal||"").trim(),why=(c0.why||"").trim();
   const def=Lb.def,srcA=def&&(Lb.src||{})[def];
   const vc=valCounts(),vk=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]).slice(0,4);
   const fo=Lb.first&&wayObj(Lb.first.key),lt=loopTxt();
@@ -954,7 +1050,7 @@ function finalMap(){
   const Lb=S.lab,W=1000,H=640,top=58,bot=H-14,kind=k=>(k||"").split(/[,;\n]+/).map(x=>x.trim()).filter(Boolean);
   const C=conclusion(),wk=Object.keys(T.worlds),mx=Math.max(...wk.map(k=>C.now[k])),nowW=mx?wk.filter(k=>C.now[k]===mx):[];
   const keep=[],drop=[];for(const sp of D.spheres)for(const sb of sp.subs)for(const v of sb.v){const r=S.ans[v.id];if(r&&r.a==="keep")keep.push(v);if(r&&r.a==="drop")drop.push(v)}
-  const cs=findClouds(),c0=(cs[0]&&Lb.clouds[cs[0].key])||{},why=(c0.why||"").trim();
+  const cs=userClouds(),c0=(cs[0]&&Lb.clouds[cs[0].key])||{},why=(c0.why||"").trim();
   const chip=(t,col,x)=>`<span style="display:inline-block;margin:0 4px 5px 0;padding:3px 9px;border-radius:999px;font-size:12px;line-height:1.3;background:${x==="drop"?"#fff":"#f1f3f5"};border:1.5px solid ${col||"#ced4da"};${x==="drop"?"text-decoration:line-through;color:#868e96":""}">${esc(cut(t,40))}</span>`;
   const fo=(x,y,w,h,html)=>`<foreignObject x="${x}" y="${y}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:12.5px;line-height:1.35;color:#111;height:${h}px;overflow:hidden">${html}</div></foreignObject>`;
   const cap=(x,y,t,col)=>`<text x="${x}" y="${y}" font-size="12" font-weight="700" letter-spacing=".05em" fill="${col||"#868e96"}">${esc(t)}</text>`;
@@ -1009,27 +1105,35 @@ function rLab(){
   let body="";
   if(Lb.step===0){
     const pSph=new Set(Lb.picks.map(id=>card(id).sp.id));
-    body=`<p>${T.lb.intro}</p>${ex}<h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(Lb.picks.length,pSph.size)}.</p>`+
+    body=`<p>${T.lb.intro}</p>${brainHTML(false)}${ex}<h2>${T.lb.pickH}</h2><p class="muted">${T.lb.pickN(Lb.picks.length,pSph.size)}.</p>`+
       W.map(x=>{const on=Lb.picks.includes(x.v.id);return `<button class="pick" data-id="${x.v.id}" aria-pressed="${on}" ${!on&&Lb.picks.length>=10?"disabled":""}><span class="box">${on?"✓":""}</span><span>${esc(vtitle(x.v))}<small>${esc(nm(x.sp))} · ${esc(nm(x.sb))} · ${T.worlds[x.v.w]}</small></span></button>`}).join("")+nav(Lb.picks.length>0);
   }else if(Lb.step===1){
     const vc=valCounts(), ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]), mx=Math.max(1,...Object.values(vc));
     body=`<h2>${T.lb.whyH}</h2>${ex}<p>${T.lb.whyP}</p>`+Lb.picks.map(id=>{const c=card(id),sel=Lb.vals[id]||[];return `<div class="item" style="border-left-color:${WC[c.v.w]}"><p class="t">${esc(vtitle(c.v))}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${id}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${id}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}"></div>`}).join("")+
       `<div class="sumbox"><p class="big">${ks.length?esc(T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))):T.lb.valsNone}</p>${ks.map(k=>`<div class="vbar"><span>${esc(vLabel(k))}</span><span class="b"><i style="width:${vc[k]/mx*100}%;background:var(--ink)"></i></span><span>${vc[k]}</span></div>`).join("")}</div>`+nav(true);
   }else if(Lb.step===2){
-    const cs=findClouds();
-    body=`<h2>${T.lb.cloudH}</h2>${ex}`+cs.map((c,i)=>cloudHTML(c,i)).join("")+cs.filter(c=>c.b).map(c=>`<label class="muted noprint" style="font-size:14px;display:block;margin:-2px 0 10px"><input type="checkbox" data-rep="${c.key}" ${cl(c.key).rep?"checked":""}> ${T.lb.replace}: ${esc(short(vtitle(card(c.a).v),40))} ⚡ ${esc(short(vtitle(card(c.b).v),40))}</label>`).join("")+nav(true);
+    const cs=userClouds(),E=T.lb.cEg,sug=findClouds().find(c=>c.b);
+    const opt=(sel,ex,own)=>`<option value="">${T.lb.cPick0}</option>`+Lb.picks.map(id=>`<option value="${id}" ${sel===id?"selected":""} ${ex===id?"disabled":""}>${esc(short(vtitle(card(id).v),70))}</option>`).join("")+(own?`<option value="~" ${sel==="~"?"selected":""}>${T.lb.cOwnB}</option>`:"");
+    body=`<h2>${T.lb.cloudH}</h2>${ex}
+      <details class="egcloud" ${cs.length?"":"open"}><summary><b>${T.lb.cEgH}</b></summary>${cloudRaw({goal:E.goal,needA:E.needA,needB:E.needB,dA:E.dA,dB:E.dB,cA:WC["ЦЗ"],cB:WC["ДС"]},"eg")}<p class="eg" style="margin-left:0">${T.lb.gWhy} ${esc(E.why)}</p><p class="eg" style="margin-left:0">${T.lb.gIf} ${esc(E.ifnot)}</p></details>
+      <h2 style="margin-top:22px">${T.lb.cYourH}</h2><p>${T.lb.cYourP}</p>`+
+      Lb.cpairs.map((p,i)=>{const c=cs.find(x=>x.i===i);return `<div class="cpick noprint"><label>${T.lb.cPickA}<select data-cpa="${i}">${opt(p.a,p.b)}</select></label><label>${T.lb.cPickB}<select data-cpb="${i}">${opt(p.b||(p.a&&!p.b&&p.own?"~":""),p.a,true)}</select></label>${i?`<button class="btn ghost" data-cdel="${i}">${T.lb.cDel}</button>`:""}</div>`+
+        (i===0&&sug&&!(p.a&&(p.b||p.own))?`<p class="note">${esc(T.lb.cHint(short(vtitle(card(sug.a).v),50),short(vtitle(card(sug.b).v),50)))} <button class="btn ghost" data-csug="${sug.a}|${sug.b}">${T.lb.cTake}</button></p>`:"")+
+        (c&&(c.b||p.own)?cloudHTML(c,i)+(c.b?`<label class="muted noprint" style="font-size:14px;display:block;margin:-2px 0 10px"><input type="checkbox" data-rep="${c.key}" ${cl(c.key).rep?"checked":""}> ${T.lb.replace}</label>`:""):"")}).join("")+
+      (Lb.cpairs.length<2&&cs.length?`<button class="btn ghost noprint" id="cadd">${T.lb.cAdd}</button>`:"")+nav(true);
   }else if(Lb.step===3){
     const vc=valCounts(),ks=Object.keys(vc).sort((a,b)=>vc[b]-vc[a]),sug=ks[0];
     if(Lb.lev&&!vc[Lb.lev])Lb.lev=null;
-    body=`<h2>${T.lb.levH}</h2>${ex}`+(ks.length?`<p class="muted" style="font-size:14px">${T.lb.levP}</p>${levSVG()}<h3>${T.lb.levPick}</h3><div class="tags" style="gap:10px">${ks.map(k=>`<button class="tg big" data-lev="${esc(k)}" aria-pressed="${Lb.lev===k}">${esc(vLabel(k))} · ${vc[k]}${k===sug?` <small>(${T.lb.levSug})</small>`:""}</button>`).join("")}</div>${Lb.lev?`<div class="sumbox"><p class="big" style="margin:0">${esc(T.lb.levT(vLabel(Lb.lev),levIds().length,Lb.picks.length))}</p></div>`:""}`:`<p class="note">${T.lb.levNone}</p>`)+nav(!!Lb.lev||!ks.length);
+    body=`<h2>${T.lb.levH}</h2>${ex}`+(ks.length?`<p class="muted" style="font-size:14px">${T.lb.levP}</p>${levSVG()}<h3>${T.lb.levPick}</h3><div class="tags" style="gap:10px">${ks.map(k=>`<button class="tg big" data-lev="${esc(k)}" aria-pressed="${Lb.lev===k}">${esc(vLabel(k))} · ${vc[k]}${k===sug?` <small>(${T.lb.levSug})</small>`:""}</button>`).join("")}</div>${Lb.lev?`<div class="sumbox"><p class="big" style="margin:0">${esc(T.lb.levT(vLabel(Lb.lev),levIds().length,Lb.picks.length))}</p></div>`+valAbout(Lb.lev):""}`:`<p class="note">${T.lb.levNone}</p>`)+nav(!!Lb.lev||!ks.length);
   }else if(Lb.step===4){
     const ws=wayList(),byWant={};for(const o of ws)(byWant[o.want||"_"]=byWant[o.want||"_"]||[]).push(o);
     body=`<h2>${esc(T.lb.wH(vLabel(Lb.lev)||"…"))}</h2>${ex}<p class="big" style="font-weight:600">${T.lb.wStart}</p>`+
       Object.keys(byWant).map(w=>`<h3 style="margin-top:20px">${w==="_"?T.lb.ideaWay:esc(T.lb.wFor(short(vtitle(card(w).v),70)))}</h3>`+byWant[w].map(o=>wayHTML(o,"take")).join("")).join("")+
       `<h3 style="margin-top:20px">${T.lb.ownWay}</h3><div class="way${Lb.first&&Lb.first.key==="own"?" on":""}" style="border-left-color:var(--ink)"><textarea rows="2" id="ownway" placeholder="${T.lb.ownWayPh}">${esc(Lb.own||"")}</textarea>${(Lb.own||"").trim()?`<button class="btn ${Lb.first&&Lb.first.key==="own"?"":"ghost"} noprint" data-take="own" style="margin-top:8px">${Lb.first&&Lb.first.key==="own"?"✓ "+T.lb.startedOn:T.lb.startOn}</button>`:""}</div>`+nav(!!(Lb.first&&wayObj(Lb.first.key)));
   }else{
-    body=`<h2>${T.lb.mapH}</h2>${ex}<div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label><label>${T.lb.kwB}<input type="text" id="kwB" value="${esc(Lb.kwB||"")}" placeholder="${esc(T.lb.kwBph)}"></label></div>
-      <div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p>
+    const rs_=[...new Set([...Lb.picks.map(id=>card(id)).filter(Boolean).map(c=>c.sp.id),...S.sel])],kwA=(Lb.kwA||"").split(",").map(x=>x.trim().toLowerCase());
+    body=`<h2>${T.lb.mapH}</h2>${ex}<div class="real noprint"><p class="muted" style="margin:0 0 6px;font-size:14px">${T.lb.realH}</p><div class="tags">${rs_.flatMap(id=>(T.lb.real[id]||[])).map(t=>`<button class="tg" data-real="${esc(t)}" aria-pressed="${kwA.includes(t.toLowerCase())}">${esc(t)}</button>`).join("")}</div></div><div class="kw noprint"><label>${T.lb.kwA}<input type="text" id="kwA" value="${esc(Lb.kwA||"")}" placeholder="${esc(T.lb.kwAph)}"></label><label>${T.lb.kwB}<input type="text" id="kwB" value="${esc(Lb.kwB||"")}" placeholder="${esc(T.lb.kwBph)}"></label></div>
+      <div id="fmapwrap"><div id="fmap">${finalMap()}</div><p class="big" style="margin-top:12px">${T.lb.picQ}</p></div><div class="row noprint"><button class="btn" id="mappdf">${T.lb.mapPdf}</button></div>${brainHTML(true)}
       <div class="labbox"><h2>${T.lb.finH}</h2><p>${T.lb.finP}</p><a class="btn" href="${LAB}">${T.labBtn}</a></div>`+nav(true,true);
   }
   el.innerHTML=head+body;
@@ -1037,7 +1141,7 @@ function rLab(){
   q(".pick").forEach(b=>b.onclick=()=>{const id=b.dataset.id;Lb.picks=Lb.picks.includes(id)?Lb.picks.filter(x=>x!==id):Lb.picks.length<10?[...Lb.picks,id]:Lb.picks;save();rLab()});
   q(".tg[data-v]").forEach(b=>b.onclick=()=>{const id=b.dataset.id,v=b.dataset.v,a=Lb.vals[id]||[];Lb.vals[id]=a.includes(v)?a.filter(x=>x!==v):a.length<3?[...a,v]:a;save();rLab()});
   q("input[data-own]").forEach(i=>i.onchange=()=>{Lb.vown[i.dataset.own]=i.value;save();rLab()});
-  q("textarea[data-cf]").forEach(t=>t.oninput=()=>{cl(t.dataset.ck)[t.dataset.cf]=t.value;save();const cs=findClouds(),c=cs[+t.dataset.ci],box=document.getElementById("csvg"+t.dataset.ci);if(c&&box)box.innerHTML=cloudSVG(c)});
+  q("textarea[data-cf]").forEach(t=>t.oninput=()=>{cl(t.dataset.ck)[t.dataset.cf]=t.value;save();const cs=userClouds(),c=cs.find(x=>x.i===+t.dataset.ci),box=document.getElementById("csvg"+t.dataset.ci);if(c&&box)box.innerHTML=cloudSVG(c)});
   q("input[data-rep]").forEach(c=>c.onchange=()=>{cl(c.dataset.rep).rep=c.checked;save()});
   q(".tg[data-lev]").forEach(b=>b.onclick=()=>{Lb.lev=b.dataset.lev;Lb.ways=[];Lb.first=null;save();rLab()});
   q("button[data-way]").forEach(b=>b.onclick=()=>{const k=b.dataset.way;Lb.ways=Lb.ways.includes(k)?Lb.ways.filter(x=>x!==k):Lb.ways.length<3?[...Lb.ways,k]:Lb.ways;save();rLab()});
@@ -1046,6 +1150,13 @@ function rLab(){
   q("input[data-nt]").forEach(i=>i.onchange=()=>{Lb.needTxt[i.dataset.nt]=i.value;save()});
   q(".tg[data-def]").forEach(b=>b.onclick=()=>{Lb.def=b.dataset.def;save();rLab()});
   q("textarea[data-src]").forEach(t=>t.oninput=()=>{Lb.src=Lb.src||{};Lb.src[t.dataset.src]=t.value;save()});
+  q("select[data-cpa]").forEach(x=>x.onchange=()=>{const p=Lb.cpairs[+x.dataset.cpa];p.a=x.value;if(p.b===p.a)p.b="";save();rLab()});
+  q("select[data-cpb]").forEach(x=>x.onchange=()=>{const p=Lb.cpairs[+x.dataset.cpb];if(x.value==="~"){p.b="";p.own=true}else{p.b=x.value;p.own=false}save();rLab()});
+  q("button[data-csug]").forEach(b=>b.onclick=()=>{const [a,c]=b.dataset.csug.split("|");Lb.cpairs[0]={a,b:c};save();rLab()});
+  q("button[data-cdel]").forEach(b=>b.onclick=()=>{const i=+b.dataset.cdel;Lb.cpairs.splice(i,1);delete Lb.clouds["u"+i];save();rLab()});
+  const cad=el.querySelector("#cadd");if(cad)cad.onclick=()=>{Lb.cpairs.push({a:"",b:""});save();rLab()};
+  q(".tg[data-real]").forEach(b=>b.onclick=()=>{const t=b.dataset.real,arr=(Lb.kwA||"").split(",").map(x=>x.trim()).filter(Boolean),i=arr.findIndex(x=>x.toLowerCase()===t.toLowerCase());if(i>=0)arr.splice(i,1);else arr.push(t);Lb.kwA=arr.join(", ");save();rLab()});
+  const mp=el.querySelector("#mappdf");if(mp)mp.onclick=()=>mapPdf(mp);
   ["kwA","kwB"].forEach(id=>{const i=el.querySelector("#"+id);if(i)i.oninput=()=>{Lb[id]=i.value;save();document.getElementById("fmap").innerHTML=finalMap()}});
   const pB=el.querySelector("#pointB");if(pB)pB.oninput=()=>{Lb.pointB=pB.value;save()};
   const dt=el.querySelector("#deftxt");if(dt)dt.oninput=()=>{Lb.defTxt=dt.value;save()};
@@ -1061,7 +1172,7 @@ function labMD(){
   let s=`\n## ${T.mdLab}\n\n### ${T.mdVals}\n`;
   for(const id of Lb.picks){const c=card(id);if(!c)continue;const v=wvals(id);s+=`- ${vtitle(c.v)}${v.length?" — "+v.join(", "):""}\n`}
   if(ks.length)s+=`\n${T.lb.valsSum(joinList(ks.slice(0,3).map(vLabel)))}\n`;
-  const cs=findClouds().filter(c=>{const st=Lb.clouds[c.key]||{};return ["goal","needA","needB","why","ifnot","idea","d2"].some(f=>(st[f]||"").trim())});
+  const cs=userClouds().filter(c=>{const st=Lb.clouds[c.key]||{};return ["goal","needA","needB","why","ifnot","idea","d2"].some(f=>(st[f]||"").trim())});
   if(cs.length){s+=`\n### ${T.mdClouds}\n`;for(const c of cs){const st=Lb.clouds[c.key],A=card(c.a),B=c.b?card(c.b):null;
     s+=`- ${vtitle(A.v)} ⚡ ${B?vtitle(B.v):(st.d2||"")}\n`;
     for(const [f,lab] of [["goal",T.lb.gA],["needA",T.lb.gB+" 1"],["needB",T.lb.gB+" 2"],["why",T.lb.gWhy],["ifnot",T.lb.gIf],["idea",T.lb.idea]])if((st[f]||"").trim())s+=`  - ${lab}: ${st[f].trim()}\n`}}
