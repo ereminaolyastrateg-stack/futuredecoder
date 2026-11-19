@@ -168,6 +168,9 @@ details.opt{margin:8px 0}details.opt>summary{cursor:pointer;font-size:13px;color
 .resgrid{display:grid;grid-template-columns:max-content 1fr;gap:6px 12px;align-items:center}.resgrid .rn{font-size:14px}
 .needs{margin-top:6px}
 .w4{margin:10px 0;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#fff}.w4 .lvlg>div{background:#fafafa;border-radius:10px;padding:8px 10px}
+.ways{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}.ways input{width:100%}
+@media(max-width:700px){.ways{grid-template-columns:1fr}}
+.loopq{margin:10px 0;padding:8px 12px;border:1px dashed #e8590c;border-radius:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px}
 .minimap{margin:6px 0 4px;border:1px solid var(--line);border-radius:14px;padding:6px 12px;background:#fff}.minimap summary{cursor:pointer;font-size:13px}.mmw{max-width:640px;margin:0 auto}.got{margin:6px 0 16px;font-size:14.5px}
 .offer{border:2px solid #7048e8;border-radius:16px;padding:16px 18px;background:#fbfaff;margin:12px 0}.offer.soft{border-style:dashed}
 .sysg2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:6px 18px}.sysg2 .sysr{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:13.5px;padding:3px 0;border-bottom:1px solid var(--line)}
@@ -308,19 +311,27 @@ ru:{
         "Рычаг — это эксперимент. Здесь вы проверяете, хватит ли сил и возможностей, заранее видите, где можно споткнуться, и формулируете первый шаг так, чтобы он случился. Потом — вся картина и обещание на неделю."],
 
 
+    wayH:(v)=>`Как ещё получить «${v}»?`, wayP:"Каждый ответ — уже рычаг. Пишите действием: что сделаете. Хватит и одного.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
+    ways:[["out","Отдать другим","Что можно поручить сервису, специалисту, работодателю? Напишите, что и кому.","поручу …"],["wo","Без этого","Как получить это совсем без того, что кажется обязательным?","получу это без …, если …"],["small","Маленький шаг","Какое самое малое действие уже даёт немного этого?","начну с …"],["ppl","Через людей","Кто может дать часть этого? Что попросите или предложите взамен?","попрошу … / предложу …"]],
+    picH:"А если это неправда?", picP:"Новая картина — самый сильный рычаг, но одна она жизнь не меняет. Поэтому выше — ответы-действия.", picPh:"На самом деле …",
+    loopQ:"Без этого никак, а чтобы это получить, нужно то же самое?", loopBtn:"Да, это замкнутый круг — разобрать как тучу", loopOn:"Туча создана — она ниже, в разделе «Туча»",
+    clSeenH:"Тучи, которые мы увидели в ваших убеждениях",
+    loopA:(v,x)=>`получить «${v}» через ${x||"это"}`, loopB:(x,r)=>r?`не тратить ${x}, которых мало`:`обойтись без «${x||"этого"}»`,
+    belLv:(n)=>`Рычагов из этого убеждения: ${n}`,
+    clFromB:(t)=>`Туча из убеждения «${t}»: замкнутый круг.`,
     clFrom:(t,r)=>`Туча из рычага «${t}»: он упирается в ресурс «${r}».`,
     resH:"Ресурсы сейчас", resP:"Отметьте, чего хватает, а чего мало. Это не оценка — так мы потом увидим, во что упирается рычаг. Можно пропустить.", resSt:{ok:"хватает",low:"мало",no:"нет"},
-    needH:"На что опирается рычаг?", needP:"Отметьте, без чего его не сделать.", needWarn:(r)=>`Этот рычаг упирается в то, чего мало: ${r}. Так выглядит туча — её можно развязать.`, needCl:"Разобрать как тучу", needClOn:"Туча создана — она выше, в разделе «Грозовые тучи»",
+    needH:"На что опирается рычаг?", needP:"Отметьте, без чего его не сделать.", needWarn:(r)=>`Этот рычаг упирается в то, чего мало: ${r}. Так выглядит туча — её можно развязать.`, needCl:"Разобрать как тучу", needClOn:"Туча создана — она выше, в разделе «Туча»",
     rcA:(t)=>`делать: ${t}`, rcB:{time:"не отнимать время, которого мало",money:"не тратить деньги, которых мало",energy:"не тратить силы, которых мало",skills:"не браться за то, чего не умею",people:"не зависеть от других",place:"обойтись без своего места"}, rcNB:"запас и устойчивость", rcWhy:(r)=>`потому что для этого нужны ${r}, а их мало`,
-    w4H:"Посмотреть через четыре мира", w4P:"Каждый мир получает то же самое своим способом. Это не советы, а направления — выберите то, что подходит вам.",
-    w4:[["Через сервис или рынок","А если взять, а не владеть, — отдать сервису, арендовать, подписаться?","Через сервис: "],["Через большую систему","А если часть возьмёт на себя работодатель, государство, программа?","Через большую систему: "],["Самому, с инструментами","А если сделать самому — с технологиями, по чуть-чуть, в маленькой версии?","Самому: "],["Через людей","А если вместе — обмен, складчина, по-соседски?","Через людей: "]],
-    w4Ex:{money:["аренда, подписка или рассрочка вместо покупки","программа работодателя, субсидия, грант","сделать дешевле своими руками или продать навык онлайн","обмен услугами, складчина, взять у знакомых"],
-      time:["отдать рутину сервису: доставка, уборка","договориться о графике, взять положенный отпуск или учебный день","автоматизировать, делать по 15 минут","разделить с близкими, делать по очереди"],
-      energy:["тренер или сервис, который ведёт за вас","режим и правила, которые держат за вас","маленькая версия и трекер","делать вместе — компания держит"],
-      skills:["купить готовое или нанять","курс или программа от работодателя","учиться на ходу с ИИ и видеоуроками","научиться у знакомого в обмен на своё"],
-      people:["профессиональное сообщество или специалист","клуб, организация, программа","найти своих онлайн","соседи, старые друзья, начать с одного человека"],
-      place:["аренда, коворкинг, коливинг","служебное жильё, программа","удалённо из места, где дешевле","присмотр за чужим домом, жить вместе, обмен жильём"],
-      _:["через готовый сервис или рынок","через систему, которая берёт часть на себя","самому, с инструментами","через людей рядом"]},
+    w4H:"Как ещё это получить", w4P:"Четыре направления. Это не советы — выберите то, что подходит вам, и допишите своими словами.",
+    w4:[["Отдать другим","Что можно поручить сервису, специалисту, работодателю?","Отдам другим: "],["Без этого","Как получить это совсем без того, что кажется обязательным?","Без этого: "],["Маленький шаг","Какое самое малое действие уже даёт немного этого?","Начну с: "],["Через людей","Кто может дать часть этого? Что попросите или предложите взамен?","Через людей: "]],
+    w4Ex:{money:["аренда, рассрочка или программа работодателя вместо покупки","бесплатная версия, обмен, своими руками","отложить первую тысячу, посчитать расходы за неделю","складчина, взять у знакомых, обмен услугами"],
+      time:["отдать рутину сервису: доставка, уборка","совместить с тем, что уже делаю: по дороге, параллельно","15 минут в день","разделить с близкими, делать по очереди"],
+      energy:["тренер или сервис, который ведёт","делать то, что заряжает, а не тратит","одно движение в день","делать вместе — компания держит"],
+      skills:["нанять или купить готовое","обойтись простой версией, которой хватает","один видеоурок или вопрос ИИ","научиться у знакомого в обмен на своё"],
+      people:["специалист, клуб, сообщество","то, что можно сделать в одиночку","написать одному человеку","старые друзья, соседи"],
+      place:["аренда, коворкинг, коливинг","без своего места — удалённо, у других","угол дома под это","присмотр за чужим домом, жить вместе"],
+      _:["поручить сервису, специалисту или системе","обойтись без того, что кажется обязательным","самое маленькое действие","через людей рядом"]},
     spPickH:"С каких двух сфер начнёте?", spPickP:"В демо-версии можно заполнить две сферы. В лаборатории — все восемь.", spPickNone:"Выберите сферы — и появятся поля для них.",
     req:"обязательно выбрать", reqOk:"выбрано",
     nowSemi2:"Пишите тезисами — через запятую или точку с запятой. Каждый тезис станет отдельным пунктом в системе.", nowGood:"Если в сфере всё хорошо — так и напишите, но добавьте конкретику: что именно вы делаете, что работает. Это тоже опора для рычагов.",
@@ -763,19 +774,27 @@ en:{
         "A lever is an experiment. Here you check whether you have the capability and opportunity, see in advance where you might trip, and phrase the first step so that it actually happens. Then — the whole picture and a promise for the week."],
 
 
+    wayH:(v)=>`How else can you get «${v}»?`, wayP:"Each answer is already a lever. Write it as an action: what you will do. One is enough.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
+    ways:[["out","Hand it to others","What could a service, a specialist, an employer take on? Write what and who.","I'll hand … to …"],["wo","Without it","How could you get this without what seems essential?","I'll get it without … if …"],["small","A small step","What is the smallest action that already gives a little of it?","I'll start with …"],["ppl","Through people","Who could give part of it? What will you ask or offer in return?","I'll ask … / I'll offer …"]],
+    picH:"What if it isn't true?", picP:"A new picture is the strongest lever, but alone it doesn't change life. That's why the action answers come first.", picPh:"Actually …",
+    loopQ:"Can't do without it — and getting it needs the same thing?", loopBtn:"Yes, it's a closed loop — untangle as a cloud", loopOn:"Cloud created — it is below, under “Cloud”",
+    clSeenH:"Clouds we saw in your beliefs",
+    loopA:(v,x)=>`get «${v}» through ${x||"it"}`, loopB:(x,r)=>r?`not spend ${x} I am short of`:`manage without «${x||"it"}»`,
+    belLv:(n)=>`Levers from this belief: ${n}`,
+    clFromB:(t)=>`A cloud from the belief «${t}»: a closed loop.`,
     clFrom:(t,r)=>`A cloud from the lever «${t}»: it runs into «${r}».`,
     resH:"Resources now", resP:"Mark what you have enough of and what is short. It's not a score — later it shows what a lever runs into. You can skip it.", resSt:{ok:"enough",low:"short",no:"none"},
     needH:"What does the lever rely on?", needP:"Mark what it can't be done without.", needWarn:(r)=>`This lever runs into what is short: ${r}. That's a cloud — and it can be untangled.`, needCl:"Untangle as a cloud", needClOn:"Cloud created — it's above, under “Thunderclouds”",
     rcA:(t)=>`do: ${t}`, rcB:{time:"not take time I don't have",money:"not spend money I don't have",energy:"not spend energy I don't have",skills:"not take on what I can't do",people:"not depend on others",place:"manage without a place of my own"}, rcNB:"reserve and stability", rcWhy:(r)=>`because it needs ${r}, and that is short`,
-    w4H:"Look through the four worlds", w4P:"Each world gets the same thing its own way. These aren't advice, just directions — pick what fits you.",
-    w4:[["Through a service or market","What if you use rather than own — hand it to a service, rent, subscribe?","Through a service: "],["Through a big system","What if an employer, the state or a programme takes on part of it?","Through a big system: "],["On your own, with tools","What if you do it yourself — with technology, bit by bit, in a small version?","On my own: "],["Through people","What if together — exchange, pooling, as neighbours?","Through people: "]],
-    w4Ex:{money:["rent, subscription or instalments instead of buying","employer programme, subsidy, grant","do it cheaper by hand or sell a skill online","swap services, pool money, borrow from friends"],
-      time:["hand routine to a service: delivery, cleaning","agree on a schedule, take the leave or study day you're entitled to","automate, do 15 minutes at a time","share with loved ones, take turns"],
-      energy:["a coach or service that leads you","a routine and rules that hold you","a small version and a tracker","do it together — company holds you"],
-      skills:["buy it ready-made or hire","a course or programme from your employer","learn on the go with AI and video tutorials","learn from a friend in exchange for your skill"],
-      people:["a professional community or specialist","a club, organisation, programme","find your people online","neighbours, old friends, start with one person"],
-      place:["rent, coworking, coliving","employer housing, a programme","work remotely from somewhere cheaper","house-sitting, living together, home exchange"],
-      _:["through a ready service or market","through a system that takes on part of it","on your own, with tools","through people nearby"]},
+    w4H:"How else to get it", w4P:"Four directions. They aren't advice — pick what fits you and finish in your own words.",
+    w4:[["Hand it to others","What could a service, a specialist, an employer take on?","Hand to others: "],["Without it","How could you get this without what seems essential?","Without it: "],["A small step","What is the smallest action that already gives a little of it?","Start with: "],["Through people","Who could give part of it? What will you ask or offer in return?","Through people: "]],
+    w4Ex:{money:["rent, instalments or an employer programme instead of buying","a free version, a swap, by hand","put aside the first small sum, count a week's expenses","pool money, borrow from friends, swap services"],
+      time:["hand routine to a service: delivery, cleaning","combine with what I already do: on the way, in parallel","15 minutes a day","share with loved ones, take turns"],
+      energy:["a coach or service that leads you","do what charges you rather than drains you","one movement a day","do it together — company holds you"],
+      skills:["hire or buy ready-made","manage with a simple version that is enough","one video tutorial or a question to AI","learn from a friend in exchange for your skill"],
+      people:["a specialist, a club, a community","what can be done alone","write to one person","old friends, neighbours"],
+      place:["rent, coworking, coliving","without a place of my own — remotely, at others'","a corner at home for it","house-sitting, living together"],
+      _:["hand it to a service, specialist or system","manage without what seems essential","the smallest action","through people nearby"]},
     spPickH:"Which two spheres will you start with?", spPickP:"In the demo you can fill in two spheres. In the lab — all eight.", spPickNone:"Choose spheres — fields for them will appear.",
     req:"choose one", reqOk:"chosen",
     nowSemi2:"Write in points — separated by commas or semicolons. Each point becomes a separate item in the system.", nowGood:"If everything is fine in a sphere, say so — but add specifics: what exactly you do, what works. That is also something levers can rest on.",
@@ -2152,7 +2171,8 @@ function lvChipsOld(key){const X=T.lb2,cur=(S.lab.field||{})[key];return `<div c
 function candBtn(key){const on=key in (S.lab.field||{});return `<button class="btn ${on?"":"ghost"} noprint" data-fk="${esc(key)}" data-lv="" style="margin-top:8px">${on?T.lb2.inF:T.lb2.addF}</button>${on?lvChips(key):""}`}
 function wayObj(key){
   const Lb=S.lab;if(!key)return null;
-  if(key.startsWith("bel:")){const b=belById(key.slice(4));return b&&b.st==="false"?{key,title:belTitle(b)}:null}
+  if(key.startsWith("bel:")){const b=belById(key.slice(4));return b&&((b.ifnot||"").trim()||b.st==="false")?{key,title:belTitle(b)}:null}
+  if(key.startsWith("bw:")){const [,id,w]=key.split(":"),b=belById(id),t=b&&((b.w||{})[w]||"").trim();return t?{key,title:t,bel:id}:null}
   if(key.startsWith("cl:")){const c=clById(key.slice(3));return c?{key,title:clTitle(c)}:null}
   if(key.startsWith("br:")){const o=(Lb.bright||[]).find(x=>x.id===key.slice(3));return o?{key,title:(o.t||"").trim()}:null}
   if(key.startsWith("ol:")){const o=(Lb.ownLev||[]).find(x=>x.id===key.slice(3));return o?{key,title:(o.t||"").trim()}:null}
@@ -2445,7 +2465,11 @@ function resName(r){return T.res[r]||r}
 function resInvHTML(){const Q=T.lb2.v6,Lb=S.lab;return `<div class="item" style="border-left-color:#868e96"><p class="t">${Q.resH}</p><p class="muted" style="margin:0 0 8px;font-size:13px">${esc(Q.resP)}</p><div class="resgrid">${Object.keys(T.res).map(r=>`<span class="rn">${esc(resName(r))}</span><span class="tags">${["ok","low","no"].map(st=>`<button class="tg" data-rinv="${r}" data-st="${st}" aria-pressed="${Lb.resInv[r]===st}">${Q.resSt[st]}</button>`).join("")}</span>`).join("")}</div></div>`}
 function scarce(key){const Lb=S.lab;return ((Lb.needs||{})[key]||[]).filter(r=>Lb.resInv[r]==="low"||Lb.resInv[r]==="no")}
 function needsHTML(key){const Q=T.lb2.v6,Lb=S.lab,sel=Lb.needs[key]||[],sc=scarce(key),has=Lb.cl2.some(c=>c.from===key);return `<div class="needs"><p style="margin:0 0 4px;font-size:13.5px"><b>${Q.needH}</b> <span class="muted">${Q.needP}</span></p><div class="tags noprint">${Object.keys(T.res).map(r=>`<button class="tg" data-need="${esc(key)}" data-r="${r}" aria-pressed="${sel.includes(r)}">${esc(resName(r))}${Lb.resInv[r]==="low"||Lb.resInv[r]==="no"?` <span style="color:#e8590c">· ${Q.resSt[Lb.resInv[r]]}</span>`:""}</button>`).join("")}</div>${sc.length?`<div class="nextb" style="margin:8px 0 0;border-left-color:#e8590c;background:#fff4e6"><p style="margin:0">${esc(Q.needWarn(sc.map(resName).join(", ")))}</p>${has?`<p class="muted" style="margin:4px 0 0;font-size:13px">${Q.needClOn}</p>`:`<button class="btn noprint" style="margin-top:6px" data-rcl="${esc(key)}">${Q.needCl}</button>`}</div>`:""}</div>`}
-function w4HTML(c,i){const Q=T.lb2.v6,ex=Q.w4Ex[c.res]||Q.w4Ex._,nm4=T.wPrep||{};return `<div class="w4"><b>${Q.w4H}</b><p class="muted" style="margin:2px 0 8px;font-size:13px">${esc(Q.w4P)}</p><div class="lvlg">${Q.w4.map(([t,qq,tpl],j)=>`<div style="border-top:3px solid ${WC[["ЦС","ЦЗ","ДС","ДЗ"][j]]||"#adb5bd"}"><b>${esc(t)}</b><p>${esc(qq)}</p><p class="muted">${Q.lvlEg} ${esc(ex[j])}</p><button class="tg noprint" data-w4="${i}" data-j="${j}">+ ${Q.clTake}</button></div>`).join("")}</div></div>`}
+function w4HTML(c,i){const Q=T.lb2.v6,ex=Q.w4Ex[c.res]||Q.w4Ex._,nm4=T.wPrep||{};return `<div class="w4"><b>${Q.w4H}</b><p class="muted" style="margin:2px 0 8px;font-size:13px">${esc(Q.w4P)}</p><div class="lvlg">${Q.w4.map(([t,qq,tpl],j)=>`<div style="border-top:3px solid #7048e8"><b>${esc(t)}</b><p>${esc(qq)}</p><p class="muted">${Q.lvlEg} ${esc(ex[j])}</p><button class="tg noprint" data-w4="${i}" data-j="${j}">+ ${Q.clTake}</button></div>`).join("")}</div></div>`}
+function belRes(b){const m=["money","time","energy","place","money","people","skills","energy","",""];if(b.x&&b.x.startsWith("r:"))return m[+b.x.slice(2)]||"";return ""}
+function syncBelLev(){const Lb=S.lab,Q=T.lb2.v6;(Lb.bel||[]).forEach(b=>{const k="bel:"+b.id;if((b.ifnot||"").trim()){if(!(k in Lb.field))Lb.field[k]="pic"}else if(b.st!=="false"&&k in Lb.field){delete Lb.field[k]}
+  Q.ways.forEach(([w])=>{const kk="bw:"+b.id+":"+w;if(((b.w||{})[w]||"").trim()){if(!(kk in Lb.field))Lb.field[kk]=Q.wayLv[w]}else if(kk in Lb.field)delete Lb.field[kk]})});
+  for(const k of Object.keys(Lb.field))if(!(wayObj(k)||{}).title)delete Lb.field[k]}
 function lvlHelp(){const Q=T.lb2.v6;return `<details class="lvlh"><summary>${Q.lvlH}</summary><div class="lvlg">${Q.lvlEx.map(([k,t,d,e])=>`<div><b>${t}</b><p>${d}</p><p class="muted">${Q.lvlEg} ${e}</p></div>`).join("")}</div><p class="muted" style="margin:6px 0 0;font-size:13px">${Q.lvlNote}</p></details>`}
 function bridgeHTML(st){const Q=T.lb2.v6,Lb=S.lab,b=Q.br;let t="";
   if(st===0){const nt=D.spheres.filter(sp=>((Lb.now||{})[sp.id]||"").trim());t=b[0](nt.length,nt.length?cut(nowItems(nt[0].id)[0]?nowItems(nt[0].id)[0].label:"",50):"")}
@@ -2495,6 +2519,7 @@ function rLab(){
   if(!Array.isArray(Lb.sps))Lb.sps=D.spheres.filter(sp=>((Lb.now||{})[sp.id]||"").trim()||(Lb.ownW||[]).some(o=>o.sp===sp.id)).map(sp=>sp.id).slice(0,2);
   Lb.picks=cardsWant();
   Lb.levs=(Lb.levs||[]).filter(k=>valCounts()[k]);Lb.lev=Lb.levs[0]||null;
+  syncBelLev();
   Lb.fin=Lb.fin.filter(k=>(wayObj(k)||{}).title&&k in Lb.field);
   {const lk=Lb.fin.filter(k=>Object.values(Lb.link[k]||{}).some(Boolean));if(Lb.first&&!lk.includes(Lb.first.key))Lb.first=null;if(!Lb.first&&lk.length){const b=lk.map(k=>{const [p,m]=score(k);return {k,s:p-m*0.5}}).sort((a,c)=>c.s-a.s)[0];Lb.first={key:b.k};Lb.sys=sysFromLinks(b.k)}}
   if(Lb.first&&!(wayObj(Lb.first.key)||{}).title)Lb.first=null;
@@ -2537,11 +2562,14 @@ function rLab(){
     body=`<h2>${Q.steps[3]}</h2>${ex}${lvlHelp()}
       <h3>1. ${Y.belH}</h3><p class="muted">${Y.belP}</p>`+Lb.levs.map(k=>`<div class="noprint" style="margin:6px 0"><b>${esc(vLabel(k))}:</b> <span class="tags">${Y.belTpl.map(([t,l])=>`<button class="tg" data-belt="${t}" data-v="${esc(k)}">+ ${esc(l)}</button>`).join("")}</span></div>`).join("")+
       (r0?`<div class="sumbox"><p style="margin:0"><b>${Y.rootH}.</b> ${esc(Y.rootP(r0))}</p></div>`:"")+
-      Lb.bel.map((b,i)=>{const isRoot=r0&&(b.text||"").toLowerCase().includes(String(r0).toLowerCase());return `<div class="item bel" style="border-left-color:${b.st==="false"?"#7048e8":b.st==="true"?"#adb5bd":"#e8590c"}">${isRoot?`<p class="muted" style="margin:0 0 4px;font-size:12px;color:#7048e8"><b>● ${Y.rootH}</b></p>`:""}${!b.tpl?fld("bel."+i+".text","…",2):b.tpl==="own"?fld("bel."+i+".own","…",2):`<div class="belrow"><b>${esc(Y.belTxt2[b.tpl](vLabel(b.v)))}</b> ${optSelG(`data-bx="${i}"`,G,b.x||"")}${b.x==="~"?fld("bel."+i+".xOwn",Y.ownPh,0):""}</div>`}
-        ${qnum(1,Y.belWhy)}${fld("bel."+i+".why",Y.belWhyPh,2)}${qnum(2,Y.belIf)}${fld("bel."+i+".ifnot",Y.belIfPh,2)}<details class="opt" ${b.src?"open":""}><summary>${Y.belSrc}</summary>${tagChips("bel."+i+".src",Y.belSrcO)}</details>
-        <div class="row noprint" style="margin-top:8px"><button class="btn ${b.st==="false"?"":"ghost"}" data-bst="${i}" data-v="false">${b.st==="false"?Y.belFalseOn:Y.belFalse}</button><button class="btn ${b.st==="true"?"":"ghost"}" data-bst="${i}" data-v="true">${b.st==="true"?Y.belTrueOn:Y.belTrue}</button><button class="btn ghost" data-bdel="${i}" style="font-size:13px">${Y.belDel}</button></div>${b.st==="false"?lvChips("bel:"+b.id):""}</div>`}).join("")+
-      (fl.length?`<div class="sumbox"><h3 style="margin-top:0">${Y.falseH}</h3>${fl.map(b=>`<p style="margin:4px 0">— ${esc(b.text.trim())}</p>`).join("")}</div>`:"")+
-      `<h3>2. ${Y.clH}</h3><p class="note">${esc(Q.clP2)}</p><p class="muted" style="margin:6px 0 4px;font-size:13px">${Q.clExH}</p><div class="tags noprint">${Q.clEx.map((p,j)=>`<button class="tg" data-clex="${j}">${esc(p[0])} ↔ ${esc(p[1])}</button>`).join("")}</div>`+Lb.cl2.map((c,i)=>{const inF=("cl:"+c.id) in Lb.field;return `<div class="item cloud">${c.from&&wayObj(c.from)?`<p class="muted" style="margin:0 0 6px;font-size:13px;color:#e8590c"><b>${esc(Q.clFrom(cut(wayObj(c.from).title,60),resName(c.res)))}</b></p>`:""}${tagChips("cl2."+i+".kind",Y.clKind)}
+      Lb.bel.map((b,i)=>{const isRoot=r0&&(b.text||"").toLowerCase().includes(String(r0).toLowerCase());return `<div class="item bel" style="border-left-color:${Object.keys(Lb.field).some(k=>k==="bel:"+b.id||k.startsWith("bw:"+b.id+":"))?"#7048e8":"#e8590c"}">${isRoot?`<p class="muted" style="margin:0 0 4px;font-size:12px;color:#7048e8"><b>● ${Y.rootH}</b></p>`:""}${!b.tpl?fld("bel."+i+".text","…",2):b.tpl==="own"?fld("bel."+i+".own","…",2):`<div class="belrow"><b>${esc(Y.belTxt2[b.tpl](vLabel(b.v)))}</b> ${optSelG(`data-bx="${i}"`,G,b.x||"")}${b.x==="~"?fld("bel."+i+".xOwn",Y.ownPh,0):""}</div>`}
+        ${qnum(1,Y.belWhy)}${fld("bel."+i+".why",Y.belWhyPh,2)}
+        <div class="w4"><b>${esc(Q.wayH(vLabel(b.v)||"это"))}</b><p class="muted" style="margin:2px 0 8px;font-size:13px">${esc(Q.wayP)}</p><div class="ways">${Q.ways.map(([w,t,qq,ph],j)=>`<div><p style="margin:0"><b>${esc(t)}</b> <span class="muted" style="font-size:13px">${esc(qq)}</span></p>${belRes(b)?`<p class="muted" style="margin:2px 0 4px;font-size:12.5px">${Q.lvlEg} ${esc(Q.w4Ex[belRes(b)][j])}</p>`:""}${fld("bel."+i+".w."+w,ph,0)}</div>`).join("")}</div></div>
+        ${qnum(2,Q.picH)}<p class="muted" style="margin:-4px 0 6px;font-size:13px">${esc(Q.picP)}</p>${fld("bel."+i+".ifnot",Q.picPh,2)}
+        <div class="loopq"><span>${esc(Q.loopQ)}</span> ${Lb.cl2.some(c=>c.from==="bel:"+b.id)?`<span class="muted" style="font-size:13px">${Q.loopOn}</span>`:`<button class="btn ghost noprint" data-bcl="${i}">${Q.loopBtn}</button>`}</div>
+        <details class="opt" ${b.src?"open":""}><summary>${Y.belSrc}</summary>${tagChips("bel."+i+".src",Y.belSrcO)}</details>
+        <div class="row noprint" style="margin-top:8px"><span class="muted" style="font-size:13px;align-self:center">${Q.belLv(Object.keys(Lb.field).filter(k=>k==="bel:"+b.id||k.startsWith("bw:"+b.id+":")).length)}</span><button class="btn ghost" data-bdel="${i}" style="font-size:13px">${Y.belDel}</button></div></div>`}).join("")+
+      `<h3>2. ${Y.clH}</h3><p class="note">${esc(Q.clP2)}</p>${Lb.cl2.some(c=>c.from&&c.from.startsWith("bel:"))?`<p style="margin:6px 0"><b>${Q.clSeenH}</b></p>`:""}<p class="muted" style="margin:6px 0 4px;font-size:13px">${Q.clExH}</p><div class="tags noprint">${Q.clEx.map((p,j)=>`<button class="tg" data-clex="${j}">${esc(p[0])} ↔ ${esc(p[1])}</button>`).join("")}</div>`+Lb.cl2.map((c,i)=>{const inF=("cl:"+c.id) in Lb.field;return `<div class="item cloud">${c.from&&c.from.startsWith("bel:")&&belById(c.from.slice(4))?`<p class="muted" style="margin:0 0 6px;font-size:13px;color:#e8590c"><b>${esc(Q.clFromB(cut(belText(belById(c.from.slice(4))),80)))}</b></p>`:c.from&&wayObj(c.from)?`<p class="muted" style="margin:0 0 6px;font-size:13px;color:#e8590c"><b>${esc(Q.clFrom(cut(wayObj(c.from).title,60),resName(c.res)))}</b></p>`:""}${tagChips("cl2."+i+".kind",Y.clKind)}
         <div class="days"><div>${qnum("A",Y.clA)}${optSelG(`data-cs="${i}" data-k="a"`,G,c.aSel||"")}${c.aSel==="~"?fld("cl2."+i+".aOwn",Y.ownPh,0):""}${qnum("",Y.clNA)}${optSel(`data-cs="${i}" data-k="na"`,Object.keys(T.vals).map(k=>[k,T.vals[k]]),c.naSel||"")}${c.naSel==="~"?fld("cl2."+i+".naOwn",Y.ownPh,0):""}</div>
         <div>${qnum("B",Y.clB)}${optSelG(`data-cs="${i}" data-k="b"`,G,c.bSel||"")}${c.bSel==="~"?fld("cl2."+i+".bOwn",Y.ownPh,0):""}${qnum("",Y.clNB)}${optSel(`data-cs="${i}" data-k="nb"`,Object.keys(T.vals).map(k=>[k,T.vals[k]]),c.nbSel||"")}${c.nbSel==="~"?fld("cl2."+i+".nbOwn",Y.ownPh,0):""}</div></div>
         <div class="goalb"><b>${esc(Q.goalH)}</b><p class="muted" style="margin:4px 0 6px;font-size:13.5px">${esc(Q.goalP)}</p>${fld("cl2."+i+".goal","…",0)}<p class="muted" style="margin:6px 0 4px;font-size:12.5px">${Q.goalSug}${(c.na&&c.nb)?"":" "+Q.goalNoV}</p><div class="tags noprint">${[...((c.na&&c.nb)?[Q.goalT(c.na,c.nb)]:[]),...Lb.levs.map(vLabel),...Q.goalGen].map(g=>`<button class="tg" data-goal="${i}" data-t="${esc(g)}">${esc(g)}</button>`).join("")}</div></div><div data-clsvg="${i}">${clSVG(c)}</div>
@@ -2553,7 +2581,7 @@ function rLab(){
       <h3>5. ${Z.ideaH}</h3>`+Lb.ownLev.map(o=>`<div class="way" style="border-left-color:#111"><p class="t">${esc(o.t)}</p>${candBtn("ol:"+o.id)}</div>`).join("")+`<div class="row noprint"><input type="text" id="olin" placeholder="${esc(Y.fAddOwnPh)}" style="flex:1"><button class="btn" id="oladd">${Y.fAdd}</button></div>
       <details><summary class="muted" style="cursor:pointer;margin:12px 0;font-weight:600">${Z.moreH}</summary>${[...new Set(cardsWant().filter(id=>Lb.levs.some(k=>hasVal(id,k))).map(id=>card(id).sb))].flatMap(sb=>sb.v).map(v=>sigCand(v,[])).join("")}</details>
       ${offer(Y.stuckH,Y.stuckP,"soft")}
-      <div class="levfield"><h2 style="margin-top:0">${Z.myLevH}</h2><p class="muted">${esc(Z.myLevP)}</p>${lvlHelp()}${fi.length?`<div class="field4">${["act","rule","pic",""].filter(l=>l||fi.some(o=>!o.lvl)).map(l=>`<div><h3 style="margin-top:0">${l?X.lvl[l]:Q.levNoLvl}</h3>${l?`<p class="muted" style="font-size:13px;margin:-6px 0 8px">${X.lvlP[l]}</p>`:""}${fi.filter(o=>o.lvl===l).map(levCard).join("")}</div>`).join("")}</div>${Lb.fin.map(k=>wayObj(k)?`<div class="way" style="border-left-color:#7048e8"><p class="t">${esc(cut(wayObj(k).title,90))}</p>${needsHTML(k)}</div>`:"").join("")}`:`<p class="note">${X.fieldNone}</p>`}</div>`+nav(Lb.fin.length>0);
+      <div class="levfield"><h2 style="margin-top:0">${Z.myLevH}</h2><p class="muted">${esc(Z.myLevP)}</p>${lvlHelp()}${fi.length?`<div class="field4">${["act","rule","pic",""].filter(l=>l||fi.some(o=>!o.lvl)).map(l=>`<div><h3 style="margin-top:0">${l?X.lvl[l]:Q.levNoLvl}</h3>${l?`<p class="muted" style="font-size:13px;margin:-6px 0 8px">${X.lvlP[l]}</p>`:""}${fi.filter(o=>o.lvl===l).map(levCard).join("")}</div>`).join("")}</div>`:`<p class="note">${X.fieldNone}</p>`}</div>`+nav(Lb.fin.length>0);
   }else if(st===4){
     const fins=Lb.fin,act=fins.includes(Lb.finView)?Lb.finView:fins[0],o=wayObj(act),[p,m]=score(act);
     const sc=fins.map(k=>{const [pp,mm]=score(k);return {k,pp,mm,s:pp-mm*0.5}}),best=[...sc].sort((a,b)=>b.s-a.s)[0];
@@ -2569,7 +2597,7 @@ function rLab(){
       ${yearHTML()}
       ${loopAutoHTML()}`+nav(!!Lb.first);
   }else if(st===5){
-    const fo=Lb.first&&wayObj(Lb.first.key),fl=(Lb.bel||[]).filter(b=>b.st==="false"),who=Lb.who,lvl=Lb.field[Lb.first.key]||"",fb=Lb.fb;
+    const fo=Lb.first&&wayObj(Lb.first.key),fl=(Lb.bel||[]).filter(b=>b.st==="false"||(b.ifnot||"").trim()),who=Lb.who,lvl=Lb.field[Lb.first.key]||"",fb=Lb.fb;
     const whoN=[...Object.values(who).map(w=>(w&&w.names||"").trim()),(who.talk||"").trim()].filter(Boolean).join(", ");
     const lk=Lb.fin.filter(k=>Object.values(Lb.link[k]||{}).some(Boolean));
     body=`<h2>${Q.steps[5]}</h2>${ex}${lk.length>1?`<p class="muted" style="margin:0 0 4px">${Q.expPickH}</p><div class="tags noprint" style="margin-bottom:10px">${lk.map(k=>`<button class="tg" data-take2="${esc(k)}" aria-pressed="${Lb.first.key===k}">${esc(cut(wayObj(k).title,50))}</button>`).join("")}</div>`:""}<div class="sumbox" style="background:#fff"><p class="muted" style="margin:0">${Y.remH}</p><p class="big" style="margin:2px 0 6px;font-weight:600">${esc(fo.title)}</p>${fl.length?`<p class="muted" style="margin:6px 0 0">${Y.falseH}</p>${fl.map(b=>`<p style="margin:2px 0">— ${esc(b.text)}</p>`).join("")}`:""}${nowText().length?`<p class="muted" style="margin:8px 0 0">${X.remA}</p><p style="margin:2px 0">${esc(nowText().join("; "))}</p>`:""}</div>
@@ -2617,6 +2645,8 @@ function rLab(){
   q(".tg[data-belt]").forEach(b=>b.onclick=()=>{const t=b.dataset.belt;Lb.bel.push({id:uid(),tpl:t,v:b.dataset.v,x:"",xOwn:"",own:"",text:"",st:""});save();rLab();if(t==="own"){const ta=el.querySelector(`[data-f="bel.${Lb.bel.length-1}.own"]`);if(ta)ta.focus()}});
   q("select[data-bx]").forEach(x=>x.onchange=()=>{const bb=Lb.bel[+x.dataset.bx];bb.x=x.value;bb.text=belText(bb);save();rLab()});
   q("select[data-cs]").forEach(x=>x.onchange=()=>{const cc=Lb.cl2[+x.dataset.cs],k=x.dataset.k,v=x.value;cc[k+"Sel"]=v;cc[k]=v==="~"?(cc[k+"Own"]||""):!v?"":(k==="a"||k==="b")?itemLabel(v):T.vals[v];save();rLab()});
+  q("[data-bcl]").forEach(b=>b.onclick=()=>{const bl=Lb.bel[+b.dataset.bcl],V=vLabel(bl.v)||"",X=bl.x==="~"?(bl.xOwn||"").trim():itemLabel(bl.x),r=belRes(bl);const A=Q.loopA(V,X),B=Q.loopB(X,r);const c={id:uid(),kind:"both",from:"bel:"+bl.id,res:r,aSel:"~",aOwn:A,a:A,bSel:"~",bOwn:B,b:B,naSel:V?"~":"",naOwn:V,na:V,nbSel:"~",nbOwn:Q.rcNB,nb:Q.rcNB,why:belText(bl)};Lb.cl2.unshift(c);save();rLab();const e=el.querySelector(".item.cloud");if(e)e.scrollIntoView({behavior:"smooth",block:"start"})});
+  q('[data-f^="bel."]').forEach(t=>t.addEventListener("focusout",e=>{if(!e.relatedTarget){save();rLab()}}));
   q(".tg[data-rinv]").forEach(b=>b.onclick=()=>{const r=b.dataset.rinv,st=b.dataset.st;Lb.resInv[r]=Lb.resInv[r]===st?"":st;save();rLab()});
   q(".tg[data-need]").forEach(b=>b.onclick=()=>{const k=b.dataset.need,r=b.dataset.r,a=Lb.needs[k]||[];Lb.needs[k]=a.includes(r)?a.filter(x=>x!==r):[...a,r];save();rLab()});
   q("[data-rcl]").forEach(b=>b.onclick=()=>{const k=b.dataset.rcl,sc=scarce(k),r=sc[0],t=cut(wayObj(k).title,60),A=Q.rcA(t),B=Q.rcB[r]||Q.rcB.money,na=Lb.levs[0]?vLabel(Lb.levs[0]):"";const c={id:uid(),kind:"both",from:k,res:r,aSel:"~",aOwn:A,a:A,bSel:"~",bOwn:B,b:B,naSel:na?"~":"",naOwn:na,na,nbSel:"~",nbOwn:Q.rcNB,nb:Q.rcNB,why:Q.rcWhy(sc.map(resName).join(", "))};Lb.cl2.push(c);save();rLab();const e=el.querySelectorAll(".item.cloud");if(e.length)e[e.length-1].scrollIntoView({behavior:"smooth",block:"start"})});
