@@ -171,6 +171,7 @@ details.opt{margin:8px 0}details.opt>summary{cursor:pointer;font-size:13px;color
 .ways{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}.ways input{width:100%}
 @media(max-width:700px){.ways{grid-template-columns:1fr}}
 .loopq{margin:10px 0;padding:8px 12px;border:1px dashed #e8590c;border-radius:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px}
+.wk{margin-top:6px}
 .minimap{margin:6px 0 4px;border:1px solid var(--line);border-radius:14px;padding:6px 12px;background:#fff}.minimap summary{cursor:pointer;font-size:13px}.mmw{max-width:640px;margin:0 auto}.got{margin:6px 0 16px;font-size:14.5px}
 .offer{border:2px solid #7048e8;border-radius:16px;padding:16px 18px;background:#fbfaff;margin:12px 0}.offer.soft{border-style:dashed}
 .sysg2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:6px 18px}.sysg2 .sysr{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:13.5px;padding:3px 0;border-bottom:1px solid var(--line)}
@@ -311,6 +312,8 @@ ru:{
         "Рычаг — это эксперимент. Здесь вы проверяете, хватит ли сил и возможностей, заранее видите, где можно споткнуться, и формулируете первый шаг так, чтобы он случился. Потом — вся картина и обещание на неделю."],
 
 
+    wkQ:"Это для меня:", wk:{goal:"цель сама по себе",way:"способ, который я вижу"}, wkHint:"Цель — не обсуждается, будем искать, что мешает. Способ — можно получить ценность и по-другому.",
+    belGoalH:"Ваши цели сами по себе", wayH2:(v)=>`Как всё-таки прийти к «${v}»?`,
     wayH:(v)=>`Как ещё получить «${v}»?`, wayP:"Каждый ответ — уже рычаг. Пишите действием: что сделаете. Хватит и одного.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Отдать другим","Что можно поручить сервису, специалисту, работодателю? Напишите, что и кому.","поручу …"],["wo","Без этого","Как получить это совсем без того, что кажется обязательным?","получу это без …, если …"],["small","Маленький шаг","Какое самое малое действие уже даёт немного этого?","начну с …"],["ppl","Через людей","Кто может дать часть этого? Что попросите или предложите взамен?","попрошу … / предложу …"]],
     picH:"А если это неправда?", picP:"Новая картина — самый сильный рычаг, но одна она жизнь не меняет. Поэтому выше — ответы-действия.", picPh:"На самом деле …",
@@ -774,6 +777,8 @@ en:{
         "A lever is an experiment. Here you check whether you have the capability and opportunity, see in advance where you might trip, and phrase the first step so that it actually happens. Then — the whole picture and a promise for the week."],
 
 
+    wkQ:"For me this is:", wk:{goal:"a goal in itself",way:"a way I can see"}, wkHint:"A goal is not up for debate — we'll look for what's in the way. A way — the value can be reached differently too.",
+    belGoalH:"Your goals in themselves", wayH2:(v)=>`How can you still get to «${v}»?`,
     wayH:(v)=>`How else can you get «${v}»?`, wayP:"Each answer is already a lever. Write it as an action: what you will do. One is enough.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Hand it to others","What could a service, a specialist, an employer take on? Write what and who.","I'll hand … to …"],["wo","Without it","How could you get this without what seems essential?","I'll get it without … if …"],["small","A small step","What is the smallest action that already gives a little of it?","I'll start with …"],["ppl","Through people","Who could give part of it? What will you ask or offer in return?","I'll ask … / I'll offer …"]],
     picH:"What if it isn't true?", picP:"A new picture is the strongest lever, but alone it doesn't change life. That's why the action answers come first.", picPh:"Actually …",
@@ -1486,7 +1491,7 @@ function short(t,n){n=n||80;t=String(t).trim();let s=t;const c=t.indexOf(":");
   s=s.replace(/[.,\s]+$/,"");return s.length>n?s.slice(0,n-3).replace(/\s+\S*$/,"")+"…":s}
 function cut(t,n){t=String(t||"").trim();return t.length>n?t.slice(0,n-1).replace(/\s+\S*$/,"")+"…":t}
 function valCounts(){const c={};for(const id of S.lab.picks){for(const v of (S.lab.vals[id]||[]))c[v]=(c[v]||0)+1;const o=(S.lab.vown[id]||"").trim().toLowerCase();if(o)c["~"+o]=(c["~"+o]||0)+1}return c}
-function vLabel(k){return k?(k.startsWith("~")?k.slice(1):T.vals[k]):""}
+function vLabel(k){return k?(k.startsWith("w:")?wName(k.slice(2)):k.startsWith("~")?k.slice(1):T.vals[k]):""}
 function hasVal(id,k){if(!k)return false;return k.startsWith("~")?(S.lab.vown[id]||"").trim().toLowerCase()===k.slice(1):(S.lab.vals[id]||[]).includes(k)}
 function joinList(a){return a.length<2?a.join(""):a.slice(0,-1).join(", ")+(LANG==="ru"?" и ":" and ")+a[a.length-1]}
 function wvals(id){return [...(S.lab.vals[id]||[]).map(k=>T.vals[k]),...((S.lab.vown[id]||"").trim()?[S.lab.vown[id].trim()]:[])]}
@@ -2514,7 +2519,7 @@ function rLab(){
   const el=document.getElementById("s-lab"),X=T.lb2,Y=X.v4,Z=X.v5,Q=X.v6;
   if(!S.lab.v6){const o=S.lab,n=LAB0();for(const k of ["vals","vown","srcs","srcT","forg","notMine","kwA","now","sit","ownW"])if(o[k]!==undefined)n[k]=o[k];n.v6=true;S.lab=n;save()}
   const Lb=S.lab;
-  for(const k of ["field","link","now","exp","fb","who","com","comT","emb","loop","rev","thing","srcs","resInv","needs"])Lb[k]=Lb[k]||{};
+  for(const k of ["field","link","now","exp","fb","who","com","comT","emb","loop","rev","thing","srcs","resInv","needs","wkind"])Lb[k]=Lb[k]||{};
   for(const k of ["bel","cl2","ownLev","fin","extra","sit","ownW","bright"])Lb[k]=Lb[k]||[];
   if(!Array.isArray(Lb.sps))Lb.sps=D.spheres.filter(sp=>((Lb.now||{})[sp.id]||"").trim()||(Lb.ownW||[]).some(o=>o.sp===sp.id)).map(sp=>sp.id).slice(0,2);
   Lb.picks=cardsWant();
@@ -2535,7 +2540,7 @@ function rLab(){
   const mini=st<5&&st>0?`<details class="minimap"><summary><b>${Y.mapH}</b></summary><div class="mmw">${picSVG(HL6[st])}</div></details><p class="got"><b>${Y.gotH}</b> ${esc(winLine(st))}</p>`:(st===0&&nowText().length?`<p class="got"><b>${Y.gotH}</b> ${esc(winLine(0))}</p>`:"");
   const SP=D.spheres,offer=(h,p,cls)=>`<div class="offer ${cls||""}"><h3 style="margin-top:0">${esc(h)}</h3><p>${esc(p)}</p><a class="btn" href="${LAB}">${Y.offBtn}</a></div>`;
   const why=k=>`<p class="why">${esc(Z.why[k])}</p>`;
-  const tagsFor=id=>{const sel=Lb.vals[id]||[];return `<div class="wtags">${reqW(`<p class="muted" style="margin:6px 0 4px;font-size:13px">${Z.forWhat}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${esc(id)}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${esc(id)}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}">`,sel.length||(Lb.vown[id]||"").trim())}<details class="opt" ${((Lb.srcs||{})[id]||[]).length?"open":""}><summary>${Z.fromWhere}</summary>${tagChips("srcs."+id,X.src,true)}${((Lb.srcs||{})[id]||[]).includes("forg")?fld("forg."+id,X.forgPh,2):""}</details></div>`};
+  const tagsFor=id=>{const sel=Lb.vals[id]||[];return `<div class="wtags">${reqW(`<p class="muted" style="margin:6px 0 4px;font-size:13px">${Z.forWhat}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${esc(id)}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${esc(id)}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}">`,sel.length||(Lb.vown[id]||"").trim())}<div class="wk noprint"><span class="muted" style="font-size:13px">${Q.wkQ}</span> <span class="tags">${["goal","way"].map(k=>`<button class="tg" data-wk="${esc(id)}" data-k="${k}" aria-pressed="${(Lb.wkind[id]||"way")===k}" title="${esc(Q.wkHint)}">${Q.wk[k]}</button>`).join("")}</span></div><details class="opt" ${((Lb.srcs||{})[id]||[]).length?"open":""}><summary>${Z.fromWhere}</summary>${tagChips("srcs."+id,X.src,true)}${((Lb.srcs||{})[id]||[]).includes("forg")?fld("forg."+id,X.forgPh,2):""}</details></div>`};
   let body="";
   if(st===0){
     const row=sp=>`<div class="item" style="border-left-color:var(--ink)"><p class="t">${esc(nm(sp))}</p>${fld("now."+sp.id,Q.nowPhSp[sp.id]||Q.nowPhSp._,3)}${(T.lb.real[sp.id]||[]).length?`<p class="muted" style="margin:6px 0 4px;font-size:13px">${Y.nowEg}</p><div class="tags noprint">${T.lb.real[sp.id].map(t=>`<button class="tg" data-nowadd="${sp.id}" data-t="${esc(t)}">+ ${esc(t)}</button>`).join("")}</div>`:""}</div>`;
@@ -2560,11 +2565,11 @@ function rLab(){
     const roots=belRoots(),r0=roots[0],fl=(Lb.bel||[]).filter(b=>b.st==="false"&&(b.text||"").trim()),fi=fieldItems(),G=fullGroups();
     const levCard=o=>{const on=Lb.fin.includes(o.key),col=o.v?WC[o.v.w]:o.w?WC[o.w]:"#7048e8";return `<button class="levc${on?" on":""}" data-fin="${esc(o.key)}" style="border-left-color:${col}" ${!on&&Lb.fin.length>=3?"disabled":""}><span class="box">${on?"✓":""}</span><span>${esc(o.title)}</span></button>`};
     body=`<h2>${Q.steps[3]}</h2>${ex}${lvlHelp()}
-      <h3>1. ${Y.belH}</h3><p class="muted">${Y.belP}</p>`+Lb.levs.map(k=>`<div class="noprint" style="margin:6px 0"><b>${esc(vLabel(k))}:</b> <span class="tags">${Y.belTpl.map(([t,l])=>`<button class="tg" data-belt="${t}" data-v="${esc(k)}">+ ${esc(l)}</button>`).join("")}</span></div>`).join("")+
+      <h3>1. ${Y.belH}</h3><p class="muted">${Y.belP}</p>`+[...Lb.levs,...allW().filter(id=>Lb.wkind[id]==="goal").map(id=>"w:"+id)].map(k=>`<div class="noprint" style="margin:6px 0"><b>${k.startsWith("w:")?"◎ ":""}${esc(cut(vLabel(k),60))}:</b> <span class="tags">${Y.belTpl.map(([t,l])=>`<button class="tg" data-belt="${t}" data-v="${esc(k)}">+ ${esc(l)}</button>`).join("")}</span></div>`).join("")+
       (r0?`<div class="sumbox"><p style="margin:0"><b>${Y.rootH}.</b> ${esc(Y.rootP(r0))}</p></div>`:"")+
       Lb.bel.map((b,i)=>{const isRoot=r0&&(b.text||"").toLowerCase().includes(String(r0).toLowerCase());return `<div class="item bel" style="border-left-color:${Object.keys(Lb.field).some(k=>k==="bel:"+b.id||k.startsWith("bw:"+b.id+":"))?"#7048e8":"#e8590c"}">${isRoot?`<p class="muted" style="margin:0 0 4px;font-size:12px;color:#7048e8"><b>● ${Y.rootH}</b></p>`:""}${!b.tpl?fld("bel."+i+".text","…",2):b.tpl==="own"?fld("bel."+i+".own","…",2):`<div class="belrow"><b>${esc(Y.belTxt2[b.tpl](vLabel(b.v)))}</b> ${optSelG(`data-bx="${i}"`,G,b.x||"")}${b.x==="~"?fld("bel."+i+".xOwn",Y.ownPh,0):""}</div>`}
         ${qnum(1,Y.belWhy)}${fld("bel."+i+".why",Y.belWhyPh,2)}
-        <div class="w4"><b>${esc(Q.wayH(vLabel(b.v)||"это"))}</b><p class="muted" style="margin:2px 0 8px;font-size:13px">${esc(Q.wayP)}</p><div class="ways">${Q.ways.map(([w,t,qq,ph],j)=>`<div><p style="margin:0"><b>${esc(t)}</b> <span class="muted" style="font-size:13px">${esc(qq)}</span></p>${belRes(b)?`<p class="muted" style="margin:2px 0 4px;font-size:12.5px">${Q.lvlEg} ${esc(Q.w4Ex[belRes(b)][j])}</p>`:""}${fld("bel."+i+".w."+w,ph,0)}</div>`).join("")}</div></div>
+        <div class="w4"><b>${esc((b.v||"").startsWith("w:")?Q.wayH2(cut(vLabel(b.v),60)):Q.wayH(vLabel(b.v)||"это"))}</b><p class="muted" style="margin:2px 0 8px;font-size:13px">${esc(Q.wayP)}</p><div class="ways">${Q.ways.map(([w,t,qq,ph],j)=>`<div><p style="margin:0"><b>${esc(t)}</b> <span class="muted" style="font-size:13px">${esc(qq)}</span></p>${belRes(b)?`<p class="muted" style="margin:2px 0 4px;font-size:12.5px">${Q.lvlEg} ${esc(Q.w4Ex[belRes(b)][j])}</p>`:""}${fld("bel."+i+".w."+w,ph,0)}</div>`).join("")}</div></div>
         ${qnum(2,Q.picH)}<p class="muted" style="margin:-4px 0 6px;font-size:13px">${esc(Q.picP)}</p>${fld("bel."+i+".ifnot",Q.picPh,2)}
         <div class="loopq"><span>${esc(Q.loopQ)}</span> ${Lb.cl2.some(c=>c.from==="bel:"+b.id)?`<span class="muted" style="font-size:13px">${Q.loopOn}</span>`:`<button class="btn ghost noprint" data-bcl="${i}">${Q.loopBtn}</button>`}</div>
         <details class="opt" ${b.src?"open":""}><summary>${Y.belSrc}</summary>${tagChips("bel."+i+".src",Y.belSrcO)}</details>
@@ -2645,6 +2650,7 @@ function rLab(){
   q(".tg[data-belt]").forEach(b=>b.onclick=()=>{const t=b.dataset.belt;Lb.bel.push({id:uid(),tpl:t,v:b.dataset.v,x:"",xOwn:"",own:"",text:"",st:""});save();rLab();if(t==="own"){const ta=el.querySelector(`[data-f="bel.${Lb.bel.length-1}.own"]`);if(ta)ta.focus()}});
   q("select[data-bx]").forEach(x=>x.onchange=()=>{const bb=Lb.bel[+x.dataset.bx];bb.x=x.value;bb.text=belText(bb);save();rLab()});
   q("select[data-cs]").forEach(x=>x.onchange=()=>{const cc=Lb.cl2[+x.dataset.cs],k=x.dataset.k,v=x.value;cc[k+"Sel"]=v;cc[k]=v==="~"?(cc[k+"Own"]||""):!v?"":(k==="a"||k==="b")?itemLabel(v):T.vals[v];save();rLab()});
+  q(".tg[data-wk]").forEach(b=>b.onclick=()=>{Lb.wkind[b.dataset.wk]=b.dataset.k;save();rLab()});
   q("[data-bcl]").forEach(b=>b.onclick=()=>{const bl=Lb.bel[+b.dataset.bcl],V=vLabel(bl.v)||"",X=bl.x==="~"?(bl.xOwn||"").trim():itemLabel(bl.x),r=belRes(bl);const A=Q.loopA(V,X),B=Q.loopB(X,r);const c={id:uid(),kind:"both",from:"bel:"+bl.id,res:r,aSel:"~",aOwn:A,a:A,bSel:"~",bOwn:B,b:B,naSel:V?"~":"",naOwn:V,na:V,nbSel:"~",nbOwn:Q.rcNB,nb:Q.rcNB,why:belText(bl)};Lb.cl2.unshift(c);save();rLab();const e=el.querySelector(".item.cloud");if(e)e.scrollIntoView({behavior:"smooth",block:"start"})});
   q('[data-f^="bel."]').forEach(t=>t.addEventListener("focusout",e=>{if(!e.relatedTarget){save();rLab()}}));
   q(".tg[data-rinv]").forEach(b=>b.onclick=()=>{const r=b.dataset.rinv,st=b.dataset.st;Lb.resInv[r]=Lb.resInv[r]===st?"":st;save();rLab()});
