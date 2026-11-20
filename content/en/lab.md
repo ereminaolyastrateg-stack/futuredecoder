@@ -15,7 +15,7 @@ date: 2026-11-19
 <div class="about-contact">
 <p>A lab for people ready to look at their life as a system: break it down into eight spheres, see what affects what, and bring order. Order is not the goal here but the ground. Once you see how everything is connected, there is room for imagination and creativity.</p>
 <p><b>Starts 3 January 2027 · online · 10 places</b></p>
-<p><a class="polotno-btn" href="#application">Book a place</a></p>
+<p><a class="polotno-btn" href="https://futuredecoder.ru/lab">Book a place</a></p>
 </div>
 
 ## The path: down to a step and back up to the system
@@ -26,7 +26,7 @@ We go down from big pictures of the future to one day and one step, and then cli
 
 ## How it works
 
-- Five online meetings of 2 hours, once a week, from 3 January.
+- Five online meetings of 2.5 hours, once a week, from 3 January. Six weeks in total.
 - Before the last meeting there is a two-week pause: you try the first step in real life.
 - Between meetings you work on your own in the [online lab](/static/opros/en/) — it is free and you can try it in advance.
 - Up to 10 people per cohort. We work through everything on a fictional hero; personal maps are never discussed in public.
@@ -54,21 +54,21 @@ Each step rests on research, but the lab as a whole is a new method and its effe
 
 ## Price
 
-| | Lab | With support |
+| | Basic | Pro |
 |---|---|---|
-| Talk and five meetings | ✓ | ✓ |
-| Online lab and materials | ✓ | ✓ |
-| Group chat | ✓ | ✓ |
-| A personal 30-minute call with Olga after each of the four stages | — | ✓ |
-| **Price** | **35 000 ₽** | **65 000 ₽** |
+| Talk, five meetings, homework | ✓ | ✓ |
+| Online lab and group chat | ✓ | ✓ |
+| Personal support: 60 minutes with Olga on each homework | — | ✓ |
+| **Until 15 December** | **35 000 ₽** | **55 000 ₽** |
+| After 15 December | 45 000 ₽ | 65 000 ₽ |
 
-No payment is needed now: leave an application and the place is yours. We will get in touch, agree on meeting times and send payment details closer to the start.
+No payment is needed now: leave an application and the place is yours.
 
 ## Application
 
 <div class="about-contact">
-<p>The application form will appear here soon. For now you can write by email — your name, how to reach you and which option interests you.</p>
-<p><a class="polotno-btn" href="mailto:ereminaolya.strateg@gmail.com?subject=Application%20to%20the%20Architecture%20of%20a%20Person%20lab">Apply</a></p>
+<p>The application form is on futuredecoder.ru (in Russian).</p>
+<p><a class="polotno-btn" href="https://futuredecoder.ru/lab">Apply</a></p>
 </div>
 
 Other formats are on the [[en/work-with-me|Work With Me]] page.
