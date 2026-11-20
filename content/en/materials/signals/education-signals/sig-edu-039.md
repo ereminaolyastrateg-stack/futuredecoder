@@ -96,4 +96,4 @@ The panel asks about sharing power. Participation, access to equipment and the f
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

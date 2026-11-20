@@ -19,23 +19,15 @@ type Item = {
   description: string
 }
 
-const PAGES: Record<string, { lang: "ru" | "en"; prefix: string }> = {
+const PAGES: Record<string, { lang: "ru" | "en"; prefix: string; kind?: "signal" | "trend" }> = {
   "materialy/signaly/index": { lang: "ru", prefix: "materialy/signaly/" },
   "materialy/signaly/obrazovanie/index": { lang: "ru", prefix: "materialy/signaly/obrazovanie/" },
-  "materialy/signaly/education": { lang: "ru", prefix: "materialy/signaly/obrazovanie/" },
   "materialy/signaly/2026-11-12/index": { lang: "ru", prefix: "materialy/signaly/2026-11-12/" },
-  "materialy/signaly/2026-noyabr-dekabr": { lang: "ru", prefix: "materialy/signaly/2026-11-12/" },
+  "materialy/trendy/index": { lang: "ru", prefix: "materialy/trendy/", kind: "trend" },
   "en/materials/signals/index": { lang: "en", prefix: "en/materials/signals/" },
   "en/materials/signals/2026-nov-dec/index": { lang: "en", prefix: "en/materials/signals/2026-nov-dec/" },
-  "en/materials/signals/2026-november-december": { lang: "en", prefix: "en/materials/signals/2026-nov-dec/" },
-  "en/materials/signals/education-signals/index": {
-    lang: "en",
-    prefix: "en/materials/signals/education-signals/",
-  },
-  "en/materials/signals/education": {
-    lang: "en",
-    prefix: "en/materials/signals/education-signals/",
-  },
+  "en/materials/signals/education-signals/index": { lang: "en", prefix: "en/materials/signals/education-signals/" },
+  "en/materials/trends/index": { lang: "en", prefix: "en/materials/trends/", kind: "trend" },
 }
 
 const WORLDS: Record<string, { ru: string; en: string; cls: string }> = {
@@ -117,7 +109,7 @@ export default (() => {
     const locale = conf.lang
 
     const items: Item[] = allFiles
-      .filter((p) => p.slug?.startsWith(conf.prefix) && (p.frontmatter as any)?.signal_type === "signal")
+      .filter((p) => p.slug?.startsWith(conf.prefix) && (p.frontmatter as any)?.signal_type === (conf.kind ?? "signal"))
       .map((p) => {
         const f = (p.frontmatter ?? {}) as Record<string, unknown>
         const s = (k: string) => (typeof f[k] === "string" ? (f[k] as string) : "")
@@ -147,7 +139,8 @@ export default (() => {
     const trends = uniq(items.flatMap((i) => i.trends), locale)
     const world = (c: string) => (WORLDS[c] ? (ru ? WORLDS[c].ru : WORLDS[c].en) : c)
 
-    const L = ru
+    const isTrend = conf.kind === "trend"
+    const L0 = ru
       ? {
           heading: "Каталог сигналов", search: "Поиск", ph: "Название, страна, слово из описания",
           scenario: "Мир", allS: "Все миры", domain: "Сфера жизни", allD: "Все сферы",
@@ -164,6 +157,11 @@ export default (() => {
           signal: "Signal", geo: "Where", when: "Year", brief: "In brief", essence: "Essence", added: "Added", nd: "n.d.", sort: "Sort", sorts: ["Newest in the garden", "Newest signals", "Oldest signals", "By number"],
           empty: "No signals match the selected filters.", hint: "Click a label in the table to filter by it.",
         }
+    const L = !isTrend
+      ? L0
+      : ru
+        ? { ...L0, heading: "Каталог трендов", signal: "Тренд", empty: "По выбранным параметрам трендов нет." }
+        : { ...L0, heading: "Trend catalog", signal: "Trend", empty: "No trends match the selected filters." }
 
     const chips = (list: string[], kind: string, extra = "") =>
       list.map((v) => (

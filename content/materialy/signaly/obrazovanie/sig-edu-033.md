@@ -91,4 +91,4 @@ Citizen Science in Education — панель Ars Electronica 2025 о включ
 
 ---
 
-Все сигналы обзора: [[materialy/signaly/education|Образование — сигналы и обсуждения игр]]
+Все сигналы обзора: [[materialy/signaly/obrazovanie/index|Сигналы: образование, октябрь 2026]]

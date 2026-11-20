@@ -96,4 +96,4 @@ The prototype explores the possibility of encouraging curiosity. Its description
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

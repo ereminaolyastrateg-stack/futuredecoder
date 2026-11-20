@@ -91,4 +91,4 @@ This is a discussion of different practices. Real research requires time, resour
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

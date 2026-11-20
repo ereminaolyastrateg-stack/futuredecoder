@@ -91,4 +91,4 @@ The authenticity of a digital record does not establish learning quality or univ
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

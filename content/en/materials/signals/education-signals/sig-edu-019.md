@@ -90,4 +90,4 @@ A shared approach does not make every site identical. Programme arrangements and
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

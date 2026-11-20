@@ -90,4 +90,4 @@ A simulation shows how a model behaves under particular assumptions. It does not
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

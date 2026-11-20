@@ -46,9 +46,9 @@ RES_EN = {'Энергия и здоровье': 'Energy and health', 'Интел
           'Свобода выбора': 'Freedom of choice', 'Деньги': 'Money'}
 EXTRA = {  # связи сфер с макротрендами и сигналами
     'Образование': {'ru': ['[[materialy/makrotrendy/obrazovanie-znanie-gramotnost|Макротренд «Образование, знание и грамотность»]] — как четыре мира отвечают на вопрос, кто ведёт учебный путь и кто признаёт результат.',
-                           '[[materialy/signaly/education|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.'],
+                           '[[materialy/signaly/obrazovanie/index|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.'],
                     'en': ['[[en/materials/macrotrends/education-knowledge-literacy|Macrotrend "Education, Knowledge and Literacy"]] — how the four worlds answer who leads the learning path and who recognises the result.',
-                           '[[en/materials/signals/education|Education signals catalog]] — 40 signals with a filter by world.']},
+                           '[[en/materials/signals/education-signals/index|Education signals catalog]] — 40 signals with a filter by world.']},
     'Работа': {'ru': ['[[materialy/makrotrendy/masterstvo-cheloveka|Макротренд «Мастерство человека»]] — что значит быть мастером рядом с ИИ в четырёх мирах.'],
                'en': ['[[en/materials/macrotrends/human-mastery|Macrotrend "Human Mastery"]] — what it means to be a master next to AI in four worlds.']},
 }

@@ -29,6 +29,7 @@ SRC = {
     'И': ('Исследование или данные', 'Research or data'),
     'Н': ('Новость или событие', 'News or event'),
     'К': ('Кейс', 'Case'),
+    'Ин': ('Доклад института будущего', 'Futures institute report'),
     'Л': ('Лекция «Будущее поменяло хозяев», 11 ноября 2026', 'Lecture “The Future Has Changed Hands”, 11 November 2026'),
     'С': ('III симпозиум «Создавая будущее», Москва, 12–13 ноября 2026', 'III Symposium “Creating the Future”, Moscow, 12–13 November 2026'),
     'Ст': ('Stanford Digital Economy Lab, «Canaries in the Coal Mine?», версия августа 2026', 'Stanford Digital Economy Lab, “Canaries in the Coal Mine?”, August 2026 revision'),

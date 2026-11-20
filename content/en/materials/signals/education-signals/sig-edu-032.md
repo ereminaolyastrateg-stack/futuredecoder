@@ -92,4 +92,4 @@ Prototyping formats does not mean that every participant had the sole right to d
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

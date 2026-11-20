@@ -99,4 +99,4 @@ The programme includes mentors and assessment procedures. Its description does n
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

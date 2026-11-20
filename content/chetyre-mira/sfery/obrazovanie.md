@@ -34,5 +34,5 @@ updated: 2026-11-17
 ## Связи
 
 - [[materialy/makrotrendy/obrazovanie-znanie-gramotnost|Макротренд «Образование, знание и грамотность»]] — как четыре мира отвечают на вопрос, кто ведёт учебный путь и кто признаёт результат.
-- [[materialy/signaly/education|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.
+- [[materialy/signaly/obrazovanie/index|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.
 - [[chetyre-mira/sfery/index|Сферы жизни]]

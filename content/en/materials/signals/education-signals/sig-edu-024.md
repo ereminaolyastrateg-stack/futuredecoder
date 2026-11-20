@@ -91,4 +91,4 @@ A scenario helps explore what is possible. A persuasive form does not turn it in
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

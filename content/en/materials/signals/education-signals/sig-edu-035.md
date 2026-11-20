@@ -95,4 +95,4 @@ The films explore possible supply chains. They do not establish that the events 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

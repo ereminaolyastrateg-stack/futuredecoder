@@ -13,6 +13,7 @@ updated: 2026-11-17
 These materials help explore change and discuss possible futures through concrete practices, projects, sources and cultural images.
 
 - [Signals](/en/materials/signals/) — thematic overviews with sources, macrotrend classifications and insights from games.
+- [Trends](/en/materials/trends/): trends identified from frontier signals, as cards with signals from the four worlds.
 - [Macrotrends](/en/materials/macrotrends/) — big forces of change in the four Future Decoder worlds: 2035 scenes, signals and game insights.
 - [Media Library](/en/media-library/) — books, films and series through which we explore how possible worlds work.
 

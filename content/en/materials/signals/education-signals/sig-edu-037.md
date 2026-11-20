@@ -90,4 +90,4 @@ An open problem requires inquiry and support. Access to technology does not guar
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

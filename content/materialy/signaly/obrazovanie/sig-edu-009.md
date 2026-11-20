@@ -94,4 +94,4 @@ An Automatic Workshop — упражнение летней академии Hac
 
 ---
 
-Все сигналы обзора: [[materialy/signaly/education|Образование — сигналы и обсуждения игр]]
+Все сигналы обзора: [[materialy/signaly/obrazovanie/index|Сигналы: образование, октябрь 2026]]

@@ -86,4 +86,4 @@ Being able to use a tool and being able to assess its limitations become distinc
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

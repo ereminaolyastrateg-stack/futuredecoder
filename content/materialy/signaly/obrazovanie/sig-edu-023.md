@@ -86,4 +86,4 @@ Critical AI Literacy 2035 исследует возможное развитие
 
 ---
 
-Все сигналы обзора: [[materialy/signaly/education|Образование — сигналы и обсуждения игр]]
+Все сигналы обзора: [[materialy/signaly/obrazovanie/index|Сигналы: образование, октябрь 2026]]

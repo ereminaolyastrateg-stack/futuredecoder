@@ -86,4 +86,4 @@ A personal plan operates within an educational model and assessment procedures, 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

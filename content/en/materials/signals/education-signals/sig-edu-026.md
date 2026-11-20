@@ -98,4 +98,4 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

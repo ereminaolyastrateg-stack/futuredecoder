@@ -62,18 +62,19 @@ SPH_TAG = {'zdorovye': 'здоровье', 'finansy': 'финансы', 'rabota'
 from urllib.parse import urlparse
 STAGE = {'Л': ('Пример из лекции', 'Example from the lecture'), 'С': ('Выступление или проект на симпозиуме', 'Symposium talk or project'),
          'Ст': ('Исследование', 'Research paper'), 'И': ('Исследование или данные', 'Research or data'),
-         'Н': ('Новость или событие', 'News or event'), 'К': ('Кейс компании или проекта', 'Company or project case')}
+         'Н': ('Новость или событие', 'News or event'), 'К': ('Кейс компании или проекта', 'Company or project case'),
+         'Ин': ('Доклад института будущего: что добавлено и что убрано', 'Futures institute report: what was added and removed')}
 
 L = {
- 'ru': dict(dir='content/materialy/signaly/2026-11-12', url='materialy/signaly/2026-11-12', hub='content/materialy/signaly/2026-noyabr-dekabr.md',
-            hub_url='materialy/signaly/2026-noyabr-dekabr', hubname='Сигналы 2026: ноябрь — декабрь', sph_base='chetyre-mira/sfery',
+ 'ru': dict(dir='content/materialy/signaly/2026-11-12', url='materialy/signaly/2026-11-12', hub='content/materialy/signaly/2026-11-12/index.md',
+            hub_url='materialy/signaly/2026-11-12/index', hubname='Сигналы: большие тренды, ноябрь 2026', tr_dir='content/materialy/trendy', tr_url='materialy/trendy', sph_base='chetyre-mira/sfery',
             t=('тип/сигнал', 'сценарий/', 'сфера/', 'тема/', 'макротренд/mt-', 'подборка/сигналы-2026'),
             f=dict(brief='Кратко', period='Дата / период', geo='География', stage='Тип и стадия', scen='Сценарий', why_scen='Почему этот сценарий',
                    trend='Тренд подборки', mt='Макротренды-драйверы', sph='Сферы', tags='Тематические теги', descr='Описание', why='Почему это сигнал',
                    where='Откуда сигнал', bounds='Границы вывода', links='Связи', other='Этот сигнал на английском', same='Другие сигналы этого тренда',
                    src='Источник', back='Все сигналы подборки')),
- 'en': dict(dir='content/en/materials/signals/2026-nov-dec', url='en/materials/signals/2026-nov-dec', hub='content/en/materials/signals/2026-november-december.md',
-            hub_url='en/materials/signals/2026-november-december', hubname='Signals 2026: November — December', sph_base='en/four-worlds/life-spheres',
+ 'en': dict(dir='content/en/materials/signals/2026-nov-dec', url='en/materials/signals/2026-nov-dec', hub='content/en/materials/signals/2026-nov-dec/index.md',
+            hub_url='en/materials/signals/2026-nov-dec/index', hubname='Signals: big trends, November 2026', tr_dir='content/en/materials/trends', tr_url='en/materials/trends', sph_base='en/four-worlds/life-spheres',
             t=('type/signal', 'scenario/', 'domain/', 'theme/', 'macrotrend/mt-', 'collection/signals-2026'),
             f=dict(brief='In brief', period='Date / period', geo='Geography', stage='Type and stage', scen='Scenario', why_scen='Why this scenario',
                    trend='Collection trend', mt='Macrotrend drivers', sph='Life domains', tags='Thematic tags', descr='Description', why='Why this is a signal',
@@ -86,6 +87,7 @@ BOUNDS = {
  'И': ('Цифры взяты из указанного исследования или опроса; выборка и методика — у авторов. Отнесение к миру Декодера — наше прочтение.', 'Figures come from the study or survey given; sample and method are the authors’. Assigning it to a Decoder world is our reading.'),
  'Н': ('Это отдельное событие, а не устойчивая практика. Сигнал показывает направление, а не масштаб.', 'This is a single event, not an established practice. The signal shows a direction, not a scale.'),
  'К': ('Это один кейс. Он показывает, что так уже можно, но не что так делают все.', 'This is one case. It shows that it can already be done, not that everyone does it.'),
+ 'Ин': ('Это прочтение доклада института: что в нём появилось и исчезло по сравнению с прошлой версией. Названия трендов даны в нашем переводе.', 'This is a reading of the institute’s report: what appeared and disappeared compared with its previous edition.'),
  'Ст': ('Авторы называют свои выводы ранними описательными индикаторами, а не причинной оценкой.', 'The authors describe their findings as early descriptive indicators rather than causal estimates.'),
 }
 
@@ -113,6 +115,9 @@ assert len(D.NAMES_EN) == len(D.S)
 by_trend = {}
 for s in SIGS:
     by_trend.setdefault(s['trend'], []).append(s)
+
+def tr_id(k):
+    return f'TR-2026-11-{k:02d}'
 
 def first_sentence(t):
     m = re.match(r'(.+?[.!?])(\s|$)', t)
@@ -155,7 +160,7 @@ def note(s, lang):
             f"**{f['stage']}:** {stage}.  ",
             f"**{f['scen']}:** [[{world_path}|{world_name}]].", '',
             f"**{f['why_scen']}:** {WHY_SCEN[lang][sc]}", '',
-            f"**{f['trend']}:** [[{c['hub_url']}#{'тренд' if ru else 'trend'}-{s['trend']}|{s['trend']}. {trend_name}]] — {tr[2] if ru else tr[3]}", '',
+            f"**{f['trend']}:** [[{c['tr_url']}/{tr_id(s['trend']).lower()}|{trend_name}]] — {tr[2] if ru else tr[3]}", '',
             f"**{f['mt']}:** " + '; '.join(mt_link(i, lang, sc) for i in mts) + '.', '',
             f"**{f['sph']}:** " + '; '.join(f"[[{c['sph_base']}/{sl}-{SC[sc][1]}|{nm}]]" for sl, nm in zip(sph_slugs, sph_names)) + '.  ',
             f"**{f['tags']}:** {theme}.", '',
@@ -183,19 +188,19 @@ def hub(lang):
     fm = ['---', f"title: {yq(c['hubname'])}",
           f"seoTitle: {yq('Фронтирные сигналы 2026: ноябрь' if ru else 'Frontier signals 2026: November')}",
           f"description: {yq(f'{len(SIGS)} фронтирных сигналов ноября 2026 года: исследования, данные, события и кейсы, разложенные по 20 трендам и четырём мирам Декодера.' if ru else f'{len(SIGS)} frontier signals from November 2026: research, data, events and cases arranged by 20 trends and the four Decoder worlds.')}",
-          f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['hub_url']}", f"  en: /{L['en']['hub_url']}",
-          'aliases:', '  - signals-2026' if not ru else '  - signaly-2026', 'tags:',
+          f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['url']}/", f"  en: /{L['en']['url']}/",
+          'aliases:', '  - signals-2026' if not ru else '  - signaly-2026', f"  - {'materialy/signaly/2026-noyabr-dekabr' if ru else 'en/materials/signals/2026-november-december'}", 'tags:',
           f"  - {'тип/обзор' if ru else 'type/overview'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '']
     if ru:
         intro = [
-         f'В этой подборке — {len(SIGS)} фронтирных сигналов ноября 2026 года. Фронтирный значит: новое (2025–2026), удивляет, опирается на конкретный факт с первоисточником, а не на мнение спикера. Мы добавляем не больше 50 сигналов в месяц — лучше меньше, но таких, которые меняют картину. Декабрьские сигналы появятся здесь же.',
+         f'В этой подборке — {len(SIGS)} фронтирных сигналов ноября 2026 года. Фронтирный значит: новое (2025–2026), удивляет, опирается на конкретный факт с первоисточником, а не на мнение спикера. Мы добавляем не больше 50 сигналов в месяц — лучше меньше, но таких, которые меняют картину. Декабрьские сигналы будут отдельной подборкой.',
          '',
          'Сигналы разложены по 20 трендам и четырём мирам Декодера: ЦС — мир автопилота, ЦЗ — мир правил, ДС — мир автономии, ДЗ — мир сообщества.',
          '',
          'Откуда сигналы:',
          '',
-         '- **исследования и данные** — Stanford Digital Economy Lab, Art Basel и UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, ВОЗ, ООН и другие;',
-         f'- **доклады институтов будущего** — FTSG (Convergence Outlook 2026), Dubai Future Foundation (Global 50) и материалы к лекции «Будущее поменяло хозяев» (11 ноября 2026);',
+         '- **исследования и данные** — Stanford Digital Economy Lab, Art Basel и UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, OpenAI и Upwork, ВОЗ и другие;',
+         '- **доклады институтов будущего** — что за год добавили и что убрали CIFS, FTSG, IFTF, Dubai Future Foundation, RAND, McKinsey, Gartner, WEF, VML и обзор трендов kleinkleinklein; по сигналу на институт (материалы к лекции «Будущее поменяло хозяев», 11 ноября 2026);',
          '- **события и кейсы** — новости и решения компаний, правительств и сообществ, у каждого — ссылка на первоисточник;',
          f'- **III Международный симпозиум «Создавая будущее»** (Москва, 12–13 ноября 2026) — только проекты и исследования, которые сами по себе удивляют ([итоги]({D.SYMP})).',
          '',
@@ -206,14 +211,14 @@ def hub(lang):
          '| Тренд | ЦС · автопилот | ЦЗ · правила | ДС · автономия | ДЗ · сообщество |', '|---|---|---|---|---|']
     else:
         intro = [
-         f'This collection holds {len(SIGS)} frontier signals from November 2026. Frontier means new (2025–2026), surprising and resting on a concrete fact with a primary source rather than a speaker’s opinion. We add no more than 50 signals a month: fewer, but ones that change the picture. December signals will be added here.',
+         f'This collection holds {len(SIGS)} frontier signals from November 2026. Frontier means new (2025–2026), surprising and resting on a concrete fact with a primary source rather than a speaker’s opinion. We add no more than 50 signals a month: fewer, but ones that change the picture. December signals will be a separate collection.',
          '',
          'The signals are arranged by 20 trends and the four Decoder worlds: CS, the autopilot world; CE, the rules world; DS, the autonomy world; DE, the community world.',
          '',
          'Where the signals come from:',
          '',
-         '- **research and data**: Stanford Digital Economy Lab, Art Basel and UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, WHO, UN and others;',
-         '- **futures institutes’ reports**: FTSG (Convergence Outlook 2026), Dubai Future Foundation (Global 50) and material for the lecture “The Future Has Changed Hands” (11 November 2026);',
+         '- **research and data**: Stanford Digital Economy Lab, Art Basel and UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, OpenAI and Upwork, WHO and others;',
+         '- **futures institutes’ reports**: what CIFS, FTSG, IFTF, Dubai Future Foundation, RAND, McKinsey, Gartner, WEF, VML and the kleinkleinklein trend review added and dropped over the year, one signal per institute (material for the lecture “The Future Has Changed Hands”, 11 November 2026);',
          '- **events and cases**: news and decisions by companies, governments and communities, each linked to a primary source;',
          f'- **the III International Symposium “Creating the Future”** (Moscow, 12–13 November 2026): only projects and studies that surprise in their own right ([summary]({D.SYMP})).',
          '',
@@ -230,7 +235,7 @@ def hub(lang):
         cells = {}
         for x in by_trend.get(k, []):
             cells[x['sc']] = (cells[x['sc']] + '<br>' if x['sc'] in cells else '') + link_md(x, lang)
-        rows.append(f"| <span id=\"{'тренд' if ru else 'trend'}-{k}\"></span>**{k}. {tr[0] if ru else tr[1]}.** {tr[2] if ru else tr[3]} | " + ' | '.join(cells.get(x, '') for x in ['ЦС', 'ЦЗ', 'ДС', 'ДЗ']) + ' |')
+        rows.append(f"| <span id=\"{'тренд' if ru else 'trend'}-{k}\"></span>**[{tr[0] if ru else tr[1]}](/{c['tr_url']}/{tr_id(k).lower()})** | " + ' | '.join(cells.get(x, '') for x in ['ЦС', 'ЦЗ', 'ДС', 'ДЗ']) + ' |')
     mt = ['', '## Что обновить в своде 82 макротрендов' if ru else '## What to update in the set of 82 macrotrends', '',
           ('Эти макротренды из свода получили новые сигналы. Их описания и сценарные гипотезы стоит проверить и дополнить.' if ru else
            'These macrotrends from the set received new signals. Their descriptions and scenario hypotheses should be reviewed and extended.'), '',
@@ -244,18 +249,66 @@ def hub(lang):
             'These forces are not in the set as standalone macrotrends: they are spread across several. We suggest checking whether to separate them.'), '']
     for a, b, ca, cb, t in D.NEW_MT:
         new.append(f"- **{a if ru else b}.** {ca if ru else cb} [{'Тренд' if ru else 'Trend'} {t}](#{'тренд' if ru else 'trend'}-{t}).")
-    tail = ['', ('Обзор на английском' if ru else 'This overview in Russian') + f': [[{other_hub}]].', '',
+    tail = ['', ('Обзор на английском' if ru else 'This overview in Russian') + f': [[{other_hub}|{L['en' if ru else 'ru']['hubname']}]].', '',
+            ('Все тренды — карточками: ' if ru else 'All trends as cards: ') + f"[[{c['tr_url']}/index|{'Тренды' if ru else 'Trends'}]].", '',
             '[Все сигналы](/materialy/signaly/)' if ru else '[All signals](/en/materials/signals/)', '']
     return '\n'.join(fm + intro + rows + tail)
 
-def folder_index(lang):
+TR = {
+ 'ru': dict(brief='Кратко', period='Период', mt='Макротренды-драйверы', sph='Сферы', tags='Тематические теги', descr='Описание',
+            worlds='Как тренд проявляется в четырёх мирах', none='сигналов этого мира пока нет', links='Связи', other='Этот тренд на английском',
+            coll='Подборка', back='Все тренды', t=('тип/тренд', 'сфера/', 'тема/', 'макротренд/mt-', 'подборка/сигналы-2026'),
+            stage='Тренд подборки', period_v='ноябрь 2026', geo='мир', idx='Тренды'),
+ 'en': dict(brief='In brief', period='Period', mt='Macrotrend drivers', sph='Life domains', tags='Thematic tags', descr='Description',
+            worlds='How the trend shows up in the four worlds', none='no signals from this world yet', links='Links', other='This trend in Russian',
+            coll='Collection', back='All trends', t=('type/trend', 'domain/', 'theme/', 'macrotrend/mt-', 'collection/signals-2026'),
+            stage='Collection trend', period_v='November 2026', geo='global', idx='Trends'),
+}
+
+def trend_card(k, lang):
+    ru = lang == 'ru'; c = L[lang]; f = TR[lang]
+    tr = D.TRENDS[k]; tid = tr_id(k); slug_ = tid.lower()
+    name = tr[0] if ru else tr[1]; summ = tr[2] if ru else tr[3]; theme = tr[6] if ru else tr[7]; mts = tr[4]
+    sph_names = tr[5] if ru else [SPH_RU[x][1] for x in tr[5]]
+    sph_slugs = [SPH_RU[x][0] if ru else SPH_RU[x][2] for x in tr[5]]
+    tags = [f['t'][0], f['t'][1] + (SPH_TAG[sph_slugs[0]] if ru else sph_slugs[0]), f['t'][2] + slug(theme), f"{f['t'][3]}{mts[0]:03d}", f['t'][4]]
+    other = L['en' if ru else 'ru']['tr_url']
+    fm = ['---', f'title: {yq(name)}', f'description: {yq(first_sentence(summ))}', f'lang: {lang}', 'translations:',
+          f"  ru: /{L['ru']['tr_url']}/{slug_}", f"  en: /{L['en']['tr_url']}/{slug_}", 'aliases:', f'  - {tid}', 'tags:'] + [f'  - {x}' for x in tags] + [
+          'signal_type: trend', f'signal_id: {tid}', 'year: 2026', f'added: {TODAY}', f'name: {yq(name)}', 'scenario: ""',
+          f"period: {yq(f['period_v'])}", f"geography: {yq(f['geo'])}", f"stage: {yq(f['stage'])}",
+          'life_domains:'] + [f'  - {yq(x)}' for x in sph_names] + ['industries: []', 'themes:', f'  - {yq(theme)}',
+          'macrotrends:'] + [f'  - {yq(mt_label(i, lang))}' for i in mts] + [f'created: {TODAY}', f'updated: {TODAY}', '---', '']
+    body = [f'*{tid} · {name}*', '', f"**{f['brief']}:** {first_sentence(summ)}", '',
+            f"**{f['period']}:** {f['period_v']}.", '',
+            f"**{f['mt']}:** " + '; '.join(mt_label(i, lang) for i in mts) + '.', '',
+            f"**{f['sph']}:** " + '; '.join(f"[[{c['sph_base']}/{sl}|{nm}]]" for sl, nm in zip(sph_slugs, sph_names)) + '.  ',
+            f"**{f['tags']}:** {theme}.", '',
+            f"### {f['descr']}", '', summ, '',
+            f"### {f['worlds']}", '']
+    for sc in ['ЦС', 'ЦЗ', 'ДС', 'ДЗ']:
+        wp, wn = WORLD[lang][sc]
+        body += [f'**[[{wp}|{wn}]]**', '']
+        sigs = [x for x in by_trend.get(k, []) if x['sc'] == sc]
+        if not sigs:
+            body += [f"- {f['none']}.", '']
+            continue
+        for x in sigs:
+            body.append(f"- [[{c['url']}/{x['id'].lower()}|{x['t_ru'] if ru else x['t_en']}]]. {x['w_ru'] if ru else x['w_en']}")
+        body.append('')
+    body += [f"### {f['links']}", '', f"- [[{other}/{slug_}|{f['other']}]].",
+             f"- {f['coll']}: [[{c['hub_url']}|{c['hubname']}]].", '', '---', '', f"{f['back']}: [[{c['tr_url']}/index|{f['idx']}]]", '']
+    return '\n'.join(fm + body)
+
+def trends_index(lang):
     ru = lang == 'ru'; c = L[lang]
-    return '\n'.join(['---', f"title: {yq('Сигналы 2026: ноябрь — декабрь, все заметки' if ru else 'Signals 2026: November — December, all notes')}",
-        f"description: {yq(f'{len(SIGS)} фронтирных сигналов ноября 2026 года — каждый отдельной заметкой с тегами по миру, сфере, теме и макротренду.' if ru else f'{len(SIGS)} frontier signals from November 2026, each a separate note tagged by world, life domain, theme and macrotrend.')}",
-        f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['url']}/", f"  en: /{L['en']['url']}/", 'tags:',
-        f"  - {'тип/указатель' if ru else 'type/index'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '',
-        ('Каждый сигнал — отдельная заметка. Карта трендов — в ' if ru else 'Each signal is a separate note. The map of trends is in ')
-        + f"[[{c['hub_url']}|{'обзоре подборки' if ru else 'the collection overview'}]].", ''])
+    return '\n'.join(['---', f"title: {yq('Тренды' if ru else 'Trends')}",
+        f"description: {yq('Тренды, которые мы выявили по фронтирным сигналам: каждый отдельной карточкой с сигналами из четырёх миров Декодера.' if ru else 'Trends we identified from frontier signals: each a separate card with signals from the four Decoder worlds.')}",
+        f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['tr_url']}/", f"  en: /{L['en']['tr_url']}/", 'tags:',
+        f"  - {'тип/указатель' if ru else 'type/index'}", f'created: {TODAY}', f'updated: {TODAY}', '---', '',
+        ('Каждый тренд — отдельная карточка: что происходит, на какие макротренды из свода 82 опирается и какими сигналами проявляется в каждом из четырёх миров. Ноябрь 2026 — 20 трендов из подборки ' if ru else
+         'Each trend is a separate card: what is happening, which macrotrends from the set of 82 drive it and which signals show it in each of the four worlds. November 2026: 20 trends from the collection ')
+        + f"[[{c['hub_url']}|{c['hubname']}]].", ''])
 
 if __name__ == '__main__':
     for lang in ('ru', 'en'):
@@ -263,6 +316,9 @@ if __name__ == '__main__':
         os.makedirs(os.path.join(REPO, c['dir']), exist_ok=True)
         for s in SIGS:
             open(os.path.join(REPO, c['dir'], s['id'].lower() + '.md'), 'w', encoding='utf-8').write(note(s, lang))
-        open(os.path.join(REPO, c['dir'], 'index.md'), 'w', encoding='utf-8').write(folder_index(lang))
+        os.makedirs(os.path.join(REPO, c['tr_dir']), exist_ok=True)
+        for k in D.TRENDS:
+            open(os.path.join(REPO, c['tr_dir'], tr_id(k).lower() + '.md'), 'w', encoding='utf-8').write(trend_card(k, lang))
+        open(os.path.join(REPO, c['tr_dir'], 'index.md'), 'w', encoding='utf-8').write(trends_index(lang))
         open(os.path.join(REPO, c['hub']), 'w', encoding='utf-8').write(hub(lang))
         print(lang, len(SIGS))

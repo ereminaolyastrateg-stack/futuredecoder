@@ -96,4 +96,4 @@ Free education and pluralism are stated principles of the initiative. They do no
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

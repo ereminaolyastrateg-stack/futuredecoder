@@ -91,4 +91,4 @@ Repeating and altering a workshop provides material for investigating a particul
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

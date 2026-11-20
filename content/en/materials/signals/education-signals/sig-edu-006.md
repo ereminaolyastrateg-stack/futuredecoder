@@ -96,4 +96,4 @@ A portfolio format does not guarantee identical recognition by every institution
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

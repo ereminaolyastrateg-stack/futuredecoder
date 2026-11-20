@@ -99,7 +99,7 @@ In the games people distinguished an institution's reputation, demonstrated skil
 ## The CE world in the garden
 
 - Macrotrends: [[en/materials/macrotrends/human-mastery-ce|Human Mastery — CE]], [[en/materials/macrotrends/education-knowledge-literacy-ce|Education — CE]].
-- Signals: [[en/materials/signals/education-signals/sig-edu-010|Fab Academy]], [[en/materials/signals/education-signals/sig-edu-016|Solar Mamas]] and all the others — under the tag #scenario/CE or in the [[en/materials/signals/education|catalog]] filtered by world.
+- Signals: [[en/materials/signals/education-signals/sig-edu-010|Fab Academy]], [[en/materials/signals/education-signals/sig-edu-016|Solar Mamas]] and all the others — under the tag #scenario/CE or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-ce|Health]] · [[en/four-worlds/life-spheres/finance-ce|Finance]] · [[en/four-worlds/life-spheres/work-ce|Work]] · [[en/four-worlds/life-spheres/education-ce|Education]] · [[en/four-worlds/life-spheres/family-ce|Family]] · [[en/four-worlds/life-spheres/place-ce|Place]] · [[en/four-worlds/life-spheres/everyday-life-ce|Everyday life]] · [[en/four-worlds/life-spheres/meaning-ce|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

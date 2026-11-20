@@ -86,4 +86,4 @@ The school has required curricular units, support and checkpoints. A project doe
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

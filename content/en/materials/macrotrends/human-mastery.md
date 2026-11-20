@@ -81,7 +81,7 @@ The four worlds answer this question differently — that is the [table above](#
 
 ## Connections
 
-- [[en/materials/signals/education|Education signals catalog]] — choose MT-031 in the "Macrotrend" filter to see all signals of this macrotrend.
+- [[en/materials/signals/education-signals/index|Education signals catalog]] — choose MT-031 in the "Macrotrend" filter to see all signals of this macrotrend.
 - [[en/materials/macrotrends/index|All macrotrends]].
 
 <!-- Sources: original MT-031 card (2026-05-10); 260219_Zine_zine. -->
