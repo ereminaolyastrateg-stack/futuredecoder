@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]].  
 **Industries:** Higher education; R&D; industry collaboration.  
-**Thematic tags:** Design Factory, interdisciplinarity, prototype.
+**Thematic tags:** [[tags/theme/design-factory|Design Factory]] [[tags/theme/interdisciplinarity|interdisciplinarity]] [[tags/theme/prototype|prototype]]
 
 ### Description
 

@@ -163,7 +163,7 @@ def note(s, lang):
             f"**{f['trend']}:** [[{c['tr_url']}/{tr_id(s['trend']).lower()}|{trend_name}]] — {tr[2] if ru else tr[3]}", '',
             f"**{f['mt']}:** " + '; '.join(mt_link(i, lang, sc) for i in mts) + '.', '',
             f"**{f['sph']}:** " + '; '.join(f"[[{c['sph_base']}/{sl}-{SC[sc][1]}|{nm}]]" for sl, nm in zip(sph_slugs, sph_names)) + '.  ',
-            f"**{f['tags']}:** {theme}.", '',
+            f"**{f['tags']}:** [[tags/{c['t'][3]}{slug(theme)}|{theme}]]", '',
             f"### {f['descr']}", '', descr, '',
             f"### {f['why']}", '', why, '',
             f"### {f['where']}", '', src_label + (f" — {urlparse(s['url']).netloc.replace('www.', '')}" if s['url'] else '') + '.', '',
@@ -283,7 +283,7 @@ def trend_card(k, lang):
             f"**{f['period']}:** {f['period_v']}.", '',
             f"**{f['mt']}:** " + '; '.join(mt_label(i, lang) for i in mts) + '.', '',
             f"**{f['sph']}:** " + '; '.join(f"[[{c['sph_base']}/{sl}|{nm}]]" for sl, nm in zip(sph_slugs, sph_names)) + '.  ',
-            f"**{f['tags']}:** {theme}.", '',
+            f"**{f['tags']}:** [[tags/{f['t'][2]}{slug(theme)}|{theme}]]", '',
             f"### {f['descr']}", '', summ, '',
             f"### {f['worlds']}", '']
     for sc in ['ЦС', 'ЦЗ', 'ДС', 'ДЗ']:

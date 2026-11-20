@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Simulation; research into social systems.  
-**Thematic tags:** simulation, rules, AI agents.
+**Thematic tags:** [[tags/theme/simulation|simulation]] [[tags/theme/rules|rules]] [[tags/theme/ai-agents|AI agents]]
 
 ### Description
 

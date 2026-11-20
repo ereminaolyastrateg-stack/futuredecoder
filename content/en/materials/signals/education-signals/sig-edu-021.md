@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]].  
 **Industries:** Design; printing; open online learning.  
-**Thematic tags:** YouTube, self directed learning, documentation.
+**Thematic tags:** [[tags/theme/youtube|YouTube]] [[tags/theme/self-directed-learning|self directed learning]] [[tags/theme/documentation|documentation]]
 
 ### Description
 

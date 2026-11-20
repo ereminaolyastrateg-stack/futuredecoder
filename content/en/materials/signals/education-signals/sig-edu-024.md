@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Design education; foresight; film.  
-**Thematic tags:** imagination, scenarios, world building.
+**Thematic tags:** [[tags/theme/imagination|imagination]] [[tags/theme/scenarios|scenarios]] [[tags/theme/world-building|world building]]
 
 ### Description
 

@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Higher education; design; AI literacy.  
-**Thematic tags:** AI literacy, bias, authorship.
+**Thematic tags:** [[tags/theme/ai-literacy|AI literacy]] [[tags/theme/bias|bias]] [[tags/theme/authorship|authorship]]
 
 ### Description
 

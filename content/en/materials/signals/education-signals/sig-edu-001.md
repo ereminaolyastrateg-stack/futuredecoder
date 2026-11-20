@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/family-cs|Close relationships and family]].  
 **Industries:** Education; EdTech; VR.  
-**Thematic tags:** VR, preschool, progress assessment.
+**Thematic tags:** [[tags/theme/vr|VR]] [[tags/theme/preschool|preschool]] [[tags/theme/progress-assessment|progress assessment]]
 
 ### Description
 

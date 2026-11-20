@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Supplementary education; EdTech.  
-**Thematic tags:** learning pathway, choice, personalisation.
+**Thematic tags:** [[tags/theme/learning-pathway|learning pathway]] [[tags/theme/choice|choice]] [[tags/theme/personalisation|personalisation]]
 
 ### Description
 

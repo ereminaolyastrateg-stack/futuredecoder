@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Libraries; adult education; open resources.  
-**Thematic tags:** learning circle, peer learning, facilitation.
+**Thematic tags:** [[tags/theme/learning-circle|learning circle]] [[tags/theme/peer-learning|peer learning]] [[tags/theme/facilitation|facilitation]]
 
 ### Description
 

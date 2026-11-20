@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** School education; assessment; admissions.  
-**Thematic tags:** portfolio, criteria, evidence of skills.
+**Thematic tags:** [[tags/theme/portfolio|portfolio]] [[tags/theme/criteria|criteria]] [[tags/theme/evidence-of-skills|evidence of skills]]
 
 ### Description
 

@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/everyday-life-cs|Everyday life, consumption and leisure]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Museums; cultural education; AI interfaces.  
-**Thematic tags:** museum, personalisation, curiosity.
+**Thematic tags:** [[tags/theme/museum|museum]] [[tags/theme/personalisation|personalisation]] [[tags/theme/curiosity|curiosity]]
 
 ### Description
 

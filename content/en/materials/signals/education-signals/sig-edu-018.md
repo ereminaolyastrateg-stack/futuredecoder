@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Design; exhibitions; cultural education.  
-**Thematic tags:** biennial, school, educational experiment.
+**Thematic tags:** [[tags/theme/biennial|biennial]] [[tags/theme/school|school]] [[tags/theme/educational-experiment|educational experiment]]
 
 ### Description
 

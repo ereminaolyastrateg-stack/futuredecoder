@@ -143,7 +143,7 @@ def process(lang):
         b = re.sub(r'\[([^\]]+)\]\((?:\.\./)+[^)]*?#(sig-edu-\d{3})\)', lambda m: f"[[{c['other']}/{m.group(2)}|{m.group(1)}]]", b)
         b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', lambda m: link_mt(m, lang, code), b)
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
-                   lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
+                   lambda m: m.group(1) + ' ' + ' '.join(f"[[tags/{L['t_theme']}/{slugtag(x)}|{x.strip().replace('-', ' ')}]]" for x in themes), b, flags=re.M)
         b = link_world(b, lang, code, L['scen'])
         b = link_spheres(b, lang, code, L['sph'])
         desc = field(rest, L['brief'])

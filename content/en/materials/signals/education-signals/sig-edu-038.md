@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Design; informal education; facilitation.  
-**Thematic tags:** collaborative work, workshop script, iteration.
+**Thematic tags:** [[tags/theme/collaborative-work|collaborative work]] [[tags/theme/workshop-script|workshop script]] [[tags/theme/iteration|iteration]]
 
 ### Description
 

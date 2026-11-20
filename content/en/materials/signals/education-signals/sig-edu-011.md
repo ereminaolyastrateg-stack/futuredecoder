@@ -60,7 +60,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]]; [[en/four-worlds/life-spheres/place-de|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Higher education; territorial development.  
-**Thematic tags:** bioregion, university, regeneration.
+**Thematic tags:** [[tags/theme/bioregion|bioregion]] [[tags/theme/university|university]] [[tags/theme/regeneration|regeneration]]
 
 ### Description
 

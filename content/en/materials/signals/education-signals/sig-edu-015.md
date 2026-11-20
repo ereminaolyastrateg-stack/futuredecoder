@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Higher education; social and environmental projects.  
-**Thematic tags:** university mission, public benefit, interdisciplinarity.
+**Thematic tags:** [[tags/theme/university-mission|university mission]] [[tags/theme/public-benefit|public benefit]] [[tags/theme/interdisciplinarity|interdisciplinarity]]
 
 ### Description
 

@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Design; art; cultural education.  
-**Thematic tags:** counterculture, free education, pluralism.
+**Thematic tags:** [[tags/theme/counterculture|counterculture]] [[tags/theme/free-education|free education]] [[tags/theme/pluralism|pluralism]]
 
 ### Description
 

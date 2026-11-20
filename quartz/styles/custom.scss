@@ -677,6 +677,22 @@ a.tag-link[href*="ЦЗ"], a.tag-link[href*="scenario/ce"], a.tag-link[href*="sce
 a.tag-link[href*="ДС"], a.tag-link[href*="scenario/ds"], a.tag-link[href*="scenario/DS"] { border-color: var(--dec-ds) !important; }
 a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="scenario/DE"] { border-color: var(--dec-dz) !important; }
 
+// тематические теги в тексте карточки ([[tags/тема/…|…]]) — такие же таблетки, как теги под заголовком
+article p a.internal[href*="tags/"] {
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid var(--lightgray);
+  background: transparent !important;
+  padding: 0.05rem 0.6rem;
+  margin: 0.1rem 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none !important;
+  color: var(--darkgray) !important;
+  &:hover { border-color: var(--dark); color: var(--dark) !important; }
+}
+
 // Каталог сигналов
 .signal-catalog {
   .signal-filters { grid-template-columns: repeat(4, minmax(9rem, 1fr)); }

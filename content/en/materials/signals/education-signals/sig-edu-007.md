@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** Education; HR; digital credentials.  
-**Thematic tags:** microcredentials, Open Badges, verifiable record.
+**Thematic tags:** [[tags/theme/microcredentials|microcredentials]] [[tags/theme/open-badges|Open Badges]] [[tags/theme/verifiable-record|verifiable record]]
 
 ### Description
 

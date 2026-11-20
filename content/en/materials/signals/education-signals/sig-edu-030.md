@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** School and informal education.  
-**Thematic tags:** intention, reflection, shared rules.
+**Thematic tags:** [[tags/theme/intention|intention]] [[tags/theme/reflection|reflection]] [[tags/theme/shared-rules|shared rules]]
 
 ### Description
 

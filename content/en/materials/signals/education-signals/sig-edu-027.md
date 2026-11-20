@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]].  
 **Industries:** Higher education; adult learning.  
-**Thematic tags:** life experience, personal plan, portfolio.
+**Thematic tags:** [[tags/theme/life-experience|life experience]] [[tags/theme/personal-plan|personal plan]] [[tags/theme/portfolio|portfolio]]
 
 ### Description
 

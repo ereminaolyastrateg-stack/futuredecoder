@@ -63,7 +63,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** Education; EdTech; service design.  
-**Thematic tags:** AI, teacher role, learning environment, critical thinking, empathy, speculative design.
+**Thematic tags:** [[tags/theme/ai|AI]] [[tags/theme/teacher-role|teacher role]] [[tags/theme/learning-environment|learning environment]] [[tags/theme/critical-thinking|critical thinking]] [[tags/theme/empathy|empathy]] [[tags/theme/speculative-design|speculative design]]
 
 ### Description
 

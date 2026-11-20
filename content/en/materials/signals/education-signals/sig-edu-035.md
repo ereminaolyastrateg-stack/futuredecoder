@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/place-de|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Design; film; trade and supply chains.  
-**Thematic tags:** film, nature, supply chains.
+**Thematic tags:** [[tags/theme/film|film]] [[tags/theme/nature|nature]] [[tags/theme/supply-chains|supply chains]]
 
 ### Description
 

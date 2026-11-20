@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Art; creative technology; design.  
-**Thematic tags:** art, technology, personal inquiry.
+**Thematic tags:** [[tags/theme/art|art]] [[tags/theme/technology|technology]] [[tags/theme/personal-inquiry|personal inquiry]]
 
 ### Description
 

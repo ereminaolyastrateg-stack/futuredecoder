@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Design education; film; cultural research.  
-**Thematic tags:** rituals, future norms, rehearsal.
+**Thematic tags:** [[tags/theme/rituals|rituals]] [[tags/theme/future-norms|future norms]] [[tags/theme/rehearsal|rehearsal]]
 
 ### Description
 

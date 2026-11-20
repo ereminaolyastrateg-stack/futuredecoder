@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Entrepreneurship education; project management.  
-**Thematic tags:** projects, team, change.
+**Thematic tags:** [[tags/theme/projects|projects]] [[tags/theme/team|team]] [[tags/theme/change|change]]
 
 ### Description
 

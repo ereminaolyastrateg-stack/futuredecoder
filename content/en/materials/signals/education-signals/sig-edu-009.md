@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Informal education; facilitation; design.  
-**Thematic tags:** instructions, workshop, self organisation.
+**Thematic tags:** [[tags/theme/instructions|instructions]] [[tags/theme/workshop|workshop]] [[tags/theme/self-organisation|self organisation]]
 
 ### Description
 

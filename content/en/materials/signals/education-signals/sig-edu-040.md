@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/family-de|Close relationships and family]].  
 **Industries:** School education; online education.  
-**Thematic tags:** student project, academic credit, mentor.
+**Thematic tags:** [[tags/theme/student-project|student project]] [[tags/theme/academic-credit|academic credit]] [[tags/theme/mentor|mentor]]
 
 ### Description
 
