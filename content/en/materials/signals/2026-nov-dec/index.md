@@ -1,6 +1,6 @@
 ---
 title: "Signals 2026: November — December, all notes"
-description: "80 signals from November–December 2026, each a separate note tagged by world, life domain, theme and macrotrend."
+description: "48 frontier signals from November 2026, each a separate note tagged by world, life domain, theme and macrotrend."
 lang: en
 translations:
   ru: /materialy/signaly/2026-11-12/
@@ -12,4 +12,4 @@ created: 2026-11-20
 updated: 2026-11-20
 ---
 
-Each signal is a separate note. The map of 20 trends is in [[en/materials/signals/2026-november-december|the collection overview]].
+Each signal is a separate note. The map of trends is in [[en/materials/signals/2026-november-december|the collection overview]].

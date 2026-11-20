@@ -19,7 +19,7 @@ These overviews bring together concrete examples of change and possible futures:
 
 The overviews preserve the context of games: how an example was read, and which questions and objections arose. Scenario hypotheses remain separate from descriptions of the projects.
 
-- [Signals 2026: November — December — 80 signals, 20 trends × 4 worlds](/en/materials/signals/2026-november-december).
+- [Signals 2026: November — December — frontier signals, no more than 50 a month](/en/materials/signals/2026-november-december).
 - [Education — 40 signals and discussions from three games](/en/materials/signals/education).
 
 [Materials](/en/materials/) · [Media Library](/en/media-library/).

@@ -91,6 +91,17 @@ macrotrends: ["MT-043 — Education, knowledge and literacy"]
 
 Signal tags: `type/signal`, `scenario/…`, `domain/…` and thematic `theme/…` tags, one for each label in `themes`. Thematic labels describe the essence of the signal, not the industry: not "edtech" but "learning by doing".
 
+### Which signals we take
+
+No more than **50 new signals a month**. We take only frontier ones:
+
+- **new**: an event or data from 2025–2026, not a long-known fact;
+- **surprising**: someone who follows the topic would say “I didn’t know that”;
+- **a concrete fact with a primary source**: a figure, decision, launch or case linked to a study, company, agency or news outlet;
+- **not an opinion**: a speaker’s forecast or judgement is not a signal unless a fact stands behind it.
+
+If a month yields more than 50, we keep the most unexpected and best confirmed. The rest goes to the working register, not the garden.
+
 ## Tags
 
 Tags are hierarchical: `group/value`. Lower case, words joined with hyphens.

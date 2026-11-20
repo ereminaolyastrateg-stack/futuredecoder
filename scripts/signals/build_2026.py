@@ -61,7 +61,8 @@ SPH_RU = {a: (b, c, d) for a, b, c, d in SPH}
 SPH_TAG = {'zdorovye': 'здоровье', 'finansy': 'финансы', 'rabota': 'работа', 'obrazovanie': 'образование', 'semya': 'семья', 'sreda': 'среда', 'byt': 'быт', 'smysl': 'смысл'}
 from urllib.parse import urlparse
 STAGE = {'Л': ('Пример из лекции', 'Example from the lecture'), 'С': ('Выступление или проект на симпозиуме', 'Symposium talk or project'),
-         'Ст': ('Исследование', 'Research paper')}
+         'Ст': ('Исследование', 'Research paper'), 'И': ('Исследование или данные', 'Research or data'),
+         'Н': ('Новость или событие', 'News or event'), 'К': ('Кейс компании или проекта', 'Company or project case')}
 
 L = {
  'ru': dict(dir='content/materialy/signaly/2026-11-12', url='materialy/signaly/2026-11-12', hub='content/materialy/signaly/2026-noyabr-dekabr.md',
@@ -69,19 +70,22 @@ L = {
             t=('тип/сигнал', 'сценарий/', 'сфера/', 'тема/', 'макротренд/mt-', 'подборка/сигналы-2026'),
             f=dict(brief='Кратко', period='Дата / период', geo='География', stage='Тип и стадия', scen='Сценарий', why_scen='Почему этот сценарий',
                    trend='Тренд подборки', mt='Макротренды-драйверы', sph='Сферы', tags='Тематические теги', descr='Описание', why='Почему это сигнал',
-                   where='Где прозвучало', bounds='Границы вывода', links='Связи', other='Этот сигнал на английском', same='Тот же тренд в других мирах',
+                   where='Откуда сигнал', bounds='Границы вывода', links='Связи', other='Этот сигнал на английском', same='Другие сигналы этого тренда',
                    src='Источник', back='Все сигналы подборки')),
  'en': dict(dir='content/en/materials/signals/2026-nov-dec', url='en/materials/signals/2026-nov-dec', hub='content/en/materials/signals/2026-november-december.md',
             hub_url='en/materials/signals/2026-november-december', hubname='Signals 2026: November — December', sph_base='en/four-worlds/life-spheres',
             t=('type/signal', 'scenario/', 'domain/', 'theme/', 'macrotrend/mt-', 'collection/signals-2026'),
             f=dict(brief='In brief', period='Date / period', geo='Geography', stage='Type and stage', scen='Scenario', why_scen='Why this scenario',
                    trend='Collection trend', mt='Macrotrend drivers', sph='Life domains', tags='Thematic tags', descr='Description', why='Why this is a signal',
-                   where='Where it came up', bounds='Limits of the conclusion', links='Links', other='This signal in Russian', same='The same trend in other worlds',
+                   where='Where the signal comes from', bounds='Limits of the conclusion', links='Links', other='This signal in Russian', same='Other signals of this trend',
                    src='Source', back='All signals in this collection')),
 }
 BOUNDS = {
  'Л': ('Пример приведён в лекции как иллюстрация тренда; цифры взяты из указанного источника.', 'The example was used in the lecture to illustrate the trend; figures come from the source given.'),
  'С': ('Это высказывание или проект участника симпозиума, а не подтверждённая практика. Пересказ сделан по машинной расшифровке сессии.', 'This is a statement or project by a symposium participant, not a confirmed practice. The summary is based on a machine transcript of the session.'),
+ 'И': ('Цифры взяты из указанного исследования или опроса; выборка и методика — у авторов. Отнесение к миру Декодера — наше прочтение.', 'Figures come from the study or survey given; sample and method are the authors’. Assigning it to a Decoder world is our reading.'),
+ 'Н': ('Это отдельное событие, а не устойчивая практика. Сигнал показывает направление, а не масштаб.', 'This is a single event, not an established practice. The signal shows a direction, not a scale.'),
+ 'К': ('Это один кейс. Он показывает, что так уже можно, но не что так делают все.', 'This is one case. It shows that it can already be done, not that everyone does it.'),
  'Ст': ('Авторы называют свои выводы ранними описательными индикаторами, а не причинной оценкой.', 'The authors describe their findings as early descriptive indicators rather than causal estimates.'),
 }
 
@@ -100,11 +104,11 @@ def mt_link(i, lang, sc):
     base = MT_NOTES[lang].get(i)
     return f'[[{base}-{SC[sc][1]}|{mt_label(i, lang)}]]' if base else mt_label(i, lang)
 
+NAME_EN = dict(zip([x[4] for x in D.S], D.NAMES_EN))
+assert len(NAME_EN) == len(D.S)
 SIGS = []
-for n, s in enumerate(D.S, 1):
-    SIGS.append(dict(zip(['trend', 'sc', 'src', 'year', 'name_ru', 't_ru', 't_en', 'd_ru', 'd_en', 'w_ru', 'w_en', 'url', 'g_ru', 'g_en'], s), id=f'SIG-2026-{n:03d}', name_en=D.NAMES_EN[n - 1]))
-    if not SIGS[-1]['url']:
-        SIGS[-1]['url'] = D.EXTRA_URLS.get(n, '')
+for n, s in enumerate(sorted(D.S, key=lambda x: (x[0], ['ЦС', 'ЦЗ', 'ДС', 'ДЗ'].index(x[1]))), 1):
+    SIGS.append(dict(zip(['trend', 'sc', 'src', 'year', 'name_ru', 't_ru', 't_en', 'd_ru', 'd_en', 'w_ru', 'w_en', 'url', 'g_ru', 'g_en'], s), id=f'SIG-2026-{n:03d}', name_en=NAME_EN[s[4]]))
 assert len(D.NAMES_EN) == len(D.S)
 by_trend = {}
 for s in SIGS:
@@ -157,11 +161,11 @@ def note(s, lang):
             f"**{f['tags']}:** {theme}.", '',
             f"### {f['descr']}", '', descr, '',
             f"### {f['why']}", '', why, '',
-            f"### {f['where']}", '', src_label + '.', '',
+            f"### {f['where']}", '', src_label + (f" — {urlparse(s['url']).netloc.replace('www.', '')}" if s['url'] else '') + '.', '',
             f"### {f['bounds']}", '', BOUNDS[s['src']][0 if ru else 1], '',
             f"### {f['links']}", '',
             f"- [[{other}/{sid}|{f['other']}]].",
-            f"- {f['same']}: " + '; '.join(f"[[{c['url']}/{x['id'].lower()}|{(WORLD[lang][x['sc']][1].split(' — ')[0])} · {x['name_ru'] if ru else x['name_en']}]]" for x in sib) + '.', '']
+            (f"- {f['same']}: " if sib else '') + '; '.join(f"[[{c['url']}/{x['id'].lower()}|{(WORLD[lang][x['sc']][1].split(' — ')[0])} · {x['name_ru'] if ru else x['name_en']}]]" for x in sib) + ('.' if sib else ''), '']
     if s['url']:
         body += [f"**{f['src']}:** [{urlparse(s['url']).netloc.replace('www.', '')}]({s['url']}).", '']
     else:
@@ -177,45 +181,55 @@ def hub(lang):
     ru = lang == 'ru'; c = L[lang]
     other_hub = L['en' if ru else 'ru']['hub_url']
     fm = ['---', f"title: {yq(c['hubname'])}",
-          f"seoTitle: {yq('Сигналы 2026: 20 трендов × 4 сценария' if ru else 'Signals 2026: 20 trends × 4 scenarios')}",
-          f"description: {yq('80 сигналов ноября — декабря 2026 года из лекции об институтах будущего и симпозиума «Создавая будущее»: 20 трендов в четырёх мирах Декодера.' if ru else '80 signals from November–December 2026, drawn from a lecture on futures institutes and the “Creating the Future” symposium: 20 trends across the four Decoder worlds.')}",
+          f"seoTitle: {yq('Фронтирные сигналы 2026: ноябрь' if ru else 'Frontier signals 2026: November')}",
+          f"description: {yq(f'{len(SIGS)} фронтирных сигналов ноября 2026 года: исследования, данные, события и кейсы, разложенные по 20 трендам и четырём мирам Декодера.' if ru else f'{len(SIGS)} frontier signals from November 2026: research, data, events and cases arranged by 20 trends and the four Decoder worlds.')}",
           f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['hub_url']}", f"  en: /{L['en']['hub_url']}",
           'aliases:', '  - signals-2026' if not ru else '  - signaly-2026', 'tags:',
           f"  - {'тип/обзор' if ru else 'type/overview'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '']
     if ru:
         intro = [
-         'В этой подборке — 80 сигналов ноября 2026 года, собранных в 20 трендов. У каждого тренда четыре сигнала, по одному на каждый мир Декодера: ЦС — мир автопилота, ЦЗ — мир правил, ДС — мир автономии, ДЗ — мир сообщества. Подборка будет пополняться сигналами декабря.',
+         f'В этой подборке — {len(SIGS)} фронтирных сигналов ноября 2026 года. Фронтирный значит: новое (2025–2026), удивляет, опирается на конкретный факт с первоисточником, а не на мнение спикера. Мы добавляем не больше 50 сигналов в месяц — лучше меньше, но таких, которые меняют картину. Декабрьские сигналы появятся здесь же.',
+         '',
+         'Сигналы разложены по 20 трендам и четырём мирам Декодера: ЦС — мир автопилота, ЦЗ — мир правил, ДС — мир автономии, ДЗ — мир сообщества.',
          '',
          'Откуда сигналы:',
          '',
-         '- **лекция «Будущее поменяло хозяев»** (11 ноября 2026) — как институты будущего переписали свои тренды и методы за год, чего они не видят и что делают люди снизу;',
-         f'- **III Международный симпозиум «Создавая будущее»** (Москва, 12–13 ноября 2026) — сессии о научной фантастике, будущем человечества и ИИ, питчинг «Кино как инструмент борьбы с футурошоком», лекция нейрофизиолога Дубынина, сессия о нейроморфных вычислениях ([обзор программы]({D.SYMP2}), [итоги]({D.SYMP}));',
-         f'- **исследование Стэнфорда «Canaries in the Coal Mine?»** (версия августа 2026) — как ИИ меняет найм молодых ([исследование]({D.STAN})).',
+         '- **исследования и данные** — Stanford Digital Economy Lab, Art Basel и UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, ВОЗ, ООН и другие;',
+         f'- **доклады институтов будущего** — FTSG (Convergence Outlook 2026), Dubai Future Foundation (Global 50) и материалы к лекции «Будущее поменяло хозяев» (11 ноября 2026);',
+         '- **события и кейсы** — новости и решения компаний, правительств и сообществ, у каждого — ссылка на первоисточник;',
+         f'- **III Международный симпозиум «Создавая будущее»** (Москва, 12–13 ноября 2026) — только проекты и исследования, которые сами по себе удивляют ([итоги]({D.SYMP})).',
          '',
-         'Распределение сигналов по мирам — наше прочтение, его можно оспорить. Высказывания со симпозиума пересказаны по машинным расшифровкам: это мнения выступавших, а не подтверждённые факты. Цифры из лекции сверены с источниками, которые указаны в каждом сигнале. Дата подборки — 20 ноября 2026 года.',
+         'Распределение сигналов по мирам — наше прочтение, его можно оспорить. Дата подборки — 20 ноября 2026 года.',
          '',
-         '> Каждый сигнал — отдельная заметка. Ниже — карта 20 трендов и каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
-         '', '## 20 трендов × 4 мира', '',
+         '> Каждый сигнал — отдельная заметка. Ниже — карта трендов и каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
+         '', '## Тренды × 4 мира', '',
          '| Тренд | ЦС · автопилот | ЦЗ · правила | ДС · автономия | ДЗ · сообщество |', '|---|---|---|---|---|']
     else:
         intro = [
-         'This collection holds 80 signals from November 2026, grouped into 20 trends. Each trend has four signals, one for each Decoder world: CS, the autopilot world; CE, the rules world; DS, the autonomy world; DE, the community world. December signals will be added.',
+         f'This collection holds {len(SIGS)} frontier signals from November 2026. Frontier means new (2025–2026), surprising and resting on a concrete fact with a primary source rather than a speaker’s opinion. We add no more than 50 signals a month: fewer, but ones that change the picture. December signals will be added here.',
+         '',
+         'The signals are arranged by 20 trends and the four Decoder worlds: CS, the autopilot world; CE, the rules world; DS, the autonomy world; DE, the community world.',
          '',
          'Where the signals come from:',
          '',
-         '- **the lecture “The Future Has Changed Hands”** (11 November 2026): how futures institutes rewrote their trends and methods in a year, what they miss and what people do from below;',
-         f'- **the III International Symposium “Creating the Future”** (Moscow, 12–13 November 2026): sessions on science fiction, the future of humanity and AI, the film pitch “Cinema as a Tool against Future Shock”, a lecture by neurophysiologist Dubynin and a session on neuromorphic computing ([programme overview]({D.SYMP2}), [summary]({D.SYMP}));',
-         f'- **the Stanford study “Canaries in the Coal Mine?”** (August 2026 revision): how AI is changing the hiring of young people ([paper]({D.STAN})).',
+         '- **research and data**: Stanford Digital Economy Lab, Art Basel and UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, WHO, UN and others;',
+         '- **futures institutes’ reports**: FTSG (Convergence Outlook 2026), Dubai Future Foundation (Global 50) and material for the lecture “The Future Has Changed Hands” (11 November 2026);',
+         '- **events and cases**: news and decisions by companies, governments and communities, each linked to a primary source;',
+         f'- **the III International Symposium “Creating the Future”** (Moscow, 12–13 November 2026): only projects and studies that surprise in their own right ([summary]({D.SYMP})).',
          '',
-         'Assigning signals to worlds is our reading and can be challenged. Symposium statements are summarised from machine transcripts: they are speakers’ opinions, not confirmed facts. Lecture figures were checked against the sources listed in each signal. Collection date: 20 November 2026.',
+         'Assigning signals to worlds is our reading and can be challenged. Collection date: 20 November 2026.',
          '',
-         '> Each signal is a separate note. Below are a map of the 20 trends and the catalog: search and filter by world, life domain, theme and macrotrend.',
-         '', '## 20 trends × 4 worlds', '',
+         '> Each signal is a separate note. Below are a map of the trends and the catalog: search and filter by world, life domain, theme and macrotrend.',
+         '', '## Trends × 4 worlds', '',
          '| Trend | CS · autopilot | CE · rules | DS · autonomy | DE · community |', '|---|---|---|---|---|']
     rows = []
     for k in sorted(D.TRENDS):
+        if k not in by_trend:
+            continue
         tr = D.TRENDS[k]
-        cells = {x['sc']: link_md(x, lang) for x in by_trend[k]}
+        cells = {}
+        for x in by_trend.get(k, []):
+            cells[x['sc']] = (cells[x['sc']] + '<br>' if x['sc'] in cells else '') + link_md(x, lang)
         rows.append(f"| <span id=\"{'тренд' if ru else 'trend'}-{k}\"></span>**{k}. {tr[0] if ru else tr[1]}.** {tr[2] if ru else tr[3]} | " + ' | '.join(cells.get(x, '') for x in ['ЦС', 'ЦЗ', 'ДС', 'ДЗ']) + ' |')
     mt = ['', '## Что обновить в своде 82 макротрендов' if ru else '## What to update in the set of 82 macrotrends', '',
           ('Эти макротренды из свода получили новые сигналы. Их описания и сценарные гипотезы стоит проверить и дополнить.' if ru else
@@ -237,10 +251,10 @@ def hub(lang):
 def folder_index(lang):
     ru = lang == 'ru'; c = L[lang]
     return '\n'.join(['---', f"title: {yq('Сигналы 2026: ноябрь — декабрь, все заметки' if ru else 'Signals 2026: November — December, all notes')}",
-        f"description: {yq('80 сигналов ноября — декабря 2026 года — каждый отдельной заметкой с тегами по миру, сфере, теме и макротренду.' if ru else '80 signals from November–December 2026, each a separate note tagged by world, life domain, theme and macrotrend.')}",
+        f"description: {yq(f'{len(SIGS)} фронтирных сигналов ноября 2026 года — каждый отдельной заметкой с тегами по миру, сфере, теме и макротренду.' if ru else f'{len(SIGS)} frontier signals from November 2026, each a separate note tagged by world, life domain, theme and macrotrend.')}",
         f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['url']}/", f"  en: /{L['en']['url']}/", 'tags:',
         f"  - {'тип/указатель' if ru else 'type/index'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '',
-        ('Каждый сигнал — отдельная заметка. Карта 20 трендов — в ' if ru else 'Each signal is a separate note. The map of 20 trends is in ')
+        ('Каждый сигнал — отдельная заметка. Карта трендов — в ' if ru else 'Each signal is a separate note. The map of trends is in ')
         + f"[[{c['hub_url']}|{'обзоре подборки' if ru else 'the collection overview'}]].", ''])
 
 if __name__ == '__main__':
