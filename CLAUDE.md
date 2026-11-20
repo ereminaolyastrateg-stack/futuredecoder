@@ -12,6 +12,6 @@
 
 ## Где что
 - Правила заметок: `content/o-sade/kak-pisat-zametki.md` (+ EN).
-- Сигналы: `scripts/signals/split.py` (MT_NOTES, WORLD_NOTES, SPHERE_NOTES).
+- Сигналы: `scripts/signals/split.py` (октябрь, образование), `scripts/signals/build_2026.py` + `signals_2026_11.py` (ноябрь). Промпт для подборки месяца — `scripts/signals/PROMPT.md`.
 - Сферы жизни: `scripts/spheres/` (из «Future_Decoder_v12_132», README там же).
 - Полотно: `scripts/polotno/`.

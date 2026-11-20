@@ -202,13 +202,13 @@ def hub(lang):
          '- **исследования и данные** — Stanford Digital Economy Lab, Art Basel и UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, OpenAI и Upwork, ВОЗ и другие;',
          '- **доклады институтов будущего** — что за год добавили и что убрали CIFS, FTSG, IFTF, Dubai Future Foundation, RAND, McKinsey, Gartner, WEF, VML и обзор трендов kleinkleinklein; по сигналу на институт (материалы к лекции «Будущее поменяло хозяев», 11 ноября 2026);',
          '- **события и кейсы** — новости и решения компаний, правительств и сообществ, у каждого — ссылка на первоисточник;',
-         f'- **III Международный симпозиум «Создавая будущее»** (Москва, 12–13 ноября 2026) — только проекты и исследования, которые сами по себе удивляют ([итоги]({D.SYMP})).',
+         f'- **III Международный симпозиум «Создавая будущее»** (Москва, 12–13 ноября 2026) — только проекты и исследования, которые сами по себе удивляют. Отдельная заметка по итогам симпозиума выйдет позже.',
          '',
          'Распределение сигналов по мирам — наше прочтение, его можно оспорить. Дата подборки — 20 ноября 2026 года.',
          '',
-         '> Каждый сигнал — отдельная заметка. Ниже — карта трендов и каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
-         '', '## Тренды × 4 мира', '',
-         '| Тренд | ЦС · автопилот | ЦЗ · правила | ДС · автономия | ДЗ · сообщество |', '|---|---|---|---|---|']
+         f'Сигналы сгруппированы в 20 трендов — у каждого своя карточка в разделе [[{c["tr_url"]}/index|Тренды]]. Ссылка «Тренд подборки» в карточке сигнала ведёт туда.', '',
+         '> Каждый сигнал — отдельная заметка. Ниже — каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
+         '']
     else:
         intro = [
          f'This collection holds {len(SIGS)} frontier signals from November 2026. Frontier means new (2025–2026), surprising and resting on a concrete fact with a primary source rather than a speaker’s opinion. We add no more than 50 signals a month: fewer, but ones that change the picture. December signals will be a separate collection.',
@@ -220,13 +220,13 @@ def hub(lang):
          '- **research and data**: Stanford Digital Economy Lab, Art Basel and UBS, Gallup, Edelman, Reuters/Ipsos, Hugging Face, OpenAI and Upwork, WHO and others;',
          '- **futures institutes’ reports**: what CIFS, FTSG, IFTF, Dubai Future Foundation, RAND, McKinsey, Gartner, WEF, VML and the kleinkleinklein trend review added and dropped over the year, one signal per institute (material for the lecture “The Future Has Changed Hands”, 11 November 2026);',
          '- **events and cases**: news and decisions by companies, governments and communities, each linked to a primary source;',
-         f'- **the III International Symposium “Creating the Future”** (Moscow, 12–13 November 2026): only projects and studies that surprise in their own right ([summary]({D.SYMP})).',
+         f'- **the III International Symposium “Creating the Future”** (Moscow, 12–13 November 2026): only projects and studies that surprise in their own right. A separate note on the symposium will follow.',
          '',
          'Assigning signals to worlds is our reading and can be challenged. Collection date: 20 November 2026.',
          '',
-         '> Each signal is a separate note. Below are a map of the trends and the catalog: search and filter by world, life domain, theme and macrotrend.',
-         '', '## Trends × 4 worlds', '',
-         '| Trend | CS · autopilot | CE · rules | DS · autonomy | DE · community |', '|---|---|---|---|---|']
+         f'The signals are grouped into 20 trends, each with its own card in [[{c["tr_url"]}/index|Trends]]. The “Collection trend” link on a signal card leads there.', '',
+         '> Each signal is a separate note. Below is the catalog: search and filter by world, life domain, theme and macrotrend.',
+         '']
     rows = []
     for k in sorted(D.TRENDS):
         if k not in by_trend:
@@ -252,7 +252,7 @@ def hub(lang):
     tail = ['', ('Обзор на английском' if ru else 'This overview in Russian') + f': [[{other_hub}|{L['en' if ru else 'ru']['hubname']}]].', '',
             ('Все тренды — карточками: ' if ru else 'All trends as cards: ') + f"[[{c['tr_url']}/index|{'Тренды' if ru else 'Trends'}]].", '',
             '[Все сигналы](/materialy/signaly/)' if ru else '[All signals](/en/materials/signals/)', '']
-    return '\n'.join(fm + intro + rows + tail)
+    return '\n'.join(fm + intro)
 
 TR = {
  'ru': dict(brief='Кратко', period='Период', mt='Макротренды-драйверы', sph='Сферы', tags='Тематические теги', descr='Описание',
