@@ -23,7 +23,11 @@ const PAGES: Record<string, { lang: "ru" | "en"; prefix: string }> = {
   "materialy/signaly/index": { lang: "ru", prefix: "materialy/signaly/" },
   "materialy/signaly/obrazovanie/index": { lang: "ru", prefix: "materialy/signaly/obrazovanie/" },
   "materialy/signaly/education": { lang: "ru", prefix: "materialy/signaly/obrazovanie/" },
+  "materialy/signaly/2026-11-12/index": { lang: "ru", prefix: "materialy/signaly/2026-11-12/" },
+  "materialy/signaly/2026-noyabr-dekabr": { lang: "ru", prefix: "materialy/signaly/2026-11-12/" },
   "en/materials/signals/index": { lang: "en", prefix: "en/materials/signals/" },
+  "en/materials/signals/2026-nov-dec/index": { lang: "en", prefix: "en/materials/signals/2026-nov-dec/" },
+  "en/materials/signals/2026-november-december": { lang: "en", prefix: "en/materials/signals/2026-nov-dec/" },
   "en/materials/signals/education-signals/index": {
     lang: "en",
     prefix: "en/materials/signals/education-signals/",
