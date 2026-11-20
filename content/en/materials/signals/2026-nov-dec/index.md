@@ -12,4 +12,4 @@ created: 2026-11-20
 updated: 2026-11-20
 ---
 
-Each signal is a separate note. The map of 20 trends and macrotrend updates are in [[en/materials/signals/2026-november-december|the collection overview]].
+Each signal is a separate note. The map of 20 trends is in [[en/materials/signals/2026-november-december|the collection overview]].

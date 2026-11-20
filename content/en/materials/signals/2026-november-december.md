@@ -1,7 +1,7 @@
 ---
 title: "Signals 2026: November — December"
 seoTitle: "Signals 2026: 20 trends × 4 scenarios"
-description: "80 signals from November–December 2026, drawn from a lecture on futures institutes and the “Creating the Future” symposium: 20 trends across the four Decoder worlds and what to update in the macrotrend set."
+description: "80 signals from November–December 2026, drawn from a lecture on futures institutes and the “Creating the Future” symposium: 20 trends across the four Decoder worlds."
 lang: en
 translations:
   ru: /materialy/signaly/2026-noyabr-dekabr
@@ -25,7 +25,7 @@ Where the signals come from:
 
 Assigning signals to worlds is our reading and can be challenged. Symposium statements are summarised from machine transcripts: they are speakers’ opinions, not confirmed facts. Lecture figures were checked against the sources listed in each signal. Collection date: 20 November 2026.
 
-> Each signal is a separate note. Below are a map of the 20 trends, what to update in the macrotrend set, and the catalog: search and filter by world, life domain, theme and macrotrend.
+> Each signal is a separate note. Below are a map of the 20 trends and the catalog: search and filter by world, life domain, theme and macrotrend.
 
 ## 20 trends × 4 worlds
 
@@ -51,47 +51,6 @@ Assigning signals to worlds is our reading and can be challenged. Symposium stat
 | <span id="trend-18"></span>**18. Health as environment and way of life.** Health goes beyond medicine: it is drugs, but also sleep, home and the people around you. | [Ozempic](/en/materials/signals/2026-nov-dec/sig-2026-069) | [Seven supports for the brain](/en/materials/signals/2026-nov-dec/sig-2026-070) | [Sleeping in cycles](/en/materials/signals/2026-nov-dec/sig-2026-071) | [Health is your surroundings](/en/materials/signals/2026-nov-dec/sig-2026-072) |
 | <span id="trend-19"></span>**19. Symbiosis and coexistence of the different.** The “only one survives” logic gives way to a search for ways of living together: humans and AI, different cultures and species. | [AI manages us](/en/materials/signals/2026-nov-dec/sig-2026-073) | [Multipolarity](/en/materials/signals/2026-nov-dec/sig-2026-074) | [Agency and symbiosis](/en/materials/signals/2026-nov-dec/sig-2026-075) | [The art of living together](/en/materials/signals/2026-nov-dec/sig-2026-076) |
 | <span id="trend-20"></span>**20. The constrained economy and fragmentation.** Growth is only possible within local limits. The global market breaks up into regions and layers. | [Energy as an assumption](/en/materials/signals/2026-nov-dec/sig-2026-077) | [States write the future](/en/materials/signals/2026-nov-dec/sig-2026-078) | [Autonomy splits](/en/materials/signals/2026-nov-dec/sig-2026-079) | [Locality as the norm](/en/materials/signals/2026-nov-dec/sig-2026-080) |
-
-## What to update in the set of 82 macrotrends
-
-These macrotrends from the set received new signals. Their descriptions and scenario hypotheses should be reviewed and extended.
-
-| Macrotrend | What to add | Collection trends |
-|---|---|---|
-| MT-047 — Advanced AI systems and cognitive computing | Add agents that pay and decide for people, and open models as a path to one’s own AI. | [1](#trend-1), [16](#trend-16) |
-| MT-066 — Labour-market transformation and talent management | Add the Stanford data: hiring of 22–25-year-olds falls in occupations where AI replaces tasks. | [2](#trend-2) |
-| MT-007 — Automation of labour | A shift from “layoffs” to a “closed entrance” and “owning work” (agents and robots). | [2](#trend-2) |
-| MT-024 — Cognitive engineering and neural interfaces | Add biocomputers made of human neurons (CL1) and the theme of consciousness transfer. | [3](#trend-3), [4](#trend-4) |
-| MT-057 — Radical longevity | Add unequal access to life extension and communities of refusal. | [3](#trend-3), [4](#trend-4), [7](#trend-7) |
-| MT-027 — Crisis of individualism | Individualism as a condition, not a promise: CIFS dropped the word “freedom”. | [5](#trend-5) |
-| MT-017 — Demographic decline and the ageing economy | Add the “children for well-being” scenario and late parenthood in long lives. | [6](#trend-6) |
-| MT-038 — Inequality and resource distribution | Segregation and “castes” based on access to upgrades are back. | [7](#trend-7) |
-| MT-063 — Techno-nationalism and localised production | Add raw-material export bans (DR Congo) and compute as a resource of power. | [8](#trend-8), [20](#trend-20) |
-| MT-044 — Public trust and digital ethics | Add resistance to data centres, value tests for models and the question “whose agent is it”. | [9](#trend-9), [11](#trend-11) |
-| MT-060 — Declining human productivity and technological degradation | Add public slowdown of technology as a force in its own right. | [9](#trend-9) |
-| MT-023 — Cybersecurity and sovereignty | From democratisation to “sovereign technologies of control” (Gartner). | [10](#trend-10) |
-| MT-030 — Culture as a source of the future | Science fiction and film as soft power: “The Three-Body Problem”, the “Film against Future Shock” pitch. | [12](#trend-12) |
-| MT-076 — Digital communities and virtual interaction | Discord as parliament and fandoms at protests; fandoms have owners. | [13](#trend-13) |
-| MT-056 — Psychological well-being and mental health | The right to be imperfect: “KPop Demon Hunters”, monsters as heroes. | [14](#trend-14) |
-| MT-055 — Psychological resilience and the crisis of thinking | Cognitive autonomy: students think AI is smarter than they are; “intellectual fast food”. | [15](#trend-15) |
-| [MT-043 — Education, knowledge and literacy](/en/materials/macrotrends/education-knowledge-literacy) | Teach both people and their AI assistants; competencies from science fiction (HSE). | [16](#trend-16) |
-| MT-013 — Gamification | Games as a training ground for robots and a lab for ways of working. | [17](#trend-17) |
-| MT-054 — Future design and strategic vision | The proposal to make futures studies an academic discipline; materialising the future. | [11](#trend-11), [17](#trend-17) |
-| MT-001 — Holistic health | Health as environment: sleep, home, surroundings; Ozempic changes the body norm. | [18](#trend-18) |
-| MT-002 — Human–machine interaction | From managing AI to co-management, and the risk of AI managing us. | [19](#trend-19) |
-| MT-050 — Post-growth | The constrained economy: energy dropped out of DFF’s megatrends as an “assumption”. | [20](#trend-20) |
-| MT-053 — Progressive province | Locality as the norm: regional cultural scenes and Eurasian trends. | [13](#trend-13), [20](#trend-20) |
-
-## Candidates for new macrotrends
-
-These forces are not in the set as standalone macrotrends: they are spread across several. We suggest checking whether to separate them.
-
-- **Resistance to the speed of technology.** Currently spread across MT-044 and MT-060. 142 protests in a day and $68 billion of blocked projects in one quarter make it a force of its own. [Trend 9](#trend-9).
-- **Digital immortality and the boundaries of the human.** Partly in MT-075 and MT-024, but the question “what counts as human” is not posed in the set. [Trend 4](#trend-4).
-- **The battle of narratives about the future.** Partly in MT-030. Science fiction, film and animation have become tools of states and platforms. [Trend 12](#trend-12).
-- **Values as a design tool.** Partly in MT-044 and MT-054. Values are built into models and strategies: a working tool, not a backdrop. [Trend 11](#trend-11).
-- **Human–AI symbiosis.** Partly in MT-002. A force about the coexistence of the different is needed: humans and AI, cultures, species. [Trend 19](#trend-19).
-- **The closed entrance to work.** Partly in MT-066. A separate force: the disappearance of the first career rung. [Trend 2](#trend-2).
 
 This overview in Russian: [[materialy/signaly/2026-noyabr-dekabr]].
 

@@ -103,6 +103,8 @@ def mt_link(i, lang, sc):
 SIGS = []
 for n, s in enumerate(D.S, 1):
     SIGS.append(dict(zip(['trend', 'sc', 'src', 'year', 'name_ru', 't_ru', 't_en', 'd_ru', 'd_en', 'w_ru', 'w_en', 'url', 'g_ru', 'g_en'], s), id=f'SIG-2026-{n:03d}', name_en=D.NAMES_EN[n - 1]))
+    if not SIGS[-1]['url']:
+        SIGS[-1]['url'] = D.EXTRA_URLS.get(n, '')
 assert len(D.NAMES_EN) == len(D.S)
 by_trend = {}
 for s in SIGS:
@@ -176,7 +178,7 @@ def hub(lang):
     other_hub = L['en' if ru else 'ru']['hub_url']
     fm = ['---', f"title: {yq(c['hubname'])}",
           f"seoTitle: {yq('Сигналы 2026: 20 трендов × 4 сценария' if ru else 'Signals 2026: 20 trends × 4 scenarios')}",
-          f"description: {yq('80 сигналов ноября — декабря 2026 года из лекции об институтах будущего и симпозиума «Создавая будущее»: 20 трендов в четырёх мирах Декодера и что обновить в своде макротрендов.' if ru else '80 signals from November–December 2026, drawn from a lecture on futures institutes and the “Creating the Future” symposium: 20 trends across the four Decoder worlds and what to update in the macrotrend set.')}",
+          f"description: {yq('80 сигналов ноября — декабря 2026 года из лекции об институтах будущего и симпозиума «Создавая будущее»: 20 трендов в четырёх мирах Декодера.' if ru else '80 signals from November–December 2026, drawn from a lecture on futures institutes and the “Creating the Future” symposium: 20 trends across the four Decoder worlds.')}",
           f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['hub_url']}", f"  en: /{L['en']['hub_url']}",
           'aliases:', '  - signals-2026' if not ru else '  - signaly-2026', 'tags:',
           f"  - {'тип/обзор' if ru else 'type/overview'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '']
@@ -192,7 +194,7 @@ def hub(lang):
          '',
          'Распределение сигналов по мирам — наше прочтение, его можно оспорить. Высказывания со симпозиума пересказаны по машинным расшифровкам: это мнения выступавших, а не подтверждённые факты. Цифры из лекции сверены с источниками, которые указаны в каждом сигнале. Дата подборки — 20 ноября 2026 года.',
          '',
-         '> Каждый сигнал — отдельная заметка. Ниже — карта 20 трендов, что обновить в своде макротрендов и каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
+         '> Каждый сигнал — отдельная заметка. Ниже — карта 20 трендов и каталог: ищите и фильтруйте по миру, сфере, теме и макротренду.',
          '', '## 20 трендов × 4 мира', '',
          '| Тренд | ЦС · автопилот | ЦЗ · правила | ДС · автономия | ДЗ · сообщество |', '|---|---|---|---|---|']
     else:
@@ -207,7 +209,7 @@ def hub(lang):
          '',
          'Assigning signals to worlds is our reading and can be challenged. Symposium statements are summarised from machine transcripts: they are speakers’ opinions, not confirmed facts. Lecture figures were checked against the sources listed in each signal. Collection date: 20 November 2026.',
          '',
-         '> Each signal is a separate note. Below are a map of the 20 trends, what to update in the macrotrend set, and the catalog: search and filter by world, life domain, theme and macrotrend.',
+         '> Each signal is a separate note. Below are a map of the 20 trends and the catalog: search and filter by world, life domain, theme and macrotrend.',
          '', '## 20 trends × 4 worlds', '',
          '| Trend | CS · autopilot | CE · rules | DS · autonomy | DE · community |', '|---|---|---|---|---|']
     rows = []
@@ -230,7 +232,7 @@ def hub(lang):
         new.append(f"- **{a if ru else b}.** {ca if ru else cb} [{'Тренд' if ru else 'Trend'} {t}](#{'тренд' if ru else 'trend'}-{t}).")
     tail = ['', ('Обзор на английском' if ru else 'This overview in Russian') + f': [[{other_hub}]].', '',
             '[Все сигналы](/materialy/signaly/)' if ru else '[All signals](/en/materials/signals/)', '']
-    return '\n'.join(fm + intro + rows + mt + new + tail)
+    return '\n'.join(fm + intro + rows + tail)
 
 def folder_index(lang):
     ru = lang == 'ru'; c = L[lang]
@@ -238,7 +240,7 @@ def folder_index(lang):
         f"description: {yq('80 сигналов ноября — декабря 2026 года — каждый отдельной заметкой с тегами по миру, сфере, теме и макротренду.' if ru else '80 signals from November–December 2026, each a separate note tagged by world, life domain, theme and macrotrend.')}",
         f'lang: {lang}', 'translations:', f"  ru: /{L['ru']['url']}/", f"  en: /{L['en']['url']}/", 'tags:',
         f"  - {'тип/указатель' if ru else 'type/index'}", f"  - {c['t'][5]}", f'created: {TODAY}', f'updated: {TODAY}', '---', '',
-        ('Каждый сигнал — отдельная заметка. Карта 20 трендов и что обновить в макротрендах — в ' if ru else 'Each signal is a separate note. The map of 20 trends and macrotrend updates are in ')
+        ('Каждый сигнал — отдельная заметка. Карта 20 трендов — в ' if ru else 'Each signal is a separate note. The map of 20 trends is in ')
         + f"[[{c['hub_url']}|{'обзоре подборки' if ru else 'the collection overview'}]].", ''])
 
 if __name__ == '__main__':

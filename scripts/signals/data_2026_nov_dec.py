@@ -727,3 +727,13 @@ NAMES_EN = [
  'AI manages us', 'Multipolarity', 'Agency and symbiosis', 'The art of living together',
  'Energy as an assumption', 'States write the future', 'Autonomy splits', 'Locality as the norm',
 ]
+
+# Ссылки, найденные при проверке источников 20.11.2026 (номер сигнала → источник)
+EXTRA_URLS = {
+ 32: 'https://www.weforum.org/stories/climate-action-and-waste-reduction/research-data-centres-water-scarcity-understanding-risk',
+ 38: 'https://www.networkworld.com/article/4238030/gartners-top-tech-trends-for-2027-expand-and-accelerate.html',
+ 39: 'https://www.rand.org/pubs/research_reports/RRA4692-1.html',
+ 49: 'https://www.koreaherald.com/article/10497759',
+ 78: 'https://english.www.gov.cn/news/202603/10/content_WS69b02d13c6d00ca5f9a09c9d.html',
+ 79: 'https://www.fiverr.com/news/fiverr-q2-2026-earnings',
+}
