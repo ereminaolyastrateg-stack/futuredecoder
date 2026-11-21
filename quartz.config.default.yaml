@@ -212,7 +212,8 @@ plugins:
     enabled: true
     options:
       links:
-        futuredecoder.ru: https://futuredecoder.ru
+        Лаборатория: https://lab.futuredecoder.org
+        Telegram: https://t.me/Olya_v_trende
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
