@@ -42,7 +42,6 @@ We go down from big pictures of the future to one day and one step, and then cli
 | **4. Assemble** | System: what each lever changes in life, loops, a year map. An experiment for the week | A lever built into life and a first step with a date | Meadows: loops and delays. Michie: capability, opportunity, motivation. Gollwitzer: "when…, I…". Klein: premortem |
 | **5. Check** | What worked, what changed in the world, the next circle | An updated map and the next step | Prochaska: change goes in stages, a relapse is part of the path |
 
-Each step rests on research, but the lab as a whole is a new method and its effect is not yet proven. We are testing it together with you.
 
 ## What you get
 
