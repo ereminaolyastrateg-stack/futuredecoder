@@ -60,7 +60,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]].  
 **Industries:** Digital fabrication; engineering education.  
-**Thematic tags:** Fab Lab, workshop, portfolio, distributed learning.
+**Thematic tags:** [[tags/theme/fab-lab|Fab Lab]] [[tags/theme/workshop|workshop]] [[tags/theme/portfolio|portfolio]] [[tags/theme/distributed-learning|distributed learning]]
 
 ### Description
 
@@ -99,4 +99,4 @@ The programme includes mentors and assessment procedures. Its description does n
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

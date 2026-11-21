@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]].  
 **Industries:** Solar energy; vocational learning.  
-**Thematic tags:** practice, access to learning, solar energy.
+**Thematic tags:** [[tags/theme/practice|practice]] [[tags/theme/access-to-learning|access to learning]] [[tags/theme/solar-energy|solar energy]]
 
 ### Description
 
@@ -95,4 +95,4 @@ The programme teaches a defined set of tasks involving solar systems. This is no
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

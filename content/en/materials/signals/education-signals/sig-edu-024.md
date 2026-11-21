@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Design education; foresight; film.  
-**Thematic tags:** imagination, scenarios, world building.
+**Thematic tags:** [[tags/theme/imagination|imagination]] [[tags/theme/scenarios|scenarios]] [[tags/theme/world-building|world building]]
 
 ### Description
 
@@ -91,4 +91,4 @@ A scenario helps explore what is possible. A persuasive form does not turn it in
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

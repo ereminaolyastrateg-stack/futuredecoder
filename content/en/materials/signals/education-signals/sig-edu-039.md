@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** STEM; makerspaces; non-formal education.  
-**Thematic tags:** participation, power, co creating rules.
+**Thematic tags:** [[tags/theme/participation|participation]] [[tags/theme/power|power]] [[tags/theme/co-creating-rules|co creating rules]]
 
 ### Description
 
@@ -96,4 +96,4 @@ The panel asks about sharing power. Participation, access to equipment and the f
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

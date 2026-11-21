@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/family-cs|Close relationships and family]].  
 **Industries:** Education; EdTech; VR.  
-**Thematic tags:** VR, preschool, progress assessment.
+**Thematic tags:** [[tags/theme/vr|VR]] [[tags/theme/preschool|preschool]] [[tags/theme/progress-assessment|progress assessment]]
 
 ### Description
 
@@ -91,4 +91,4 @@ This is a proposal for a possible learning environment. The existence of the pro
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

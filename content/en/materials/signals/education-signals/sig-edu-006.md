@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]].  
 **Industries:** School education; assessment; admissions.  
-**Thematic tags:** portfolio, criteria, evidence of skills.
+**Thematic tags:** [[tags/theme/portfolio|portfolio]] [[tags/theme/criteria|criteria]] [[tags/theme/evidence-of-skills|evidence of skills]]
 
 ### Description
 
@@ -96,4 +96,4 @@ A portfolio format does not guarantee identical recognition by every institution
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

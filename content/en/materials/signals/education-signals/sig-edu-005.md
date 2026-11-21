@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Supplementary education; EdTech.  
-**Thematic tags:** learning pathway, choice, personalisation.
+**Thematic tags:** [[tags/theme/learning-pathway|learning pathway]] [[tags/theme/choice|choice]] [[tags/theme/personalisation|personalisation]]
 
 ### Description
 
@@ -83,4 +83,4 @@ A personal route does not remove the programme’s boundaries, mentors, workshop
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

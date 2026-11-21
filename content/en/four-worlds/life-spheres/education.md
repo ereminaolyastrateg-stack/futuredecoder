@@ -34,5 +34,5 @@ updated: 2026-11-17
 ## Connections
 
 - [[en/materials/macrotrends/education-knowledge-literacy|Macrotrend "Education, Knowledge and Literacy"]] — how the four worlds answer who leads the learning path and who recognises the result.
-- [[en/materials/signals/education|Education signals catalog]] — 40 signals with a filter by world.
+- [[en/materials/signals/education-signals/index|Education signals catalog]] — 40 signals with a filter by world.
 - [[en/four-worlds/life-spheres/index|Life Spheres]]

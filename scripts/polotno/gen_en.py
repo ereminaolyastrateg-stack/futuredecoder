@@ -109,6 +109,7 @@ R = [
  ('data-tab="canvas">Полотно</a>', 'data-tab="canvas">Canvas</a>'),
  ('data-tab="dilemmas">Дилеммы</a>', 'data-tab="dilemmas">Dilemmas</a>'),
  ('data-tab="signal">Сигнал дня</a>', 'data-tab="signal">Daily signal</a>'),
+ ('<a href="/static/letter/">Письмо из 2035</a>', '<a href="/static/letter/en/">A letter from 2035</a>'),
  ('<a href="en/" hreflang="en" lang="en" class="langsw">EN</a>', '<a href="../" hreflang="ru" lang="ru" class="langsw">RU</a>'),
  ('{База знаний Декодера}', '{Decoder knowledge base}'),
  ('<h1>Полотно<br>будущего</h1>', '<h1>Future<br>Canvas</h1>'),

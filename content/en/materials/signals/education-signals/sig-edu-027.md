@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/work-ds|Work]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]].  
 **Industries:** Higher education; adult learning.  
-**Thematic tags:** life experience, personal plan, portfolio.
+**Thematic tags:** [[tags/theme/life-experience|life experience]] [[tags/theme/personal-plan|personal plan]] [[tags/theme/portfolio|portfolio]]
 
 ### Description
 
@@ -86,4 +86,4 @@ A personal plan operates within an educational model and assessment procedures, 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

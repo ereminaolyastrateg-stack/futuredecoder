@@ -55,7 +55,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/family-ds|Close relationships and family]].  
 **Industries:** School education.  
-**Thematic tags:** choice, coach, independence.
+**Thematic tags:** [[tags/theme/choice|choice]] [[tags/theme/coach|coach]] [[tags/theme/independence|independence]]
 
 ### Description
 
@@ -98,4 +98,4 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

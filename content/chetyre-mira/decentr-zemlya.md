@@ -109,7 +109,7 @@ updated: 2026-11-17
 ## Мир ДЗ в саду
 
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-de|Мастерство человека — ДЗ]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-de|Образование — ДЗ]].
-- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-038|Figuring Things Out Together]], [[materialy/signaly/obrazovanie/sig-edu-029|42]] и все остальные — по тегу #сценарий/ДЗ или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ДЗ».
+- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-038|Figuring Things Out Together]], [[materialy/signaly/obrazovanie/sig-edu-029|42]] и все остальные — по тегу #сценарий/ДЗ или в [[materialy/signaly/obrazovanie/index|каталоге]] с фильтром «Мир: ДЗ».
 
 **В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-de|Здоровье]] · [[chetyre-mira/sfery/finansy-de|Финансы]] · [[chetyre-mira/sfery/rabota-de|Работа]] · [[chetyre-mira/sfery/obrazovanie-de|Образование]] · [[chetyre-mira/sfery/semya-de|Семья]] · [[chetyre-mira/sfery/sreda-de|Среда]] · [[chetyre-mira/sfery/byt-de|Быт]] · [[chetyre-mira/sfery/smysl-de|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
 

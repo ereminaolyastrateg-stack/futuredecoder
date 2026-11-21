@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/place-ce|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Museums; cultural institutions; non-formal education.  
-**Thematic tags:** museum, democracy, non formal education.
+**Thematic tags:** [[tags/theme/museum|museum]] [[tags/theme/democracy|democracy]] [[tags/theme/non-formal-education|non formal education]]
 
 ### Description
 
@@ -93,4 +93,4 @@ A conference programme shows a direction of discussion and examples of practice,
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

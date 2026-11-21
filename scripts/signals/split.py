@@ -16,20 +16,20 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'source')
 
 LANGS = {
-    'ru': dict(hub='content/materialy/signaly/education.md', dir='content/materialy/signaly/obrazovanie',
-               url='materialy/signaly/obrazovanie', hub_url='materialy/signaly/education',
+    'ru': dict(hub='content/materialy/signaly/obrazovanie/index.md', dir='content/materialy/signaly/obrazovanie',
+               url='materialy/signaly/obrazovanie', hub_url='materialy/signaly/obrazovanie/index',
                other='en/materials/signals/education-signals',
                L=dict(scen='Сценарий', sph='Сферы', ind='Отрасли', tags='Тематические теги', mt='Макротренды-драйверы',
                       brief='Кратко', geo='География', period='Дата / период', stage='Тип и стадия', other_lang='Этот сигнал на английском', other_label='Этот сигнал на английском',
-                      back='Все сигналы обзора', hubname='Образование — сигналы и обсуждения игр',
+                      back='Все сигналы обзора', hubname='Сигналы: образование, октябрь 2026',
                       t_type='тип', t_sig='сигнал', t_scen='сценарий', t_sph='сфера', t_ind='отрасль', t_theme='тема', t_mt='макротренд',
                       t_hub='обзор', topic='сфера/образование')),
-    'en': dict(hub='content/en/materials/signals/education.md', dir='content/en/materials/signals/education-signals',
-               url='en/materials/signals/education-signals', hub_url='en/materials/signals/education',
+    'en': dict(hub='content/en/materials/signals/education-signals/index.md', dir='content/en/materials/signals/education-signals',
+               url='en/materials/signals/education-signals', hub_url='en/materials/signals/education-signals/index',
                other='materialy/signaly/obrazovanie',
                L=dict(scen='Scenario', sph='Life domains', ind='Industries', tags='Thematic tags', mt='Macrotrend drivers',
                       brief='In brief', geo='Geography', period='Date / period', stage='Type and stage', other_lang='This signal in Russian', other_label='This signal in Russian',
-                      back='All signals in this overview', hubname='Education — signals and game discussions',
+                      back='All signals in this overview', hubname='Signals: education, October 2026',
                       t_type='type', t_sig='signal', t_scen='scenario', t_sph='domain', t_ind='industry', t_theme='theme', t_mt='macrotrend',
                       t_hub='overview', topic='domain/education')),
 }
@@ -143,7 +143,7 @@ def process(lang):
         b = re.sub(r'\[([^\]]+)\]\((?:\.\./)+[^)]*?#(sig-edu-\d{3})\)', lambda m: f"[[{c['other']}/{m.group(2)}|{m.group(1)}]]", b)
         b = re.sub(r'\[(MT-\d{3}[^\]]*)\]\(#mt-\d{3}\)', lambda m: link_mt(m, lang, code), b)
         b = re.sub(r'^(\*\*' + re.escape(L['tags']) + r':\*\*).*$',
-                   lambda m: m.group(1) + ' ' + ', '.join(x.strip().replace('-', ' ') for x in themes) + '.', b, flags=re.M)
+                   lambda m: m.group(1) + ' ' + ' '.join(f"[[tags/{L['t_theme']}/{slugtag(x)}|{x.strip().replace('-', ' ')}]]" for x in themes), b, flags=re.M)
         b = link_world(b, lang, code, L['scen'])
         b = link_spheres(b, lang, code, L['sph'])
         desc = field(rest, L['brief'])
@@ -166,6 +166,11 @@ def process(lang):
     hub_tail = re.sub(r'\[([^\]]+)\]\(#(sig-edu-\d{3})\)', lambda m: link_sig(m, c['url']), tail)
     fm2 = re.sub(r'tags:\n(  - .*\n)+', 'tags:\n' + f"  - {L['t_type']}/{L['t_hub']}\n  - {L['topic']}\n", fm)
     fm2 = fm2.replace('updated: 2026-11-13', 'updated: 2026-11-16')
+    # обзор живёт в index.md папки: в меню одна строка, а не папка + дубль
+    fm2 = re.sub(r'^title: .*$', f"title: {yq(L['hubname'])}", fm2, flags=re.M)
+    fm2 = re.sub(r'translations:\n(  .*\n)+', f"translations:\n  ru: /{LANGS['ru']['url']}/\n  en: /{LANGS['en']['url']}/\n", fm2)
+    old = {'ru': ['materialy/signaly/education', 'signals/education', 'signaly/education'], 'en': ['en/materials/signals/education', 'en/signals/education']}[lang]
+    fm2 = re.sub(r'aliases:\n(  - .*\n)+', 'aliases:\n' + ''.join(f'  - {a}\n' for a in old), fm2)
     note = ({'ru': '> Каждый сигнал — отдельная заметка со своими тегами и обратными ссылками: [[materialy/signaly/obrazovanie/index|все сигналы по образованию]]. Теги сценариев: #сценарий/ЦС #сценарий/ЦЗ #сценарий/ДС #сценарий/ДЗ',
              'en': '> Each signal is a separate note with its own tags and backlinks: [[en/materials/signals/education-signals/index|all education signals]]. Scenario tags: #scenario/CS #scenario/CE #scenario/DS #scenario/DE'})[lang]
     # обзор = вводный текст; списки по мирам и макротрендам заменяет таблица-каталог (SignalCatalog)

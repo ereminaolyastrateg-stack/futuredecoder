@@ -71,7 +71,7 @@ updated: 2026-11-17
 
 ### Signal front matter
 
-A signal has fields in its front matter from which the [[en/materials/signals/education|signal catalog]] with search and filters is built:
+A signal has fields in its front matter from which the [[en/materials/signals/education-signals/index|signal catalog]] with search and filters is built:
 
 ```yaml
 signal_type: signal
@@ -90,6 +90,21 @@ macrotrends: ["MT-043 — Education, knowledge and literacy"]
 ```
 
 Signal tags: `type/signal`, `scenario/…`, `domain/…` and thematic `theme/…` tags, one for each label in `themes`. Thematic labels describe the essence of the signal, not the industry: not "edtech" but "learning by doing".
+
+### Which signals we take
+
+No more than **50 new signals a month**. We take only frontier ones:
+
+- **new**: an event or data from 2025–2026, not a long-known fact;
+- **surprising**: someone who follows the topic would say “I didn’t know that”;
+- **a concrete fact with a primary source**: a figure, decision, launch or case linked to a study, company, agency or news outlet;
+- **not an opinion**: a speaker’s forecast or judgement is not a signal unless a fact stands behind it.
+
+If a month yields more than 50, we keep the most unexpected and best confirmed. The rest goes to the working register, not the garden.
+
+Collections are named the same way: “Signals: topic, month year”, for example “Signals: education, October 2026”. A collection’s overview lives in its folder’s `index.md`, so the menu shows one line. Changes in futures institutes’ reports are signals too, one per institute: what they added and what they dropped.
+
+The trends we identify from signals are separate cards in `en/materials/trends/` with the tag `type/trend` and the field `signal_type: trend`; each card lists the trend’s signals across the four worlds.
 
 ## Tags
 

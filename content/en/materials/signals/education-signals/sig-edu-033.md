@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Science; school education; citizen research.  
-**Thematic tags:** citizen science, student researcher, uncertainty.
+**Thematic tags:** [[tags/theme/citizen-science|citizen science]] [[tags/theme/student-researcher|student researcher]] [[tags/theme/uncertainty|uncertainty]]
 
 ### Description
 
@@ -91,4 +91,4 @@ This is a discussion of different practices. Real research requires time, resour
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

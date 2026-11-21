@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Design; informal education; facilitation.  
-**Thematic tags:** collaborative work, workshop script, iteration.
+**Thematic tags:** [[tags/theme/collaborative-work|collaborative work]] [[tags/theme/workshop-script|workshop script]] [[tags/theme/iteration|iteration]]
 
 ### Description
 
@@ -91,4 +91,4 @@ Repeating and altering a workshop provides material for investigating a particul
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

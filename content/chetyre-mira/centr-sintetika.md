@@ -105,7 +105,7 @@ updated: 2026-11-17
 ## Мир ЦС в саду
 
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-cs|Мастерство человека — ЦС]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-cs|Образование — ЦС]].
-- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-006|Mastery Transcript]], [[materialy/signaly/obrazovanie/sig-edu-009|An Automatic Workshop]] и все остальные — по тегу #сценарий/ЦС или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ЦС».
+- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-006|Mastery Transcript]], [[materialy/signaly/obrazovanie/sig-edu-009|An Automatic Workshop]] и все остальные — по тегу #сценарий/ЦС или в [[materialy/signaly/obrazovanie/index|каталоге]] с фильтром «Мир: ЦС».
 
 **В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-cs|Здоровье]] · [[chetyre-mira/sfery/finansy-cs|Финансы]] · [[chetyre-mira/sfery/rabota-cs|Работа]] · [[chetyre-mira/sfery/obrazovanie-cs|Образование]] · [[chetyre-mira/sfery/semya-cs|Семья]] · [[chetyre-mira/sfery/sreda-cs|Среда]] · [[chetyre-mira/sfery/byt-cs|Быт]] · [[chetyre-mira/sfery/smysl-cs|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
 

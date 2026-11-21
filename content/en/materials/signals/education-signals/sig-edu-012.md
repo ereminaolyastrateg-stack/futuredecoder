@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]]; [[en/four-worlds/life-spheres/meaning-ce|Values, meaning and community]].  
 **Industries:** Design education; ecological design.  
-**Thematic tags:** design, regeneration, responsibility.
+**Thematic tags:** [[tags/theme/design|design]] [[tags/theme/regeneration|regeneration]] [[tags/theme/responsibility|responsibility]]
 
 ### Description
 
@@ -91,4 +91,4 @@ This is a proposed educational framework. The text alone establishes neither its
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

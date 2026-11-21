@@ -60,7 +60,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/work-cs|Work]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Education; HR; digital credentials.  
-**Thematic tags:** CLR, portfolio, privacy, informal learning.
+**Thematic tags:** [[tags/theme/clr|CLR]] [[tags/theme/portfolio|portfolio]] [[tags/theme/privacy|privacy]] [[tags/theme/informal-learning|informal learning]]
 
 ### Description
 
@@ -99,4 +99,4 @@ The standard does not require the collection of an entire private life, nor does
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

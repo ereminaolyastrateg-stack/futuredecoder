@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Entrepreneurship education; project management.  
-**Thematic tags:** projects, team, change.
+**Thematic tags:** [[tags/theme/projects|projects]] [[tags/theme/team|team]] [[tags/theme/change|change]]
 
 ### Description
 
@@ -92,4 +92,4 @@ Project work does not remove learning requirements, mentoring or the need for su
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

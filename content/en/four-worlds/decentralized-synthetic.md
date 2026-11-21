@@ -99,7 +99,7 @@ In the games people separated the efficiency of AI help from independence from i
 ## The DS world in the garden
 
 - Macrotrends: [[en/materials/macrotrends/human-mastery-ds|Human Mastery — DS]], [[en/materials/macrotrends/education-knowledge-literacy-ds|Education — DS]].
-- Signals: [[en/materials/signals/education-signals/sig-edu-021|Exercises in Learning]], [[en/materials/signals/education-signals/sig-edu-027|College Unbound]] and all the others — under the tag #scenario/DS or in the [[en/materials/signals/education|catalog]] filtered by world.
+- Signals: [[en/materials/signals/education-signals/sig-edu-021|Exercises in Learning]], [[en/materials/signals/education-signals/sig-edu-027|College Unbound]] and all the others — under the tag #scenario/DS or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-ds|Health]] · [[en/four-worlds/life-spheres/finance-ds|Finance]] · [[en/four-worlds/life-spheres/work-ds|Work]] · [[en/four-worlds/life-spheres/education-ds|Education]] · [[en/four-worlds/life-spheres/family-ds|Family]] · [[en/four-worlds/life-spheres/place-ds|Place]] · [[en/four-worlds/life-spheres/everyday-life-ds|Everyday life]] · [[en/four-worlds/life-spheres/meaning-ds|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

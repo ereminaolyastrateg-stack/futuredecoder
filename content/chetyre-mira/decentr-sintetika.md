@@ -105,7 +105,7 @@ updated: 2026-11-17
 ## Мир ДС в саду
 
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ds|Мастерство человека — ДС]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ds|Образование — ДС]].
-- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-021|Exercises in Learning]], [[materialy/signaly/obrazovanie/sig-edu-027|College Unbound]] и все остальные — по тегу #сценарий/ДС или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ДС».
+- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-021|Exercises in Learning]], [[materialy/signaly/obrazovanie/sig-edu-027|College Unbound]] и все остальные — по тегу #сценарий/ДС или в [[materialy/signaly/obrazovanie/index|каталоге]] с фильтром «Мир: ДС».
 
 **В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-ds|Здоровье]] · [[chetyre-mira/sfery/finansy-ds|Финансы]] · [[chetyre-mira/sfery/rabota-ds|Работа]] · [[chetyre-mira/sfery/obrazovanie-ds|Образование]] · [[chetyre-mira/sfery/semya-ds|Семья]] · [[chetyre-mira/sfery/sreda-ds|Среда]] · [[chetyre-mira/sfery/byt-ds|Быт]] · [[chetyre-mira/sfery/smysl-ds|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
 

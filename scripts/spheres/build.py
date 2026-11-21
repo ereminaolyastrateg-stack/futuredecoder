@@ -46,9 +46,9 @@ RES_EN = {'Энергия и здоровье': 'Energy and health', 'Интел
           'Свобода выбора': 'Freedom of choice', 'Деньги': 'Money'}
 EXTRA = {  # связи сфер с макротрендами и сигналами
     'Образование': {'ru': ['[[materialy/makrotrendy/obrazovanie-znanie-gramotnost|Макротренд «Образование, знание и грамотность»]] — как четыре мира отвечают на вопрос, кто ведёт учебный путь и кто признаёт результат.',
-                           '[[materialy/signaly/education|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.'],
+                           '[[materialy/signaly/obrazovanie/index|Каталог сигналов об образовании]] — 40 сигналов с фильтром по миру.'],
                     'en': ['[[en/materials/macrotrends/education-knowledge-literacy|Macrotrend "Education, Knowledge and Literacy"]] — how the four worlds answer who leads the learning path and who recognises the result.',
-                           '[[en/materials/signals/education|Education signals catalog]] — 40 signals with a filter by world.']},
+                           '[[en/materials/signals/education-signals/index|Education signals catalog]] — 40 signals with a filter by world.']},
     'Работа': {'ru': ['[[materialy/makrotrendy/masterstvo-cheloveka|Макротренд «Мастерство человека»]] — что значит быть мастером рядом с ИИ в четырёх мирах.'],
                'en': ['[[en/materials/macrotrends/human-mastery|Macrotrend "Human Mastery"]] — what it means to be a master next to AI in four worlds.']},
 }
@@ -203,12 +203,12 @@ def build(lang):
     if lang == 'ru':
         head = ('Сферы жизни', 'Сферы жизни в четырёх мирах Декодера Будущего',
                 'Восемь сфер жизни — здоровье, финансы, работа, образование, семья, среда, быт, смысл — в четырёх сценариях будущего: 33 подсферы, 132 карточки.',
-                '*Метод Декодер Будущего смотрит на жизнь человека через восемь сфер и 33 подсферы. Каждая из них по-разному устроена в четырёх мирах, поэтому всего 132 карточки. Каждая клетка таблицы ведёт к карточке: ситуации из жизни, что даёт этот путь, чем за него платишь и где он уже встречается.*',
+                '*Метод Декодер Будущего смотрит на жизнь человека через восемь сфер и 33 подсферы. Каждая из них по-разному устроена в четырёх мирах, поэтому всего 132 карточки. Каждая клетка таблицы ведёт к карточке: ситуации из жизни, что даёт этот путь, чем за него платишь и где он уже встречается. Хочешь примерить это на себя — напиши [письмо из 2035](/static/letter/).*',
                 'Сфера')
     else:
         head = ('Life Spheres', 'Life spheres in the four Future Decoder worlds',
                 'Eight life spheres — health, finance, work, education, family, place, everyday life, meaning — in four future scenarios: 33 subspheres, 132 cards.',
-                '*The Future Decoder method looks at a person’s life through eight spheres and 33 subspheres. Each is organised differently in the four worlds, so there are 132 cards in total. Every cell of the table leads to a card: life situations, what this path gives, what it costs and where it already exists.*',
+                '*The Future Decoder method looks at a person’s life through eight spheres and 33 subspheres. Each is organised differently in the four worlds, so there are 132 cards in total. Every cell of the table leads to a card: life situations, what this path gives, what it costs and where it already exists. To try it on yourself, write [a letter from 2035](/static/letter/en/).*',
                 'Sphere')
     idx = ['---', f'title: {head[0]}', f'seoTitle: {yq(head[1])}', f'description: {yq(head[2])}', f'lang: {lang}']
     t_ = trans(f"{L[lang]['base']}/", f"{L[other]['base']}/")

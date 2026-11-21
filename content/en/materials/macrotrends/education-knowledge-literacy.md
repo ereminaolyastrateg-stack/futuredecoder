@@ -69,7 +69,7 @@ If knowledge and explanation are available to everyone, who now decides what and
 
 ## Connections
 
-- [[en/materials/signals/education|Education signals catalog]] — all 40 signals the cards are built from.
+- [[en/materials/signals/education-signals/index|Education signals catalog]] — all 40 signals the cards are built from.
 - [[en/four-worlds/index|Four worlds]] — the basic scenario logics.
 - [[en/materials/macrotrends/index|All macrotrends]].
 

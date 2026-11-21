@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Education; social entrepreneurship.  
-**Thematic tags:** youth project, learning through action, public benefit.
+**Thematic tags:** [[tags/theme/youth-project|youth project]] [[tags/theme/learning-through-action|learning through action]] [[tags/theme/public-benefit|public benefit]]
 
 ### Description
 
@@ -87,4 +87,4 @@ The programme supports selected projects. Support and stated intentions are not 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

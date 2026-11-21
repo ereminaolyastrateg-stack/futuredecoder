@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/place-de|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Design; film; trade and supply chains.  
-**Thematic tags:** film, nature, supply chains.
+**Thematic tags:** [[tags/theme/film|film]] [[tags/theme/nature|nature]] [[tags/theme/supply-chains|supply chains]]
 
 ### Description
 
@@ -95,4 +95,4 @@ The films explore possible supply chains. They do not establish that the events 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

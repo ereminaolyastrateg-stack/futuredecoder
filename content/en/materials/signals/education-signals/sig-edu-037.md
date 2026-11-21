@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Engineering education; R&D; social innovation.  
-**Thematic tags:** open problem, deep tech, prototype.
+**Thematic tags:** [[tags/theme/open-problem|open problem]] [[tags/theme/deep-tech|deep tech]] [[tags/theme/prototype|prototype]]
 
 ### Description
 
@@ -90,4 +90,4 @@ An open problem requires inquiry and support. Access to technology does not guar
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

@@ -60,7 +60,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]]; [[en/four-worlds/life-spheres/family-cs|Close relationships and family]]; [[en/four-worlds/life-spheres/meaning-cs|Values, meaning and community]].  
 **Industries:** Design; school education; social inquiry.  
-**Thematic tags:** educational pathway, inequality, social connections.
+**Thematic tags:** [[tags/theme/educational-pathway|educational pathway]] [[tags/theme/inequality|inequality]] [[tags/theme/social-connections|social connections]]
 
 ### Description
 
@@ -94,4 +94,4 @@ A participatory design project helps explore experiences of division. It does no
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

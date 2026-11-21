@@ -99,7 +99,7 @@ In the games people separated the number of actions, a mastered ability and a us
 ## The CS world in the garden
 
 - Macrotrends: [[en/materials/macrotrends/human-mastery-cs|Human Mastery — CS]], [[en/materials/macrotrends/education-knowledge-literacy-cs|Education — CS]].
-- Signals: [[en/materials/signals/education-signals/sig-edu-006|Mastery Transcript]], [[en/materials/signals/education-signals/sig-edu-009|An Automatic Workshop]] and all the others — under the tag #scenario/CS or in the [[en/materials/signals/education|catalog]] filtered by world.
+- Signals: [[en/materials/signals/education-signals/sig-edu-006|Mastery Transcript]], [[en/materials/signals/education-signals/sig-edu-009|An Automatic Workshop]] and all the others — under the tag #scenario/CS or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-cs|Health]] · [[en/four-worlds/life-spheres/finance-cs|Finance]] · [[en/four-worlds/life-spheres/work-cs|Work]] · [[en/four-worlds/life-spheres/education-cs|Education]] · [[en/four-worlds/life-spheres/family-cs|Family]] · [[en/four-worlds/life-spheres/place-cs|Place]] · [[en/four-worlds/life-spheres/everyday-life-cs|Everyday life]] · [[en/four-worlds/life-spheres/meaning-cs|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

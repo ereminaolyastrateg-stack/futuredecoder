@@ -4,8 +4,8 @@ seoTitle: Образование будущего — 40 сигналов и в�
 description: "Практики, проекты и образы будущего образования: что меняется в обучении, оценке и признании способностей и какие вопросы возникли на играх Future Decoder."
 lang: ru
 translations:
-  ru: /materialy/signaly/education
-  en: /en/materials/signals/education
+  ru: /materialy/signaly/obrazovanie/
+  en: /en/materials/signals/education-signals/
 aliases:
   - signals/education
   - signaly/education
@@ -123,7 +123,7 @@ Future Chinese Preschool — спекулятивный проект о дошк
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-001).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-001).
 - [Rethinking the Future of Education · SIG-EDU-002](#sig-edu-002).
 - [Bubble Talk · SIG-EDU-004](#sig-edu-004).
 
@@ -180,7 +180,7 @@ Future Chinese Preschool — спекулятивный проект о дошк
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-002).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-002).
 - [Future Chinese Preschool · SIG-EDU-001](#sig-edu-001).
 - [Critical AI Literacy 2035 · SIG-EDU-023](#sig-edu-023).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
@@ -232,7 +232,7 @@ Gamolution разрабатывает симуляции искусственн�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-003).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-003).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -283,7 +283,7 @@ Bubble Talk — экспериментальный ИИ-гид Ars Electronica F
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-004).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-004).
 - [Deepself · SIG-EDU-022](#sig-edu-022).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 
@@ -332,7 +332,7 @@ Bubble Talk — экспериментальный ИИ-гид Ars Electronica F
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-005).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-005).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
 
@@ -387,7 +387,7 @@ Mastery Transcript — интерактивный документ, в кото�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-006).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-006).
 - [Open Badges 3.0 · SIG-EDU-007](#sig-edu-007).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -439,7 +439,7 @@ Open Badges — стандарт цифровой записи об отдель
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-007).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-007).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 
@@ -494,7 +494,7 @@ Comprehensive Learner Record — стандарт для объединения 
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-008).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-008).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Open Badges 3.0 · SIG-EDU-007](#sig-edu-007).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
@@ -546,7 +546,7 @@ An Automatic Workshop — упражнение летней академии Hac
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-009).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-009).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 
@@ -603,7 +603,7 @@ Fab Academy устроена как общая программа цифрово
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-010).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-010).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Solar Mamas · SIG-EDU-016](#sig-edu-016).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
@@ -669,7 +669,7 @@ The Pluriversity — спекулятивная модель Studio Saol, пре
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-011).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-011).
 - [Adaptive Neighbourhoods Lab · SIG-EDU-031](#sig-edu-031).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 
@@ -724,7 +724,7 @@ Regenerative Future(s) — исследовательская работа о т
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-012).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-012).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -775,7 +775,7 @@ Learning to Disrupt — конференционная сессия Ars Electron
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-013).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-013).
 - [A School of Schools · SIG-EDU-018](#sig-edu-018).
 - [University of the Underground · SIG-EDU-020](#sig-edu-020).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
@@ -829,7 +829,7 @@ The 12-Year-Old’s Birthday Party — художественный проект
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-014).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-014).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 
@@ -874,7 +874,7 @@ Learning Planet Academy объединяет образовательные ин
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-015).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-015).
 - [The Pluriversity · SIG-EDU-011](#sig-edu-011).
 - [Regenerative Future(s) · SIG-EDU-012](#sig-edu-012).
 - [Learning Planet Youth Design Challenge · SIG-EDU-036](#sig-edu-036).
@@ -930,7 +930,7 @@ Solar Mamas — программа Barefoot College для женщин из у�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-016).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-016).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 
@@ -983,7 +983,7 @@ Kaospilot — трёхлетняя программа в Дании, постр�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-017).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-017).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
 
@@ -1028,7 +1028,7 @@ A School of Schools — концепция четвёртой Истанбуль
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-018).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-018).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [University of the Underground · SIG-EDU-020](#sig-edu-020).
 
@@ -1077,7 +1077,7 @@ Design Factory Global Network связывает университетские 
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-019).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-019).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
@@ -1133,7 +1133,7 @@ University of the Underground — образовательная и культу
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-020).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-020).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [A School of Schools · SIG-EDU-018](#sig-edu-018).
 
@@ -1188,7 +1188,7 @@ Exercises in Learning — выпускной проект Design Academy Eindhov
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-021).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-021).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 - [42 · SIG-EDU-029](#sig-edu-029).
 
@@ -1239,7 +1239,7 @@ Deepself — образ и инсталляция, а не готовый нез
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-022).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-022).
 - [Bubble Talk · SIG-EDU-004](#sig-edu-004).
 - [Critical AI Literacy 2035 · SIG-EDU-023](#sig-edu-023).
 
@@ -1284,7 +1284,7 @@ Critical AI Literacy 2035 исследует возможное развитие
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-023).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-023).
 - [Rethinking the Future of Education · SIG-EDU-002](#sig-edu-002).
 - [Deepself · SIG-EDU-022](#sig-edu-022).
 
@@ -1335,7 +1335,7 @@ superFUTURES — исследовательское направление RCA, 
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-024).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-024).
 - [Ficta Ordo · SIG-EDU-034](#sig-edu-034).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -1380,7 +1380,7 @@ P2PU помогает организовывать бесплатные учеб
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-025).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-025).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [42 · SIG-EDU-029](#sig-edu-029).
@@ -1440,7 +1440,7 @@ Bredagora описывает школьное обучение через соб
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-026).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-026).
 - [TUMO Path · SIG-EDU-005](#sig-edu-005).
 - [Agile Learning Centers · SIG-EDU-030](#sig-edu-030).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -1490,7 +1490,7 @@ Bredagora описывает школьное обучение через соб
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-027).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-027).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -1536,7 +1536,7 @@ School of Machines, Making & Make-Believe создаёт небольшие пр
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-028).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-028).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
@@ -1590,7 +1590,7 @@ School of Machines, Making & Make-Believe создаёт небольшие пр
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-029).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-029).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 
@@ -1635,7 +1635,7 @@ Agile Learning Centers — модель самоорганизованного �
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-030).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-030).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -1680,7 +1680,7 @@ Adaptive Neighbourhoods Lab — часть вымышленного мира The
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-031).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-031).
 - [The Pluriversity · SIG-EDU-011](#sig-edu-011).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
 
@@ -1729,7 +1729,7 @@ FOUNDING LAB — совместный эксперимент Ars Electronica и 
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-032).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-032).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [Citizen Science in Education · SIG-EDU-033](#sig-edu-033).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
@@ -1787,7 +1787,7 @@ Citizen Science in Education — панель Ars Electronica 2025 о включ
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-033).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-033).
 - [FOUNDING LAB · SIG-EDU-032](#sig-edu-032).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -1838,7 +1838,7 @@ Ficta Ordo — проект superFUTURES 2025–2026 годов о будущи�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-034).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-034).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -1887,7 +1887,7 @@ Nature’s Depot — исследовательский проект superFUTURE
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-035).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-035).
 - [Regenerative Future(s) · SIG-EDU-012](#sig-edu-012).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Ficta Ordo · SIG-EDU-034](#sig-edu-034).
@@ -1937,7 +1937,7 @@ Learning Planet Youth Design Challenge — международная прогр
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-036).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-036).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
 
@@ -1984,7 +1984,7 @@ Challenge-Based Innovation связывает университетские к�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-037).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-037).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [Learning Planet Youth Design Challenge · SIG-EDU-036](#sig-edu-036).
@@ -2040,7 +2040,7 @@ Figuring Things Out Together — издание Hackers & Designers о совм�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-038).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-038).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Adaptive Neighbourhoods Lab · SIG-EDU-031](#sig-edu-031).
 
@@ -2095,7 +2095,7 @@ Rightful Presence and Radical Making — разговор на Ars Electronica 2
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-039).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-039).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [Agile Learning Centers · SIG-EDU-030](#sig-edu-030).
 - [Citizen Science in Education · SIG-EDU-033](#sig-edu-033).
@@ -2141,7 +2141,7 @@ Sora Schools организует обучение двенадцатинеде�
 
 ### Связи
 
-- [Этот сигнал на английском](../../en/materials/signals/education.md#sig-edu-040).
+- [Этот сигнал на английском](../../en/materials/signals/education-signals/.md#sig-edu-040).
 - [TUMO Path · SIG-EDU-005](#sig-edu-005).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).

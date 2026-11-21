@@ -103,7 +103,7 @@ In the games a project was described as something that becomes clear in doing it
 ## The DE world in the garden
 
 - Macrotrends: [[en/materials/macrotrends/human-mastery-de|Human Mastery — DE]], [[en/materials/macrotrends/education-knowledge-literacy-de|Education — DE]].
-- Signals: [[en/materials/signals/education-signals/sig-edu-038|Figuring Things Out Together]], [[en/materials/signals/education-signals/sig-edu-029|42]] and all the others — under the tag #scenario/DE or in the [[en/materials/signals/education|catalog]] filtered by world.
+- Signals: [[en/materials/signals/education-signals/sig-edu-038|Figuring Things Out Together]], [[en/materials/signals/education-signals/sig-edu-029|42]] and all the others — under the tag #scenario/DE or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-de|Health]] · [[en/four-worlds/life-spheres/finance-de|Finance]] · [[en/four-worlds/life-spheres/work-de|Work]] · [[en/four-worlds/life-spheres/education-de|Education]] · [[en/four-worlds/life-spheres/family-de|Family]] · [[en/four-worlds/life-spheres/place-de|Place]] · [[en/four-worlds/life-spheres/everyday-life-de|Everyday life]] · [[en/four-worlds/life-spheres/meaning-de|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

@@ -677,6 +677,22 @@ a.tag-link[href*="ЦЗ"], a.tag-link[href*="scenario/ce"], a.tag-link[href*="sce
 a.tag-link[href*="ДС"], a.tag-link[href*="scenario/ds"], a.tag-link[href*="scenario/DS"] { border-color: var(--dec-ds) !important; }
 a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="scenario/DE"] { border-color: var(--dec-dz) !important; }
 
+// тематические теги в тексте карточки ([[tags/тема/…|…]]) — такие же таблетки, как теги под заголовком
+article p a.internal[href*="tags/"] {
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid var(--lightgray);
+  background: transparent !important;
+  padding: 0.05rem 0.6rem;
+  margin: 0.1rem 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none !important;
+  color: var(--darkgray) !important;
+  &:hover { border-color: var(--dark); color: var(--dark) !important; }
+}
+
 // Каталог сигналов
 .signal-catalog {
   .signal-filters { grid-template-columns: repeat(4, minmax(9rem, 1fr)); }
@@ -699,6 +715,10 @@ a.tag-link[href*="ДЗ"], a.tag-link[href*="scenario/de"], a.tag-link[href*="sce
 // на страницах с каталогом не нужен стандартный список заметок папки
 body[data-slug="materialy/signaly/obrazovanie/index"],
 body[data-slug="en/materials/signals/education-signals/index"],
+body[data-slug="materialy/trendy/index"],
+body[data-slug="en/materials/trends/index"],
+body[data-slug="materialy/signaly/2026-11-12/index"],
+body[data-slug="en/materials/signals/2026-nov-dec/index"],
 body[data-slug="materialy/signaly/index"],
 body[data-slug="en/materials/signals/index"],
 body[data-slug="chetyre-mira/sfery/index"],
@@ -711,6 +731,10 @@ body[data-slug="en/four-worlds/index"] {
 }
 // в проводнике папка сигналов — ссылка на каталог, без 40 длинных строк
 .explorer li:has(> .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="materialy/trendy/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="en/materials/trends/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="materialy/signaly/2026-11-12/index"]) > .folder-outer,
+.explorer li:has(> .folder-container[data-folderpath="en/materials/signals/2026-nov-dec/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="en/materials/signals/education-signals/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="chetyre-mira/sfery/index"]) > .folder-outer,
 .explorer li:has(> .folder-container[data-folderpath="materialy/makrotrendy/index"]) > .folder-outer,
@@ -719,6 +743,10 @@ body[data-slug="en/four-worlds/index"] {
   display: none !important;
 }
 .explorer .folder-container[data-folderpath="materialy/signaly/obrazovanie/index"] > svg,
+.explorer .folder-container[data-folderpath="materialy/trendy/index"] > svg,
+.explorer .folder-container[data-folderpath="en/materials/trends/index"] > svg,
+.explorer .folder-container[data-folderpath="materialy/signaly/2026-11-12/index"] > svg,
+.explorer .folder-container[data-folderpath="en/materials/signals/2026-nov-dec/index"] > svg,
 .explorer .folder-container[data-folderpath="en/materials/signals/education-signals/index"] > svg,
 .explorer .folder-container[data-folderpath="chetyre-mira/sfery/index"] > svg,
 .explorer .folder-container[data-folderpath="materialy/makrotrendy/index"] > svg,
@@ -738,10 +766,12 @@ ul.tags a.tag-link { font-size: 0.74rem !important; padding: 0.1rem 0.55rem !imp
 
 // страницы каталога сигналов: таблица на всю ширину, без правой колонки
 @media (min-width: 1200px) {
-  body[data-slug="materialy/signaly/education"],
+  body[data-slug="materialy/signaly/2026-11-12/index"],
+  body[data-slug="en/materials/signals/2026-nov-dec/index"],
   body[data-slug="materialy/signaly/obrazovanie/index"],
   body[data-slug="materialy/signaly/index"],
-  body[data-slug="en/materials/signals/education"],
+  body[data-slug="materialy/trendy/index"],
+  body[data-slug="en/materials/trends/index"],
   body[data-slug="en/materials/signals/education-signals/index"],
   body[data-slug="en/materials/signals/index"],
   body:has(.card-catalog) {

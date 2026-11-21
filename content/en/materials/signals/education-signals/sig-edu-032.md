@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Higher education; digital transformation.  
-**Thematic tags:** university, co creation, prototyping.
+**Thematic tags:** [[tags/theme/university|university]] [[tags/theme/co-creation|co creation]] [[tags/theme/prototyping|prototyping]]
 
 ### Description
 
@@ -92,4 +92,4 @@ Prototyping formats does not mean that every participant had the sole right to d
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

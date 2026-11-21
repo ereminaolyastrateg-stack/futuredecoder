@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ce|Education]]; [[en/four-worlds/life-spheres/work-ce|Work]].  
 **Industries:** Higher education; R&D; industry collaboration.  
-**Thematic tags:** Design Factory, interdisciplinarity, prototype.
+**Thematic tags:** [[tags/theme/design-factory|Design Factory]] [[tags/theme/interdisciplinarity|interdisciplinarity]] [[tags/theme/prototype|prototype]]
 
 ### Description
 
@@ -90,4 +90,4 @@ A shared approach does not make every site identical. Programme arrangements and
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

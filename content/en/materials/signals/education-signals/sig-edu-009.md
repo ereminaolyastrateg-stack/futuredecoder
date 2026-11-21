@@ -56,7 +56,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-cs|Education]].  
 **Industries:** Informal education; facilitation; design.  
-**Thematic tags:** instructions, workshop, self organisation.
+**Thematic tags:** [[tags/theme/instructions|instructions]] [[tags/theme/workshop|workshop]] [[tags/theme/self-organisation|self organisation]]
 
 ### Description
 
@@ -94,4 +94,4 @@ The result concerns a particular experiment. Written instructions do not replace
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

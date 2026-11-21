@@ -4,8 +4,8 @@ seoTitle: The future of education — 40 signals and discussion insights
 description: "Practices, projects and visions of future education: changing learning, assessment and recognition of ability, with questions from Future Decoder games."
 lang: en
 translations:
-  ru: /materialy/signaly/education
-  en: /en/materials/signals/education
+  ru: /materialy/signaly/obrazovanie/
+  en: /en/materials/signals/education-signals/
 aliases:
   - en/signals/education
 tags:
@@ -122,7 +122,7 @@ This is a proposal for a possible learning environment. The existence of the pro
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-001).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-001).
 - [Rethinking the Future of Education · SIG-EDU-002](#sig-edu-002).
 - [Bubble Talk · SIG-EDU-004](#sig-edu-004).
 
@@ -179,7 +179,7 @@ The year 2035 and the book’s blackout are fictional conditions for discussion,
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-002).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-002).
 - [Future Chinese Preschool · SIG-EDU-001](#sig-edu-001).
 - [Critical AI Literacy 2035 · SIG-EDU-023](#sig-edu-023).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
@@ -231,7 +231,7 @@ A simulation shows how a model behaves under particular assumptions. It does not
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-003).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-003).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -282,7 +282,7 @@ The prototype explores the possibility of encouraging curiosity. Its description
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-004).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-004).
 - [Deepself · SIG-EDU-022](#sig-edu-022).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 
@@ -331,7 +331,7 @@ A personal route does not remove the programme’s boundaries, mentors, workshop
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-005).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-005).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
 
@@ -386,7 +386,7 @@ A portfolio format does not guarantee identical recognition by every institution
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-006).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-006).
 - [Open Badges 3.0 · SIG-EDU-007](#sig-edu-007).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -438,7 +438,7 @@ The authenticity of a digital record does not establish learning quality or univ
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-007).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-007).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 
@@ -493,7 +493,7 @@ The standard does not require the collection of an entire private life, nor does
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-008).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-008).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Open Badges 3.0 · SIG-EDU-007](#sig-edu-007).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
@@ -545,7 +545,7 @@ The result concerns a particular experiment. Written instructions do not replace
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-009).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-009).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 
@@ -602,7 +602,7 @@ The programme includes mentors and assessment procedures. Its description does n
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-010).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-010).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Solar Mamas · SIG-EDU-016](#sig-edu-016).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
@@ -668,7 +668,7 @@ The value of education is connected to the life of a territory and its community
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-011).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-011).
 - [Adaptive Neighbourhoods Lab · SIG-EDU-031](#sig-edu-031).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 
@@ -723,7 +723,7 @@ This is a proposed educational framework. The text alone establishes neither its
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-012).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-012).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -774,7 +774,7 @@ A conference programme shows a direction of discussion and examples of practice,
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-013).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-013).
 - [A School of Schools · SIG-EDU-018](#sig-edu-018).
 - [University of the Underground · SIG-EDU-020](#sig-edu-020).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
@@ -828,7 +828,7 @@ A participatory design project helps explore experiences of division. It does no
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-014).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-014).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 
@@ -873,7 +873,7 @@ A mission and an educational initiative are not evidence that the stated planeta
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-015).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-015).
 - [The Pluriversity · SIG-EDU-011](#sig-edu-011).
 - [Regenerative Future(s) · SIG-EDU-012](#sig-edu-012).
 - [Learning Planet Youth Design Challenge · SIG-EDU-036](#sig-edu-036).
@@ -929,7 +929,7 @@ The programme teaches a defined set of tasks involving solar systems. This is no
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-016).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-016).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 
@@ -982,7 +982,7 @@ Project work does not remove learning requirements, mentoring or the need for su
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-017).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-017).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
 
@@ -1027,7 +1027,7 @@ This concerns a particular biennial and its educational programme. An exhibition
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-018).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-018).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [University of the Underground · SIG-EDU-020](#sig-edu-020).
 
@@ -1076,7 +1076,7 @@ A shared approach does not make every site identical. Programme arrangements and
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-019).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-019).
 - [Fab Academy · SIG-EDU-010](#sig-edu-010).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
@@ -1132,7 +1132,7 @@ Free education and pluralism are stated principles of the initiative. They do no
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-020).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-020).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [A School of Schools · SIG-EDU-018](#sig-edu-018).
 
@@ -1187,7 +1187,7 @@ One completed project does not show that traditional training or mentors are no 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-021).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-021).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 - [42 · SIG-EDU-029](#sig-edu-029).
 
@@ -1238,7 +1238,7 @@ Deepself is an image and an installation, not an available independent AI servic
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-022).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-022).
 - [Bubble Talk · SIG-EDU-004](#sig-edu-004).
 - [Critical AI Literacy 2035 · SIG-EDU-023](#sig-edu-023).
 
@@ -1283,7 +1283,7 @@ Being able to use a tool and being able to assess its limitations become distinc
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-023).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-023).
 - [Rethinking the Future of Education · SIG-EDU-002](#sig-edu-002).
 - [Deepself · SIG-EDU-022](#sig-edu-022).
 
@@ -1334,7 +1334,7 @@ A scenario helps explore what is possible. A persuasive form does not turn it in
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-024).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-024).
 - [Ficta Ordo · SIG-EDU-034](#sig-edu-034).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -1379,7 +1379,7 @@ A facilitator supports the process, while the quality of open resources and acce
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-025).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-025).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [42 · SIG-EDU-029](#sig-edu-029).
@@ -1439,7 +1439,7 @@ The absence of a fixed subject timetable does not mean an absence of coaches, re
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-026).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-026).
 - [TUMO Path · SIG-EDU-005](#sig-edu-005).
 - [Agile Learning Centers · SIG-EDU-030](#sig-edu-030).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -1489,7 +1489,7 @@ A personal plan operates within an educational model and assessment procedures, 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-027).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-027).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Comprehensive Learner Record · SIG-EDU-008](#sig-edu-008).
 - [Sora Schools · SIG-EDU-040](#sig-edu-040).
@@ -1535,7 +1535,7 @@ Conditions, duration and the composition of individual programmes vary. Interdis
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-028).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-028).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
@@ -1589,7 +1589,7 @@ Peer assessment uses criteria established by the pedagogical team. Independent i
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-029).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-029).
 - [Exercises in Learning · SIG-EDU-021](#sig-edu-021).
 - [P2PU Learning Circles · SIG-EDU-025](#sig-edu-025).
 
@@ -1634,7 +1634,7 @@ Self-direction is built within a community with practices of support and reflect
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-030).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-030).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -1679,7 +1679,7 @@ This is part of the speculative Pluriversity world, not independent evidence of 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-031).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-031).
 - [The Pluriversity · SIG-EDU-011](#sig-edu-011).
 - [Figuring Things Out Together · SIG-EDU-038](#sig-edu-038).
 
@@ -1728,7 +1728,7 @@ Prototyping formats does not mean that every participant had the sole right to d
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-032).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-032).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [Citizen Science in Education · SIG-EDU-033](#sig-edu-033).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
@@ -1786,7 +1786,7 @@ This is a discussion of different practices. Real research requires time, resour
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-033).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-033).
 - [FOUNDING LAB · SIG-EDU-032](#sig-edu-032).
 - [Rightful Presence and Radical Making · SIG-EDU-039](#sig-edu-039).
 
@@ -1837,7 +1837,7 @@ A film or ritual rehearsal does not establish public acceptance of the proposed 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-034).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-034).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Nature’s Depot · SIG-EDU-035](#sig-edu-035).
 
@@ -1886,7 +1886,7 @@ The films explore possible supply chains. They do not establish that the events 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-035).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-035).
 - [Regenerative Future(s) · SIG-EDU-012](#sig-edu-012).
 - [superFUTURES · SIG-EDU-024](#sig-edu-024).
 - [Ficta Ordo · SIG-EDU-034](#sig-edu-034).
@@ -1936,7 +1936,7 @@ The programme supports selected projects. Support and stated intentions are not 
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-036).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-036).
 - [Learning Planet Academy · SIG-EDU-015](#sig-edu-015).
 - [CERN Challenge-Based Innovation · SIG-EDU-037](#sig-edu-037).
 
@@ -1983,7 +1983,7 @@ An open problem requires inquiry and support. Access to technology does not guar
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-037).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-037).
 - [Kaospilot · SIG-EDU-017](#sig-edu-017).
 - [Design Factory Global Network · SIG-EDU-019](#sig-edu-019).
 - [Learning Planet Youth Design Challenge · SIG-EDU-036](#sig-edu-036).
@@ -2039,7 +2039,7 @@ Repeating and altering a workshop provides material for investigating a particul
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-038).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-038).
 - [An Automatic Workshop · SIG-EDU-009](#sig-edu-009).
 - [Adaptive Neighbourhoods Lab · SIG-EDU-031](#sig-edu-031).
 
@@ -2094,7 +2094,7 @@ The panel asks about sharing power. Participation, access to equipment and the f
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-039).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-039).
 - [Learning to Disrupt · SIG-EDU-013](#sig-edu-013).
 - [Agile Learning Centers · SIG-EDU-030](#sig-edu-030).
 - [Citizen Science in Education · SIG-EDU-033](#sig-edu-033).
@@ -2140,7 +2140,7 @@ The school has required curricular units, support and checkpoints. A project doe
 
 ### Connections
 
-- [This signal in Russian](../../../materialy/signaly/education.md#sig-edu-040).
+- [This signal in Russian](../../../materialy/signaly/obrazovanie/.md#sig-edu-040).
 - [TUMO Path · SIG-EDU-005](#sig-edu-005).
 - [Mastery Transcript · SIG-EDU-006](#sig-edu-006).
 - [Bredagora · SIG-EDU-026](#sig-edu-026).

@@ -105,7 +105,7 @@ updated: 2026-11-17
 ## Мир ЦЗ в саду
 
 - Макротренды: [[materialy/makrotrendy/masterstvo-cheloveka-ce|Мастерство человека — ЦЗ]], [[materialy/makrotrendy/obrazovanie-znanie-gramotnost-ce|Образование — ЦЗ]].
-- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-010|Fab Academy]], [[materialy/signaly/obrazovanie/sig-edu-016|Solar Mamas]] и все остальные — по тегу #сценарий/ЦЗ или в [[materialy/signaly/education|каталоге]] с фильтром «Мир: ЦЗ».
+- Сигналы: [[materialy/signaly/obrazovanie/sig-edu-010|Fab Academy]], [[materialy/signaly/obrazovanie/sig-edu-016|Solar Mamas]] и все остальные — по тегу #сценарий/ЦЗ или в [[materialy/signaly/obrazovanie/index|каталоге]] с фильтром «Мир: ЦЗ».
 
 **В восьми сферах жизни:** [[chetyre-mira/sfery/zdorovye-ce|Здоровье]] · [[chetyre-mira/sfery/finansy-ce|Финансы]] · [[chetyre-mira/sfery/rabota-ce|Работа]] · [[chetyre-mira/sfery/obrazovanie-ce|Образование]] · [[chetyre-mira/sfery/semya-ce|Семья]] · [[chetyre-mira/sfery/sreda-ce|Среда]] · [[chetyre-mira/sfery/byt-ce|Быт]] · [[chetyre-mira/sfery/smysl-ce|Смысл]]. Все сферы — в разделе [[chetyre-mira/sfery/index|«Сферы жизни»]].
 

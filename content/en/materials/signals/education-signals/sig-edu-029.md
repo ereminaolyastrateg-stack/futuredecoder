@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/work-de|Work]].  
 **Industries:** Programming; vocational learning.  
-**Thematic tags:** programming, peer review, repeated attempt.
+**Thematic tags:** [[tags/theme/programming|programming]] [[tags/theme/peer-review|peer review]] [[tags/theme/repeated-attempt|repeated attempt]]
 
 ### Description
 
@@ -92,4 +92,4 @@ Peer assessment uses criteria established by the pedagogical team. Independent i
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

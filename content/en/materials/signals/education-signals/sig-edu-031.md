@@ -58,7 +58,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-de|Education]]; [[en/four-worlds/life-spheres/place-de|Place of living and public environment]]; [[en/four-worlds/life-spheres/meaning-de|Values, meaning and community]].  
 **Industries:** Territorial development; housing; education.  
-**Thematic tags:** neighbourhood, experiment, feedback.
+**Thematic tags:** [[tags/theme/neighbourhood|neighbourhood]] [[tags/theme/experiment|experiment]] [[tags/theme/feedback|feedback]]
 
 ### Description
 
@@ -90,4 +90,4 @@ This is part of the speculative Pluriversity world, not independent evidence of 
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

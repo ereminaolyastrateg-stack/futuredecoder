@@ -57,7 +57,7 @@ updated: 2026-11-16
 
 **Life domains:** [[en/four-worlds/life-spheres/education-ds|Education]]; [[en/four-worlds/life-spheres/meaning-ds|Values, meaning and community]].  
 **Industries:** Design; AI; information platforms.  
-**Thematic tags:** values, information environment, user interests.
+**Thematic tags:** [[tags/theme/values|values]] [[tags/theme/information-environment|information environment]] [[tags/theme/user-interests|user interests]]
 
 ### Description
 
@@ -91,4 +91,4 @@ Deepself is an image and an installation, not an available independent AI servic
 
 ---
 
-All signals in this overview: [[en/materials/signals/education|Education — signals and game discussions]]
+All signals in this overview: [[en/materials/signals/education-signals/index|Signals: education, October 2026]]

@@ -12,7 +12,7 @@ date: 2026-11-17
 updated: 2026-11-17
 ---
 
-*The Future Decoder method looks at a person’s life through eight spheres and 33 subspheres. Each is organised differently in the four worlds, so there are 132 cards in total. Every cell of the table leads to a card: life situations, what this path gives, what it costs and where it already exists.*
+*The Future Decoder method looks at a person’s life through eight spheres and 33 subspheres. Each is organised differently in the four worlds, so there are 132 cards in total. Every cell of the table leads to a card: life situations, what this path gives, what it costs and where it already exists. To try it on yourself, write [a letter from 2035](/static/letter/en/).*
 
 | Sphere | [[en/four-worlds/centralized-synthetic\|CS]] | [[en/four-worlds/centralized-earth\|CE]] | [[en/four-worlds/decentralized-synthetic\|DS]] | [[en/four-worlds/decentralized-earth\|DE]] |
 |---|---|---|---|---|

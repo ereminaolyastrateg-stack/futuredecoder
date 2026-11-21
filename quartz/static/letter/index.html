@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Письмо из 2035 — Декодер Будущего</title>
+<meta name="description" content="Выбери сферу жизни, отметь, как у тебя сейчас и как хочешь, и получи письмо от себя из 2035 года: что это дало, чем пришлось платить и где это уже есть сегодня.">
+<link rel="canonical" href="https://futuredecoder.org/static/letter/">
+<link rel="alternate" hreflang="ru" href="https://futuredecoder.org/static/letter/">
+<link rel="alternate" hreflang="en" href="https://futuredecoder.org/static/letter/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Письмо из 2035 — Декодер Будущего">
+<meta property="og:description" content="Выбери сферу жизни, отметь, как у тебя сейчас и как хочешь, и получи письмо от себя из 2035 года: что это дало, чем пришлось платить и где это уже есть сегодня.">
+<meta property="og:url" content="https://futuredecoder.org/static/letter/">
+<meta property="og:image" content="https://futuredecoder.org/static/og/letter-ru.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/static/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#efeeea; --surface:#fff; --ink:#191818; --muted:#5f5d58; --line:#d9d6ce; --link:#068ee6;
+  --cs:#fc5721; --cz:#fedf3a; --ds:#1e7ff0; --dz:#fd7fb8;
+  --display:"Oswald","Arial Narrow",Impact,sans-serif; --body:"Inter",system-ui,sans-serif; --hand:"Caveat","Comic Sans MS",cursive;
+  --holo:linear-gradient(115deg,#f2d36b 0%,#f08a4b 18%,#e9508e 34%,#7a5cf0 50%,#2fa7e8 66%,#5fd3a0 82%,#f2d36b 100%);
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:inherit} button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.wrap{max-width:980px;margin:0 auto;padding:20px 20px 64px}
+.L-ЦС{--c:var(--cs);--on:#fff}.L-ЦЗ{--c:var(--cz);--on:var(--ink)}.L-ДС{--c:var(--ds);--on:#fff}.L-ДЗ{--c:var(--dz);--on:var(--ink)}
+.mast{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.logo{text-decoration:none;display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:18px;line-height:.95;text-transform:uppercase}
+.logo i{width:34px;height:34px;border-radius:8px;background:var(--holo);display:block}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav a{text-decoration:none;padding:7px 16px;border:1px solid var(--ink);border-radius:999px;font-size:14px;font-weight:500;background:var(--surface)}
+nav a.dark{background:var(--ink);color:#fff;font-weight:600}
+nav a.lang{border-style:dashed;font-weight:700}
+.hero{position:relative;overflow:hidden;border-radius:18px;background:var(--holo);padding:34px 30px 30px;color:#fff}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 80%,rgba(25,24,24,.35),transparent 55%);pointer-events:none}
+.hero>*{position:relative;z-index:1}
+h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(48px,9vw,104px);line-height:.9;margin:0}
+.hand{font-family:var(--hand);font-size:30px;line-height:1.05;margin:12px 0 0;display:inline-block;transform:rotate(-2deg)}
+.hero p.lead{max-width:640px;font-size:17px;margin:14px 0 0}
+.step{display:none;margin-top:26px}.step.on{display:block}
+.step h2{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(28px,4.6vw,48px);line-height:.95;margin:0 0 6px}
+.note{color:var(--muted);font-size:14px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.opt{text-align:left;background:var(--surface);border:none;border-radius:14px;padding:16px;min-height:96px;display:flex;flex-direction:column;gap:6px;transition:transform .12s,box-shadow .12s}
+.opt:hover{transform:translateY(-3px);box-shadow:0 6px 0 var(--ink)}
+.opt b{font-family:var(--display);text-transform:uppercase;font-weight:500;font-size:21px;line-height:1.05}
+.opt span{color:var(--muted);font-size:13.5px;line-height:1.35}
+.opt.sit{min-height:110px;font-size:16px;line-height:1.4}
+.opt.none{background:transparent;border:2px dashed var(--line);color:var(--muted)}
+.back{background:none;border:none;padding:0;color:var(--link);margin:0 0 12px;font-size:14px}
+.crumbs{font-size:13px;color:var(--link);margin-bottom:6px}
+.letter{background:var(--surface);border-radius:18px;overflow:hidden;box-shadow:0 8px 0 var(--ink)}
+.letter .band{background:var(--c);color:var(--on);padding:14px 22px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.letter .band b{font-family:var(--display);text-transform:uppercase;font-size:22px;letter-spacing:.01em}
+.letter .band span{font-size:13px}
+.letter .body{padding:24px 26px 26px;font-size:17px;line-height:1.6}
+.letter .hi{font-family:var(--hand);font-size:38px;line-height:1;margin:0 0 14px}
+.letter p{margin:0 0 12px}
+.letter q{font-style:italic}
+.letter .sign{font-family:var(--hand);font-size:30px;margin-top:16px}
+.letter .ps{font-size:14.5px;color:var(--muted);border-top:1px dashed var(--line);margin-top:18px;padding-top:12px}
+.letter .ps a{color:var(--link)}
+.shared{background:var(--ink);color:#fff;border-radius:12px;padding:12px 16px;margin-bottom:12px;font-size:15px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.btn{border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:999px;padding:11px 20px;font-weight:600;font-size:15px;text-decoration:none}
+.btn.ghost{background:var(--surface);color:var(--ink)}
+.sharebar{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.sharebar a,.sharebar button{border:1px solid var(--ink);border-radius:999px;padding:8px 16px;text-decoration:none;font-weight:600;font-size:14px;background:var(--surface)}
+.sharebar .tg{background:#229ed9;color:#fff;border-color:#229ed9}.sharebar .wa{background:#25d366;color:#fff;border-color:#25d366}
+.foot{margin-top:40px;font-size:13px;color:var(--muted)}
+.foot a{color:var(--link)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <a class="logo" href="/"><i></i><span>Декодер<br>Будущего</span></a>
+    <nav><a href="/static/polotno/">Полотно будущего</a><a class="dark" href="/">← В сад</a><a class="lang" href="/static/letter/en/">EN</a></nav>
+  </div>
+  <header class="hero">
+    <h1>Письмо из 2035</h1>
+    <div class="hand">от тебя — тебе</div>
+    <p class="lead">Выбери сферу жизни, отметь, как у тебя сейчас и как ты хочешь. Будущее ответит письмом: что это тебе дало, чем пришлось платить и где такое уже есть сегодня. Письмо собрано из 132 карточек метода «Декодер Будущего».</p>
+  </header>
+  <main id="app"><noscript><p class="note">Для письма нужен включённый JavaScript.</p></noscript></main>
+  <p class="foot">Это не прогноз. Четыре мира — четыре логики, по которым может сложиться жизнь. Подробнее — в разделе <a href="/chetyre-mira/sfery/">«Сферы жизни»</a>.</p>
+</div>
+<script>
+const LANG="ru";
+const TX={"names": {"ЦС": "Мир автопилота", "ЦЗ": "Мир правил", "ДС": "Мир автономии", "ДЗ": "Мир сообщества"}, "hints": {"ЦС": "решает система, результат не твой", "ЦЗ": "участвуешь по общим правилам", "ДС": "сам решаешь, сам владеешь", "ДЗ": "создаёшь вместе с другими"}, "h1": "Письмо из 2035", "s1": "Выбери сферу жизни", "s1n": "О чём будет письмо от тебя из будущего.", "s2": "Какая часть этой сферы?", "s2n": "Под каждой — вопрос, на который ответит письмо.", "s3": "Как у тебя сейчас?", "s3n": "Выбери, что ближе всего к твоей жизни сегодня. Можно и «ничего из этого».", "s4": "А как хочешь?", "s4n": "Выбери, как ты хочешь, чтобы стало. Здесь нет правильных ответов.", "noneNow": "Ничего из этого, у меня эта тема пока никак не устроена", "noneWant": "", "back": "Назад", "another": "Написать ещё одно письмо", "l_hi": "Привет! Пишу тебе из 2035 года.", "l_hiShort": "Привет из 2035!", "l_nowNone": "Помнишь, в 2026-м эта часть жизни у нас была почти никак не устроена?", "l_now": n=>`Помнишь, как было у нас в 2026-м: <q>${esc(trim(n))}</q>? Хотелось по-другому.`, "l_same": n=>`В 2026-м у нас было так: <q>${esc(trim(n))}</q>. Мы решили это не менять — и вот как оно выглядит теперь.`, "l_want": w=>`Теперь у меня так: <q>${esc(trim(w))}</q>.`, "l_world": (n,h)=>`Это ${esc(n.toLocaleLowerCase("ru"))}: ${esc(h)}.`, "l_res": (s,g)=>`На это ушли ${esc(s)}, а взамен прибавилось: ${esc(g)}.`, "l_gave": "Что это нам дало:", "l_paid": "Чем пришлось платить:", "l_start": "С чего мы начали — это уже есть и у вас, в 2026-м:", "src": "источник", "l_sign": "Твоё будущее", "l_ps": "P. S. Это не прогноз, а один из четырёх вариантов. Посмотри, как это выглядит в других мирах:", "l_card": "Открыть всю карточку в саду.", "l_cta": "Хочешь проверить, какое будущее строишь ты, — <a href=\"/sotrudnichestvo\">приходи на игру Декодера или в лабораторию «Архитектура человека»</a>.", "story": "Картинка для сторис", "shareT": "Поделиться письмом", "more": "Другие приложения", "shareText": (sub,w)=>`Мне пришло письмо от себя из 2035 года. Тема: «${sub}», мир: ${w.toLocaleLowerCase("ru")}. А что напишет тебе твоё будущее?`, "sharedBanner": "Тебе переслали письмо из 2035 года. Хочешь получить своё?", "writeOwn": "Написать своё письмо", "storyCta": "А что напишет тебе твоё будущее?", "file": "letter-2035.png", "err": "Не получилось загрузить данные. Обнови страницу."};
+const NAMES=TX.names, HINTS=TX.hints, ORDER=["ЦС","ЦЗ","ДС","ДЗ"];
+const HEX={"ЦС":"#fc5721","ЦЗ":"#fedf3a","ДС":"#1e7ff0","ДЗ":"#fd7fb8"}, ONC={"ЦС":"#fff","ЦЗ":"#191818","ДС":"#fff","ДЗ":"#191818"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const low=s=>s?s.charAt(0).toLocaleLowerCase(LANG)+s.slice(1):s;
+const trim=s=>String(s||"").replace(/[.\s]+$/,"");
+const app=document.getElementById("app");
+let D=null, st={};
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function view(html){app.innerHTML=html;window.scrollTo({top:document.querySelector(".hero").offsetHeight,behavior:"smooth"})}
+function spheres(){
+  st={};history.replaceState(null,"",location.pathname);
+  view(`<section class="step on"><h2>${TX.s1}</h2><p class="note">${TX.s1n}</p><div class="grid">${D.spheres.map((s,i)=>`<button class="opt" data-i="${i}"><b>${esc(s.name)}</b><span>${esc(s.subs.map(x=>x.name).join(" · "))}</span></button>`).join("")}</div></section>`);
+  app.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>{st.s=D.spheres[+b.dataset.i];subs()});
+}
+function subs(){
+  view(`<section class="step on"><button class="back" data-back>← ${TX.back}</button><div class="crumbs">${esc(st.s.name)}</div><h2>${TX.s2}</h2><p class="note">${TX.s2n}</p><div class="grid">${st.s.subs.map((x,i)=>`<button class="opt" data-i="${i}"><b>${esc(x.name)}</b><span>${esc(x.q)}</span></button>`).join("")}</div></section>`);
+  app.querySelector("[data-back]").onclick=spheres;
+  app.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>{st.sub=st.s.subs[+b.dataset.i];pick("now")});
+}
+function pick(kind){
+  const order=shuffle(ORDER);
+  const none=kind==="now"?TX.noneNow:TX.noneWant;
+  view(`<section class="step on"><button class="back" data-back>← ${TX.back}</button><div class="crumbs">${esc(st.s.name)} → ${esc(st.sub.name)}</div><h2>${kind==="now"?TX.s3:TX.s4}</h2><p class="note">${kind==="now"?TX.s3n:TX.s4n}</p><div class="grid">${order.map(L=>`<button class="opt sit" data-l="${L}">${esc(st.sub.w[L].situation)}</button>`).join("")}${kind==="now"?`<button class="opt sit none" data-l="">${none}</button>`:""}</div></section>`);
+  app.querySelector("[data-back]").onclick=()=>kind==="now"?subs():pick("now");
+  app.querySelectorAll("[data-l]").forEach(b=>b.onclick=()=>{st[kind]=b.dataset.l; if(kind==="now")pick("want"); else letter(false)});
+}
+const LAT={"ЦС":"cs","ЦЗ":"ce","ДС":"ds","ДЗ":"de"}, CYR={cs:"ЦС",ce:"ЦЗ",ds:"ДС",de:"ДЗ"};
+function code(){return `${st.sub.id}-${st.now?LAT[st.now]:"0"}-${LAT[st.want]}`}
+function letter(shared){
+  const W=st.sub.w[st.want], now=st.now?st.sub.w[st.now]:null, L=st.want;
+  if(!shared)history.replaceState(null,"","#"+code());
+  const pr=(W.practices||[])[0];
+  const others=ORDER.filter(x=>x!==L).map(x=>`<a href="${st.sub.w[x].href}">${NAMES[x]}</a>`).join(" · ");
+  const p=[];
+  if(!now) p.push(TX.l_nowNone);
+  else if(st.now===L) p.push(TX.l_same(now.situation));
+  else p.push(TX.l_now(now.situation));
+  if(st.now!==L) p.push(TX.l_want(W.situation));
+  p.push(TX.l_world(NAMES[L],HINTS[L]));
+  p.push(`<b>${TX.l_gave}</b> ${esc(low(trim(W.plus)))}.`);
+  p.push(`<b>${TX.l_paid}</b> ${esc(low(trim(W.minus)))}.`);
+  if(W.spend.length&&W.give.length) p.push(TX.l_res(W.spend.map(x=>low(x)).join(", "),W.give.map(x=>low(x)).join(", ")));
+  if(pr) p.push(`${TX.l_start} ${esc(low(trim(pr.text)))}. <a href="${esc(pr.src)}" target="_blank" rel="noopener">${TX.src}</a>`);
+  const url=location.origin+location.pathname+"#"+code();
+  view(`<section class="step on">${shared?`<div class="shared">${TX.sharedBanner}</div>`:`<button class="back" data-back>← ${TX.another}</button>`}
+  <article class="letter L-${L}"><div class="band"><b>${TX.h1}</b><span>${esc(st.s.name)} → ${esc(st.sub.name)}</span></div>
+  <div class="body"><p class="hi">${TX.l_hi}</p>${p.map(x=>`<p>${x}</p>`).join("")}<p class="sign">${TX.l_sign}</p>
+  <div class="ps">${TX.l_ps} ${others}. <a href="${W.href}">${TX.l_card}</a><br>${TX.l_cta}</div></div></article>
+  <div class="actions">${shared?`<button class="btn" data-new>${TX.writeOwn}</button>`:`<button class="btn" data-story>${TX.story}</button><button class="btn ghost" data-new>${TX.another}</button>`}</div>
+  ${shared?"":`<div><b>${TX.shareT}</b>${shareBar(TX.shareText(st.sub.name,NAMES[L]),url)}</div>`}</section>`);
+  const nb=app.querySelector("[data-new]"); if(nb) nb.onclick=spheres;
+  const bb=app.querySelector("[data-back]"); if(bb) bb.onclick=spheres;
+  const sb=app.querySelector("[data-story]"); if(sb) sb.onclick=()=>storyImage(W,L,url);
+  const ns=app.querySelector("[data-nshare]"); if(ns) ns.onclick=()=>navigator.share({text:TX.shareText(st.sub.name,NAMES[L]),url}).catch(()=>{});
+}
+function shareBar(text,url){
+  const t=encodeURIComponent(text),u=encodeURIComponent(url);
+  return `<div class="sharebar"><a class="tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=${u}&text=${t}">Telegram</a><a class="wa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(text+"\n"+url)}">WhatsApp</a>${navigator.share?`<button type="button" data-nshare>${TX.more}</button>`:""}</div>`;
+}
+function wrapLines(c,text,maxw){const w=String(text).split(/\s+/),out=[];let cur="";for(const x of w){const t=cur?cur+" "+x:x;if(c.measureText(t).width>maxw&&cur){out.push(cur);cur=x}else cur=t}if(cur)out.push(cur);return out}
+async function storyImage(W,L,url){
+  try{await Promise.race([Promise.all([document.fonts.load('700 80px Oswald'),document.fonts.load('500 40px Inter'),document.fonts.load('700 60px Caveat')]),new Promise(r=>setTimeout(r,2500))])}catch(e){}
+  const w=1080,h=1920,cv=document.createElement("canvas");cv.width=w;cv.height=h;const c=cv.getContext("2d");
+  const holo=(x,y,ww,hh)=>{const g=c.createLinearGradient(x,y,x+ww,y+hh*.45);["#f2d36b","#f08a4b","#e9508e","#7a5cf0","#2fa7e8","#5fd3a0","#f2d36b"].forEach((col,i,a)=>g.addColorStop(i/(a.length-1),col));return g};
+  const rr=(x,y,ww,hh,r)=>{c.beginPath();c.roundRect?c.roundRect(x,y,ww,hh,r):c.rect(x,y,ww,hh)};
+  c.fillStyle="#efeeea";c.fillRect(0,0,w,h);c.fillStyle=holo(0,0,w,24);c.fillRect(0,0,w,24);
+  c.textBaseline="top";c.fillStyle=holo(80,110,80,80);rr(80,110,80,80,20);c.fill();
+  c.fillStyle="#191818";c.font="700 40px Oswald,Impact,sans-serif";c.fillText("FUTURE DECODER",182,116);
+  c.fillStyle="#5f5d58";c.font="500 32px Inter,Arial,sans-serif";c.fillText(st.s.name+" → "+st.sub.name,182,162);
+  c.fillStyle="#191818";c.font="700 120px Oswald,Impact,sans-serif";let y=280;
+  for(const l of wrapLines(c,TX.h1.toUpperCase(),w-160)){c.fillText(l,80,y);y+=124}
+  y+=40;c.fillStyle="#fff";const lines=(()=>{c.font="500 46px Inter,Arial,sans-serif";return wrapLines(c,"«"+trim(W.situation)+"»",w-260).slice(0,9)})();
+  const bh=200+lines.length*62+150;rr(80,y,w-160,bh,40);c.fill();
+  c.fillStyle="#191818";c.font="700 64px Caveat,cursive";c.fillText(TX.l_hiShort,130,y+50);
+  c.font="500 46px Inter,Arial,sans-serif";let yy=y+150;for(const l of lines){c.fillText(l,130,yy);yy+=62}
+  c.fillStyle=HEX[L];rr(130,yy+30,w-260,90,45);c.fill();c.fillStyle=ONC[L];c.font="700 48px Oswald,Impact,sans-serif";c.fillText(NAMES[L].toUpperCase(),170,yy+50);
+  y+=bh+60;
+  c.fillStyle="#191818";c.font="700 64px Oswald,Impact,sans-serif";for(const l of wrapLines(c,TX.storyCta.toUpperCase(),w-160)){c.fillText(l,80,y);y+=72}
+  c.fillStyle="#5f5d58";c.font="500 38px Inter,Arial,sans-serif";c.fillText("futuredecoder.org",80,h-160);
+  c.fillStyle=holo(0,h-24,w,24);c.fillRect(0,h-24,w,24);
+  const blob=await new Promise(r=>cv.toBlob(r,"image/png"));const file=new File([blob],TX.file,{type:"image/png"});
+  if(navigator.canShare&&navigator.canShare({files:[file]})){try{await navigator.share({files:[file],text:TX.storyCta+" "+url});return}catch(e){if(e&&e.name==="AbortError")return}}
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=TX.file;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);
+}
+fetch("/static/letter/data-"+LANG+".json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
+  D=d;
+  const m=location.hash.slice(1).match(/^([A-Z]\d)-(cs|ce|ds|de|0)-(cs|ce|ds|de)$/);
+  if(m){for(const s of D.spheres)for(const x of s.subs)if(x.id===m[1]){st={s,sub:x,now:m[2]==="0"?"":CYR[m[2]],want:CYR[m[3]]}}}
+  if(st.sub) letter(true); else spheres();
+}).catch(()=>{app.innerHTML=`<p class="note">${TX.err}</p>`});
+</script>
+</body>
+</html>
