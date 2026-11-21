@@ -113,6 +113,9 @@ textarea{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);bor
 .steps span{font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
 .steps span.on{border-color:var(--ink);color:var(--ink);font-weight:600}
 .steps span.done{color:var(--ink)}
+.steps .stp{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:none;cursor:pointer}
+.steps .stp.on{border-color:var(--ink);color:var(--ink);font-weight:600}.steps .stp.done{color:var(--ink)}
+.steps .stp:hover:not(:disabled){border-color:var(--ink)}.steps .stp:disabled{cursor:not-allowed;opacity:.45}
 .pick{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;margin:6px 0;font-size:15px;line-height:1.4}
 .pick[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .pick .box{flex:none;width:18px;height:18px;border:1.5px solid var(--ink);border-radius:5px;margin-top:2px;display:grid;place-items:center;font-size:12px;font-weight:700}
@@ -318,6 +321,7 @@ ru:{
 
     wkQ:"Это для меня:", wk:{goal:"цель сама по себе",way:"способ, который я вижу"}, wkHint:"Цель — не обсуждается, будем искать, что мешает. Способ — можно получить ценность и по-другому.",
     belGoalH:"Ваши цели сами по себе", wayH2:(v)=>`Как всё-таки прийти к «${v}»?`,
+    stepNeed:"Чтобы открыть этот шаг,", stepMiss:["выберите сферы на шаге 1","отметьте хотя бы одно «хочу»","выберите ценность в Дне Б","выберите хотя бы один рычаг","проставьте связи у рычага в Системе"],
     wayH:(v)=>`Как ещё получить «${v}»?`, wayP:"Каждый ответ — уже рычаг. Пишите действием: что сделаете. Хватит и одного.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Отдать другим","Что можно поручить сервису, специалисту, работодателю? Напишите, что и кому.","поручу …"],["wo","Без этого","Как получить это совсем без того, что кажется обязательным?","получу это без …, если …"],["small","Маленький шаг","Какое самое малое действие уже даёт немного этого?","начну с …"],["ppl","Через людей","Кто может дать часть этого? Что попросите или предложите взамен?","попрошу … / предложу …"]],
     picH:"А если это неправда?", picP:"Новая картина — самый сильный рычаг, но одна она жизнь не меняет. Поэтому выше — ответы-действия.", picPh:"На самом деле …",
@@ -783,6 +787,7 @@ en:{
 
     wkQ:"For me this is:", wk:{goal:"a goal in itself",way:"a way I can see"}, wkHint:"A goal is not up for debate — we'll look for what's in the way. A way — the value can be reached differently too.",
     belGoalH:"Your goals in themselves", wayH2:(v)=>`How can you still get to «${v}»?`,
+    stepNeed:"To open this step,", stepMiss:["choose spheres in step 1","mark at least one want","choose a value in Day B","choose at least one lever","link a lever in the System step"],
     wayH:(v)=>`How else can you get «${v}»?`, wayP:"Each answer is already a lever. Write it as an action: what you will do. One is enough.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Hand it to others","What could a service, a specialist, an employer take on? Write what and who.","I'll hand … to …"],["wo","Without it","How could you get this without what seems essential?","I'll get it without … if …"],["small","A small step","What is the smallest action that already gives a little of it?","I'll start with …"],["ppl","Through people","Who could give part of it? What will you ask or offer in return?","I'll ask … / I'll offer …"]],
     picH:"What if it isn't true?", picP:"A new picture is the strongest lever, but alone it doesn't change life. That's why the action answers come first.", picPh:"Actually …",
@@ -2479,6 +2484,7 @@ function belRes(b){const m=["money","time","energy","place","money","people","sk
 function syncBelLev(){const Lb=S.lab,Q=T.lb2.v6;(Lb.bel||[]).forEach(b=>{const k="bel:"+b.id;if((b.ifnot||"").trim()){if(!(k in Lb.field))Lb.field[k]="pic"}else if(b.st!=="false"&&k in Lb.field){delete Lb.field[k]}
   Q.ways.forEach(([w])=>{const kk="bw:"+b.id+":"+w;if(((b.w||{})[w]||"").trim()){if(!(kk in Lb.field))Lb.field[kk]=Q.wayLv[w]}else if(kk in Lb.field)delete Lb.field[kk]})});
   for(const k of Object.keys(Lb.field))if(!(wayObj(k)||{}).title)delete Lb.field[k]}
+function stepMiss(i){const Lb=S.lab,Q=T.lb2.v6,M=Q.stepMiss;if(i>=1&&!Lb.sps.length)return M[0];if(i>=2&&!allW().length)return M[1];if(i>=3&&!Lb.levs.length)return M[2];if(i>=4&&!Lb.fin.length)return M[3];if(i>=5&&!Lb.first)return M[4];return ""}
 function lvlHelp(){const Q=T.lb2.v6;return `<details class="lvlh"><summary>${Q.lvlH}</summary><div class="lvlg">${Q.lvlEx.map(([k,t,d,e])=>`<div><b>${t}</b><p>${d}</p><p class="muted">${Q.lvlEg} ${e}</p></div>`).join("")}</div><p class="muted" style="margin:6px 0 0;font-size:13px">${Q.lvlNote}</p></details>`}
 function bridgeHTML(st){const Q=T.lb2.v6,Lb=S.lab,b=Q.br;let t="";
   if(st===0){const nt=D.spheres.filter(sp=>((Lb.now||{})[sp.id]||"").trim());t=b[0](nt.length,nt.length?cut(nowItems(nt[0].id)[0]?nowItems(nt[0].id)[0].label:"",50):"")}
@@ -2538,7 +2544,7 @@ function rLab(){
   if(Lb.step>=3&&!Lb.levs.length)Lb.step=2;
   if(Lb.step>=4&&!Lb.fin.length)Lb.step=3;
   if(Lb.step>=5&&!Lb.first)Lb.step=4;
-  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps">${STEPS.map((s,i)=>`<span class="${i===Lb.step?"on":i<Lb.step?"done":""}">${i+1}. ${s}</span>`).join("")}</div><p class="noprint" style="margin:-6px 0 10px;font-size:13px"><button class="btn ghost" id="labreset" style="font-size:12.5px;padding:4px 10px">${LANG==="ru"?"Начать заново":"Start over"}</button> <span class="legend">${esc(Q.legend)}</span></p>`;
+  const head=`<h1>${T.lb.h}</h1><div class="holo"></div><div class="steps noprint">${STEPS.map((s,i)=>{const miss=stepMiss(i);return `<button type="button" class="stp ${i===Lb.step?"on":i<Lb.step?"done":""}" data-go="${i}" ${miss?`disabled title="${esc(Q.stepNeed+" "+miss)}"`:""} ${i===Lb.step?'aria-current="step"':""}>${i+1}. ${s}</button>`}).join("")}</div><p class="noprint" style="margin:-6px 0 10px;font-size:13px"><button class="btn ghost" id="labreset" style="font-size:12.5px;padding:4px 10px">${LANG==="ru"?"Начать заново":"Start over"}</button> <span class="legend">${esc(Q.legend)}</span></p>`;
   const st=Lb.step,ex=`<p class="expl">${esc(st<6?Q.ex[st]:Y.ex2[st-6])}</p>`;
   const nav=(canNext,last)=>(st<5?bridgeHTML(st):"")+`<div class="row noprint" style="margin-top:18px">${st?`<button class="btn ghost" id="lb">${T.lb.back}</button>`:""}${last?"":`<button class="btn" id="ln" ${canNext?"":"disabled"}>${T.lb.next}</button>`}</div>`;
   const mini=st<5&&st>0?`<details class="minimap"><summary><b>${Y.mapH}</b></summary><div class="mmw">${picSVG(HL6[st])}</div></details><p class="got"><b>${Y.gotH}</b> ${esc(winLine(st))}</p>`:(st===0&&nowText().length?`<p class="got"><b>${Y.gotH}</b> ${esc(winLine(0))}</p>`:"");
@@ -2654,6 +2660,7 @@ function rLab(){
   q(".tg[data-belt]").forEach(b=>b.onclick=()=>{const t=b.dataset.belt;Lb.bel.push({id:uid(),tpl:t,v:b.dataset.v,x:"",xOwn:"",own:"",text:"",st:""});save();rLab();if(t==="own"){const ta=el.querySelector(`[data-f="bel.${Lb.bel.length-1}.own"]`);if(ta)ta.focus()}});
   q("select[data-bx]").forEach(x=>x.onchange=()=>{const bb=Lb.bel[+x.dataset.bx];bb.x=x.value;bb.text=belText(bb);save();rLab()});
   q("select[data-cs]").forEach(x=>x.onchange=()=>{const cc=Lb.cl2[+x.dataset.cs],k=x.dataset.k,v=x.value;cc[k+"Sel"]=v;cc[k]=v==="~"?(cc[k+"Own"]||""):!v?"":(k==="a"||k==="b")?itemLabel(v):T.vals[v];save();rLab()});
+  q("button.stp[data-go]").forEach(b=>b.onclick=()=>{if(b.disabled)return;Lb.step=+b.dataset.go;save();rLab();el.scrollIntoView({behavior:"smooth",block:"start"})});
   q(".tg[data-wk]").forEach(b=>b.onclick=()=>{Lb.wkind[b.dataset.wk]=b.dataset.k;save();rLab()});
   q("[data-bcl]").forEach(b=>b.onclick=()=>{const bl=Lb.bel[+b.dataset.bcl],V=vLabel(bl.v)||"",X=bl.x==="~"?(bl.xOwn||"").trim():itemLabel(bl.x),r=belRes(bl);const A=Q.loopA(V,X),B=Q.loopB(X,r);const c={id:uid(),kind:"both",from:"bel:"+bl.id,res:r,aSel:"~",aOwn:A,a:A,bSel:"~",bOwn:B,b:B,naSel:V?"~":"",naOwn:V,na:V,nbSel:"~",nbOwn:Q.rcNB,nb:Q.rcNB,why:belText(bl)};Lb.cl2.unshift(c);save();rLab();const e=el.querySelector(".item.cloud");if(e)e.scrollIntoView({behavior:"smooth",block:"start"})});
   q('[data-f^="bel."]').forEach(t=>t.addEventListener("focusout",e=>{if(!e.relatedTarget){save();rLab()}}));
