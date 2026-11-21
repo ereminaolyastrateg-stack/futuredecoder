@@ -28,7 +28,7 @@ Regular open games. In one game the group designs four worlds of the future on a
 
 ### The Architecture of a Person lab
 
-Regular cohorts of four meetings. You break your life down into eight spheres, choose what you want in each, test it against the four worlds and find a first step with the resources you have now. The method stays with you to keep using. Personal maps are never discussed in public.
+Cohorts of five online meetings. You break your life down into eight spheres, choose what you want in each, test it against the four worlds, untangle contradictions and find a first step with the resources you have now. Next cohort starts 3 January 2027, 10 places. [[en/lab|Programme, prices and application →]] The method stays with you to keep using. Personal maps are never discussed in public.
 
 *For:* people who say "I don't like what I have, and I don't know what I want". Often it is a time of choosing a path or rebuilding a life.
 

@@ -1,0 +1,1069 @@
+{
+ "_readme": "Мини-истории для опросника: одна фраза от «я» на базе фронтирного сигнала. Ключ — id карточки сферы. Если истории нет, в опроснике показывается название и ситуация карточки.",
+ "W1-ЦС": {
+  "ru": "Расти для меня — это лучшие условия, а не должность: я сильный специалист, и компания сама находит мне следующий проект.",
+  "en": "Growth for me means better conditions, not a title: I am a strong specialist, and the company finds my next project for me.",
+  "sig_ru": "ИИ-маркетплейсы внутренних талантов: Mastercard сэкономила $21 млн и сократила внешний найм на 30%.",
+  "sig_en": "AI internal talent marketplaces: Mastercard saved $21M and cut external hiring by 30%.",
+  "src": "https://www.thehirehub.ai/blog/internal-mobility-2026-ai-unlocking-hidden-talent",
+  "date": "2026-04"
+ },
+ "W1-ЦЗ": {
+  "ru": "Хочу вести за собой людей и большие проекты, и путь туда открывает опыт, а не диплом.",
+  "en": "I want to lead people and big projects, and the way there is opened by experience, not a diploma.",
+  "sig_ru": "86% работодателей ценят сертификаты без диплома, 78% ставят опыт выше дипломов.",
+  "sig_en": "86% of employers value non-degree certificates; 78% put experience above diplomas.",
+  "src": "https://builtin.com/articles/new-hiring-rules-proof-over-pedigree",
+  "date": "2026-05"
+ },
+ "W1-ДС": {
+  "ru": "Моя работа — это моя маленькая компания: с ИИ-помощниками двое-трое людей делают то, для чего раньше нужен был целый штат.",
+  "en": "My work is my own small company: with AI helpers, two or three people do what once took a whole staff.",
+  "sig_ru": "Компания Medvi из двух человек продала на $401 млн за первый полный год и идёт к $1,8 млрд в 2026-м.",
+  "sig_en": "Medvi, a two-person company, sold $401M in its first full year and is tracking toward $1.8B in 2026.",
+  "src": "https://www.noqta.tn/en/blog/one-person-ai-company-solopreneur-guide-2026",
+  "date": "2026"
+ },
+ "W1-ДЗ": {
+  "ru": "Годами довожу до совершенства своё дело под своим именем, а договоры и страховку делю с такими же независимыми.",
+  "en": "For years I refine my own craft under my own name, and share contracts and insurance with fellow independents.",
+  "sig_ru": "Кооператив независимых специалистов SMart объединяет больше 100 000 человек: счета, страховка, общие льготы.",
+  "sig_en": "SMart, a cooperative of independent workers, has 100,000+ members: invoicing, insurance, shared benefits.",
+  "src": "https://www.jobbers.io/the-rise-of-freelance-collectives-how-solo-workers-are-forming-unions-in-2026/",
+  "date": "2026"
+ },
+ "W2-ЦС": {
+  "ru": "Работу мне распределяет система: понятная задача, ясный срок, и не нужно гадать, что делать дальше.",
+  "en": "A system hands out my work: a clear task, a clear deadline, and no guessing what comes next.",
+  "sig_ru": "Алгоритмы распределяют задачи, ставят сроки и задают порядок работы; у 78% платформенных работников учитывается время на каждую задачу.",
+  "sig_en": "Algorithms assign tasks, set deadlines and order the work; 78% of platform workers have time tracked per task.",
+  "src": "https://www.eurofound.europa.eu/en/publications/all/algorithmic-control-how-digital-surveillance-is-shaping-online-platform-work-in-europe",
+  "date": "2026-02"
+ },
+ "W2-ЦЗ": {
+  "ru": "Руководитель объясняет, зачем мы это делаем, а я отвечаю за свою часть вместе с ИИ, который теперь есть в любой работе.",
+  "en": "My manager explains why we do it, and I own my part together with AI, which is now part of any job.",
+  "sig_ru": "Shopify сделала работу с ИИ обязательной и включила её в оценку сотрудников.",
+  "sig_en": "Shopify made AI use mandatory and added it to performance reviews.",
+  "src": "https://www.tomshardware.com/tech-industry/artificial-intelligence/shopify-ceo-teams-must-prove-ai-cant-do-a-task-before-asking-for-new-hires-resources",
+  "date": "2025-04"
+ },
+ "W2-ДС": {
+  "ru": "Рутину за меня делают мои ИИ-агенты, а я ставлю им задачи и проверяю результат.",
+  "en": "My AI agents do the routine, and I set their tasks and check the result.",
+  "sig_ru": "Microsoft описывает новую роль «агент-босс»: человек сам создаёт ИИ-агентов, поручает им работу и управляет ими.",
+  "sig_en": "Microsoft describes a new role, the 'agent boss': a person who builds, delegates to and manages AI agents.",
+  "src": "https://www.geekwire.com/2025/meet-your-new-ai-teammate-microsoft-sees-humans-as-agent-bosses-upending-the-workplace/",
+  "date": "2025-04"
+ },
+ "W2-ДЗ": {
+  "ru": "Качество для меня важнее скорости: погружаюсь в сложную задачу надолго, а новым инструментам учусь у коллег, а не по инструкции.",
+  "en": "Quality matters more to me than speed: I dive into a hard task for long stretches and learn new tools from colleagues, not manuals.",
+  "sig_ru": "В Citi сеть из 4000 коллег-«ускорителей» довела использование ИИ до 70% среди 182 000 сотрудников: учились друг у друга.",
+  "sig_en": "At Citi, a network of 4,000 peer 'accelerators' brought AI adoption to 70% of 182,000 employees by learning from each other.",
+  "src": "https://www.leadwithai.co/article/people-copy-people-ai-adoption-scales-socially",
+  "date": "2026-01"
+ },
+ "W3-ЦС": {
+  "ru": "Прихожу в офис, где всё уже готово, и не думаю о технике и рабочем месте: работа там, где компания.",
+  "en": "I come to an office where everything is ready and never think about equipment: work is where the company is.",
+  "sig_ru": "55% компаний из Fortune 100 требуют пять дней в офисе, в 2021 году таких было 5%.",
+  "sig_en": "55% of Fortune 100 companies require five office days a week, up from 5% in 2021.",
+  "src": "https://www.credaily.com/briefs/return-to-office-trend-accelerates-as-employers-tighten-rules",
+  "date": "2026"
+ },
+ "W3-ЦЗ": {
+  "ru": "Работаю бок о бок с коллегами и учусь у них прямо в деле, а четырёхдневная неделя становится общим правилом.",
+  "en": "I work side by side with colleagues and learn from them on the job, and the four-day week is becoming a shared rule.",
+  "sig_ru": "В Польше с начала 2026 года идёт государственный пилот: 90 работодателей и больше 5000 сотрудников пробуют четырёхдневку и сокращённый день.",
+  "sig_en": "Poland's state pilot since early 2026: 90 employers and 5,000+ workers trying four-day weeks and shorter days.",
+  "src": "https://devby.io/news/v-polshe-podelilis-pervymi-itogami-eksperimenta-s-4-dnevkoi",
+  "date": "2026"
+ },
+ "W3-ДС": {
+  "ru": "Работаю откуда хочу: страна, город и часы — мой выбор, лишь бы работа была сделана.",
+  "en": "I work from wherever I like: country, city and hours are my choice, as long as the work gets done.",
+  "sig_ru": "Визы для удалённых работников в 2026 году есть больше чем в 65 странах, в 2020-м их было 12.",
+  "sig_en": "65+ countries offer remote-worker visas in 2026, up from 12 in 2020.",
+  "src": "https://voxbooster.com/blog/digital-nomad-visa-statistics-2026/",
+  "date": "2026"
+ },
+ "W3-ДЗ": {
+  "ru": "Работаю в «третьем месте» рядом с домом: не офис и не кухня, а пространство, где все погружаются каждый в своё дело.",
+  "en": "I work in a \"third place\" near home: not an office, not a kitchen, but a space where everyone dives into their own work.",
+  "sig_ru": "Во Франции 4041 «третье место» (tiers-lieux) в 2026 году против 1800 в 2018-м.",
+  "sig_en": "France has 4,041 'third places' (tiers-lieux) in 2026, up from 1,800 in 2018.",
+  "src": "https://www.carenews.com/carenews-info/news/4-041-tiers-lieux-recenses-en-france",
+  "date": "2026-10"
+ },
+ "W4-ЦС": {
+  "ru": "Роли, задачи и оценку в команде задаёт система, и всё прозрачно: каждый знает, чего от него ждут.",
+  "en": "A system sets roles, tasks and reviews in the team, and it is all transparent: everyone knows what is expected.",
+  "sig_ru": "ИИ уже ставит задачи, следит за работой и оценивает людей в большинстве компаний, а обязательные правила ЕС отложены до 2027 года.",
+  "sig_en": "AI already sets tasks, monitors and evaluates workers at most firms, while binding EU rules slipped to 2027.",
+  "src": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-06-algorithmic-management-default/scan.html",
+  "date": "2026-06"
+ },
+ "W4-ЦЗ": {
+  "ru": "Доверяю сильному руководителю выбор направления, а большие перемены вроде внедрения ИИ сначала обсуждают со всеми.",
+  "en": "I trust a strong leader to choose the direction, and big changes like bringing in AI are discussed with everyone first.",
+  "sig_ru": "27 октября 2026 года корейские металлурги подписали отраслевое соглашение: прежде чем вводить ИИ, работодатель договаривается с профсоюзом.",
+  "sig_en": "On 27 October 2026 Korea's metal industry signed an agreement: employers must settle with the union before bringing in AI.",
+  "src": "https://blog.pebblous.ai/blog/metal-union-ai-prior-agreement-clause/en/",
+  "date": "2026-10"
+ },
+ "W4-ДС": {
+  "ru": "Собираю команду под проект из людей и ИИ-агентов и договариваюсь о результате, а не о часах.",
+  "en": "I assemble a team of people and AI agents for each project and agree on results, not hours.",
+  "sig_ru": "28% руководителей думают нанимать отдельных менеджеров для смешанных команд из людей и ИИ-агентов.",
+  "sig_en": "28% of leaders are considering hiring managers for hybrid teams of people and AI agents.",
+  "src": "https://www.itpro.com/technology/artificial-intelligence/should-workers-prepare-to-become-ai-agent-bosses",
+  "date": "2025"
+ },
+ "W4-ДЗ": {
+  "ru": "В нашей команде нет начальника: раз в квартал мы сами решаем, кто чем занимается.",
+  "en": "Our team has no boss: every quarter we decide ourselves who works on what.",
+  "sig_ru": "В Bayer около 100 000 сотрудников перешли на самоорганизованные команды, которые каждые 90 дней сами выбирают, над чем работать.",
+  "sig_en": "At Bayer about 100,000 employees moved to self-directed teams that choose their work every 90 days.",
+  "src": "https://fortune.com/europe/2024/04/11/pharmaceutical-giant-bayer-ceo-bill-anderson-rid-bosses-staff-self-organize-save-2-billion/",
+  "date": "2024–2026"
+ },
+ "H1-ЦС": {
+  "ru": "Здоровье работает как подписка: раз в полгода сдаю анализы, а сервис сам подсказывает, что поправить.",
+  "en": "Health works like a subscription: twice a year I do tests, and the service tells me what to adjust.",
+  "sig_ru": "Function Health: подписка за $365 в год — больше 100 показателей крови дважды в год; участники сдали больше 50 млн тестов с 2023 года.",
+  "sig_en": "Function Health: a $365/year subscription with 100+ blood markers twice a year; members have completed 50M+ lab tests since 2023.",
+  "src": "https://sacra.com/c/function-health/",
+  "date": "2026"
+ },
+ "H1-ЦЗ": {
+  "ru": "Хочу и в восемьдесят легко подниматься по лестнице, поэтому дважды в неделю занимаюсь с тренером.",
+  "en": "I want to climb stairs easily at eighty, so I train with a coach twice a week.",
+  "sig_ru": "ACSM: программы для старшего возраста — тренд №2 в фитнесе на 2026 год; люди 65+ теперь ходят в залы чаще всех.",
+  "sig_en": "ACSM: fitness programmes for older adults are the #2 trend for 2026; people 65+ now visit gyms more often than any other age group.",
+  "src": "https://www.acsm.org/read-research/acsm-fitness-trends",
+  "date": "2026"
+ },
+ "H1-ДС": {
+  "ru": "Часы и датчики показывают мне, как работает моё тело, а что с этим делать, решаю я.",
+  "en": "A watch and sensors show me how my body works, and I decide what to do about it.",
+  "sig_ru": "Носимые устройства — тренд №1 в фитнесе третий год подряд; трекер или умные часы есть почти у половины взрослых в США.",
+  "sig_en": "Wearables are the #1 fitness trend for the third year running; nearly half of US adults own a tracker or smartwatch.",
+  "src": "https://recmanagement.com/articles/155523/acsm-announces-top-fitness-trends-2026",
+  "date": "2026"
+ },
+ "H1-ДЗ": {
+  "ru": "Двигаюсь не ради цифр, а ради радости: бегаю с клубом, танцую и чувствую своё тело.",
+  "en": "I move for joy, not numbers: I run with a club, dance and feel my body.",
+  "sig_ru": "Strava: в 2025 году новых клубов стало почти вчетверо больше, всего их уже миллион; беговых — в 3,5 раза больше.",
+  "sig_en": "Strava: new clubs nearly quadrupled in 2025 to one million in total; running clubs grew 3.5x.",
+  "src": "https://endurance.biz/?p=91347",
+  "date": "2025-12"
+ },
+ "H2-ЦС": {
+  "ru": "Кровать и дом сами подстраивают температуру и свет, а мне остаётся просто высыпаться.",
+  "en": "My bed and home adjust temperature and light on their own, and all I do is sleep well.",
+  "sig_ru": "Eight Sleep Autopilot 4.0: «агент сна» предсказывает, как человек будет спать, и сам меняет температуру кровати.",
+  "sig_en": "Eight Sleep Autopilot 4.0: a 'sleep agent' predicts how you'll sleep and adjusts the bed temperature on its own.",
+  "src": "https://insider.fitt.co/press-release/eight-sleep-launches-autopilot-4-0-a-sleep-agent-that-predicts-and-responds/",
+  "date": "2026"
+ },
+ "H2-ЦЗ": {
+  "ru": "Со сном мне помогают специалист и цифровая программа, которую назначают вместо таблеток.",
+  "en": "A specialist and a digital programme prescribed instead of pills help me with sleep.",
+  "sig_ru": "В Англии приложение Sleepio назначают вместо снотворного; в 2026 году NICE оценивает и другие цифровые программы для сна.",
+  "sig_en": "In England the Sleepio app is prescribed instead of sleeping pills; in 2026 NICE is assessing other digital sleep programmes too.",
+  "src": "https://www.nice.org.uk/guidance/gid-hte10068/documents/final-protocol",
+  "date": "2026-01"
+ },
+ "H2-ДС": {
+  "ru": "Кольцо считает мой сон и восстановление, а режим под эти данные настраиваю я.",
+  "en": "A ring tracks my sleep and recovery, and I tune my routine to the data.",
+  "sig_ru": "У Oura 5 млн платных подписчиков; 94% купивших кольцо продолжают платить за разбор своих данных.",
+  "sig_en": "Oura has 5M paying members; 94% of ring buyers go on to pay for the membership.",
+  "src": "https://idevice.com/ouras-ipo-filing-counts-5-million-paying-members",
+  "date": "2026-09"
+ },
+ "H2-ДЗ": {
+  "ru": "Восстанавливаюсь по-своему и среди людей: баня с друзьями вместо бара и сон по самочувствию, а не по будильнику.",
+  "en": "I recover my own way and among people: a sauna with friends instead of a bar, sleep by how I feel, not by an alarm.",
+  "sig_ru": "Британское общество саун насчитало в стране 640 саун в марте 2026 года; социальные сауны называют новыми пабами.",
+  "sig_en": "The British Sauna Society counted 640 saunas in the UK in March 2026; social saunas are called the new pubs.",
+  "src": "https://www.credenceresearch.com/report/contrast-therapy-studio-market",
+  "date": "2026-03"
+ },
+ "H3-ЦС": {
+  "ru": "Когда тяжело, поддержка всегда под рукой: ночью выслушает чат-бот, а днём служба подберёт психолога.",
+  "en": "When things are hard, support is always at hand: a chatbot listens at night, a service finds a therapist by day.",
+  "sig_ru": "Pew, февраль 2026: каждый десятый взрослый в США получает у чат-ботов эмоциональную поддержку, среди тех, кому до 30, — каждый пятый.",
+  "sig_en": "Pew, Feb 2026: one in ten US adults gets emotional support from chatbots; among under-30s it's one in five.",
+  "src": "https://www.pewresearch.org/chart/1-in-5-adults-under-30-say-they-get-emotional-support-from-chatbots-higher-than-for-older-adults/",
+  "date": "2026-02"
+ },
+ "H3-ЦЗ": {
+  "ru": "Со своими реакциями разбираюсь у живого психотерапевта: эту работу не хочу доверять машине.",
+  "en": "I work through my reactions with a human therapist: this is work I won't hand to a machine.",
+  "sig_ru": "Иллинойс запретил терапию силами ИИ без лицензированного специалиста: ИИ можно использовать только для вспомогательных задач.",
+  "sig_en": "Illinois banned AI therapy without a licensed professional: AI may be used only for administrative support.",
+  "src": "https://www.beckershospitalreview.com/healthcare-information-technology/illinois-bans-ai-therapy-without-clinician-oversight/",
+  "date": "2025-08"
+ },
+ "H3-ДС": {
+  "ru": "У меня свой набор поддержки: дневник, ИИ-помощник для трудных вечеров и пара людей, которым можно позвонить.",
+  "en": "I have my own support kit: a journal, an AI helper for hard evenings and a couple of people I can call.",
+  "sig_ru": "Mental Health America, 2026: 17% людей 35–44 лет регулярно используют ИИ, чтобы справляться с эмоциями.",
+  "sig_en": "Mental Health America, 2026: 17% of 35–44-year-olds regularly use AI to cope with emotions.",
+  "src": "https://www.statista.com/chart/36685/who-uses-ai-tools-for-emotional-support/",
+  "date": "2026"
+ },
+ "H3-ДЗ": {
+  "ru": "Меня держат не советы, а люди: когда вместе делаем что-то руками, легче говорить о том, что на душе.",
+  "en": "People hold me up, not advice: when we make something together with our hands, it's easier to talk about what's inside.",
+  "sig_ru": "Исследование в Канаде: в мастерских взаимной поддержки Men's Sheds доля одиноких упала с четверти участников до менее чем 10%.",
+  "sig_en": "A Canadian study: in Men's Sheds peer workshops the share of isolated members fell from a quarter to under 10%.",
+  "src": "https://edmonton.taproot.news/briefs/2026/05/06/study-of-mens-sheds-reveals-decreased-loneliness-among-members",
+  "date": "2026-05"
+ },
+ "H4-ЦС": {
+  "ru": "Часть моей памяти теперь живёт в очках и телефоне: они напомнят, где машина и о чём мы договорились.",
+  "en": "Part of my memory now lives in my glasses and phone: they remind me where the car is and what we agreed.",
+  "sig_ru": "Ray-Ban и Oakley с ИИ от Meta продано больше 7 млн пар; в них есть долгие напоминания и память о месте парковки.",
+  "sig_en": "Over 7 million Ray-Ban and Oakley Meta AI glasses have been sold; they offer long-term reminders and parking-spot recall.",
+  "src": "https://ucstrategies.com/news/meta-sold-7-million-ai-glasses-in-2025-now-the-privacy-problem-has-nowhere-to-hide/",
+  "date": "2026"
+ },
+ "H4-ЦЗ": {
+  "ru": "Ясность ума — то, за чем следит врач: проверяю память так же спокойно и регулярно, как давление.",
+  "en": "A doctor looks after my mental clarity: I check my memory as calmly and regularly as my blood pressure.",
+  "sig_ru": "В 2025 году в США одобрили первые анализы крови, помогающие выявить или исключить болезнь Альцгеймера, в том числе у терапевта.",
+  "sig_en": "In 2025 the US cleared the first blood tests that help detect or rule out Alzheimer's, including in primary care.",
+  "src": "https://abc11.com/post/fda-clears-blood-test-help-rule-alzheimers-disease-people-showing-symptoms/18004692/",
+  "date": "2025-10"
+ },
+ "H4-ДС": {
+  "ru": "Мысли и решения храню в своей системе заметок: это моя вторая память, и она принадлежит мне.",
+  "en": "I keep my thoughts and decisions in my own notes system: it's my second memory, and it belongs to me.",
+  "sig_ru": "Obsidian — заметки в обычных файлах у себя на устройстве: 1,5 млн активных пользователей в месяц при команде из 18 человек.",
+  "sig_en": "Obsidian keeps notes as plain local files: 1.5M monthly active users, built by a team of 18.",
+  "src": "https://www.taskade.com/blog/obsidian-history",
+  "date": "2026-03"
+ },
+ "H4-ДЗ": {
+  "ru": "Берегу способность думать: каждый день час без телефона, а по вечерам встречи, где телефоны сдают на входе.",
+  "en": "I protect my ability to think: an hour a day without my phone, and evenings where phones are left at the door.",
+  "sig_ru": "Eventbrite: число мероприятий без телефонов выросло на 567% с 2024 по 2025 год, в Великобритании — в 13 раз.",
+  "sig_en": "Eventbrite: phone-free events grew 567% from 2024 to 2025, and 1,200% in the UK.",
+  "src": "https://www.eventbrite.com/blog/?p=441080",
+  "date": "2026"
+ },
+ "H5-ЦС": {
+  "ru": "Маршрут лечения за меня ведёт страховщик с ИИ-помощником: записи, анализы и напоминания собраны в одном месте.",
+  "en": "My insurer's AI assistant runs my care path: appointments, tests and reminders all in one place.",
+  "sig_ru": "UnitedHealthcare запустила ИИ-помощника Avery для записи и навигации и к концу 2026 года даст его 20,5 млн застрахованных.",
+  "sig_en": "UnitedHealthcare launched Avery, an AI companion for navigation and booking, aiming at 20.5M members by end of 2026.",
+  "src": "https://medcitynews.com/2026/03/unitedhealthcare-unveils-ai-companion-to-improve-navigation/",
+  "date": "2026-03"
+ },
+ "H5-ЦЗ": {
+  "ru": "У меня есть свой врач, который знает мою историю, и я плачу ему подпиской, а не за каждый визит.",
+  "en": "I have my own doctor who knows my history, and I pay a subscription rather than per visit.",
+  "sig_ru": "Абонементная медицина в США: число пациентов «у своего врача по подписке» на душу населения выросло на 837% с 2017 по 2025 год.",
+  "sig_en": "Direct primary care in the US: membership per capita grew 837% between 2017 and 2025.",
+  "src": "https://blog.hint.com/the-data-behind-dpc",
+  "date": "2026"
+ },
+ "H5-ДС": {
+  "ru": "Все мои анализы и заключения хранятся у меня, я решаю, кому их показать, а разобраться помогает ИИ.",
+  "en": "All my test results and reports are mine; I decide who sees them, and AI helps me understand them.",
+  "sig_ru": "В 2026 году OpenAI запустила ChatGPT Health: можно подключить свои медицинские записи и данные приложений и в любой момент отключить.",
+  "sig_en": "In 2026 OpenAI launched ChatGPT Health: you can connect your medical records and app data and disconnect them at any time.",
+  "src": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-launches-chatgpt-health-connect-data-health-apps-medical-records",
+  "date": "2026-01"
+ },
+ "H5-ДЗ": {
+  "ru": "Решения о лечении принимаем вместе с врачом: прихожу с вопросами, и мы обсуждаем, как каждый вариант изменит мою жизнь.",
+  "en": "My doctor and I make treatment decisions together: I come with questions and we discuss how each option would change my life.",
+  "sig_ru": "Zocdoc, 2026: подготовить вопросы к врачу — самое полезное применение ИИ, так считают 36% пациентов и 66% врачей.",
+  "sig_en": "Zocdoc, 2026: preparing questions for a visit is the top recommended use of AI, say 36% of patients and 66% of doctors.",
+  "src": "https://keyt.com/stacker-medical-care/2026/08/31/the-health-secret-1-in-5-patients-keep-from-their-doctors/",
+  "date": "2026-02"
+ },
+ "F1-ЦС": {
+  "ru": "Мне нужна стабильность: зарплата приходит регулярно, а заработанное можно получить, не дожидаясь дня выплаты.",
+  "en": "I want stability: my salary comes regularly, and I can draw what I've earned before payday.",
+  "sig_ru": "DailyPay — выплата заработанного до дня зарплаты: больше 2000 работодателей и 6 млн сотрудников, у которых есть такая возможность.",
+  "sig_en": "DailyPay, on-demand pay before payday: 2,000+ employer clients and 6M+ eligible employees.",
+  "src": "https://yespress.io/dailypay",
+  "date": "2026-09"
+ },
+ "F1-ЦЗ": {
+  "ru": "Мне важно, чтобы плата была честной и понятной: вилки зарплат открыты, а премия зависит от результата команды.",
+  "en": "I want pay to be fair and clear: salary ranges are open, and the bonus depends on the team's results.",
+  "sig_ru": "С 7 июня 2026 года в ЕС работодатели обязаны указывать вилку зарплаты в вакансиях и не могут запрещать сотрудникам обсуждать зарплату.",
+  "sig_en": "Since 7 June 2026 EU employers must publish pay ranges in job ads and may not ban staff from discussing pay.",
+  "src": "https://remoteworkeurope.eu/insights/eu-pay-transparency-remote-work",
+  "date": "2026-06"
+ },
+ "F1-ДС": {
+  "ru": "Работа — не единственный источник денег: часть дохода приносят мои вложения.",
+  "en": "My job is not my only source of money: part of my income comes from my investments.",
+  "sig_ru": "Брокерские счета на Мосбирже открыли 43 млн частных инвесторов (октябрь 2026).",
+  "sig_en": "43 million private investors hold brokerage accounts on the Moscow Exchange (October 2026).",
+  "src": "https://ru.themoscowtimes.com/2026/11/05/pritok-chastnykh-investorov-na-mosbirzhu-v-oktyabre-vyros-mm-no-obem-investitsiy-sokratilsya-a210521",
+  "date": "2026-10"
+ },
+ "F1-ДЗ": {
+  "ru": "Зарабатываю на том, что сделано моими руками и головой: люди подписываются, потому что ценят именно мой взгляд.",
+  "en": "I earn from what my hands and head create: people subscribe because they value my particular view.",
+  "sig_ru": "На Boosty в 2026 году зарегистрировано больше 500 000 авторов, которые живут на подписки.",
+  "sig_en": "Over 500,000 creators are registered on Boosty in 2026, earning from subscriptions.",
+  "src": "https://blog.octobrowser.net/ru/kak-zarabotat-na-boosty",
+  "date": "2026"
+ },
+ "F2-ЦС": {
+  "ru": "Счета и покупки оплачивает за меня цифровой помощник, и о рутинных платежах я почти не думаю.",
+  "en": "A digital assistant pays my bills and purchases, and I barely think about routine payments.",
+  "sig_ru": "Visa и Mastercard открыли платёжные сети для ИИ-агентов, которые покупают и платят от имени человека.",
+  "sig_en": "Visa and Mastercard opened their networks to AI agents that buy and pay on a person's behalf.",
+  "src": "https://techcrunch.com/2025/04/30/visa-and-mastercard-unveil-ai-powered-shopping",
+  "date": "2025-04"
+ },
+ "F2-ЦЗ": {
+  "ru": "В деньгах меня страхуют понятные правила: например, запрет на новые кредиты, который можно включить себе заранее.",
+  "en": "Clear rules keep my money safe: for example, a ban on new loans that I can switch on for myself in advance.",
+  "sig_ru": "На 1 августа 2026 года самозапрет на кредиты действует у 21,7 млн россиян.",
+  "sig_en": "As of 1 August 2026, 21.7 million Russians have an active self-ban on loans.",
+  "src": "https://finuslugi.ru/navigator/news/novosti_bankovskoj_otrasli/nbki-kolichestvo-samozapretov-na-kredity-vyroslo-na-35-chto-izmenilos-v-iyule",
+  "date": "2026-08"
+ },
+ "F2-ДС": {
+  "ru": "Мой ИИ-помощник может покупать, но только в пределах, которые задаю я.",
+  "en": "My AI assistant can make purchases, but only within limits I set.",
+  "sig_ru": "Mastercard Agent Pay даёт ИИ-агентам виртуальные карты: покупки только в пределах, которые задал владелец.",
+  "sig_en": "Mastercard Agent Pay gives AI agents virtual cards that can only spend within limits the cardholder sets.",
+  "src": "https://cryptobriefing.com/mastercard-ai-payment-agentic-commerce/",
+  "date": "2026"
+ },
+ "F2-ДЗ": {
+  "ru": "Мы с семьёй решаем, на что тратить: многое берём на время у соседей, а деньги идут на то, что для нас по-настоящему важно.",
+  "en": "My family and I decide what to spend on: we borrow a lot from neighbours, and money goes to what really matters to us.",
+  "sig_ru": "Библиотека вещей Share Bristol: больше 1285 участников и 2430 вещей, которые можно взять на время.",
+  "sig_en": "Share Bristol's Library of Things: 1,285+ members and 2,430+ items to borrow.",
+  "src": "https://www.bristol247.com/business/better-business/share-bristols-library-of-things-membership-marks-milestone/",
+  "date": "2026-06"
+ },
+ "F3-ЦС": {
+  "ru": "Не хочу отказывать себе сегодня: крупное беру частями, а понемногу копится само.",
+  "en": "I don't want to deny myself today: big things I pay in instalments, and small savings build up on their own.",
+  "sig_ru": "Рынок оплаты частями в России за 2025 год вырос в 2,5 раза, до 940 млрд рублей; с апреля 2026-го он регулируется законом.",
+  "sig_en": "Russia's buy-now-pay-later market grew 2.5x in 2025 to 940 bn roubles; since April 2026 it is regulated by law.",
+  "src": "https://www.sostav.ru/publication/obem-rynka-servisov-oplaty-pokupok-chastyami-vyros-v-dva-raza-81423.html",
+  "date": "2026"
+ },
+ "F3-ЦЗ": {
+  "ru": "Коплю по долгому плану на большие цели вроде жилья и учёбы детей, а государство добавляет к моим взносам.",
+  "en": "I save on a long-term plan for big goals like a home or the kids' education, and the state tops up my contributions.",
+  "sig_ru": "Программа долгосрочных сбережений: к середине 2026 года заключено больше 12 млн договоров.",
+  "sig_en": "Russia's long-term savings programme: over 12 million contracts by mid-2026.",
+  "src": "https://finuslugi.ru/navigator/investirovat/stat_nakopitelnyy-schet-privyazka-k-karte-upravlenie-dengi",
+  "date": "2026"
+ },
+ "F3-ДС": {
+  "ru": "Капитал собирается сам: каждый месяц часть дохода автоматически уходит в инвестиции, которые выбираю я.",
+  "en": "Capital builds itself: each month part of my income goes automatically into investments I choose.",
+  "sig_ru": "За первое полугодие 2026 года частные инвесторы вложили на Мосбирже почти 1,5 трлн рублей, на 70% больше, чем годом раньше.",
+  "sig_en": "In H1 2026 private investors put almost 1.5 trillion roubles into the Moscow Exchange, up 70% year on year.",
+  "src": "https://1prime.ru/20260708/mosbirzha-871375087.html",
+  "date": "2026-07"
+ },
+ "F3-ДЗ": {
+  "ru": "Богатство для нас — то, что переходит дальше: в семье открыто говорим о деньгах и наследстве и учим этому детей.",
+  "en": "Wealth for us is what gets passed on: as a family we talk openly about money and inheritance and teach the kids.",
+  "sig_ru": "До 2048 года наследникам в США перейдёт около $124 трлн, но две трети состоятельных семей откладывают разговор о наследстве.",
+  "sig_en": "About $124 trillion will pass to US heirs by 2048, yet two-thirds of wealthy families delay the inheritance talk.",
+  "src": "https://brokerchooser.com/news/why-silent-families-lose-generational-wealth--1e87d049",
+  "date": "2026"
+ },
+ "F4-ЦС": {
+  "ru": "Если мою работу заберёт машина, меня подхватит страховка, и сработает она сама.",
+  "en": "If a machine takes my job, insurance will catch me, and it pays out automatically.",
+  "sig_ru": "Появилась страховка дохода на случай, если работу заберёт ИИ: выплата срабатывает автоматически по данным.",
+  "sig_en": "Income cover for jobs lost to AI has appeared, paying out automatically on data triggers.",
+  "src": "https://www.artemis.bm/news/artificial-intelligence-taken-your-job-theres-a-parametric-insurance-policy-for-that",
+  "date": "2025"
+ },
+ "F4-ЦЗ": {
+  "ru": "Подушку на чёрный день помогает собрать работодатель: часть денег откладывается прямо из зарплаты.",
+  "en": "My employer helps me build a rainy-day fund: part of my pay is set aside automatically.",
+  "sig_ru": "Gallagher, 2026: у больше чем половины работников в США нет финансовой подушки, а резервные фонды на работе предлагают лишь 5% работодателей.",
+  "sig_en": "Gallagher, 2026: over half of US workers have no emergency cushion, and only 5% of employers offer a savings programme.",
+  "src": "https://www.insurancebusinessmag.com/us/news/benefits/more-than-half-of-us-workers-have-no-emergency-cushion-and-few-employers-offer-one-593641.aspx",
+  "date": "2026-10"
+ },
+ "F4-ДС": {
+  "ru": "Держу запас на несколько месяцев жизни по своим правилам: это моя свобода сказать «нет».",
+  "en": "I keep a few months of living costs on my own terms: it's my freedom to say no.",
+  "sig_ru": "Половине работников в США не хватает подушки даже на три месяца.",
+  "sig_en": "Half of US workers lack even a three-month cushion.",
+  "src": "https://www.hcamag.com/us/specialization/benefits/emergency-savings-half-of-workers-lack-a-three-month-cushion/593891",
+  "date": "2026-10"
+ },
+ "F4-ДЗ": {
+  "ru": "Мы в семье заранее договорились, кто подхватит счета и документы, если со мной что-то случится.",
+  "en": "As a family we agreed in advance who takes over the bills and documents if something happens to me.",
+  "sig_ru": "На Госуслугах можно назначить доверенное лицо, которое подтверждает смену пароля вместе с владельцем аккаунта.",
+  "sig_en": "On Russia's Gosuslugi portal you can name a trusted person who co-confirms changes to your account.",
+  "src": "https://evening-kazan.ru/obshhestvo/news/na-gosuslugah-vvedut-funkciyu-doverennogo-lica-dlya-podtverzhdeniya-smeny-parolya",
+  "date": "2025"
+ },
+ "E1-ЦС": {
+  "ru": "Учёба ради корочки для меня больше не цель: нужное под задачу объясняет ИИ, а остальное можно не держать в голове.",
+  "en": "Studying for a certificate is no longer my goal: AI explains what I need for the task, and the rest I don't have to memorise.",
+  "sig_ru": "За год все три крупные ИИ-лаборатории выпустили учебные режимы, которые задают вопросы вместо готовых ответов: ChatGPT, Gemini и Claude.",
+  "sig_en": "Within a year all three major AI labs shipped study modes that ask questions instead of giving answers: ChatGPT, Gemini and Claude.",
+  "src": "https://glasp.ai/articles/ai-study-modes-compared",
+  "date": "2026"
+ },
+ "E1-ЦЗ": {
+  "ru": "Хочу по-настоящему разбираться в теме, поэтому учусь по большой программе, общей для всего мира, а занятия идут в городском фаблабе.",
+  "en": "I want to truly understand a subject, so I follow a big programme shared worldwide, with classes in my city's fab lab.",
+  "sig_ru": "Fab Academy: единая глобальная программа работает через локальные мастерские (из базы сигналов сада)",
+  "sig_en": "Fab Academy: one global programme runs through local workshops (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-010",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-010"
+ },
+ "E1-ДС": {
+  "ru": "Учусь тому, что нужно моей жизни и делу прямо сейчас, и план учёбы строю вокруг своего проекта.",
+  "en": "I learn what my life and work need right now, and build my study plan around my own project.",
+  "sig_ru": "College Unbound: взрослый сам строит план обучения вокруг своей жизни и проекта (из базы сигналов сада)",
+  "sig_en": "College Unbound: adults build their study plan around their own life and project (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-027",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-027"
+ },
+ "E1-ДЗ": {
+  "ru": "Учусь из любопытства, а не ради денег: копаю тему в книгах и архивах и обсуждаю её в учебном круге таких же увлечённых.",
+  "en": "I learn out of curiosity, not for money: I dig into a topic in books and archives and discuss it in a study circle of fellow enthusiasts.",
+  "sig_ru": "P2PU Learning Circles: учебную группу может вести человек, который не эксперт (из базы сигналов сада)",
+  "sig_en": "P2PU Learning Circles: a study group can be led by a non-expert (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-025",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-025"
+ },
+ "E2-ЦС": {
+  "ru": "Навык тренирую с приложением понемногу каждый день, а разговаривать учусь с ИИ-собеседником.",
+  "en": "I practise a skill with an app a little every day, and learn to speak with an AI conversation partner.",
+  "sig_ru": "У Duolingo 64,9 млн человек в день, и компания открывает видеозвонки с ИИ-собеседником всё большему числу учеников.",
+  "sig_en": "Duolingo has 64.9M daily users and is opening AI video-call conversation practice to far more learners.",
+  "src": "https://www.customerexperiencedive.com/news/duolingo-ceo-monetize-without-degrading-free-user-experience/873877/",
+  "date": "2026-11"
+ },
+ "E2-ЦЗ": {
+  "ru": "Настоящему делу учусь у мастера на реальных задачах и получаю признание без диплома.",
+  "en": "I learn real work from a master on real tasks and gain recognition without a diploma.",
+  "sig_ru": "Solar Mamas: сельские женщины без формального образования получают статус инженеров через практику (из базы сигналов сада)",
+  "sig_en": "Solar Mamas: rural women without formal schooling become engineers through practice (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-016",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-016"
+ },
+ "E2-ДС": {
+  "ru": "Нужное для дела осваиваю по видео и собственным упражнениям, пока не начнёт получаться.",
+  "en": "I learn what my work needs from videos and my own exercises until it starts to click.",
+  "sig_ru": "Exercises in Learning: печатный станок собран по знаниям только из YouTube (из базы сигналов сада)",
+  "sig_en": "Exercises in Learning: a printing press built from YouTube knowledge alone (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-021",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-021"
+ },
+ "E2-ДЗ": {
+  "ru": "Берусь за то, чего ещё не умею, и учусь у самой задачи и у тех, кто рядом, а не у лектора.",
+  "en": "I take on what I can't do yet and learn from the task itself and the people around me, not from a lecturer.",
+  "sig_ru": "Школа 42: нет лекций и преподавателей, знания добывают у задачи и у других студентов (из базы сигналов сада)",
+  "sig_en": "School 42: no lectures or teachers; you learn from the task and from fellow students (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-029",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-029"
+ },
+ "E3-ЦС": {
+  "ru": "Всё, чему я учусь и что делаю на работе, само складывается в одну проверяемую цифровую историю, и она открывает двери.",
+  "en": "Everything I learn and do at work adds up to one verifiable digital record, and it opens doors.",
+  "sig_ru": "Comprehensive Learner Record: учёба и работа собираются в одну проверяемую цифровую историю (из базы сигналов сада)",
+  "sig_en": "Comprehensive Learner Record: learning and work combine into one verifiable digital record (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-008",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-008"
+ },
+ "E3-ЦЗ": {
+  "ru": "Мне важно мнение опытного преподавателя: он разбирает мою работу и показывает, куда расти.",
+  "en": "A seasoned teacher's view matters to me: they review my work and show where to grow.",
+  "sig_ru": "Gallup, 2026: 58% учителей в США не получили никаких правил, как использовать ИИ для оценки и обратной связи, — правила только складываются.",
+  "sig_en": "Gallup, 2026: 58% of US teachers have had no guidance on using AI for grading and feedback; the rules are still forming.",
+  "src": "https://www.edweek.org/technology/teachers-say-lack-of-ai-guidance-is-a-major-problem/2026/05",
+  "date": "2026-05"
+ },
+ "E3-ДС": {
+  "ru": "Мои навыки подтверждает не диплом, а портфолио и цифровые значки, которые я забираю с собой куда угодно.",
+  "en": "My skills are proven not by a diploma but by a portfolio and digital badges I take anywhere.",
+  "sig_ru": "Open Badges 3.0: навык превращается в переносимую проверяемую запись (из базы сигналов сада)",
+  "sig_en": "Open Badges 3.0: a skill becomes a portable, verifiable record (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-007",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-007"
+ },
+ "E3-ДЗ": {
+  "ru": "Хочу, чтобы мой вклад был настоящим: участвую в исследованиях, а оценивают их те, кто тоже в теме.",
+  "en": "I want my contribution to be real: I take part in research, and it's judged by people who know the field.",
+  "sig_ru": "Citizen Science in Education: школьники становятся участниками настоящего производства знания (из базы сигналов сада)",
+  "sig_en": "Citizen Science in Education: pupils take part in producing real scientific knowledge (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-033",
+  "date": "2025",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-033"
+ },
+ "K1-ЦС": {
+  "ru": "Быть парой больше не значит жить под одной крышей: у каждого свой дом и ритм, а вместе мы тогда, когда это удобно обоим.",
+  "en": "Being a couple no longer means sharing a roof: each has their own home and rhythm, and we are together when it suits us both.",
+  "sig_ru": "Нидерланды, CBS: 10% взрослых живут в паре, но раздельно (в 2013-м было 8%).",
+  "sig_en": "Netherlands, CBS: 10% of adults are in a couple but live apart (8% in 2013).",
+  "src": "https://www.dutchnews.nl/2026/08/more-dutch-adults-are-single-or-living-apart-says-cbs/",
+  "date": "2026-08"
+ },
+ "K1-ЦЗ": {
+  "ru": "Большая семья снова живёт рядом, а то и под одной крышей, и в трудный момент опора — свои.",
+  "en": "The extended family lives close again, sometimes under one roof, and in hard times we lean on our own.",
+  "sig_ru": "Realtor.com: в США почти 4 млн домохозяйств из трёх поколений, за десять лет их стало на 700 тысяч больше.",
+  "sig_en": "Realtor.com: nearly 4M US households now span three generations, up 700,000 in about a decade.",
+  "src": "https://www.barchart.com/story/news/1704281/nearly-4-million-american-homes-now-house-multiple-generations-new-realtor-com-report-finds",
+  "date": "2026-05"
+ },
+ "K1-ДС": {
+  "ru": "Даже в паре у меня есть своё пространство, своя спальня и свои планы, а время вместе мы выбираем, а не отбываем.",
+  "en": "Even in a couple I have my own space, my own bedroom and my own plans, and our time together is chosen, not endured.",
+  "sig_ru": "Академия медицины сна США: 31% взрослых спят отдельно от партнёра, среди 35–44-летних 39%.",
+  "sig_en": "American Academy of Sleep Medicine: 31% of US adults sleep apart from their partner, 39% among 35–44-year-olds.",
+  "src": "https://aasm.org/new-survey-data-sleep-divorce/",
+  "date": "2025"
+ },
+ "K1-ДЗ": {
+  "ru": "Семья для меня — это те, кого мы выбрали сами: у нас с друзьями и родными свои праздники и свои правила заботы.",
+  "en": "Family to me is the people we chose: with friends and relatives we have our own holidays and our own ways of caring.",
+  "sig_ru": "Великобритания: 30% празднуют «Friendmas» с выбранной семьёй, среди поколения Z почти половина.",
+  "sig_en": "UK: 30% celebrate \"Friendmas\" with their chosen family; among Gen Z almost half.",
+  "src": "https://www.ypulse.com/newsfeed/2025/12/17/friendsgiving-celebrations-are-as-popular-among-young-adults-as-the-millennials-who-invented-them/",
+  "date": "2025-12"
+ },
+ "K2-ЦС": {
+  "ru": "Ребёнок не ставит мою жизнь на паузу: сад, няня на дни болезни и гибкий график входят в пакет работодателя.",
+  "en": "Having a child doesn't pause my life: nursery, a sick-day nanny and flexible hours come with my employer's package.",
+  "sig_ru": "KinderCare: 99% компаний из Fortune 500 уже дают сотрудникам какую-то поддержку с детским уходом.",
+  "sig_en": "KinderCare: 99% of Fortune 500 companies already offer some form of childcare benefit.",
+  "src": "https://www.businesswire.com/news/home/20250115469640/en",
+  "date": "2025-01"
+ },
+ "K2-ЦЗ": {
+  "ru": "Дети растут в кругу всей семьи: бабушки, дедушки и мы делим будни по общему расписанию.",
+  "en": "Kids grow up surrounded by the whole family: grandparents and we share the weekdays on a common schedule.",
+  "sig_ru": "AARP: 69% бабушек и дедушек в США регулярно сидят с внуками, 15% каждый день.",
+  "sig_en": "AARP: 69% of US grandparents provide childcare, 15% daily.",
+  "src": "https://gcn.com/?p=22804",
+  "date": "2026"
+ },
+ "K2-ДС": {
+  "ru": "Образование ребёнка я собираю как конструктор: маленькая школа рядом, онлайн-курсы и наставник под его интересы.",
+  "en": "I build my child's education like a construction kit: a small school nearby, online courses and a mentor for their interests.",
+  "sig_ru": "В США около 75 тысяч микрошкол, в них учатся примерно 1,5 млн детей.",
+  "sig_en": "The US has an estimated 75,000 microschools serving about 1.5 million students.",
+  "src": "https://www.k12dive.com/news/what-you-need-to-know--about-microschools/827601/",
+  "date": "2026-05"
+ },
+ "K2-ДЗ": {
+  "ru": "Мы с ребёнком вместе выбираем, что исследовать, и его настоящие проекты засчитываются как учёба.",
+  "en": "My child and I choose together what to explore, and their real projects count as schooling.",
+  "sig_ru": "Sora Schools: сначала проект ученика, потом школа определяет, какие зачёты в нём появились (из базы сигналов сада)",
+  "sig_en": "Sora Schools: the student's project comes first, then the school maps the credits inside it (from the garden signal base)",
+  "src": "https://futuredecoder.org/materialy/signaly/obrazovanie/sig-edu-040",
+  "date": "сад",
+  "src_en": "https://futuredecoder.org/en/materials/signals/education-signals/sig-edu-040"
+ },
+ "K3-ЦС": {
+  "ru": "За пожилыми родными присматривает умный дом: если что-то не так, помощь приезжает раньше, чем я успеваю узнать.",
+  "en": "A smart home watches over my elderly relatives: if something is wrong, help arrives before I even find out.",
+  "sig_ru": "Сеул, район Тонджак: круглосуточный мониторинг одиноких пожилых через датчики ИИ и интернета вещей.",
+  "sig_en": "Seoul, Dongjak district: 24-hour AI and IoT sensor monitoring of isolated older residents.",
+  "src": "https://www.asiae.co.kr/en/article/2025082908105910214",
+  "date": "2025-08"
+ },
+ "K3-ЦЗ": {
+  "ru": "Заботу о родителях мы делим всей семьёй, а работа и закон дают на это время.",
+  "en": "We share caring for our parents as a family, and work and the law give us time for it.",
+  "sig_ru": "Великобритания: каждый пятый работник ухаживает за близким, неделя отпуска по уходу уже есть, оплачиваемый отпуск обсуждают.",
+  "sig_en": "UK: one in five employees is a carer; a week of unpaid carer's leave exists and paid leave is under review.",
+  "src": "https://www.theemploymentlawsolicitors.co.uk/news/2026/11/15/working-carers-7/",
+  "date": "2026-11"
+ },
+ "K3-ДС": {
+  "ru": "Когда близкому плохо, я собираю помощь под него: врачи приходят домой, а еда и дорога — отдельными сервисами.",
+  "en": "When someone close is unwell, I assemble help around them: doctors come home, food and transport come as separate services.",
+  "sig_ru": "Шотландия: за январь–март 2026 года «больница на дому» приняла 17 768 пациентов.",
+  "sig_en": "Scotland: Hospital at Home services managed 17,768 patients in January–March 2026.",
+  "src": "https://www.healthcareimprovementscotland.scot/?p=25442",
+  "date": "2026-03"
+ },
+ "K3-ДЗ": {
+  "ru": "В нашем доме помощь ходит по кругу: сегодня я выручаю соседа, завтра выручат меня.",
+  "en": "In our building help goes around in a circle: today I help a neighbour, tomorrow someone helps me.",
+  "sig_ru": "Timebanking UK: 165 банков времени, 342 434 обмена помощью за год.",
+  "sig_en": "Timebanking UK: 165 time banks and 342,434 exchanges of help in a year.",
+  "src": "https://timebanking.org/?p=9525",
+  "date": "2025"
+ },
+ "C1-ЦС": {
+  "ru": "Всё нужное — в пятнадцати минутах пешком, и машина мне больше не нужна.",
+  "en": "Everything I need is a fifteen-minute walk away, and I no longer need a car.",
+  "sig_ru": "Ташкент: к 2027 году 100 махаллей перестроят по принципу «всё нужное в 15 минутах пешком», к 2030-му 400.",
+  "sig_en": "Tashkent: 100 neighbourhoods to be rebuilt on the 15-minute principle by 2027, 400 by 2030.",
+  "src": "https://daryo.uz/en/2026/11/02/tashkent-plans-to-renovate-100-neighborhoods-by-2027/",
+  "date": "2026-11"
+ },
+ "C1-ЦЗ": {
+  "ru": "Мне важно прирасти к месту: в новом районе знакомлюсь с соседями через библиотеку вещей и местные события.",
+  "en": "I want to put down roots: in a new area I meet neighbours through the library of things and local events.",
+  "sig_ru": "Библиотека вещей в Твикенеме (Лондон): больше 1000 жителей берут инструменты вместо покупки.",
+  "sig_en": "Twickenham Library of Things (London): over 1,000 residents borrow tools instead of buying.",
+  "src": "https://www.richmond.gov.uk/news/partner_comment_spot/partner_comment_spot_archive/partner_comment_spot_2026/library_of_things_blog",
+  "date": "2026-05"
+ },
+ "C1-ДС": {
+  "ru": "Жизнь у меня переносная: работа всегда со мной, а город меняю, когда захочется.",
+  "en": "My life is portable: work comes with me, and I change cities when I feel like it.",
+  "sig_ru": "В Европе почти 400 коливингов в 160 с лишним городах почти 30 стран.",
+  "sig_en": "Europe now has nearly 400 coliving spaces across 160+ cities in almost 30 countries.",
+  "src": "https://allwork.space/?p=1047879",
+  "date": "2026-08"
+ },
+ "C1-ДЗ": {
+  "ru": "Есть место, куда всегда можно вернуться: родной город, где дети слышат истории нашей семьи.",
+  "en": "There is a place I can always return to: my hometown, where the kids hear our family's stories.",
+  "sig_ru": "США: после 2020 года 63% сельских и малых округов прибавили жителей 25–44 лет (в начале 2010-х было 27%).",
+  "sig_en": "US: since 2020, 63% of rural and small-metro counties gained 25–44-year-olds (27% in the early 2010s).",
+  "src": "https://www.yahoo.com/news/young-americans-going-country-reversing-093102821.html",
+  "date": "2024"
+ },
+ "C2-ЦС": {
+  "ru": "Дом сам замечает поломку и вызывает мастера раньше, чем я что-то увижу.",
+  "en": "My home spots a fault and calls a repair person before I notice anything.",
+  "sig_ru": "Рынок «умных» зданий с предиктивным обслуживанием в 2026 году оценивают в $121 млрд, рост 23% в год.",
+  "sig_en": "The smart-building market with predictive maintenance is put at $121B in 2026, growing 23% a year.",
+  "src": "https://oxmaint.com/industries/property-management/property-managers-iot-sensors-predict-prevent-maintenance-failures",
+  "date": "2026-05"
+ },
+ "C2-ЦЗ": {
+  "ru": "Если с услугой спор, моё дело ведёт независимый специалист, и до суда доходить не нужно.",
+  "en": "If I have a dispute with a service, an independent specialist handles my case and it never needs to reach court.",
+  "sig_ru": "ЕС: новая директива 2025/2647 расширяет досудебное урегулирование потребительских споров на цифровые рынки.",
+  "sig_en": "EU: the new Directive 2025/2647 extends out-of-court consumer dispute resolution to digital markets.",
+  "src": "https://cm.twobirds.com/en/insights/2026/eu-the-new-alternative-dispute-resolution-framework--directive-20252647",
+  "date": "2026"
+ },
+ "C2-ДС": {
+  "ru": "На случай сбоев у меня свой запасной план: резервный интернет и нужные контакты под рукой.",
+  "en": "For outages I have my own backup plan: a spare internet line and the right contacts at hand.",
+  "sig_ru": "Starlink: 13,6 млн домашних абонентов в мире к концу III квартала 2026 года, плюс 1,6 млн за квартал.",
+  "sig_en": "Starlink: 13.6M consumer subscribers worldwide at the end of Q3 2026, up 1.6M in the quarter.",
+  "src": "https://broadbandbreakfast.com/starlink-reaches-13-6-million-subscribers-globally-as-spacex-revenue-jumps-161/",
+  "date": "2026-10"
+ },
+ "C2-ДЗ": {
+  "ru": "Свет и тепло для нашего дома мы с соседями производим и делим сами, и сами решаем как.",
+  "en": "My neighbours and I produce and share the power and heat for our building, and decide how ourselves.",
+  "sig_ru": "В Европе уже больше 8000 энергетических сообществ, где жители сами производят и делят энергию.",
+  "sig_en": "Europe already has over 8,000 energy communities where residents produce and share their own power.",
+  "src": "https://social-economy-gateway.ec.europa.eu/topics-focus/energy-communities_en",
+  "date": "2026"
+ },
+ "C3-ЦС": {
+  "ru": "За чистым воздухом и водой в доме круглые сутки следит управляющая система, и мне не нужно об этом думать.",
+  "en": "A building system watches over clean air and water around the clock, so I don't have to think about it.",
+  "sig_ru": "Сервисы климатических систем с удалённой диагностикой: $12,8 млрд в 2026 году, к 2030-му прогноз $25 млрд.",
+  "sig_en": "IoT-enabled HVAC services: $12.8B in 2026, forecast to reach $25B by 2030.",
+  "src": "https://building-technologies.messefrankfurt.com/frankfurt/en/media-library/whitepapers-studies/iot-driven-hvac-services-for-sustainable-buildings.html",
+  "date": "2026"
+ },
+ "C3-ЦЗ": {
+  "ru": "Чистота вокруг — общее дело: весь дом сортирует отходы, и это уже просто норма.",
+  "en": "A clean neighbourhood is a shared job: the whole building sorts its waste, and it's simply the norm now.",
+  "sig_ru": "Москва: за полгода 2026-го жители сдали в контейнеры-колокола больше 2,8 тыс. тонн пластика и стекла.",
+  "sig_en": "Moscow: in the first half of 2026 residents put over 2,800 tonnes of plastic and glass into recycling bells.",
+  "src": "https://www.mos.ru/news/item/173780073/",
+  "date": "2026"
+ },
+ "C3-ДС": {
+  "ru": "Дома слежу за воздухом по своему датчику и очищаю его, не дожидаясь, пока это сделает город.",
+  "en": "At home I track the air with my own sensor and clean it, without waiting for the city to do it.",
+  "sig_ru": "PurpleAir: больше 25 тысяч домашних датчиков воздуха передают данные на открытую карту.",
+  "sig_en": "PurpleAir: over 25,000 home air sensors feed an open public map.",
+  "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12339596/",
+  "date": "2025"
+ },
+ "C3-ДЗ": {
+  "ru": "Хочу жить рядом с природой и быть её частью: выращиваю свою еду, а работаю из дома, где хороший интернет.",
+  "en": "I want to live close to nature and be part of it: I grow my own food and work from a home with good internet.",
+  "sig_ru": "США, 2026: интерес к самообеспечению и жизни на земле растёт, покупатели ищут участки с хорошим интернетом.",
+  "sig_en": "US, 2026: interest in self-sufficiency and rural land keeps growing, with buyers seeking plots with good internet.",
+  "src": "https://www.landhub.com/land-news/the-new-american-dream-why-space-and-selfsufficiency-matter-more-in-2026",
+  "date": "2026-06"
+ },
+ "C4-ЦС": {
+  "ru": "Решения по дому принимает совет, а я голосую онлайн и вижу все отчёты в телефоне.",
+  "en": "The building council makes the decisions, and I vote online and see every report on my phone.",
+  "sig_ru": "Москва: через «Электронный дом» провели больше 22 тысяч онлайн-собраний собственников.",
+  "sig_en": "Moscow: over 22,000 owners' meetings have been held online via the \"Electronic House\" platform.",
+  "src": "https://www.mos.ru/news/item/155344073/",
+  "date": "2025"
+ },
+ "C4-ЦЗ": {
+  "ru": "Наш общий голос — человек, которому мы доверяем: старший по дому собирает мнения и выносит решение на онлайн-голосование.",
+  "en": "Our shared voice is someone we trust: the building head gathers views and puts decisions to an online vote.",
+  "sig_ru": "Россия: собственники могут голосовать на общих собраниях через госуслуги, система сама ведёт протокол.",
+  "sig_en": "Russia: homeowners can vote at building meetings via the Gosuslugi portal, which keeps the minutes itself.",
+  "src": "https://ppt.ru/news/jkh/pri-onlayn-sobranii-sobstvennikov-bumazhnye-spiski-prisutstvuyushchikh-ne-nuzhny",
+  "date": "2026-08"
+ },
+ "C4-ДС": {
+  "ru": "Влияю точечно: голосую за то, что важно мне, и по фото проверяю, что это сделали.",
+  "en": "I make my influence count where it matters: I vote for what I care about and check the photos to see it was done.",
+  "sig_ru": "Россия, 2026: в онлайн-голосовании за объекты благоустройства участвовали 15,8 млн человек.",
+  "sig_en": "Russia, 2026: 15.8M people voted online for public-space improvement projects.",
+  "src": "https://mintrans.gov.ru/eye/press-center/branch-news/8859",
+  "date": "2026"
+ },
+ "C4-ДЗ": {
+  "ru": "Часть денег района мы с соседями тратим сами: придумываем проект и голосуем за него.",
+  "en": "My neighbours and I spend part of the district's money ourselves: we come up with a project and vote for it.",
+  "sig_ru": "Узбекистан, «Инициативный бюджет» 2026: 10,1 млн голосов, 2195 проектов-победителей во втором сезоне.",
+  "sig_en": "Uzbekistan, Initiative Budget 2026: 10.1M votes and 2,195 winning projects in the second season.",
+  "src": "https://anhor.uz/ru/news/iniciativnyj-byudzhet-2026-sezon-zavershilsya",
+  "date": "2026-09"
+ },
+ "B1-ЦС": {
+  "ru": "Живу в доме-сервисе: одно приложение открывает дверь, платит аренду и вызывает уборку.",
+  "en": "I live in a service building: one app opens the door, pays the rent and books the cleaning.",
+  "sig_ru": "США, 2026: в новых арендных домах ставят на «жизнь без трения» и гостиничные сервисы через приложения.",
+  "sig_en": "US, 2026: new rental buildings bet on \"frictionless living\" and hotel-style services through apps.",
+  "src": "https://multihousingnews.com/how-to-win-the-multifamily-amenities-race-in-2026",
+  "date": "2026"
+ },
+ "B1-ЦЗ": {
+  "ru": "Квартира поменьше, зато в центре: встречи, выставки и друзья — в шаге от дома.",
+  "en": "A smaller flat, but in the centre: meetings, exhibitions and friends are a step from home.",
+  "sig_ru": "NAR, 2026: 59% американцев выбирают участок поменьше в пешеходном районе вместо большого с поездками на машине.",
+  "sig_en": "NAR, 2026: 59% of Americans prefer a smaller lot in a walkable area over a bigger one that needs driving.",
+  "src": "https://www.nar.realtor/newsroom/new-nar-survey-finds-americans-value-neighborhood-walkability",
+  "date": "2026-07"
+ },
+ "B1-ДС": {
+  "ru": "Жильё не держит меня на месте: снимаю там, где сейчас интересно, и переезжаю, когда меняются планы.",
+  "en": "My home doesn't tie me down: I rent wherever is interesting now and move when plans change.",
+  "sig_ru": "Испания: гибкое жильё заполнено на 94%, число мест в коливингах удвоится к 2028 году.",
+  "sig_en": "Spain: flex-living occupancy is about 94%, and coliving beds are set to double by 2028.",
+  "src": "https://www.pulse.bot/real-estate/blogs/barcelonas-coliving-war-erupts-patron-puts-400m-spanish-platform-on-the-block-pew-says-office-to-col-352e8fe7-f38f-443a-a37a-0b3e144f87b0/",
+  "date": "2026-03"
+ },
+ "B1-ДЗ": {
+  "ru": "Живу в доме за городом, где есть мастерская с 3D-принтером, огород и всё устроено по-нашему.",
+  "en": "I live in a house outside the city with a workshop and 3D printer, a vegetable patch and everything arranged our way.",
+  "sig_ru": "Опрос Homesteaders of America 2026: новых «хоумстедеров» больше, чем в 2022-м, и всё больше покупают землю.",
+  "sig_en": "Homesteaders of America 2026 survey: more new homesteaders than in 2022, and more are buying land.",
+  "src": "https://homesteadersofamerica.com/2026-homesteading-statistics-demographics-survey-results/",
+  "date": "2026"
+ },
+ "B2-ЦС": {
+  "ru": "Быт работает как подписка: еда, уборка и стирка появляются сами, и я о них почти не думаю.",
+  "en": "Housework runs like a subscription: food, cleaning and laundry just appear, and I barely think about them.",
+  "sig_ru": "Индия: сеть дарксторов Blinkit, Instamart и Zepto выросла за год с 3405 до 5026 точек.",
+  "sig_en": "India: the dark-store network of Blinkit, Instamart and Zepto grew from 3,405 to 5,026 sites in a year.",
+  "src": "https://apparelresources.com/business-news/retail/indias-q-commerce-market-grow-40-2026-report/",
+  "date": "2026-05"
+ },
+ "B2-ЦЗ": {
+  "ru": "О доме заботятся люди, которым мы доверяем: они знают привычки семьи и держат порядок вместе с нами.",
+  "en": "People we trust look after our home: they know the family's habits and keep things in order with us.",
+  "sig_ru": "WSJ, 2026: работающие пары в США всё чаще собирают домашнюю команду: помощник, повар, няня на выходные.",
+  "sig_en": "WSJ, 2026: dual-income US parents increasingly assemble home teams: an assistant, a chef, a weekend nanny.",
+  "src": "https://view.asiae.co.kr/en/article/2026072014425951697",
+  "date": "2026-07"
+ },
+ "B2-ДС": {
+  "ru": "Рутину дома делает техника, а я решаю, что, когда и как ей делать.",
+  "en": "Machines do the household routine, and I decide what, when and how.",
+  "sig_ru": "Домашний робот-гуманоид 1X NEO: $20 тыс. или $499 в месяц по подписке, поставки в США в 2026 году.",
+  "sig_en": "1X NEO home humanoid: $20,000 or $499 a month by subscription, US deliveries in 2026.",
+  "src": "https://www.notebookcheck.net/1X-opens-pre-orders-for-20-000-NEO-humanoid-home-robot.1149203.0.html",
+  "date": "2026"
+ },
+ "B2-ДЗ": {
+  "ru": "Дом — общее дело: готовим и убираем вместе, и это часть того, как мы проводим время.",
+  "en": "Home is a shared project: we cook and clean together, and it's part of how we spend our time.",
+  "sig_ru": "IHA, 2026: 28% американцев собираются чаще звать гостей домой, среди поколения Z 47%.",
+  "sig_en": "IHA, 2026: 28% of Americans plan to host more gatherings at home, 47% of Gen Z.",
+  "src": "https://theshelbyreport.com/2026/02/24/iha-survey-consumers-plan-to-host-more-at-home-gatherings-in-2026",
+  "date": "2026-02"
+ },
+ "B3-ЦС": {
+  "ru": "Одежду мне подбирает сервис и сразу показывает на моём фото, так что долго выбирать больше не нужно.",
+  "en": "A service picks my clothes and shows them on my photo right away, so I no longer spend ages choosing.",
+  "sig_ru": "Stitch Fix: клиенты, которые пользуются ИИ-примеркой Vision, за 90 дней тратят вдвое больше.",
+  "sig_en": "Stitch Fix: clients who use its AI styling tool Vision more than double their spend over 90 days.",
+  "src": "https://www.digitalcommerce360.com/2026/06/26/stitch-fix-vision-ai-tool-see-it-on-me/",
+  "date": "2026-06"
+ },
+ "B3-ЦЗ": {
+  "ru": "Беру добротные вещи надолго: если что-то сломалось, чиню по гарантии, и закон на моей стороне.",
+  "en": "I buy well-made things to last: if something breaks I get it repaired under warranty, and the law is on my side.",
+  "sig_ru": "ЕС: с 31 июля 2026 года действует право на ремонт, выбор ремонта продлевает гарантию на год.",
+  "sig_en": "EU: the right to repair applies from 31 July 2026; choosing repair extends the warranty by a year.",
+  "src": "https://www.iamexpat.nl/expat-info/dutch-news/eu-right-repair-pushes-manufacturers-repair-devices-even-after-warranty",
+  "date": "2026-07"
+ },
+ "B3-ДС": {
+  "ru": "Покупками занимается мой ИИ-помощник: собирает корзину по моим правилам, а я только подтверждаю.",
+  "en": "My AI assistant does the shopping: it builds the cart by my rules, and I just confirm.",
+  "sig_ru": "Опрос 2000 покупателей в США и Великобритании: 81% тех, кто уже пробовал, готовы доверить ИИ собрать всю корзину.",
+  "sig_en": "Survey of 2,000 US and UK shoppers: 81% of early adopters would let AI build a full cart.",
+  "src": "https://fashionunited.uk/news/retail/ai-shopping-assistants-gain-traction-but-early-missteps-risk-losing-customers/2026020486104",
+  "date": "2026-02"
+ },
+ "B3-ДЗ": {
+  "ru": "Вещей у меня немного, многие с историей и с рук, а деньги трачу на одну по-настоящему любимую.",
+  "en": "I own few things, many second-hand with a story, and spend my money on one I truly love.",
+  "sig_ru": "ThredUp: в 2025 году рынок одежды с рук в США рос почти в 4 раза быстрее рынка новой одежды.",
+  "sig_en": "ThredUp: in 2025 the US secondhand apparel market grew nearly 4x faster than new apparel.",
+  "src": "https://www.retailbrew.com/stories/2026/04/01/resale-is-taking-a-measurable-share-from-new-retail-thredup-reports",
+  "date": "2026-04"
+ },
+ "B4-ЦС": {
+  "ru": "Отдых для меня — смена картинки: короткие готовые поездки и каждый раз новый город.",
+  "en": "Rest for me is a change of scenery: short ready-made trips and a new city every time.",
+  "sig_ru": "Trip.com: бронирования поездок до четырёх дней выросли за год на 34%, особенно в Европе.",
+  "sig_en": "Trip.com: bookings for trips of four days or less are up 34% year on year, especially in Europe.",
+  "src": "https://www.euronews.com/travel/2026/02/18/short-trips-are-on-the-rise-in-europe-heres-where-travellers-are-headed-for-a-long-weekend",
+  "date": "2026-02"
+ },
+ "B4-ЦЗ": {
+  "ru": "Путешествую небольшой компанией с местным проводником, который открывает место изнутри.",
+  "en": "I travel in a small group with a local guide who opens the place up from the inside.",
+  "sig_ru": "Intrepid: продажи туров малыми группами из Канады в сентябре 2026-го выросли на 48% за год.",
+  "sig_en": "Intrepid: Canadian small-group tour sales rose 48% year on year in September 2026.",
+  "src": "https://www.travelmarketreport.com/canada/news/articles/a-big-year-intrepid-sees-48-surge-in-canadian-bookings",
+  "date": "2026-10"
+ },
+ "B4-ДС": {
+  "ru": "Маршрут собираю под себя с ИИ-помощником, а иногда путешествую не выходя из дома, в виртуальной реальности.",
+  "en": "I build my route with an AI assistant, and sometimes I travel without leaving home, in virtual reality.",
+  "sig_ru": "IATA, 2026: 49% пассажиров уже планировали поездку с помощью ИИ.",
+  "sig_en": "IATA, 2026: 49% of passengers have used AI to plan a trip.",
+  "src": "https://www.businesstraveller.com/insights/ai-travel-planning-airline-flight-booking-iata-survey-2026/",
+  "date": "2026-10"
+ },
+ "B4-ДЗ": {
+  "ru": "Не гонюсь за количеством мест: живу в одном городе неделями и узнаю его по-настоящему.",
+  "en": "I don't chase a number of places: I stay in one town for weeks and get to know it properly.",
+  "sig_ru": "США, 2026: бронирования поездок дольше восьми дней выросли за год на 19%, интерес к slow travel рекордный.",
+  "sig_en": "US, 2026: bookings for trips longer than eight days are up 19% year on year; interest in slow travel is at a record.",
+  "src": "https://www.pulse.bot/travel/news/slow-travel-surges-as-americans-ditch-whirlwind-vacations-1b8e4299-7ee7-41ee-9375-b7465228724e/",
+  "date": "2026-05"
+ },
+ "B5-ЦС": {
+  "ru": "Вся моя цифровая жизнь в одном аккаунте, и вхожу я везде по лицу, без паролей.",
+  "en": "My whole digital life is in one account, and I sign in everywhere with my face, no passwords.",
+  "sig_ru": "FIDO Alliance: в мире уже 5 млрд ключей доступа (passkeys), 75% людей включили их хотя бы в одном сервисе.",
+  "sig_en": "FIDO Alliance: 5 billion passkeys are now in use, and 75% of people have enabled one on at least one account.",
+  "src": "https://fidoalliance.org/the-state-of-passkeys-2026-global-consumer-and-workforce-report/",
+  "date": "2026-05"
+ },
+ "B5-ЦЗ": {
+  "ru": "Цифровую безопасность семьи не тяну в одиночку: специалист помогает настроить защиту и учит родителей распознавать мошенников.",
+  "en": "I don't handle my family's digital safety alone: a specialist helps set up protection and teaches my parents to spot scams.",
+  "sig_ru": "AT&T и OATS (AARP) учат пожилых людей защите от мошенников, паролям и работе с ИИ.",
+  "sig_en": "AT&T and OATS from AARP teach older adults about scams, passwords and AI.",
+  "src": "https://about.att.com/blogs/2026/att-oats-connecting-older-adults.html",
+  "date": "2026-10"
+ },
+ "B5-ДС": {
+  "ru": "Мои фото и данные живут у меня, а не у платформы: домашний сервер и свои резервные копии.",
+  "en": "My photos and data live with me, not with a platform: a home server and my own backups.",
+  "sig_ru": "Immich, открытая замена Google Фото на своём сервере: больше 107 тыс. звёзд на GitHub.",
+  "sig_en": "Immich, an open-source self-hosted Google Photos alternative: over 107,000 GitHub stars.",
+  "src": "https://pasqualepillitteri.it/en/news/7853/immich-the-open-source-alternative-to-google-photos",
+  "date": "2026-07"
+ },
+ "B5-ДЗ": {
+  "ru": "Чем меньше обо мне в сети, тем спокойнее: семейные фото только в закрытом альбоме, так мы договорились всей семьёй.",
+  "en": "The less of me online, the calmer I feel: family photos stay in a private album, as we agreed as a family.",
+  "sig_ru": "Италия, 2026: регулятор признал незаконной публикацию фото детей одним родителем без согласия второго.",
+  "sig_en": "Italy, 2026: the data regulator ruled it unlawful for one parent to post children's photos without the other's consent.",
+  "src": "https://pasqualepillitteri.it/en/news/5690/posting-kids-photos-social-media-consent",
+  "date": "2026-04"
+ },
+ "V1-ЦС": {
+  "ru": "Не ищу большой миссии: хочу жить хорошо и пользоваться всем, что даёт мир.",
+  "en": "I'm not looking for a grand mission: I want to live well and enjoy everything the world offers.",
+  "sig_ru": "Booking.com: поиски внутренних поездок в США выросли на 21%, люди выбирают городские выходные ради еды и музыки.",
+  "sig_en": "Booking.com: US domestic accommodation searches up 21%, as people pick city breaks for food and music.",
+  "src": "https://www.hospitalitynet.org/news/4132899/the-great-american-city-break-bookingcom-reveals-domestic-travel-demand-surges-for-summer-2026",
+  "date": "2026-06"
+ },
+ "V1-ЦЗ": {
+  "ru": "Хочу быть частью чего-то большего: вместе с миллионами людей помогаю науке в свободные вечера.",
+  "en": "I want to be part of something bigger: with millions of others I help science in my free evenings.",
+  "sig_ru": "Zooniverse: 3 млн добровольцев сделали миллиард разметок для научных проектов.",
+  "sig_en": "Zooniverse: 3 million volunteers have made one billion classifications for research projects.",
+  "src": "https://cse.umn.edu/node/195036",
+  "date": "2026-06"
+ },
+ "V1-ДС": {
+  "ru": "Мой смысл — расти: беру новые инструменты и делаю то, что ещё вчера было не по силам.",
+  "en": "My purpose is to grow: I pick up new tools and do what was beyond me only yesterday.",
+  "sig_ru": "Zapier, 2026: 34% тех, кто выпускает программы с помощью ИИ, не имеют опыта программирования.",
+  "sig_en": "Zapier, 2026: 34% of people shipping software with AI have no programming background.",
+  "src": "https://zapier.com/blog/building-business-software/",
+  "date": "2026"
+ },
+ "V1-ДЗ": {
+  "ru": "Хочу сохранить что-то ценное для тех, кто придёт после: вместе с соседями записываем голоса и истории нашего района.",
+  "en": "I want to keep something valuable for those who come after: with neighbours we record the voices and stories of our area.",
+  "sig_ru": "Уэйкфилд (Великобритания): проект «Наши истории» с марта 2026-го собирает воспоминания жителей района.",
+  "sig_en": "Wakefield, UK: the \"Our Stories\" project has been collecting residents' memories since March 2026.",
+  "src": "https://www.ageuk.org.uk/wakefielddistrict/about-us/news/articles/articles-2026/oral-histories---wakefield/",
+  "date": "2026-11"
+ },
+ "V5-ЦС": {
+  "ru": "Деньги трачу на то, чтобы освободить голову: быт за меня организуют, а я живу.",
+  "en": "I spend money to free my head: someone organises the household for me, and I get to live.",
+  "sig_ru": "Fortune: сервисы вроде Sage Haus продают работающим парам «управляющего домом», который снимает ментальную нагрузку.",
+  "sig_en": "Fortune: services like Sage Haus sell dual-income families a \"house manager\" to take on the mental load.",
+  "src": "https://fortune.com/2026/11/10/house-managers-sage-haus-mental-load-dual-income-families/",
+  "date": "2026-11"
+ },
+ "V5-ЦЗ": {
+  "ru": "Мне важно принадлежать своему кругу: членство в закрытом клубе говорит обо мне больше, чем вещи.",
+  "en": "Belonging to my circle matters to me: membership in a private club says more about me than things do.",
+  "sig_ru": "Нью-йоркский клуб Zero Bond: в листе ожидания около 10 тысяч человек при паре сотен новых мест в год.",
+  "sig_en": "New York's Zero Bond club has a waitlist of about 10,000 while admitting a few hundred members a year.",
+  "src": "https://privateclubmarketing.com/city-club-comeback-urban-social-clubs-membership-revival/",
+  "date": "2026"
+ },
+ "V5-ДС": {
+  "ru": "Покупаю не вещи, а впечатления: они остаются со мной надолго.",
+  "en": "I buy experiences, not things: they stay with me for a long time.",
+  "sig_ru": "Euromonitor, 2026: больше 55% потребителей в мире ставят впечатления выше вещей.",
+  "sig_en": "Euromonitor, 2026: over 55% of consumers worldwide prioritise experiences over things.",
+  "src": "https://euromonitor.com/article/five-consumer-shifts-redefining-value-connection-and-loyalty-in-2026",
+  "date": "2026"
+ },
+ "V5-ДЗ": {
+  "ru": "В базовом мне хватает немногого, а деньги и время вкладываю в то, что люблю.",
+  "en": "I need little in the basics, and put my money and time into what I love.",
+  "sig_ru": "Assurant: средний возраст сдаваемого в трейд-ин смартфона в США достиг 3,96 года.",
+  "sig_en": "Assurant: the average traded-in smartphone in the US is now 3.96 years old.",
+  "src": "https://www.assurant.com/news-insights/infographics/q2-trade-in-upgrade-data-trends",
+  "date": "2026-08"
+ },
+ "V3-ЦС": {
+  "ru": "Знакомиться легко: приложение собирает незнакомцев за одним столом, а мне остаётся просто прийти.",
+  "en": "Meeting people is easy: an app gathers strangers at one table, and all I do is show up.",
+  "sig_ru": "Timeleft: ужины незнакомцев по средам в 278 городах 61 страны, больше 15 тысяч человек за вечер.",
+  "sig_en": "Timeleft: Wednesday dinners with strangers in 278 cities across 61 countries, over 15,000 people a night.",
+  "src": "https://www.connexionfrance.com/news/how-to-meet-new-people-over-dinner-in-france-we-try-out-new-app/682998",
+  "date": "2026"
+ },
+ "V3-ЦЗ": {
+  "ru": "Хочу чувствовать, что без меня не обойтись: помогаю вести встречи местного сообщества.",
+  "en": "I want to feel needed: I help run the meetings of my local community.",
+  "sig_ru": "Meetup, 2026: 75% организаторов групп начинали как обычные участники.",
+  "sig_en": "Meetup, 2026: 75% of group organisers started out as members.",
+  "src": "https://www.meetup.com/blog/2026-meetup-roadmap/",
+  "date": "2026"
+ },
+ "V3-ДС": {
+  "ru": "Для каждого интереса у меня своя компания: бег, книги, походы, и везде разные люди.",
+  "en": "I have a different crowd for each interest: running, books, hiking, and different people in each.",
+  "sig_ru": "Strava: больше 1 млн клубов, участников беговых клубов за 2025 год стало на 59% больше.",
+  "sig_en": "Strava: over 1 million clubs, and run-club membership grew by more than 59% in 2025.",
+  "src": "https://9to5mac.com/2026/07/09/strava-gets-an-events-tab-with-upcoming-races-group-runs-more/",
+  "date": "2026-07"
+ },
+ "V3-ДЗ": {
+  "ru": "Мне хватает немногих, но близких: с двумя друзьями говорим часами, без телефонов.",
+  "en": "A few close people are enough for me: with two friends we talk for hours, phones away.",
+  "sig_ru": "AARP, 2026: 95% взрослых считают друзей необходимыми для счастья, но близких друзей становится меньше.",
+  "sig_en": "AARP, 2026: 95% of adults say friends are essential to a happy life, yet people report fewer close friends.",
+  "src": "https://www.aarp.org/pri/topics/social-leisure/relationships/friendship-study-2025/",
+  "date": "2026-03"
+ },
+ "V2-ЦС": {
+  "ru": "Красивое и личное делать легко: описываю словами, а сервис собирает фотокнигу для близких.",
+  "en": "Making something beautiful and personal is easy: I describe it in words, and a service builds a photo book for my loved ones.",
+  "sig_ru": "Mixbook, 2026: режим AI Story Mode собирает фотокнигу по описанию обычными словами.",
+  "sig_en": "Mixbook, 2026: AI Story Mode designs a photo book from a plain-language description.",
+  "src": "https://www.photoworkout.com/?p=19354",
+  "date": "2026-06"
+ },
+ "V2-ЦЗ": {
+  "ru": "Пою в хоре с педагогом: годы учёбы, общая музыка и выступления для своего района.",
+  "en": "I sing in a choir with a teacher: years of learning, shared music and concerts for my neighbourhood.",
+  "sig_ru": "The People's Orchestra, 2026: опрос участников хоров показывает рост настроения, уверенности и связей с людьми.",
+  "sig_en": "The People's Orchestra, 2026: a survey of choir members shows gains in mood, confidence and connection.",
+  "src": "https://thepeoplesorchestra.com/?p=13911",
+  "date": "2026"
+ },
+ "V2-ДС": {
+  "ru": "Идея моя, а картинки и музыку к ней помогает сделать ИИ: теперь не нужно уметь рисовать, чтобы рассказать свою историю.",
+  "en": "The idea is mine, and AI helps with the pictures and music: you no longer need to draw to tell your story.",
+  "sig_ru": "Suno, генерация музыки ИИ: больше 100 млн пользователей и 2 млн платных подписчиков.",
+  "sig_en": "Suno, AI music generation: over 100M users and 2M paid subscribers.",
+  "src": "https://hollywoodreporter.com/music/music-industry-news/suno-ai-music-reaches-two-million-subscribers-1236516241",
+  "date": "2026-02"
+ },
+ "V2-ДЗ": {
+  "ru": "Пишу для себя и для тех, кому откликается, а не ради лайков: мои читатели сами подписываются на рассылку.",
+  "en": "I write for myself and those it resonates with, not for likes: my readers subscribe to the newsletter themselves.",
+  "sig_ru": "Substack: больше 5 млн платных подписок, больше 50 авторов зарабатывают свыше $1 млн в год.",
+  "sig_en": "Substack: over 5M paid subscriptions, and 50+ writers earn more than $1M a year.",
+  "src": "https://www.pulse.bot/media/news/substack-uk-paid-subscriptions-top-500000-signaling-creator-economy-surge-de83ac48-7342-433e-b739-230926a682b0/",
+  "date": "2026-05"
+ },
+ "V4-ЦС": {
+  "ru": "Большие перемены делают организации, а моя часть — регулярно помогать деньгами и смотреть по отчётам, куда они пошли.",
+  "en": "Big change is made by organisations; my part is to give regularly and check the reports to see where it went.",
+  "sig_ru": "Neon One, 2026: регулярные доноры остаются с организацией в среднем почти 8 лет, разовые 1,7 года.",
+  "sig_en": "Neon One, 2026: recurring donors stay engaged for almost 8 years on average, one-off donors 1.7 years.",
+  "src": "https://neonone.com/?p=36168",
+  "date": "2026-06"
+ },
+ "V4-ЦЗ": {
+  "ru": "В одиночку мало что изменишь, а вместе можно многое: раз в месяц выхожу волонтёром в общий проект.",
+  "en": "Alone you change little, together you can do a lot: once a month I volunteer for a shared project.",
+  "sig_ru": "Англия, 2025/26: ежемесячное формальное волонтёрство выросло до 18% третий год подряд.",
+  "sig_en": "England, 2025/26: monthly formal volunteering rose to 18%, the third year of growth.",
+  "src": "https://www.civilsociety.co.uk/news/volunteering-rates-increase-but-still-failing-to-meet-pre-pandemic-levels.html",
+  "date": "2026-08"
+ },
+ "V4-ДС": {
+  "ru": "Помогаю там, где виден результат: выбираю проекты по данным и меняю их, если эффекта нет.",
+  "en": "I help where results show: I pick projects by the evidence and switch if there's no effect.",
+  "sig_ru": "GiveDirectly, 2026: через 12 лет после прямой денежной помощи люди зарабатывают и сберегают больше, это проверено исследованиями.",
+  "sig_en": "GiveDirectly, 2026: up to 12 years after cash transfers, recipients earn and save more, confirmed by studies.",
+  "src": "https://www.givedirectly.org/long-term-cash-research",
+  "date": "2026-06"
+ },
+ "V4-ДЗ": {
+  "ru": "Перемены можно начать с окна своей квартиры: с соседями считаем машины датчиком и добиваемся безопасного перехода.",
+  "en": "Change can start at your own window: with neighbours we count cars with a sensor and win a safe crossing.",
+  "sig_ru": "Лёвен (Бельгия): датчики Telraam показали, что 47,85% машин превышали 30 км/ч; после мер жителей нарушений стало 8%.",
+  "sig_en": "Leuven, Belgium: Telraam sensors showed 47.85% of cars broke the 30 km/h limit; after residents' action, 8%.",
+  "src": "https://polisnetwork.eu/?p=126974",
+  "date": "2025"
+ }
+}
