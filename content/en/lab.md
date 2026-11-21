@@ -15,7 +15,7 @@ date: 2026-11-19
 <div class="about-contact">
 <p>A lab for people ready to look at their life as a system: break it down into eight spheres, see what affects what, and bring order. Order is not the goal here but the ground. Once you see how everything is connected, there is room for imagination and creativity.</p>
 <p><b>Starts 3 January 2027 · online · 10 places</b></p>
-<p><a class="polotno-btn" href="https://futuredecoder.ru/lab">Book a place</a></p>
+<p><a class="polotno-btn" href="https://lab.futuredecoder.org/en/">More about the lab</a> <a class="polotno-btn" href="https://t.me/Olya_v_trende">Book a place</a></p>
 </div>
 
 ## The path: down to a step and back up to the system
@@ -67,8 +67,8 @@ No payment is needed now: leave an application and the place is yours.
 ## Application
 
 <div class="about-contact">
-<p>The application form is on futuredecoder.ru (in Russian).</p>
-<p><a class="polotno-btn" href="https://futuredecoder.ru/lab">Apply</a></p>
+<p>Write to Olga on Telegram to book a place.</p>
+<p><a class="polotno-btn" href="https://t.me/Olya_v_trende">Apply via Telegram</a></p>
 </div>
 
 Other formats are on the [[en/work-with-me|Work With Me]] page.
