@@ -1,7 +1,7 @@
 ---
 title: "The Architecture of a Person lab"
 seoTitle: "The Architecture of a Person lab — look at your life as a system"
-description: "Olga Eremina's online lab built on the Future Decoder method: eight spheres of life, four worlds, contradictions, levers and a first step. Starts 3 January 2027, 10 places."
+description: "Olga Eremina's online lab built on the Future Decoder method: eight spheres of life, four worlds, contradictions, levers and a first step. Starts 10 January 2027, 10 places."
 lang: en
 translations:
   ru: /laboratoriya
@@ -14,7 +14,7 @@ date: 2026-11-19
 
 <div class="about-contact">
 <p>A lab for people ready to look at their life as a system: break it down into eight spheres, see what affects what, and bring order. Order is not the goal here but the ground. Once you see how everything is connected, there is room for imagination and creativity.</p>
-<p><b>Starts 3 January 2027 · online · 10 places</b></p>
+<p><b>Starts 10 January 2027 · online · 10 places</b></p>
 <p><a class="polotno-btn" href="https://lab.futuredecoder.org/en/">More about the lab</a> <a class="polotno-btn" href="https://t.me/Olya_v_trende">Book a place</a></p>
 </div>
 
@@ -26,7 +26,7 @@ We go down from big pictures of the future to one day and one step, and then cli
 
 ## How it works
 
-- Five online meetings of 2.5 hours, once a week, from 3 January. Six weeks in total.
+- Five online meetings of 2 hours, on Sundays at 10:00, from 10 January. Six weeks in total.
 - Before the last meeting there is a two-week pause: you try the first step in real life.
 - Between meetings you work on your own in the [online lab](/static/opros/en/) — it is free and you can try it in advance.
 - Up to 10 people per cohort. We work through everything on a fictional hero; personal maps are never discussed in public.
