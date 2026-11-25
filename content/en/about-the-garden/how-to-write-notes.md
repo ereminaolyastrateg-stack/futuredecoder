@@ -140,6 +140,41 @@ The Russian version uses the same groups in Russian: `тип/`, `сценари�
 - To external sites: a normal link `[text](https://...)`.
 - Backlinks appear by themselves: the page you linked to shows on the right who links to it.
 
+## Macrotrend card: how we split it into four worlds
+
+The source is a card from the base (Obsidian, “Macrotrend: …”): definition, anchor trends by world, scenario reading, timeline, report theses. In the garden it becomes **five notes**: an overview `<name>.md` and one per world — `<name>-cs`, `-ce`, `-ds`, `-de`. The Russian version is the same five in `materialy/makrotrendy/`.
+
+**1. Find the axis.** Before writing, phrase one question the worlds answer differently: “whom does the master listen to”, “who decides what things are worth”, “who holds the rules of a community”, “who writes the image of the future”. The axis heads the table in the overview and runs through every world card.
+
+**2. Overview note.**
+- In italics: the macrotrend in two or three sentences.
+- “Four worlds”: a table along the axis — world, answer to the axis question, what it gives, what it costs.
+- “Where we are now”: where the idea comes from; what futures institutes changed (“was → now” pairs with edition and year); figures with sources; the question the scenarios grow from.
+- “More”: related megatrends, life domains, industries, keywords, anchor trends from the base.
+
+**3. World card**, in this order:
+1. In italics: what the macrotrend looks like in this world (linking the overview and the world card).
+2. “2035. <scene>” — one day with people, no judgement: what they do, what pleases them, where they stumble.
+3. “Where we come from” — two or three sentences of history and a link to the overview.
+4. “What the world becomes” — this world’s answer to the axis question.
+5. “What it gives and what it costs”.
+6. “Signals” — three to five signals from the garden catalogues, one sentence each on what it means for the world.
+7. “What we found in the games” or “What came up in the lecture” — a ladder of theses, each with a quote checked against the transcript, no participants’ names; an `<!-- … -->` comment says where the quote is from.
+8. “What you can do now” — three to five steps.
+9. “<Macrotrend> in other worlds” — one line along the axis per world.
+
+**4. How we add to the source card.**
+- “Was → now” pairs from futures institutes come from the summary table (sheet “82 macrotrends”, columns for CIFS, Dubai Future Foundation, FTSG, IFTF, VML, RAND).
+- Signals come from the garden catalogues with the same macrotrend; new signals first pass the monthly selection.
+- Theses and quotes come from games and lectures.
+- The source’s anchor trends by world support “What the world becomes”; their names go to “More”.
+
+**5. What we leave out:** paths to base files, consolidation dates, the “confirmed” status, service notes, politics and names.
+
+**6. We update the world cards too.** After a lecture or a large signal collection, the world card (`four-worlds/…`) gets a subsection under “How our reading is changing”: “<month year>: what … showed” — three or four theses, each linked to signals. “Questions of this world” gets one new question, and “The … world in the garden” gets links to the new macrotrend cards. No politics, no names.
+
+**7. World card front matter:** `macrotrend_id`, `mt_name`, `scenario`, `essence` (the axis answer in one phrase), `scene` (scene title), `themes`, `related_signals` — the macrotrend catalogue is built from these. After publishing, link the new cards from the macrotrend index and from the “World … in the garden” block of the world cards.
+
 ## Large sets go into a filterable table
 
 If there are more than a dozen notes of one kind — signals, books and films, macrotrend cards, life-sphere options — we don't publish them as a long list. The section page gathers them in a **catalog table** with search and filters: by world, sphere, theme, macrotrend. Clicking a label in the table switches the filter on. In the side menu such a folder is collapsed so navigation stays short.

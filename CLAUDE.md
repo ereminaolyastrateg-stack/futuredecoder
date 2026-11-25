@@ -15,3 +15,4 @@
 - Сигналы: `scripts/signals/split.py` (октябрь, образование), `scripts/signals/build_2026.py` + `signals_2026_11.py` (ноябрь). Промпт для подборки месяца — `scripts/signals/PROMPT.md`.
 - Сферы жизни: `scripts/spheres/` (из «Future_Decoder_v12_132», README там же).
 - Полотно: `scripts/polotno/`.
+- Карточки макротрендов: как разбивать карточку из базы на четыре мира — раздел «Карточка макротренда» в `kak-pisat-zametki.md`; сводная таблица институтов × 82 — «Future_Decoder_ИТОГ_2026_v10.xlsx», лист «82 макротренда».

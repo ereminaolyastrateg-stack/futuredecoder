@@ -19,7 +19,7 @@ aliases:
   - "DS"
   - "Decentralized + Synthetic"
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-25
 ---
 
 *Independence through an appropriated method, tool and reproducibility. The world is a space of possibilities and tools that a person masters and assembles for their own task. Decisions and control over the method stay with them, and a tuned system helps repeat the result and expand their capabilities.*
@@ -85,12 +85,20 @@ In practice this is open source, self-hosting, portable data and digital identit
 
 DS used to be recognised in our map by freelancing and the gig economy. Now the focus shifts to **autonomy of intelligence**: who asks the question, owns the accumulated knowledge, chooses the tool and checks the answer. We look at the form of employment together with the real ability to continue working and change the method.
 
+### November 2026: what the lecture "The Future Has Changed Hands" showed
+
+- **Autonomy is deflating.** The DS world is a litmus test for change: when it is full of free agents, change is near. Now it is shrinking: freelance marketplaces have fewer clients, AI takes simple tasks, and independents split into a top and a bottom. [[en/materials/signals/2026-nov-dec/sig-2026-008|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-006|Signal]]
+- **Autonomy moves into the head.** Freedom used to come from place, time and resources; now it is your own attention, tool, handwriting and the right to switch off. Open models that can be downloaded and fine-tuned give you your own AI without someone else's cloud. [[en/materials/signals/2026-nov-dec/sig-2026-004|Signal]]
+- **The intermediary changes its role.** The layer between person and provider does not vanish; it is now responsible not for matching and delivery but for trust and quality. [[en/materials/signals/2026-nov-dec/sig-2026-045|Signal]]
+- **A loner cannot carry the physical world.** Energy, land and infrastructure are beyond one person, so some people leave DS for other worlds — towards systems or towards their own circle.
+
 ## Questions of this world
 
 1. Which knowledge, data, means and rights stay with the person themselves?
 2. How does a found method become a mastered, repeatable tool?
 3. What allows a person to act without their former provider or institution?
 4. Where does independence require new maintenance, coordination and support?
+5. What in my work can only my own handwriting do, and where does my attention go?
 
 ## What the games added
 
@@ -98,8 +106,9 @@ In the games people separated the efficiency of AI help from independence from i
 
 ## The DS world in the garden
 
-- Macrotrends: [[en/materials/macrotrends/human-mastery-ds|Human Mastery — DS]], [[en/materials/macrotrends/education-knowledge-literacy-ds|Education — DS]].
+- Macrotrends: [[en/materials/macrotrends/human-mastery-ds|Human Mastery — DS]], [[en/materials/macrotrends/education-knowledge-literacy-ds|Education — DS]], [[en/materials/macrotrends/transformational-economy-ds|Transformational Economy — DS]], [[en/materials/macrotrends/digital-communities-ds|Digital Communities — DS]], [[en/materials/macrotrends/culture-as-source-of-future-ds|Culture as a Source of the Future — DS]].
 - Signals: [[en/materials/signals/education-signals/sig-edu-021|Exercises in Learning]], [[en/materials/signals/education-signals/sig-edu-027|College Unbound]] and all the others — under the tag #scenario/DS or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
+- November 2026 signals: filter by world DS in the [[en/materials/signals/2026-nov-dec/index|"Signals: big trends, November 2026" catalog]]; trends in [[en/materials/trends/index|Trends]]; what institutes changed in [[en/materials/macrotrends/futures-institutes-2026|"Futures institutes: what changed in 2026"]].
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-ds|Health]] · [[en/four-worlds/life-spheres/finance-ds|Finance]] · [[en/four-worlds/life-spheres/work-ds|Work]] · [[en/four-worlds/life-spheres/education-ds|Education]] · [[en/four-worlds/life-spheres/family-ds|Family]] · [[en/four-worlds/life-spheres/place-ds|Place]] · [[en/four-worlds/life-spheres/everyday-life-ds|Everyday life]] · [[en/four-worlds/life-spheres/meaning-ds|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

@@ -19,7 +19,7 @@ aliases:
   - "CS"
   - "Centralized + Synthetic"
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-25
 ---
 
 *Order through system, standard and reproducibility. The world can be described, divided into operations, measured and organised, and the centre holds the rules. A person enters a ready-made order as a user or executor, and the system itself ensures quality.*
@@ -85,12 +85,20 @@ In management this logic lives in process approaches, quality standards, ISO, Si
 
 CS used to be recognised in our map mainly by large corporate platforms. Now it also includes government functions moving into ready-made digital services. Within one organisation, CS can sit alongside professional and research processes of other worlds.
 
+### November 2026: what the lecture "The Future Has Changed Hands" showed
+
+- **From hope to control.** Technology is sold less as the promise of a better world and more as a way to keep things in hand. Gartner's 2027 list swapped "AI for everyone" for sovereign technology and agent control; CIFS dropped "Economic Growth" from its megatrends. [[en/materials/signals/2026-nov-dec/sig-2026-030|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-048|Signal]]
+- **The object itself becomes the point of intervention.** AI moves off the screen into homes, cars and bodies; agents search, negotiate and pay on their own. Whoever routes demand decides what a person sees. [[en/materials/signals/2026-nov-dec/sig-2026-001|Signal]]
+- **These processes have owners.** The new elite of this world owns infrastructure, agents and platforms: funds investing tens of billions in AI, owners of streaming platforms and fandoms. [[en/materials/signals/2026-nov-dec/sig-2026-018|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-036|Signal]]
+- **The physical layer is vulnerable.** The synthetic runs into the earth: local residents block data centres, and people compete with them for water. [[en/materials/signals/2026-nov-dec/sig-2026-026|Signal]]
+
 ## Questions of this world
 
 1. Which properties of a situation can be expressed in a shared model and indicators?
 2. Who sets the categories, the standard and the acceptable exceptions?
 3. How many different cases can one method serve?
 4. Where does measurability start crowding out substance and meaning?
+5. Who decides what my agent recommends, and can I switch it off?
 
 ## What the games added
 
@@ -98,8 +106,9 @@ In the games people separated the number of actions, a mastered ability and a us
 
 ## The CS world in the garden
 
-- Macrotrends: [[en/materials/macrotrends/human-mastery-cs|Human Mastery — CS]], [[en/materials/macrotrends/education-knowledge-literacy-cs|Education — CS]].
+- Macrotrends: [[en/materials/macrotrends/human-mastery-cs|Human Mastery — CS]], [[en/materials/macrotrends/education-knowledge-literacy-cs|Education — CS]], [[en/materials/macrotrends/transformational-economy-cs|Transformational Economy — CS]], [[en/materials/macrotrends/digital-communities-cs|Digital Communities — CS]], [[en/materials/macrotrends/culture-as-source-of-future-cs|Culture as a Source of the Future — CS]].
 - Signals: [[en/materials/signals/education-signals/sig-edu-006|Mastery Transcript]], [[en/materials/signals/education-signals/sig-edu-009|An Automatic Workshop]] and all the others — under the tag #scenario/CS or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
+- November 2026 signals: filter by world CS in the [[en/materials/signals/2026-nov-dec/index|"Signals: big trends, November 2026" catalog]]; trends in [[en/materials/trends/index|Trends]]; what institutes changed in [[en/materials/macrotrends/futures-institutes-2026|"Futures institutes: what changed in 2026"]].
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-cs|Health]] · [[en/four-worlds/life-spheres/finance-cs|Finance]] · [[en/four-worlds/life-spheres/work-cs|Work]] · [[en/four-worlds/life-spheres/education-cs|Education]] · [[en/four-worlds/life-spheres/family-cs|Family]] · [[en/four-worlds/life-spheres/place-cs|Place]] · [[en/four-worlds/life-spheres/everyday-life-cs|Everyday life]] · [[en/four-worlds/life-spheres/meaning-cs|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

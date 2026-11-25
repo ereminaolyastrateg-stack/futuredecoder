@@ -19,7 +19,7 @@ aliases:
   - "DE"
   - "Decentralized + Earth"
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-25
 ---
 
 *Order and knowledge emerge through participation, interaction and revisiting experience. The world is an unfolding process in which a person can be a participant and co-author. The task, the method and the meaning of the result are refined together with people, material and environment, and the rules are often worked out by the participants themselves.*
@@ -89,12 +89,20 @@ The knowledge that arises here can be described and passed on, but it is first o
 
 DE used to be associated in our map mainly with local community and relationships between people. Now we look wider: person and group, person and environment, person and material. What matters most is how participation changes understanding, method and the next decisions.
 
+### November 2026: what the lecture "The Future Has Changed Hands" showed
+
+- **Power through micro-communities.** Large systems do not see how small communities organise: a Discord server becomes a temporary parliament, fandom skills become civic ones, a shared anime flag unites people across countries. [[en/materials/signals/2026-nov-dec/sig-2026-037|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-038|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-035|Signal]]
+- **The new elite are makers.** Idols, musicians, artists and local community leaders do not govern; they create images of the future, and makers are the first to set a new vision.
+- **The right to be imperfect.** New heroes are not flawless; they have a dark side that is accepted rather than defeated. [[en/materials/signals/2026-nov-dec/sig-2026-039|Signal]]
+- **The risk is a closed club.** Trust shrinks to one's own circle: people are wary of those with different values, and collections are shown only to those close. [[en/materials/signals/2026-nov-dec/sig-2026-015|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-014|Signal]]
+
 ## Questions of this world
 
 1. Who interacts with whom or with what, and what emerges between them?
 2. How does participation change experience, understanding and the quality of the result?
 3. Who may revise the rules and the very framing of the question?
 4. How does experience become a next step, transferable knowledge and a stable shared practice?
+5. How do we stay a circle of our own without becoming a closed club?
 
 ## What the games added
 
@@ -102,8 +110,9 @@ In the games a project was described as something that becomes clear in doing it
 
 ## The DE world in the garden
 
-- Macrotrends: [[en/materials/macrotrends/human-mastery-de|Human Mastery — DE]], [[en/materials/macrotrends/education-knowledge-literacy-de|Education — DE]].
+- Macrotrends: [[en/materials/macrotrends/human-mastery-de|Human Mastery — DE]], [[en/materials/macrotrends/education-knowledge-literacy-de|Education — DE]], [[en/materials/macrotrends/transformational-economy-de|Transformational Economy — DE]], [[en/materials/macrotrends/digital-communities-de|Digital Communities — DE]], [[en/materials/macrotrends/culture-as-source-of-future-de|Culture as a Source of the Future — DE]].
 - Signals: [[en/materials/signals/education-signals/sig-edu-038|Figuring Things Out Together]], [[en/materials/signals/education-signals/sig-edu-029|42]] and all the others — under the tag #scenario/DE or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
+- November 2026 signals: filter by world DE in the [[en/materials/signals/2026-nov-dec/index|"Signals: big trends, November 2026" catalog]]; trends in [[en/materials/trends/index|Trends]]; what institutes changed in [[en/materials/macrotrends/futures-institutes-2026|"Futures institutes: what changed in 2026"]].
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-de|Health]] · [[en/four-worlds/life-spheres/finance-de|Finance]] · [[en/four-worlds/life-spheres/work-de|Work]] · [[en/four-worlds/life-spheres/education-de|Education]] · [[en/four-worlds/life-spheres/family-de|Family]] · [[en/four-worlds/life-spheres/place-de|Place]] · [[en/four-worlds/life-spheres/everyday-life-de|Everyday life]] · [[en/four-worlds/life-spheres/meaning-de|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 

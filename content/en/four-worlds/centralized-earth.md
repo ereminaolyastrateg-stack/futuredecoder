@@ -19,7 +19,7 @@ aliases:
   - "CE"
   - "Centralized + Earth"
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-25
 ---
 
 *Order through shared meaning, authority and living mastery. The centre sets a goal, a canon or a professional frame, and quality comes from people's participation: understanding the situation, mastering the craft and embodying the shared meaning in concrete work.*
@@ -85,12 +85,20 @@ In methodology this is mentoring, professional schools, working with a canon and
 
 CE used to be associated in our map primarily with the state. Now we see more clearly companies, labs and professional networks that gather people around a shared vector and long development of mastery. Government functions can combine CE with CS.
 
+### November 2026: what the lecture "The Future Has Changed Hands" showed
+
+- **The future is written through culture.** Large systems talk more and more about values — through film, science fiction, fairy tales and education. Researchers derive future competencies from science fiction; citizens are invited to suggest ideas for long-term plans. [[en/materials/signals/2026-nov-dec/sig-2026-043|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-032|Signal]]
+- **The physical world is the main constraint.** Energy, land, fertiliser and raw materials once again decide what is possible. Countries keep resources at home, and only large systems can invest in the physical world. [[en/materials/signals/2026-nov-dec/sig-2026-021|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-020|Signal]] · [[en/materials/signals/2026-nov-dec/sig-2026-049|Signal]]
+- **People's expectations are the system's strength.** The centre's promises work only if people believe them; the 2026 Nobel prize is about how ordinary people's expectations stabilise the economy. [[en/materials/signals/2026-nov-dec/sig-2026-044|Signal]]
+- **Participation within a frame.** The system gathers ideas from below, but within a frame set from above. The open question is where participation is real and where it is decorative.
+
 ## Questions of this world
 
 1. What shared meaning, goal or canon makes our action meaningful?
 2. Who recognises quality and the right to pass on knowledge?
 3. Which part of mastery is passed on only through participation and relationships?
 4. When does loyalty to a school help the cause, and when does it defend dogma?
+5. Who offers the way to reach shared values, and can one decline it?
 
 ## What the games added
 
@@ -98,8 +106,9 @@ In the games people distinguished an institution's reputation, demonstrated skil
 
 ## The CE world in the garden
 
-- Macrotrends: [[en/materials/macrotrends/human-mastery-ce|Human Mastery — CE]], [[en/materials/macrotrends/education-knowledge-literacy-ce|Education — CE]].
+- Macrotrends: [[en/materials/macrotrends/human-mastery-ce|Human Mastery — CE]], [[en/materials/macrotrends/education-knowledge-literacy-ce|Education — CE]], [[en/materials/macrotrends/transformational-economy-ce|Transformational Economy — CE]], [[en/materials/macrotrends/digital-communities-ce|Digital Communities — CE]], [[en/materials/macrotrends/culture-as-source-of-future-ce|Culture as a Source of the Future — CE]].
 - Signals: [[en/materials/signals/education-signals/sig-edu-010|Fab Academy]], [[en/materials/signals/education-signals/sig-edu-016|Solar Mamas]] and all the others — under the tag #scenario/CE or in the [[en/materials/signals/education-signals/index|catalog]] filtered by world.
+- November 2026 signals: filter by world CE in the [[en/materials/signals/2026-nov-dec/index|"Signals: big trends, November 2026" catalog]]; trends in [[en/materials/trends/index|Trends]]; what institutes changed in [[en/materials/macrotrends/futures-institutes-2026|"Futures institutes: what changed in 2026"]].
 
 **In the eight life spheres:** [[en/four-worlds/life-spheres/health-ce|Health]] · [[en/four-worlds/life-spheres/finance-ce|Finance]] · [[en/four-worlds/life-spheres/work-ce|Work]] · [[en/four-worlds/life-spheres/education-ce|Education]] · [[en/four-worlds/life-spheres/family-ce|Family]] · [[en/four-worlds/life-spheres/place-ce|Place]] · [[en/four-worlds/life-spheres/everyday-life-ce|Everyday life]] · [[en/four-worlds/life-spheres/meaning-ce|Meaning]]. All spheres are in the [[en/four-worlds/life-spheres/index|Life Spheres]] section.
 
