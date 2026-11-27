@@ -179,7 +179,7 @@ details.opt{margin:8px 0}details.opt>summary{cursor:pointer;font-size:13px;color
 @media(max-width:700px){.ways{grid-template-columns:1fr}}
 .loopq{margin:10px 0;padding:8px 12px;border:1px dashed #e8590c;border-radius:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px}
 .wk{margin-top:6px}
-.tplbox summary{cursor:pointer}.tplbox svg{margin-top:6px}
+.tplbox summary{cursor:pointer}.theory summary{cursor:pointer}.theory .brain{margin-top:10px}.introb{font-size:17px;line-height:1.5}.tplbox svg{margin-top:6px}
 .both{margin:10px 0;padding:10px 12px;border:1px solid #d0bfff;border-radius:12px;background:#f8f6ff}
 .morelev{margin:16px 0;padding:10px 12px;border:1px dashed #adb5bd;border-radius:12px}.morelev>summary{cursor:pointer}
 details.cladd{margin:8px 0}.tg.small{font-size:12.5px;padding:4px 10px}
@@ -334,6 +334,7 @@ ru:{
     moreLevH:"Ещё способы найти рычаг", moreLevP:"Примеры с игр, то, что у вас уже получается, и своя идея.", clAddH:"Добавить свою тучу",
     worldBand:"Сверху на вашу систему влияет внешний мир — тренды и макротренды. Этот слой мы собрали за вас: варианты из четырёх миров построены на них.", yearSum:"Карта года по кварталам",
     finSeeH:"Посмотрите на всю картину", finSeeQ:"Что вы теперь видите, чего не видели в начале?", finSeePh:"…", expMoreH:"Ещё вопросы — по желанию", artDayB:"Ваш артефакт из Дня Б:",
+    theoryH:"Теория лаборатории: как мозг меняет картину будущего", nowSpH:"Что в этих сферах у вас есть сейчас?", nowEgPos:"Что уже работает — нажмите, чтобы добавить:", nowEgNeg:"Что не так:",
     stepNeed:"Чтобы открыть этот шаг,", stepMiss:["выберите сферы на шаге 1","отметьте хотя бы одно «хочу»","выберите ценность в Дне Б","выберите хотя бы один рычаг","проставьте связи у рычага в Системе"],
     wayH:(v)=>`Как ещё получить «${v}»?`, wayP:"Каждый ответ — уже рычаг. Пишите действием: что сделаете. Хватит и одного.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Отдать другим","Что можно поручить сервису, специалисту, работодателю? Напишите, что и кому.","поручу …"],["wo","Без этого","Как получить это совсем без того, что кажется обязательным?","получу это без …, если …"],["small","Маленький шаг","Какое самое малое действие уже даёт немного этого?","начну с …"],["ppl","Через людей","Кто может дать часть этого? Что попросите или предложите взамен?","попрошу … / предложу …"]],
@@ -689,6 +690,14 @@ ru:{
      semya:["мало времени с близкими","одиноко","ссоримся из-за денег и быта","всё держится на мне"],
      sreda:["всё далеко, город неудобный","не знаю соседей","хочу уехать, но не на что","от меня ничего не зависит"],
      smysl:["живу на автопилоте","не понимаю, зачем всё это","нет времени на своё","некогда остановиться и подумать"]},
+   realPos:{finansy:["есть подушка на несколько месяцев","веду бюджет","есть второй источник дохода","откладываю каждый месяц","нет долгов"],
+     byt:["своё жильё","дома уютно","есть место, где побыть одному","быт поделён в семье","рядом всё нужное"],
+     rabota:["работа нравится","хорошая команда","есть куда расти","гибкий график или удалёнка","делаю то, что получается лучше всего"],
+     zdorovye:["регулярно двигаюсь","высыпаюсь","хожу на чекапы","нравится, как питаюсь"],
+     obrazovanie:["учусь чему-то новому","читаю регулярно","знания помогают в работе","есть с кем обсудить идеи"],
+     semya:["есть близкие, на кого можно опереться","проводим время вместе","есть друзья","дома тепло"],
+     sreda:["люблю свой район","есть сообщество по интересам","город удобный","участвую в жизни места"],
+     smysl:["понимаю, ради чего живу","есть дело, которое зажигает","есть время на себя","помогаю другим"]},
    mapPdf:"Скачать карту в PDF",
    wStart:"Выберите одну дорогу, с которой начнёте.", startOn:"Начну с этого", startedOn:"Начинаю с этого",
    kwA:"Точка А своими словами (необязательно)", kwAph:"например: съёмная квартира, одна зарплата, нет запаса",
@@ -806,6 +815,7 @@ en:{
     moreLevH:"More ways to find a lever", moreLevP:"Examples from the games, what already works for you, and your own idea.", clAddH:"Add your own cloud",
     worldBand:"From above, the outside world acts on your system — trends and macrotrends. We built this layer for you: the options from the four worlds rest on them.", yearSum:"Year map by quarters",
     finSeeH:"Look at the whole picture", finSeeQ:"What do you see now that you didn't see at the start?", finSeePh:"…", expMoreH:"More questions — optional", artDayB:"Your artefact from Day B:",
+    theoryH:"The theory behind the lab: how the brain changes its picture of the future", nowSpH:"What do you have in these spheres right now?", nowEgPos:"What already works — click to add:", nowEgNeg:"What isn’t working:",
     stepNeed:"To open this step,", stepMiss:["choose spheres in step 1","mark at least one want","choose a value in Day B","choose at least one lever","link a lever in the System step"],
     wayH:(v)=>`How else can you get «${v}»?`, wayP:"Each answer is already a lever. Write it as an action: what you will do. One is enough.", wayLv:{out:"rule",wo:"act",small:"act",ppl:"rule"},
     ways:[["out","Hand it to others","What could a service, a specialist, an employer take on? Write what and who.","I'll hand … to …"],["wo","Without it","How could you get this without what seems essential?","I'll get it without … if …"],["small","A small step","What is the smallest action that already gives a little of it?","I'll start with …"],["ppl","Through people","Who could give part of it? What will you ask or offer in return?","I'll ask … / I'll offer …"]],
@@ -1160,6 +1170,14 @@ en:{
      semya:["little time with loved ones","lonely","we argue about money and chores","everything rests on me"],
      sreda:["everything is far, the city is awkward","don't know my neighbours","want to move but can't afford it","nothing depends on me"],
      smysl:["living on autopilot","don't see what it's all for","no time for my own things","no time to stop and think"]},
+   realPos:{finansy:["a reserve for a few months","I keep a budget","a second source of income","I save every month","no debts"],
+     byt:["my own home","home feels cosy","a place to be alone","chores are shared","everything I need is nearby"],
+     rabota:["I like my job","a good team","room to grow","flexible hours or remote","I do what I’m best at"],
+     zdorovye:["I move regularly","I sleep enough","I do check-ups","I like how I eat"],
+     obrazovanie:["I’m learning something new","I read regularly","my knowledge helps at work","someone to discuss ideas with"],
+     semya:["people I can lean on","we spend time together","I have friends","home feels warm"],
+     sreda:["I love my neighbourhood","a community around my interests","a convenient city","I take part in local life"],
+     smysl:["I know what I live for","something that lights me up","time for myself","I help others"]},
    mapPdf:"Download the map as PDF",
    wStart:"Choose one road to start with.", startOn:"I'll start here", startedOn:"Starting here",
    kwA:"Point A in your own words (optional)", kwAph:"e.g. a rented flat, one salary, no reserve",
@@ -2579,8 +2597,9 @@ function rLab(){
   const tagsFor=id=>{const sel=Lb.vals[id]||[];return `<div class="wtags">${reqW(`<p class="muted" style="margin:6px 0 4px;font-size:13px">${Z.forWhat}</p><div class="tags">${Object.keys(T.vals).map(k=>`<button class="tg" data-id="${esc(id)}" data-v="${k}" aria-pressed="${sel.includes(k)}" ${!sel.includes(k)&&sel.length>=3?"disabled":""}>${T.vals[k]}</button>`).join("")}</div><input type="text" data-own="${esc(id)}" value="${esc(Lb.vown[id]||"")}" placeholder="${T.lb.ownPh}">`,sel.length||(Lb.vown[id]||"").trim())}<div class="wk noprint"><button class="tg small" data-wk="${esc(id)}" data-k="${Lb.wkind[id]==="goal"?"way":"goal"}" aria-pressed="${Lb.wkind[id]==="goal"}" title="${esc(Q.wkGoalHint)}">${Q.wkGoal}</button></div></div>`};
   let body="";
   if(st===0){
-    const row=sp=>`<div class="item" style="border-left-color:var(--ink)"><p class="t">${esc(nm(sp))}</p>${fld("now."+sp.id,Q.nowPhSp[sp.id]||Q.nowPhSp._,3)}${(T.lb.real[sp.id]||[]).length?`<p class="muted" style="margin:6px 0 4px;font-size:13px">${Y.nowEg}</p><div class="tags noprint">${T.lb.real[sp.id].map(t=>`<button class="tg" data-nowadd="${sp.id}" data-t="${esc(t)}">+ ${esc(t)}</button>`).join("")}</div>`:""}</div>`;
-    body=`<p>${T.lb.intro}</p>${brainHTML(false)}${ex}<h3>${Y.sitQ}</h3>${tagChips("sit",Y.sit,true)}<h2 style="margin-top:22px">${Q.steps[0]}</h2><details class="item tplbox" ${Lb.sps.length?"":"open"}><summary><b>${Q.tplH}</b></summary><p class="muted" style="margin:6px 0 8px;font-size:14px">${esc(Q.tplP)}</p>${sysTplSVG()}<button class="btn ghost noprint" id="tplprint">${Q.tplBtn}</button></details><div class="sppick"><h3 style="margin-top:0">${Q.spPickH}</h3><p class="muted" style="margin:0 0 8px;font-size:14px">${esc(Q.spPickP)}</p>${reqW(`<span class="tags">${SP.map(sp=>{const on=Lb.sps.includes(sp.id);return `<button class="tg big" data-sp="${sp.id}" aria-pressed="${on}" ${!on&&Lb.sps.length>=2?"disabled":""}>${esc(nm(sp))}</button>`}).join("")}</span>`,Lb.sps.length>0)}</div>`+(Lb.sps.length?`<p class="muted" style="font-size:14px">${esc(Q.nowSemi2)}</p><p class="note">${esc(Q.nowGood)}</p>`+SP.filter(sp=>Lb.sps.includes(sp.id)).map(row).join(""):`<p class="note">${esc(Q.spPickNone)}</p>`)+nav(Lb.sps.length>0);
+    const egRow=(lab,arr,id)=>(arr||[]).length?`<p class="muted" style="margin:8px 0 4px;font-size:13px">${lab}</p><div class="tags noprint">${arr.map(t=>`<button class="tg" data-nowadd="${id}" data-t="${esc(t)}">+ ${esc(t)}</button>`).join("")}</div>`:"";
+    const row=sp=>`<div class="item" style="border-left-color:var(--ink)"><p class="t">${esc(nm(sp))}</p>${fld("now."+sp.id,Q.nowPhSp[sp.id]||Q.nowPhSp._,3)}${egRow(Q.nowEgPos,(T.lb.realPos||{})[sp.id],sp.id)}${egRow(Q.nowEgNeg,T.lb.real[sp.id],sp.id)}</div>`;
+    body=`<details class="item theory noprint"><summary><b>${Q.theoryH}</b></summary>${brainHTML(false)}</details><p class="introb"><b>${T.lb.intro}</b></p><details class="item tplbox" ${Lb.sps.length?"":"open"}><summary><b>${Q.tplH}</b></summary><p class="muted" style="margin:6px 0 8px;font-size:14px">${esc(Q.tplP)}</p>${sysTplSVG()}<button class="btn ghost noprint" id="tplprint">${Q.tplBtn}</button></details><h2 style="margin-top:22px">${Q.steps[0]}</h2><div class="sppick"><h3 style="margin-top:0">${Q.spPickH}</h3><p class="muted" style="margin:0 0 8px;font-size:14px">${esc(Q.spPickP)}</p>${reqW(`<span class="tags">${SP.map(sp=>{const on=Lb.sps.includes(sp.id);return `<button class="tg big" data-sp="${sp.id}" aria-pressed="${on}" ${!on&&Lb.sps.length>=2?"disabled":""}>${esc(nm(sp))}</button>`}).join("")}</span>`,Lb.sps.length>0)}</div>`+(Lb.sps.length?`<h3>${Q.nowSpH}</h3><p class="muted" style="font-size:14px">${esc(Q.nowSemi2)}</p><p class="note">${esc(Q.nowGood)}</p>`+SP.filter(sp=>Lb.sps.includes(sp.id)).map(row).join(""):`<p class="note">${esc(Q.spPickNone)}</p>`)+nav(Lb.sps.length>0);
   }else if(st===1){
     const ansB=v=>{const a=(S.ans[v.id]||{}).a||"";return `<span class="tags">${["want","keep","drop","no"].map(k=>`<button class="tg" data-ans="${v.id}" data-a="${k}" aria-pressed="${a===k}">${esc(T.buttons[k])}</button>`).join("")}</span>`};
     body=`<h2>${Q.steps[1]}</h2>${ex}<p class="muted" style="font-size:14px">${esc(Q.ownWHint)}</p>`+SP.filter(sp=>Lb.sps.includes(sp.id)).map(sp=>{const own=Lb.ownW.map((o,i)=>({o,i})).filter(({o})=>o.sp===sp.id),cnt=sp.subs.flatMap(sb=>sb.v).filter(v=>S.ans[v.id]),wn=cnt.filter(v=>S.ans[v.id].a==="want").length+own.length,open=own.length||cnt.length||((Lb.now||{})[sp.id]||"").trim();
